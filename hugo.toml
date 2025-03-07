@@ -1,0 +1,19 @@
+baseURL = 'https://rawpedia.rawtherapee.com/'
+languageCode = 'en-us'
+title = 'RawPedia'
+[markup]
+  [markup.highlight]
+    style =  'algol_nu'
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+  [markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = true
+    xhtml = false
+[outputs]
+  home = ['html', 'rss', 'json']
+  section = ['html']
+  page = ['html']
+  rss = ['rss']
