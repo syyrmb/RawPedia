@@ -1,0 +1,23 @@
+<x:xmpmeta>
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+         <CameraProfiles>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                 <stCamera:Author>TooWaBoo</stCamera:Author>
+                 <stCamera:PerspectiveModel rdf:parseType="Resource">
+						<stCamera:Version>2</stCamera:Version>
+							<stCamera:FocalLengthX>0.3230</stCamera:FocalLengthX>
+							<stCamera:FocalLengthY>0.3230</stCamera:FocalLengthY>
+							<stCamera:ImageXCenter>0.50</stCamera:ImageXCenter>
+							<stCamera:ImageYCenter>0.50</stCamera:ImageYCenter>
+						<stCamera:RadialDistortParam1>-0.2130</stCamera:RadialDistortParam1>
+						<stCamera:RadialDistortParam2>0.0468</stCamera:RadialDistortParam2>
+						<stCamera:RadialDistortParam3>-0.00458</stCamera:RadialDistortParam3>
+                 </stCamera:PerspectiveModel>
+               </rdf:li>
+            </rdf:Seq>
+         </CameraProfiles>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
