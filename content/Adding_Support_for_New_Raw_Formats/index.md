@@ -44,8 +44,7 @@ details, but not the input profile) in three places:
 
 Information is gathered from all three places, and values from
 `camconst.json` are prioritized above those from other sources. There is
-an exception for the [input color
-matrix](Color_Management#Input_Profile.md), in that if the raw
+an exception for the [input color matrix](color_management#input_profile), in that if the raw
 file is in the DNG format and the `Software` Exif tag (`0x0131`) does
 not begin with the string `Adobe DNG Converter` and the file does
 contain a `ColorMatrix2` tag, then the value from this tag is
@@ -179,7 +178,6 @@ needed.
 ## Input Profile
 
 An input profile is required in order to reproduce colors accurately.
-One is needed per camera model. Read the "[How to Create DCP Color
-Profiles](How_to_create_DCP_color_profiles.md)" article to learn
+One is needed per camera model. Read the "[How to Create DCP Color Profiles](how_to_create_dcp_color_profiles)" article to learn
 about the types of input profiles and how to shoot photos of a color
 target so that we may create an input profile for your camera model.

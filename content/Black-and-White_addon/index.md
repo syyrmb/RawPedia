@@ -37,15 +37,11 @@ the use of this tool:
 Nevertheless only the methods in the current tool gives you the maximum
 of possibilities for a black-and-white conversion.
 
-For a perfect gray tone, except in the case of [Color
-Toning](Color_Toning.md), as "Ajustements Lab" are treated at
-the end of the pipeline, the values of “a” and “b” in the [Lab
-Adjustments](Lab_Adjustments.md) of the "Exposure" tab are set
+For a perfect gray tone, except in the case of [Color Toning](color_toning), as "Ajustements Lab" are treated at
+the end of the pipeline, the values of “a” and “b” in the [Lab Adjustments](lab_adjustments) of the "Exposure" tab are set
 to zero.
 
-Note also the interaction with the [Color
-Toning](Color_Toning.md) tool, see [Color Toning
-section](#Color_Toning.md) below.
+Note also the interaction with the [Color Toning](color_toning) tool, see [Color Toning section](#color_toning) below.
 
 ### Desaturation
 
@@ -60,8 +56,7 @@ chromacity C=sqrt(a\*a+b\*b) that is set to 0.
 
 ### Luminance Equalizer
 
-This method use a [flat
-curve](General_Comments_About_Some_Toolbox_Widgets#The_Flat_Curve.md),
+This method use a [flat curve](general_comments_about_some_toolbox_widgets#the_flat_curve),
 that allows to modify the luminance based on hue.
 
 The algorithm uses a conversion rgb==\>LCH \[modifying L based on
@@ -140,7 +135,7 @@ It allows to choose between:
       in the conversion of Orange to red and Green (non-linear response,
       and possibly also on Blue depending on the values of the sliders).
 
-      
+
     This is the least intuitive setting but with maximal creativity
     possibilities
 4.  **Relative ROYGCBPM**:as above, but with a limit control to 100% for
@@ -200,20 +195,16 @@ the image is then in black-and-white!
 ## Color Toning
 
 - You can use [Color Toning](color_toning) with the
-  Black-and-White tool for special effects. You can also use [Color
-  Toning](Color_Toning.md) with black-and-white film
+  Black-and-White tool for special effects. You can also use [Color Toning](color_toning) with black-and-white film
   simulations, but provided the black-and-white tool is enabled.
 - The architecture (the various tools order in the processing pipeline),
   the algorithms “Color toning” and “Black-and-White” have been adapted
   to give you the maximum of the joined effects.
 - You can act simultaneously on all the possibilities in “Color toning”,
-  nevertheless, [Color Balance
-  Shadows/Midtones/Highlights](Color_Toning#Color_Balance_Shadows_/_Midtones_/_Highlights.md)
+  nevertheless, [Color Balance Shadows/Midtones/Highlights](color_toning#color_balance_shadows_/_midtones_/_highlights)
   gives the most possibilities.
-- Try switching between [Color Balance
-  Shadows/Midtones/Highlights](Color_Toning#Color_Balance_Shadows_/_Midtones_/_Highlights.md)
-  and e.g. [L\*a\*b\*
-  blending](Color_Toning#"L*a*b*_blending"_particularities.md),
+- Try switching between [Color Balance Shadows/Midtones/Highlights](color_toning#color_balance_shadows_/_midtones_/_highlights)
+  and e.g. [L\*a\*b\*  blending](color_toning#"l*a*b*_blending"_particularities),
   try the gamma sliders and the curves in the "Black-and-White" tool.
 - Of course you have to walk through a number of trials and errors
   iterations if you are looking for special effects.

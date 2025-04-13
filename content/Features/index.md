@@ -17,8 +17,7 @@ Features
 - RawTherapee uses
   [SSE](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
   optimizations for better performance on modern CPUs, and performs
-  calculations in [floating
-  point](https://en.wikipedia.org/wiki/Floating_point) precision.
+  calculations in [floating point](https://en.wikipedia.org/wiki/Floating_point) precision.
 - [Color management](https://en.wikipedia.org/wiki/Color_management)
   using the [LittleCMS](https://en.wikipedia.org/wiki/LittleCMS) color
   management system.

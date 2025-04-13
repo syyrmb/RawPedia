@@ -40,8 +40,7 @@ The RawTherapee config folder contains:
 
 - the "options" file, which contains all of your settings from
   [Preferences](preferences),
-- the "batch" folder, which stores temporary [processing
-  profiles](Sidecar_Files_-_Processing_Profiles.md) of the
+- the "batch" folder, which stores temporary [processing profiles](sidecar_files_-_processing_profiles) of the
   photos you sent to the [Queue](the_batch_queue),
 - the user-editable
   [camconst.json](adding_support_for_new_raw_formats) file,
@@ -49,8 +48,7 @@ The RawTherapee config folder contains:
   treated (this overrides the values from the system camconst.json
   file),
 - the [dynamic profile](dynamic_processing_profiles) rules,
-- and the "profiles" folder where you can save your custom [processing
-  profiles](Sidecar_Files_-_Processing_Profiles.md) to if you
+- and the "profiles" folder where you can save your custom [processing profiles](sidecar_files_-_processing_profiles) to if you
   want them to appear in RawTherapee's drop-down list.
 
 You could include this folder in your backups so that you can regain all
@@ -60,16 +58,16 @@ RawTherapee on a new system.
 Default locations for the RawTherapee config folder (look for the
 "RawTherapee\*" prefix as described above):
 
-Windows XP  
+Windows XP
 `%USERPROFILE%\Local Settings\Application Data\`
 
-Windows 7, 8 and 10  
+Windows 7, 8 and 10
 `%LOCALAPPDATA%`
 
-Linux  
+Linux
 `~/.config/`
 
-macOS  
+macOS
 `~/Library/Containers/RawTherapee/Data/Library/Application Support/RawTherapee/config/`
 
 Under the Finder's 'Go' menu click 'Go to Folder' (shortcut
@@ -96,16 +94,16 @@ thumbnails.
 Default locations for the RawTherapee cache folder (look for the
 "RawTherapee\*" prefix as described above):
 
-Windows XP  
+Windows XP
 `%USERPROFILE%\Local Settings\Application Data\`
 
-Windows 7, 8 and 10  
+Windows 7, 8 and 10
 `%LOCALAPPDATA%`
 
-Linux  
+Linux
 `~/.cache/`
 
-macOS  
+macOS
 `~/Library/Containers/RawTherapee/Data/Library/Application Support/RawTherapee/cache/`
 
 Under the Finder's 'Go' menu click 'Go to Folder' (shortcut
@@ -126,31 +124,27 @@ depends on your operating system, so just search on the internet for
 
 Some examples:
 
-Windows  
+Windows
 Variable name: `RT_SETTINGS`, value: `%LOCALAPPDATA%\rawtherapee\5.7`
 
 Variable name: `RT_CACHE`, value: `Z:\rawtherapee\cache`
 
-Linux and macOS  
+Linux and macOS
 `RT_SETTINGS=/home/bob/.config/rawtherapee/5.7`
 
 `RT_CACHE=/home/bob/junk/rtcache`
 
 ## Processing Profiles
 
-If you create your own [processing
-profiles](Sidecar_Files_-_Processing_Profiles.md), to have them
+If you create your own [processing profiles](sidecar_files_-_processing_profiles), to have them
 appear in RawTherapee's "Processing Profiles" list you should save them
 to the "profiles" folder which you will find inside the "config" folder
 as described above.
 
 ## Temporary Folder
 
-The "[Edit Current Image in External
-Editor](Edit_Current_Image_in_External_Editor.md)" tool stores
-intermediate image files in the folder specified in [Preferences \>
-External Editor \> Output
-Directory](Preferences#External_Editor.md). By default this is
+The "[Edit Current Image in External Editor](edit_current_image_in_external_editor)" tool stores
+intermediate image files in the folder specified in [Preferences \> External Editor \> Output Directory](preferences#external_editor). By default this is
 the operating system's default temp folder. RawTherapee will use a
 subdirectory with the name format `rawtherapee-`<username>, e.g.
 `rawtherapee-Lawrence37`, and permissions are set to user-only
@@ -160,13 +154,13 @@ permissions and with the name format `rawtherapee-`<username>`-xxxxxx`
 where `xxxxxx` is a random sequence of 6 characters, e.g.
 `rawtherapee-Lawrence37-abc123`.
 
-Windows  
+Windows
 The operating system's default temp folder is the one stored in the
 `$TEMP` environment variable, which is usually `%LOCALAPPDATA%/Temp`
 
 If you do not have the `$TEMP` environment variable set, `C:\` is used.
 
-Linux and macOS  
+Linux and macOS
 The operating system's default temp folder is the one stored in the
 `$TMPDIR` environment variable, which is usually `/tmp`
 

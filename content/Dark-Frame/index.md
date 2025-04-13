@@ -11,8 +11,7 @@ Dark-Frame
 
 </div>
 
-[Dark-frame
-subtraction](https://en.wikipedia.org/wiki/Dark-frame_subtraction) is a
+[Dark-frame subtraction](https://en.wikipedia.org/wiki/Dark-frame_subtraction) is a
 method of dealing with thermal, dark-current and fixed-pattern noise. It
 is not effective against high ISO noise because of its different random
 nature. In long exposure shots (more than 1 sec) the non-homogeneous
@@ -64,8 +63,7 @@ The search for the best match is two-fold:
 
 ## Bad Pixels
 
-RawTherapee can correct a list of [bad
-pixels](https://en.wikipedia.org/wiki/Defective_pixel) (pixels that are
+RawTherapee can correct a list of [bad pixels](https://en.wikipedia.org/wiki/Defective_pixel) (pixels that are
 always black or white or stuck at one color) for your particular camera
 model. To do this, you need to write a text file with the absolute raw
 coordinates of these pixels: each line specifies a pixel with
@@ -111,7 +109,7 @@ filename.
 
 Programs exist to aid in the detection of bad pixels:
 
-Dead Pixel Test  
+Dead Pixel Test
 <http://www.starzen.com/imaging/deadpixeltest.htm> (dead)
 
 Mirror:
@@ -119,11 +117,10 @@ Mirror:
 
 Mirror: <http://rawtherapee.com/mirror/deadpixeltest.zip>
 
-  
-This file is [free from
-viruses](https://www.virustotal.com/en/file/11e7a0db897fd3ad9f3e24c97c73b178cfe9f9d246e3dadfe57113318e2def06/analysis/1421736881/).
 
-Pixel Fixer  
+This file is [free from viruses](https://www.virustotal.com/en/file/11e7a0db897fd3ad9f3e24c97c73b178cfe9f9d246e3dadfe57113318e2def06/analysis/1421736881/).
+
+Pixel Fixer
 <http://www.pixelfixer.org/>
 
 Remember to fix the 4px or 7px cutting offset if your version of

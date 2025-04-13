@@ -15,10 +15,8 @@ Capture Sharpening
 The Capture Sharpening tool helps recover details lost due to in-camera
 blurring, which can be caused by
 [diffraction](https://www.cambridgeincolour.com/tutorials/diffraction-photography.htm),
-[the anti-aliasing
-filter](https://en.wikipedia.org/wiki/Anti-aliasing_filter), or other
-sources of [Gaussian-type
-blur](https://en.wikipedia.org/wiki/Gaussian_blur).
+[the anti-aliasing filter](https://en.wikipedia.org/wiki/Anti-aliasing_filter), or other
+sources of [Gaussian-type blur](https://en.wikipedia.org/wiki/Gaussian_blur).
 
 It is applied to the raw file immediately after demosaicing and modifies
 the data in linear gamma to limit halo generation. This means that it
@@ -167,5 +165,4 @@ it manually using the Iterations slider.
 To get the best out of this tool, the camera white level needs to be
 correct, especially if the image has sharp transitions between clipped
 and non-clipped highlights. If you experience problems, please refer to
-the section on *White Levels* in [Adding Support for New Raw
-Formats](Adding_Support_for_New_Raw_Formats.md).
+the section on *White Levels* in [Adding Support for New Raw Formats](adding_support_for_new_raw_formats).

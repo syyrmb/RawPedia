@@ -55,21 +55,20 @@ also guess clipped data using nearby data from unclipped channels, if
 present. Remember, this tool is used for the *reconstruction* of clipped
 highlights, while if you just want to *compress* highlights which were
 not clipped in the first place but became clipped due to the use of, for
-example, *Exposure Compensation*, then use the [Highlight
-Compression](Exposure#Highlight_Compression.md) slider. The
+example, *Exposure Compensation*, then use the [Highlight Compression](exposure#highlight_compression) slider. The
 *Auto Levels* button will automatically enable *Highlight
 Reconstruction* if necessary.
 
 Four different methods of highlight reconstruction are available:
 
 1.  Luminance Recovery
-      
+
     Recovered details will be neutral gray.
 
     "*Highlight Compression*" values under 100 are recommended in most
     cases.
 2.  Color Propagation
-      
+
     This is the most powerful recovery method. In addition to restoring
     luminosity, *Color Propagation* tries to restore color information
     by 'bleeding' the surrounding known color into the missing clipped
@@ -83,7 +82,7 @@ Four different methods of highlight reconstruction are available:
     Works well even with very high "*Highlight Compression*" values
     (under 500).
 3.  Inpaint opposed
-      
+
     This method restores clipped pixels by looking at selected pixels
     that are next to clipped regions and uses the average of all of
     these pixels to estimate the proper colour of the highlights. This
@@ -98,14 +97,14 @@ Four different methods of highlight reconstruction are available:
     White Balance - Temperature Correlation is a possible answer to get
     good settings, especially for Green (Tint).
 4.  CIELab
-      
+
     Reduces the luminance channel and tries to restore colors
     afterwards.
 
     "*Highlight Compression*" values under 100 are recommended in most
     cases.
 5.  Blend
-      
+
     Attempts to guess clipped color channels by filling in their values
     from the closest match from unclipped highlight regions nearby.
 
@@ -353,7 +352,7 @@ expanded and highlights compressed to better match human perception.
 </figure>
 
 This represents the unaltered (or linear) image, so without any tone
-curve applied. It disables the curve.  
+curve applied. It disables the curve.
 
 #### Standard
 
@@ -387,7 +386,7 @@ at the cost of some underexposure. Move it vertically up to make the
 darks lighter.
 
 Flip the diagonal line (from bottom-left and top-right to top-left and
-bottom-right) to produce a negative image.  
+bottom-right) to produce a negative image.
 A typical usage of the standard curve is to construct a so-called
 *S-curve*. Mark three points at the 'coordinates' (1,1), (2,2) and (3,3)
 respectively. Drag the point at (1,1) somewhat lower and the point at
@@ -395,7 +394,7 @@ respectively. Drag the point at (1,1) somewhat lower and the point at
 S-curve is symmetrical, i.e. if you move the point you first placed at
 1,1 by the same amount as the one you placed at 3,3 but in the opposite
 direction, then the effect will be identical to manipulating the
-*Contrast* slider.  
+*Contrast* slider.
 
 #### Flexible
 
@@ -448,7 +447,7 @@ Use the *Reset to default* buttons
 ![Image:Gtk-undo-ltr.png](Gtk-undo-ltr.png "Image:Gtk-undo-ltr.png")
 next to the sliders to reset individual sliders, use the same button at
 the top of the tone curve section to reset all four sliders and the
-control points to linear (zero).  
+control points to linear (zero).
 
 #### Control Cage
 
@@ -471,7 +470,7 @@ at least three points for that (so five in total). Holding down the
 straight line by snapping the point to the line made by the previous and
 next point (displayed in red by the *Snap to* tool). Now make a new
 point between the two most left ones and move it. As you can see, only
-the part on the left side moves, not the rest of the curve.  
+the part on the left side moves, not the rest of the curve.
 
 ### Curve Mode
 
@@ -561,8 +560,7 @@ a more neutral way of compensating for it than using the RGB-based
 saturation slider.
 
 Despite showing the R, G and B histogram (merged) in the background of
-the curve, the curve operates on luminance values, where [Relative
-Luminance](https://en.wikipedia.org/wiki/Relative_luminance) Y =
+the curve, the curve operates on luminance values, where [Relative Luminance](https://en.wikipedia.org/wiki/Relative_luminance) Y =
 R\*0.2126729 + G\*0.7151521 + B\*0.0721750 First the relative luminance
 value of a pixel is obtained, then the curve is applied to that value,
 the multiplication factor between before and after luminance is

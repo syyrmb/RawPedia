@@ -19,11 +19,9 @@ Demosaicing
 
 Most digital cameras use a sensor which contains millions of homogeneous
 light-sensitive elements, called sensels or photosites. In order to
-capture color, a [color filter
-array](https://en.wikipedia.org/wiki/Color_filter_array) (CFA) is placed
+capture color, a [color filter array](https://en.wikipedia.org/wiki/Color_filter_array) (CFA) is placed
 over the sensor, so that specific photosites register specific
-wavelengths of light. The "[Bayer
-filter](https://en.wikipedia.org/wiki/Bayer_filter)" is the most
+wavelengths of light. The "[Bayer filter](https://en.wikipedia.org/wiki/Bayer_filter)" is the most
 common - it uses a repetitive 2x2 matrix of green, blue, red and green
 patches. It is used by most camera manufacturers. There is also a filter
 arrangement called
@@ -61,8 +59,7 @@ lower-ISO images, while LMMSE or IGV are better for higher-ISO ones.
 Concerning X-Trans cameras, 3-pass (Markesteijn) is generally the best
 method.
 
-On a side note, the [Foveon X3
-sensor](https://en.wikipedia.org/wiki/Foveon_X3_sensor) does not use a
+On a side note, the [Foveon X3 sensor](https://en.wikipedia.org/wiki/Foveon_X3_sensor) does not use a
 color filter array and so images coming from camera with such a sensor
 do not need to be demosaiced. They are, however, unsupported by
 RawTherapee.
@@ -81,19 +78,19 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
 ## Demosaicing Methods
 
 - Common methods:
-  Fast  
+  Fast
   Very fast but simple and low quality demosaicing method, not
   recommended.
 
-  Mono  
+  Mono
   Only useful for users of monochrome cameras, or cameras with the color
   filter array removed.
 
-  None  
+  None
   No demosaicing is performed. This can be useful for diagnostics, but
   you would not use it for photography.
 - Bayer methods:
-  AMaZE  
+  AMaZE
   AMaZE (Aliasing Minimization and Zipper Elimination) is the default
   demosaicing method, as it yields the best results in most cases. In
   RawTherapee versions 2.4 and older VNG4 used to be the preferred
@@ -102,32 +99,31 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
   by the other methods, but with the introduction of the AMaZE method in
   RawTherapee 3.0, Olympus users might prefer that instead.
 
-  RCD  
-  RCD ([Ratio Corrected
-  Demosaicing](https://github.com/LuisSR/RCD-Demosaicing)) does an
+  RCD
+  RCD ([Ratio Corrected Demosaicing](https://github.com/LuisSR/RCD-Demosaicing)) does an
   excellent job for round edges, for example stars in astrophotography,
   while preserving almost the same level of detail as AMaZE.
 
-  DCB  
+  DCB
   [DCB](https://discuss.pixls.us/t/diagonal-interpolation-correction-artifacts-with-amaze-demosaicing/3338/45?u=morgan_hardwood)
   produces similar results to AMaZE. AMaZE can often be slightly
   superior in recovering details, while DCB can be better at avoiding
   false colors especially in images from cameras without anti-aliasing
   filters.
 
-  LMMSE and IGV  
+  LMMSE and IGV
   These are recommended when working with very noisy, high ISO images,
   in conjunction with the [Noise Reduction](noise_reduction)
   tool. They will prevent false maze patterns from appearing, and
   prevent the image from looking washed-out due to heavy noise
   reduction. IGV is also quite effective at mitigating moiré patterns.
 
-  AHD, EAHD and HPHD  
+  AHD, EAHD and HPHD
   AHD (Adaptive Homogeneity-Directed), EAHD (Horvath's AHD) and HPHD
   (Heterogeneity-Projection Hard-Decision) are old methods which are
   generally slow and inferior to the other methods.
 
-  VNG4  
+  VNG4
   If you use a medium format technical camera with near-symmetrical wide
   angle lenses such as the Schneider Digitar 28mm or 35mm it's likely
   that the image captured by your sensor will contain some crosstalk
@@ -139,11 +135,10 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
   adapter with a wide angle lens designed for film, you may also get
   crosstalk. It can then be better to use the VNG4 algorithm (Variable
   Number of Gradients), which handles this situation well, at the cost
-  of some fine detail. An alternative is to enable [green
-  equilibration](Preprocessing#Green_Equilibration.md) to
+  of some fine detail. An alternative is to enable [green  equilibration](preprocessing#green_equilibration) to
   even-out the green channel differences.
 
-  Pixel Shift  
+  Pixel Shift
   Some Pentax and Sony cameras support shooting in Pixel Shift mode,
   which shoots four frames with the sensor offset one pixel at a time in
   a circular direction, and then stores all four frames in one large raw
@@ -151,12 +146,12 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
   automatically masking-out moving objects, thereby reducing the level
   of noise and increasing the image sharpness.
 - Fujifilm X-Trans methods:
-  3-Pass  
+  3-Pass
   For Fujifilm cameras with X-Trans sensors. It runs three passes over
   the image which leads to sharper results though you can only see this
   on low ISO photos. It is slower than 1-Pass.
 
-  1-Pass  
+  1-Pass
   For Fujifilm cameras with X-Trans sensors. It is faster than the
   3-pass method but slightly inferior in quality, though this difference
   is only visible in low ISO shots. If speed is an issue, you can use
@@ -196,8 +191,7 @@ perform any demosaicing (the demosaicer selection is still enabled but
 does not do anything), and everything works normally. However, if the
 camera identifies as an RGB Bayer camera, demosaicing will be performed
 and a color matrix will be applied. To disable this, you should select
-the "Mono" demosaicing method, and select "No profile" as [input
-profile](Color_Management#Input_Profile.md) in the Color
+the "Mono" demosaicing method, and select "No profile" as [input profile](color_management#input_profile) in the Color
 Management panel.
 
 ## Interface

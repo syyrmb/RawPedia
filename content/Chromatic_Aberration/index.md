@@ -19,16 +19,13 @@ alt="chromatic_aberration_auto1.jpg" />
 title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" /> This "Chromatic Aberration" tool
 works on the image **before** demosaicing, that's why it's located in
-the *Raw* tab. The [Chromatic Aberration
-Correction](Lens/Geometry#Chromatic_Aberration_Correction.md)
+the *Raw* tab. The [Chromatic Aberration Correction](lens/geometry#chromatic_aberration_correction)
 tool in the *Transform* tab works on the image **after** demosaicing.
 
 Chromatic aberration correction on the raw level is currently only
-supported for raw files from cameras with a [Bayer
-filter](https://en.wikipedia.org/wiki/Bayer_filter). If you need to
+supported for raw files from cameras with a [Bayer filter](https://en.wikipedia.org/wiki/Bayer_filter). If you need to
 remove chromatic aberration from raw photos from X-Trans sensor cameras
-(Fuji), then use the [Chromatic Aberration
-Correction](Lens/Geometry#Chromatic_Aberration_Correction.md)
+(Fuji), then use the [Chromatic Aberration Correction](lens/geometry#chromatic_aberration_correction)
 tool in the *Transform* tab.
 
 Chromatic aberration can be corrected by using the "Red" and "Blue"

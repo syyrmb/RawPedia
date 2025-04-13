@@ -16,8 +16,7 @@ The "Metadata" tab lets you control which
 the saved (developed) image file. The Exif metadata is usually created
 by the camera itself and implemented into the raw image file. Basic Exif
 information is directly visible. Extended Exif information and so-called
-[makernote
-data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format#MakerNote_data)
+[makernote data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format#MakerNote_data)
 is organized into a tree. Click on the arrow at the very left of the
 desired sub-tree and you'll see its contents.
 

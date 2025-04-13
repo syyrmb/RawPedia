@@ -4,5 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Adding Support for New Raw
-    Formats](Adding_Support_for_New_Raw_Formats.md)
+1.  REDIRECT [Adding Support for New Raw Formats](adding_support_for_new_raw_formats)

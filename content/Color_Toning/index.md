@@ -100,7 +100,7 @@ The used curves are special flat curves.
     - the curve shape;
     - the target hues choices;
 
-      
+
     you will obtain different results
 2.  The Opacity curve (L\*a\*b\* blending \> Standard chroma or RGB
     curves) displays luminance in abscissa and opacity in ordinate (also
@@ -118,7 +118,7 @@ The saturation setting (the effects maximum intensity) can be adjusted:
     algorithm takes into account the color space (sRGB, Adobe,
     Prophoto...) and the image pixels saturation to determine the best
     values for "Threshold" and "Strength".
-      
+
     This settings are obviously without any effect for images converted
     into black and white.
 
@@ -188,8 +188,7 @@ The "Strength" slider allows to set the system sensitivity:
     generalised chromatic correction,
 2.  with medium values, you can use this tool as a color toning,
 3.  with high values, you can use this tool as a black and white toning,
-    interacting with the [Black and
-    White](Black-and-White_addon.md) tool (internal algorithm
+    interacting with the [Black and White](black-and-white_addon) tool (internal algorithm
     parameters are different for a color or a black and white action)
 
 Select "Preserve Luminance" to prevent any change of the lightness
@@ -231,27 +230,23 @@ Double-click a node to reset it back to the neutral position.
 ### Color Correction Regions
 
 A powerful tool which lets you not only color-tone based on any number
-of masks, but also supports functions from the [American Society of
-Cinematographers Color Decision List (ASC
-CDL)](https://blender.stackexchange.com/a/55239).
+of masks, but also supports functions from the
+[American Society of Cinematographers Color Decision List (ASC CDL)](https://blender.stackexchange.com/a/55239).
 
 ## Interaction With Other Tools
 
 ### Black and White
 
-It is thanks to going to and from from the [Black and
-White](Black-and-White_addon.md) tool - particularly [Luminance
-Equalizer](Black-and-White_addon#Luminance_Equalizer.md)- to the
-"Color Toning" tool - particularly [Color Balance
-Shadows/Midtones/Highlights](Color_Toning#Color_Balance_Shadows_Midtones_Highlights.md) -
+It is thanks to going to and from from the [Black and White](black-and-white_addon) tool - particularly
+[Luminance Equalizer](black-and-white_addon#luminance_equalizer)- to the
+"Color Toning" tool - particularly [Color Balance Shadows/Midtones/Highlights](color_toning#color_balance_shadows_midtones_highlights) -
 that you will get the most pronounced (black and white) special effects.
 
 ### Film Simulation
 
 - In the case of color [film simulation](film_simulation),
   all the "Color Toning" tools are directly available.
-- In the case of black and white [film
-  simulation](Film_Simulation.md), it is mandatory to enable the
+- In the case of black and white [film simulation](film_simulation), it is mandatory to enable the
   the "Black and White" tool. The
   [desaturation](black-and-white_addon#desaturation) method
   is almost neutral and allows a direct use of the black and white

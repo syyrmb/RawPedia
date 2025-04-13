@@ -14,19 +14,16 @@ Crop
 Cropping in RawTherapee does not discard the cropped-off area, it just
 hides it by drawing a crop frame and zooming in to fit the frame to the
 available screen space. You can still see the cropped-off area in the
-preview if you zoom out and set the [background color of the
-preview](The_Image_Editor_Tab#Background_color_of_the_preview.md)
+preview if you zoom out and set the [background color of the preview](the_image_editor_tab#background_color_of_the_preview)
 to "theme-based". The cropped-off area will of course not appear in the
 saved image.
 
-When you set the [background color of the
-preview](The_Image_Editor_Tab#Background_color_of_the_preview.md)
+When you set the [background color of the preview](the_image_editor_tab#background_color_of_the_preview)
 to anything other than "theme-based" then the cropped-off area will be
 completely hidden from the preview, but if you set it to "theme-based"
 then by default the cropped-off area will be covered by a dark but
 semi-transparent mask. You can define the color and transparency of this
-mask in "[Preferences](preferences) \> General \> [Crop mask
-color/transparency](Preferences#Default_Theme.md)".
+mask in "[Preferences](preferences) \> General \> [Crop mask color/transparency](preferences#default_theme)".
 
 Activate crop-placing mode by clicking the "Select Crop" button in the
 tool panel, the ![<File:Crop.png>](Crop.png "File:Crop.png") button in
@@ -38,8 +35,7 @@ Resize a crop by placing the mouse on one of the sides or corners. To
 clear the crop, activate crop-placing mode again (via the keyboard
 shortcut or either of the buttons mentioned above), and click anywhere
 in the preview without dragging. To see only the cropped area, use the
-"Fit cropped area to screen" [keyboard
-shortcut](Keyboard_Shortcuts.md).
+"Fit cropped area to screen" [keyboard shortcut](keyboard_shortcuts).
 
 Use *Guide Type* to select popular guides to help you in composition
 while cropping, and a horizontal (landscape) or vertical (portrait)
@@ -73,44 +69,42 @@ You can make a custom crop ratio as of RawTherapee 5.1.
 
 Use "Lock ratio" to set the crop to a fixed ratio.
 
-3:2  
+3:2
 Classic negatives have this ratio, as do
 [APS-C](https://en.wikipedia.org/wiki/APS-C)
 [DSLR](https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera)
 cameras.
 
-4:3  
+4:3
 The [Four Thirds
 System](https://en.wikipedia.org/wiki/Four_Thirds_system).
 
-16:9  
+16:9
 The [1080p](https://en.wikipedia.org/wiki/1080p) and
 [720p](https://en.wikipedia.org/wiki/720p)
 [high-definition](https://en.wikipedia.org/wiki/High-definition_video)
 video format, and due to this the most common computer monitor aspect
 ratio since 2010.
 
-16:10  
+16:10
 The most popular computer monitor aspect ratio between 2005-2009. Still
 popular in tablets.
 
-24:65 XPan  
+24:65 XPan
 Hasselblad's medium-format cameras.
 
-1.414 DIN EN ISO 216  
+1.414 DIN EN ISO 216
 [1.414 DIN EN ISO 216](https://en.wikipedia.org/wiki/ISO_216) is the
 standard paper size ratio such as A4, B5, etc.
 
-8.5:11  
+8.5:11
 The [US Letter](https://en.wikipedia.org/wiki/Letter_(paper_size)) size.
 
-11:17 - Tabloid  
-A common [tabloid newspaper
-format](https://en.wikipedia.org/wiki/Tabloid_(newspaper_format)).
+11:17 - Tabloid
+A common [tabloid newspaper format](https://en.wikipedia.org/wiki/Tabloid_(newspaper_format)).
 
-45:35 - ePassport  
-Guides to help you crop a portrait for a [biometric
-passport](https://en.wikipedia.org/wiki/Biometric_passport). Official
+45:35 - ePassport
+Guides to help you crop a portrait for a [biometric passport](https://en.wikipedia.org/wiki/Biometric_passport). Official
 measurements do not specify exact ratios, just min/max measurements
 within which the eyes and chin-crown distance must lie. The guides
 represent the averages of those distances. The first horizontal guide is

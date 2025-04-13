@@ -58,7 +58,7 @@ to get this results:
 - to get a bulleted list
   - More asterisks give deeper
     - and deeper levels
-- Line breaks  
+- Line breaks
   don't break levels
 
 But any other start ends the list
@@ -67,7 +67,7 @@ But any other start ends the list
 2.  to get a numbered list
     1.  More number signs give deeper
         1.  and deeper levels
-3.  Line breaks  
+3.  Line breaks
     don't break levels
 4.  So the numbering keeps increasing
 
@@ -116,20 +116,17 @@ inside RawPedia) or external (to a webpage in the Internet):
     start with the page name, followed by a `#`, all of it surrounded by
     double brackets as in
     `[[Getting_Started#Start_RawTherapee|starting RawTherapee]]`. It
-    will look like this: [starting
-    RawTherapee](Getting_Started#Start_RawTherapee.md)
+    will look like this: [starting RawTherapee](getting_started#start_rawtherapee)
   - linking to a section inside the current page: you just have to add
     the link to the proper section, starting the code with a `#` and
     surrounded by double brackets as in
     `[[#Standard_MediaWiki_coding_markup|standard MediaWiki markup]]`.
-    It will show as: [standard MediaWiki
-    markup](#Standard_MediaWiki_coding_markup.md)
+    It will show as: [standard MediaWiki markup](#standard_mediawiki_coding_markup)
 - external links: they will be surrounded by single brackets and the
   full url is added straight away, followed by a custom text. This time
   the url and the text shown is separated by just an empty space:
   `[https://en.wikipedia.org/wiki/Links_(web_browser) web links]`. And
-  it will show as: [web
-  links](https://en.wikipedia.org/wiki/Links_(web_browser))
+  it will show as: [web links](https://en.wikipedia.org/wiki/Links_(web_browser))
 
 ## Page titles and subtitles
 
@@ -245,43 +242,43 @@ description of the desired key. Then you close the template with `}}`.
 
 The most usual keys to be included in the documents are:
 
-  
-  
-Mac option key: `{{k|option key}}`   
 
-Mac alternate key: `{{k|alternate key}}`   
 
-Mac command key: `{{k|command key}}`   
+Mac option key: `{{k|option key}}`
 
-Super or Windows key: `{{k|winkey}}`   
+Mac alternate key: `{{k|alternate key}}`
 
-Shift key: `{{k|shift key}}`   
+Mac command key: `{{k|command key}}`
 
-Ctrl key: `{{k|ctrl key}}`   
+Super or Windows key: `{{k|winkey}}`
 
-Ctrl (alternative version): `{{k|ctrl}}`   
+Shift key: `{{k|shift key}}`
 
-Up key: `{{k|up key}}`   
+Ctrl key: `{{k|ctrl key}}`
 
-Up (alternative version): `{{k|up}}`   
+Ctrl (alternative version): `{{k|ctrl}}`
 
-Down key: `{{k|down key}}`   
+Up key: `{{k|up key}}`
 
-Down (alternative version): `{{k|down}}`   
+Up (alternative version): `{{k|up}}`
 
-Left key: `{{k|left key}}`   
+Down key: `{{k|down key}}`
 
-Left (alternative version): `{{k|left}}`   
+Down (alternative version): `{{k|down}}`
 
-Right key: `{{k|right key}}`   
+Left key: `{{k|left key}}`
 
-Right (alternative version): `{{k|right}}`   
+Left (alternative version): `{{k|left}}`
 
-Home key: `{{k|home key}}`   
+Right key: `{{k|right key}}`
 
-End key: `{{k|end key}}`   
+Right (alternative version): `{{k|right}}`
 
-Page up key: `{{k|page up key}}`   
+Home key: `{{k|home key}}`
+
+End key: `{{k|end key}}`
+
+Page up key: `{{k|page up key}}`
 
 Page down key: `{{k|page down key}}`
 
@@ -300,75 +297,75 @@ alternatives:
 
 ### German keyboards
 
-  
-  
-Ctrl: `{{k|de ctrl key}}`   
 
-Shift: `{{k|de shift key}}`   
 
-Insert: `{{k|de insert key}}`   
+Ctrl: `{{k|de ctrl key}}`
 
-Del: `{{k|de del key}}`   
+Shift: `{{k|de shift key}}`
 
-Home: `{{k|de home key}}`   
+Insert: `{{k|de insert key}}`
 
-End: `{{k|de end key}}`   
+Del: `{{k|de del key}}`
 
-PgUp: `{{k|de pageup key}}`   
+Home: `{{k|de home key}}`
+
+End: `{{k|de end key}}`
+
+PgUp: `{{k|de pageup key}}`
 
 PgDwn: `{{k|de pagedown key}}`
 
 ### Spanish keyboards
 
-  
-  
-Ctrl: `{{k|es ctrl key}}`   
 
-Shift: `{{k|es shift key}}`   
 
-Insert: `{{k|es insert key}}`   
+Ctrl: `{{k|es ctrl key}}`
 
-Del: `{{k|es del key}}`   
+Shift: `{{k|es shift key}}`
 
-Home: `{{k|es home key}}`   
+Insert: `{{k|es insert key}}`
 
-End: `{{k|es end key}}`   
+Del: `{{k|es del key}}`
 
-PgUp: `{{k|es pageup key}}`   
+Home: `{{k|es home key}}`
+
+End: `{{k|es end key}}`
+
+PgUp: `{{k|es pageup key}}`
 
 PgDwn: `{{k|es pagedown key}}`
 
 ### French keyboards
 
-  
-  
-Shift: `{{k|fr shift key}}`   
 
-Insert: `{{k|fr insert key}}`   
 
-Del: `{{k|fr del key}}`   
+Shift: `{{k|fr shift key}}`
 
-Home: `{{k|fr home key}}`   
+Insert: `{{k|fr insert key}}`
 
-End: `{{k|fr end key}}`   
+Del: `{{k|fr del key}}`
 
-PgUp: `{{k|fr pageup key}}`   
+Home: `{{k|fr home key}}`
+
+End: `{{k|fr end key}}`
+
+PgUp: `{{k|fr pageup key}}`
 
 PgDwn: `{{k|fr pagedown key}}`
 
 ### Italian keyboards
 
-  
-  
-Insert: `{{k|it insert key}}`   
 
-Del: `{{k|it del key}}`   
 
-Home: `{{k|it home key}}`   
+Insert: `{{k|it insert key}}`
 
-End: `{{k|it end key}}`   
+Del: `{{k|it del key}}`
 
-PgUp: `{{k|it pageup key}}`   
+Home: `{{k|it home key}}`
+
+End: `{{k|it end key}}`
+
+PgUp: `{{k|it pageup key}}`
 
 PgDwn: `{{k|it pagedown key}}`
 
@@ -388,7 +385,7 @@ source code, or from a configuration file, you could either:
     <pre class="coding-pre">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-    Atqui reperies, inquit, in hoc quidem pertinacem. Quo modo autem philosophus loquitur. Aliter enim nosmet ipsos nosse non possumus. 
+    Atqui reperies, inquit, in hoc quidem pertinacem. Quo modo autem philosophus loquitur. Aliter enim nosmet ipsos nosse non possumus.
 
     Ita credo.
 
@@ -396,14 +393,14 @@ source code, or from a configuration file, you could either:
 
 </pre>
 
-  
+
 and it will show as
 
 <div class="code-result">
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-    Atqui reperies, inquit, in hoc quidem pertinacem. Quo modo autem philosophus loquitur. Aliter enim nosmet ipsos nosse non possumus. 
+    Atqui reperies, inquit, in hoc quidem pertinacem. Quo modo autem philosophus loquitur. Aliter enim nosmet ipsos nosse non possumus.
 
     Ita credo.
 
@@ -437,7 +434,7 @@ nullam mauris est, pharetra a fringilla vitae.**
 
 </div>
 
-  
+
 And you will code it like this:
 
 <!-- -->
@@ -449,12 +446,11 @@ And you will code it like this:
 
 <div class="code-result-inline">
 
-**Pellentesque tempor turpis vel orci. ![Ornare
-dapibus](preferences.png "Ornare dapibus") sit amet rutrum sapien.**
+**Pellentesque tempor turpis vel orci. ![Ornare dapibus](preferences.png "Ornare dapibus") sit amet rutrum sapien.**
 
 </div>
 
-  
+
 You just have to add the tooltip text after a pipe symbol. And the code
 will look like:
 
@@ -468,19 +464,18 @@ will look like:
 
 <div class="code-result-inline">
 
-**Pellentesque tempor turpis vel orci. ![Ornare
-dapibus](preferences.png "Ornare dapibus") sit amet rutrum sapien.**
+**Pellentesque tempor turpis vel orci. ![Ornare dapibus](preferences.png "Ornare dapibus") sit amet rutrum sapien.**
 
 </div>
 
-  
+
 You will add another pipe symbol, and then the desired image width:
 
 <!-- -->
 
     Pellentesque tempor turpis vel orci. [[File:preferences.png|Ornare dapibus]] sit amet rutrum sapien.
 
-  
+
 However, bear in mind that more often than not it will be better to
 scale down the image in an editor and reupload the smaller image.
 
@@ -507,7 +502,7 @@ To get:
 
 <div class="code-result">
 
-![](wavelet_contrast_shadow.png "wavelet_contrast_shadow.png")  
+![](wavelet_contrast_shadow.png "wavelet_contrast_shadow.png")
 **Praesent efficitur enim in felis elementum, congue blandit augue
 hendrerit. Donec bibendum nec nisi eget dapibus. Sed augue augue,
 porttitor nec volutpat at, porttitor pellentesque tellus. Nulla tempus
@@ -524,10 +519,10 @@ On the other hand, when placing the image at the end of a list item:
 <div class="code-result">
 
 - **In hac habitasse platea dictumst. Praesent quis tellus
-  scelerisque**  
+  scelerisque**
   ![](wavelet_contrast_shadow.png "wavelet_contrast_shadow.png")
 
-  
+
 
 </div>
 
@@ -753,23 +748,23 @@ this to apply some processing profile to all selected files).
 To get:
 
 \[\[<File:Rt_setm_fb.png%7Cthumb%7C1280px%7Cnone%7CRawTherapee> in
-**Single Editor Tab Mode, Vertical Tabs**, showing:  
+**Single Editor Tab Mode, Vertical Tabs**, showing:
 
 <div class="captions_indent">
 
 **1- Main sections:** File Browser (currently opened), Queue, Editor,
-Progress Bar, ICC Profile Creator, Help and Preferences.  
-**2- Panels** used for navigating to files and folders.  
-**3- Thumbnails** of the currently opened folder.  
+Progress Bar, ICC Profile Creator, Help and Preferences.
+**2- Panels** used for navigating to files and folders.
+**3- Thumbnails** of the currently opened folder.
 **4- Filters** to limit the thumbnails shown to only those which match
-some metadata or state.  
-**5- Thumbnail zooming and info**.  
-**6- Quick image operations**.  
+some metadata or state.
+**5- Thumbnail zooming and info**.
+**6- Quick image operations**.
 **7- Sub-tabs of the File Browser:** ***Filter*** (currently opened),
 ***Inspect*** (to see a full-sized embedded JPEG preview), ***Batch
 Edit*** (to apply some setting to all selected images) y ***Fast
 Export*** (low quality and bypasses some tools but fast saving - don't
-use this for typical saving!).  
+use this for typical saving!).
 **8- Right-click context menu** (you will typically use this to apply
 some processing profile to all selected files)
 
@@ -987,7 +982,7 @@ the animation itself when interacting with it, follow these steps:
     </div>
     </div>
 
-  
+
 Where the width should ideally be the same size as the gif animation.
 The first item is the static image, and the second item is the
 animation.
@@ -1042,7 +1037,7 @@ To add such comparison into RawPedia, you have to code it like this:
     <div class="thumbinner thumbcompare tnone" style="width: 500px">
     <imgcomp img1='Wavelets_residual_SHneg_original.png' img2='Wavelets_residual_SHneg_old.png'  width=500 />
     <div class="thumbcaption">
-    '''Left side:''' the image without changes applied 
+    '''Left side:''' the image without changes applied
 
 
     '''Right side:''' the image with the new processing
@@ -1090,7 +1085,7 @@ example placed at the right side of the page will be coded as:
     <div class="thumbinner thumbcompare tnone" style="width: 500px">
     <imgcomp img1='Wavelets_residual_SHneg_original.png' img2='Wavelets_residual_SHneg_old.png'  width=500 />
     <div class="thumbcaption">
-    '''Left side:''' the image without changes applied 
+    '''Left side:''' the image without changes applied
 
 
     '''Right side:''' the image with the new processing
@@ -1181,7 +1176,7 @@ To code a gallery you will follow these steps:
 
 With this example code:
 
-    <div><ul class="leftalign"> 
+    <div><ul class="leftalign">
     <li class="RPgallery"> [[File:wavelet_pic.png|thumb]] </li>
     <li class="RPgallery"> [[File:wavelet_contrast_15C+_WL.png|thumb]] </li>
     <li class="RPgallery"> [[File:wavelet_contrast_15C+_H3S6.png|thumb]] </li>
@@ -1229,7 +1224,7 @@ their sizes around 300-400 pixels.
 
 In this case, with this example code:
 
-    <div><ul class="leftalign"> 
+    <div><ul class="leftalign">
     <li class="RP3inarow"> [[File:wavelet_chrom_Link_50_Str50.png|thumb]] </li>
     <li class="RP3inarow"> [[File:wavelet_toning_opBYfull.png|thumb]] </li>
     <li class="RP3inarow"> [[File:wavelet_toning_opBYfull_curve.png|thumb]] </li>
@@ -1268,7 +1263,7 @@ differences between them.
 
 If we code like this:
 
-    <div><ul class="leftalign"> 
+    <div><ul class="leftalign">
     <li class="RPside2side"> [[File:wavelet_smc_original.png|thumb]] </li>
     <li class="RPside2side"> [[File:wavelet_clarity_ML60MC30.png|thumb]] </li>
     </ul></div>
@@ -1318,9 +1313,9 @@ And it will look like:
 
 \[\[<File:gamma_formula.png%7Cclass=formulae%7Cnone%7Cthumb>\|
 
-<big>**V<small>out</small>**</big> is the output value  
-<big>**A**</big> and <big>**B**</big> are constants  
-<big>**V<small>in</small>**</big> is the input value  
+<big>**V<small>out</small>**</big> is the output value
+<big>**A**</big> and <big>**B**</big> are constants
+<big>**V<small>in</small>**</big> is the input value
 <big><big>**γ**</big></big> is the gamma value
 
 \]\]
@@ -1432,7 +1427,7 @@ everything in a wrapper `div`:
 
 - **open a `div`** setting the style `grid-table-wrapper`
 
-  
+
 `<div class="grid-table-wrapper">`
 
 - **defining the table structure**: you don't need to tell MediaWiki how
@@ -1441,18 +1436,18 @@ everything in a wrapper `div`:
   shouldn’t be too difficult to add if needed, although the columns
   would be too narrow
 
-  
+
 `{| class="RP6c-grid"`
 
 - **table title**: you just need to point to the **tablegrid-caption**
   class. No `colspan` needed anymore
 
-  
+
 `! class="tablegrid-caption" | Magna aliquyam erat, sed diam voluptua.`
 
 <!-- -->
 
-  
+
 **HOWEVER**, if you are creating tables with just 2-3 narrow columns,
 double check that this caption is not too long, or it will stretch the
 table boundaries, making it look incorrectly
@@ -1462,12 +1457,12 @@ table boundaries, making it look incorrectly
   group of cells (the first row of cells) will all be column headers,
   and that should be coded like this:
 
-  
+
 `! role="columnheader"`
 
 <!-- -->
 
-  
+
 The **role** is mostly for semantic purposes, but it’s also needed for
 styling purposes (it **must** be present)
 
@@ -1475,31 +1470,31 @@ styling purposes (it **must** be present)
   tedious part, because to make the table responsive you have to
   manually add the appropriate attribute to each cell.
 
-  
+
 Let’s take a look at how the first column header has to be coded:
 
 <!-- -->
 
-  
+
 `data-colh1="Ipsum" | Ipsum`
 
 <!-- -->
 
-  
+
 The **data-colh1** part is an attribute that has to be set to **every**
 cell that will be a part of that column. *data-colh2* would be present
 in every cell that is part of the second column, and so on.
 
 <!-- -->
 
-  
+
 **NOTE: The contents of the attribute must be the same text as the
 header text**.
 
 ::\* **full code for the first column header**:
 
-  
-  
+
+
 `! role="columnheader" data-colh1="Ipsum" | Ipsum`
 
 ::\* **full code for the first 3 column headers**:
@@ -1517,8 +1512,8 @@ headers below):
     ! role="columnheader" data-colh2="Hendrerit" | Hendrerit
     ! role="columnheader" data-colh3="Adipiscing" | Adipiscing
 
-  
-  
+
+
 Note that there’s a new *first column* , but you don’t take it into
 account when setting the column attributes (that’s odd, but it has to be
 that way in case you don’t need row headers, so the stylesheet is the
@@ -1530,14 +1525,14 @@ comparison data, plus an extra column of row headers
 ::\* **how to add row headers, then?** The first cell in a row will be
 the *row header* , and will be coded as:
 
-  
-  
+
+
 `! role="rowheader"| Lorem ipsum dolor sit amet, consetetur sadipscing elitr.`
 
 <!-- -->
 
-  
-  
+
+
 Don’t forget the exclamation mark (`!`) at the beginning
 
 - **now the data to be compared in the table**: when adding the cells
@@ -1547,11 +1542,11 @@ Don’t forget the exclamation mark (`!`) at the beginning
 <!-- -->
 
     ! role="rowheader"| Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-    | data-colh1="Ipsum" | At vero eos et accusam et justo duo dolores et ea rebum. 
-    | data-colh2="Hendrerit" | Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+    | data-colh1="Ipsum" | At vero eos et accusam et justo duo dolores et ea rebum.
+    | data-colh2="Hendrerit" | Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     | data-colh3="Adipiscing" | Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 
-  
+
 I have added the row header for completeness, and for you to see which
 one is the *first column* , according to the stylesheet. If you were to
 create a 3 columns table without row headers, the full row will be coded
@@ -1559,16 +1554,16 @@ as this:
 
 <!-- -->
 
-    | data-colh1="Ipsum" | At vero eos et accusam et justo duo dolores et ea rebum. 
-    | data-colh2="Hendrerit" | Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+    | data-colh1="Ipsum" | At vero eos et accusam et justo duo dolores et ea rebum.
+    | data-colh2="Hendrerit" | Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     | data-colh3="Adipiscing" | Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 
-  
+
 That is, no row header cell, and everything else the same
 
 - **finally close the `div`**
 
-  
+
 `</div>`
 
 - **the final code**: after you had coded all the cells in every row of
@@ -1578,7 +1573,7 @@ That is, no row header cell, and everything else the same
 
     <div class="grid-table-wrapper">
     {| class="RP6c-grid"
-    ! class="tablegrid-caption" | Magna aliquyam erat, sed diam voluptua. 
+    ! class="tablegrid-caption" | Magna aliquyam erat, sed diam voluptua.
     |-
     ! role="columnheader" |
     ! role="columnheader" data-colh1="Ipsum" | Ipsum
@@ -1588,15 +1583,15 @@ That is, no row header cell, and everything else the same
     ! role="columnheader" data-colh5="Consectetuer" | Consectetuer
     |-
     ! role="rowheader"| Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-    | data-colh1="Ipsum" | At vero eos et accusam et justo duo dolores et ea rebum. 
-    | data-colh2="Hendrerit" | Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+    | data-colh1="Ipsum" | At vero eos et accusam et justo duo dolores et ea rebum.
+    | data-colh2="Hendrerit" | Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     | data-colh3="Adipiscing" | Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
     | data-colh4="Consequat" | Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     | data-colh5="Consectetuer" | Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
     |-
-    ! role="rowheader"| Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+    ! role="rowheader"| Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
     | data-colh1="Ipsum" | Vel illum dolore eu feugiat nulla facilisis at vero accumsan et iusto odio dignissim qui blandit.
-    | data-colh2="Hendrerit" | Praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+    | data-colh2="Hendrerit" | Praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
     | data-colh3="Adipiscing" | Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod.
     | data-colh4="Consequat" | Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
     | data-colh5="Consectetuer" | At vero eos et accusam et justo duo dolores et ea rebum.
@@ -1610,14 +1605,14 @@ That is, no row header cell, and everything else the same
     |}
     </div>
 
-  
+
 **Don’t miss the fact that in this example we have defined a 6 columns
 table, but only 5 columns will be used for actual data, because we have
 used an extra column for row headers**
 
 <!-- -->
 
-  
+
 And this is how it will look:
 
 <div class="grid-table-wrapper">

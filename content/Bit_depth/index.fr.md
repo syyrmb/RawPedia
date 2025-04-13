@@ -25,8 +25,7 @@ mode RVB ont besoin de trois canaux, un décrit le rouge, un le vert et
 un le bleu. Chaque canal ne décrit que l'intensité, aussi il n'y a rien
 de fondamentalement vert à propos du nombre qui décrit a pixel du canal
 vert; les couleurs sont la conséquence de l'interaction entre les trois
-canaux dans le [modèle colorimétrique Rouge Vert
-Bleu](https://fr.wikipedia.org/wiki/Rouge_vert_bleu).
+canaux dans le [modèle colorimétrique Rouge Vert Bleu](https://fr.wikipedia.org/wiki/Rouge_vert_bleu).
 
 Un seul pixel peut représenter plus de trois canaux, par exemple il peut
 contenir l'information du canal alpha (lequel décrit la transparence) ou
@@ -118,10 +117,8 @@ et plus cette couleur est décrite précisément.
   besoins photographiques, y compris pour les fichiers intermédiaires
   (quand vous désirez transférer une image d'une application à une autre
   sans perte de données).
-- Les valeurs d'une image 16 bits en [virgule
-  flottante](https://fr.wikipedia.org/wiki/Virgule_flottante), aussi
-  connus comme [virgule flottante demi
-  précision](https://en.wikipedia.org/wiki/Half-precision_floating-point_format),
+- Les valeurs d'une image 16 bits en [virgule flottante](https://fr.wikipedia.org/wiki/Virgule_flottante), aussi
+  connus comme [virgule flottante demi précision](https://en.wikipedia.org/wiki/Half-precision_floating-point_format),
   sont réparties de façon à échantillonner la lumière plus
   judicieusement qu'en 16 bit entiers. Cela pour plusieurs raisons : la
   vision humaine est plus sensible aux petits changements dans les
@@ -135,8 +132,7 @@ et plus cette couleur est décrite précisément.
   dans les tons sombres (en bas) que dans les tons lumineux (en haut),
   permettant ainsi une description plus précise dans les tons les plus
   significatifs pour nous.
-- Une image 32 bits [virgule
-  flottante](https://fr.wikipedia.org/wiki/Virgule_flottante) peut
+- Une image 32 bits [virgule flottante](https://fr.wikipedia.org/wiki/Virgule_flottante) peut
   représenter 4,3 milliards de valeurs par canal, et nécessite à peu
   près deux fois plus de place disque qu'une image 16 bits. Peu
   d'applications supportent les images 32 bits.
@@ -176,10 +172,8 @@ serviteur - RawTherapee.
 
 Après la retouche d'une photo avec Rawtherapee, que vous êtes prêt à
 l'[enregistrer](saving_images/fr), vous faites face au choix
-des [profil de sortie, profondeur de
-couleur](Color_Management/fr#Profil_de_sortie.md), [espace
-colorimétrique et correction
-gamma](Color_Management_addon/fr#Espace_de_sortie_"Output_Profile".md).
+des [profil de sortie, profondeur de couleur](color_management/fr#profil_de_sortie),
+[espace colorimétrique et correction gamma](color_management_addon/fr#espace_de_sortie_"output_profile").
 Si vous envisagez de post-traiter vos photos après Rawtherapee dans un
 programme d'édition d'images 16 bits, il est préférable de les
 enregistrer dans un format 16 bits sans pertes. RawTherapee peut

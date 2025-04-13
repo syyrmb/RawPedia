@@ -13,7 +13,7 @@ Command-Line Options
 
 ## Explanation
 
-  
+
 `<`Chevrons`>` indicate parameters you can change.
 
 `[`Square brackets`]` mean the parameter is not mandatory.
@@ -31,23 +31,23 @@ Use this application to start the version with graphical user interface.
 
 Usage:
 
-  
+
 `rawtherapee `<selected dir>
 
-  
+
 Start [File Browser](the_file_browser_tab) inside folder.
 
 `rawtherapee `<file>
 
-  
+
 Start [Image Editor](the_image_editor_tab) with file.
 
 <!-- -->
 
-  
+
 `-w`
 
-  
+
 Do not open the Windows console. This option is available in Windows
 only. If you pass parameters to the RawTherapee executable it spawns a
 console window so that you can see the verbose output of your
@@ -62,18 +62,18 @@ starting RawTherapee from a console window already.
 
 <!-- -->
 
-  
+
 `-v`
 
-  
+
 Print the RawTherapee version number and exit.
 
 <!-- -->
 
-  
+
 `-R`
 
-  
+
 "Remote" mode, available since RawTherapee 5.2. When opening an image
 using "Open with" or by passing its filename as an argument, without
 using the `-R` option RawTherapee will open in "no-File-Browser" mode -
@@ -89,10 +89,10 @@ the `-R` mode by default.
 
 <!-- -->
 
-  
+
 `-h -?`
 
-  
+
 Display these commands.
 
 ### RawTherapee CLI
@@ -103,23 +103,23 @@ user interface.
 
 Usage:
 
-  
+
 <code>rawtherapee-cli <options> -c
 
 <dir>
 
 \|<files></code>
 
-  
+
 Convert files in batch with default parameters if no <options>
 specified.
 
 <!-- -->
 
-  
+
 `-w`
 
-  
+
 Do not open the Windows console. This option is available in Windows
 only. If you pass parameters to the RawTherapee executable it spawns a
 console window so that you can see the verbose output of your
@@ -132,7 +132,7 @@ e.g. from a PowerShell script.
 
 Other options used with `-c`:
 
-  
+
 <code>rawtherapee-cli \[-o
 
 <output>
@@ -147,10 +147,10 @@ Other options used with `-c`:
 
 <!-- -->
 
-  
+
 `-c `<files>
 
-  
+
 Specify one or more input files or folders.
 
 When specifying folders, RawTherapee will look for image files which
@@ -160,177 +160,174 @@ The `-c` option must always be the last one.
 
 <!-- -->
 
-  
+
 <code>-o <file>\|
 
 <dir>
 
 </code>
 
-  
+
 Select output file or folder.
 
 Saves output file alongside input file if -o is not specified.
 
 <!-- -->
 
-  
+
 <code>-O <file>\|
 
 <dir>
 
 </code>
 
-  
+
 Select output file or folder and copy PP3 file into it.
 
 Saves output file alongside input file if -O is not specified.
 
 <!-- -->
 
-  
+
 <code>-q<file>\|
 
 <dir>
 
 </code>
 
-  
+
 Quick-start mode. Does not load cached files to speedup start time.
 
 <!-- -->
 
-  
+
 <code>-a<file>\|
 
 <dir>
 
 </code>
 
-  
+
 Process all supported image file types when specifying a folder, even
 those not currently selected in Preferences \> File Browser \> Parsed
 Extensions.
 
 <!-- -->
 
-  
+
 `-s`
 
-  
+
 Use the existing sidecar file to build the processing parameters, e.g.
 for photo.raw there should be a photo.raw.pp3 file in the same folder.
 If the sidecar file does not exist, neutral values will be used.
 
 <!-- -->
 
-  
+
 `-S`
 
-  
+
 Like `-s` but skip if the sidecar file does not exist.
 
 <!-- -->
 
-  
+
 `-p <file.pp3>`
 
-  
+
 Specify processing profile to be used for all conversions. You can
 specify as many sets of "-p \<file.pp3\>" options as you like, each will
 be built on top of the previous one, as explained below.
 
 <!-- -->
 
-  
+
 `-d`
 
-  
+
 Use the default raw or non-raw PP3 file as set in
-"[Preferences](main_page#preferences) \> [Image
-Processing](Image_Processing_Tab.md) \> [Default Processing
-Profile](Image_Processing_Tab#Default_Processing_Profile.md)"
+"[Preferences](main_page#preferences) \> [Image Processing](image_processing_tab) \> [Default Processing Profile](image_processing_tab#default_processing_profile)"
 
 <!-- -->
 
-  
+
 `-j[1-100]`
 
-  
+
 Specify output to be JPEG (default, if -t and -n are not set).
 
 Optionally, specify compression 1-100 (default value: 92).
 
 <!-- -->
 
-  
+
 `-js<1-3>`
 
-  
-Specify the JPEG [chroma
-subsampling](http://en.wikipedia.org/wiki/Chroma_subsampling) parameter,
+
+Specify the JPEG [chroma subsampling](http://en.wikipedia.org/wiki/Chroma_subsampling) parameter,
 where:
 
-  
+
 1 = Best compression: 2x2, 1x1, 1x1 (4:2:0)
 
-  
+
 Chroma halved vertically and horizontally.
 
 2 = Balanced: 2x1, 1x1, 1x1 (4:2:2)
 
-  
+
 Chroma halved horizontally.
 
 3 = Best quality: 1x1, 1x1, 1x1 (4:4:4)
 
-  
+
 No chroma subsampling.
 
 <!-- -->
 
-  
+
 `-b<8|16>`
 
-  
+
 Specify bit depth per channel (16 by default).
 
 Only applies to TIFF and PNG output, JPEG is always 8.
 
 <!-- -->
 
-  
+
 `-t[z]`
 
-  
+
 Specify output to be TIFF (16-bit if `-b8` is not set).
 
 Uncompressed by default, or ZIP compression with 'z'.
 
 <!-- -->
 
-  
+
 `-n`
 
-  
+
 Specify output to be compressed PNG (16-bit if `-b8` is not set).
 
 Compression is hard-coded to level 6.
 
 <!-- -->
 
-  
+
 `-Y`
 
-  
+
 Overwrite output if present.
 
 <!-- -->
 
-  
+
 `-f`
 
-  
+
 Use the custom fast-export processing pipeline.
 
 Your PP3 files can be incomplete, RawTherapee will set the values as
@@ -352,10 +349,10 @@ command line.
 To redirect RawTherapee's output to a text file, you have to start it
 from a console and append the redirection code as follows:
 
-Windows (cmd.exe)  
+Windows (cmd.exe)
 `rawtherapee.exe > rtlog.txt 2>&1`
 
-Linux  
+Linux
 `rawtherapee &> rtlog.txt`
 
 ## Examples

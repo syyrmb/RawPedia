@@ -10,14 +10,12 @@ with an existing look and modify it to your liking, saving you some
 time. One example of such a profile is "Pop 1" - it will make your photo
 vibrant and lively, lifting the shadows and bringing out detail.
 
-You can see the whole list of processing profiles in the *[Image
-Editor](The_Image_Editor_Tab.md)* tab, if you expand the
+You can see the whole list of processing profiles in the *[Image Editor](the_image_editor_tab)* tab, if you expand the
 *Processing Profiles* list. You can also see them if you right-click on
 a thumbnail in the *File Browser* tab and move your mouse over to
 "*Processing Profile Operations \> Apply Profile*".
 
-Read the short "[Processing Profile
-Selector](The_Image_Editor_Tab#Processing_Profile_Selector.md)"
+Read the short "[Processing Profile Selector](the_image_editor_tab#processing_profile_selector)"
 article to make sure you understand how to make full use of the
 selector, partial profiles and the fill mode toggle button.
 
@@ -27,8 +25,7 @@ selector, partial profiles and the fill mode toggle button.
 ![](Rt_imageeditor_customprofile_cropped.jpg "Rt_imageeditor_customprofile_cropped.jpg")
 in the [Image Editor](the_image_editor_tab).\]\] You can
 create your own processing profiles and have them shown in the
-[Processing Profile
-Selector](The_Image_Editor_Tab#Processing_Profile_Selector.md)
+[Processing Profile Selector](the_image_editor_tab#processing_profile_selector)
 drop-down list.
 
 - Open a photo you want to create a good starting point profile for.
@@ -44,8 +41,7 @@ drop-down list.
   camera has a noisy sensor you may want to apply a certain level of
   [noise reduction](noise_reduction) by default. Maybe you'd
   like to set your name in the [IPTC](iptc_tab) "Author"
-  field and have RawTherapee [copy your metadata changes to the saved
-  files](Metadata_Copy_Mode.md). You will generally want to
+  field and have RawTherapee [copy your metadata changes to the saved   files](metadata_copy_mode). You will generally want to
   leave the [white balance](white_balance) set to "Camera"
   since your photos will be taken under various lighting.
 - When you are done tweaking, click the *Save Current Profile* icon
@@ -58,11 +54,11 @@ drop-down list.
 - Restart RawTherapee, and now your new processing profile will appear
   in the drop-down list under "My profiles".
 
-  
+
 
 ## Partial Processing Profiles
 
-[thumb](image:pp3_partial_window.png)
+![thumb](image:pp3_partial_window.png)
 
 Sometimes, you will want to save only a subset of the parameters
 available, e.g. to avoid storing geometric parameters like rotate, crop

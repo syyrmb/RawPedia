@@ -17,14 +17,12 @@ information below the images in the file browser.
 
 ## Context Menu Options
 
-Adjust the grouping of the right-click context menu in the [File
-Browser](File_Browser.md) (and
+Adjust the grouping of the right-click context menu in the [File Browser](file_browser) (and
 [Filmstrip](the_image_editor_tab#the_filmstrip)).
 
 ## Parsed Extensions
 
-Choose which files are recognized as images and displayes in the [File
-Browser](File_Browser.md). All supported extensions are set by
+Choose which files are recognized as images and displayes in the [File Browser](file_browser). All supported extensions are set by
 default. They can be deactivated by unchecking the relevant box. If a
 desired extension is missing you can easily add it by using the plus
 button.

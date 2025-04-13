@@ -91,12 +91,11 @@ account possible malfunctioning (bugs) still unsolved !
 
 - these profiles apply either like external profiles after RGB
   conversion (as does Capture NX2) to the rgb data, so theoretically
-  without [rendering
-  intent](https://en.wikipedia.org/wiki/Color_management#Rendering_intent)
+  without [rendering intent](https://en.wikipedia.org/wiki/Color_management#Rendering_intent)
   (relative, absolute, perceptual, saturation). They modify Lab values
   but not rgb ones - histograms remain the same, or like internal
-  profiles as does RawTherapee (theoretically without [rendering
-  intent](https://en.wikipedia.org/wiki/Color_management#Rendering_intent));
+  profiles as does RawTherapee (theoretically without
+  [rendering intent](https://en.wikipedia.org/wiki/Color_management#Rendering_intent));
 - they try to reduce the gap between their original values (the sensor
   ones) and a target value, theoretically perfect;
 - they are theoretically matching: a given illuminant (D50, C,
@@ -361,8 +360,7 @@ lighting tubes sold in the shops:
 - F11 : Philips T84 – 4000K
 - F12 : Philips T83 – 3000K
 
-These illuminants (see [white balance
-gaps](#White_balance_gaps.md)) have a very different spectral
+These illuminants (see [white balance gaps](#white_balance_gaps)) have a very different spectral
 power distribution between them and between the "daylight" and
 "blackbody" illuminants. So it is not advised to replace - when a
 lighting is fluorescent - the illuminant in question (e.g. F11 4000K) by
@@ -398,8 +396,7 @@ following choices:
 - use of CIECAM02 for the chromatic adaptation
 - use of CIE Lab for deltaE calculation
 
-To remedy it (partially) it is enough to create an [input
-profile](#ICC_input_profiles_:_elaboration,_use,_gaps.md) with
+To remedy it (partially) it is enough to create an [input profile](#icc_input_profiles_:_elaboration,_use,_gaps) with
 the desired lighting source and the matching spectral data.
 
 ##### Other illuminants
@@ -717,8 +714,7 @@ in \windows\system32\spool\drivers\color for Windows and
 /usr/share/color/icc for the other systems.
 
 When you choose an output profile, e.g. AdobeRGB1998 and the working
-profile Prophoto, LCMS2 will convert with a [Colorimetric
-intent](Preferences#Rendering_Intent.md) (chosen by default in
+profile Prophoto, LCMS2 will convert with a [Colorimetric intent](preferences#rendering_intent) (chosen by default in
 the RawTherapee options: relative, perceptual, ...) the RGB data from
 the working space to the output space.
 

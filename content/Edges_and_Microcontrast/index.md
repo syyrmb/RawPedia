@@ -23,8 +23,7 @@ the edges, and can be combined with
 [Microcontrast](edges_and_microcontrast#microcontrast) to
 also enhance the texture.
 
-Both algorithms were originally implemented by [Manuel
-Llorens](https://github.com/ManuelLlorens).
+Both algorithms were originally implemented by [Manuel Llorens](https://github.com/ManuelLlorens).
 
 ## Edges
 

@@ -12,8 +12,7 @@ Batch Adjustments / Sync
 
 RawTherapee lets you batch-adjust, or sync, the processing settings in
 many photos at the same time in generally two ways. It lets you copy and
-paste a [processing
-profile](Sidecar_Files_-_Processing_Profiles.md) (a collection
+paste a [processing profile](sidecar_files_-_processing_profiles) (a collection
 of tool settings), in parts or in full, to any number of images. It also
 lets you select any number of images and adjust any tool in all of them
 at once (sync), and it lets you do this in two ways. Let's take a closer
@@ -42,8 +41,7 @@ To process the lot, what you would usually do is open any one image from
 the whole series in the [Editor](the_image_editor_tab) tab
 and tweak it to your liking. Once you have finished tweaking it, you
 will apply this image's processing profile to all other images in the
-same series. To do that, go to the [File
-Browser](The_File_Browser_Tab.md) tab, right-click on this photo
+same series. To do that, go to the [File Browser](the_file_browser_tab) tab, right-click on this photo
 and select "*Processing Profile Operations \> Copy*", then select the
 images you want to apply this profile to, right-click on any one of them
 (it doesn't matter which) and select "*Processing Profile Operations \>
@@ -75,6 +73,5 @@ Compensation and one which has not, and you set Exposure Compensation to
 +0.6EV, then the previously-tweaked photo would end up having +1.6EV
 Exposure Compensation in "Add" mode and just +0.6EV in "Set" mode. The
 photo which was not previously tweaked would have +0.6EV in both modes.
-You can decide which tools should work in which mode from the [Batch
-Processing tab in
-Preferences](Preferences#Batch_Processing_Tab.md).
+You can decide which tools should work in which mode from the
+[Batch Processing tab in Preferences](preferences#batch_processing_tab).

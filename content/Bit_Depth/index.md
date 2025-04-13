@@ -24,8 +24,7 @@ white), while RGB color images need three channels - one describes red,
 one green and one blue. Each channel describes only an intensity, so
 there is nothing inherently green about a number which describes a pixel
 from the green channel; colors derive from the interaction between all
-three channels in the [RGB color
-model](https://en.wikipedia.org/wiki/RGB_color_model).
+three channels in the [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model).
 
 A single pixel could represent more than three channels, for example it
 could contain information about an alpha channel (which describes
@@ -41,8 +40,7 @@ Bit depth is expressed as a value which describes either the number of
 **bits per pixel** (BPP), or **bits per channel** (BPC). The very
 popular [JPEG format](https://en.wikipedia.org/wiki/JPEG) typically
 saves images with a precision of 8 bits per channel, using three
-channels, for a total of 24 bits per pixel. The [TIFF
-format](https://en.wikipedia.org/wiki/TIFF) supports various bit depths,
+channels, for a total of 24 bits per pixel. The [TIFF format](https://en.wikipedia.org/wiki/TIFF) supports various bit depths,
 for example 32 bits per channel for a total of 96 bits per pixel.
 
 When describing bit depth, state what you're describing to leave no room
@@ -79,8 +77,7 @@ describe a color, the more precisely you can describe that color.
   If we use 0 to represent black and 255 to represent white, 254 shades
   of gray can also be described. This is what JPEG files use - 8 bits
   per channel, with 3 channels. It is sufficient to be used for most
-  ready-to-view photographs in the [sRGB color
-  space](https://en.wikipedia.org/wiki/sRGB) without visible
+  ready-to-view photographs in the [sRGB color space](https://en.wikipedia.org/wiki/sRGB) without visible
   [posterization](https://en.wikipedia.org/wiki/Posterization), so you
   can use it when saving photographs ready to be viewed over the
   internet. It is not suitable as an intermediate format nor as a final
@@ -108,10 +105,8 @@ describe a color, the more precisely you can describe that color.
   dubious quality). 16 bits per channel are enough for most photography
   needs, including for use in intermediate files (if you want to pass an
   image from one program to another without data loss).
-- The values of a 16-bit [floating
-  point](https://en.wikipedia.org/wiki/Floating-point_arithmetic) image,
-  also known as [half-precision floating
-  point](https://en.wikipedia.org/wiki/Half-precision_floating-point_format),
+- The values of a 16-bit [floating point](https://en.wikipedia.org/wiki/Floating-point_arithmetic) image,
+  also known as [half-precision floating point](https://en.wikipedia.org/wiki/Half-precision_floating-point_format),
   are spread in a way more suitable to sampling light than in 16-bit
   integer. This is so for various reasons: human vision is more
   sensitive to small changes in dark tones than to small changes in
@@ -123,8 +118,7 @@ describe a color, the more precisely you can describe that color.
   floating-point notation, values are distributed more closely in the
   (lower) darker tones than in the (higher) lighter ones, thus allowing
   for a more accurate description of the tones more significant to us.
-- A 32-bit [floating
-  point](https://en.wikipedia.org/wiki/Floating-point_arithmetic) image
+- A 32-bit [floating point](https://en.wikipedia.org/wiki/Floating-point_arithmetic) image
   can represent 4.3 billion values per channel, and requires roughly
   twice the disk space as a 16-bit image. Few programs support 32-bit
   images.
@@ -158,11 +152,9 @@ truly - RawTherapee.
 ## After RawTherapee
 
 Once you have adjusted a photo in RawTherapee and are ready to
-[save](saving_images), you are faced with a choice of [output
-format, per-channel bit
-depth](Color_Management#Output_Profile.md), [color space and
-gamma
-encoding](Color_Management_addon#Output_space_.22Output_Profile.22.md).
+[save](saving_images), you are faced with a choice of
+[output format, per-channel bit depth](color_management#output_profile),
+[color space and gamma encoding](color_management_addon#output_space_.22output_profile.22).
 If you plan to post-process your photos after RawTherapee in a
 16-bit-capable image editing program, it is better to save them in a
 lossless 16-bit format. RawTherapee can save images in 16-bit integer

@@ -17,8 +17,7 @@ la *vista previa* del *Editor*.
 El procedimiento general es seleccionar una imagen clave o
 representativa del grupo a modificar y revelarla completamente según se
 desee. A continuación, tras volver al *Explorador de archivos*, haz
-sobre la imagen y dentro de ***Operaciones con el [perfil de
-procesamiento](Sidecar_Files_-_Processing_Profiles/es.md)***,
+sobre la imagen y dentro de ***Operaciones con el [perfil de procesamiento](sidecar_files_-_processing_profiles/es)***,
 haz en **Copiar**. Después, tras seleccionar las imágenes necesarias,
 sobre una de éllas haz y dentro de *Operaciones con el perfil de
 procesamiento*, haz en **Pegar** o en **Pegar - parcialmente**.
@@ -66,6 +65,5 @@ de sincronización *Exposición* ajustas la *Compensación de exposición* a
 retocada tendría **+0.6EV** en ambos modos.
 
 Para decidir en qué modo debe funcionar cada herramienta de
-sincronización, debes establecerlo en la [**pestaña Procesamiento por
-lotes**](Preferences/es#Batch_Processing_Tab.md), de las
+sincronización, debes establecerlo en la [**pestaña Procesamiento por lotes**](preferences/es#batch_processing_tab), de las
 *Preferencias*.

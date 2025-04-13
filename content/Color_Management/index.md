@@ -30,12 +30,10 @@ the [camera sensor data](demosaicing#introduction) to an
 internal RGB color space. This conversion requires an input profile made
 specifically for the camera. Such a profile is the result of the
 analysis of how specific colors and tones are captured, processed and
-represented as raw data by the camera (for more details, see e.g. [Elle
-Stone's
-article](https://ninedegreesbelow.com/photography/articles.html#profile-digital-camera),
+represented as raw data by the camera (for more details, see e.g.
+[Elle Stone's article](https://ninedegreesbelow.com/photography/articles.html#profile-digital-camera),
 [DCamProf's documentation](https://torger.se/anders/dcamprof.html) or
-[How to create DCP color
-profiles](How_to_create_DCP_color_profiles.md). Without a
+[How to create DCP color profiles](how_to_create_dcp_color_profiles). Without a
 camera-specific input profile, accurate color representation is
 impossible.
 
@@ -122,8 +120,7 @@ metadata.
 Most provided DCP profiles are dual-illuminant (see
 [below](color_management#dcp_illuminant)) and some provide
 tone curves and looks as well. New profiles are added exclusively based
-on user submission. Please read [How to create DCP color
-profiles](How_to_create_DCP_color_profiles.md) for further
+on user submission. Please read [How to create DCP color profiles](how_to_create_dcp_color_profiles) for further
 instructions in case you want to contribute.
 
 #### Custom
@@ -131,8 +128,7 @@ instructions in case you want to contribute.
 Specify a custom DCP or ICC camera input profile when an automatic match
 is not available, or if you want to override the standard or matched
 profile. DCP profiles for your camera may be available through the Adobe
-DNG Converter. Read [How to get LCP and DCP
-profiles](How_to_get_LCP_and_DCP_profiles.md) for further
+DNG Converter. Read [How to get LCP and DCP profiles](how_to_get_lcp_and_dcp_profiles) for further
 information.
 
 Be aware that when you load a custom ICC profile that it is an *input*
@@ -280,12 +276,10 @@ with unsupported ICC profiles).
 
 Some ICC profiles apply a tone-curve and desaturate bright highlights
 for a more film-like look. Those profiles may not work well together
-with [Highlight
-Reconstruction](Exposure#Highlight_Reconstruction.md). If you
+with [Highlight Reconstruction](exposure#highlight_reconstruction). If you
 see a radical change in contrast when you apply your ICC profile, it has
 applied a tone-curve and then you should not use it together with
-[Highlight
-Reconstruction](Exposure#Highlight_Reconstruction.md).
+[Highlight Reconstruction](exposure#highlight_reconstruction).
 
 Unlike DCP profiles, ICC profile processing may cause clipping of
 extremely saturated colors during conversion. In practice this is rarely
@@ -365,9 +359,7 @@ RawTherapee 5.5 allows you to specify custom working profiles through a
 [JSON](https://en.wikipedia.org/wiki/JSON) file. The file should be
 named `workingspaces.json` and it can reside in:
 
-- the ICC profile folder as set in [Preferences \> Color Management \>
-  Directory containing color
-  profiles](Preferences#Color_Management_Tab.md),
+- the ICC profile folder as set in [Preferences \> Color Management \> Directory containing color profiles](preferences#color_management_tab),
 - or in RawTherapee's own ICC profile folder:
   - Windows: <rt-install-folder>`\iccprofiles`
   - Linux:
@@ -997,8 +989,7 @@ width="600" />
 You can find the description of these features in "Local Adjustments" -
 "Color Appearance (Cam16 & JzCzHz)
 
-[Local Adjustments - Cam16 with
-HDR](Local_Adjustments#Cam16_tutorial_with_an_HDR_image.md)
+[Local Adjustments - Cam16 with HDR](local_adjustments#cam16_tutorial_with_an_hdr_image)
 
 ## Output Profile
 
@@ -1012,8 +1003,7 @@ RawTherapee lets you specify "input" (e.g. your camera's profile),
 class profiles with an RGB color space, because RawTherapee saves only
 RGB images. Profiles listed in this combobox are those which come
 bundled with RawTherapee and those located in the folder set in
-Preferences \> [Color
-Management](Preferences#Color_Management_Tab.md).
+Preferences \> [Color Management](preferences#color_management_tab).
 
 The soft-proofing feature is dedicated to simulating printer rendering.
 It lets you preview what your image will look like when printed,
@@ -1057,8 +1047,8 @@ profiles, otherwise you're flying in the dark.
 ### Bundled Output Profiles
 
 RawTherapee comes bundled with a number of custom-made, high quality
-output profiles. There are two types: ones compatible with [ICC
-v2](https://en.wikipedia.org/wiki/ICC_profile), and ones with
+output profiles. There are two types: ones compatible with
+[ICC v2](https://en.wikipedia.org/wiki/ICC_profile), and ones with
 [v4](https://www.color.org/whyusev4.xalter). The v4 versions should be
 compatible with most modern software. The legacy v2 versions are
 supplied as a fallback.
@@ -1080,8 +1070,7 @@ of the output space:
 By default all these profiles have a TRC (Tone Reproduction Curve) with
 gamma=2.4 and slope=12.92.
 
-You can customize these profiles using the [ICC profile
-Creator](ICC_Profile_Creator.md), which allows you to:
+You can customize these profiles using the [ICC profile Creator](icc_profile_creator), which allows you to:
 
 - change the TRC and assign any value from 1 (linear gamma) upwards.
 - change the primaries and illuminant to suit your needs.
