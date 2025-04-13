@@ -126,13 +126,13 @@ and/or using the Spot WB tool.
 ### Pick
 
 <figure>
-<img src="White_balance_1_before.png"
+<img src="/images/White_balance_1_before.png"
 title="White_balance_1_before.png" />
 <figcaption>White_balance_1_before.png</figcaption>
 </figure>
 
 <figure>
-<img src="White_balance_1_after.png"
+<img src="/images/White_balance_1_after.png"
 title="White_balance_1_after.png" />
 <figcaption>White_balance_1_after.png</figcaption>
 </figure>
@@ -570,22 +570,22 @@ of the processing (which is always very complex). Of course it can
   - Example for a luminance of 10 and a luminance of 50 \[0..100\].
 
 <figure>
-<img src="Gamu-comp10.jpg" title="Gamu-comp10.jpg" />
+<img src="/images/Gamu-comp10.jpg" title="Gamu-comp10.jpg" />
 <figcaption>Gamu-comp10.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Gamu-comp50.jpg" title="Gamu-comp50.jpg" />
+<img src="/images/Gamu-comp50.jpg" title="Gamu-comp50.jpg" />
 <figcaption>Gamu-comp50.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Rec2020_Pointer.jpg" title="Rec2020_Pointer.jpg" />
+<img src="/images/Rec2020_Pointer.jpg" title="Rec2020_Pointer.jpg" />
 <figcaption>Rec2020_Pointer.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="sRGB2jdcmax.jpg" title="sRGB2jdcmax.jpg" />
+<img src="/images/sRGB2jdcmax.jpg" title="sRGB2jdcmax.jpg" />
 <figcaption>sRGB2jdcmax.jpg</figcaption>
 </figure>
 

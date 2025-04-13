@@ -178,12 +178,12 @@ on the top right of the image window. Overexposed areas will show up in
 black.
 
 <figure>
-<img src="Hra_0.jpg" title="Hra_0.jpg" />
+<img src="/images/Hra_0.jpg" title="Hra_0.jpg" />
 <figcaption>Hra_0.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Hra_0_chi.jpg" title="Hra_0_chi.jpg" />
+<img src="/images/Hra_0_chi.jpg" title="Hra_0_chi.jpg" />
 <figcaption>Hra_0_chi.jpg</figcaption>
 </figure>
 
@@ -197,7 +197,7 @@ will usually want to keep the HC slider around or below 100 - watch the
 histogram and the preview!
 
 <figure>
-<img src="Hra_125_ba.jpg" title="Hra_125_ba.jpg" />
+<img src="/images/Hra_125_ba.jpg" title="Hra_125_ba.jpg" />
 <figcaption>Hra_125_ba.jpg</figcaption>
 </figure>
 
@@ -223,7 +223,7 @@ would make the photo look dull. In this example the indicator's black
 areas disappeared when I set HC to 125.
 
 <figure>
-<img src="Hra_toomuch_histogram.png"
+<img src="/images/Hra_toomuch_histogram.png"
 title="Hra_toomuch_histogram.png" />
 <figcaption>Hra_toomuch_histogram.png</figcaption>
 </figure>
@@ -348,7 +348,7 @@ expanded and highlights compressed to better match human perception.
 #### Linear
 
 <figure>
-<img src="Rt55_curve_linear.png" title="Rt55_curve_linear.png" />
+<img src="/images/Rt55_curve_linear.png" title="Rt55_curve_linear.png" />
 <figcaption>Rt55_curve_linear.png</figcaption>
 </figure>
 
@@ -358,7 +358,7 @@ curve applied. It disables the curve.
 #### Standard
 
 <figure>
-<img src="Rt55_curve_standard.png" title="Rt55_curve_standard.png" />
+<img src="/images/Rt55_curve_standard.png" title="Rt55_curve_standard.png" />
 <figcaption>Rt55_curve_standard.png</figcaption>
 </figure>
 
@@ -400,7 +400,7 @@ direction, then the effect will be identical to manipulating the
 #### Flexible
 
 <figure>
-<img src="Rt55_curve_flexible.png" title="Rt55_curve_flexible.png" />
+<img src="/images/Rt55_curve_flexible.png" title="Rt55_curve_flexible.png" />
 <figcaption>Rt55_curve_flexible.png</figcaption>
 </figure>
 
@@ -413,7 +413,7 @@ with little impact on the other parts.
 #### Parametric
 
 <figure>
-<img src="Rt55_curve_parametric.png"
+<img src="/images/Rt55_curve_parametric.png"
 title="Rt55_curve_parametric.png" />
 <figcaption>Rt55_curve_parametric.png</figcaption>
 </figure>
@@ -453,7 +453,7 @@ control points to linear (zero).
 #### Control Cage
 
 <figure>
-<img src="Rt55_curve_control_cage.png"
+<img src="/images/Rt55_curve_control_cage.png"
 title="Rt55_curve_control_cage.png" />
 <figcaption>Rt55_curve_control_cage.png</figcaption>
 </figure>

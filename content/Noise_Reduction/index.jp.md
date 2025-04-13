@@ -12,7 +12,7 @@ contributors:
 ## イントロダクション
 
 <figure>
-<img src="Noise-cactus-0-ba.png" title="Noise-cactus-0-ba.png" />
+<img src="/images/Noise-cactus-0-ba.png" title="Noise-cactus-0-ba.png" />
 <figcaption>Noise-cactus-0-ba.png</figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ XYZ色空間のYが輝度ノイズの低減に使われ、（X-Y）と（Y-Z）�
 ### 輝度ノイズ
 
 <figure>
-<img src="Rt_nr_luminancecurve_books.jpg"
+<img src="/images/Rt_nr_luminancecurve_books.jpg"
 title="Rt_nr_luminancecurve_books.jpg" />
 <figcaption>Rt_nr_luminancecurve_books.jpg</figcaption>
 </figure>
@@ -239,7 +239,7 @@ title="Rt_nr_luminancecurve_books.jpg" />
 
 ### メディアン
 
-<img src="Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
+<img src="/images/Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
 width="600" alt="Rt_nr_median_books.jpg" />
 ![](Rt_nr_median_zoom_books.jpg "Rt_nr_median_zoom_books.jpg")
 

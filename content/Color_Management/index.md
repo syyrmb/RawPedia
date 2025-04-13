@@ -45,7 +45,7 @@ because most tools depend on it. There are several ways to apply an
 input profile.
 
 <figure>
-<img src="ColorManagement-InputProfile-GUI.jpg"
+<img src="/images/ColorManagement-InputProfile-GUI.jpg"
 title="ColorManagement-InputProfile-GUI.jpg" />
 <figcaption>ColorManagement-InputProfile-GUI.jpg</figcaption>
 </figure>
@@ -435,14 +435,14 @@ makes it possible to easily see:
   to 770nm.
 
 <figure>
-<img src="ciexy-color.jpg" title="ciexy-color.jpg" width="600" />
+<img src="/images/ciexy-color.jpg" title="ciexy-color.jpg" width="600" />
 <figcaption>ciexy-color.jpg</figcaption>
 </figure>
 
 - A triangular color-space model based on the primaries.
 
 <figure>
-<img src="ciexy-3space.jpg" title="ciexy-3space.jpg" width="600" />
+<img src="/images/ciexy-3space.jpg" title="ciexy-3space.jpg" width="600" />
 <figcaption>ciexy-3space.jpg</figcaption>
 </figure>
 
@@ -450,7 +450,7 @@ makes it possible to easily see:
   of the illuminants D50, D65, Std A, ).
 
 <figure>
-<img src="ciexy-wp.jpg" title="ciexy-wp.jpg" width="600" />
+<img src="/images/ciexy-wp.jpg" title="ciexy-wp.jpg" width="600" />
 <figcaption>ciexy-wp.jpg</figcaption>
 </figure>
 
@@ -478,7 +478,7 @@ of imaginary colors.
 ### Use of data from the "CIE xy" diagram in Abstract profiles.
 
 <figure>
-<img src="cie-abstract_graph3.jpg" title="cie-abstract_graph3.jpg"
+<img src="/images/cie-abstract_graph3.jpg" title="cie-abstract_graph3.jpg"
 width="600" />
 <figcaption>cie-abstract_graph3.jpg</figcaption>
 </figure>
@@ -726,7 +726,7 @@ It has several objectives:
 By default, the illuminant is set to the corresponding value in the
 Working profile. For example this corresponds to D50 for "ProPhoto", D65
 for "sRGB", D60 for "ACESp1".
-<img src="ciexy-wp.jpg" title="ciexy-wp.jpg" width="600"
+<img src="/images/ciexy-wp.jpg" title="ciexy-wp.jpg" width="600"
 alt="ciexy-wp.jpg" /> Why change it? There are several reasons for
 wanting to change this value:
 
@@ -820,13 +820,13 @@ Raw file: (Brian Poindexter - Creative Common Attribution-share Alike
 #### Original image (Rawtherapee - default)
 
 <figure>
-<img src="flowerT.jpg" title="flowerT.jpg" width="600" />
+<img src="/images/flowerT.jpg" title="flowerT.jpg" width="600" />
 <figcaption>flowerT.jpg</figcaption>
 </figure>
 
 #### Apply a TRC
 
-<img src="flowerT-trc.jpg" title="flowerT-trc.jpg" width="600"
+<img src="/images/flowerT-trc.jpg" title="flowerT-trc.jpg" width="600"
 alt="flowerT-trc.jpg" /> Examine the green part of the image:
 
 - The more you act on Slope, the more the dark part will lighten
@@ -835,13 +835,13 @@ alt="flowerT-trc.jpg" /> Examine the green part of the image:
 #### Change primaries
 
 Adobe RGB replace Prophoto (Working profile), Rawtherapee's default
-setting <img src="flowerT-primaries.jpg" title="flowerT-primaries.jpg"
+setting <img src="/images/flowerT-primaries.jpg" title="flowerT-primaries.jpg"
 width="600" alt="flowerT-primaries.jpg" /> Try changing 'Destination
 primaries - Adobe RGB' to another value, for example Rec2020 or ACESp0
 
 #### Change primaries - Custom CIExy diagram
 
-<img src="flowerT-prim-CIExydiag.jpg" title="flowerT-prim-CIExydiag.jpg"
+<img src="/images/flowerT-prim-CIExydiag.jpg" title="flowerT-prim-CIExydiag.jpg"
 width="600" alt="flowerT-prim-CIExydiag.jpg" /> The change concerns only
 the red point from Adobe RGB: observe the image and the change in the
 values of the primaries Rx, Ry
@@ -866,7 +866,7 @@ The settings given in the example are for didactic purposes. Of course
 you can (should) use settings that are closer to the Working profile
 values.
 
-<img src="ciexy-bw1.jpg" title="ciexy-bw1.jpg" width="600"
+<img src="/images/ciexy-bw1.jpg" title="ciexy-bw1.jpg" width="600"
 alt="ciexy-bw1.jpg" /> Raw file:
 [2](https://drive.google.com/file/d/1azCxu1midw6dcuN7SbvbAiJH4pxX5BTA/view?usp=sharing)
 
@@ -989,7 +989,7 @@ These improvements concern:
 - the possibility of acting on the dominant color from the CIExy diagram
 
 <figure>
-<img src="cie-abstract_graph4.jpg" title="cie-abstract_graph4.jpg"
+<img src="/images/cie-abstract_graph4.jpg" title="cie-abstract_graph4.jpg"
 width="600" />
 <figcaption>cie-abstract_graph4.jpg</figcaption>
 </figure>

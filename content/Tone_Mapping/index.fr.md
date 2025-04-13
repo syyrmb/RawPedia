@@ -29,7 +29,7 @@ inspecter une partie de l'image, ou bien zoomer l'aperçu principal à
 ------------------------------------------------------------------------
 
 <figure>
-<img src="Rt407-ba-tonemapping-hdr-cropped.jpg"
+<img src="/images/Rt407-ba-tonemapping-hdr-cropped.jpg"
 title="Rt407-ba-tonemapping-hdr-cropped.jpg" />
 <figcaption>Rt407-ba-tonemapping-hdr-cropped.jpg</figcaption>
 </figure>

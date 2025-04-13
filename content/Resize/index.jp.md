@@ -11,7 +11,7 @@ contributors:
 </div>
 
 <figure>
-<img src="Resize_tool_5.4-dev.png" title="Resize_tool_5.4-dev.png" />
+<img src="/images/Resize_tool_5.4-dev.png" title="Resize_tool_5.4-dev.png" />
 <figcaption>Resize_tool_5.4-dev.png</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ contributors:
 　普通は切り抜いた領域に適用するための幅と高さが必要ですが、画像全体に適用することも出来ます。切り抜いた領域はそれに応じて拡大・縮小されます。
 
 <figure>
-<img src="Resize-interpolation.png" title="Resize-interpolation.png" />
+<img src="/images/Resize-interpolation.png" title="Resize-interpolation.png" />
 <figcaption>Resize-interpolation.png</figcaption>
 </figure>
 

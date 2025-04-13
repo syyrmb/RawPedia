@@ -72,13 +72,13 @@ nicht:
 ## Ein DCP für Negative erstellen
 
 <figure>
-<img src="DNG_Profile_Editor_inverted_tone_curve.png"
+<img src="/images/DNG_Profile_Editor_inverted_tone_curve.png"
 title="DNG_Profile_Editor_inverted_tone_curve.png" />
 <figcaption>DNG_Profile_Editor_inverted_tone_curve.png</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_negative_dcp_l_curve.png"
+<img src="/images/Rt_negative_dcp_l_curve.png"
 title="Rt_negative_dcp_l_curve.png" />
 <figcaption>Rt_negative_dcp_l_curve.png</figcaption>
 </figure>

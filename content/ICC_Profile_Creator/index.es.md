@@ -62,14 +62,14 @@ Mediante el *Generador de Perfiles ICC* RawTherapee sólo puede generar
 ## Como usar el Generador de Perfiles
 
 <figure>
-<img src="Rt59_icc_profile_creator.jpg"
+<img src="/images/Rt59_icc_profile_creator.jpg"
 title="Rt59_icc_profile_creator.jpg" />
 <figcaption>Rt59_icc_profile_creator.jpg</figcaption>
 </figure>
 
 Para acceder al cuadro de diálogo del *Generador de Perfiles* tienes que
 hacer clic en el botón que encontrarás junto a los de *Preferencias* y
-*Ayuda* (<img src="gamut-plus.png" title="gamut-plus.png" height="26"
+*Ayuda* (<img src="/images/gamut-plus.png" title="gamut-plus.png" height="26"
 alt="gamut-plus.png" />), en el extremo izquierdo o superior de la
 ventana de RawTherapee.
 

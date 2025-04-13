@@ -5,7 +5,7 @@ contributors:
 ---
 
 <figure>
-<img src="Rt-5-misty1.jpg" title="Rt-5-misty1.jpg" />
+<img src="/images/Rt-5-misty1.jpg" title="Rt-5-misty1.jpg" />
 <figcaption>Rt-5-misty1.jpg</figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ deselecting any other mode.</caption>
 <td style="padding:10px;"><p>Regular*</p></td>
 <td></td>
 <td><figure>
-<img src="preview_mode_1_regular.png"
+<img src="/images/preview_mode_1_regular.png"
 title="Image:preview mode 1 regular.png" />
 <figcaption>Image:preview mode 1 regular.png</figcaption>
 </figure></td>
@@ -220,7 +220,7 @@ title="Image:preview mode 1 regular.png" />
 <td style="padding:10px;"><p>Red channel</p></td>
 <td style="text-align: center;"><p>r</p></td>
 <td><figure>
-<img src="preview_mode_2_red.png"
+<img src="/images/preview_mode_2_red.png"
 title="Image:preview mode 2 red.png" />
 <figcaption>Image:preview mode 2 red.png</figcaption>
 </figure></td>
@@ -229,7 +229,7 @@ title="Image:preview mode 2 red.png" />
 <td style="padding:10px;"><p>Green channel</p></td>
 <td style="text-align: center;"><p>g</p></td>
 <td><figure>
-<img src="preview_mode_3_green.png"
+<img src="/images/preview_mode_3_green.png"
 title="Image:preview mode 3 green.png" />
 <figcaption>Image:preview mode 3 green.png</figcaption>
 </figure></td>
@@ -238,7 +238,7 @@ title="Image:preview mode 3 green.png" />
 <td style="padding:10px;"><p>Blue channel</p></td>
 <td style="text-align: center;"><p>b</p></td>
 <td><figure>
-<img src="preview_mode_4_blue.png"
+<img src="/images/preview_mode_4_blue.png"
 title="Image:preview mode 4 blue.png" />
 <figcaption>Image:preview mode 4 blue.png</figcaption>
 </figure></td>
@@ -247,7 +247,7 @@ title="Image:preview mode 4 blue.png" />
 <td style="padding:10px;"><p>Luminance channel</p></td>
 <td style="text-align: center;"><p>v</p></td>
 <td><figure>
-<img src="preview_mode_5_luminance.png"
+<img src="/images/preview_mode_5_luminance.png"
 title="Image:preview mode 5 luminance.png" />
 <figcaption>Image:preview mode 5 luminance.png</figcaption>
 </figure></td>
@@ -256,7 +256,7 @@ title="Image:preview mode 5 luminance.png" />
 <td style="padding:10px;"><p>Focus Mask</p></td>
 <td style="text-align: center;"><p>Shift+f</p></td>
 <td><figure>
-<img src="preview_mode_6_focus.png"
+<img src="/images/preview_mode_6_focus.png"
 title="Image:preview mode 6 focus.png" />
 <figcaption>Image:preview mode 6 focus.png</figcaption>
 </figure></td>
@@ -354,12 +354,12 @@ and Crop Visualization</p></th>
 <td><p>Theme-based</p></td>
 <td style="text-align: center;"><p>8</p></td>
 <td><figure>
-<img src="Previewback_7_theme.png"
+<img src="/images/Previewback_7_theme.png"
 title="Image:Previewback_7_theme.png" />
 <figcaption>Image:Previewback_7_theme.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_theme.png"
+<img src="/images/Previewback_flower_theme.png"
 title="Previewback_flower_theme.png" width="180" />
 <figcaption>Previewback_flower_theme.png</figcaption>
 </figure></td>
@@ -373,12 +373,12 @@ ritaglio</em>".</p></td>
 <td><p>Black</p></td>
 <td style="text-align: center;"><p>9</p></td>
 <td><figure>
-<img src="Previewback_8_black.png"
+<img src="/images/Previewback_8_black.png"
 title="Image:Previewback_8_black.png" />
 <figcaption>Image:Previewback_8_black.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_white.png"
+<img src="/images/Previewback_flower_white.png"
 title="Previewback_flower_white.png" />
 <figcaption>Previewback_flower_white.png</figcaption>
 </figure></td>
@@ -389,12 +389,12 @@ nero.</p></td>
 <td><p>White</p></td>
 <td style="text-align: center;"><p>0</p></td>
 <td><figure>
-<img src="Previewback_9_white.png"
+<img src="/images/Previewback_9_white.png"
 title="Image:Previewback_9_white.png" />
 <figcaption>Image:Previewback_9_white.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_black.png"
+<img src="/images/Previewback_flower_black.png"
 title="Previewback_flower_black.png" />
 <figcaption>Previewback_flower_black.png</figcaption>
 </figure></td>

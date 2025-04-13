@@ -12,7 +12,7 @@ Ajustements L\*a\*b\*
 </div>
 
 <figure>
-<img src="Lab_color_space.png" title="Lab_color_space.png" />
+<img src="/images/Lab_color_space.png" title="Lab_color_space.png" />
 <figcaption>Lab_color_space.png</figcaption>
 </figure>
 

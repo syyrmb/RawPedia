@@ -25,7 +25,7 @@ fotografia raw i tot el que sigui raw</span>
 <tbody>
 <tr class="odd">
 <td><figure>
-<img src="Flag_of_the_United_States.svg"
+<img src="/images/Flag_of_the_United_States.svg"
 title="Flag_of_the_United_States.svg" width="90" height="60" />
 <figcaption>Flag_of_the_United_States.svg</figcaption>
 </figure>

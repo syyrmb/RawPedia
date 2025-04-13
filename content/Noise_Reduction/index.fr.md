@@ -13,7 +13,7 @@ Réduction du bruit
 ## Introduction
 
 <figure>
-<img src="Noise-cactus-0-ba.png" title="Noise-cactus-0-ba.png" />
+<img src="/images/Noise-cactus-0-ba.png" title="Noise-cactus-0-ba.png" />
 <figcaption>Noise-cactus-0-ba.png</figcaption>
 </figure>
 
@@ -293,7 +293,7 @@ clairs.
 ### Luminance
 
 <figure>
-<img src="Rt_nr_luminancecurve_books.jpg"
+<img src="/images/Rt_nr_luminancecurve_books.jpg"
 title="Rt_nr_luminancecurve_books.jpg" />
 <figcaption>Rt_nr_luminancecurve_books.jpg</figcaption>
 </figure>
@@ -399,7 +399,7 @@ d'autres images.
 ### Médian
 
 <figure>
-<img src="Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
+<img src="/images/Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
 width="600" />
 <figcaption>Rt_nr_median_books.jpg</figcaption>
 </figure>

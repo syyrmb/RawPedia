@@ -243,7 +243,7 @@ seront différents du texte.
 
 <div>
 
-<img src="startspot.jpg" title="startspot.jpg" width="600"
+<img src="/images/startspot.jpg" title="startspot.jpg" width="600"
 alt="startspot.jpg" /> Fichier raw (Jacques Desmis - Creative Common
 Attribution-share Alike 4.0):
 [1](https://drive.google.com/file/d/1X2g73FqzQl7-WRfzhF7zHa7XWwnKcwtx/view?usp=sharing)
@@ -269,7 +269,7 @@ accroître la saturation de la fleur rouge et réduire la luminance
   - feuille verte : L=48.3 a=-28.3 b=51.4
 
 <figure>
-<img src="prepare1.jpg" title="prepare1.jpg" width="600" />
+<img src="/images/prepare1.jpg" title="prepare1.jpg" width="600" />
 <figcaption>prepare1.jpg</figcaption>
 </figure>
 
@@ -290,7 +290,7 @@ Dans le menu settings, choisissez "Add tool to current spot..."
 - sélectionnez "Color & Light (Defects) - 11"
 
 <figure>
-<img src="addtoolcolorandlight1.jpg" title="addtoolcolorandlight1.jpg"
+<img src="/images/addtoolcolorandlight1.jpg" title="addtoolcolorandlight1.jpg"
 width="600" />
 <figcaption>addtoolcolorandlight1.jpg</figcaption>
 </figure>
@@ -308,7 +308,7 @@ width="600" />
 - la feuille verte est inchangée
 
 <figure>
-<img src="lightchro1.jpg" title="lightchro1.jpg" width="600" />
+<img src="/images/lightchro1.jpg" title="lightchro1.jpg" width="600" />
 <figcaption>lightchro1.jpg</figcaption>
 </figure>
 
@@ -347,7 +347,7 @@ forme : essayez les curseurs de "Shape detection" à l'exception de
 Threshold structure.
 
 <figure>
-<img src="previewdeltae1.jpg" title="previewdeltae1.jpg" width="600" />
+<img src="/images/previewdeltae1.jpg" title="previewdeltae1.jpg" width="600" />
 <figcaption>previewdeltae1.jpg</figcaption>
 </figure>
 
@@ -377,7 +377,7 @@ Essayez ici tous les réglages:
 - les réglages de l'outil (luminance, chroma, etc.)
 
 <figure>
-<img src="showmodif.jpg" title="showmodif.jpg" width="600" />
+<img src="/images/showmodif.jpg" title="showmodif.jpg" width="600" />
 <figcaption>showmodif.jpg</figcaption>
 </figure>
 
@@ -398,7 +398,7 @@ Choisissez dans "settings" :
   pour réaliser des gradients!
 
 Vous êtes prêts maintenant pour utiliser l'ensemble des outils en mode
-pleine image <img src="fullim1.jpg" title="fullim1.jpg" width="600"
+pleine image <img src="/images/fullim1.jpg" title="fullim1.jpg" width="600"
 alt="fullim1.jpg" />
 
 #### Combinaison d'outils avec un seul RT-spot
@@ -447,7 +447,7 @@ feuilles](File:colorleav1.jpg%7C600px%7Cthumb%7Ccenter%7CChanger)
   Blur, etc.
 
 <figure>
-<img src="excluding1.jpg" title="excluding1.jpg" width="600" />
+<img src="/images/excluding1.jpg" title="excluding1.jpg" width="600" />
 <figcaption>excluding1.jpg</figcaption>
 </figure>
 
@@ -467,7 +467,7 @@ supprimer le rouge
 - mettez 4 "Lockable color pickers" pour repérer les changements
 
 <figure>
-<img src="Redeye_prepare1.jpg" title="Redeye_prepare1.jpg"
+<img src="/images/Redeye_prepare1.jpg" title="Redeye_prepare1.jpg"
 width="600" />
 <figcaption>Redeye_prepare1.jpg</figcaption>
 </figure>
@@ -482,7 +482,7 @@ width="600" />
   - Scope color tools = 18
 
 <figure>
-<img src="Redeye_previewdE1.jpg" title="Redeye_previewdE1.jpg"
+<img src="/images/Redeye_previewdE1.jpg" title="Redeye_previewdE1.jpg"
 width="600" />
 <figcaption>Redeye_previewdE1.jpg</figcaption>
 </figure>
@@ -497,7 +497,7 @@ width="600" />
     "transitions" (plus faibles) et "transition decay" plus élevée
 
 <figure>
-<img src="Redeye1.jpg" title="Redeye1.jpg" width="600" />
+<img src="/images/Redeye1.jpg" title="Redeye1.jpg" width="600" />
 <figcaption>Redeye1.jpg</figcaption>
 </figure>
 
@@ -520,7 +520,7 @@ capteur, mais avec d'autres outils
 
 - constat
 
-<img src="Blotches.jpg" title="Blotches.jpg" width="600"
+<img src="/images/Blotches.jpg" title="Blotches.jpg" width="600"
 alt="Blotches.jpg" />
 
 - une solution possible
@@ -533,7 +533,7 @@ alt="Blotches.jpg" />
 - activez la courbe "Contrast by level" en réduisant le contraste pour
   les faibles niveaux.
 
-<img src="Blotchesless1.jpg" title="Blotchesless1.jpg" width="600"
+<img src="/images/Blotchesless1.jpg" title="Blotchesless1.jpg" width="600"
 alt="Blotchesless1.jpg" />
 
 #### Comment réaliser un Dodge and burn (Éclaircir et brûler)
@@ -576,7 +576,7 @@ Laplacien et aperçu des modifications, résultat
 - choisir "Add tool to current spot..." : "Soft Light - Original
   Retinex" - "Advanced" - "Original Retinex"
 
-<img src="Dodgeburn1.jpg" title="Dodgeburn1.jpg" width="600"
+<img src="/images/Dodgeburn1.jpg" title="Dodgeburn1.jpg" width="600"
 alt="Dodgeburn1.jpg" />  
 
 ##### Réglages du Laplacien et aperçu des modifications
@@ -590,12 +590,12 @@ alt="Dodgeburn1.jpg" />
 - Visualiser les modifications en choisissant: "Show process Fourier" :
   "show modifications without mask"
 
-<img src="Dodgeburnshow1.jpg" title="Dodgeburnshow1.jpg" width="600"
+<img src="/images/Dodgeburnshow1.jpg" title="Dodgeburnshow1.jpg" width="600"
 alt="Dodgeburnshow1.jpg" />
 
 ##### Résultats
 
-<img src="Dodgeburnmodif1.jpg" title="Dodgeburnmodif1.jpg" width="600"
+<img src="/images/Dodgeburnmodif1.jpg" title="Dodgeburnmodif1.jpg" width="600"
 alt="Dodgeburnmodif1.jpg" /> Un algorithme similaire est utilisé dans
 "Exposure" - Laplacian PDE IPOL Contrast attenuator" - il permet de
 traiter des images avec d'importants écarts d'exposition, souvent
@@ -616,7 +616,7 @@ et le teinte (hue).
 - Je repère 7 points avec un "Lockable color picker"
 - Add tool to current spot..." - "Color & Light" - "Advanced"
 
-<img src="gradprepa1.jpg" title="gradprepa1.jpg" width="600"
+<img src="/images/gradprepa1.jpg" title="gradprepa1.jpg" width="600"
 alt="gradprepa1.jpg" />` `
 
 Fichier raw (Creative Common Attribution-share Alike 4.0):
@@ -633,7 +633,7 @@ Arbitrairement je choisis les réglages suivants
 - Scope color tools = 30
 - Feather gradient(settings) = 25
 
-<img src="gradLCH1.jpg" title="gradLCH1.jpg" width="600"
+<img src="/images/gradLCH1.jpg" title="gradLCH1.jpg" width="600"
 alt="gradLCH1.jpg" />` `  
 
 ##### Changer les réglages par défaut
@@ -645,7 +645,7 @@ alt="gradLCH1.jpg" />` `
   angle)
 - et aussi si vous le souhaitez les valeurs de "Color and light"
 
-<img src="gradLCHScopeFeather1.jpg" title="gradLCHScopeFeather1.jpg"
+<img src="/images/gradLCHScopeFeather1.jpg" title="gradLCHScopeFeather1.jpg"
 width="600" alt="gradLCHScopeFeather1.jpg" />
 
 #### Cinq manières de changer l'exposition - relever les ombres - Évaluer la Dynamique Range - DR
@@ -682,7 +682,7 @@ J'aurais pu aussi utiliser :
   Exposure)
 - Essayez de faire varier cette valeur de 20 à 100
 
-<img src="shadows-prepa.jpg" title="shadows-prepa.jpg" width="600"
+<img src="/images/shadows-prepa.jpg" title="shadows-prepa.jpg" width="600"
 alt="shadows-prepa.jpg" />
 
 Fichier raw (Rawtherapee - Creative Common Attribution-share Alike 4.0):
@@ -695,7 +695,7 @@ Fichier raw (Rawtherapee - Creative Common Attribution-share Alike 4.0):
 - Shadows/Highlight
 - essayez de changer "Shadows tonal width"...et "Highlight"
 
-<img src="shadows-sh.jpg" title="shadows-sh.jpg" width="600"
+<img src="/images/shadows-sh.jpg" title="shadows-sh.jpg" width="600"
 alt="shadows-sh.jpg" />
 
 ##### Utiliser Tone Equalizer
@@ -705,7 +705,7 @@ alt="shadows-sh.jpg" />
 - Tone Equalizer
 - essayez les curseurs 2, 3 et 4
 
-<img src="shadows-toneeq.jpg" title="shadows-toneeq.jpg" width="600"
+<img src="/images/shadows-toneeq.jpg" title="shadows-toneeq.jpg" width="600"
 alt="shadows-toneeq.jpg" />
 
 ##### Utiliser TRC
@@ -716,7 +716,7 @@ alt="shadows-toneeq.jpg" />
 - augmentez "slope" jusque 150....revenez à 60
 - essayez de diminuer gamma et de l'accroître
 
-<img src="shadows-trc.jpg" title="shadows-trc.jpg" width="600"
+<img src="/images/shadows-trc.jpg" title="shadows-trc.jpg" width="600"
 alt="shadows-trc.jpg" />
 
 ##### Utiliser Log Encoding
@@ -728,7 +728,7 @@ alt="shadows-trc.jpg" />
 - cliquez sur le bouton "Automatic"
 - agissez sur "Target grey point"
 
-<img src="shadows-elog.jpg" title="shadows-elog.jpg" width="600"
+<img src="/images/shadows-elog.jpg" title="shadows-elog.jpg" width="600"
 alt="shadows-elog.jpg" />
 
 ##### Utiliser Exposure
@@ -744,7 +744,7 @@ Add tool to current spot... "Dynamic Range & Exposure"
 - essayez en neutralisant ces réglages
 - essayez d'autres réglages de "Tools exposure"
 
-<img src="shadows-expo.jpg" title="shadows-expo.jpg" width="600"
+<img src="/images/shadows-expo.jpg" title="shadows-expo.jpg" width="600"
 alt="shadows-expo.jpg" />
 
 ##### Recommandations
@@ -792,7 +792,7 @@ Remarquez :
 - la DR noir et blanc restituée est d'environ 12 à 13 Ev
 
 <figure>
-<img src="sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
+<img src="/images/sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
 width="600" />
 <figcaption>sweep-rgb-neutral.jpg</figcaption>
 </figure>
@@ -809,7 +809,7 @@ Remarquez :
 - Noter l'utilisation de "White distribution = 90"
 
 <figure>
-<img src="sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
+<img src="/images/sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
 <figcaption>sweep-rgb-log.jpg</figcaption>
 </figure>
 
@@ -834,7 +834,7 @@ Ciecam et change la répartition des lumières.
   Log Encoding ci-dessus.
 
 <figure>
-<img src="sweep-rgb-cie.jpg" title="sweep-rgb-cie.jpg" width="600" />
+<img src="/images/sweep-rgb-cie.jpg" title="sweep-rgb-cie.jpg" width="600" />
 <figcaption>sweep-rgb-cie.jpg</figcaption>
 </figure>
 
@@ -852,7 +852,7 @@ Remarquez :
   hautes lumières : 5(lightest) = -100
 
 <figure>
-<img src="sweep-rgb-te.jpg" title="sweep-rgb-te.jpg" width="600" />
+<img src="/images/sweep-rgb-te.jpg" title="sweep-rgb-te.jpg" width="600" />
 <figcaption>sweep-rgb-te.jpg</figcaption>
 </figure>
 
@@ -871,7 +871,7 @@ Remarquez :
   traitement important
 
 <figure>
-<img src="sweep-rgb-drexp1.jpg" title="sweep-rgb-drexp1.jpg"
+<img src="/images/sweep-rgb-drexp1.jpg" title="sweep-rgb-drexp1.jpg"
 width="600" />
 <figcaption>sweep-rgb-drexp1.jpg</figcaption>
 </figure>
@@ -888,7 +888,7 @@ Remarquez :
   16Ev
 
 <figure>
-<img src="sweep-rgb-deha.jpg" title="sweep-rgb-deha.jpg" width="600" />
+<img src="/images/sweep-rgb-deha.jpg" title="sweep-rgb-deha.jpg" width="600" />
 <figcaption>sweep-rgb-deha.jpg</figcaption>
 </figure>
 
@@ -904,7 +904,7 @@ Remarquez :
   14Ev
 
 <figure>
-<img src="sweep-rgb-sh.jpg" title="sweep-rgb-sh.jpg" width="600" />
+<img src="/images/sweep-rgb-sh.jpg" title="sweep-rgb-sh.jpg" width="600" />
 <figcaption>sweep-rgb-sh.jpg</figcaption>
 </figure>
 
@@ -920,7 +920,7 @@ Remarquez :
   16Ev
 
 <figure>
-<img src="sweep-rgb-trc.jpg" title="sweep-rgb-trc.jpg" width="600" />
+<img src="/images/sweep-rgb-trc.jpg" title="sweep-rgb-trc.jpg" width="600" />
 <figcaption>sweep-rgb-trc.jpg</figcaption>
 </figure>
 
@@ -936,7 +936,7 @@ Remarquez :
   14Ev
 
 <figure>
-<img src="sweep-rgb-exp.jpg" title="sweep-rgb-exp.jpg" width="600" />
+<img src="/images/sweep-rgb-exp.jpg" title="sweep-rgb-exp.jpg" width="600" />
 <figcaption>sweep-rgb-exp.jpg</figcaption>
 </figure>
 
@@ -952,7 +952,7 @@ Remarquez :
   14Ev
 
 <figure>
-<img src="sweep-rgb-tm.jpg" title="sweep-rgb-tm.jpg" width="600" />
+<img src="/images/sweep-rgb-tm.jpg" title="sweep-rgb-tm.jpg" width="600" />
 <figcaption>sweep-rgb-tm.jpg</figcaption>
 </figure>
 
@@ -992,7 +992,7 @@ local
 
 ##### Image originale
 
-<img src="haze.jpg" title="haze.jpg" width="600" alt="haze.jpg" />
+<img src="/images/haze.jpg" title="haze.jpg" width="600" alt="haze.jpg" />
 
 Fichier raw (Pixls.us - Common Attribution-share Alike 4.0):
 [5](https://drive.google.com/file/d/1tc9TxHGwYnVQ2OwiTZIiszDOEXfDjkh6/view?usp=sharing)
@@ -1003,7 +1003,7 @@ J'aurais pu le faire avec "dehaze local" (Dehaze & Retinex) ...et un
 RT-spot! Mais examinez l’arrière plan, les collines...il reste beaucoup
 de brume
 
-<img src="haze-dehaze.jpg" title="haze-dehaze.jpg" width="600"
+<img src="/images/haze-dehaze.jpg" title="haze-dehaze.jpg" width="600"
 alt="haze-dehaze.jpg" />
 
 ##### Complément avec Retinex local
@@ -1014,7 +1014,7 @@ alt="haze-dehaze.jpg" />
   affaiblissement de la courbe à droite...
 - examinez maintenant les collines et le ciel à l'horizon !
 
-<img src="haze-reti1.jpg" title="haze-reti1.jpg" width="600"
+<img src="/images/haze-reti1.jpg" title="haze-reti1.jpg" width="600"
 alt="haze-reti1.jpg" />
 
 #### Comment utiliser le module "Denoise"
@@ -1039,7 +1039,7 @@ C'est ce dernier cas que je vais expliciter.
 L'image de la jeune fille est particulièrement bruitée avec un fort
 bruit chromatique
 
-<img src="denoise-prepa1.jpg" title="denoise-prepa1.jpg" width="600"
+<img src="/images/denoise-prepa1.jpg" title="denoise-prepa1.jpg" width="600"
 alt="denoise-prepa1.jpg" />
 
 Fichier raw (Copyright Ian Burley - Common Attribution-share Alike 4.0):
@@ -1047,7 +1047,7 @@ Fichier raw (Copyright Ian Burley - Common Attribution-share Alike 4.0):
 
 ##### Zoom 100%
 
-<img src="denoise-zoom1.jpg" title="denoise-zoom1.jpg" width="600"
+<img src="/images/denoise-zoom1.jpg" title="denoise-zoom1.jpg" width="600"
 alt="denoise-zoom1.jpg" />
 
 ##### Quels réglages pour denoise ?
@@ -1084,7 +1084,7 @@ alt="denoise-zoom1.jpg" />
     permet de différencier l'action en fonction des bords ("edge
     detection")
 
-<img src="denoise1.jpg" title="denoise1.jpg" width="600"
+<img src="/images/denoise1.jpg" title="denoise1.jpg" width="600"
 alt="denoise1.jpg" />
 
 ##### Un cas complexe "Denoise" - comment différentier l'action sur les structures et les aplats
@@ -1185,7 +1185,7 @@ végétation, la queue.
   compromis, tout en agissant sur les 2 curseurs de "Noise reduction" -
   ici j'ai utilisé - Luminance = 4 - chrominance = 6.5
 
-<img src="mulot_first.jpg" title="mulot_first.jpg" width="600"
+<img src="/images/mulot_first.jpg" title="mulot_first.jpg" width="600"
 alt="mulot_first.jpg" />
 
 ###### Deuxième étape - Local adjustments - Blur/grain & Denoise module
@@ -1209,7 +1209,7 @@ désactiver, laisser les 3 curseurs DCT à leurs valeurs par défaut.
 - agir légèrement sur "Fine chroma"
 - examinez les résultats
 
-<img src="mulot_levelhue.jpg" title="mulot_levelhue.jpg" width="600"
+<img src="/images/mulot_levelhue.jpg" title="mulot_levelhue.jpg" width="600"
 alt="mulot_levelhue.jpg" />
 
 - Réaliser un masque.
@@ -1221,12 +1221,12 @@ alt="mulot_levelhue.jpg" />
     nécessiter d'utiliser la courbe LC(H), structure mask strength,
     Smooth radius, etc.
 
-<img src="mulot_mask.jpg" title="mulot_mask.jpg" width="600"
+<img src="/images/mulot_mask.jpg" title="mulot_mask.jpg" width="600"
 alt="mulot_mask.jpg" />
 
 Courbe de contraste:
 
-<img src="mulot_mask2.jpg" title="mulot_mask2.jpg" width="600"
+<img src="/images/mulot_mask2.jpg" title="mulot_mask2.jpg" width="600"
 alt="mulot_mask2.jpg" />
 
 Ensuite:
@@ -1252,7 +1252,7 @@ Pour d'autres images il sera peut être nécessaire d'agir sur :
   débruitage dans la zone "protégée" - tons moyens du masque
 
 <figure>
-<img src="mulot_recovery.jpg" title="mulot_recovery.jpg" width="600" />
+<img src="/images/mulot_recovery.jpg" title="mulot_recovery.jpg" width="600" />
 <figcaption>mulot_recovery.jpg</figcaption>
 </figure>
 
@@ -1285,7 +1285,7 @@ Pour d'autres images il sera peut être nécessaire d'agir sur :
     aux filtres réalisant des moyennes localement.
 
 <figure>
-<img src="mulot_nlmeans.jpg" title="mulot_nlmeans.jpg" width="600" />
+<img src="/images/mulot_nlmeans.jpg" title="mulot_nlmeans.jpg" width="600" />
 <figcaption>mulot_nlmeans.jpg</figcaption>
 </figure>
 
@@ -1331,7 +1331,7 @@ Puis ajoutez 2 outils:
   - utilisez "contrast by level" en privilégiant les premiers niveaux
 
 <figure>
-<img src="mulot_wav.jpg" title="mulot_wav.jpg" width="600" />
+<img src="/images/mulot_wav.jpg" title="mulot_wav.jpg" width="600" />
 <figcaption>mulot_wav.jpg</figcaption>
 </figure>
 
@@ -1409,7 +1409,7 @@ adjustements)
 
 Image originale, avec "Exposure compensation" +1.5
 
-<img src="Amsterdam15.jpg" title="Amsterdam15.jpg" width="600"
+<img src="/images/Amsterdam15.jpg" title="Amsterdam15.jpg" width="600"
 alt="Amsterdam15.jpg" />
 
 ##### La même image avec "Levels Dynamic Range (un)Compression (wavelet local) "Local contrast & Wavelets"
@@ -1425,7 +1425,7 @@ alt="Amsterdam15.jpg" />
   Mantiuk "Tone mapping", Log Encoding), elle est spécifique à
   Rawtherapee Wavelet.
 
-<img src="Amsterdam15_wavtm1.jpg" title="Amsterdam15_wavtm1.jpg"
+<img src="/images/Amsterdam15_wavtm1.jpg" title="Amsterdam15_wavtm1.jpg"
 width="600" alt="Amsterdam15_wavtm1.jpg" />
 
 #### Trois manières d'accroître la texture
@@ -1439,7 +1439,7 @@ Ceci est obtenu par des principes de Tone-mapping J'utiliserais :
 
 ##### Préparation - image originale - Venise
 
-<img src="texture-normal1.jpg" title="texture-normal1.jpg" width="600"
+<img src="/images/texture-normal1.jpg" title="texture-normal1.jpg" width="600"
 alt="texture-normal1.jpg" />
 
 Fichier raw (Copyright Sebastien Guyader - Common Attribution-share
@@ -1456,7 +1456,7 @@ mapping](Local_Lab_controls/fr#Tone_Mapping.md)
   l'image la même moyenne et la même variance que l'image originale
 - utilisation du mode "advanced" - "edge stopping" et "scale'
 
-` `<img src="texture-tm1.jpg" title="texture-tm1.jpg" width="600"
+` `<img src="/images/texture-tm1.jpg" title="texture-tm1.jpg" width="600"
 alt="texture-tm1.jpg" />
 
 ##### Traitement "Retinex"
@@ -1469,7 +1469,7 @@ Retinex](Local_Lab_controls/fr#Dehaze_&_Retinex.md)
   l'image la même moyenne et la même variance que l'image originale
 - l'usage de "Fast Fourier Transform"
 
-` `<img src="texture-reti1.jpg" title="texture-reti1.jpg" width="600"
+` `<img src="/images/texture-reti1.jpg" title="texture-reti1.jpg" width="600"
 alt="texture-reti1.jpg" />
 
 ##### Traitement "Wavelet" (Local contrast & wavelets)
@@ -1485,7 +1485,7 @@ Wavelets](Local_Lab_controls/fr#Wavelet_level_tone_mapping.md)
 - essayez aussi "Levels directionnal contrast"
 - ou une combinaison de ces traitements
 
-` `<img src="texture-wav1.jpg" title="texture-wav1.jpg" width="600"
+` `<img src="/images/texture-wav1.jpg" title="texture-wav1.jpg" width="600"
 alt="texture-wav1.jpg" />
 
 #### Fusion d'images - modes de fusion (merge file)
@@ -1533,7 +1533,7 @@ choisis "add tool to current spot" = "Smooth - Blur - denoise"
 - régler radius sur une valeur élevée (2000 ou plus - noter l'option
   FFTW), régler le mode de flou sur "Luminance & chrominance"
 
-`  `<img src="mergeblurinv_2.jpg" title="mergeblurinv_2.jpg" width="600"
+`  `<img src="/images/mergeblurinv_2.jpg" title="mergeblurinv_2.jpg" width="600"
 alt="mergeblurinv_2.jpg" />
 
 Fichier raw (Rawtherapee - Creative Common Attribution-share Alike 4.0):
@@ -1545,7 +1545,7 @@ Avec "Add tool to current spot" - "Color & light" - "advanced"
 
 - réglez "Scope color tools" sur 100
 
-`  `<img src="mergetwo1.jpg" title="mergetwo1.jpg" width="600"
+`  `<img src="/images/mergetwo1.jpg" title="mergetwo1.jpg" width="600"
 alt="mergetwo1.jpg" />
 
 ##### Première fusion - mode de fusion "normal"
@@ -1564,7 +1564,7 @@ alt="mergetwo1.jpg" />
 - bien sûr vous pouvez utiliser tous les réglages possibles de "Color &
   Light"
 
-`   `<img src="mergeorignrmal1.jpg" title="mergeorignrmal1.jpg" width="600"
+`   `<img src="/images/mergeorignrmal1.jpg" title="mergeorignrmal1.jpg" width="600"
 alt="mergeorignrmal1.jpg" />
 
 ##### Deuxième mode de fusion - Soft light
@@ -1575,7 +1575,7 @@ autre mode...)
 - choisissez les réglages, essayez...
 - remplacez "Original" par "Previous Spot"...notez les différences
 
-`  `<img src="mergeorigsoftlight1.jpg" title="mergeorigsoftlight1.jpg"
+`  `<img src="/images/mergeorigsoftlight1.jpg" title="mergeorigsoftlight1.jpg"
 width="600" alt="mergeorigsoftlight1.jpg" />
 
 #### Utilisation d'un masque simple pour accroître la sélection de couleur
@@ -1606,7 +1606,7 @@ simple](Local_Lab_controls/fr#Algorithme_complémentaire_-_Mask_and_Modification
   - 2\) ceux qui utilisent ces différences
   - nous sommes ici dans le premier cas (amélioration de la sélection)
 
-` `<img src="masksimpleprepa1.jpg" title="masksimpleprepa1.jpg" width="600"
+` `<img src="/images/masksimpleprepa1.jpg" title="masksimpleprepa1.jpg" width="600"
 alt="masksimpleprepa1.jpg" />
 
 Fichier raw (Jacques Desmis - Creative Common Attribution-share Alike
@@ -1619,7 +1619,7 @@ Fichier raw (Jacques Desmis - Creative Common Attribution-share Alike
   les changements, alors que je souhaite l'éviter
 
 <figure>
-<img src="masksimplelum250chro1401.jpg"
+<img src="/images/masksimplelum250chro1401.jpg"
 title="masksimplelum250chro1401.jpg" width="600" />
 <figcaption>masksimplelum250chro1401.jpg</figcaption>
 </figure>
@@ -1638,7 +1638,7 @@ title="masksimplelum250chro1401.jpg" width="600" />
   modifications with mask"
 
 <figure>
-<img src="masksimpleshow1.jpg" title="masksimpleshow1.jpg"
+<img src="/images/masksimpleshow1.jpg" title="masksimpleshow1.jpg"
 width="600" />
 <figcaption>masksimpleshow1.jpg</figcaption>
 </figure>
@@ -1681,7 +1681,7 @@ Prise en compte des deltaE:
   réglage spécifique du deltaE masque : "Mask deltaE image" ("settings")
 
 <figure>
-<img src="masksimple1.jpg" title="masksimple1.jpg" width="600" />
+<img src="/images/masksimple1.jpg" title="masksimple1.jpg" width="600" />
 <figcaption>masksimple1.jpg</figcaption>
 </figure>
 
@@ -1711,7 +1711,7 @@ Fichier pp3;
 [11](https://drive.google.com/file/d/1BWpBUd5qjpDHv_stdF5ord8qFGhxC0J0/view?usp=sharing)
 
 <figure>
-<img src="mask_recov0.jpg" title="mask_recov0.jpg" width="600" />
+<img src="/images/mask_recov0.jpg" title="mask_recov0.jpg" width="600" />
 <figcaption>mask_recov0.jpg</figcaption>
 </figure>
 
@@ -1729,7 +1729,7 @@ masque :
   sélection.
 
 <figure>
-<img src="mask_recov.jpg" title="mask_recov.jpg" width="600" />
+<img src="/images/mask_recov.jpg" title="mask_recov.jpg" width="600" />
 <figcaption>mask_recov.jpg</figcaption>
 </figure>
 
@@ -1756,7 +1756,7 @@ masque :
 - essayez d'autres réglages de "mask" et des 4 réglages de "recovery"
 
 <figure>
-<img src="mask_recovend.jpg" title="mask_recovend.jpg" width="600" />
+<img src="/images/mask_recovend.jpg" title="mask_recovend.jpg" width="600" />
 <figcaption>mask_recovend.jpg</figcaption>
 </figure>
 
@@ -1770,7 +1770,7 @@ choisie une autre qui présente la caractéristique d'un bruit chromatique
 assez important.
 
 <figure>
-<img src="masknoisechroma.jpg" title="masknoisechroma.jpg"
+<img src="/images/masknoisechroma.jpg" title="masknoisechroma.jpg"
 width="600" />
 <figcaption>masknoisechroma.jpg</figcaption>
 </figure>
@@ -1783,7 +1783,7 @@ and Merge", un curseur "Denoise chroma mask".
 - agissez jusqu'à obtenir l'effet désiré
 
 <figure>
-<img src="masknoisechromaden.jpg" title="masknoisechromaden.jpg"
+<img src="/images/masknoisechromaden.jpg" title="masknoisechromaden.jpg"
 width="600" />
 <figcaption>masknoisechromaden.jpg</figcaption>
 </figure>
@@ -1811,7 +1811,7 @@ Pagodes...
 - à retenir : "Scope color" réglée à 40 (arbitraire), et "Color and
   Light" en mode "advanced"
 
-<img src="maskblendprepa1.jpg" title="maskblendprepa1.jpg" width="600"
+<img src="/images/maskblendprepa1.jpg" title="maskblendprepa1.jpg" width="600"
 alt="maskblendprepa1.jpg" /> Fichier raw (Creative Common
 Attribution-share Alike 4.0):
 [12](https://drive.google.com/file/d/1GdqejdnbW1kJFNY6y9sdQDlF2rCEGMCu/view?usp=sharing)
@@ -1828,7 +1828,7 @@ Attribution-share Alike 4.0):
   celui-ci est porté à 1000.
 
 <figure>
-<img src="maskblendshow2.jpg" title="maskblendshow2.jpg" width="600" />
+<img src="/images/maskblendshow2.jpg" title="maskblendshow2.jpg" width="600" />
 <figcaption>maskblendshow2.jpg</figcaption>
 </figure>
 
@@ -1887,7 +1887,7 @@ Rappel:
 - éventuellement ajustez "Smooth radius"
 
 <figure>
-<img src="maskblend2.jpg" title="maskblend2.jpg" width="600" />
+<img src="/images/maskblend2.jpg" title="maskblend2.jpg" width="600" />
 <figcaption>maskblend2.jpg</figcaption>
 </figure>
 
@@ -1926,7 +1926,7 @@ l'outil
   ne soit pas dérouté par une absence de réponse du système; les 2
   valeurs -10 sont arbitraires et de faible amplitude.
 
-<img src="common-maskprepa1.jpg" title="common-maskprepa1.jpg"
+<img src="/images/common-maskprepa1.jpg" title="common-maskprepa1.jpg"
 width="600" alt="common-maskprepa1.jpg" /> Fichier raw (Creative Common
 Attribution-share Alike
 4.0):[13](https://drive.google.com/file/d/1aWvYbW-rDPQaLWoRzbK5HAcz9dU0GHFU/view?usp=sharing)
@@ -1940,7 +1940,7 @@ amplitude.
   grise....Le masque "Luminance" s'accorde avec la référence du RT-spot
 
 <figure>
-<img src="common-mask-showL1.jpg" title="common-mask-showL1.jpg"
+<img src="/images/common-mask-showL1.jpg" title="common-mask-showL1.jpg"
 width="600" />
 <figcaption>common-mask-showL1.jpg</figcaption>
 </figure>
@@ -1952,7 +1952,7 @@ width="600" />
   RT-spot
 
 <figure>
-<img src="common-mask-showC1.jpg" title="common-mask-showC1.jpg"
+<img src="/images/common-mask-showC1.jpg" title="common-mask-showC1.jpg"
 width="600" />
 <figcaption>common-mask-showC1.jpg</figcaption>
 </figure>
@@ -1968,7 +1968,7 @@ C'est à partir d'ici que vous pourrez jouer sur le deltaE (ΔE), entre
   scope", "ΔE decay", "Balance ΔE ab-L", "Balance ΔE C-H"
 
 <figure>
-<img src="common-mask-previewdE1.jpg" title="common-mask-previewdE1.jpg"
+<img src="/images/common-mask-previewdE1.jpg" title="common-mask-previewdE1.jpg"
 width="600" />
 <figcaption>common-mask-previewdE1.jpg</figcaption>
 </figure>
@@ -1981,7 +1981,7 @@ Allez dans "Show modifications with mask"
   chrominance" (j'aurais pu appeler ces curseurs "Opacité")
 
 <figure>
-<img src="common-mask-modif1.jpg" title="common-mask-modif1.jpg"
+<img src="/images/common-mask-modif1.jpg" title="common-mask-modif1.jpg"
 width="600" />
 <figcaption>common-mask-modif1.jpg</figcaption>
 </figure>
@@ -2015,7 +2015,7 @@ Passez en mode "advanced"
 - essayez "Graduated Filter"
 
 <figure>
-<img src="common-mask1.jpg" title="common-mask1.jpg" width="600" />
+<img src="/images/common-mask1.jpg" title="common-mask1.jpg" width="600" />
 <figcaption>common-mask1.jpg</figcaption>
 </figure>
 
@@ -2034,7 +2034,7 @@ expliquer comment réaliser 3 modes de fusion parmi les 21 possibles
   chrominance
 
 <figure>
-<img src="common-color1.jpg" title="common-color1.jpg" width="600" />
+<img src="/images/common-color1.jpg" title="common-color1.jpg" width="600" />
 <figcaption>common-color1.jpg</figcaption>
 </figure>
 
@@ -2044,7 +2044,7 @@ expliquer comment réaliser 3 modes de fusion parmi les 21 possibles
   (Color and Light) et le précédent (Common color mask)
 
 <figure>
-<img src="common-color-prepa1.jpg" title="common-color-prepa1.jpg"
+<img src="/images/common-color-prepa1.jpg" title="common-color-prepa1.jpg"
 width="600" />
 <figcaption>common-color-prepa1.jpg</figcaption>
 </figure>
@@ -2060,7 +2060,7 @@ width="600" />
   évident que vous pouvez choisir d'autres valeurs 43, 68, etc.
 
 <figure>
-<img src="common-color-normal1.jpg" title="common-color-normal1.jpg"
+<img src="/images/common-color-normal1.jpg" title="common-color-normal1.jpg"
 width="600" />
 <figcaption>common-color-normal1.jpg</figcaption>
 </figure>
@@ -2070,7 +2070,7 @@ width="600" />
 - changer de mode de fusion et choisir "Softlight (legacy)"
 
 <figure>
-<img src="common-color-softphot1.jpg" title="common-color-softphot1.jpg"
+<img src="/images/common-color-softphot1.jpg" title="common-color-softphot1.jpg"
 width="600" />
 <figcaption>common-color-softphot1.jpg</figcaption>
 </figure>
@@ -2082,7 +2082,7 @@ width="600" />
 - notez les différences de rendus en luminance et chrominance
 
 <figure>
-<img src="common-color-colburn1.jpg" title="common-color-colburn1.jpg"
+<img src="/images/common-color-colburn1.jpg" title="common-color-colburn1.jpg"
 width="600" />
 <figcaption>common-color-colburn1.jpg</figcaption>
 </figure>
@@ -2113,7 +2113,7 @@ Rappel sur les courbes des masques : C(C), L(L), LC(H)
   maximum.
 
 <figure>
-<img src="mask-curve.jpg" title="mask-curve.jpg" width="600" />
+<img src="/images/mask-curve.jpg" title="mask-curve.jpg" width="600" />
 <figcaption>mask-curve.jpg</figcaption>
 </figure>
 
@@ -2149,7 +2149,7 @@ Le portrait de Mairi, va être l'occasion d’utiliser plusieurs outils:
 - remarque : les réglages ont donnés à titre indicatif, tout est
   fonction de son goût....
 
-<img src="mairi.jpg" title="mairi.jpg" width="600" alt="mairi.jpg" />
+<img src="/images/mairi.jpg" title="mairi.jpg" width="600" alt="mairi.jpg" />
 Fichie raw (Copyright Pat David - Common Attribution-share Alike 4.0):
 [14](https://drive.google.com/file/d/1m4UBhES2AVe_sJNqMVSz5jA-Qg-s7LHt/view?usp=sharing)
 
@@ -2158,7 +2158,7 @@ Fichie raw (Copyright Pat David - Common Attribution-share Alike 4.0):
 Exposure + 0.5 J'aurais pu utiliser un RT-spot pour limiter la zone qui
 sera accrue en exposition au lieu d'un accroissement global de
 l'exposition.
-<img src="mairiexp05.jpg" title="mairiexp05.jpg" width="600"
+<img src="/images/mairiexp05.jpg" title="mairiexp05.jpg" width="600"
 alt="mairiexp05.jpg" />
 
 ##### Utiliser Contrast By Detail Level
@@ -2169,7 +2169,7 @@ alt="mairiexp05.jpg" />
 - Scope à 40
 
 <figure>
-<img src="mairi-cbdl_1.jpg" title="mairi-cbdl_1.jpg" width="600" />
+<img src="/images/mairi-cbdl_1.jpg" title="mairi-cbdl_1.jpg" width="600" />
 <figcaption>mairi-cbdl_1.jpg</figcaption>
 </figure>
 
@@ -2180,7 +2180,7 @@ alt="mairiexp05.jpg" />
 - vous pouvez aussi (advanced) jouer sur la chrominance
 
 <figure>
-<img src="mairi-grad1.jpg" title="mairi-grad1.jpg" width="600" />
+<img src="/images/mairi-grad1.jpg" title="mairi-grad1.jpg" width="600" />
 <figcaption>mairi-grad1.jpg</figcaption>
 </figure>
 
@@ -2190,7 +2190,7 @@ alt="mairiexp05.jpg" />
 - agir sur Scope (excluding) pour obtenir le résultat recherché
 
 <figure>
-<img src="mairi-excluding1.jpg" title="mairi-excluding1.jpg"
+<img src="/images/mairi-excluding1.jpg" title="mairi-excluding1.jpg"
 width="600" />
 <figcaption>mairi-excluding1.jpg</figcaption>
 </figure>
@@ -2214,14 +2214,14 @@ width="600" />
 - cocher "enable mask"
 
 <figure>
-<img src="mairi-fin1.jpg" title="mairi-fin1.jpg" width="600" />
+<img src="/images/mairi-fin1.jpg" title="mairi-fin1.jpg" width="600" />
 <figcaption>mairi-fin1.jpg</figcaption>
 </figure>
 
 ##### Comparaison avant après
 
 <figure>
-<img src="mairi-befaft1.jpg" title="mairi-befaft1.jpg" width="600" />
+<img src="/images/mairi-befaft1.jpg" title="mairi-befaft1.jpg" width="600" />
 <figcaption>mairi-befaft1.jpg</figcaption>
 </figure>
 
@@ -2236,13 +2236,13 @@ width="600" />
   l'amplification (ou la réduction) prend en compte la valeur du signal.
 - bien sûr vous disposez aussi d'une fonction "Clarity"
 
-<img src="mairi-wav_1.jpg" title="mairi-wav_1.jpg" width="600"
+<img src="/images/mairi-wav_1.jpg" title="mairi-wav_1.jpg" width="600"
 alt="mairi-wav_1.jpg" />
 
 ##### Et bien sûr, vous pouvez utiliser un masque avec "wavelet"
 
 <figure>
-<img src="mairi-wavmask1.jpg" title="mairi-wavmask1.jpg" width="600" />
+<img src="/images/mairi-wavmask1.jpg" title="mairi-wavmask1.jpg" width="600" />
 <figcaption>mairi-wavmask1.jpg</figcaption>
 </figure>
 
@@ -2292,7 +2292,7 @@ Ce module est constitué de deux RT-spots:
 ###### Détails des réglages du premier RT-Spot - Bords noirs, Gris, Blancs
 
 <figure>
-<img src="Borderrgb.jpg" title="Borderrgb.jpg" width="600" />
+<img src="/images/Borderrgb.jpg" title="Borderrgb.jpg" width="600" />
 <figcaption>Borderrgb.jpg</figcaption>
 </figure>
 
@@ -2304,7 +2304,7 @@ Ce module est constitué de deux RT-spots:
 ###### Détails des réglages du premier RT-Spot - Bords colorés
 
 <figure>
-<img src="Bordergrid.jpg" title="Bordergrid.jpg" width="600" />
+<img src="/images/Bordergrid.jpg" title="Bordergrid.jpg" width="600" />
 <figcaption>Bordergrid.jpg</figcaption>
 </figure>
 
@@ -2316,7 +2316,7 @@ Ce module est constitué de deux RT-spots:
 
 ##### Le deuxième RT-Spot
 
-<img src="Borderexcluding.jpg" title="Borderexcluding.jpg" width="600"
+<img src="/images/Borderexcluding.jpg" title="Borderexcluding.jpg" width="600"
 alt="Borderexcluding.jpg" /> Notez les réglages suivants:
 
 - Scope = 100, Transition = 100, DeltaE scope threshold = 10
@@ -2395,7 +2395,7 @@ Fichier raw (Rawtherapee - Creative Common Attribution-share Alike
 4.0)[19](https://drive.google.com/file/d/1CiQ2t4KyD3tdCiNNhskqUG2cH9LT2ly7/view?usp=sharing)
 
 <figure>
-<img src="catATwb.jpg" title="catATwb.jpg" width="600" />
+<img src="/images/catATwb.jpg" title="catATwb.jpg" width="600" />
 <figcaption>catATwb.jpg</figcaption>
 </figure>
 
@@ -2408,14 +2408,14 @@ Fichier raw (Rawtherapee - Creative Common Attribution-share Alike
 - mettez en place quelques "lockable color picker"
 
 <figure>
-<img src="catLAset.jpg" title="catLAset.jpg" width="600" />
+<img src="/images/catLAset.jpg" title="catLAset.jpg" width="600" />
 <figcaption>catLAset.jpg</figcaption>
 </figure>
 
 ##### Sélectionnez Log encoding
 
 Choisissez : Add tool to current spot : Log encoding
-<img src="catLAlog.jpg" title="catLAlog.jpg" width="600"
+<img src="/images/catLAlog.jpg" title="catLAlog.jpg" width="600"
 alt="catLAlog.jpg" />
 
 - Essayez de changer la place du centre du RT-spot
@@ -2424,13 +2424,13 @@ alt="catLAlog.jpg" />
 - Mais l'image est toujours jaunâtre
 
 Nouvelle Interface - branch lacam16
-<img src="catLAlog2.jpg" title="catLAlog2.jpg" width="600"
+<img src="/images/catLAlog2.jpg" title="catLAlog2.jpg" width="600"
 alt="catLAlog2.jpg" />
 
 ##### Modifier Chromatic adaptation - cat02
 
 <figure>
-<img src="catLAlogadap.jpg" title="catLAlogadap.jpg" width="600" />
+<img src="/images/catLAlogadap.jpg" title="catLAlogadap.jpg" width="600" />
 <figcaption>catLAlogadap.jpg</figcaption>
 </figure>
 
@@ -2449,7 +2449,7 @@ Utilisez les traitements par défaut de Rawtherapee. Positionnez des
 
 Fichier raw (Pixls.us Creative Common Attribution-share Alike 4.0)
 [20](https://drive.google.com/file/d/1ctjOWX2lVmgcAzJtBwt69FGpxZOq-LyP/view?usp=sharing)
-<img src="ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
+<img src="/images/ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
 width="600" alt="ciecam_light_prepa.jpg" />
 
 ##### Utiliser Log encoding + Ciecam
@@ -2464,7 +2464,7 @@ la comparaison avec "Ciecam & Light", le choix (arbitraire) est fait de:
 - Pressez le bouton "Automatic"...
 
 <figure>
-<img src="ciecamlog1.jpg" title="ciecamlog1.jpg" width="600" />
+<img src="/images/ciecamlog1.jpg" title="ciecamlog1.jpg" width="600" />
 <figcaption>ciecamlog1.jpg</figcaption>
 </figure>
 
@@ -2478,7 +2478,7 @@ la comparaison avec "Ciecam & Light", le choix (arbitraire) est fait de:
 - Observez l'image dans les ombres..
 
 <figure>
-<img src="ciecamlog_cie.jpg" title="ciecamlog_cie.jpg" width="600" />
+<img src="/images/ciecamlog_cie.jpg" title="ciecamlog_cie.jpg" width="600" />
 <figcaption>ciecamlog_cie.jpg</figcaption>
 </figure>
 
@@ -2499,7 +2499,7 @@ pickers"
 Fichier raw (Copyright - Jean Christophe Frisch - Common
 Attribution-share Alike
 4.0)[21](https://drive.google.com/file/d/1oyPu-U6CD1DjWuO8LuqJdIdDau1-2yY1/view?usp=sharing)
-<img src="Dblogciecamprepa.jpg" title="Dblogciecamprepa.jpg" width="600"
+<img src="/images/Dblogciecamprepa.jpg" title="Dblogciecamprepa.jpg" width="600"
 alt="Dblogciecamprepa.jpg" />
 
 ##### Utiliser Log encoding - manuel et Ciecam
@@ -2515,7 +2515,7 @@ alt="Dblogciecamprepa.jpg" />
 - vous pouvez agir sur Scope et déplacer le RT-spot
 
 <figure>
-<img src="Dblogciecam.jpg" title="Dblogciecam.jpg" width="600" />
+<img src="/images/Dblogciecam.jpg" title="Dblogciecam.jpg" width="600" />
 <figcaption>Dblogciecam.jpg</figcaption>
 </figure>
 
@@ -2567,7 +2567,7 @@ Préparation du RT-Spot
 - positionnez sur l'image une série de "Lockable Color pickers"
 
 <figure>
-<img src="loghigh-prepa.jpg" title="loghigh-prepa.jpg" width="600" />
+<img src="/images/loghigh-prepa.jpg" title="loghigh-prepa.jpg" width="600" />
 <figcaption>loghigh-prepa.jpg</figcaption>
 </figure>
 
@@ -2586,7 +2586,7 @@ D'autre part, l'image après cette opération semble trop saturée et
 l'exposition mal répartie.
 
 <figure>
-<img src="loghigh-log.jpg" title="loghigh-log.jpg" width="600" />
+<img src="/images/loghigh-log.jpg" title="loghigh-log.jpg" width="600" />
 <figcaption>loghigh-log.jpg</figcaption>
 </figure>
 
@@ -2609,7 +2609,7 @@ Dans le cas présent je me suis servi de la courbe LC(H), d'autres images
 nécessiteront la courbe L(L). A noter que la courbe C(C) n'a aucune
 incidence sur le "mélange" mais peut être utilisée pour améliorer la
 sélection.
-<img src="loghigh-mask.jpg" title="loghigh-mask.jpg" width="600"
+<img src="/images/loghigh-mask.jpg" title="loghigh-mask.jpg" width="600"
 alt="loghigh-mask.jpg" />
 
 #### Récupération partielle des hautes lumières avec masque
@@ -2629,7 +2629,7 @@ alt="loghigh-mask.jpg" />
   décroissance.
 
 <figure>
-<img src="loghigh-recov.jpg" title="loghigh-recov.jpg" width="600" />
+<img src="/images/loghigh-recov.jpg" title="loghigh-recov.jpg" width="600" />
 <figcaption>loghigh-recov.jpg</figcaption>
 </figure>
 
@@ -2638,7 +2638,7 @@ alt="loghigh-mask.jpg" />
 Bien sûr la "force" de "Local adjustments" est toujours présente. Vous
 pouvez rétablir l'image originale en utilisant les "excludings
 spots".... Les réglages sont arbitraires...
-<img src="loghigh-exclu.jpg" title="loghigh-exclu.jpg" width="600"
+<img src="/images/loghigh-exclu.jpg" title="loghigh-exclu.jpg" width="600"
 alt="loghigh-exclu.jpg" />
 
 #### Ajustement final avec Ciecam16
@@ -2660,7 +2660,7 @@ Dernière remarque:
   qu'il faut le faire.
 
 <figure>
-<img src="loghigh-ciecam.jpg" title="loghigh-ciecam.jpg" width="600" />
+<img src="/images/loghigh-ciecam.jpg" title="loghigh-ciecam.jpg" width="600" />
 <figcaption>loghigh-ciecam.jpg</figcaption>
 </figure>
 
@@ -2688,7 +2688,7 @@ etc.
 - Aller à "Add tool to current spot..." : "Encoding log" (j'ai
   volontairement désactivé l'outil)
 
-<img src="encodlogprepa.jpg" title="encodlogprepa.jpg" width="600"
+<img src="/images/encodlogprepa.jpg" title="encodlogprepa.jpg" width="600"
 alt="encodlogprepa.jpg" /> Fichier raw (Copyright - Roberto Posadas -
 Common Attribution-share Alike 4.0):
 [24](https://drive.google.com/open?id=1RXoXp-AHWzo6mzbd-VyRTRvmRlFtyZDq)
@@ -2706,7 +2706,7 @@ Common Attribution-share Alike 4.0):
   travail
 
 <figure>
-<img src="encodlogaut.jpg" title="encodlogaut.jpg" width="600" />
+<img src="/images/encodlogaut.jpg" title="encodlogaut.jpg" width="600" />
 <figcaption>encodlogaut.jpg</figcaption>
 </figure>
 
@@ -2723,7 +2723,7 @@ Vous pouvez maintenant adapter l'image à vos souhaits:
   point" = 22.0
 
 <figure>
-<img src="encodloggrad.jpg" title="encodloggrad.jpg" width="600" />
+<img src="/images/encodloggrad.jpg" title="encodloggrad.jpg" width="600" />
 <figcaption>encodloggrad.jpg</figcaption>
 </figure>
 
@@ -2915,7 +2915,7 @@ Adjustments".
 
 ###### Quels principes utilisent "Log encoding" et "Scene conditions" pour restituer une image et alimenter Cam16?
 
-<img src="whiteblackdisr.jpg" title="whiteblackdisr.jpg" width="400"
+<img src="/images/whiteblackdisr.jpg" title="whiteblackdisr.jpg" width="400"
 alt="whiteblackdisr.jpg" />Il est nécessaire de fournir à Cam16 les
 notions de:
 
@@ -2972,7 +2972,7 @@ est cochée.
 ##### Le GUI de l'application a été simplifié et plus intuitif, notamment par l'utilisation d'Expanders
 
 <figure>
-<img src="Cam16exp.jpg" title="Cam16exp.jpg" width="600" />
+<img src="/images/Cam16exp.jpg" title="Cam16exp.jpg" width="600" />
 <figcaption>Cam16exp.jpg</figcaption>
 </figure>
 
@@ -3017,7 +3017,7 @@ Avec ces réglages de base:
 - l'image manque réellement d'un rendu plaisant.
 
 <figure>
-<img src="Alex3-neutr.jpg" title="Alex3-neutr.jpg" width="600" />
+<img src="/images/Alex3-neutr.jpg" title="Alex3-neutr.jpg" width="600" />
 <figcaption>Alex3-neutr.jpg</figcaption>
 </figure>
 
@@ -3032,7 +3032,7 @@ Constat:
 - les hautes lumières sont hors limites (L \>= 100).
 
 <figure>
-<img src="Alex3-automatch.jpg" title="Alex3-automatch.jpg"
+<img src="/images/Alex3-automatch.jpg" title="Alex3-automatch.jpg"
 width="600" />
 <figcaption>Alex3-automatch.jpg</figcaption>
 </figure>
@@ -3051,7 +3051,7 @@ Examinez le résultat:
 - globalement l'image est trop lumineuse
 
 <figure>
-<img src="Alex3-logencode.jpg" title="Alex3-logencode.jpg"
+<img src="/images/Alex3-logencode.jpg" title="Alex3-logencode.jpg"
 width="600" />
 <figcaption>Alex3-logencode.jpg</figcaption>
 </figure>
@@ -3067,7 +3067,7 @@ Pour relever les ombres, réduire les lumières:
   encoding) à 0.90 pour abaisser un peu les lumières élevées.
 
 <figure>
-<img src="Alex3-dynamic1.jpg" title="Alex3-dynamic1.jpg" width="600" />
+<img src="/images/Alex3-dynamic1.jpg" title="Alex3-dynamic1.jpg" width="600" />
 <figcaption>Alex3-dynamic1.jpg</figcaption>
 </figure>
 
@@ -3094,7 +3094,7 @@ Dans Primaries & illuminant - allez à Dominant Color:
   j'aurais pu faire d'autres choix.
 
 <figure>
-<img src="Alex3-seine1.jpg" title="Alex3-seine1.jpg" width="600" />
+<img src="/images/Alex3-seine1.jpg" title="Alex3-seine1.jpg" width="600" />
 <figcaption>Alex3-seine1.jpg</figcaption>
 </figure>
 
@@ -3108,7 +3108,7 @@ Dans Primaries & illuminant - allez à Dominant Color:
 ###### Image d'origine
 
 <figure>
-<img src="Van-tunnel-0.jpg" title="Van-tunnel-0.jpg" width="600" />
+<img src="/images/Van-tunnel-0.jpg" title="Van-tunnel-0.jpg" width="600" />
 <figcaption>Van-tunnel-0.jpg</figcaption>
 </figure>
 
@@ -3120,7 +3120,7 @@ Dans Primaries & illuminant - allez à Dominant Color:
   - Slope = 80 : éclaircit les ombres.
 
 <figure>
-<img src="Van-tunnel.jpg" title="Van-tunnel.jpg" width="600" />
+<img src="/images/Van-tunnel.jpg" title="Van-tunnel.jpg" width="600" />
 <figcaption>Van-tunnel.jpg</figcaption>
 </figure>
 
@@ -3143,7 +3143,7 @@ Cam16 Image Adjustments:
 - Contrast J = 24.
 
 <figure>
-<img src="Van-tunnel-surround.jpg" title="Van-tunnel-surround.jpg"
+<img src="/images/Van-tunnel-surround.jpg" title="Van-tunnel-surround.jpg"
 width="600" />
 <figcaption>Van-tunnel-surround.jpg</figcaption>
 </figure>
@@ -3343,7 +3343,7 @@ Denoise de Blur/Grain & Denoise doit permettre d’y remédier.
   « Excluding Spots », soit un masque.
 
 <figure>
-<img src="Cam16-sigmoid.jpg" title="Cam16-sigmoid.jpg" width="600" />
+<img src="/images/Cam16-sigmoid.jpg" title="Cam16-sigmoid.jpg" width="600" />
 <figcaption>Cam16-sigmoid.jpg</figcaption>
 </figure>
 
@@ -3370,7 +3370,7 @@ Introduction](CIECAM02/fr#Comprendre_les_réglages_CAM_-_SDR_-_HDR_-_Introductio
 
 ##### Comprendre - En pratique avec une saisie d'écran
 
-<img src="Jzsettings.jpg" title="Jzsettings.jpg" width="600"
+<img src="/images/Jzsettings.jpg" title="Jzsettings.jpg" width="600"
 alt="Jzsettings.jpg" /> Vous disposez de 6 réglages qui interagissent
 sur Jz:
 
@@ -3463,7 +3463,7 @@ valeurs de: a) "Black Ev" (point le plus sombre de l'image), b) White Ev
   "Sigmoid Jz".
 
 **Sigmoid Jz**
-<img src="Sigmoidjz1.jpg" title="Sigmoidjz1.jpg" width="600"
+<img src="/images/Sigmoidjz1.jpg" title="Sigmoidjz1.jpg" width="600"
 alt="Sigmoidjz1.jpg" />
 
 - Rappel des principes de Sigmoid Jz [Sigmoid Jz -
@@ -4268,7 +4268,7 @@ L'exemple va permettre de créer un double dégradé sur fond flou.
     - Contrast Threshold : selon souhaits
 
 <figure>
-<img src="doubleblur.jpg" title="doubleblur.jpg" width="300" />
+<img src="/images/doubleblur.jpg" title="doubleblur.jpg" width="300" />
 <figcaption>doubleblur.jpg</figcaption>
 </figure>
 
@@ -4567,7 +4567,7 @@ Comment procéder, pour l'essentiel pour l'objectif n°1 ?
   suffisante dans la majorité des cas, comme dans l'exemple ci-dessous.
 
 <figure>
-<img src="mask_sensi_obj1.jpg" title="mask_sensi_obj1.jpg"
+<img src="/images/mask_sensi_obj1.jpg" title="mask_sensi_obj1.jpg"
 width="600" />
 <figcaption>mask_sensi_obj1.jpg</figcaption>
 </figure>
@@ -4876,9 +4876,9 @@ informations sont souvent des particularités du mode local
 Un exemple avec Color & light:[Exemple dans Premiers pas avec Color &
 Light](Local_Lab_controls/fr#Ajouter_l'outil_Color_&_Light.md)
 
-<img src="Colorspace_flowers.jpg" title="Colorspace_flowers.jpg"
+<img src="/images/Colorspace_flowers.jpg" title="Colorspace_flowers.jpg"
 width="300" alt="Colorspace_flowers.jpg" />
-<img src="Colorspace_flowers-grid2.jpg"
+<img src="/images/Colorspace_flowers-grid2.jpg"
 title="Colorspace_flowers-grid2.jpg" width="300"
 alt="Colorspace_flowers-grid2.jpg" />
 
@@ -6816,7 +6816,7 @@ Pour cela:
   saturation, etc.)
 
 <figure>
-<img src="Horse-foliage_.jpg" title="Horse-foliage_.jpg" width="600" />
+<img src="/images/Horse-foliage_.jpg" title="Horse-foliage_.jpg" width="600" />
 <figcaption>Horse-foliage_.jpg</figcaption>
 </figure>
 
@@ -6860,13 +6860,13 @@ Alike 4.0):
   - positionner le Rt-spot sur la couleur que vous souhaitez privilégier
 
 <figure>
-<img src="Clarity-wav-before.jpg" title="Clarity-wav-before.jpg"
+<img src="/images/Clarity-wav-before.jpg" title="Clarity-wav-before.jpg"
 width="600" />
 <figcaption>Clarity-wav-before.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Clarity-wav.jpg" title="Clarity-wav.jpg" width="600" />
+<img src="/images/Clarity-wav.jpg" title="Clarity-wav.jpg" width="600" />
 <figcaption>Clarity-wav.jpg</figcaption>
 </figure>
 

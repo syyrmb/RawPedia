@@ -62,7 +62,7 @@ RawTherapeeを初めて使う人のために、不明瞭と思われる機能の
 - ICCプロファイルの作り方：
 
 <figure>
-<img src="Mire468.jpg" title="Mire468.jpg" />
+<img src="/images/Mire468.jpg" title="Mire468.jpg" />
 <figcaption>Mire468.jpg</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ RawTherapeeを初めて使う人のために、不明瞭と思われる機能の
 - 念のため、D光源（昼光）以外の光源や色温度4000K以下の光源ではデータが不正確になることをお見せしましょう（右図）。
 
 <figure>
-<img src="illum1.jpg" title="illum1.jpg" />
+<img src="/images/illum1.jpg" title="illum1.jpg" />
 <figcaption>illum1.jpg</figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ S（λ）=S0（λ）+M1\*S1（λ）+M2\*S2（λ）
 それぞれ非常に異なるスペクトル分布を持ち、“昼光”や“黒体”光源とも大きく違います。従って、色温度の数字が同じでも、他の光源を蛍光灯の光源として適用しない方がいいでしょう。例えば、F11－4000Kのホワイトバランスを“昼光－4000K”で置き換えることはしません。
 
 <figure>
-<img src="Comp4000.jpg" title="Comp4000.jpg" />
+<img src="/images/Comp4000.jpg" title="Comp4000.jpg" />
 <figcaption>Comp4000.jpg</figcaption>
 </figure>
 
@@ -309,7 +309,7 @@ BestRGB。この中の4つは色空間が広いものです：BetaRGB
 - CMYK（4色）ドライバのプリンターで印刷をするのであれば、色域の広いプロファイルを使うのは、本当は有益でありません。
 
 <figure>
-<img src="GAMUTS.jpg" title="4種類の作業色空間とプリンターの色空間" />
+<img src="/images/GAMUTS.jpg" title="4種類の作業色空間とプリンターの色空間" />
 <figcaption>4種類の作業色空間とプリンターの色空間</figcaption>
 </figure>
 
@@ -405,7 +405,7 @@ profile.icm、AdobeRGB1998.icc、BestRGB.icm、BetaRGB.icc、Bruce.icm、WideGam
 　例えば、出力プロファイルにAdobeRGB1998を選び、作業プロファイルがProphotoであったとすると、RawTherapeeはLCMS2を使い、[レンダリングインテントに](Preferences/jp#レンダリングインテント.md)合わせて、作業プロファイルのR、G、B、データを出力プロファイルの色空間に変換します。
 
 <figure>
-<img src="GamutL50.jpg" title="L=50における各色空間の色域" />
+<img src="/images/GamutL50.jpg" title="L=50における各色空間の色域" />
 <figcaption>L=50における各色空間の色域</figcaption>
 </figure>
 

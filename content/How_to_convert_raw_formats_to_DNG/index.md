@@ -82,7 +82,7 @@ Run it and you're done.
 ## Unsupported sensors
 
 <figure>
-<img src="Adobe_dng_converter_830.png"
+<img src="/images/Adobe_dng_converter_830.png"
 title="Adobe_dng_converter_830.png" />
 <figcaption>Adobe_dng_converter_830.png</figcaption>
 </figure>

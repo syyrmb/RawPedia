@@ -55,7 +55,7 @@ To get the best results, the following settings are recommended:
     this option, only the L\* component is enhanced.
 
 <figure>
-<img src="edges.jpg" title="edges.jpg" />
+<img src="/images/edges.jpg" title="edges.jpg" />
 <figcaption>edges.jpg</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ does not introduce
 halos.[2](https://web.archive.org/web/20100324142513/http://www.rawness.es/contraste-local-y-microcontraste/?lang=en)
 
 <figure>
-<img src="seagull-microcontrast.jpg"
+<img src="/images/seagull-microcontrast.jpg"
 title="seagull-microcontrast.jpg" />
 <figcaption>seagull-microcontrast.jpg</figcaption>
 </figure>

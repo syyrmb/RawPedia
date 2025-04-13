@@ -244,7 +244,7 @@ Remarquez :
 - la DR restituée est de l'ordre de 12Ev
 
 <figure>
-<img src="sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
+<img src="/images/sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
 width="600" />
 <figcaption>sweep-rgb-neutral.jpg</figcaption>
 </figure>
@@ -260,7 +260,7 @@ Remarquez :
 - la DR restituée est de 25Ev environ.
 
 <figure>
-<img src="sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
+<img src="/images/sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
 <figcaption>sweep-rgb-log.jpg</figcaption>
 </figure>
 
@@ -584,7 +584,7 @@ présente sous 2 formes :
   - Dans "Abstract profile" vous disposez de "Contrast enhancement"
     s’appuyant sur la notion de "Contrast profiles".
 
-<img src="APwav.jpg" title="APwav.jpg" width="600" alt="APwav.jpg" />
+<img src="/images/APwav.jpg" title="APwav.jpg" width="600" alt="APwav.jpg" />
 
 - Dans Selective Editing, vous avez en mode Basic "Local contrast &
   Wavelets" qui vous permet, en choisissant l’étendue des niveaux de
@@ -592,6 +592,6 @@ présente sous 2 formes :
   sur la "Clarity".
 
 <figure>
-<img src="locwav.jpg" title="locwav.jpg" width="600" />
+<img src="/images/locwav.jpg" title="locwav.jpg" width="600" />
 <figcaption>locwav.jpg</figcaption>
 </figure>

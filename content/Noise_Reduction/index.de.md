@@ -16,7 +16,7 @@ Seite schon angelegt und Überschrift übersetzt, um sie zu referenzieren.
 # Rauschreduktion
 
 <figure>
-<img src="noisereduction2.jpg" title="noisereduction2.jpg" />
+<img src="/images/noisereduction2.jpg" title="noisereduction2.jpg" />
 <figcaption>noisereduction2.jpg</figcaption>
 </figure>
 
@@ -354,7 +354,7 @@ processing time.
 
 ### Median
 
-<img src="Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
+<img src="/images/Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
 width="900" alt="Rt_nr_median_books.jpg" /> Use this filter to remove
 tiny, sharp-looking artifacts left-over from noise reduction. The
 [median filter](https://en.wikipedia.org/wiki/Median_filter) replaces

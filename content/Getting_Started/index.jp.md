@@ -36,7 +36,7 @@ Curve-低ISO”というプロファイルを適用するようにデフォル�
 Curveの](Auto-Matched_Curve/jp.md)項を参照して下さい。
 
 <figure>
-<img src="Rt_setm_editor.png" title="Rt_setm_editor.png" />
+<img src="/images/Rt_setm_editor.png" title="Rt_setm_editor.png" />
 <figcaption>Rt_setm_editor.png</figcaption>
 </figure>
 

@@ -50,7 +50,7 @@ contributors:
 #### 画像スライドにツールバーを表示
 
 <figure>
-<img src="Rt_setm_fb.png" title="Rt_setm_fb.png" />
+<img src="/images/Rt_setm_fb.png" title="Rt_setm_fb.png" />
 <figcaption>Rt_setm_fb.png</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ contributors:
 ### インターフェイスの外観
 
 <figure>
-<img src="Image_editor.png" title="Image_editor.png" />
+<img src="/images/Image_editor.png" title="Image_editor.png" />
 <figcaption>Image_editor.png</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ contributors:
 切り抜きマスクカラーで、切り抜いた画像の外側部分の色と透明度を調整します（右スクリーンショットの2で示した部分）。色の付いたボタンをクリックすると、新しいウィンドウがポップアップするのでそこで標準色を選ぶか、或いは“＋”をクリックして新しい色を指定することも出来ます。縦軸で色相を、横軸で透明度を調整します。透明度は中程度に調整するのが便利でしょう。切り抜いた外側部分がまだ薄っすらと見えるので（スクリーンショットの2）、ベストな切り抜きの位置を確認できます（**Shif**tキーを押しながら切り抜き画像を動かせます）。
 
 <figure>
-<img src="Image_editor_navigator.png"
+<img src="/images/Image_editor_navigator.png"
 title="Image_editor_navigator.png" />
 <figcaption>Image_editor_navigator.png</figcaption>
 </figure>
@@ -120,7 +120,7 @@ title="Image_editor_navigator.png" />
 ナビゲーションガイドカラーは、[ナビゲーターパネル](The_Image_Editor_Tab/jp#画像編集タブ.md)（2つ目の右スクリーンショットの1）で表示領域を示す枠の色（2つ目の右スクリーンショットの2）を調節する機能です。
 
 <figure>
-<img src="Rt56_hidpi.png" title="Rt56_hidpi.png" />
+<img src="/images/Rt56_hidpi.png" title="Rt56_hidpi.png" />
 <figcaption>Rt56_hidpi.png</figcaption>
 </figure>
 
@@ -145,7 +145,7 @@ title="Image_editor_navigator.png" />
 ### 外部エディター
 
 <figure>
-<img src="Rt510_preferences_external_editor.png"
+<img src="/images/Rt510_preferences_external_editor.png"
 title="Rt510_preferences_external_editor.png" />
 <figcaption>Rt510_preferences_external_editor.png</figcaption>
 </figure>

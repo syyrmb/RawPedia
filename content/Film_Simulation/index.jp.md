@@ -10,7 +10,7 @@ contributors:
 
 </div>
 
-<img src="Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
+<img src="/images/Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
 width="900" alt="Rt_haldclut_london.jpg" /> 　
 　フィルムシミュレーションは、クリック一回で編集画像の色彩を参照画像の色彩と一致させる機能です。この機能を利用するには、HaldCLUTパターンで構成されたPNG或いはTIFF形式の参照画像を使う必要があります。各HaldCLUTは一つの「色映り」に相当します。その「色映り」は任意の画像に適用できますが、参照画像の殆どは典型的なフィルム写真から集めたものなので、機能名をフィルムシミュレーションにしました。
 
@@ -30,7 +30,7 @@ CLUTだけが入っている専用フォルダーを指定すれば、こうい�
 ## どの様に作用するのか
 
 <figure>
-<img src="Hald_CLUT_Identity_12.png"
+<img src="/images/Hald_CLUT_Identity_12.png"
 title="Hald_CLUT_Identity_12.png" />
 <figcaption>Hald_CLUT_Identity_12.png</figcaption>
 </figure>

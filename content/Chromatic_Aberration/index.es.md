@@ -69,7 +69,7 @@ usar la *Máscara de nitidez* aparezcan rápidamente artefactos y zonas de
 transición abruptas.
 
 <figure>
-<img src="chromatic_aberration_auto2.jpg"
+<img src="/images/chromatic_aberration_auto2.jpg"
 title="chromatic_aberration_auto2.jpg" />
 <figcaption>chromatic_aberration_auto2.jpg</figcaption>
 </figure>
@@ -185,6 +185,6 @@ En estos casos es mejor desactivar esta opción y aceptar los ligeros
 cambios de tono de la corrección de aberraciones:
 
 <figure>
-<img src="CA_pinkhalo.jpg" title="CA_pinkhalo.jpg" />
+<img src="/images/CA_pinkhalo.jpg" title="CA_pinkhalo.jpg" />
 <figcaption>CA_pinkhalo.jpg</figcaption>
 </figure>

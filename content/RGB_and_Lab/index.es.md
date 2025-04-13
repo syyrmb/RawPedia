@@ -51,19 +51,19 @@ en *RGB* hace que los colores parezcan algo más brillantes pero
 <div>
 
 - <figure>
-  <img src="colorspace_flowers_900_1_neutral.jpg"
+  <img src="/images/colorspace_flowers_900_1_neutral.jpg"
   title="colorspace_flowers_900_1_neutral.jpg" />
   <figcaption>colorspace_flowers_900_1_neutral.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colorspace_flowers_900_3_lab_lightness.jpg"
+  <img src="/images/colorspace_flowers_900_3_lab_lightness.jpg"
   title="colorspace_flowers_900_3_lab_lightness.jpg" />
   <figcaption>colorspace_flowers_900_3_lab_lightness.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colorspace_flowers_900_2_rgb_lightness.jpg"
+  <img src="/images/colorspace_flowers_900_2_rgb_lightness.jpg"
   title="colorspace_flowers_900_2_rgb_lightness.jpg" />
   <figcaption>colorspace_flowers_900_2_rgb_lightness.jpg</figcaption>
   </figure>
@@ -78,13 +78,13 @@ Sin embargo el contraste en sí será aproximadamente el mismo.
 <div>
 
 - <figure>
-  <img src="colorspace_flowers_900_5_lab_contrast.jpg"
+  <img src="/images/colorspace_flowers_900_5_lab_contrast.jpg"
   title="colorspace_flowers_900_5_lab_contrast.jpg" />
   <figcaption>colorspace_flowers_900_5_lab_contrast.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colorspace_flowers_900_4_rgb_contrast.jpg"
+  <img src="/images/colorspace_flowers_900_4_rgb_contrast.jpg"
   title="colorspace_flowers_900_4_rgb_contrast.jpg" />
   <figcaption>colorspace_flowers_900_4_rgb_contrast.jpg</figcaption>
   </figure>
@@ -110,19 +110,19 @@ recomendado para intensificar los colores.
 <div>
 
 - <figure>
-  <img src="colorspace_flowers_900_7_lab_chromaticity.jpg"
+  <img src="/images/colorspace_flowers_900_7_lab_chromaticity.jpg"
   title="colorspace_flowers_900_7_lab_chromaticity.jpg" />
   <figcaption>colorspace_flowers_900_7_lab_chromaticity.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colorspace_flowers_900_6_rgb_saturation.jpg"
+  <img src="/images/colorspace_flowers_900_6_rgb_saturation.jpg"
   title="colorspace_flowers_900_6_rgb_saturation.jpg" />
   <figcaption>colorspace_flowers_900_6_rgb_saturation.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colorspace_flowers_900_8_vibrance.jpg"
+  <img src="/images/colorspace_flowers_900_8_vibrance.jpg"
   title="colorspace_flowers_900_8_vibrance.jpg" />
   <figcaption>colorspace_flowers_900_8_vibrance.jpg</figcaption>
   </figure>

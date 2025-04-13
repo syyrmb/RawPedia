@@ -35,7 +35,7 @@ con il livello di dettaglio "0 (Finest)" non farà differenza sul
 risultato finale. La maggior parte dei cursori "3" e "4" avranno un
 effetto praticamente utile.
 
-<img src="Rt_cbdl_100.jpg" title="Rt_cbdl_100.jpg" width="900"
+<img src="/images/Rt_cbdl_100.jpg" title="Rt_cbdl_100.jpg" width="900"
 alt="Rt_cbdl_100.jpg" /> Ad esempio, per rimuovere le macchie della
 pelle pur mantenendo la struttura della pelle su questa foto a 10
 megapixel, dove la tua intenzione è di visualizzarla a pieno formato e
@@ -43,7 +43,7 @@ da vicino (ad es. Galleria d'arte), zoomare al 100% e iniziare a
 impostare i cursori come segue:  0 (Finest): 1.4  1: 1.4  2: 0,4  3: 0,4
  4 (Coarsest): 1.2  Toni di pelle Targetting/Protection: -75
 
-<img src="Rt_cbdl_25_1.jpg" title="Rt_cbdl_25_1.jpg" width="900"
+<img src="/images/Rt_cbdl_25_1.jpg" title="Rt_cbdl_25_1.jpg" width="900"
 alt="Rt_cbdl_25_1.jpg" /> Se vuoi ridimensionare la foto per usarla sul
 web, dovresti ridurre di circa il 25%, che è più o meno la dimensione in
 cui verrà visualizzata l'immagine. Utilizzando le impostazioni di cui
@@ -59,7 +59,7 @@ semplicemente come lavora la nitidezza (risoluzione e
 se intendi solo condividere la versione ridotta della tua foto, puoi
 risparmiare tempo semplicemente ignorando i primi tre cursori.
 
-<img src="Rt_cbdl_25_2.jpg" title="Rt_cbdl_25_2.jpg" width="900"
+<img src="/images/Rt_cbdl_25_2.jpg" title="Rt_cbdl_25_2.jpg" width="900"
 alt="Rt_cbdl_25_2.jpg" /> Inoltre, si può trovare che i cursori hanno
 effetti che non sono immediatamente apparenti al 100% di zoom quando si
 riduce le dimensioni dell'immagine. Ad esempio potresti scoprire che

@@ -150,7 +150,7 @@ Furthermore, most tools in the Editor tab have a reset button.
 ## Partial Processing Profiles and Fill Modes
 
 <figure>
-<img src="Processing-profiles-selector.png"
+<img src="/images/Processing-profiles-selector.png"
 title="Processing-profiles-selector.png" />
 <figcaption>Processing-profiles-selector.png</figcaption>
 </figure>

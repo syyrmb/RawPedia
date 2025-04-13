@@ -95,7 +95,7 @@ it may fail. See the [Auto-Matched Curve](Auto-Matched_Curve.md)
 article for more information.
 
 <figure>
-<img src="Rt_setm_editor.png" title="Rt_setm_editor.png" />
+<img src="/images/Rt_setm_editor.png" title="Rt_setm_editor.png" />
 <figcaption>Rt_setm_editor.png</figcaption>
 </figure>
 

@@ -70,13 +70,13 @@ el valor *0*.
 <div>
 
 - <figure>
-  <img src="Graduated-filter_4.00_00_10_00_00.png"
+  <img src="/images/Graduated-filter_4.00_00_10_00_00.png"
   title="Graduated-filter_4.00_00_10_00_00.png" />
   <figcaption>Graduated-filter_4.00_00_10_00_00.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Graduated-filter_4.00_00_50_00_00.png"
+  <img src="/images/Graduated-filter_4.00_00_50_00_00.png"
   title="Graduated-filter_4.00_00_50_00_00.png" />
   <figcaption>Graduated-filter_4.00_00_50_00_00.png</figcaption>
   </figure>
@@ -96,13 +96,13 @@ del gradiente=0*.
 ### Retícula
 
 Al pulsar el botón de activación de la ***Retícula***
-(<img src="crosshair-adjust.png" title="crosshair-adjust.png" width="24"
+(<img src="/images/crosshair-adjust.png" title="crosshair-adjust.png" width="24"
 alt="crosshair-adjust.png" />) se mostrará en la *Vista Previa* un
 gráfico que representa todos los controles deslizantes excepto el de
 *Intensidad*:
 
 <figure>
-<img src="Grad-Filter-graticule.gif"
+<img src="/images/Grad-Filter-graticule.gif"
 title="Grad-Filter-graticule.gif" />
 <figcaption>Grad-Filter-graticule.gif</figcaption>
 </figure>
@@ -111,7 +111,7 @@ Al pasar el puntero del ratón sobre cada una de las zonas activas del
 gráfico, el icono del ratón cambiará para sugerirte qué podrás controlar
 del filtro: el *Ángulo*, el *Degradado* o los *Centros*. Tan sólo
 deberás hacer clic
-(<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+(<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" />) y mantener pulsado mientras arrastras.
 Las modificaciones serán interactivas: mientras ves instantáneamente el
 resultado, los deslizadores cambiarán sus valores automáticamente.

@@ -56,7 +56,7 @@ will want to create applications that are optimized for that. Therefore,
 start the **MSYS2 MinGW 64-bit** shell and continue below.
 
 <figure>
-<img src="MSYS2_Shell.jpg" title="File:MSYS2 Shell.jpg" />
+<img src="/images/MSYS2_Shell.jpg" title="File:MSYS2 Shell.jpg" />
 <figcaption><a href="File:MSYS2">File:MSYS2</a> Shell.jpg</figcaption>
 </figure>
 

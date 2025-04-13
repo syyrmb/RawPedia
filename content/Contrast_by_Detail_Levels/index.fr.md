@@ -39,7 +39,7 @@ un smartphone. Dans ce cas aussi, l'utilisation du niveau de détail "0
 (les plus petits)" n'apportera aucune différence. Le plus souvent seuls
 les curseurs "3" et "4" apportent un effet utile.
 
-<img src="Rt_cbdl_100.jpg" title="Rt_cbdl_100.jpg" width="900"
+<img src="/images/Rt_cbdl_100.jpg" title="Rt_cbdl_100.jpg" width="900"
 alt="Rt_cbdl_100.jpg" /> Par exemple, sur cette photo de 10 mégapixels,
 alors que votre intention est de la regarder en pleine grandeur et
 d'assez près (par ex dans une galerie d'art), dans le but d'enlever les
@@ -54,7 +54,7 @@ son goût :
 `4 (les plus gros)    : 1.2`  
 `Protection/Ciblage des Tons Chairs : -75`
 
-<img src="Rt_cbdl_25_1.jpg" title="Rt_cbdl_25_1.jpg" width="900"
+<img src="/images/Rt_cbdl_25_1.jpg" title="Rt_cbdl_25_1.jpg" width="900"
 alt="Rt_cbdl_25_1.jpg" /> Si vous désirez diminuer l'échelle de la photo
 pour l'utiliser sur le Web, vous devriez la zoomer arrière d'environ
 25%, ce qui est plus ou moins la taille à laquelle l'image sera
@@ -71,7 +71,7 @@ Sachant cela, si votre seule intention est de partager la version
 réduite de votre photo, vous pouvez économiser du temps en ignorant les
 trois premiers curseurs.
 
-<img src="Rt_cbdl_25_2.jpg" title="Rt_cbdl_25_2.jpg" width="900"
+<img src="/images/Rt_cbdl_25_2.jpg" title="Rt_cbdl_25_2.jpg" width="900"
 alt="Rt_cbdl_25_2.jpg" /> De plus, vous pouvez découvrir en zoomant
 arrière que les curseurs apportent des effets qui n'étaient pas visibles
 à 100%. Par exemple que le curseur "4 (les plus gros)" peut adoucir de

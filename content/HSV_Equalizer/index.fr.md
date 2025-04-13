@@ -11,7 +11,7 @@ contributors:
 </div>
 
 <figure>
-<img src="HSV_color_solid_cylinder_alpha_lowgamma.png"
+<img src="/images/HSV_color_solid_cylinder_alpha_lowgamma.png"
 title="HSV_color_solid_cylinder_alpha_lowgamma.png" />
 <figcaption>HSV_color_solid_cylinder_alpha_lowgamma.png</figcaption>
 </figure>

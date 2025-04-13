@@ -112,7 +112,7 @@ dysfonctionnements possibles (bugs) qu'il peut rester à solutionner !
 - élaboration :
 
 <figure>
-<img src="Mire468.jpg" title="Mire468.jpg" />
+<img src="/images/Mire468.jpg" title="Mire468.jpg" />
 <figcaption>Mire468.jpg</figcaption>
 </figure>
 
@@ -208,7 +208,7 @@ dysfonctionnements possibles (bugs) qu'il peut rester à solutionner !
   D (lumière du jour) et pour des températures inférieures à 4000K
 
 <figure>
-<img src="illum1.jpg" title="illum1.jpg" />
+<img src="/images/illum1.jpg" title="illum1.jpg" />
 <figcaption>illum1.jpg</figcaption>
 </figure>
 
@@ -390,7 +390,7 @@ remplacer – lors d'un éclairage fluorescent – l'illuminant en question
 (par exemple F11 4000K), par un équivalent « Daylight 4000K »
 
 <figure>
-<img src="Comp4000.jpg" title="Comp4000.jpg" />
+<img src="/images/Comp4000.jpg" title="Comp4000.jpg" />
 <figcaption>Comp4000.jpg</figcaption>
 </figure>
 
@@ -567,7 +567,7 @@ Mais sur quoi se fonder ?
   choisir un profil à large gamut
 
 <figure>
-<img src="GAMUTS.jpg"
+<img src="/images/GAMUTS.jpg"
 title="représentation du gamut de 4 profils ou espaces" />
 <figcaption>représentation du gamut de 4 profils ou espaces</figcaption>
 </figure>
@@ -772,7 +772,7 @@ relative, perceptuelle,...) les données RGB de l'espace de travail vers
 l'espace de sortie.
 
 <figure>
-<img src="GamutL50.jpg" title="Gamut pour une luminance L=50" />
+<img src="/images/GamutL50.jpg" title="Gamut pour une luminance L=50" />
 <figcaption>Gamut pour une luminance L=50</figcaption>
 </figure>
 

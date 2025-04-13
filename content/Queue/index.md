@@ -57,7 +57,7 @@ to "Auto-start", it may have finished processing before you viewed it).
 ## Queue Settings
 
 <figure>
-<img src="Save_window.png" title="Save_window.png" />
+<img src="/images/Save_window.png" title="Save_window.png" />
 <figcaption>Save_window.png</figcaption>
 </figure>
 

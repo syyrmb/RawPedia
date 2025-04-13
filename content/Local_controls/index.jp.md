@@ -119,7 +119,7 @@ wandsなどのツールを使いますが、通常、編集に時間がかかり
 <div>
 
 <figure>
-<img src="Startspot.jpg" title="Startspot.jpg" width="600" />
+<img src="/images/Startspot.jpg" title="Startspot.jpg" width="600" />
 <figcaption>Startspot.jpg</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ wandsなどのツールを使いますが、通常、編集に時間がかかり
   - 　葉のグリーン: L=48.3 a=-28.3 b=51.4
 
 <figure>
-<img src="prepare1.jpg" title="prepare1.jpg" width="600" />
+<img src="/images/prepare1.jpg" title="prepare1.jpg" width="600" />
 <figcaption>prepare1.jpg</figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ Attribution-Share Alike 4.0):
 <div>
 
 <figure>
-<img src="addtoolcolorandlight1.jpg" title="addtoolcolorandlight1.jpg"
+<img src="/images/addtoolcolorandlight1.jpg" title="addtoolcolorandlight1.jpg"
 width="600" />
 <figcaption>addtoolcolorandlight1.jpg</figcaption>
 </figure>
@@ -184,7 +184,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="lightchro.jpg" title="lightchro.jpg" width="600" />
+<img src="/images/lightchro.jpg" title="lightchro.jpg" width="600" />
 <figcaption>lightchro.jpg</figcaption>
 </figure>
 
@@ -219,7 +219,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="previewdeltae1.jpg" title="previewdeltae1.jpg" width="600" />
+<img src="/images/previewdeltae1.jpg" title="previewdeltae1.jpg" width="600" />
 <figcaption>previewdeltae1.jpg</figcaption>
 </figure>
 
@@ -246,7 +246,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="showmodif.jpg" title="showmodif.jpg" width="600" />
+<img src="/images/showmodif.jpg" title="showmodif.jpg" width="600" />
 <figcaption>showmodif.jpg</figcaption>
 </figure>
 
@@ -264,7 +264,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="fullim1.jpg" title="fullim1.jpg" width="600" />
+<img src="/images/fullim1.jpg" title="fullim1.jpg" width="600" />
 <figcaption>fullim1.jpg</figcaption>
 </figure>
 
@@ -288,7 +288,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="Colorleav1.jpg" title="Colorleav1.jpg" width="600" />
+<img src="/images/Colorleav1.jpg" title="Colorleav1.jpg" width="600" />
 <figcaption>Colorleav1.jpg</figcaption>
 </figure>
 
@@ -306,7 +306,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="Excluding1.jpg" title="Excluding1.jpg" width="600" />
+<img src="/images/Excluding1.jpg" title="Excluding1.jpg" width="600" />
 <figcaption>Excluding1.jpg</figcaption>
 </figure>
 
@@ -326,7 +326,7 @@ a\*ｂ\*の値に変化はありません。
 <div>
 
 <figure>
-<img src="Redeye_prepare1.jpg" title="Redeye_prepare1.jpg"
+<img src="/images/Redeye_prepare1.jpg" title="Redeye_prepare1.jpg"
 width="600" />
 <figcaption>Redeye_prepare1.jpg</figcaption>
 </figure>
@@ -345,7 +345,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Redeye_previewdE1.jpg" title="Redeye_previewdE1.jpg"
+<img src="/images/Redeye_previewdE1.jpg" title="Redeye_previewdE1.jpg"
 width="600" />
 <figcaption>Redeye_previewdE1.jpg</figcaption>
 </figure>
@@ -364,7 +364,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Redeye.jpg" title="Redeye.jpg" width="600" />
+<img src="/images/Redeye.jpg" title="Redeye.jpg" width="600" />
 <figcaption>Redeye.jpg</figcaption>
 </figure>
 
@@ -388,7 +388,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Blotches.jpg" title="Blotches.jpg" width="600" />
+<img src="/images/Blotches.jpg" title="Blotches.jpg" width="600" />
 <figcaption>Blotches.jpg</figcaption>
 </figure>
 
@@ -405,7 +405,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Blotchesless1.jpg" title="Blotchesless1.jpg" width="600" />
+<img src="/images/Blotchesless1.jpg" title="Blotchesless1.jpg" width="600" />
 <figcaption>Blotchesless1.jpg</figcaption>
 </figure>
 
@@ -434,7 +434,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Dodgeburn1.jpg" title="Dodgeburn1.jpg" width="600" />
+<img src="/images/Dodgeburn1.jpg" title="Dodgeburn1.jpg" width="600" />
 <figcaption>Dodgeburn1.jpg</figcaption>
 </figure>
 
@@ -450,7 +450,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Dodgeburnshow.jpg" title="Dodgeburnshow.jpg" width="600" />
+<img src="/images/Dodgeburnshow.jpg" title="Dodgeburnshow.jpg" width="600" />
 <figcaption>Dodgeburnshow.jpg</figcaption>
 </figure>
 
@@ -465,7 +465,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Dodgeburnmodif.jpg" title="Dodgeburnmodif.jpg" width="600" />
+<img src="/images/Dodgeburnmodif.jpg" title="Dodgeburnmodif.jpg" width="600" />
 <figcaption>Dodgeburnmodif.jpg</figcaption>
 </figure>
 
@@ -482,7 +482,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Gradprepa1.jpg" title="Gradprepa1.jpg" width="600" />
+<img src="/images/Gradprepa1.jpg" title="Gradprepa1.jpg" width="600" />
 <figcaption>Gradprepa1.jpg</figcaption>
 </figure>
 
@@ -506,7 +506,7 @@ Rawファイルへのリンク(Creative Commons Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="gradLCH1.jpg" title="gradLCH1.jpg" width="600" />
+<img src="/images/gradLCH1.jpg" title="gradLCH1.jpg" width="600" />
 <figcaption>gradLCH1.jpg</figcaption>
 </figure>
 
@@ -523,7 +523,7 @@ Rawファイルへのリンク(Creative Commons Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="gradLCHScopeFeather1.jpg" title="gradLCHScopeFeather1.jpg"
+<img src="/images/gradLCHScopeFeather1.jpg" title="gradLCHScopeFeather1.jpg"
 width="600" />
 <figcaption>gradLCHScopeFeather1.jpg</figcaption>
 </figure>
@@ -559,7 +559,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="shadows-prepa1.jpg" title="shadows-prepa1.jpg" width="600" />
+<img src="/images/shadows-prepa1.jpg" title="shadows-prepa1.jpg" width="600" />
 <figcaption>shadows-prepa1.jpg</figcaption>
 </figure>
 
@@ -580,7 +580,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="shadows-sh1.jpg" title="shadows-sh1.jpg" width="600" />
+<img src="/images/shadows-sh1.jpg" title="shadows-sh1.jpg" width="600" />
 <figcaption>shadows-sh1.jpg</figcaption>
 </figure>
 
@@ -597,7 +597,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="shadows-toneeq2.jpg" title="shadows-toneeq2.jpg"
+<img src="/images/shadows-toneeq2.jpg" title="shadows-toneeq2.jpg"
 width="600" />
 <figcaption>shadows-toneeq2.jpg</figcaption>
 </figure>
@@ -616,7 +616,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="shadows-trc1.jpg" title="shadows-trc1.jpg" width="600" />
+<img src="/images/shadows-trc1.jpg" title="shadows-trc1.jpg" width="600" />
 <figcaption>shadows-trc1.jpg</figcaption>
 </figure>
 
@@ -634,7 +634,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="shadows-elog1.jpg" title="shadows-elog1.jpg" width="600" />
+<img src="/images/shadows-elog1.jpg" title="shadows-elog1.jpg" width="600" />
 <figcaption>shadows-elog1.jpg</figcaption>
 </figure>
 
@@ -654,7 +654,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="shadows-expo1.jpg" title="shadows-expo1.jpg" width="600" />
+<img src="/images/shadows-expo1.jpg" title="shadows-expo1.jpg" width="600" />
 <figcaption>shadows-expo1.jpg</figcaption>
 </figure>
 
@@ -696,7 +696,7 @@ TIFファイルへのリンク(Creative Common Attribution-share Alike 4.0):
 - 　復元されたダイナミックレンジは概ね12Evから13Evです。
 
 <figure>
-<img src="sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
+<img src="/images/sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
 width="600" />
 <figcaption>sweep-rgb-neutral.jpg</figcaption>
 </figure>
@@ -711,7 +711,7 @@ width="600" />
 - 　注意："ホワイトの分布"を90に設定しています。
 
 <figure>
-<img src="sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
+<img src="/images/sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
 <figcaption>sweep-rgb-log.jpg</figcaption>
 </figure>
 
@@ -728,7 +728,7 @@ width="600" />
 TRCガンマカーブを使えば、先の対数符号化で復元した画像に近くなります。TRCガンマカーブの代わりにコントラストJや輝度Jのスライダーを使うことも出来ます。
 
 <figure>
-<img src="sweep-rgb-cie.jpg" title="sweep-rgb-cie.jpg" width="600" />
+<img src="/images/sweep-rgb-cie.jpg" title="sweep-rgb-cie.jpg" width="600" />
 <figcaption>sweep-rgb-cie.jpg</figcaption>
 </figure>
 
@@ -742,7 +742,7 @@ TRCガンマカーブを使えば、先の対数符号化で復元した画像�
 - 　注意：非常に明るいハイライト（最も明るい）を処理するために5番目のスライダーを‐100にしています。
 
 <figure>
-<img src="sweep-rgb-te.jpg" title="sweep-rgb-te.jpg" width="600" />
+<img src="/images/sweep-rgb-te.jpg" title="sweep-rgb-te.jpg" width="600" />
 <figcaption>sweep-rgb-te.jpg</figcaption>
 </figure>
 
@@ -756,7 +756,7 @@ TRCガンマカーブを使えば、先の対数符号化で復元した画像�
 - 　注意：この機能は複雑で、感覚的な調整が難しく、処理時間は長いです。
 
 <figure>
-<img src="sweep-rgb-drexp1.jpg" title="sweep-rgb-drexp1.jpg"
+<img src="/images/sweep-rgb-drexp1.jpg" title="sweep-rgb-drexp1.jpg"
 width="600" />
 <figcaption>sweep-rgb-drexp1.jpg</figcaption>
 </figure>
@@ -770,7 +770,7 @@ width="600" />
 - 　復元されたブラック、ホワイト、及び色のダイナミックレンジは概ね15Evから16Evです。
 
 <figure>
-<img src="sweep-rgb-deha.jpg" title="sweep-rgb-deha.jpg" width="600" />
+<img src="/images/sweep-rgb-deha.jpg" title="sweep-rgb-deha.jpg" width="600" />
 <figcaption>sweep-rgb-deha.jpg</figcaption>
 </figure>
 
@@ -784,7 +784,7 @@ width="600" />
 - 　復元されたブラック、ホワイト、及び色のダイナミックレンジは概ね12Evから13Evです。
 
 <figure>
-<img src="sweep-rgb-sh.jpg" title="sweep-rgb-sh.jpg" width="600" />
+<img src="/images/sweep-rgb-sh.jpg" title="sweep-rgb-sh.jpg" width="600" />
 <figcaption>sweep-rgb-sh.jpg</figcaption>
 </figure>
 
@@ -797,7 +797,7 @@ width="600" />
 - 　復元されたブラック、ホワイト、及び色のダイナミックレンジは概ね12Evから16Evです。
 
 <figure>
-<img src="sweep-rgb-trc.jpg" title="sweep-rgb-trc.jpg" width="600" />
+<img src="/images/sweep-rgb-trc.jpg" title="sweep-rgb-trc.jpg" width="600" />
 <figcaption>sweep-rgb-trc.jpg</figcaption>
 </figure>
 
@@ -812,7 +812,7 @@ width="600" />
 注意："ホワイトの分布"を80に設定し、"ハイライトの減衰"を使用しています。
 
 <figure>
-<img src="sweep-rgb-trc-cam16.jpg" title="sweep-rgb-trc-cam16.jpg"
+<img src="/images/sweep-rgb-trc-cam16.jpg" title="sweep-rgb-trc-cam16.jpg"
 width="600" />
 <figcaption>sweep-rgb-trc-cam16.jpg</figcaption>
 </figure>
@@ -826,7 +826,7 @@ width="600" />
 - 　復元されたブラック、ホワイト、及び色のダイナミックレンジは概ね11Evから14Evです。
 
 <figure>
-<img src="sweep-rgb-exp.jpg" title="sweep-rgb-exp.jpg" width="600" />
+<img src="/images/sweep-rgb-exp.jpg" title="sweep-rgb-exp.jpg" width="600" />
 <figcaption>sweep-rgb-exp.jpg</figcaption>
 </figure>
 
@@ -840,7 +840,7 @@ width="600" />
 - 　復元されたブラック、ホワイト、及び色のダイナミックレンジは概ね10Evから14Evです。
 
 <figure>
-<img src="sweep-rgb-tm.jpg" title="sweep-rgb-tm.jpg" width="600" />
+<img src="/images/sweep-rgb-tm.jpg" title="sweep-rgb-tm.jpg" width="600" />
 <figcaption>sweep-rgb-tm.jpg</figcaption>
 </figure>
 
@@ -865,7 +865,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Haze.jpg" title="Haze.jpg" width="600" />
+<img src="/images/Haze.jpg" title="Haze.jpg" width="600" />
 <figcaption>Haze.jpg</figcaption>
 </figure>
 
@@ -883,7 +883,7 @@ Rawファイルのリンク(Pixls.us - Creative Commons Attribution-Share Alike
 <div>
 
 <figure>
-<img src="Haze-dehaze.jpg" title="Haze-dehaze.jpg" width="600" />
+<img src="/images/Haze-dehaze.jpg" title="Haze-dehaze.jpg" width="600" />
 <figcaption>Haze-dehaze.jpg</figcaption>
 </figure>
 
@@ -900,7 +900,7 @@ Rawファイルのリンク(Pixls.us - Creative Commons Attribution-Share Alike
 <div>
 
 <figure>
-<img src="Haze-reti1.jpg" title="Haze-reti1.jpg" width="600" />
+<img src="/images/Haze-reti1.jpg" title="Haze-reti1.jpg" width="600" />
 <figcaption>Haze-reti1.jpg</figcaption>
 </figure>
 
@@ -923,7 +923,7 @@ Rawファイルのリンク(Pixls.us - Creative Commons Attribution-Share Alike
 <div>
 
 <figure>
-<img src="Denoise-zoom1.jpg" title="Denoise-zoom1.jpg" width="600" />
+<img src="/images/Denoise-zoom1.jpg" title="Denoise-zoom1.jpg" width="600" />
 <figcaption>Denoise-zoom1.jpg</figcaption>
 </figure>
 
@@ -999,7 +999,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mulot_first.jpg" title="Mulot_first.jpg" width="600" />
+<img src="/images/Mulot_first.jpg" title="Mulot_first.jpg" width="600" />
 <figcaption>Mulot_first.jpg</figcaption>
 </figure>
 
@@ -1023,7 +1023,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mulot_levelhue.jpg" title="Mulot_levelhue.jpg" width="600" />
+<img src="/images/Mulot_levelhue.jpg" title="Mulot_levelhue.jpg" width="600" />
 <figcaption>Mulot_levelhue.jpg</figcaption>
 </figure>
 
@@ -1039,7 +1039,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mulot_mask.jpg" title="Mulot_mask.jpg" width="600" />
+<img src="/images/Mulot_mask.jpg" title="Mulot_mask.jpg" width="600" />
 <figcaption>Mulot_mask.jpg</figcaption>
 </figure>
 
@@ -1048,7 +1048,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mulot_mask2.jpg" title="Mulot_mask2.jpg" width="600" />
+<img src="/images/Mulot_mask2.jpg" title="Mulot_mask2.jpg" width="600" />
 <figcaption>Mulot_mask2.jpg</figcaption>
 </figure>
 
@@ -1069,7 +1069,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mulot_recovery.jpg" title="Mulot_recovery.jpg" width="600" />
+<img src="/images/Mulot_recovery.jpg" title="Mulot_recovery.jpg" width="600" />
 <figcaption>Mulot_recovery.jpg</figcaption>
 </figure>
 
@@ -1091,7 +1091,7 @@ Attribution-share Alike 4.0)：
 - 　非局所平均フィルタとは、通常、目標ピクセルの近傍にあるピクセルの平均値を使ってノイズ除去を行うフィルタとは異なり、画像全体のピクセルの平均を使い、目標ピクセルとの類似性に合わせて作用に差を付けてノイズ除去を行います。このフィルタによるノイズ除去は通常のフィルタを使った場合に比べ、詳細が失われ難いと言われます。
 
 <figure>
-<img src="mulot_nlmeans.jpg" title="mulot_nlmeans.jpg" width="600" />
+<img src="/images/mulot_nlmeans.jpg" title="mulot_nlmeans.jpg" width="600" />
 <figcaption>mulot_nlmeans.jpg</figcaption>
 </figure>
 
@@ -1121,7 +1121,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mulot_wav.jpg" title="Mulot_wav.jpg" width="600" />
+<img src="/images/Mulot_wav.jpg" title="Mulot_wav.jpg" width="600" />
 <figcaption>Mulot_wav.jpg</figcaption>
 </figure>
 
@@ -1169,7 +1169,7 @@ Astbury氏の写真のおかげで、画像の均質な部分と詳細のある�
 <div>
 
 <figure>
-<img src="Amsterdam15.jpg" title="Amsterdam15.jpg" width="600" />
+<img src="/images/Amsterdam15.jpg" title="Amsterdam15.jpg" width="600" />
 <figcaption>Amsterdam15.jpg</figcaption>
 </figure>
 
@@ -1192,7 +1192,7 @@ Alike
 <div>
 
 <figure>
-<img src="Amsterdam15_wavtm1.jpg" title="Amsterdam15_wavtm1.jpg"
+<img src="/images/Amsterdam15_wavtm1.jpg" title="Amsterdam15_wavtm1.jpg"
 width="600" />
 <figcaption>Amsterdam15_wavtm1.jpg</figcaption>
 </figure>
@@ -1213,7 +1213,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="texture-normal1.jpg" title="texture-normal1.jpg"
+<img src="/images/texture-normal1.jpg" title="texture-normal1.jpg"
 width="600" />
 <figcaption>texture-normal1.jpg</figcaption>
 </figure>
@@ -1236,7 +1236,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="texture-tm1.jpg" title="texture-tm1.jpg" width="600" />
+<img src="/images/texture-tm1.jpg" title="texture-tm1.jpg" width="600" />
 <figcaption>texture-tm1.jpg</figcaption>
 </figure>
 
@@ -1253,7 +1253,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="texture-reti1.jpg" title="texture-reti1.jpg" width="600" />
+<img src="/images/texture-reti1.jpg" title="texture-reti1.jpg" width="600" />
 <figcaption>texture-reti1.jpg</figcaption>
 </figure>
 
@@ -1272,7 +1272,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="texture-wav1.jpg" title="texture-wav1.jpg" width="600" />
+<img src="/images/texture-wav1.jpg" title="texture-wav1.jpg" width="600" />
 <figcaption>texture-wav1.jpg</figcaption>
 </figure>
 
@@ -1304,7 +1304,7 @@ Attribution-share Alike 4.0)：
 <div>
 
 <figure>
-<img src="mergeblurinv_2.jpg" title="mergeblurinv_2.jpg" width="600" />
+<img src="/images/mergeblurinv_2.jpg" title="mergeblurinv_2.jpg" width="600" />
 <figcaption>mergeblurinv_2.jpg</figcaption>
 </figure>
 
@@ -1324,7 +1324,7 @@ Alike 4.0)
 <div>
 
 <figure>
-<img src="Mergetwo1.jpg" title="Mergetwo1.jpg" width="600" />
+<img src="/images/Mergetwo1.jpg" title="Mergetwo1.jpg" width="600" />
 <figcaption>Mergetwo1.jpg</figcaption>
 </figure>
 
@@ -1344,7 +1344,7 @@ Alike 4.0)
 <div>
 
 <figure>
-<img src="Mergeorignrmal1.jpg" title="Mergeorignrmal1.jpg"
+<img src="/images/Mergeorignrmal1.jpg" title="Mergeorignrmal1.jpg"
 width="600" />
 <figcaption>Mergeorignrmal1.jpg</figcaption>
 </figure>
@@ -1362,7 +1362,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mergeorigsoftlight1.jpg" title="Mergeorigsoftlight1.jpg"
+<img src="/images/Mergeorigsoftlight1.jpg" title="Mergeorigsoftlight1.jpg"
 width="600" />
 <figcaption>Mergeorigsoftlight1.jpg</figcaption>
 </figure>
@@ -1388,7 +1388,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Masksimpleprepa1.jpg" title="Masksimpleprepa1.jpg"
+<img src="/images/Masksimpleprepa1.jpg" title="Masksimpleprepa1.jpg"
 width="600" />
 <figcaption>Masksimpleprepa1.jpg</figcaption>
 </figure>
@@ -1407,7 +1407,7 @@ Alike 4.0):
 <div>
 
 <figure>
-<img src="Masksimplelum250chro1401.jpg"
+<img src="/images/Masksimplelum250chro1401.jpg"
 title="Masksimplelum250chro1401.jpg" width="600" />
 <figcaption>Masksimplelum250chro1401.jpg</figcaption>
 </figure>
@@ -1425,7 +1425,7 @@ title="Masksimplelum250chro1401.jpg" width="600" />
 <div>
 
 <figure>
-<img src="Masksimpleshow1.jpg" title="Masksimpleshow1.jpg"
+<img src="/images/Masksimpleshow1.jpg" title="Masksimpleshow1.jpg"
 width="600" />
 <figcaption>Masksimpleshow1.jpg</figcaption>
 </figure>
@@ -1455,7 +1455,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Masksimple1.jpg" title="Masksimple1.jpg" width="600" />
+<img src="/images/Masksimple1.jpg" title="Masksimple1.jpg" width="600" />
 <figcaption>Masksimple1.jpg</figcaption>
 </figure>
 
@@ -1487,7 +1487,7 @@ width="600" />
 <div>
 
 [12](https://drive.google.com/file/d/1BWpBUd5qjpDHv_stdF5ord8qFGhxC0J0/view?usp=sharing)
-<img src="mask_recov0.jpg" title="mask_recov0.jpg" width="600"
+<img src="/images/mask_recov0.jpg" title="mask_recov0.jpg" width="600"
 alt="mask_recov0.jpg" />
 
 </ul>
@@ -1500,7 +1500,7 @@ alt="mask_recov0.jpg" />
 <div>
 
 <figure>
-<img src="Mask_recov.jpg" title="Mask_recov.jpg" width="600" />
+<img src="/images/Mask_recov.jpg" title="Mask_recov.jpg" width="600" />
 <figcaption>Mask_recov.jpg</figcaption>
 </figure>
 
@@ -1521,7 +1521,7 @@ alt="mask_recov0.jpg" />
 <div>
 
 <figure>
-<img src="Mask_recovend.jpg" title="Mask_recovend.jpg" width="600" />
+<img src="/images/Mask_recovend.jpg" title="Mask_recovend.jpg" width="600" />
 <figcaption>Mask_recovend.jpg</figcaption>
 </figure>
 
@@ -1533,7 +1533,7 @@ alt="mask_recov0.jpg" />
 　マスクの作成でLC(h)カーブを使った時に、マスクの画像が白黒の点（ソルト&ペッパーノイズ）で覆われ、マスクが正しく働かなくなることがあります。
 
 <figure>
-<img src="masknoisechroma.jpg" title="masknoisechroma.jpg"
+<img src="/images/masknoisechroma.jpg" title="masknoisechroma.jpg"
 width="600" />
 <figcaption>masknoisechroma.jpg</figcaption>
 </figure>
@@ -1543,7 +1543,7 @@ width="600" />
 　メインの⟨設定⟩から"全ての設定項目を表示"→"マスクと融合に関する設定"に進むと、"マスクの色ノイズ除去"というスライダーが表示されます。これを使ってノイズを軽減します。
 
 <figure>
-<img src="masknoisechromaden.jpg" title="masknoisechromaden.jpg"
+<img src="/images/masknoisechromaden.jpg" title="masknoisechromaden.jpg"
 width="600" />
 <figcaption>masknoisechromaden.jpg</figcaption>
 </figure>
@@ -1564,7 +1564,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Maskblendprepa1.jpg" title="Maskblendprepa1.jpg"
+<img src="/images/Maskblendprepa1.jpg" title="Maskblendprepa1.jpg"
 width="600" />
 <figcaption>Maskblendprepa1.jpg</figcaption>
 </figure>
@@ -1587,7 +1587,7 @@ Raw画像へのリンク(Creative Commons Attribution-Share Alike 4.0):
 <div>
 
 <figure>
-<img src="Maskblendshow2.jpg" title="Maskblendshow2.jpg" width="600" />
+<img src="/images/Maskblendshow2.jpg" title="Maskblendshow2.jpg" width="600" />
 <figcaption>Maskblendshow2.jpg</figcaption>
 </figure>
 
@@ -1635,7 +1635,7 @@ Raw画像へのリンク(Creative Commons Attribution-Share Alike 4.0):
 <div>
 
 <figure>
-<img src="Maskblend2.jpg" title="Maskblend2.jpg" width="600" />
+<img src="/images/Maskblend2.jpg" title="Maskblend2.jpg" width="600" />
 <figcaption>Maskblend2.jpg</figcaption>
 </figure>
 
@@ -1663,7 +1663,7 @@ Raw画像へのリンク(Creative Commons Attribution-Share Alike 4.0):
 <div>
 
 <figure>
-<img src="Common-maskprepa1.jpg" title="Common-maskprepa1.jpg"
+<img src="/images/Common-maskprepa1.jpg" title="Common-maskprepa1.jpg"
 width="600" />
 <figcaption>Common-maskprepa1.jpg</figcaption>
 </figure>
@@ -1683,7 +1683,7 @@ Raw画像へのリンク(Creative Commons Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Common-mask-showL1.jpg" title="Common-mask-showL1.jpg"
+<img src="/images/Common-mask-showL1.jpg" title="Common-mask-showL1.jpg"
 width="600" />
 <figcaption>Common-mask-showL1.jpg</figcaption>
 </figure>
@@ -1698,7 +1698,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-mask-showC1.jpg" title="Common-mask-showC1.jpg"
+<img src="/images/Common-mask-showC1.jpg" title="Common-mask-showC1.jpg"
 width="600" />
 <figcaption>Common-mask-showC1.jpg</figcaption>
 </figure>
@@ -1716,7 +1716,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-mask-previewdE1.jpg" title="Common-mask-previewdE1.jpg"
+<img src="/images/Common-mask-previewdE1.jpg" title="Common-mask-previewdE1.jpg"
 width="600" />
 <figcaption>Common-mask-previewdE1.jpg</figcaption>
 </figure>
@@ -1733,7 +1733,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-mask-modif1.jpg" title="Common-mask-modif1.jpg"
+<img src="/images/Common-mask-modif1.jpg" title="Common-mask-modif1.jpg"
 width="600" />
 <figcaption>Common-mask-modif1.jpg</figcaption>
 </figure>
@@ -1762,7 +1762,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-mask1.jpg" title="Common-mask1.jpg" width="600" />
+<img src="/images/Common-mask1.jpg" title="Common-mask1.jpg" width="600" />
 <figcaption>Common-mask1.jpg</figcaption>
 </figure>
 
@@ -1783,7 +1783,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-color1.jpg" title="Common-color1.jpg" width="600" />
+<img src="/images/Common-color1.jpg" title="Common-color1.jpg" width="600" />
 <figcaption>Common-color1.jpg</figcaption>
 </figure>
 
@@ -1797,7 +1797,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-color-prepa1.jpg" title="Common-color-prepa1.jpg"
+<img src="/images/Common-color-prepa1.jpg" title="Common-color-prepa1.jpg"
 width="600" />
 <figcaption>Common-color-prepa1.jpg</figcaption>
 </figure>
@@ -1815,7 +1815,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-color-normal1.jpg" title="Common-color-normal1.jpg"
+<img src="/images/Common-color-normal1.jpg" title="Common-color-normal1.jpg"
 width="600" />
 <figcaption>Common-color-normal1.jpg</figcaption>
 </figure>
@@ -1830,7 +1830,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-color-softphot1.jpg" title="Common-color-softphot1.jpg"
+<img src="/images/Common-color-softphot1.jpg" title="Common-color-softphot1.jpg"
 width="600" />
 <figcaption>Common-color-softphot1.jpg</figcaption>
 </figure>
@@ -1846,7 +1846,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Common-color-colburn1.jpg" title="Common-color-colburn1.jpg"
+<img src="/images/Common-color-colburn1.jpg" title="Common-color-colburn1.jpg"
 width="600" />
 <figcaption>Common-color-colburn1.jpg</figcaption>
 </figure>
@@ -1871,7 +1871,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mask-curve.jpg" title="Mask-curve.jpg" width="600" />
+<img src="/images/Mask-curve.jpg" title="Mask-curve.jpg" width="600" />
 <figcaption>Mask-curve.jpg</figcaption>
 </figure>
 
@@ -1897,7 +1897,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mairi.jpg" title="Mairi.jpg" width="600" />
+<img src="/images/Mairi.jpg" title="Mairi.jpg" width="600" />
 <figcaption>Mairi.jpg</figcaption>
 </figure>
 
@@ -1916,7 +1916,7 @@ Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mairiexp05.jpg" title="Mairiexp05.jpg" width="600" />
+<img src="/images/Mairiexp05.jpg" title="Mairiexp05.jpg" width="600" />
 <figcaption>Mairiexp05.jpg</figcaption>
 </figure>
 
@@ -1933,7 +1933,7 @@ Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mairi-cbdl_1.jpg" title="Mairi-cbdl_1.jpg" width="600" />
+<img src="/images/Mairi-cbdl_1.jpg" title="Mairi-cbdl_1.jpg" width="600" />
 <figcaption>Mairi-cbdl_1.jpg</figcaption>
 </figure>
 
@@ -1950,7 +1950,7 @@ Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mairi-grad1.jpg" title="Mairi-grad1.jpg" width="600" />
+<img src="/images/Mairi-grad1.jpg" title="Mairi-grad1.jpg" width="600" />
 <figcaption>Mairi-grad1.jpg</figcaption>
 </figure>
 
@@ -1965,7 +1965,7 @@ Attribution-Share Alike 4.0)：
 <div>
 
 <figure>
-<img src="Mairi-excluding1.jpg" title="Mairi-excluding1.jpg"
+<img src="/images/Mairi-excluding1.jpg" title="Mairi-excluding1.jpg"
 width="600" />
 <figcaption>Mairi-excluding1.jpg</figcaption>
 </figure>
@@ -1987,7 +1987,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mairi-mask1.jpg" title="Mairi-mask1.jpg" width="600" />
+<img src="/images/Mairi-mask1.jpg" title="Mairi-mask1.jpg" width="600" />
 <figcaption>Mairi-mask1.jpg</figcaption>
 </figure>
 
@@ -2002,7 +2002,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mairi-fin1.jpg" title="Mairi-fin1.jpg" width="600" />
+<img src="/images/Mairi-fin1.jpg" title="Mairi-fin1.jpg" width="600" />
 <figcaption>Mairi-fin1.jpg</figcaption>
 </figure>
 
@@ -2014,7 +2014,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mairi-befaft1.jpg" title="Mairi-befaft1.jpg" width="600" />
+<img src="/images/Mairi-befaft1.jpg" title="Mairi-befaft1.jpg" width="600" />
 <figcaption>Mairi-befaft1.jpg</figcaption>
 </figure>
 
@@ -2030,7 +2030,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mairi-wav_1.jpg" title="Mairi-wav_1.jpg" width="600" />
+<img src="/images/Mairi-wav_1.jpg" title="Mairi-wav_1.jpg" width="600" />
 <figcaption>Mairi-wav_1.jpg</figcaption>
 </figure>
 
@@ -2042,7 +2042,7 @@ width="600" />
 <div>
 
 <figure>
-<img src="Mairi-wavmask1.jpg" title="Mairi-wavmask1.jpg" width="600" />
+<img src="/images/Mairi-wavmask1.jpg" title="Mairi-wavmask1.jpg" width="600" />
 <figcaption>Mairi-wavmask1.jpg</figcaption>
 </figure>
 
@@ -2086,7 +2086,7 @@ width="600" />
 ###### 初めのRT-スポットで境界線をブラック、ホワイト、或いはグレーにする例
 
 <figure>
-<img src="Borderrgb.jpg" title="Borderrgb.jpg" width="600" />
+<img src="/images/Borderrgb.jpg" title="Borderrgb.jpg" width="600" />
 <figcaption>Borderrgb.jpg</figcaption>
 </figure>
 
@@ -2097,7 +2097,7 @@ width="600" />
 ###### 初めのRT-スポットで境界線を色付きにする例
 
 <figure>
-<img src="Bordergrid.jpg" title="Bordergrid.jpg" width="600" />
+<img src="/images/Bordergrid.jpg" title="Bordergrid.jpg" width="600" />
 <figcaption>Bordergrid.jpg</figcaption>
 </figure>
 
@@ -2108,7 +2108,7 @@ width="600" />
 ##### 2番目のRT-スポット
 
 <figure>
-<img src="Borderexcluding.jpg" title="Borderexcluding.jpg"
+<img src="/images/Borderexcluding.jpg" title="Borderexcluding.jpg"
 width="600" />
 <figcaption>Borderexcluding.jpg</figcaption>
 </figure>
@@ -2160,7 +2160,7 @@ System（ACES）が開発した対数符号化の研究からヒントを得ま�
 <div>
 
 <figure>
-<img src="catATwb.jpg" title="catATwb.jpg" width="600" />
+<img src="/images/catATwb.jpg" title="catATwb.jpg" width="600" />
 <figcaption>catATwb.jpg</figcaption>
 </figure>
 
@@ -2179,7 +2179,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="catLAset.jpg" title="catLAset.jpg" width="600" />
+<img src="/images/catLAset.jpg" title="catLAset.jpg" width="600" />
 <figcaption>catLAset.jpg</figcaption>
 </figure>
 
@@ -2193,7 +2193,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="catLAlog.jpg" title="catLAlog.jpg" width="600" />
+<img src="/images/catLAlog.jpg" title="catLAlog.jpg" width="600" />
 <figcaption>catLAlog.jpg</figcaption>
 </figure>
 
@@ -2210,7 +2210,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="catLAlogadap.jpg" title="catLAlogadap.jpg" width="600" />
+<img src="/images/catLAlogadap.jpg" title="catLAlogadap.jpg" width="600" />
 <figcaption>catLAlogadap.jpg</figcaption>
 </figure>
 
@@ -2228,7 +2228,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
+<img src="/images/ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
 width="600" />
 <figcaption>ciecam_light_prepa.jpg</figcaption>
 </figure>
@@ -2250,7 +2250,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="ciecamlog1.jpg" title="ciecamlog1.jpg" width="600" />
+<img src="/images/ciecamlog1.jpg" title="ciecamlog1.jpg" width="600" />
 <figcaption>ciecamlog1.jpg</figcaption>
 </figure>
 
@@ -2269,7 +2269,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="ciecamlog_cie.jpg" title="ciecamlog_cie.jpg" width="600" />
+<img src="/images/ciecamlog_cie.jpg" title="ciecamlog_cie.jpg" width="600" />
 <figcaption>ciecamlog_cie.jpg</figcaption>
 </figure>
 
@@ -2291,7 +2291,7 @@ Alike 4.0)：
 <div>
 
 <figure>
-<img src="Dblogciecamprepa.jpg" title="Dblogciecamprepa.jpg"
+<img src="/images/Dblogciecamprepa.jpg" title="Dblogciecamprepa.jpg"
 width="600" />
 <figcaption>Dblogciecamprepa.jpg</figcaption>
 </figure>
@@ -2316,7 +2316,7 @@ Commons Attribution-Share Alike 4.0)：
 
 <div>
 
-<img src="Dblogciecam.jpg" title="Dblogciecam.jpg" width="600"
+<img src="/images/Dblogciecam.jpg" title="Dblogciecam.jpg" width="600"
 alt="Dblogciecam.jpg" />　
 
 </ul>
@@ -2357,7 +2357,7 @@ pp3へのリンク
 <div>
 
 <figure>
-<img src="Loghigh-prepa.jpg" title="Loghigh-prepa.jpg" width="600" />
+<img src="/images/Loghigh-prepa.jpg" title="Loghigh-prepa.jpg" width="600" />
 <figcaption>Loghigh-prepa.jpg</figcaption>
 </figure>
 
@@ -2390,7 +2390,7 @@ pp3へのリンク
 <div>
 
 <figure>
-<img src="Loghigh-mask.jpg" title="Loghigh-mask.jpg" width="600" />
+<img src="/images/Loghigh-mask.jpg" title="Loghigh-mask.jpg" width="600" />
 <figcaption>Loghigh-mask.jpg</figcaption>
 </figure>
 
@@ -2399,7 +2399,7 @@ pp3へのリンク
 <div>
 
 <figure>
-<img src="Loghigh-log.jpg" title="Loghigh-log.jpg" width="600" />
+<img src="/images/Loghigh-log.jpg" title="Loghigh-log.jpg" width="600" />
 <figcaption>Loghigh-log.jpg</figcaption>
 </figure>
 
@@ -2417,7 +2417,7 @@ pp3へのリンク
 <div>
 
 <figure>
-<img src="Loghigh-recov.jpg" title="Loghigh-recov.jpg" width="600" />
+<img src="/images/Loghigh-recov.jpg" title="Loghigh-recov.jpg" width="600" />
 <figcaption>Loghigh-recov.jpg</figcaption>
 </figure>
 
@@ -2431,7 +2431,7 @@ pp3へのリンク
 <div>
 
 <figure>
-<img src="Loghigh-exclu.jpg" title="Loghigh-exclu.jpg" width="600" />
+<img src="/images/Loghigh-exclu.jpg" title="Loghigh-exclu.jpg" width="600" />
 <figcaption>Loghigh-exclu.jpg</figcaption>
 </figure>
 
@@ -2455,7 +2455,7 @@ pp3へのリンク
 <div>
 
 <figure>
-<img src="Loghigh-ciecam.jpg" title="Loghigh-ciecam.jpg" width="600" />
+<img src="/images/Loghigh-ciecam.jpg" title="Loghigh-ciecam.jpg" width="600" />
 <figcaption>Loghigh-ciecam.jpg</figcaption>
 </figure>
 
@@ -2477,7 +2477,7 @@ pp3へのリンク
 
 <div>
 
-<img src="encodlogprepa.jpg" title="encodlogprepa.jpg" width="600"
+<img src="/images/encodlogprepa.jpg" title="encodlogprepa.jpg" width="600"
 alt="encodlogprepa.jpg" /> Rawファイルへのリンク
 [25](https://drive.google.com/open?id=1RXoXp-AHWzo6mzbd-VyRTRvmRlFtyZDq)
 
@@ -2541,7 +2541,7 @@ alt="encodlogprepa.jpg" /> Rawファイルへのリンク
 ###### これまでCAM16の画像編集に入っていたHDR用モジュール、"対数符号化Q"と"シグモイドQ"を外す
 
 <figure>
-<img src="sourcedata1.jpg" title="sourcedata1.jpg" />
+<img src="/images/sourcedata1.jpg" title="sourcedata1.jpg" />
 <figcaption>sourcedata1.jpg</figcaption>
 </figure>
 
@@ -2573,7 +2573,7 @@ alt="encodlogprepa.jpg" /> Rawファイルへのリンク
 ###### CAM16による編集の前に、画像を調整する “対数符号化”や“場面条件”はどの様な原理で働くのか
 
 <figure>
-<img src="whiteblackdisr.jpg" title="whiteblackdisr.jpg" width="400" />
+<img src="/images/whiteblackdisr.jpg" title="whiteblackdisr.jpg" width="400" />
 <figcaption>whiteblackdisr.jpg</figcaption>
 </figure>
 
@@ -2599,7 +2599,7 @@ alt="encodlogprepa.jpg" /> Rawファイルへのリンク
 ##### 拡張パネルを使い、ユーザーインターフェイスを単純化し、より感覚的に使えるように
 
 <figure>
-<img src="Cam16exp.jpg" title="Cam16exp.jpg" width="600" />
+<img src="/images/Cam16exp.jpg" title="Cam16exp.jpg" width="600" />
 <figcaption>Cam16exp.jpg</figcaption>
 </figure>
 
@@ -2635,7 +2635,7 @@ alt="encodlogprepa.jpg" /> Rawファイルへのリンク
 - 　レンダリングが良いとは言い難い画像です。
 
 <figure>
-<img src="Alex3-neutr.jpg" title="Alex3-neutr.jpg" width="600" />
+<img src="/images/Alex3-neutr.jpg" title="Alex3-neutr.jpg" width="600" />
 <figcaption>Alex3-neutr.jpg</figcaption>
 </figure>
 
@@ -2650,7 +2650,7 @@ alt="encodlogprepa.jpg" /> Rawファイルへのリンク
 - 　ハイライトに白飛びがあります（L＝100以上）。
 
 <figure>
-<img src="Alex3-automatch.jpg" title="Alex3-automatch.jpg"
+<img src="/images/Alex3-automatch.jpg" title="Alex3-automatch.jpg"
 width="600" />
 <figcaption>Alex3-automatch.jpg</figcaption>
 </figure>
@@ -2669,7 +2669,7 @@ width="600" />
 - 　全体的な印象が明る過ぎます。
 
 <figure>
-<img src="Alex3-logencode.jpg" title="Alex3-logencode.jpg"
+<img src="/images/Alex3-logencode.jpg" title="Alex3-logencode.jpg"
 width="600" />
 <figcaption>Alex3-logencode.jpg</figcaption>
 </figure>
@@ -2681,7 +2681,7 @@ width="600" />
 - 　元データの調整‐対数符号化の"明るさの圧縮"スライダーを90にして明るさを下げます。
 
 <figure>
-<img src="Alex3-dynamic1.jpg" title="Alex3-dynamic1.jpg" width="600" />
+<img src="/images/Alex3-dynamic1.jpg" title="Alex3-dynamic1.jpg" width="600" />
 <figcaption>Alex3-dynamic1.jpg</figcaption>
 </figure>
 
@@ -2701,7 +2701,7 @@ width="600" />
 - 　"色の微調整（ホワイトポイント）"を動かすことで、色相をブルー/グリーン寄りに変え、彩度を増やすことが出来ます。もちろん、こう言った編集はユーザーの好み次第です。
 
 <figure>
-<img src="Alex3-seine1.jpg" title="Alex3-seine1.jpg" width="600" />
+<img src="/images/Alex3-seine1.jpg" title="Alex3-seine1.jpg" width="600" />
 <figcaption>Alex3-seine1.jpg</figcaption>
 </figure>
 
@@ -2718,7 +2718,7 @@ width="600" />
 ###### 元画像
 
 <figure>
-<img src="Van-tunnel-0.jpg" title="Van-tunnel-0.jpg" width="600" />
+<img src="/images/Van-tunnel-0.jpg" title="Van-tunnel-0.jpg" width="600" />
 <figcaption>Van-tunnel-0.jpg</figcaption>
 </figure>
 
@@ -2730,7 +2730,7 @@ width="600" />
 - 　スロープ = 80　シャドウを明るく
 
 <figure>
-<img src="Van-tunnel.jpg" title="Van-tunnel.jpg" width="600" />
+<img src="/images/Van-tunnel.jpg" title="Van-tunnel.jpg" width="600" />
 <figcaption>Van-tunnel.jpg</figcaption>
 </figure>
 
@@ -2753,7 +2753,7 @@ width="600" />
 - 　コントラストJ = 24.
 
 <figure>
-<img src="Van-tunnel-surround.jpg" title="Van-tunnel-surround.jpg"
+<img src="/images/Van-tunnel-surround.jpg" title="Van-tunnel-surround.jpg"
 width="600" />
 <figcaption>Van-tunnel-surround.jpg</figcaption>
 </figure>
@@ -2776,7 +2776,7 @@ width="600" />
     - 　レベル（元データの調整）：上記のスロープベースと似ていますが、3つの色チャンネルR、G、B、を別々に調整します。場面条件/観視条件の平均輝度Yb％を考慮する、或いは全体的な明るさを維持することで、レンダリングを制御します。
 
 <figure>
-<img src="Highattenuation.jpg" title="Highattenuation.jpg"
+<img src="/images/Highattenuation.jpg" title="Highattenuation.jpg"
 width="600" />
 <figcaption>Highattenuation.jpg</figcaption>
 </figure>
@@ -2784,7 +2784,7 @@ width="600" />
 - 　⟨原色と光源⟩は、画像の測色を調整するための機能です。光源を選択し、主体色を調整します。
 
 <figure>
-<img src="Primdom.jpg" title="Primdom.jpg" width="600" />
+<img src="/images/Primdom.jpg" title="Primdom.jpg" width="600" />
 <figcaption>Primdom.jpg</figcaption>
 </figure>
 
@@ -2871,7 +2871,7 @@ width="600" />
 ##### Jzを使った実例
 
 <figure>
-<img src="Jzsettings.jpg" title="Jzsettings.jpg" width="600" />
+<img src="/images/Jzsettings.jpg" title="Jzsettings.jpg" width="600" />
 <figcaption>Jzsettings.jpg</figcaption>
 </figure>
 
@@ -2917,7 +2917,7 @@ avgm=0.249170 to_screen=42.941518 Max_real=0.783651 to_one=1.276078
 - 　対数符号化Jzに関しては、値を線形にするために対数方程式に対する一意的な解がa）、b）、及び観視条件の平均輝度（Yb％）から求められます。c）の値は、この計算には影響しませんが、コントラストの配分に影響します。次に説明するシグモイドは異なります。
 
 **シグモイドJz**
-<img src="Sigmoidjz1.jpg" title="Sigmoidjz1.jpg" width="600"
+<img src="/images/Sigmoidjz1.jpg" title="Sigmoidjz1.jpg" width="600"
 alt="Sigmoidjz1.jpg" />
 
 - 　"色の見えモデル02/16＆Jzazbz"のシグモイドJzも参照して下さい。
@@ -3307,7 +3307,7 @@ Software©によって開発されたアプリケーションに近いもので�
   - 　その下の"融合するファイルの選択：元画像/一つ前の画像/背景"のコンボボックスで"標準"モードを選択します。効果を知るために、ファイルの融合を背景にする、融合のモードを"ソフトライト"などに変える、⟨背景の融合⟩を50にする、不透明度を50にする、コントラストのしきい値を調整する、などして効果の違いを知って下さい。
 
 <figure>
-<img src="doubleblur.jpg" title="doubleblur.jpg" width="300" />
+<img src="/images/doubleblur.jpg" title="doubleblur.jpg" width="300" />
 <figcaption>doubleblur.jpg</figcaption>
 </figure>
 
@@ -3457,7 +3457,7 @@ JzCzHz）⟩、⟨詳細レベルによるコントラスト調整⟩、⟨ト�
 - 　基準値の繰り返し更新オプションを無効にした後、色度或いは輝度を目的の効果になるように調整します。殆どのケースで、Ｙ軸の値を10％ないし20％下げれば十分でしょう。
 
 <figure>
-<img src="mask_sensi_obj1.jpg" title="mask_sensi_obj1.jpg"
+<img src="/images/mask_sensi_obj1.jpg" title="mask_sensi_obj1.jpg"
 width="600" />
 <figcaption>mask_sensi_obj1.jpg</figcaption>
 </figure>
@@ -3640,9 +3640,9 @@ width="600" />
 
 こちらのオプションを選択すると、直接的に色度に影響します。
 
-<img src="Colorspace_flowers.jpg" title="Colorspace_flowers.jpg"
+<img src="/images/Colorspace_flowers.jpg" title="Colorspace_flowers.jpg"
 width="300" alt="Colorspace_flowers.jpg" />
-<img src="Colorspace_flowers-grid2.jpg"
+<img src="/images/Colorspace_flowers-grid2.jpg"
 title="Colorspace_flowers-grid2.jpg" width="300"
 alt="Colorspace_flowers-grid2.jpg" />
 

@@ -102,7 +102,7 @@ malfunzionamenti (bug) ancora non risolti!
 - elaborazione:
 
 <figure>
-<img src="Mire468.jpg" title="Mire468.jpg" />
+<img src="/images/Mire468.jpg" title="Mire468.jpg" />
 <figcaption>Mire468.jpg</figcaption>
 </figure>
 
@@ -199,7 +199,7 @@ giorno (D), ad esempio l'illuminante "Blackbody" o "Fluorescente"
   di 4000K
 
 <figure>
-<img src="illum1.jpg" title="illum1.jpg" />
+<img src="/images/illum1.jpg" title="illum1.jpg" />
 <figcaption>illum1.jpg</figcaption>
 </figure>
 
@@ -382,7 +382,7 @@ un'illuminazione è fluorescente - l'illuminante in questione (ad esempio
 F11 4000K) da un equivalente "Daylight 4000K".
 
 <figure>
-<img src="Comp4000.jpg" title="Comp4000.jpg" />
+<img src="/images/Comp4000.jpg" title="Comp4000.jpg" />
 <figcaption>Comp4000.jpg</figcaption>
 </figure>
 
@@ -548,7 +548,7 @@ meglio! ma su quale base?
   di gamut ampio.
 
 <figure>
-<img src="GAMUTS.jpg"
+<img src="/images/GAMUTS.jpg"
 title="rappresentazione di 4 profili o spazi gamut" />
 <figcaption>rappresentazione di 4 profili o spazi gamut</figcaption>
 </figure>
@@ -759,7 +759,7 @@ impostazione predefinita nelle opzioni RawTherapee: relative,
 percettive, ...) i dati RGB dallo spazio di lavoro all'uscita spazio.
 
 <figure>
-<img src="GamutL50.jpg" title="Gamut for a luminance L=50" />
+<img src="/images/GamutL50.jpg" title="Gamut for a luminance L=50" />
 <figcaption>Gamut for a luminance L=50</figcaption>
 </figure>
 

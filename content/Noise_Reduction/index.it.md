@@ -5,7 +5,7 @@ contributors:
 ---
 
 <figure>
-<img src="noisereduction2.jpg" title="noisereduction2.jpg" />
+<img src="/images/noisereduction2.jpg" title="noisereduction2.jpg" />
 <figcaption>noisereduction2.jpg</figcaption>
 </figure>
 
@@ -370,7 +370,7 @@ valori gamma più alti limitano l'effetto solo a toni più luminosi.
 
 ### Mediana
 
-<img src="Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
+<img src="/images/Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
 width="900" alt="Rt_nr_median_books.jpg" /> Utilizza questo filtro per
 rimuovere gli artefatti minuscoli e affilati che vanno dalla riduzione
 del rumore. Il [median

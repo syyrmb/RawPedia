@@ -10,10 +10,10 @@ Aberration Chromatique
 
 </div>
 
-<img src="chromatic_aberration_auto1.jpg"
+<img src="/images/chromatic_aberration_auto1.jpg"
 title="chromatic_aberration_auto1.jpg" width="900"
 alt="chromatic_aberration_auto1.jpg" />
-<img src="chromatic_aberration_auto2.jpg"
+<img src="/images/chromatic_aberration_auto2.jpg"
 title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" /> Cet outil "Aberration
 Chromatique" traite l'image **avant** le dématriçage, c'est la raison

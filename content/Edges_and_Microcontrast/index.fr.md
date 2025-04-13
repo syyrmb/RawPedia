@@ -57,7 +57,7 @@ Les meilleurs résultats sont obtenus :
     L\*a\*b\* et cette option renforce uniquement "L"
 
 <figure>
-<img src="edges.jpg" title="edges.jpg" />
+<img src="/images/edges.jpg" title="edges.jpg" />
 <figcaption>edges.jpg</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ la réduction du bruit. Il n'introduit pas de halos.
 [2](https://web.archive.org/web/20100324142513/http://www.rawness.es/contraste-local-y-microcontraste/?lang=en)
 
 <figure>
-<img src="seagull-microcontrast.jpg"
+<img src="/images/seagull-microcontrast.jpg"
 title="seagull-microcontrast.jpg" />
 <figcaption>seagull-microcontrast.jpg</figcaption>
 </figure>

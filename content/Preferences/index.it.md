@@ -63,7 +63,7 @@ E' richiesto un riavvio per cambiare la lingua del programma.
 ### Tema predefinito
 
 <figure>
-<img src="Image_editor.png"
+<img src="/images/Image_editor.png"
 title="La scheda sviluppo immagine mostra: (1) il colore dello sfondo, (2) la maschera di ritaglio, (3) raccoglitori di colore bloccabili e (4) pulsanti che alternano il colore dello sfondo di anteprima tra nero, bianco e predefinito." />
 <figcaption>La scheda sviluppo immagine mostra: (1) il colore dello
 sfondo, (2) la maschera di ritaglio, (3) raccoglitori di colore
@@ -109,7 +109,7 @@ Media Surround", disponibile dalla versione 5.2.1 in avanti.
   il ritaglio con il mouse).
 
 <figure>
-<img src="Image_editor_navigator.png"
+<img src="/images/Image_editor_navigator.png"
 title="La scheda Navigatore mostra: (1) il pannello Navigatore, (2) la guida del Navigatore che segna l&#39;area attualmente visibile nell&#39;anteprima principale quando si ingrandisce." />
 <figcaption>La scheda Navigatore mostra: (1) il pannello Navigatore, (2)
 la guida del Navigatore che segna l'area attualmente visibile

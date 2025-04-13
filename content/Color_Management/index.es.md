@@ -82,7 +82,7 @@ cerebro, que las une en una especie de mosaico
 [HDR](https://es.wikipedia.org/wiki/Imágenes_de_alto_rango_dinámico).
 
 <figure>
-<img src="CIExy_color_gamut_diagram.jpg"
+<img src="/images/CIExy_color_gamut_diagram.jpg"
 title="CIExy_color_gamut_diagram.jpg" />
 <figcaption>CIExy_color_gamut_diagram.jpg</figcaption>
 </figure>
@@ -245,11 +245,11 @@ botones:
   salida*. Modifica el cálculo de la forma del histograma y los los
   valores RGB, HSV y L\*a\*b\* mostrados en el panel de navegación. Si
   está desactivado (
-  <img src="gamut-hist-off.png" title="gamut-hist-off.png" width="21"
+  <img src="/images/gamut-hist-off.png" title="gamut-hist-off.png" width="21"
   alt="gamut-hist-off.png" /> , por defecto) tanto el histograma como
   los valores de los píxeles en el panel emplearán el perfil de salida.
   En cambio si el botón está activado (
-  <img src="gamut-hist.png" title="gamut-hist.png" width="21"
+  <img src="/images/gamut-hist.png" title="gamut-hist.png" width="21"
   alt="gamut-hist.png" /> ) veremos el histograma y los valores con los
   que trabaja el motor del programa codificados en el espacio de color
   del perfil de trabajo. Además también verás cambios en la cantidad de
@@ -366,11 +366,11 @@ detalles:
 - si en un procesado posterior rebajas el canal rojo desde **1146**
   hasta **220**, si no hubiera habido recorte el color sería el
   **(220,35,12)**
-  <img src="220-35-12.jpg" title="220-35-12.jpg" width="20"
+  <img src="/images/220-35-12.jpg" title="220-35-12.jpg" width="20"
   alt="220-35-12.jpg" />
 - sin embargo al recortar los colores según el método de RawTherapee, el
   color resultante es el **(49,8,2)**
-  <img src="49-8-2.jpg" title="49-8-2.jpg" width="20" alt="49-8-2.jpg" />
+  <img src="/images/49-8-2.jpg" title="49-8-2.jpg" width="20" alt="49-8-2.jpg" />
   (el mismo tono, pero bastante más oscuro de lo esperado)
 
 Como se puede entender, los ejemplos anteriores son el resultado de
@@ -763,22 +763,22 @@ captan:
 <div>
 
 - <figure>
-  <img src="acesap0_gamut.jpg" title="acesap0_gamut.jpg" />
+  <img src="/images/acesap0_gamut.jpg" title="acesap0_gamut.jpg" />
   <figcaption>acesap0_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="acesap1_gamut.jpg" title="acesap1_gamut.jpg" />
+  <img src="/images/acesap1_gamut.jpg" title="acesap1_gamut.jpg" />
   <figcaption>acesap1_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="best_gamut.jpg" title="best_gamut.jpg" />
+  <img src="/images/best_gamut.jpg" title="best_gamut.jpg" />
   <figcaption>best_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="beta_gamut.jpg" title="beta_gamut.jpg" />
+  <img src="/images/beta_gamut.jpg" title="beta_gamut.jpg" />
   <figcaption>beta_gamut.jpg</figcaption>
   </figure>
 
@@ -786,22 +786,22 @@ captan:
 <div>
 
 - <figure>
-  <img src="bruce_gamut.jpg" title="bruce_gamut.jpg" />
+  <img src="/images/bruce_gamut.jpg" title="bruce_gamut.jpg" />
   <figcaption>bruce_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="large_gamut.jpg" title="large_gamut.jpg" />
+  <img src="/images/large_gamut.jpg" title="large_gamut.jpg" />
   <figcaption>large_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="medium_gamut.jpg" title="medium_gamut.jpg" />
+  <img src="/images/medium_gamut.jpg" title="medium_gamut.jpg" />
   <figcaption>medium_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="rec2020_gamut.jpg" title="rec2020_gamut.jpg" />
+  <img src="/images/rec2020_gamut.jpg" title="rec2020_gamut.jpg" />
   <figcaption>rec2020_gamut.jpg</figcaption>
   </figure>
 
@@ -809,12 +809,12 @@ captan:
 <div>
 
 - <figure>
-  <img src="srgb_gamut.jpg" title="srgb_gamut.jpg" />
+  <img src="/images/srgb_gamut.jpg" title="srgb_gamut.jpg" />
   <figcaption>srgb_gamut.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wide_gamut.jpg" title="wide_gamut.jpg" />
+  <img src="/images/wide_gamut.jpg" title="wide_gamut.jpg" />
   <figcaption>wide_gamut.jpg</figcaption>
   </figure>
 
@@ -824,7 +824,7 @@ Y ahora una imagen con la comparación de varios de los rangos de colores
 más grandes:
 
 <figure>
-<img src="big_gamuts_comparison.jpg"
+<img src="/images/big_gamuts_comparison.jpg"
 title="big_gamuts_comparison.jpg" />
 <figcaption>big_gamuts_comparison.jpg</figcaption>
 </figure>
@@ -1134,11 +1134,11 @@ Si instalas las versiones de prueba de los programas *Capture One* o
 extensa colección de perfiles para la mayoría de las cámaras del
 mercado.
 
-En <img src="COne-logo.png" title="COne-logo.png" width="32"
+En <img src="/images/COne-logo.png" title="COne-logo.png" width="32"
 alt="COne-logo.png" /> **Capture One** seguramente los podrás encontrar
 dentro de:
 
-- en <img src="macOS-logo.png" title="macOS-logo.png" width="34"
+- en <img src="/images/macOS-logo.png" title="macOS-logo.png" width="34"
   alt="macOS-logo.png" /> **macOS** pueden estar en dos lugares:
   - dentro de la carpeta
     `Users>TuNombreDeUsuario>Library>ColorSync>Profiles` (ten en cuenta
@@ -1149,26 +1149,26 @@ dentro de:
     **Aplicaciones\>Capture One**, haz en el icono del programa y
     selecciona *Mostrar contenido del paquete*. Después dirígete a
     `Contents>Frameworks>AppCore.Framework>Versions>A>Resources>Profiles>Input`
-- en <img src="Windows-logo.png" title="Windows-logo.png" width="32"
+- en <img src="/images/Windows-logo.png" title="Windows-logo.png" width="32"
   alt="Windows-logo.png" /> **Windows** los encontrarás en
   `Users\TuNombreDeUsuario\Appdata\CaptureOne\Color profiles`
 
-En <img src="ACR-logo.jpg" title="ACR-logo.jpg" width="32"
+En <img src="/images/ACR-logo.jpg" title="ACR-logo.jpg" width="32"
 alt="ACR-logo.jpg" /> **Adobe Camera Raw**:
 
-- en <img src="macOS-logo.png" title="macOS-logo.png" width="34"
+- en <img src="/images/macOS-logo.png" title="macOS-logo.png" width="34"
   alt="macOS-logo.png" /> **macOS**: dentro de la carpeta
   `Users>TuNombreDeUsuario>Application>Support>Adobe CameraRaw>CameraProfiles`
   (ten en cuenta que esta carpeta está oculta, así que, mientras estás
   en el *Finder*, deberás presionar la tecla y seleccionar la carpeta
   *Library*)
-- en <img src="Windows-logo.png" title="Windows-logo.png" width="32"
+- en <img src="/images/Windows-logo.png" title="Windows-logo.png" width="32"
   alt="Windows-logo.png" /> **Windows** pueden estar en dos lugares:
   - dentro de la carpeta `C:\ProgramData\Adobe CameraRaw\CameraProfiles`
   - dentro de la carpeta
     `Users\TuNombreDeUsuario\Appdata\Roaming\Adobe CameraRaw\CameraProfiles`
 
-Con <img src="NX-D-logo.png" title="NX-D-logo.png" width="32"
+Con <img src="/images/NX-D-logo.png" title="NX-D-logo.png" width="32"
 alt="NX-D-logo.png" /> **Nikon Capture NX-D** también podrás obtener muy
 buenos perfiles para cámaras Nikon, aunque la explicación de dónde
 encontrarlos está en la página [Cómo conseguir perfiles ICM de
@@ -1261,7 +1261,7 @@ un diagrama perceptualmente más adecuado a nuestra visión: el **diagrama
 CIELuv**.
 
 <figure>
-<img src="1931-to-1976.jpg" title="1931-to-1976.jpg" />
+<img src="/images/1931-to-1976.jpg" title="1931-to-1976.jpg" />
 <figcaption>1931-to-1976.jpg</figcaption>
 </figure>
 
@@ -1344,7 +1344,7 @@ luminancia o los valores triestímulos en sistemas de vídeo o imagen. Se
 puede expresar matemáticamente así:
 
 <figure>
-<img src="gamma_formula.png" title="gamma_formula.png" />
+<img src="/images/gamma_formula.png" title="gamma_formula.png" />
 <figcaption>gamma_formula.png</figcaption>
 </figure>
 

@@ -18,10 +18,10 @@ contributors:
 
 　レンズの色収差によって、主に画像の輪郭部分が、青味がかった緑や、マゼンタ色になる歪みを補正します。この補正はデモザイク処理の前に行われるので、デモザイク処理の質を上げることが出来るでしょう。
 
-<img src="chromatic_aberration_auto1.jpg"
+<img src="/images/chromatic_aberration_auto1.jpg"
 title="chromatic_aberration_auto1.jpg" width="900"
 alt="chromatic_aberration_auto1.jpg" />
-<img src="chromatic_aberration_auto2.jpg"
+<img src="/images/chromatic_aberration_auto2.jpg"
 title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" />
 

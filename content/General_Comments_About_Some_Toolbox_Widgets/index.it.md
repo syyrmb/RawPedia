@@ -250,7 +250,7 @@ tuo forte, non ti preoccupare - dopo una breve esperienza, tutti
 sviluppano rapidamente una comprensione intuitiva.
 
 <figure>
-<img src="Tone_Curve.png" title="Tone_Curve.png" />
+<img src="/images/Tone_Curve.png" title="Tone_Curve.png" />
 <figcaption>Tone_Curve.png</figcaption>
 </figure>
 

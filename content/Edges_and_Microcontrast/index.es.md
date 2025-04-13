@@ -48,7 +48,7 @@ Los mejores resultados se condiguen con ajustes muy sutiles:
     **canal L\***, dejando los canales a\* y b\* intactos.
 
 <figure>
-<img src="edges.jpg" title="edges.jpg" />
+<img src="/images/edges.jpg" title="edges.jpg" />
 <figcaption>edges.jpg</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ artefactos:
   imágenes ruidosas.
 
 <figure>
-<img src="seagull-microcontrast.jpg"
+<img src="/images/seagull-microcontrast.jpg"
 title="seagull-microcontrast.jpg" />
 <figcaption>seagull-microcontrast.jpg</figcaption>
 </figure>

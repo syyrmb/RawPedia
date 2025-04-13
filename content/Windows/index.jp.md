@@ -31,7 +31,7 @@ XPビルドは5.0-rc1です。[here](http://www.rawtherapee.com/downloads/5.0-r1
 MinGW 64-bit**のシェルを使います。
 
 <figure>
-<img src="MSYS2_Shell.jpg" title="File:MSYS2 Shell.jpg" />
+<img src="/images/MSYS2_Shell.jpg" title="File:MSYS2 Shell.jpg" />
 <figcaption><a href="File:MSYS2">File:MSYS2</a> Shell.jpg</figcaption>
 </figure>
 

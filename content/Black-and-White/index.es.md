@@ -11,7 +11,7 @@ Blanco y Negro
 </div>
 
 <figure>
-<img src="bw_high-key.jpg" title="bw_high-key.jpg" />
+<img src="/images/bw_high-key.jpg" title="bw_high-key.jpg" />
 <figcaption>bw_high-key.jpg</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ se explicará más adelante.
 
 Con este método a cada píxel se le asigna en sus tres canales (R=G=B) el
 valor de luminancia resultante de calcular la fórmula:
-<img src="luminance_value.png" title="luminance_value.png" height="35"
+<img src="/images/luminance_value.png" title="luminance_value.png" height="35"
 alt="luminance_value.png" />. Esto asegura una imagen gris totalmente
 neutra, pero sin ninguna posibilidad de ajustar a nuestro gusto las
 tonalidades directamente en la herramienta.
@@ -103,7 +103,7 @@ Nota: los otros dos métodos de desaturación en Rawtherapee dan tonos de
 gris distintos debido a sus diferentes algoritmos. En *Exposición* es el
 canal *S* del espacio de color *HSV* el que se pone a *0*. En *Ajustes
 L\*a\*b\** es la cromaticidad
-(<img src="chroma.png" title="chroma.png" height="35" alt="chroma.png" />)
+(<img src="/images/chroma.png" title="chroma.png" height="35" alt="chroma.png" />)
 la que se pone a *0*.
 
 ### Ecualizador de luminancia

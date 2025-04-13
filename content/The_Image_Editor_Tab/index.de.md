@@ -18,7 +18,7 @@ Ready for publishing: no
 # Die Registerkarte Bildeditor
 
 <figure>
-<img src="Rt-5-misty1.jpg" title="Rt-5-misty1.jpg" />
+<img src="/images/Rt-5-misty1.jpg" title="Rt-5-misty1.jpg" />
 <figcaption>Rt-5-misty1.jpg</figcaption>
 </figure>
 
@@ -244,7 +244,7 @@ Standarddarstellung, wenn die aktive Auswahl deaktiviert wird.</caption>
 <td style="padding:10px;"><p>Normal*</p></td>
 <td></td>
 <td><figure>
-<img src="preview_mode_1_regular.png"
+<img src="/images/preview_mode_1_regular.png"
 title="Image:preview mode 1 regular.png" />
 <figcaption>Image:preview mode 1 regular.png</figcaption>
 </figure></td>
@@ -253,7 +253,7 @@ title="Image:preview mode 1 regular.png" />
 <td style="padding:10px;"><p>nur Rot-Kanal</p></td>
 <td style="text-align: center;"><p>r</p></td>
 <td><figure>
-<img src="preview_mode_2_red.png"
+<img src="/images/preview_mode_2_red.png"
 title="Image:preview mode 2 red.png" />
 <figcaption>Image:preview mode 2 red.png</figcaption>
 </figure></td>
@@ -262,7 +262,7 @@ title="Image:preview mode 2 red.png" />
 <td style="padding:10px;"><p>nur Grün-Kanal</p></td>
 <td style="text-align: center;"><p>g</p></td>
 <td><figure>
-<img src="preview_mode_3_green.png"
+<img src="/images/preview_mode_3_green.png"
 title="Image:preview mode 3 green.png" />
 <figcaption>Image:preview mode 3 green.png</figcaption>
 </figure></td>
@@ -271,7 +271,7 @@ title="Image:preview mode 3 green.png" />
 <td style="padding:10px;"><p>nur Blau-Kanal</p></td>
 <td style="text-align: center;"><p>b</p></td>
 <td><figure>
-<img src="preview_mode_4_blue.png"
+<img src="/images/preview_mode_4_blue.png"
 title="Image:preview mode 4 blue.png" />
 <figcaption>Image:preview mode 4 blue.png</figcaption>
 </figure></td>
@@ -280,7 +280,7 @@ title="Image:preview mode 4 blue.png" />
 <td style="padding:10px;"><p>nur Helligkeits-Kanal</p></td>
 <td style="text-align: center;"><p>v</p></td>
 <td><figure>
-<img src="preview_mode_5_luminance.png"
+<img src="/images/preview_mode_5_luminance.png"
 title="Image:preview mode 5 luminance.png" />
 <figcaption>Image:preview mode 5 luminance.png</figcaption>
 </figure></td>
@@ -289,7 +289,7 @@ title="Image:preview mode 5 luminance.png" />
 <td style="padding:10px;"><p>Fokusmaske</p></td>
 <td style="text-align: center;"><p>Shift+f</p></td>
 <td><figure>
-<img src="preview_mode_6_focus.png"
+<img src="/images/preview_mode_6_focus.png"
 title="Image:preview mode 6 focus.png" />
 <figcaption>Image:preview mode 6 focus.png</figcaption>
 </figure></td>
@@ -386,12 +386,12 @@ und Bildbeschnitt-Ansicht</p></th>
 <td><p>basierend auf dem Oberflächendesign</p></td>
 <td style="text-align: center;"><p>8</p></td>
 <td><figure>
-<img src="Previewback_7_theme.png"
+<img src="/images/Previewback_7_theme.png"
 title="Image:Previewback_7_theme.png" />
 <figcaption>Image:Previewback_7_theme.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_theme.png"
+<img src="/images/Previewback_flower_theme.png"
 title="Previewback_flower_theme.png" width="180" />
 <figcaption>Previewback_flower_theme.png</figcaption>
 </figure></td>
@@ -405,12 +405,12 @@ Schnittmaske</em>" einstellen.</p></td>
 <td><p>Schwarz</p></td>
 <td style="text-align: center;"><p>9</p></td>
 <td><figure>
-<img src="Previewback_8_black.png"
+<img src="/images/Previewback_8_black.png"
 title="Image:Previewback_8_black.png" />
 <figcaption>Image:Previewback_8_black.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_white.png"
+<img src="/images/Previewback_flower_white.png"
 title="Previewback_flower_white.png" />
 <figcaption>Previewback_flower_white.png</figcaption>
 </figure></td>
@@ -420,12 +420,12 @@ title="Previewback_flower_white.png" />
 <td><p>Weiß</p></td>
 <td style="text-align: center;"><p>0</p></td>
 <td><figure>
-<img src="Previewback_9_white.png"
+<img src="/images/Previewback_9_white.png"
 title="Image:Previewback_9_white.png" />
 <figcaption>Image:Previewback_9_white.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_black.png"
+<img src="/images/Previewback_flower_black.png"
 title="Previewback_flower_black.png" />
 <figcaption>Previewback_flower_black.png</figcaption>
 </figure></td>
@@ -895,13 +895,13 @@ Diese Betriebsarten kannst du umstellen unter
 ## Der Filmstreifen
 
 <figure>
-<img src="Rt_filmstrip_21_toolbar-visible.jpg"
+<img src="/images/Rt_filmstrip_21_toolbar-visible.jpg"
 title="Rt_filmstrip_21_toolbar-visible.jpg" />
 <figcaption>Rt_filmstrip_21_toolbar-visible.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_filmstrip_21_toolbar-hidden.jpg"
+<img src="/images/Rt_filmstrip_21_toolbar-hidden.jpg"
 title="Rt_filmstrip_21_toolbar-hidden.jpg" />
 <figcaption>Rt_filmstrip_21_toolbar-hidden.jpg</figcaption>
 </figure>

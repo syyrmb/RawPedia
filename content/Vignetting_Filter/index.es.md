@@ -18,7 +18,7 @@ O cómo oscurecer los bordes de la imagen
 ## La herramienta
 
 <figure>
-<img src="Vignette-filter_4.00_50_50.jpg"
+<img src="/images/Vignette-filter_4.00_50_50.jpg"
 title="Vignette-filter_4.00_50_50.jpg" />
 <figcaption>Vignette-filter_4.00_50_50.jpg</figcaption>
 </figure>
@@ -69,13 +69,13 @@ tan gradual.
 <div>
 
 - <figure>
-  <img src="Vignette-filter_4.00_00_50.jpg"
+  <img src="/images/Vignette-filter_4.00_00_50.jpg"
   title="Vignette-filter_4.00_00_50.jpg" />
   <figcaption>Vignette-filter_4.00_00_50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Vignette-filter_4.00_99_50.jpg"
+  <img src="/images/Vignette-filter_4.00_99_50.jpg"
   title="Vignette-filter_4.00_99_50.jpg" />
   <figcaption>Vignette-filter_4.00_99_50.jpg</figcaption>
   </figure>
@@ -96,13 +96,13 @@ Con este deslizador controlas la geometría del filtro:
 <div>
 
 - <figure>
-  <img src="Vignette-filter_4.00_50_00.jpg"
+  <img src="/images/Vignette-filter_4.00_50_00.jpg"
   title="Vignette-filter_4.00_50_00.jpg" />
   <figcaption>Vignette-filter_4.00_50_00.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Vignette-filter_4.00_50_99.jpg"
+  <img src="/images/Vignette-filter_4.00_50_99.jpg"
   title="Vignette-filter_4.00_50_99.jpg" />
   <figcaption>Vignette-filter_4.00_50_99.jpg</figcaption>
   </figure>

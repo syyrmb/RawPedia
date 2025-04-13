@@ -238,7 +238,7 @@ J'ai mis en place 3 méthodes :
 
 ## Traiter le fichier « Transmission map »
 
-<img src="TMap.jpg" title="TMap.jpg" width="200" alt="TMap.jpg" />
+<img src="/images/TMap.jpg" title="TMap.jpg" width="200" alt="TMap.jpg" />
 
 Le traitement de base principal consiste à partir de la moyenne et de
 l'écart-type de « transmission map » à appliquer une transformation de
@@ -271,7 +271,7 @@ J'ai ajouté trois composantes à ce traitement de base :
 
 ## Élaborer le fichier « Image Haze-free »
 
-<img src="Hazefree.jpg" title="Hazefree.jpg" width="200"
+<img src="/images/Hazefree.jpg" title="Hazefree.jpg" width="200"
 alt="Hazefree.jpg" /> Ce fichier s'obtient par "différence" entre
 l'image source et le fichier "Transmission map".
 
@@ -674,7 +674,7 @@ par défaut soit respectivement 80, 200 et 20
 
 ### Réglages Transmission map - itérations avec Radius, contrast, scale
 
-<img src="TMap.jpg" title="TMap.jpg" width="300" alt="TMap.jpg" />
+<img src="/images/TMap.jpg" title="TMap.jpg" width="300" alt="TMap.jpg" />
 L'étape suivante consiste à examiner dans la rubrique "settings",
 l'indicateur qui traduit partiellement l'optimisation de Retinex le
 fichier "Transmission-map", c'est à dire "Restore haze-free". Vous
@@ -699,7 +699,7 @@ exemple aux réglages suivants
 
 #### L'image Haze-free
 
-<img src="Hazefree.jpg" title="Hazefree.jpg" width="300"
+<img src="/images/Hazefree.jpg" title="Hazefree.jpg" width="300"
 alt="Hazefree.jpg" /> Pour l'instant je ne modifie pas les valeurs qui
 peuvent influer sur "Transmission - map", comme "radius", "contrast".
 

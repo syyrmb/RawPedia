@@ -150,7 +150,7 @@ le traitement Fichier raw
 [1](https://drive.google.com/file/d/1ctjOWX2lVmgcAzJtBwt69FGpxZOq-LyP/view?usp=sharing)
 
 <figure>
-<img src="ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
+<img src="/images/ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
 width="600" />
 <figcaption>ciecam_light_prepa.jpg</figcaption>
 </figure>
@@ -160,7 +160,7 @@ width="600" />
 Allez dans "Advanced Tab" - sélectionnez "Color Appearance & Lighting
 (CIECAM02)" Dans "Scene conditions", avec la ComboBox "Surround - Scene
 Lighting", choisissez "Dark" C'est tout !
-<img src="ciecam_ligh.jpg" title="ciecam_ligh.jpg" width="600"
+<img src="/images/ciecam_ligh.jpg" title="ciecam_ligh.jpg" width="600"
 alt="ciecam_ligh.jpg" />
 
 Vous pouvez utiliser les réglages "Image adjustments"
@@ -188,7 +188,7 @@ Fichier raw
 La première étape : réaliser une balance des blancs - presque
 mathématiquement parfaite - en utilisant "White Balance" - "Auto" -
 "Temperature correlation"
-<img src="catATwb.jpg" title="catATwb.jpg" width="600"
+<img src="/images/catATwb.jpg" title="catATwb.jpg" width="600"
 alt="catATwb.jpg" />
 
 Examinez le résultat:
@@ -212,7 +212,7 @@ Pour y remédier nous allons nous servir de Ciecam02
 - cochez la case "Preset cat02 automatic"....C'est tout!
 
 <figure>
-<img src="catATauto.jpg" title="catATauto.jpg" width="600" />
+<img src="/images/catATauto.jpg" title="catATauto.jpg" width="600" />
 <figcaption>catATauto.jpg</figcaption>
 </figure>
 
@@ -248,7 +248,7 @@ Environnement de visualisation :
   relativement sombre
 
 <figure>
-<img src="voyagejpg.jpg" title="voyagejpg.jpg" width="600" />
+<img src="/images/voyagejpg.jpg" title="voyagejpg.jpg" width="600" />
 <figcaption>voyagejpg.jpg</figcaption>
 </figure>
 
@@ -261,7 +261,7 @@ Remarque importante : La visualisation sur votre PC sera obligatoirement
 Evidemment, chacun trouve que ses vacances sont un rêve, et on souhaite
 le faire partager aux invités. On triche un peu, en ajoutant un peu de
 contraste, et un peu de chroma.
-<img src="voyage_plus.jpg" title="voyage_plus.jpg" width="600"
+<img src="/images/voyage_plus.jpg" title="voyage_plus.jpg" width="600"
 alt="voyage_plus.jpg" />
 
 ## Local Adjustments - Color Appearance (Cam16 & JzCzHz)
@@ -809,9 +809,9 @@ caractéristiques colorimétriques de son environnement proche. Par
 exemple une même couleur sera perçue différemment sur un fond clair ou
 sombre, plus le fond sera sombre plus il va être nécessaire de renforcer
 la couleur... (Creative Common Attribution-share Alike 4.0)
-<img src="Simult-contr1.jpg" title="Simult-contr1.jpg" width="600"
+<img src="/images/Simult-contr1.jpg" title="Simult-contr1.jpg" width="600"
 alt="Simult-contr1.jpg" />
-<img src="Simult-contr3.jpg" title="Simult-contr3.jpg" width="600"
+<img src="/images/Simult-contr3.jpg" title="Simult-contr3.jpg" width="600"
 alt="Simult-contr3.jpg" />
 
 #### l'effet de Hunt
@@ -819,9 +819,9 @@ alt="Simult-contr3.jpg" />
 Augmentation de la coloration perçue (colorfulness) avec la luminance.Un
 objet apparaît plus vif et contrasté en pleine lumière qu’à l’ombre.
 (Creative Common Attribution-share Alike 4.0)
-<img src="Huntseffect1.jpg" title="Huntseffect1.jpg" width="600"
+<img src="/images/Huntseffect1.jpg" title="Huntseffect1.jpg" width="600"
 alt="Huntseffect1.jpg" />
-<img src="Huntseffect-2.jpg" title="Huntseffect-2.jpg" width="600"
+<img src="/images/Huntseffect-2.jpg" title="Huntseffect-2.jpg" width="600"
 alt="Huntseffect-2.jpg" />
 
 #### Effet de Stevens
@@ -830,7 +830,7 @@ Augmentation du contraste perçu avec la luminance. Quand la luminance
 augmente, les couleurs sombres apparaissent encore plus sombres et les
 couleurs lumineuses apparaissent encore plus lumineuses. (Creative
 Common Attribution-share Alike 4.0)
-<img src="Simult-contr2.jpg" title="Simult-contr2.jpg" width="600"
+<img src="/images/Simult-contr2.jpg" title="Simult-contr2.jpg" width="600"
 alt="Simult-contr2.jpg" />
 
 #### Effet de Helmholtz-Kohlrausch
@@ -840,7 +840,7 @@ la chromaticité. Les objets de couleur apparaissent plus clairs que les
 objets achromatiques ayant la même luminance. Les couleurs les plus
 saturées apparaissent les plus brillantes. (Creative Common
 Attribution-share Alike 4.0)
-<img src="Helmholtz-effect.jpg" title="Helmholtz-effect.jpg" width="600"
+<img src="/images/Helmholtz-effect.jpg" title="Helmholtz-effect.jpg" width="600"
 alt="Helmholtz-effect.jpg" />
 
 #### Adaptation chromatique

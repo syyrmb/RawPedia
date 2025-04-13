@@ -10,7 +10,7 @@ Simulation de Film
 
 </div>
 
-<img src="Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
+<img src="/images/Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
 width="900" alt="Rt_haldclut_london.jpg" /> L'outil *Simulation de Film*
 permet en un seul clic de donner à une photo les couleurs d'une image de
 référence choisie. Cet outil nécessite l'utilisation d'images de
@@ -61,7 +61,7 @@ un dossier dédié, ne contenant que des images HaldCLUT.
 ## Fonctionnement
 
 <figure>
-<img src="Hald_CLUT_Identity_12.png"
+<img src="/images/Hald_CLUT_Identity_12.png"
 title="Hald_CLUT_Identity_12.png" />
 <figcaption>Hald_CLUT_Identity_12.png</figcaption>
 </figure>

@@ -246,7 +246,7 @@ Steuerpunkten gebildet.
 
 ### Allgemeines zu Tonwertkurven und Flachen Kurven
 
-<img src="Curve_ToggleSelect.jpg" title="Curve_ToggleSelect.jpg"
+<img src="/images/Curve_ToggleSelect.jpg" title="Curve_ToggleSelect.jpg"
 width="260" alt="Curve_ToggleSelect.jpg" />Tonwertkurven und Flache
 Kurven sind leistungsfähigere Werkzeuge als die Schwellenkurven und
 besitzen entsprechend mehr Steuerelemente. So besitzt jede Tonkurve und
@@ -311,7 +311,7 @@ sie wirkt sich nur dort aus.
 
 #### Kurvenknoten Ein-Ausgangs-Wert
 
-<img src="DiagrammInOut.png" title="DiagrammInOut.png" width="170"
+<img src="/images/DiagrammInOut.png" title="DiagrammInOut.png" width="170"
 alt="DiagrammInOut.png" /> Jede Kurve besitzt ein Werkzeug mit dem die
 Knoten der Kurve in Form ihrer Parameterwerte eingestellt werden können.
 Zwei dieser Parameter sind immer vorhanden und legen den Knoten
@@ -338,9 +338,9 @@ also die Gleichung zur Umwandlung eines Pixels O = *f* (I) bzw. y = *f*
 (x).
 
   
-<img src="FlatRise_node.png" title="FlatRise_node.png" width="170"
+<img src="/images/FlatRise_node.png" title="FlatRise_node.png" width="170"
 alt="FlatRise_node.png" />
-<img src="RapidRise_node.png" title="RapidRise_node.png" width="170"
+<img src="/images/RapidRise_node.png" title="RapidRise_node.png" width="170"
 alt="RapidRise_node.png" /> Bei bestimmten Kurvenarten kommen zudem noch
 2 Parameter hinzu, die beschreiben, wie steil bzw. flach die Kurve in
 den Knoten hinein läuft. Dabei bedeuten:
@@ -386,7 +386,7 @@ einzustellen.
 
 ### Tonwertkurven
 
-<img src="Tone_Curve.png" title="Tone_Curve.png" width="320"
+<img src="/images/Tone_Curve.png" title="Tone_Curve.png" width="320"
 alt="Tone_Curve.png" /> Eigentlich sind Tonwertkurven falsch benannt,
 weil sie nicht nur zur Korrektur von Tonwerten, sondern auch der
 Sättigung, Farbigkeit usw. verwendet werden. Ihr Zweck ist, eine

@@ -13,13 +13,13 @@ Comment convertir les formats raw en DNG
 __FORCETOC__
 
 <figure>
-<img src="Adobe_dng_converter_83.png"
+<img src="/images/Adobe_dng_converter_83.png"
 title="Adobe_dng_converter_83.png" />
 <figcaption>Adobe_dng_converter_83.png</figcaption>
 </figure>
 
 <figure>
-<img src="Adobe_dng_converter_raw.png"
+<img src="/images/Adobe_dng_converter_raw.png"
 title="Adobe_dng_converter_raw.png" />
 <figcaption>Adobe_dng_converter_raw.png</figcaption>
 </figure>
@@ -100,7 +100,7 @@ Lancez le et c'est terminé.
 ## Capteurs non supportés
 
 <figure>
-<img src="Adobe_dng_converter_830.png"
+<img src="/images/Adobe_dng_converter_830.png"
 title="Adobe_dng_converter_830.png" />
 <figcaption>Adobe_dng_converter_830.png</figcaption>
 </figure>

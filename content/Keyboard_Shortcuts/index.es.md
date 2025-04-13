@@ -16,7 +16,7 @@ Tareas habituales realizadas con sencillas combinaciones de teclas
 </div>
 
 <figure>
-<img src="KB_Spanish.png" title="KB_Spanish.png" />
+<img src="/images/KB_Spanish.png" title="KB_Spanish.png" />
 <figcaption>KB_Spanish.png</figcaption>
 </figure>
 

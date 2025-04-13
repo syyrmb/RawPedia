@@ -189,7 +189,7 @@ TIF ファイルのリンク (Creative Common Attribution-share Alike 4.0):
 - 　復元されたダイナミックレンジは概ね12Evから13Evです。
 
 <figure>
-<img src="sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
+<img src="/images/sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
 width="600" />
 <figcaption>sweep-rgb-neutral.jpg</figcaption>
 </figure>
@@ -205,7 +205,7 @@ width="600" />
 注意："ホワイトの配分"は90を使っています。
 
 <figure>
-<img src="sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
+<img src="/images/sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
 <figcaption>sweep-rgb-log.jpg</figcaption>
 </figure>
 

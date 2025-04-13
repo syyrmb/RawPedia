@@ -24,9 +24,9 @@ colorazione.Se la tonalità del colore è accettabile, è possibile
 continuare le regolazioni delle immagini con le curve di tono nel
 pannello [esposizione](exposure/it.md).
 
-<img src="FadePack1_RawTherapee_01.jpg"
+<img src="/images/FadePack1_RawTherapee_01.jpg"
 title="FadePack1_RawTherapee_01.jpg" width="900"
 alt="FadePack1_RawTherapee_01.jpg" />
-<img src="FadePack1_RawTherapee_02.jpg"
+<img src="/images/FadePack1_RawTherapee_02.jpg"
 title="FadePack1_RawTherapee_02.jpg" width="900"
 alt="FadePack1_RawTherapee_02.jpg" />

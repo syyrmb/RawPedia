@@ -52,6 +52,6 @@ Stitcherなどのアプリケーションに関する注意。**この機能の�
 　スクリーンショットは、各スライダー操作による効果の例です（画像をクリックすると拡大出来ます）。A：元画像、B：デフォルト設定の圧縮効果、C：量を増やした画像（強い圧縮）、D：ディテールを減らした画像（ローカルコントラストが減る）、E：量を増やしディテールを増やした画像（強い圧縮によるローカルコントラストの低下を補う
 
 <figure>
-<img src="DRC-Example.jpg" title="DRC-Example.jpg" />
+<img src="/images/DRC-Example.jpg" title="DRC-Example.jpg" />
 <figcaption>DRC-Example.jpg</figcaption>
 </figure>

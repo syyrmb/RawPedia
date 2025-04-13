@@ -16,7 +16,7 @@ Suave incremento del contraste y el color de la imagen.
 </div>
 
 <figure>
-<img src="Rt55_soft_light.png" title="Rt55_soft_light.png" />
+<img src="/images/Rt55_soft_light.png" title="Rt55_soft_light.png" />
 <figcaption>Rt55_soft_light.png</figcaption>
 </figure>
 

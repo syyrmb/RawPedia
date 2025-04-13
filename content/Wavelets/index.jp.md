@@ -12,7 +12,7 @@ contributors:
 </div>
 
 <figure>
-<img src="Daffodil_split.jpg" title="Daffodil_split.jpg" />
+<img src="/images/Daffodil_split.jpg" title="Daffodil_split.jpg" />
 <figcaption>Daffodil_split.jpg</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Mallatによって開発されました。
 　RawTherapeeは内包している色々な機能で、ウェーブレット変換を使っていますが、特にこの“ウェーブレットのレベル”ではそのマザー関数に[ドブシー関数](https://en.wikipedia.org/wiki/Daubechies_wavelet)を使っています。作業色空間に[L\*a\*b\*](https://ja.wikipedia.org/wiki/Lab%E8%89%B2%E7%A9%BA%E9%96%93)を使って、画像を各要素、L\*、a\*、b\*に分解します。
 
 <figure>
-<img src="Wavelet_daubechies20.jpg" title="Wavelet_daubechies20.jpg" />
+<img src="/images/Wavelet_daubechies20.jpg" title="Wavelet_daubechies20.jpg" />
 <figcaption>Wavelet_daubechies20.jpg</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Mallatによって開発されました。
 　目的に応じて、単独または複数のレベル、残差画像、或いは、両方の組み合わせで、調整が可能です。
 
 <figure>
-<img src="Wavelet_detail_size.jpg" title="Wavelet_detail_size.jpg" />
+<img src="/images/Wavelet_detail_size.jpg" title="Wavelet_detail_size.jpg" />
 <figcaption>Wavelet_detail_size.jpg</figcaption>
 </figure>
 
@@ -199,22 +199,22 @@ Mallatによって開発されました。
 <div>
 
 - <figure>
-  <img src="wavelet_pic.jpg" title="wavelet_pic.jpg" />
+  <img src="/images/wavelet_pic.jpg" title="wavelet_pic.jpg" />
   <figcaption>wavelet_pic.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_config_L2.jpg" title="wavelet_config_L2.jpg" />
+  <img src="/images/wavelet_config_L2.jpg" title="wavelet_config_L2.jpg" />
   <figcaption>wavelet_config_L2.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_config_L4.jpg" title="wavelet_config_L4.jpg" />
+  <img src="/images/wavelet_config_L4.jpg" title="wavelet_config_L4.jpg" />
   <figcaption>wavelet_config_L4.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_config_RI.jpg" title="wavelet_config_RI.jpg" />
+  <img src="/images/wavelet_config_RI.jpg" title="wavelet_config_RI.jpg" />
   <figcaption>wavelet_config_RI.jpg</figcaption>
   </figure>
 
@@ -233,7 +233,7 @@ Mallatによって開発されました。
 　この問題に対処するため、コントラスト調整を行う前に、各レベルのディテールのコントラストを解析し、コントラスト値が以下の概念図のような漸進的な分布になるように並べ替えます。
 
 <figure>
-<img src="Wavelet_beta.png" title="Wavelet_beta.png" />
+<img src="/images/Wavelet_beta.png" title="Wavelet_beta.png" />
 <figcaption>Wavelet_beta.png</figcaption>
 </figure>
 
@@ -269,13 +269,13 @@ Mallatによって開発されました。
     <div>
 
     - <figure>
-      <img src="Wavelet_beta%2Bdamper.png"
+      <img src="/images/Wavelet_beta%2Bdamper.png"
       title="Wavelet_beta%2Bdamper.png" />
       <figcaption>Wavelet_beta%2Bdamper.png</figcaption>
       </figure>
 
     - <figure>
-      <img src="_Wavelet_beta-damper.png" title="_Wavelet_beta-damper.png" />
+      <img src="/images/_Wavelet_beta-damper.png" title="_Wavelet_beta-damper.png" />
       <figcaption>_Wavelet_beta-damper.png</figcaption>
       </figure>
 
@@ -333,24 +333,24 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 <div>
 
 - <figure>
-  <img src="Wavelet_pic.jpg" title="Wavelet_pic.jpg" />
+  <img src="/images/Wavelet_pic.jpg" title="Wavelet_pic.jpg" />
   <figcaption>Wavelet_pic.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_WL.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_WL.jpg"
   title="Wavelet_contrast_15C%2B_WL.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_WL.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_H3S6.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_H3S6.jpg"
   title="Wavelet_contrast_15C%2B_H3S6.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_H3S6.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_H3S6_Str50.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_H3S6_Str50.jpg"
   title="Wavelet_contrast_15C%2B_H3S6_Str50.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_H3S6_Str50.jpg</figcaption>
   </figure>
@@ -362,12 +362,12 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 <div>
 
 - <figure>
-  <img src="Wavelet_pic.jpg" title="Wavelet_pic.jpg" />
+  <img src="/images/Wavelet_pic.jpg" title="Wavelet_pic.jpg" />
   <figcaption>Wavelet_pic.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="_Wavelet_contrast_15C%2B_H3S6_Str50.jpg"
+  <img src="/images/_Wavelet_contrast_15C%2B_H3S6_Str50.jpg"
   title="_Wavelet_contrast_15C%2B_H3S6_Str50.jpg" />
   <figcaption>_Wavelet_contrast_15C%2B_H3S6_Str50.jpg</figcaption>
   </figure>
@@ -399,25 +399,25 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 <div>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_H3S6.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_H3S6.jpg"
   title="Wavelet_contrast_15C%2B_H3S6.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_H3S6.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_WC_full.jpg"
+  <img src="/images/Wavelet_chrom_WC_full.jpg"
   title="Wavelet_chrom_WC_full.jpg" />
   <figcaption>Wavelet_chrom_WC_full.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_WC_L1L2full.jpg"
+  <img src="/images/Wavelet_chrom_WC_L1L2full.jpg"
   title="Wavelet_chrom_WC_L1L2full.jpg" />
   <figcaption>Wavelet_chrom_WC_L1L2full.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_WC_detail.jpg"
+  <img src="/images/Wavelet_chrom_WC_detail.jpg"
   title="Wavelet_chrom_WC_detail.jpg" />
   <figcaption>Wavelet_chrom_WC_detail.jpg</figcaption>
   </figure>
@@ -457,25 +457,25 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 <div>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_H3S6.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_H3S6.jpg"
   title="Wavelet_contrast_15C%2B_H3S6.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_H3S6.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_WC_L1L2full.jpg"
+  <img src="/images/Wavelet_chrom_WC_L1L2full.jpg"
   title="Wavelet_chrom_WC_L1L2full.jpg" />
   <figcaption>Wavelet_chrom_WC_L1L2full.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_SP_L1L2full_L3_60.jpg"
+  <img src="/images/Wavelet_chrom_SP_L1L2full_L3_60.jpg"
   title="Wavelet_chrom_SP_L1L2full_L3_60.jpg" />
   <figcaption>Wavelet_chrom_SP_L1L2full_L3_60.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_H3S6.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_H3S6.jpg"
   title="Wavelet_contrast_15C%2B_H3S6.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_H3S6.jpg</figcaption>
   </figure>
@@ -497,25 +497,25 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 <div>
 
 - <figure>
-  <img src="Wavelet_chrom_Link_100.jpg"
+  <img src="/images/Wavelet_chrom_Link_100.jpg"
   title="Wavelet_chrom_Link_100.jpg" />
   <figcaption>Wavelet_chrom_Link_100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_Link_50.jpg"
+  <img src="/images/Wavelet_chrom_Link_50.jpg"
   title="Wavelet_chrom_Link_50.jpg" />
   <figcaption>Wavelet_chrom_Link_50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_chrom_Link_50_Str50.jpg"
+  <img src="/images/Wavelet_chrom_Link_50_Str50.jpg"
   title="Wavelet_chrom_Link_50_Str50.jpg" />
   <figcaption>Wavelet_chrom_Link_50_Str50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_contrast_15C%2B_H3S6.jpg"
+  <img src="/images/Wavelet_contrast_15C%2B_H3S6.jpg"
   title="Wavelet_contrast_15C%2B_H3S6.jpg" />
   <figcaption>Wavelet_contrast_15C%2B_H3S6.jpg</figcaption>
   </figure>
@@ -537,12 +537,12 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 <div>
 
 - <figure>
-  <img src="Wavelets_gamut_nosky.jpg" title="Wavelets_gamut_nosky.jpg" />
+  <img src="/images/Wavelets_gamut_nosky.jpg" title="Wavelets_gamut_nosky.jpg" />
   <figcaption>Wavelets_gamut_nosky.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_gamut_sky.jpg" title="Wavelets_gamut_sky.jpg" />
+  <img src="/images/Wavelets_gamut_sky.jpg" title="Wavelets_gamut_sky.jpg" />
   <figcaption>Wavelets_gamut_sky.jpg</figcaption>
   </figure>
 
@@ -555,7 +555,7 @@ highlight.jpg](Wavelet_contrast_highlight.jpg "File:Wavelet contrast highlight.j
 　以下に示したしきい値カーブの例は、指定範囲を赤に設定したものです（後述の画像例で効果の違いをはっきり見せるため、限定的に設定しています）。
 
 <figure>
-<img src="Wavelets_gamut_skin_hue.jpg"
+<img src="/images/Wavelets_gamut_skin_hue.jpg"
 title="Wavelets_gamut_skin_hue.jpg" />
 <figcaption>Wavelets_gamut_skin_hue.jpg</figcaption>
 </figure>
@@ -575,19 +575,19 @@ title="Wavelets_gamut_skin_hue.jpg" />
 - ![](Wavelets_gamut_skin.jpg "Wavelets_gamut_skin.jpg")\]
 
 - <figure>
-  <img src="Wavelets_gamut_skin_target0.jpg"
+  <img src="/images/Wavelets_gamut_skin_target0.jpg"
   title="Wavelets_gamut_skin_target0.jpg" />
   <figcaption>Wavelets_gamut_skin_target0.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_gamut_skin_target-100.jpg"
+  <img src="/images/Wavelets_gamut_skin_target-100.jpg"
   title="Wavelets_gamut_skin_target-100.jpg" />
   <figcaption>Wavelets_gamut_skin_target-100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_gamut_skin_target%2B100.jpg"
+  <img src="/images/Wavelets_gamut_skin_target%2B100.jpg"
   title="Wavelets_gamut_skin_target%2B100.jpg" />
   <figcaption>Wavelets_gamut_skin_target%2B100.jpg</figcaption>
   </figure>
@@ -603,13 +603,13 @@ title="Wavelets_gamut_skin_hue.jpg" />
 <div>
 
 - <figure>
-  <img src="Wavelets_gamut_curve_target100.jpg"
+  <img src="/images/Wavelets_gamut_curve_target100.jpg"
   title="Wavelets_gamut_curve_target100.jpg" />
   <figcaption>Wavelets_gamut_curve_target100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_gamut_curve.jpg"
+  <img src="/images/Wavelets_gamut_curve.jpg"
   title="グリーン以外の色相のコントラストと色度が下がる様に設定したフラットカーブ" />
   <figcaption>グリーン以外の色相のコントラストと色度が下がる様に設定したフラットカーブ</figcaption>
   </figure>
@@ -637,7 +637,7 @@ title="Wavelets_gamut_skin_hue.jpg" />
 　しかし、実際にL\*a\*b\*色空間を2次元で表現するのは非常に複雑なため、インターフェース上は明清色（パステルカラー）の陰影で表現しています。数学的には正確ですが、視覚的には、特にイエローを選択した場合のカラートーン調整は、直感的に分かり難いと思います。知覚的には以下の様なグリッドになります：
 
 <figure>
-<img src="Cielab_8x8.jpg" title="Cielab_8x8.jpg" />
+<img src="/images/Cielab_8x8.jpg" title="Cielab_8x8.jpg" />
 <figcaption>Cielab_8x8.jpg</figcaption>
 </figure>
 
@@ -688,19 +688,19 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 <div>
 
 - <figure>
-  <img src="Wavelet_chrom_Link_50_Str50.jpg"
+  <img src="/images/Wavelet_chrom_Link_50_Str50.jpg"
   title="Wavelet_chrom_Link_50_Str50.jpg" />
   <figcaption>Wavelet_chrom_Link_50_Str50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBYfull.jpg"
+  <img src="/images/wavelet_toning_opBYfull.jpg"
   title="wavelet_toning_opBYfull.jpg" />
   <figcaption>wavelet_toning_opBYfull.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_toning_opBYfull_curve.jpg"
+  <img src="/images/Wavelet_toning_opBYfull_curve.jpg"
   title="Wavelet_toning_opBYfull_curve.jpg" />
   <figcaption>Wavelet_toning_opBYfull_curve.jpg</figcaption>
   </figure>
@@ -709,18 +709,18 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 <div>
 
 - <figure>
-  <img src="Wavelet_toning_opBY.jpg" title="Wavelet_toning_opBY.jpg" />
+  <img src="/images/Wavelet_toning_opBY.jpg" title="Wavelet_toning_opBY.jpg" />
   <figcaption>Wavelet_toning_opBY.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_toning_opBY_Str50.jpg"
+  <img src="/images/Wavelet_toning_opBY_Str50.jpg"
   title="Wavelet_toning_opBY_Str50.jpg" />
   <figcaption>Wavelet_toning_opBY_Str50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBY_curve.jpg"
+  <img src="/images/wavelet_toning_opBY_curve.jpg"
   title="wavelet_toning_opBY_curve.jpg" />
   <figcaption>wavelet_toning_opBY_curve.jpg</figcaption>
   </figure>
@@ -796,24 +796,24 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 <div>
 
 - <figure>
-  <img src="Wavelet_denoise_orig.jpg" title="Wavelet_denoise_orig.jpg" />
+  <img src="/images/Wavelet_denoise_orig.jpg" title="Wavelet_denoise_orig.jpg" />
   <figcaption>Wavelet_denoise_orig.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_L2d00s100.jpg"
+  <img src="/images/Wavelet_denoise_L2d00s100.jpg"
   title="Wavelet_denoise_L2d00s100.jpg" />
   <figcaption>Wavelet_denoise_L2d00s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_L2d30s100.jpg"
+  <img src="/images/Wavelet_denoise_L2d30s100.jpg"
   title="Wavelet_denoise_L2d30s100.jpg" />
   <figcaption>Wavelet_denoise_L2d30s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_L2d30s27.jpg"
+  <img src="/images/Wavelet_denoise_L2d30s27.jpg"
   title="Wavelet_denoise_L2d30s27.jpg" />
   <figcaption>Wavelet_denoise_L2d30s27.jpg</figcaption>
   </figure>
@@ -822,25 +822,25 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 <div>
 
 - <figure>
-  <img src="wavelet_denoise_L1d00s00.jpg"
+  <img src="/images/wavelet_denoise_L1d00s00.jpg"
   title="wavelet_denoise_L1d00s00.jpg" />
   <figcaption>wavelet_denoise_L1d00s00.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_L1d00s100.jpg"
+  <img src="/images/Wavelet_denoise_L1d00s100.jpg"
   title="Wavelet_denoise_L1d00s100.jpg" />
   <figcaption>Wavelet_denoise_L1d00s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_L1d12s100.jpg"
+  <img src="/images/Wavelet_denoise_L1d12s100.jpg"
   title="Wavelet_denoise_L1d12s100.jpg" />
   <figcaption>Wavelet_denoise_L1d12s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_L1d12s-17.jpg"
+  <img src="/images/Wavelet_denoise_L1d12s-17.jpg"
   title="Wavelet_denoise_L1d12s-17.jpg" />
   <figcaption>Wavelet_denoise_L1d12s-17.jpg</figcaption>
   </figure>
@@ -849,24 +849,24 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 <div>
 
 - <figure>
-  <img src="Wavelet_denoise_orig.jpg" title="Wavelet_denoise_orig.jpg" />
+  <img src="/images/Wavelet_denoise_orig.jpg" title="Wavelet_denoise_orig.jpg" />
   <figcaption>Wavelet_denoise_orig.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_final.jpg"
+  <img src="/images/Wavelet_denoise_final.jpg"
   title="Wavelet_denoise_final.jpg" />
   <figcaption>Wavelet_denoise_final.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_orig100.jpg"
+  <img src="/images/Wavelet_denoise_orig100.jpg"
   title="Wavelet_denoise_orig100.jpg" />
   <figcaption>Wavelet_denoise_orig100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_denoise_final100.jpg"
+  <img src="/images/Wavelet_denoise_final100.jpg"
   title="Wavelet_denoise_final100.jpg" />
   <figcaption>Wavelet_denoise_final100.jpg</figcaption>
   </figure>
@@ -929,19 +929,19 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 <div>
 
 - <figure>
-  <img src="Wavelet_edge_sharpening_D-50.png"
+  <img src="/images/Wavelet_edge_sharpening_D-50.png"
   title="Wavelet_edge_sharpening_D-50.png" />
   <figcaption>Wavelet_edge_sharpening_D-50.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_edge_sharpening_unchanged.png"
+  <img src="/images/Wavelet_edge_sharpening_unchanged.png"
   title="Wavelet_edge_sharpening_unchanged.png" />
   <figcaption>Wavelet_edge_sharpening_unchanged.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_edge_sharpening_D100.png"
+  <img src="/images/Wavelet_edge_sharpening_D100.png"
   title="Wavelet_edge_sharpening_D100.png" />
   <figcaption>Wavelet_edge_sharpening_D100.png</figcaption>
   </figure>
@@ -959,7 +959,7 @@ curve.jpg](Wavelet_toning_curve.jpg "File:Wavelet toning curve.jpg")です。ア
 　加えて、**弱める**オプションを使った場合、レベル1に関して変な、或いは少なくとも特異な動作が発生します。半径0で最大のコントラストは半径19まで漸進的にディテールが完全にぼかされる程度にまで低下しますが、半径20の時に突然最大まで上昇します。そして再び半径100に向かって徐々に低下します。イラストで示すと：
 
 <figure>
-<img src="Wavelet_edge_sharpening_reduced.png"
+<img src="/images/Wavelet_edge_sharpening_reduced.png"
 title="Wavelet_edge_sharpening_reduced.png" />
 <figcaption>Wavelet_edge_sharpening_reduced.png</figcaption>
 </figure>
@@ -1018,7 +1018,7 @@ thresholds.jpg](Wavelet_local_contrast_thresholds.jpg "File:Wavelet local contra
 <div class="parrpad">
 
 <figure>
-<img src="wavelet_local_contrast_gauss.jpg"
+<img src="/images/wavelet_local_contrast_gauss.jpg"
 title="wavelet_local_contrast_gauss.jpg" />
 <figcaption>wavelet_local_contrast_gauss.jpg</figcaption>
 </figure>
@@ -1038,19 +1038,19 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 <div>
 
 - <figure>
-  <img src="Wavelet_local_contrast_curves.jpg"
+  <img src="/images/Wavelet_local_contrast_curves.jpg"
   title="Wavelet_local_contrast_curves.jpg" />
   <figcaption>Wavelet_local_contrast_curves.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_local_contrast_curves_t.jpg"
+  <img src="/images/Wavelet_local_contrast_curves_t.jpg"
   title="Wavelet_local_contrast_curves_t.jpg" />
   <figcaption>Wavelet_local_contrast_curves_t.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_local_contrast_curves_g.jpg"
+  <img src="/images/Wavelet_local_contrast_curves_g.jpg"
   title="Wavelet_local_contrast_curves_g.jpg" />
   <figcaption>Wavelet_local_contrast_curves_g.jpg</figcaption>
   </figure>
@@ -1085,12 +1085,12 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 <div>
 
 - <figure>
-  <img src="Wavelet_pic.jpg" title="Wavelet_pic.jpg" />
+  <img src="/images/Wavelet_pic.jpg" title="Wavelet_pic.jpg" />
   <figcaption>Wavelet_pic.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_edge_sharpness.jpg"
+  <img src="/images/Wavelet_edge_sharpness.jpg"
   title="Wavelet_edge_sharpness.jpg" />
   <figcaption>Wavelet_edge_sharpness.jpg</figcaption>
   </figure>
@@ -1141,13 +1141,13 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 - ![](wavelet_smc_original.jpg "wavelet_smc_original.jpg")\]
 
 - <figure>
-  <img src="wavelet_sharpm_ML60MC30.jpg"
+  <img src="/images/wavelet_sharpm_ML60MC30.jpg"
   title="wavelet_sharpm_ML60MC30.jpg" />
   <figcaption>wavelet_sharpm_ML60MC30.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_clarity_ML60MC30.jpg"
+  <img src="/images/wavelet_clarity_ML60MC30.jpg"
   title="wavelet_clarity_ML60MC30.jpg" />
   <figcaption>wavelet_clarity_ML60MC30.jpg</figcaption>
   </figure>
@@ -1168,17 +1168,17 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 - ![](Wavelets_residual_original.jpg "Wavelets_residual_original.jpg")\]
 
 - <figure>
-  <img src="Wavelets_residual_L5.jpg" title="Wavelets_residual_L5.jpg" />
+  <img src="/images/Wavelets_residual_L5.jpg" title="Wavelets_residual_L5.jpg" />
   <figcaption>Wavelets_residual_L5.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_L7.jpg" title="Wavelets_residual_L7.jpg" />
+  <img src="/images/Wavelets_residual_L7.jpg" title="Wavelets_residual_L7.jpg" />
   <figcaption>Wavelets_residual_L7.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_L8.jpg" title="Wavelets_residual_L8.jpg" />
+  <img src="/images/Wavelets_residual_L8.jpg" title="Wavelets_residual_L8.jpg" />
   <figcaption>Wavelets_residual_L8.jpg</figcaption>
   </figure>
 
@@ -1199,18 +1199,18 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 <div>
 
 - <figure>
-  <img src="Wavelets_residual_original.jpg"
+  <img src="/images/Wavelets_residual_original.jpg"
   title="Wavelets_residual_original.jpg" />
   <figcaption>Wavelets_residual_original.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_SH.jpg" title="Wavelets_residual_SH.jpg" />
+  <img src="/images/Wavelets_residual_SH.jpg" title="Wavelets_residual_SH.jpg" />
   <figcaption>Wavelets_residual_SH.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_SH-out.jpg"
+  <img src="/images/Wavelets_residual_SH-out.jpg"
   title="Wavelets_residual_SH-out.jpg" />
   <figcaption>Wavelets_residual_SH-out.jpg</figcaption>
   </figure>
@@ -1232,19 +1232,19 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 <div>
 
 - <figure>
-  <img src="Wavelets_residual_SHneg_original.jpg"
+  <img src="/images/Wavelets_residual_SHneg_original.jpg"
   title="Wavelets_residual_SHneg_original.jpg" />
   <figcaption>Wavelets_residual_SHneg_original.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_SHneg_old.jpg"
+  <img src="/images/Wavelets_residual_SHneg_old.jpg"
   title="Wavelets_residual_SHneg_old.jpg" />
   <figcaption>Wavelets_residual_SHneg_old.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_SHneg_new.jpg"
+  <img src="/images/Wavelets_residual_SHneg_new.jpg"
   title="Wavelets_residual_SHneg_new.jpg" />
   <figcaption>Wavelets_residual_SHneg_new.jpg</figcaption>
   </figure>
@@ -1272,13 +1272,13 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 <div>
 
 - <figure>
-  <img src="Wavelets_residual_contrast-.jpg"
+  <img src="/images/Wavelets_residual_contrast-.jpg"
   title="Wavelets_residual_contrast-.jpg" />
   <figcaption>Wavelets_residual_contrast-.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelets_residual_contrast%2B.jpg"
+  <img src="/images/Wavelets_residual_contrast%2B.jpg"
   title="Wavelets_residual_contrast%2B.jpg" />
   <figcaption>Wavelets_residual_contrast%2B.jpg</figcaption>
   </figure>
@@ -1407,13 +1407,13 @@ Amount:アンシャープマスクで半径を大きくする一方で適用量�
 <div>
 
 - <figure>
-  <img src="wavelets_original_big.png"
+  <img src="/images/wavelets_original_big.png"
   title="wavelets_original_big.png" />
   <figcaption>wavelets_original_big.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_final_big.jpg" title="wavelets_final_big.jpg" />
+  <img src="/images/wavelets_final_big.jpg" title="wavelets_final_big.jpg" />
   <figcaption>wavelets_final_big.jpg</figcaption>
   </figure>
 

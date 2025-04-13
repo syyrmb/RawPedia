@@ -50,9 +50,9 @@ anzuwenden, kannst du mit den RGB-Kurven den Farbeffekt variieren. Wenn
 dann die Farbtönung akzeptabel ist, kann man weitere Bildanpassungen mit
 den Tonwertkurven im Werkzeug *Belichtung* erreichen.
 
-<img src="FadePack1_RawTherapee_01.jpg"
+<img src="/images/FadePack1_RawTherapee_01.jpg"
 title="FadePack1_RawTherapee_01.jpg" width="900"
 alt="FadePack1_RawTherapee_01.jpg" />
-<img src="FadePack1_RawTherapee_02.jpg"
+<img src="/images/FadePack1_RawTherapee_02.jpg"
 title="FadePack1_RawTherapee_02.jpg" width="900"
 alt="FadePack1_RawTherapee_02.jpg" />

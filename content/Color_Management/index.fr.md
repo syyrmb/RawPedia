@@ -481,7 +481,7 @@ colorimétrie. Cette représentation permet de voir facilement:
   380nm à 770nm
 
 <figure>
-<img src="ciexy-color.jpg" title="ciexy-color.jpg" width="600" />
+<img src="/images/ciexy-color.jpg" title="ciexy-color.jpg" width="600" />
 <figcaption>ciexy-color.jpg</figcaption>
 </figure>
 
@@ -489,7 +489,7 @@ colorimétrie. Cette représentation permet de voir facilement:
   en "triangle" sur la base des primaires
 
 <figure>
-<img src="ciexy-3space.jpg" title="ciexy-3space.jpg" width="600" />
+<img src="/images/ciexy-3space.jpg" title="ciexy-3space.jpg" width="600" />
 <figcaption>ciexy-3space.jpg</figcaption>
 </figure>
 
@@ -497,7 +497,7 @@ colorimétrie. Cette représentation permet de voir facilement:
   l'illuminant - D50 - D65 - Std A, )
 
 <figure>
-<img src="ciexy-wp.jpg" title="ciexy-wp.jpg" width="600" />
+<img src="/images/ciexy-wp.jpg" title="ciexy-wp.jpg" width="600" />
 <figcaption>ciexy-wp.jpg</figcaption>
 </figure>
 
@@ -522,7 +522,7 @@ humaine on parle de couleurs imaginaires.
 
 ### Utilisation des données du diagramme "CIE xy" par "Abstract profiles"
 
-<img src="cie-abstract_graph3.jpg" title="cie-abstract_graph3.jpg"
+<img src="/images/cie-abstract_graph3.jpg" title="cie-abstract_graph3.jpg"
 width="600" alt="cie-abstract_graph3.jpg" /> Vous pouvez agir comme vous
 le souhaitez sur les 3 composantes du profil virtuel. La saisie d'écran
 représente la configuration lorsqu'on souhaite améliorer la
@@ -766,7 +766,7 @@ Par défaut l'illuminant est réglé sur la valeur correspondant au
 "working profile", à titre d'exemple cela correspond à D50 pour
 "ProPhoto", D65 pour "sRGB", D60 pour "ACESp1".
 
-<img src="ciexy-wp.jpg" title="ciexy-wp.jpg" width="600"
+<img src="/images/ciexy-wp.jpg" title="ciexy-wp.jpg" width="600"
 alt="ciexy-wp.jpg" /> Pourquoi le changer ? Plusieurs raisons peuvent
 amener à vouloir changer cette valeur :
 
@@ -863,13 +863,13 @@ Fichier raw (Brian Poindexter - Creative Common Attribution-share Alike
 #### Image originale (Rawtherapee - default)
 
 <figure>
-<img src="flowerT.jpg" title="flowerT.jpg" width="600" />
+<img src="/images/flowerT.jpg" title="flowerT.jpg" width="600" />
 <figcaption>flowerT.jpg</figcaption>
 </figure>
 
 #### Appliquer une TRC
 
-<img src="flowerT-trc.jpg" title="flowerT-trc.jpg" width="600"
+<img src="/images/flowerT-trc.jpg" title="flowerT-trc.jpg" width="600"
 alt="flowerT-trc.jpg" /> Examinez la partie verte de l'image:
 
 - Plus vous agissez sur Slope, plus la partie sombre va s'éclaircir
@@ -879,14 +879,14 @@ alt="flowerT-trc.jpg" /> Examinez la partie verte de l'image:
 
 Adobe RGB remplace Prophoto (Working profile), réglage par défaut de
 Rawtherapee
-<img src="flowerT-primaries.jpg" title="flowerT-primaries.jpg"
+<img src="/images/flowerT-primaries.jpg" title="flowerT-primaries.jpg"
 width="600" alt="flowerT-primaries.jpg" /> Essayez de changer
 'Destination primaries - Adobe RGB' par une autre valeur, par exemple
 Rec2020 ou ACESp0
 
 #### Changer les primaires Custom CIExy diagram
 
-<img src="flowerT-prim-CIExydiag.jpg" title="flowerT-prim-CIExydiag.jpg"
+<img src="/images/flowerT-prim-CIExydiag.jpg" title="flowerT-prim-CIExydiag.jpg"
 width="600" alt="flowerT-prim-CIExydiag.jpg" /> Le changement concerne
 uniquement le point rouge (origine Adobe RGB): observez l'image et le
 changement des valeurs des primaires Rx, Ry
@@ -915,7 +915,7 @@ vous pouvez (devez) utiliser des réglages plus proches des valeurs du
 
 <div>
 
-<img src="ciexy-bw1.jpg" title="ciexy-bw1.jpg" width="600"
+<img src="/images/ciexy-bw1.jpg" title="ciexy-bw1.jpg" width="600"
 alt="ciexy-bw1.jpg" /> Fichier Raw:
 [3](https://drive.google.com/file/d/1azCxu1midw6dcuN7SbvbAiJH4pxX5BTA/view?usp=sharing)
 
@@ -1049,7 +1049,7 @@ Ces améliorations concernent :
   CIExy
 
 <figure>
-<img src="cie-abstract_graph4.jpg" title="cie-abstract_graph4.jpg"
+<img src="/images/cie-abstract_graph4.jpg" title="cie-abstract_graph4.jpg"
 width="600" />
 <figcaption>cie-abstract_graph4.jpg</figcaption>
 </figure>

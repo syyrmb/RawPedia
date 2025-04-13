@@ -11,7 +11,7 @@ Raccourcis clavier
 </div>
 
 <figure>
-<img src="KB_United_States-NoAltGr.svg"
+<img src="/images/KB_United_States-NoAltGr.svg"
 title="KB_United_States-NoAltGr.svg" />
 <figcaption>KB_United_States-NoAltGr.svg</figcaption>
 </figure>

@@ -66,7 +66,7 @@ A la fin de l'installation, vous obtenez trois shells :
   applications 32 bits.
 
 <figure>
-<img src="MSYS2_Shell.jpg" title="File:MSYS2 Shell.jpg" />
+<img src="/images/MSYS2_Shell.jpg" title="File:MSYS2 Shell.jpg" />
 <figcaption><a href="File:MSYS2">File:MSYS2</a> Shell.jpg</figcaption>
 </figure>
 

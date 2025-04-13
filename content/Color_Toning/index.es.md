@@ -47,7 +47,7 @@ cambias una vez hayas aplicado un *Viraje*, tanto el tono elegido como
 los límites de las máscaras también cambiarán.
 
 <figure>
-<img src="colortoning_workingprofile.jpg"
+<img src="/images/colortoning_workingprofile.jpg"
 title="colortoning_workingprofile.jpg" />
 <figcaption>colortoning_workingprofile.jpg</figcaption>
 </figure>
@@ -131,18 +131,18 @@ obtendrás este viraje:
 <div>
 
 - <figure>
-  <img src="colortoning_png.png" title="colortoning_png.png" />
+  <img src="/images/colortoning_png.png" title="colortoning_png.png" />
   <figcaption>colortoning_png.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_png-to-blue.png"
+  <img src="/images/colortoning_png-to-blue.png"
   title="colortoning_png-to-blue.png" />
   <figcaption>colortoning_png-to-blue.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_tint.png" title="colortoning_tint.png" />
+  <img src="/images/colortoning_tint.png" title="colortoning_tint.png" />
   <figcaption>colortoning_tint.png</figcaption>
   </figure>
 
@@ -150,12 +150,12 @@ obtendrás este viraje:
 <div>
 
 - <figure>
-  <img src="colortoning_raw.jpg" title="colortoning_raw.jpg" />
+  <img src="/images/colortoning_raw.jpg" title="colortoning_raw.jpg" />
   <figcaption>colortoning_raw.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_raw-to-blue.jpg"
+  <img src="/images/colortoning_raw-to-blue.jpg"
   title="colortoning_raw-to-blue.jpg" />
   <figcaption>colortoning_raw-to-blue.jpg</figcaption>
   </figure>
@@ -267,17 +267,17 @@ Dispones de tres ecualizadores:
 <div>
 
 - <figure>
-  <img src="colortoning_hue-eq.jpg" title="colortoning_hue-eq.jpg" />
+  <img src="/images/colortoning_hue-eq.jpg" title="colortoning_hue-eq.jpg" />
   <figcaption>colortoning_hue-eq.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_chr-eq.jpg" title="colortoning_chr-eq.jpg" />
+  <img src="/images/colortoning_chr-eq.jpg" title="colortoning_chr-eq.jpg" />
   <figcaption>colortoning_chr-eq.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_lum-eq.jpg" title="colortoning_lum-eq.jpg" />
+  <img src="/images/colortoning_lum-eq.jpg" title="colortoning_lum-eq.jpg" />
   <figcaption>colortoning_lum-eq.jpg</figcaption>
   </figure>
 
@@ -316,15 +316,15 @@ distintos virajes que has creado, con sus parámetros básicos:
 - **o**: el valor de la Compensación
 - **p**: el valor de la Gamma
 
-Puedes añadir (<img src="add-small.png" title="add-small.png" width="16"
+Puedes añadir (<img src="/images/add-small.png" title="add-small.png" width="16"
 alt="add-small.png" />), eliminar
-(<img src="remove-small.png" title="remove-small.png" height="16"
+(<img src="/images/remove-small.png" title="remove-small.png" height="16"
 alt="remove-small.png" />), mover una posición hacia arriba
-(<img src="arrow-up-small.png" title="arrow-up-small.png" height="16"
+(<img src="/images/arrow-up-small.png" title="arrow-up-small.png" height="16"
 alt="arrow-up-small.png" />), o hacia abajo
-(<img src="arrow-down-small.png" title="arrow-down-small.png" height="16"
+(<img src="/images/arrow-down-small.png" title="arrow-down-small.png" height="16"
 alt="arrow-down-small.png" />) los distintos virajes, además de duplicar
-(<img src="arrow-right-small.png" title="arrow-right-small.png"
+(<img src="/images/arrow-right-small.png" title="arrow-right-small.png"
 height="16" alt="arrow-right-small.png" />) el viraje que tengas
 seleccionado.
 
@@ -352,25 +352,25 @@ L\*a\*b\**:
 <div>
 
 - <figure>
-  <img src="colortoning_blend-red1.png"
+  <img src="/images/colortoning_blend-red1.png"
   title="colortoning_blend-red1.png" />
   <figcaption>colortoning_blend-red1.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_blend-red2.png"
+  <img src="/images/colortoning_blend-red2.png"
   title="colortoning_blend-red2.png" />
   <figcaption>colortoning_blend-red2.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_blend-blue1.png"
+  <img src="/images/colortoning_blend-blue1.png"
   title="colortoning_blend-blue1.png" />
   <figcaption>colortoning_blend-blue1.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="colortoning_blend-blue2.png"
+  <img src="/images/colortoning_blend-blue2.png"
   title="colortoning_blend-blue2.png" />
   <figcaption>colortoning_blend-blue2.png</figcaption>
   </figure>
@@ -438,7 +438,7 @@ estos pasos:
     usando. Por ejemplo a ProPhoto.
 5.  con el *selector de color* de GIMP (*color picker* en inglés), haz
      +
-    <img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+    <img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
     alt="mouse_left-click.png" /> en la imagen y aparecerá el cuadro de
     diálogo del *selector de color*. Si no está mostrado por defecto, en
     una de las dos listas desplegables selecciona **HSV** y toma nota

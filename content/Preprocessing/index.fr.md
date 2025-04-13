@@ -23,7 +23,7 @@ d'appareils photo utilisant un filtre bayer.
 ## Filtre de lignes PDAF
 
 <figure>
-<img src="Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
+<img src="/images/Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
 width="900" />
 <figcaption>Pdaf_lines_filter_sony.png</figcaption>
 </figure>
@@ -82,7 +82,7 @@ Nikon.
 
 ## Equilibrage du vert
 
-<img src="645D_amaze_crosshatch_pattern.jpg"
+<img src="/images/645D_amaze_crosshatch_pattern.jpg"
 title="645D_amaze_crosshatch_pattern.jpg" width="900"
 alt="645D_amaze_crosshatch_pattern.jpg" /> Certains appareils photo (par
 exemple Olympus, Panasonic, Canon 7D et quelques appareils moyen format)
@@ -130,7 +130,7 @@ chauds](https://en.wikipedia.org/wiki/Defective_pixel) pixels morts ou
 chauds en les remplaçant par la moyenne du voisinage.
 
 <figure>
-<img src="Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900" />
+<img src="/images/Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900" />
 <figcaption>Rt-43_hotdead1.jpg</figcaption>
 </figure>
 
@@ -164,7 +164,7 @@ automatique mais aussi en ajoutant leurs coordonnées dans un fichier
 pixels](Dark_Frame/fr#Mauvais_pixels.md).
 
 <figure>
-<img src="Rt-43_hotdead2_artifacts.jpg"
+<img src="/images/Rt-43_hotdead2_artifacts.jpg"
 title="Rt-43_hotdead2_artifacts.jpg" width="900" />
 <figcaption>Rt-43_hotdead2_artifacts.jpg</figcaption>
 </figure>

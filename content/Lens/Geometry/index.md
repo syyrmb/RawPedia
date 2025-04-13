@@ -224,7 +224,7 @@ TODO Explain what "logarithmic" and "linear" do.
 
 ### Auto-Fill
 
-<img src="Lensgeometry_bluehorse_barrel_distortion_correction.jpg"
+<img src="/images/Lensgeometry_bluehorse_barrel_distortion_correction.jpg"
 title="Lensgeometry_bluehorse_barrel_distortion_correction.jpg"
 width="900"
 alt="Lensgeometry_bluehorse_barrel_distortion_correction.jpg" /> <img
@@ -255,7 +255,7 @@ src="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg"
 title="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg"
 width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg" />
-<img src="Lensgeometry_bluehorse_autocrop_after_rotation.jpg"
+<img src="/images/Lensgeometry_bluehorse_autocrop_after_rotation.jpg"
 title="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
 
@@ -289,9 +289,9 @@ it's the easiest and most accurate. Click on the "automatic" buttons for
 correcting horizontal, vertical or both perspectives. Revert to manual
 adjustments if these automatic adjustments fail.
 
-<img src="perspective_horizontal.jpg" title="perspective_horizontal.jpg"
+<img src="/images/perspective_horizontal.jpg" title="perspective_horizontal.jpg"
 width="900" alt="perspective_horizontal.jpg" />
-<img src="perspective_vertical.jpg" title="perspective_vertical.jpg"
+<img src="/images/perspective_vertical.jpg" title="perspective_vertical.jpg"
 width="900" alt="perspective_vertical.jpg" />
 
 #### Simple
@@ -454,10 +454,10 @@ image by making it match the JPEG image. There are two limitations:
 
 ### Chromatic Aberration Correction
 
-<img src="chromatic_aberration_auto1.jpg"
+<img src="/images/chromatic_aberration_auto1.jpg"
 title="chromatic_aberration_auto1.jpg" width="900"
 alt="chromatic_aberration_auto1.jpg" />
-<img src="chromatic_aberration_auto2.jpg"
+<img src="/images/chromatic_aberration_auto2.jpg"
 title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" />
 

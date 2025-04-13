@@ -78,7 +78,7 @@ la taille du capteur APS-C utilisé par Nikon, Pentax et Sony. Peut
 demander des réglages pour Canon.
 
 - <figure>
-  <img src="Samyang_8mm_APS-C_Panini.lcp"
+  <img src="/images/Samyang_8mm_APS-C_Panini.lcp"
   title="File:Samyang 8mm APS-C Panini.lcp" />
   <figcaption><a href="File:Samyang">File:Samyang</a> 8mm APS-C
   Panini.lcp</figcaption>
@@ -88,7 +88,7 @@ demander des réglages pour Canon.
 Mettre la Correction de Distortion = 0, Remplir = non coché
 
 - <figure>
-  <img src="Samyang_8mm_APS-C_Rectilinear.lcp"
+  <img src="/images/Samyang_8mm_APS-C_Rectilinear.lcp"
   title="File:Samyang 8mm APS-C Rectilinear.lcp" />
   <figcaption><a href="File:Samyang">File:Samyang</a> 8mm APS-C
   Rectilinear.lcp</figcaption>

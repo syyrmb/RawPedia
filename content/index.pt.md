@@ -25,7 +25,7 @@ disparo raw e tudo sobre raw</span>
 <tbody>
 <tr class="odd">
 <td><figure>
-<img src="Flag_of_Catalonia.svg" title="Flag_of_Catalonia.svg"
+<img src="/images/Flag_of_Catalonia.svg" title="Flag_of_Catalonia.svg"
 width="90" height="60" />
 <figcaption>Flag_of_Catalonia.svg</figcaption>
 </figure>

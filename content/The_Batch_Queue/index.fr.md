@@ -60,7 +60,7 @@ avant que vous ayez eu le temps de la voir).
 ## Paramétrage de la file de traitement
 
 <figure>
-<img src="Save_window.png" title="Save_window.png" />
+<img src="/images/Save_window.png" title="Save_window.png" />
 <figcaption>Save_window.png</figcaption>
 </figure>
 

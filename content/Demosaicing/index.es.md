@@ -70,13 +70,13 @@ pero alrededor de la mitad de los datos se han perdido:
 <div>
 
 - <figure>
-  <img src="demosaic_details_amaze.jpg"
+  <img src="/images/demosaic_details_amaze.jpg"
   title="demosaic_details_amaze.jpg" />
   <figcaption>demosaic_details_amaze.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_details_sensor.jpg"
+  <img src="/images/demosaic_details_sensor.jpg"
   title="demosaic_details_sensor.jpg" />
   <figcaption>demosaic_details_sensor.jpg</figcaption>
   </figure>
@@ -85,18 +85,18 @@ pero alrededor de la mitad de los datos se han perdido:
 <div>
 
 - <figure>
-  <img src="demosaic_details_red.jpg" title="demosaic_details_red.jpg" />
+  <img src="/images/demosaic_details_red.jpg" title="demosaic_details_red.jpg" />
   <figcaption>demosaic_details_red.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_details_green.jpg"
+  <img src="/images/demosaic_details_green.jpg"
   title="demosaic_details_green.jpg" />
   <figcaption>demosaic_details_green.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_details_blue.jpg"
+  <img src="/images/demosaic_details_blue.jpg"
   title="demosaic_details_blue.jpg" />
   <figcaption>demosaic_details_blue.jpg</figcaption>
   </figure>
@@ -113,13 +113,13 @@ resultante es incorrecto:
 <div>
 
 - <figure>
-  <img src="demosaic_false_color_amaze.jpg"
+  <img src="/images/demosaic_false_color_amaze.jpg"
   title="demosaic_false_color_amaze.jpg" />
   <figcaption>demosaic_false_color_amaze.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_false_color_sensor.jpg"
+  <img src="/images/demosaic_false_color_sensor.jpg"
   title="demosaic_false_color_sensor.jpg" />
   <figcaption>demosaic_false_color_sensor.jpg</figcaption>
   </figure>
@@ -128,19 +128,19 @@ resultante es incorrecto:
 <div>
 
 - <figure>
-  <img src="demosaic_false_color_red.jpg"
+  <img src="/images/demosaic_false_color_red.jpg"
   title="demosaic_false_color_red.jpg" />
   <figcaption>demosaic_false_color_red.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_false_color_green.jpg"
+  <img src="/images/demosaic_false_color_green.jpg"
   title="demosaic_false_color_green.jpg" />
   <figcaption>demosaic_false_color_green.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_false_color_blue.jpg"
+  <img src="/images/demosaic_false_color_blue.jpg"
   title="demosaic_false_color_blue.jpg" />
   <figcaption>demosaic_false_color_blue.jpg</figcaption>
   </figure>
@@ -183,18 +183,18 @@ históricas:
 <div>
 
 - <figure>
-  <img src="demosaic_amaze.png" title="demosaic_amaze.png" />
+  <img src="/images/demosaic_amaze.png" title="demosaic_amaze.png" />
   <figcaption>demosaic_amaze.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_amaze+bilinear.png"
+  <img src="/images/demosaic_amaze+bilinear.png"
   title="demosaic_amaze+bilinear.png" />
   <figcaption>demosaic_amaze+bilinear.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_amaze+vng4.png" title="demosaic_amaze+vng4.png" />
+  <img src="/images/demosaic_amaze+vng4.png" title="demosaic_amaze+vng4.png" />
   <figcaption>demosaic_amaze+vng4.png</figcaption>
   </figure>
 
@@ -202,18 +202,18 @@ históricas:
 <div>
 
 - <figure>
-  <img src="demosaic_rcd.png" title="demosaic_rcd.png" />
+  <img src="/images/demosaic_rcd.png" title="demosaic_rcd.png" />
   <figcaption>demosaic_rcd.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_rcd+bilinear.png"
+  <img src="/images/demosaic_rcd+bilinear.png"
   title="demosaic_rcd+bilinear.png" />
   <figcaption>demosaic_rcd+bilinear.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_rcd+vng4.png" title="demosaic_rcd+vng4.png" />
+  <img src="/images/demosaic_rcd+vng4.png" title="demosaic_rcd+vng4.png" />
   <figcaption>demosaic_rcd+vng4.png</figcaption>
   </figure>
 
@@ -221,18 +221,18 @@ históricas:
 <div>
 
 - <figure>
-  <img src="demosaic_dcb.png" title="demosaic_dcb.png" />
+  <img src="/images/demosaic_dcb.png" title="demosaic_dcb.png" />
   <figcaption>demosaic_dcb.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_dcb+bilinear.png"
+  <img src="/images/demosaic_dcb+bilinear.png"
   title="demosaic_dcb+bilinear.png" />
   <figcaption>demosaic_dcb+bilinear.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_dcb+vng4.png" title="demosaic_dcb+vng4.png" />
+  <img src="/images/demosaic_dcb+vng4.png" title="demosaic_dcb+vng4.png" />
   <figcaption>demosaic_dcb+vng4.png</figcaption>
   </figure>
 
@@ -240,17 +240,17 @@ históricas:
 <div>
 
 - <figure>
-  <img src="demosaic_lmmse.png" title="demosaic_lmmse.png" />
+  <img src="/images/demosaic_lmmse.png" title="demosaic_lmmse.png" />
   <figcaption>demosaic_lmmse.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_igv.png" title="demosaic_igv.png" />
+  <img src="/images/demosaic_igv.png" title="demosaic_igv.png" />
   <figcaption>demosaic_igv.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_vng4.png" title="demosaic_vng4.png" />
+  <img src="/images/demosaic_vng4.png" title="demosaic_vng4.png" />
   <figcaption>demosaic_vng4.png</figcaption>
   </figure>
 
@@ -258,17 +258,17 @@ históricas:
 <div>
 
 - <figure>
-  <img src="demosaic_fast.png" title="demosaic_fast.png" />
+  <img src="/images/demosaic_fast.png" title="demosaic_fast.png" />
   <figcaption>demosaic_fast.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_mono.png" title="demosaic_mono.png" />
+  <img src="/images/demosaic_mono.png" title="demosaic_mono.png" />
   <figcaption>demosaic_mono.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="demosaic_none-sensor.png" title="demosaic_none-sensor.png" />
+  <img src="/images/demosaic_none-sensor.png" title="demosaic_none-sensor.png" />
   <figcaption>demosaic_none-sensor.png</figcaption>
   </figure>
 
@@ -407,12 +407,12 @@ añadiendo el método *rápido*, esas zonas mejoran mucho.
 <div>
 
 - <figure>
-  <img src="x-trans_nofast.jpg" title="x-trans_nofast.jpg" />
+  <img src="/images/x-trans_nofast.jpg" title="x-trans_nofast.jpg" />
   <figcaption>x-trans_nofast.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="x-trans_fast.jpg" title="x-trans_fast.jpg" />
+  <img src="/images/x-trans_fast.jpg" title="x-trans_fast.jpg" />
   <figcaption>x-trans_fast.jpg</figcaption>
   </figure>
 
@@ -587,7 +587,7 @@ al tiempo que enmascara automáticamente los objetos en movimiento,
 reduce el nivel de ruido y aumenta la nitidez de la imagen.**
 
 <figure>
-<img src="pixelshift_details.jpg" title="pixelshift_details.jpg" />
+<img src="/images/pixelshift_details.jpg" title="pixelshift_details.jpg" />
 <figcaption>pixelshift_details.jpg</figcaption>
 </figure>
 
@@ -621,12 +621,12 @@ amplificado por las herramientas que se usen en el procesado.
 <div>
 
 - <figure>
-  <img src="rcd_vng4.png" title="rcd_vng4.png" />
+  <img src="/images/rcd_vng4.png" title="rcd_vng4.png" />
   <figcaption>rcd_vng4.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="pixelshift_nomtn.png" title="pixelshift_nomtn.png" />
+  <img src="/images/pixelshift_nomtn.png" title="pixelshift_nomtn.png" />
   <figcaption>pixelshift_nomtn.png</figcaption>
   </figure>
 
@@ -634,12 +634,12 @@ amplificado por las herramientas que se usen en el procesado.
 <div>
 
 - <figure>
-  <img src="rcd_vng4_fc1_cac1_cs.png" title="rcd_vng4_fc1_cac1_cs.png" />
+  <img src="/images/rcd_vng4_fc1_cac1_cs.png" title="rcd_vng4_fc1_cac1_cs.png" />
   <figcaption>rcd_vng4_fc1_cac1_cs.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="pixelshift_nomtn_fc1_cac1_cs.png"
+  <img src="/images/pixelshift_nomtn_fc1_cac1_cs.png"
   title="pixelshift_nomtn_fc1_cac1_cs.png" />
   <figcaption>pixelshift_nomtn_fc1_cac1_cs.png</figcaption>
   </figure>
@@ -648,12 +648,12 @@ amplificado por las herramientas que se usen en el procesado.
 <div>
 
 - <figure>
-  <img src="rcd_vng4_100.jpg" title="rcd_vng4_100.jpg" />
+  <img src="/images/rcd_vng4_100.jpg" title="rcd_vng4_100.jpg" />
   <figcaption>rcd_vng4_100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="pixelshift_nomtn_100.jpg" title="pixelshift_nomtn_100.jpg" />
+  <img src="/images/pixelshift_nomtn_100.jpg" title="pixelshift_nomtn_100.jpg" />
   <figcaption>pixelshift_nomtn_100.jpg</figcaption>
   </figure>
 
@@ -677,12 +677,12 @@ colores falsos o con patrones repetitivos. En estos casos el
 <div>
 
 - <figure>
-  <img src="stamp_rcd.jpg" title="stamp_rcd.jpg" />
+  <img src="/images/stamp_rcd.jpg" title="stamp_rcd.jpg" />
   <figcaption>stamp_rcd.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="stamp_pixelshift.jpg" title="stamp_pixelshift.jpg" />
+  <img src="/images/stamp_pixelshift.jpg" title="stamp_pixelshift.jpg" />
   <figcaption>stamp_pixelshift.jpg</figcaption>
   </figure>
 
@@ -731,7 +731,7 @@ ventajas del *desplazamiento de píxeles*, pero a cambio puedes llegar a
 eliminar los objetos emborronados por el movimiento.
 
 <figure>
-<img src="motion-mask_sub-images.jpg"
+<img src="/images/motion-mask_sub-images.jpg"
 title="motion-mask_sub-images.jpg" />
 <figcaption>motion-mask_sub-images.jpg</figcaption>
 </figure>
@@ -739,12 +739,12 @@ title="motion-mask_sub-images.jpg" />
 <div>
 
 - <figure>
-  <img src="motion-mask_moving.jpg" title="motion-mask_moving.jpg" />
+  <img src="/images/motion-mask_moving.jpg" title="motion-mask_moving.jpg" />
   <figcaption>motion-mask_moving.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="motion-mask_no-moving.jpg"
+  <img src="/images/motion-mask_no-moving.jpg"
   title="motion-mask_no-moving.jpg" />
   <figcaption>motion-mask_no-moving.jpg</figcaption>
   </figure>
@@ -780,12 +780,12 @@ imagen se ocultará y verás una versión monocromo de la máscara.
 <div>
 
 - <figure>
-  <img src="motion-mask_green.jpg" title="motion-mask_green.jpg" />
+  <img src="/images/motion-mask_green.jpg" title="motion-mask_green.jpg" />
   <figcaption>motion-mask_green.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="motion-mask_mono.jpg" title="motion-mask_mono.jpg" />
+  <img src="/images/motion-mask_mono.jpg" title="motion-mask_mono.jpg" />
   <figcaption>motion-mask_mono.jpg</figcaption>
   </figure>
 
@@ -858,17 +858,17 @@ procedimiento las zonas más pequeñas de la máscara se desvanecerán.
 <div>
 
 - <figure>
-  <img src="motion-mask_noblur.jpg" title="motion-mask_noblur.jpg" />
+  <img src="/images/motion-mask_noblur.jpg" title="motion-mask_noblur.jpg" />
   <figcaption>motion-mask_noblur.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="motion-mask_blur1.jpg" title="motion-mask_blur1.jpg" />
+  <img src="/images/motion-mask_blur1.jpg" title="motion-mask_blur1.jpg" />
   <figcaption>motion-mask_blur1.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="motion-mask_blur3.jpg" title="motion-mask_blur3.jpg" />
+  <img src="/images/motion-mask_blur3.jpg" title="motion-mask_blur3.jpg" />
   <figcaption>motion-mask_blur3.jpg</figcaption>
   </figure>
 
@@ -880,7 +880,7 @@ perdido «sensibilidad»). Por ello no es aconsejable usar radios altos a
 no ser que sea imprescindible.
 
 <figure>
-<img src="motion-mask_blur23.jpg" title="motion-mask_blur23.jpg" />
+<img src="/images/motion-mask_blur23.jpg" title="motion-mask_blur23.jpg" />
 <figcaption>motion-mask_blur23.jpg</figcaption>
 </figure>
 
@@ -936,12 +936,12 @@ aunque siempre con la máscara activada y poco a poco.
 <div>
 
 - <figure>
-  <img src="motion-mask_sens-5.jpg" title="motion-mask_sens-5.jpg" />
+  <img src="/images/motion-mask_sens-5.jpg" title="motion-mask_sens-5.jpg" />
   <figcaption>motion-mask_sens-5.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="motion-mask_sens5.jpg" title="motion-mask_sens5.jpg" />
+  <img src="/images/motion-mask_sens5.jpg" title="motion-mask_sens5.jpg" />
   <figcaption>motion-mask_sens5.jpg</figcaption>
   </figure>
 
@@ -961,7 +961,7 @@ se mueve tan despacio, aparecen artefactos como dobles imágenes o partes
 del objeto en movimiento en la imagen final.
 
 <figure>
-<img src="motion-mask_median.jpg" title="motion-mask_median.jpg" />
+<img src="/images/motion-mask_median.jpg" title="motion-mask_median.jpg" />
 <figcaption>motion-mask_median.jpg</figcaption>
 </figure>
 
@@ -979,7 +979,7 @@ que estés procesando es:
   importante de la foto
 - escoge otras zonas importantes de la foto y añade varias [*ventanas de
   detalle*](Editor/es#ventana_de_detalle.md)
-  (<img src="window-add.png" title="window-add.png" height="26"
+  (<img src="/images/window-add.png" title="window-add.png" height="26"
   alt="window-add.png" />) con una ampliación de al menos el 100%. De
   esta forma puedes tener una idea general de cómo queda la fotografía,
   aunque no la veas toda en pantalla

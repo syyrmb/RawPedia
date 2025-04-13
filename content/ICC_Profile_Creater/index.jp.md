@@ -13,7 +13,7 @@ ICCプロファイルクリエーター
 ## イントロダクション
 
 <figure>
-<img src="Rt55_icc_profile_creator.png"
+<img src="/images/Rt55_icc_profile_creator.png"
 title="Rt55_icc_profile_creator.png" />
 <figcaption>Rt55_icc_profile_creator.png</figcaption>
 </figure>

@@ -4,7 +4,7 @@ contributors:
   - Andrea.romagnoli
 ---
 
-<img src="Rt_ba_bw_1.jpg" title="Rt_ba_bw_1.jpg" width="900"
+<img src="/images/Rt_ba_bw_1.jpg" title="Rt_ba_bw_1.jpg" width="900"
 alt="Rt_ba_bw_1.jpg" />Lo strumento "Black-and-White" vi offre un grande
 controllo sul processo di conversione di un'immagine a colori in bianco
 e nero.

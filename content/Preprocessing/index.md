@@ -22,7 +22,7 @@ which use a bayer filter.
 ## PDAF Lines Filter
 
 <figure>
-<img src="Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
+<img src="/images/Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
 width="900" />
 <figcaption>Pdaf_lines_filter_sony.png</figcaption>
 </figure>
@@ -58,7 +58,7 @@ forum post:
 ### Nikon PDAF Banding
 
 <figure>
-<img src="Pdaf_banding_nikon.png" title="Pdaf_banding_nikon.png"
+<img src="/images/Pdaf_banding_nikon.png" title="Pdaf_banding_nikon.png"
 width="900" />
 <figcaption>Pdaf_banding_nikon.png</figcaption>
 </figure>
@@ -82,7 +82,7 @@ The "PDAF lines filter" has no effect on Nikon PDAF banding.
 
 ## Green Equilibration
 
-<img src="645D_amaze_crosshatch_pattern.jpg"
+<img src="/images/645D_amaze_crosshatch_pattern.jpg"
 title="645D_amaze_crosshatch_pattern.jpg" width="900"
 alt="645D_amaze_crosshatch_pattern.jpg" /> Some cameras (for example
 Olympus, Panasonic, Canon 7D, and some medium format cameras) use
@@ -123,7 +123,7 @@ This tool suppresses [hot and dead
 pixels](https://en.wikipedia.org/wiki/Defective_pixel) by replacing them
 by a neighborhood average.
 
-<img src="Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900"
+<img src="/images/Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900"
 alt="Rt-43_hotdead1.jpg" /> "Hot pixels" appear as bright and saturated
 tiny dots. Each one is the result of a photosite on the sensor
 outputting a higher current than it should. Whether a single photosite
@@ -148,7 +148,7 @@ using the same camera body, you can fix them not only using the
 automatic "Dead pixel filter" but also by adding their coordinates to a
 *.badpixels* file; see [Bad Pixels](Dark_Frame#Bad_Pixels.md).
 
-<img src="Rt-43_hotdead2_artifacts.jpg"
+<img src="/images/Rt-43_hotdead2_artifacts.jpg"
 title="Rt-43_hotdead2_artifacts.jpg" width="900"
 alt="Rt-43_hotdead2_artifacts.jpg" /> It is impossible to detect hot and
 dead pixels with absolute certainty by analyzing only one photo (as

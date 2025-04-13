@@ -70,22 +70,22 @@ En la herramienta podrás ver dos controles:
 <div>
 
 - <figure>
-  <img src="banding_original.jpg" title="banding_original.jpg" />
+  <img src="/images/banding_original.jpg" title="banding_original.jpg" />
   <figcaption>banding_original.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="banding_horizontal.jpg" title="banding_horizontal.jpg" />
+  <img src="/images/banding_horizontal.jpg" title="banding_horizontal.jpg" />
   <figcaption>banding_horizontal.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="banding_vertical.jpg" title="banding_vertical.jpg" />
+  <img src="/images/banding_vertical.jpg" title="banding_vertical.jpg" />
   <figcaption>banding_vertical.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="banding_both.jpg" title="banding_both.jpg" />
+  <img src="/images/banding_both.jpg" title="banding_both.jpg" />
   <figcaption>banding_both.jpg</figcaption>
   </figure>
 
@@ -94,7 +94,7 @@ En la herramienta podrás ver dos controles:
 ### Equilibrado de verdes
 
 <figure>
-<img src="645D_amaze_crosshatch_pattern.jpg"
+<img src="/images/645D_amaze_crosshatch_pattern.jpg"
 title="645D_amaze_crosshatch_pattern.jpg" />
 <figcaption>645D_amaze_crosshatch_pattern.jpg</figcaption>
 </figure>
@@ -146,7 +146,7 @@ color, por lo que en este caso también te interesará usar la
 ### Filtro para líneas de Enfoque Automático por Detección de Fase (EADF)
 
 <figure>
-<img src="Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
+<img src="/images/Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
 width="785" />
 <figcaption>Pdaf_lines_filter_sony.png</figcaption>
 </figure>
@@ -173,7 +173,7 @@ El problema es que este filtrado interno resulta excesivo y produce
 **bandas por EADF**: líneas más oscuras en áreas de sombra.
 
 <figure>
-<img src="Pdaf_banding_nikon.png" title="Pdaf_banding_nikon.png"
+<img src="/images/Pdaf_banding_nikon.png" title="Pdaf_banding_nikon.png"
 width="811" />
 <figcaption>Pdaf_banding_nikon.png</figcaption>
 </figure>
@@ -193,7 +193,7 @@ fichero que los localiza uno tras otro.
 ### Filtro de píxeles bloqueados/dañados
 
 <figure>
-<img src="Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="646" />
+<img src="/images/Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="646" />
 <figcaption>Rt-43_hotdead1.jpg</figcaption>
 </figure>
 
@@ -256,7 +256,7 @@ exactamente como la marca y modelo de tu cámara:
 
 Averigua cómo nombra RawTherapee la cámara abriendo una imagen raw que
 desees corregir en el *Editor* y, tras activar la *Información rápida*
-(<img src="info.png" title="info.png" width="22" alt="info.png" />),
+(<img src="/images/info.png" title="info.png" width="22" alt="info.png" />),
 mira la marca y modelo que se muestra superpuesta a la imagen. Por
 ejemplo: `Pentax K200D.badpixels`.
 
@@ -313,7 +313,7 @@ si es necesario*.
 ### El umbral de detección automática
 
 <figure>
-<img src="Rt-43_hotdead2_artifacts.jpg"
+<img src="/images/Rt-43_hotdead2_artifacts.jpg"
 title="Rt-43_hotdead2_artifacts.jpg" width="969" />
 <figcaption>Rt-43_hotdead2_artifacts.jpg</figcaption>
 </figure>

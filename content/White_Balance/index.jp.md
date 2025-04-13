@@ -76,13 +76,13 @@ contributors:
 ### ピック
 
 <figure>
-<img src="White_balance_1_before.png"
+<img src="/images/White_balance_1_before.png"
 title="White_balance_1_before.png" />
 <figcaption>White_balance_1_before.png</figcaption>
 </figure>
 
 <figure>
-<img src="White_balance_1_after.png"
+<img src="/images/White_balance_1_after.png"
 title="White_balance_1_after.png" />
 <figcaption>White_balance_1_after.png</figcaption>
 </figure>
@@ -276,22 +276,22 @@ Desmisによって開発されました。非公式論文の概要を読んで�
 - 　CIExyダイヤグラムと色域：以下に2つのダイヤグラム（上は輝度Lが10、下は輝度Lが50）を示していますが、CIExyダイヤグラムに含まれている色でも、色域の中には入らない色があることが分かります。
 
 <figure>
-<img src="Gamu-comp10.jpg" title="Gamu-comp10.jpg" />
+<img src="/images/Gamu-comp10.jpg" title="Gamu-comp10.jpg" />
 <figcaption>Gamu-comp10.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Gamu-comp50.jpg" title="Gamu-comp50.jpg" />
+<img src="/images/Gamu-comp50.jpg" title="Gamu-comp50.jpg" />
 <figcaption>Gamu-comp50.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Rec2020_Pointer.jpg" title="Rec2020_Pointer.jpg" />
+<img src="/images/Rec2020_Pointer.jpg" title="Rec2020_Pointer.jpg" />
 <figcaption>Rec2020_Pointer.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="sRGB2jdcmax.jpg" title="sRGB2jdcmax.jpg" />
+<img src="/images/sRGB2jdcmax.jpg" title="sRGB2jdcmax.jpg" />
 <figcaption>sRGB2jdcmax.jpg</figcaption>
 </figure>
 

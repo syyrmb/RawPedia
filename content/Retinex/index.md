@@ -229,7 +229,7 @@ I set 3 methods:
 
 ### "Transmission Map" file processing
 
-<img src="TMap.jpg" title="TMap.jpg" width="200" alt="TMap.jpg" /> The
+<img src="/images/TMap.jpg" title="TMap.jpg" width="200" alt="TMap.jpg" /> The
 main basis processing consist of to apply, using the "Transmission Map"
 average and standard-deviation, a transformation of the type:
 
@@ -262,7 +262,7 @@ going to increase the contrasts, but can lead to artefacts.
 
 ### Elaborating the "Image Haze-free" file
 
-<img src="Hazefree.jpg" title="Hazefree.jpg" width="200"
+<img src="/images/Hazefree.jpg" title="Hazefree.jpg" width="200"
 alt="Hazefree.jpg" /> This file is obtained by "difference" between the
 input image and the "Transmission Map" file.
 
@@ -620,7 +620,7 @@ by default, that means respectively 80, 200 and 20.
 
 #### Transmission map adjustment – Iterations with Radius, contrast, scale
 
-<img src="TMap.jpg" title="TMap.jpg" width="300" alt="TMap.jpg" /> The
+<img src="/images/TMap.jpg" title="TMap.jpg" width="300" alt="TMap.jpg" /> The
 next step consist to study in the tool "settings" the indicator that
 give partial information about Retinex optimization, the
 "Transmission-map" file, I quoted "Restore haze-free". You can also, iif
@@ -644,7 +644,7 @@ to the following adjustments:
 
 ##### The Haze-free image
 
-<img src="Hazefree.jpg" title="Hazefree.jpg" width="300"
+<img src="/images/Hazefree.jpg" title="Hazefree.jpg" width="300"
 alt="Hazefree.jpg" /> Just now I don't modify the values that could have
 an influence on "Transmission-map" like "radius", "contrast".
 

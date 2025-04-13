@@ -85,7 +85,7 @@ la gamma delle compensazioni di esposizione.
 Di seguito viene mostrato uno screenshot.
 
 <figure>
-<img src="dynamic-profile-rules-screenshot.png"
+<img src="/images/dynamic-profile-rules-screenshot.png"
 title="File:dynamic-profile-rules-screenshot.png" />
 <figcaption><a
 href="File:dynamic-profile-rules-screenshot.png">File:dynamic-profile-rules-screenshot.png</a></figcaption>

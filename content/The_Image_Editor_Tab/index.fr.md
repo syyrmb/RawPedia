@@ -12,7 +12,7 @@ L’Éditeur
 </div>
 
 <figure>
-<img src="Rt_55_trains.png" title="Rt_55_trains.png" />
+<img src="/images/Rt_55_trains.png" title="Rt_55_trains.png" />
 <figcaption>Rt_55_trains.png</figcaption>
 </figure>
 
@@ -227,7 +227,7 @@ désélectionnant tout autre mode.</caption>
 <td style="padding:10px;"><p>Normal*</p></td>
 <td></td>
 <td><figure>
-<img src="preview_mode_1_regular.png"
+<img src="/images/preview_mode_1_regular.png"
 title="Image:preview mode 1 regular.png" />
 <figcaption>Image:preview mode 1 regular.png</figcaption>
 </figure></td>
@@ -236,7 +236,7 @@ title="Image:preview mode 1 regular.png" />
 <td style="padding:10px;"><p>Canal rouge</p></td>
 <td style="text-align: center;"><p>r</p></td>
 <td><figure>
-<img src="preview_mode_2_red.png"
+<img src="/images/preview_mode_2_red.png"
 title="Image:preview mode 2 red.png" />
 <figcaption>Image:preview mode 2 red.png</figcaption>
 </figure></td>
@@ -245,7 +245,7 @@ title="Image:preview mode 2 red.png" />
 <td style="padding:10px;"><p>Canal vert</p></td>
 <td style="text-align: center;"><p>g</p></td>
 <td><figure>
-<img src="preview_mode_3_green.png"
+<img src="/images/preview_mode_3_green.png"
 title="Image:preview mode 3 green.png" />
 <figcaption>Image:preview mode 3 green.png</figcaption>
 </figure></td>
@@ -254,7 +254,7 @@ title="Image:preview mode 3 green.png" />
 <td style="padding:10px;"><p>Canal bleu</p></td>
 <td style="text-align: center;"><p>b</p></td>
 <td><figure>
-<img src="preview_mode_4_blue.png"
+<img src="/images/preview_mode_4_blue.png"
 title="Image:preview mode 4 blue.png" />
 <figcaption>Image:preview mode 4 blue.png</figcaption>
 </figure></td>
@@ -263,7 +263,7 @@ title="Image:preview mode 4 blue.png" />
 <td style="padding:10px;"><p>Luminance</p></td>
 <td style="text-align: center;"><p>v</p></td>
 <td><figure>
-<img src="preview_mode_5_luminance.png"
+<img src="/images/preview_mode_5_luminance.png"
 title="Image:preview mode 5 luminance.png" />
 <figcaption>Image:preview mode 5 luminance.png</figcaption>
 </figure></td>
@@ -272,7 +272,7 @@ title="Image:preview mode 5 luminance.png" />
 <td style="padding:10px;"><p>Masque du focus</p></td>
 <td style="text-align: center;"><p>Shift+f</p></td>
 <td><figure>
-<img src="preview_mode_6_focus.png"
+<img src="/images/preview_mode_6_focus.png"
 title="Image:preview mode 6 focus.png" />
 <figcaption>Image:preview mode 6 focus.png</figcaption>
 </figure></td>
@@ -373,12 +373,12 @@ Visualisation du recadrage</p></th>
 <td><p>Dépendant du thème</p></td>
 <td style="text-align: center;"><p>8</p></td>
 <td><figure>
-<img src="Previewback_7_theme.png"
+<img src="/images/Previewback_7_theme.png"
 title="Image:Previewback_7_theme.png" />
 <figcaption>Image:Previewback_7_theme.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_theme.png"
+<img src="/images/Previewback_flower_theme.png"
 title="Previewback_flower_theme.png" width="180" />
 <figcaption>Previewback_flower_theme.png</figcaption>
 </figure></td>
@@ -391,12 +391,12 @@ que définis dans les "<em>Préférences &gt; Général &gt; Théme par défaut
 <td><p>Noir</p></td>
 <td style="text-align: center;"><p>9</p></td>
 <td><figure>
-<img src="Previewback_8_black.png"
+<img src="/images/Previewback_8_black.png"
 title="Image:Previewback_8_black.png" />
 <figcaption>Image:Previewback_8_black.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_white.png"
+<img src="/images/Previewback_flower_white.png"
 title="Previewback_flower_white.png" />
 <figcaption>Previewback_flower_white.png</figcaption>
 </figure></td>
@@ -407,12 +407,12 @@ noire.</p></td>
 <td><p>Blanc</p></td>
 <td style="text-align: center;"><p>0</p></td>
 <td><figure>
-<img src="Previewback_9_white.png"
+<img src="/images/Previewback_9_white.png"
 title="Image:Previewback_9_white.png" />
 <figcaption>Image:Previewback_9_white.png</figcaption>
 </figure></td>
 <td><figure>
-<img src="Previewback_flower_black.png"
+<img src="/images/Previewback_flower_black.png"
 title="Previewback_flower_black.png" />
 <figcaption>Previewback_flower_black.png</figcaption>
 </figure></td>
@@ -494,18 +494,18 @@ clavier](Keyboard_Shortcuts/fr.md).
 ### Histogramme
 
 <figure>
-<img src="Rt57_histogram_wide_labeled.png"
+<img src="/images/Rt57_histogram_wide_labeled.png"
 title="Rt57_histogram_wide_labeled.png" />
 <figcaption>Rt57_histogram_wide_labeled.png</figcaption>
 </figure>
 
 <figure>
-<img src="RT57_histogram_ani.gif" title="RT57_histogram_ani.gif" />
+<img src="/images/RT57_histogram_ani.gif" title="RT57_histogram_ani.gif" />
 <figcaption>RT57_histogram_ani.gif</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_histogram_rgbindicator.png"
+<img src="/images/Rt_histogram_rgbindicator.png"
 title="Rt_histogram_rgbindicator.png" />
 <figcaption>Rt_histogram_rgbindicator.png</figcaption>
 </figure>
@@ -876,13 +876,13 @@ donc probable que ce mode soit supprimé dans le future (voir [issue
 ## La bande film
 
 <figure>
-<img src="Rt_filmstrip_21_toolbar-visible.jpg"
+<img src="/images/Rt_filmstrip_21_toolbar-visible.jpg"
 title="Rt_filmstrip_21_toolbar-visible.jpg" />
 <figcaption>Rt_filmstrip_21_toolbar-visible.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_filmstrip_21_toolbar-hidden.jpg"
+<img src="/images/Rt_filmstrip_21_toolbar-hidden.jpg"
 title="Rt_filmstrip_21_toolbar-hidden.jpg" />
 <figcaption>Rt_filmstrip_21_toolbar-hidden.jpg</figcaption>
 </figure>

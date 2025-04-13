@@ -15,7 +15,7 @@ contributors:
 ## PDAFラインフィルター　
 
 <figure>
-<img src="Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
+<img src="/images/Pdaf_lines_filter_sony.png" title="Pdaf_lines_filter_sony.png"
 width="900" />
 <figcaption>Pdaf_lines_filter_sony.png</figcaption>
 </figure>
@@ -43,7 +43,7 @@ Focus）を採用しているカメラは、フレアが生じるような極め
 ### ニコンのPDAFバンディング
 
 <figure>
-<img src="Pdaf_banding_nikon.png" title="Pdaf_banding_nikon.png"
+<img src="/images/Pdaf_banding_nikon.png" title="Pdaf_banding_nikon.png"
 width="900" />
 <figcaption>Pdaf_banding_nikon.png</figcaption>
 </figure>
@@ -68,7 +68,7 @@ width="900" />
 　また、この機能はクロストークが原因で起こるグリーンチャンネルの乖離（デモザイクの[方式の](Demosaicing/jp#方式.md)項を参照）を補正することにも使えます。例えば、アダプターを使ってアナログ式の超広角レンズを使った場合、レンズからの入光がローアングルになり、一部の光がカラーフィルターを一つ飛び越してしまい、異なるカラーチャンネルに属する隣のピクセルに記録されてしまうことがあります、これがクロストークです。グリーンチャンネルは2つのブルーチャンネルと2つのレッドチャンネルに囲まれているので、クロストークによりブルーとレッドの両方から影響を受けて乖離し、これがメイズパターンの原因となります。クロストークはブルーやレッドにも影響しますが、影響はグリーンチャンネルからだけなので乖離はしません。通常、マイナーなクロストークはグリーンが平衡化されていれば、目に見えて分ることはありませんが、クロストークが重度になると彩度の低い中間的な色（カラーチャンネルがミックスされているので）で目立つようになります。備考：一般的にクロストークは強い色被りがなければ発生しませんが、発生する場合はフラットフィールド補正も併用するといいでしょう。
 
 <figure>
-<img src="645D_amaze_crosshatch_pattern.jpg"
+<img src="/images/645D_amaze_crosshatch_pattern.jpg"
 title="645D_amaze_crosshatch_pattern.jpg" width="900" />
 <figcaption>645D_amaze_crosshatch_pattern.jpg</figcaption>
 </figure>
@@ -78,12 +78,12 @@ title="645D_amaze_crosshatch_pattern.jpg" width="900" />
 　これは[ホット/デッドピクセル](https://en.wikipedia.org/wiki/Defective_pixel)（英語）を周りのピクセルの平均値で置き換え抑制する機能です。
 
 　“ホットピクセル”は明るく鮮やかな点のように現れます。ホットピクセルは撮像センサーのフォトサイトから想定以上の電流が出力されることが原因で発生します。単一のフォトサイトが単一のピクセルに合致しているかどうかは、選択したデモザイクの方式にもよりますが、殆どの方式で、例えばデフォルトで設定されているAMaZE、フォトサイトとピクセルに直接的な関係はありません。そのため、ホットピクセルは単なる点として現れることもあれば、3x3ピクセルの十字やシミの様な多少大きい形で現れることもあります。ホット/デッドピクセルは、全てのカメラに関し、極当たり前に発生する現象です。但し、普通の昼光下の撮影で経験することはないでしょう。露出時間が長いほど、ホットピクセル発生の可能性が増えますが、一般的には露出時間が2秒を超えると、その傾向が強くなると言われます。熱もホットピクセル発生の要因で、センサーが熱を帯びることでその傾向が強くなります。
-<img src="Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900"
+<img src="/images/Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900"
 alt="Rt-43_hotdead1.jpg" />
 
 　一方、“デッドピクセル”は黒い点（或いは、十字やシミ）で現れます。原因はフォトサイトが壊れていることによります。従って、露出時間の長さなどには関係なく、常に画像の特定部分に発生します。発生の位置が同じで、そのカメラ本体で撮影した画像には常に現れるので、自動的な“デッドピクセルフィルター”を使うだけでなく、バッドピクセルファイル（バッドピクセルを参照して下さい）を併用することで補正出来ます。
 
 　一枚の画像だけを分析して、ホット或いはデッドピクセルを完璧に検出することは不可能なので、ホット/デッドピクセルを補正する場合は、偽陽性との兼ね合いを考慮する必要があります。しきい値スライダーを使ってホット/デッドピクセルの自動検出の感度を調節することが出来ます。設定値を低くすると検出感度が上がりますが、偽陽性によってアーティファクト発生するかもしれません。従って、ホット/デッドピクセルフィルターを有効にした際、アーティファクトの発生を認めた場合は、それが消えるまで徐々にスライダーを調節します。
-<img src="Rt-43_hotdead2_artifacts.jpg"
+<img src="/images/Rt-43_hotdead2_artifacts.jpg"
 title="Rt-43_hotdead2_artifacts.jpg" width="900"
 alt="Rt-43_hotdead2_artifacts.jpg" />

@@ -14,7 +14,7 @@ Noise Reduction
 ## Introduction
 
 <figure>
-<img src="Noise-cactus-0-ba.png" title="Noise-cactus-0-ba.png" />
+<img src="/images/Noise-cactus-0-ba.png" title="Noise-cactus-0-ba.png" />
 <figcaption>Noise-cactus-0-ba.png</figcaption>
 </figure>
 
@@ -255,7 +255,7 @@ only.
 ### Luminance
 
 <figure>
-<img src="Rt_nr_luminancecurve_books.jpg"
+<img src="/images/Rt_nr_luminancecurve_books.jpg"
 title="Rt_nr_luminancecurve_books.jpg" />
 <figcaption>Rt_nr_luminancecurve_books.jpg</figcaption>
 </figure>
@@ -358,7 +358,7 @@ re-calculated when you pan or when you copy the profile to other images.
 
 ### Median
 
-<img src="Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
+<img src="/images/Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
 width="600" alt="Rt_nr_median_books.jpg" />
 ![](Rt_nr_median_zoom_books.jpg "Rt_nr_median_zoom_books.jpg")
 

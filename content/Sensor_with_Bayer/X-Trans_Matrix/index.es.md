@@ -204,7 +204,7 @@ fotodiodos, de modo que cada fotodiodo capta sólo una longitud de onda
 concreta.
 
 <figure>
-<img src="Bayer_pattern_on_sensor_notext.png"
+<img src="/images/Bayer_pattern_on_sensor_notext.png"
 title="Bayer_pattern_on_sensor_notext.png" />
 <figcaption>Bayer_pattern_on_sensor_notext.png</figcaption>
 </figure>
@@ -230,7 +230,7 @@ difíciles de evitar:
 <div class="tlist">
 
 <figure>
-<img src="demosaic_artifacts.jpg" title="demosaic_artifacts.jpg" />
+<img src="/images/demosaic_artifacts.jpg" title="demosaic_artifacts.jpg" />
 <figcaption>demosaic_artifacts.jpg</figcaption>
 </figure>
 

@@ -111,7 +111,7 @@ account possible malfunctioning (bugs) still unsolved !
 - elaboration :
 
 <figure>
-<img src="Mire468.jpg" title="Mire468.jpg" />
+<img src="/images/Mire468.jpg" title="Mire468.jpg" />
 <figcaption>Mire468.jpg</figcaption>
 </figure>
 
@@ -199,7 +199,7 @@ account possible malfunctioning (bugs) still unsolved !
   illuminant (daylight) and for temperatures under 4000K
 
 <figure>
-<img src="illum1.jpg" title="illum1.jpg" />
+<img src="/images/illum1.jpg" title="illum1.jpg" />
 <figcaption>illum1.jpg</figcaption>
 </figure>
 
@@ -373,7 +373,7 @@ lighting is fluorescent - the illuminant in question (e.g. F11 4000K) by
 an equivalent "Daylight 4000K".
 
 <figure>
-<img src="Comp4000.jpg" title="Comp4000.jpg" />
+<img src="/images/Comp4000.jpg" title="Comp4000.jpg" />
 <figcaption>Comp4000.jpg</figcaption>
 </figure>
 
@@ -535,7 +535,7 @@ what basis ?
   In this case it is not really useful to choose a wide gamut profile.
 
 <figure>
-<img src="GAMUTS.jpg"
+<img src="/images/GAMUTS.jpg"
 title="representation of 4 profiles or spaces gamut" />
 <figcaption>representation of 4 profiles or spaces gamut</figcaption>
 </figure>
@@ -731,7 +731,7 @@ the RawTherapee options: relative, perceptual, ...) the RGB data from
 the working space to the output space.
 
 <figure>
-<img src="GamutL50.jpg" title="Gamut for a luminance L=50" />
+<img src="/images/GamutL50.jpg" title="Gamut for a luminance L=50" />
 <figcaption>Gamut for a luminance L=50</figcaption>
 </figure>
 

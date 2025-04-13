@@ -306,7 +306,7 @@ autres telles que Ubuntu où il est appelé simplement `scanin`. Adapter
 le code en conséquence.
 
 <figure>
-<img src="Daylight_crop.jpg" title="Daylight_crop.jpg" />
+<img src="/images/Daylight_crop.jpg" title="Daylight_crop.jpg" />
 <figcaption>Daylight_crop.jpg</figcaption>
 </figure>
 

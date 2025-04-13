@@ -30,7 +30,7 @@ añadir una dominante azul, o (según los ajustes) puede que introduzcas
 areas con una coloración inexistente en la escena real.
 
 <figure>
-<img src="haze_removal.jpg" title="haze_removal.jpg" />
+<img src="/images/haze_removal.jpg" title="haze_removal.jpg" />
 <figcaption>haze_removal.jpg</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ también descubrirás que con valores muy agresivos, en ocasiones
 introducirás dominantes de color donde antes había una neblina espesa:
 
 <figure>
-<img src="haze_removal-color_cast.jpg"
+<img src="/images/haze_removal-color_cast.jpg"
 title="haze_removal-color_cast.jpg" />
 <figcaption>haze_removal-color_cast.jpg</figcaption>
 </figure>

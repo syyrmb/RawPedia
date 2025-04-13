@@ -77,7 +77,7 @@ Rawファイルへのリンク(Pixls.us - Creative Common Attribution-share Alik
 [1](https://drive.google.com/file/d/1ctjOWX2lVmgcAzJtBwt69FGpxZOq-LyP/view)
 
 <figure>
-<img src="Ciecam_light_prepa.jpg" title="Ciecam_light_prepa.jpg"
+<img src="/images/Ciecam_light_prepa.jpg" title="Ciecam_light_prepa.jpg"
 width="600" />
 <figcaption>Ciecam_light_prepa.jpg</figcaption>
 </figure>
@@ -87,7 +87,7 @@ width="600" />
 　高度な機能の中の⟨色の見えモデル02/16（CIECAM02/16）⟩を有効にします。⟨場面条件⟩の中の⟨撮影時の周囲環境⟩のドロップダウンリストから“暗い”を選択します。たったこれだけです！
 
 <figure>
-<img src="Ciecam_ligh.jpg" title="Ciecam_ligh.jpg" width="600" />
+<img src="/images/Ciecam_ligh.jpg" title="Ciecam_ligh.jpg" width="600" />
 <figcaption>Ciecam_ligh.jpg</figcaption>
 </figure>
 
@@ -116,7 +116,7 @@ Alike 4.0):
 　まず、数学的にほぼ完璧なホワイトバランスが得られる、⟨自動⟩の中の⟨色温度の相関関係⟩を使ってホワイトバランスを調整します。
 
 <figure>
-<img src="CatATwb.jpg" title="CatATwb.jpg" width="600" />
+<img src="/images/CatATwb.jpg" title="CatATwb.jpg" width="600" />
 <figcaption>CatATwb.jpg</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ Alike 4.0):
 - 　⟨Cat02/16の自動プリセット　シンメトリックモード⟩のオプションを有効にします。それだけです。
 
 <figure>
-<img src="CatATauto.jpg" title="CatATauto.jpg" width="600" />
+<img src="/images/CatATauto.jpg" title="CatATauto.jpg" width="600" />
 <figcaption>CatATauto.jpg</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ Rawファイルへのリンク(Creative Common Attribution-share Alike 4.0)：
 - 　周囲 = 薄暗い：テレビは暗い壁を背にして設置されています。
 
 <figure>
-<img src="Voyagejpg.jpg" title="Voyagejpg.jpg" width="600" />
+<img src="/images/Voyagejpg.jpg" title="Voyagejpg.jpg" width="600" />
 <figcaption>Voyagejpg.jpg</figcaption>
 </figure>
 
@@ -177,7 +177,7 @@ Rawファイルへのリンク(Creative Common Attribution-share Alike 4.0)：
 　是非、友達に自分の写真を自慢したいと思うことはあるでしょう。その場合は、コントラストや色度を増やすなど、画像を少し調整して鮮やかに、爽やかに見せることも出来ます。
 
 <figure>
-<img src="Voyage_plus.jpg" title="Voyage_plus.jpg" width="600" />
+<img src="/images/Voyage_plus.jpg" title="Voyage_plus.jpg" width="600" />
 <figcaption>Voyage_plus.jpg</figcaption>
 </figure>
 
@@ -404,11 +404,11 @@ One“など
 　物体の色の見え方がその物体に近い環境の測色の特性で変わる生理現象です。例えば、物体の色が同じでも、その背景色が白、或いは黒で見え方が変わります。背景の色が暗いほど物体の色の彩度が下がります。
 
 (Creative Common Attribution-share Alike 4.0)
-<img src="Simult-contr1.jpg" title="Simult-contr1.jpg" width="600"
+<img src="/images/Simult-contr1.jpg" title="Simult-contr1.jpg" width="600"
 alt="Simult-contr1.jpg" />
 
 <figure>
-<img src="Simult-contr3.jpg" title="Simult-contr3.jpg" width="600" />
+<img src="/images/Simult-contr3.jpg" title="Simult-contr3.jpg" width="600" />
 <figcaption>Simult-contr3.jpg</figcaption>
 </figure>
 
@@ -417,9 +417,9 @@ alt="Simult-contr1.jpg" />
 　輝度が増すと彩り（鮮やかさ）が増して見える生理現象です。日陰の中より、いっぱいの光の中で物体の色を見る方が、より鮮明でコントラストを強く感じます。
 
 (Creative Common Attribution-share Alike 4.0)
-<img src="Huntseffect1.jpg" title="Huntseffect1.jpg" width="600"
+<img src="/images/Huntseffect1.jpg" title="Huntseffect1.jpg" width="600"
 alt="Huntseffect1.jpg" />
-<img src="Huntseffect-2.jpg" title="Huntseffect-2.jpg" width="600"
+<img src="/images/Huntseffect-2.jpg" title="Huntseffect-2.jpg" width="600"
 alt="Huntseffect-2.jpg" />
 
 #### スティーブンスの効果
@@ -427,7 +427,7 @@ alt="Huntseffect-2.jpg" />
 　輝度が増すとコントラストを強く感じる生理現象です。輝度が増すと暗い色はより暗く、明るい色はより明るく見えます。
 
 (Creative Common Attribution-share Alike 4.0)
-<img src="Simult-contr2.jpg" title="Simult-contr2.jpg" width="600"
+<img src="/images/Simult-contr2.jpg" title="Simult-contr2.jpg" width="600"
 alt="Simult-contr2.jpg" />
 
 #### ヘルムコルツ‐コールラッシュの効果
@@ -435,7 +435,7 @@ alt="Simult-contr2.jpg" />
 　輝度と色度で物体の色の明るさが変わって見える生理現象です。輝度が同じであれば、色付きのある物体の方が、無彩色の物体より明るく見えます。最も彩度の高い色が明るく見えます。
 
 (Creative Common Attribution-share Alike 4.0)
-<img src="Helmholtz-effect.jpg" title="Helmholtz-effect.jpg" width="600"
+<img src="/images/Helmholtz-effect.jpg" title="Helmholtz-effect.jpg" width="600"
 alt="Helmholtz-effect.jpg" />
 
 #### 色順応

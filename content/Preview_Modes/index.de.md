@@ -52,7 +52,7 @@ deselecting any other mode.</caption>
 <td style="padding:10px;"><p>Regular*</p></td>
 <td></td>
 <td><figure>
-<img src="preview_mode_1_regular.png"
+<img src="/images/preview_mode_1_regular.png"
 title="Image:preview mode 1 regular.png" />
 <figcaption>Image:preview mode 1 regular.png</figcaption>
 </figure></td>
@@ -61,7 +61,7 @@ title="Image:preview mode 1 regular.png" />
 <td style="padding:10px;"><p>Red channel</p></td>
 <td style="text-align: center;"><p>r</p></td>
 <td><figure>
-<img src="preview_mode_2_red.png"
+<img src="/images/preview_mode_2_red.png"
 title="Image:preview mode 2 red.png" />
 <figcaption>Image:preview mode 2 red.png</figcaption>
 </figure></td>
@@ -70,7 +70,7 @@ title="Image:preview mode 2 red.png" />
 <td style="padding:10px;"><p>Green channel</p></td>
 <td style="text-align: center;"><p>g</p></td>
 <td><figure>
-<img src="preview_mode_3_green.png"
+<img src="/images/preview_mode_3_green.png"
 title="Image:preview mode 3 green.png" />
 <figcaption>Image:preview mode 3 green.png</figcaption>
 </figure></td>
@@ -79,7 +79,7 @@ title="Image:preview mode 3 green.png" />
 <td style="padding:10px;"><p>Blue channel</p></td>
 <td style="text-align: center;"><p>b</p></td>
 <td><figure>
-<img src="preview_mode_4_blue.png"
+<img src="/images/preview_mode_4_blue.png"
 title="Image:preview mode 4 blue.png" />
 <figcaption>Image:preview mode 4 blue.png</figcaption>
 </figure></td>
@@ -88,7 +88,7 @@ title="Image:preview mode 4 blue.png" />
 <td style="padding:10px;"><p>Luminance channel</p></td>
 <td style="text-align: center;"><p>v</p></td>
 <td><figure>
-<img src="preview_mode_5_luminance.png"
+<img src="/images/preview_mode_5_luminance.png"
 title="Image:preview mode 5 luminance.png" />
 <figcaption>Image:preview mode 5 luminance.png</figcaption>
 </figure></td>
@@ -97,7 +97,7 @@ title="Image:preview mode 5 luminance.png" />
 <td style="padding:10px;"><p>Focus Mask</p></td>
 <td style="text-align: center;"><p>Shift+f</p></td>
 <td><figure>
-<img src="preview_mode_6_focus.png"
+<img src="/images/preview_mode_6_focus.png"
 title="Image:preview mode 6 focus.png" />
 <figcaption>Image:preview mode 6 focus.png</figcaption>
 </figure></td>

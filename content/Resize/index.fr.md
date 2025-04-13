@@ -11,12 +11,12 @@ Redimensionnement
 </div>
 
 <figure>
-<img src="Resize_tool_5.4-dev.png" title="Resize_tool_5.4-dev.png" />
+<img src="/images/Resize_tool_5.4-dev.png" title="Resize_tool_5.4-dev.png" />
 <figcaption>Resize_tool_5.4-dev.png</figcaption>
 </figure>
 
 <figure>
-<img src="Resize-interpolation.png" title="Resize-interpolation.png" />
+<img src="/images/Resize-interpolation.png" title="Resize-interpolation.png" />
 <figcaption>Resize-interpolation.png</figcaption>
 </figure>
 

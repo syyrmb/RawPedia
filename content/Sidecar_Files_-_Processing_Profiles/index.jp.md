@@ -78,7 +78,7 @@ contributors:
 ## 一部処理プロファイルと補填モード
 
 <figure>
-<img src="Processing-profiles-selector.png"
+<img src="/images/Processing-profiles-selector.png"
 title="Processing-profiles-selector.png" />
 <figcaption>Processing-profiles-selector.png</figcaption>
 </figure>

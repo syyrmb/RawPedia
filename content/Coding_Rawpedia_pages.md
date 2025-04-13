@@ -669,7 +669,7 @@ viewport size), full width, and removing the possibility to click on it
 (`link=`) :
 
 <figure>
-<img src="Rt_55_trains.png" title="Rt_55_trains.png" />
+<img src="/images/Rt_55_trains.png" title="Rt_55_trains.png" />
 <figcaption>Rt_55_trains.png</figcaption>
 </figure>
 
@@ -796,7 +796,7 @@ You will get an image positioned lower than it should be:
 <div class="image-sample">
 
 <figure>
-<img src="wavelet_contrast_buttons.png"
+<img src="/images/wavelet_contrast_buttons.png"
 title="wavelet_contrast_buttons.png" />
 <figcaption>wavelet_contrast_buttons.png</figcaption>
 </figure>
@@ -833,7 +833,7 @@ And to fix it you have to enclose the image within
 <div class="tlist">
 
 <figure>
-<img src="wavelet_contrast_buttons.png"
+<img src="/images/wavelet_contrast_buttons.png"
 title="wavelet_contrast_buttons.png" />
 <figcaption>wavelet_contrast_buttons.png</figcaption>
 </figure>
@@ -898,7 +898,7 @@ have to enclose the image `<div class="tlist tleft-list">...</div>`. But
 <div class="tlist">
 
 <figure>
-<img src="wavelet_contrast_buttons.png"
+<img src="/images/wavelet_contrast_buttons.png"
 title="wavelet_contrast_buttons.png" />
 <figcaption>wavelet_contrast_buttons.png</figcaption>
 </figure>
@@ -933,7 +933,7 @@ title="wavelet_contrast_buttons.png" />
 <div class="tlist tleft-list">
 
 <figure>
-<img src="wavelet_contrast_buttons.png"
+<img src="/images/wavelet_contrast_buttons.png"
 title="wavelet_contrast_buttons.png" />
 <figcaption>wavelet_contrast_buttons.png</figcaption>
 </figure>
@@ -1193,24 +1193,24 @@ the images will render as:
 <div>
 
 - <figure>
-  <img src="wavelet_pic.png" title="wavelet_pic.png" />
+  <img src="/images/wavelet_pic.png" title="wavelet_pic.png" />
   <figcaption>wavelet_pic.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_WL.png"
+  <img src="/images/wavelet_contrast_15C+_WL.png"
   title="wavelet_contrast_15C+_WL.png" />
   <figcaption>wavelet_contrast_15C+_WL.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_H3S6.png"
+  <img src="/images/wavelet_contrast_15C+_H3S6.png"
   title="wavelet_contrast_15C+_H3S6.png" />
   <figcaption>wavelet_contrast_15C+_H3S6.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_H3S6_Str50.png"
+  <img src="/images/wavelet_contrast_15C+_H3S6_Str50.png"
   title="wavelet_contrast_15C+_H3S6_Str50.png" />
   <figcaption>wavelet_contrast_15C+_H3S6_Str50.png</figcaption>
   </figure>
@@ -1240,19 +1240,19 @@ the images will render as:
 <div>
 
 - <figure>
-  <img src="wavelet_chrom_Link_50_Str50.png"
+  <img src="/images/wavelet_chrom_Link_50_Str50.png"
   title="wavelet_chrom_Link_50_Str50.png" />
   <figcaption>wavelet_chrom_Link_50_Str50.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBYfull.png"
+  <img src="/images/wavelet_toning_opBYfull.png"
   title="wavelet_toning_opBYfull.png" />
   <figcaption>wavelet_toning_opBYfull.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBYfull_curve.png"
+  <img src="/images/wavelet_toning_opBYfull_curve.png"
   title="wavelet_toning_opBYfull_curve.png" />
   <figcaption>wavelet_toning_opBYfull_curve.png</figcaption>
   </figure>
@@ -1278,12 +1278,12 @@ Will get:
 <div>
 
 - <figure>
-  <img src="wavelet_smc_original.png" title="wavelet_smc_original.png" />
+  <img src="/images/wavelet_smc_original.png" title="wavelet_smc_original.png" />
   <figcaption>wavelet_smc_original.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_clarity_ML60MC30.png"
+  <img src="/images/wavelet_clarity_ML60MC30.png"
   title="wavelet_clarity_ML60MC30.png" />
   <figcaption>wavelet_clarity_ML60MC30.png</figcaption>
   </figure>

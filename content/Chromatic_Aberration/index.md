@@ -12,10 +12,10 @@ Chromatic Aberration
 
 </div>
 
-<img src="chromatic_aberration_auto1.jpg"
+<img src="/images/chromatic_aberration_auto1.jpg"
 title="chromatic_aberration_auto1.jpg" width="900"
 alt="chromatic_aberration_auto1.jpg" />
-<img src="chromatic_aberration_auto2.jpg"
+<img src="/images/chromatic_aberration_auto2.jpg"
 title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" /> This "Chromatic Aberration" tool
 works on the image **before** demosaicing, that's why it's located in

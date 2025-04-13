@@ -272,7 +272,7 @@ is called `argyll-scanin`, but not by others, such as Ubuntu where it is
 called just `scanin`. Adjust accordingly.
 
 <figure>
-<img src="Daylight_crop.jpg" title="Daylight_crop.jpg" />
+<img src="/images/Daylight_crop.jpg" title="Daylight_crop.jpg" />
 <figcaption>Daylight_crop.jpg</figcaption>
 </figure>
 

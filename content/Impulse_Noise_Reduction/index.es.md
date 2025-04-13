@@ -58,6 +58,6 @@ considerará casi cualquier píxel demasiado brillante o demasiado oscuro
 respecto a su entorno como un píxel incorrecto:
 
 <figure>
-<img src="impulse-noise_2much.jpg" title="impulse-noise_2much.jpg" />
+<img src="/images/impulse-noise_2much.jpg" title="impulse-noise_2much.jpg" />
 <figcaption>impulse-noise_2much.jpg</figcaption>
 </figure>

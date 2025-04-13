@@ -6,7 +6,7 @@ contributors:
 ---
 
 <figure>
-<img src="dynamic-profile-rules-screenshot.png"
+<img src="/images/dynamic-profile-rules-screenshot.png"
 title="dynamic-profile-rules-screenshot.png" />
 <figcaption>dynamic-profile-rules-screenshot.png</figcaption>
 </figure>

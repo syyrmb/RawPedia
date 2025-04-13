@@ -72,7 +72,7 @@ Converterのインストール手順、DCPとLCPプロファイルを捜す手�
 8mmレンズの歪みを補正するLCPを2つ手作りしました。ニコン、ペンタックス、ソニーのセンサーサイズがAPS-Cのカメラに利用出来ます。キャノン製のカメラでは調整がかもしれません。
 
 - <figure>
-  <img src="Samyang_8mm_APS-C_Panini.lcp"
+  <img src="/images/Samyang_8mm_APS-C_Panini.lcp"
   title="File:Samyang 8mm APS-C Panini.lcp" />
   <figcaption><a href="File:Samyang">File:Samyang</a> 8mm APS-C
   Panini.lcp</figcaption>
@@ -82,7 +82,7 @@ Converterのインストール手順、DCPとLCPプロファイルを捜す手�
 このLCPの場合は、歪曲収差を0に、オートフィルは無効にします。
 
 - <figure>
-  <img src="Samyang_8mm_APS-C_Rectilinear.lcp"
+  <img src="/images/Samyang_8mm_APS-C_Rectilinear.lcp"
   title="File:Samyang 8mm APS-C Rectilinear.lcp" />
   <figcaption><a href="File:Samyang">File:Samyang</a> 8mm APS-C
   Rectilinear.lcp</figcaption>

@@ -83,12 +83,12 @@ contributors:
 　画像に露出オーバーの部分があるかどうかを確認するには、画面右上にあるハイライトクリッピング表示ボタン![<File:Warning-highlights.png>](Warning-highlights.png "File:Warning-highlights.png")をクリックします。露出オーバー部分が黒で表示されます。
 
 <figure>
-<img src="Hra_0.jpg" title="Hra_0.jpg" />
+<img src="/images/Hra_0.jpg" title="Hra_0.jpg" />
 <figcaption>Hra_0.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="Hra_0_chi.jpg" title="Hra_0_chi.jpg" />
+<img src="/images/Hra_0_chi.jpg" title="Hra_0_chi.jpg" />
 <figcaption>Hra_0_chi.jpg</figcaption>
 </figure>
 

@@ -14,7 +14,7 @@ tout ce qui est raw.
 </div>
 
 <figure>
-<img src="08_rt57_mushroom_blades_rawpedia.png"
+<img src="/images/08_rt57_mushroom_blades_rawpedia.png"
 title="08_rt57_mushroom_blades_rawpedia.png" width="600" />
 <figcaption>08_rt57_mushroom_blades_rawpedia.png</figcaption>
 </figure>
@@ -40,49 +40,49 @@ __NOTOC__
 `   `
 
 - <figure>
-  <img src="braz.png" title="braz.png" width="90" height="60" />
+  <img src="/images/braz.png" title="braz.png" width="90" height="60" />
   <figcaption>braz.png</figcaption>
   </figure>
 
   [Brasileiro](Main_Page/pt.md)
 
 - <figure>
-  <img src="ct.png" title="ct.png" width="90" height="60" />
+  <img src="/images/ct.png" title="ct.png" width="90" height="60" />
   <figcaption>ct.png</figcaption>
   </figure>
 
   [Català](Main_Page/ca.md)
 
 - <figure>
-  <img src="deu.png" title="deu.png" width="90" height="60" />
+  <img src="/images/deu.png" title="deu.png" width="90" height="60" />
   <figcaption>deu.png</figcaption>
   </figure>
 
   [Deutsch](Main_Page/de.md)
 
 - <figure>
-  <img src="us.png" title="us.png" width="90" height="60" />
+  <img src="/images/us.png" title="us.png" width="90" height="60" />
   <figcaption>us.png</figcaption>
   </figure>
 
   [English](Main_Page.md)
 
 - <figure>
-  <img src="esp.png" title="esp.png" width="90" height="60" />
+  <img src="/images/esp.png" title="esp.png" width="90" height="60" />
   <figcaption>esp.png</figcaption>
   </figure>
 
   [Español](Main_Page/es.md)
 
 - <figure>
-  <img src="ita.png" title="ita.png" width="90" height="60" />
+  <img src="/images/ita.png" title="ita.png" width="90" height="60" />
   <figcaption>ita.png</figcaption>
   </figure>
 
   [Italiano](Main_Page/it.md)
 
 - <figure>
-  <img src="jap.png" title="jap.png" width="90" height="60" />
+  <img src="/images/jap.png" title="jap.png" width="90" height="60" />
   <figcaption>jap.png</figcaption>
   </figure>
 

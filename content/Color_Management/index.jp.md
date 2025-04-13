@@ -20,7 +20,7 @@ Stone氏の記事](https://ninedegreesbelow.com/photography/articles.html#profil
 　入力プロファイルは、RawTherapeeの[ツールチェーンパイプラインの](Toolchain_Pipeline/jp.md)最初で画像に適用されます。プログラムの多くの機能が入力プロファイルをベースに働いているからです。入力プロファイルの適用には幾つか方法があります。
 
 <figure>
-<img src="ColorManagement-InputProfile-GUI.jpg"
+<img src="/images/ColorManagement-InputProfile-GUI.jpg"
 title="ColorManagement-InputProfile-GUI.jpg" />
 <figcaption>ColorManagement-InputProfile-GUI.jpg</figcaption>
 </figure>
@@ -212,21 +212,21 @@ Profile、或いはdcrawスタイルのカラーマトリクスを書き出す�
 - 人の目の可視周波数帯域、380ナノメータから770ナノメータ
 
 <figure>
-<img src="Ciexy-color.jpg" title="Ciexy-color.jpg" width="600" />
+<img src="/images/Ciexy-color.jpg" title="Ciexy-color.jpg" width="600" />
 <figcaption>Ciexy-color.jpg</figcaption>
 </figure>
 
 - 原色を基にした“三角形”の色空間モデル
 
 <figure>
-<img src="Ciexy-3space.jpg" title="Ciexy-3space.jpg" width="600" />
+<img src="/images/Ciexy-3space.jpg" title="Ciexy-3space.jpg" width="600" />
 <figcaption>Ciexy-3space.jpg</figcaption>
 </figure>
 
 - 光源-D50、D65、StdAの何れかに基づいたホワイトポイントの曲線展開図
 
 <figure>
-<img src="Ciexy-wp.jpg" title="Ciexy-wp.jpg" width="600" />
+<img src="/images/Ciexy-wp.jpg" title="Ciexy-wp.jpg" width="600" />
 <figcaption>Ciexy-wp.jpg</figcaption>
 </figure>
 
@@ -249,7 +249,7 @@ Profile、或いはdcrawスタイルのカラーマトリクスを書き出す�
 ### CIExyのデータをアブストラクトプロファイルで使用する
 
 <figure>
-<img src="Cie-abstract_graph3.jpg" title="Cie-abstract_graph3.jpg"
+<img src="/images/Cie-abstract_graph3.jpg" title="Cie-abstract_graph3.jpg"
 width="600" />
 <figcaption>Cie-abstract_graph3.jpg</figcaption>
 </figure>
@@ -377,7 +377,7 @@ width="600" />
 　デフォルトでは、作業プロファイルに応じた光源が設定されます。例えば、“Prophoto”であればD50、“sRGB”であればD65、“ACESp1”であればD60、など。
 
 <figure>
-<img src="ciexy-wp.jpg" title="ciexy-wp.jpg" width="600" />
+<img src="/images/ciexy-wp.jpg" title="ciexy-wp.jpg" width="600" />
 <figcaption>ciexy-wp.jpg</figcaption>
 </figure>
 
@@ -424,14 +424,14 @@ Raw file: (Brian Poindexter - Creative Common Attribution-share Alike
 #### 元画像 (Rawtherapee のデフォルト画像)
 
 <figure>
-<img src="flowerT.jpg" title="flowerT.jpg" width="600" />
+<img src="/images/flowerT.jpg" title="flowerT.jpg" width="600" />
 <figcaption>flowerT.jpg</figcaption>
 </figure>
 
 #### TRCの適用
 
 <figure>
-<img src="flowerT-trc.jpg" title="flowerT-trc.jpg" width="600" />
+<img src="/images/flowerT-trc.jpg" title="flowerT-trc.jpg" width="600" />
 <figcaption>flowerT-trc.jpg</figcaption>
 </figure>
 
@@ -446,7 +446,7 @@ Raw file: (Brian Poindexter - Creative Common Attribution-share Alike
 RGBに変えます。
 
 <figure>
-<img src="flowerT-primaries.jpg" title="flowerT-primaries.jpg"
+<img src="/images/flowerT-primaries.jpg" title="flowerT-primaries.jpg"
 width="600" />
 <figcaption>flowerT-primaries.jpg</figcaption>
 </figure>
@@ -456,7 +456,7 @@ width="600" />
 #### 原色を変える – カスタムCIExyダイヤグラム
 
 <figure>
-<img src="flowerT-prim-CIExydiag.jpg" title="flowerT-prim-CIExydiag.jpg"
+<img src="/images/flowerT-prim-CIExydiag.jpg" title="flowerT-prim-CIExydiag.jpg"
 width="600" />
 <figcaption>flowerT-prim-CIExydiag.jpg</figcaption>
 </figure>
@@ -480,7 +480,7 @@ RGBのレッドポイントだけを変更する例：ダイヤグラムを見�
 <div>
 
 <figure>
-<img src="ciexy-bw1.jpg" title="ciexy-bw1.jpg" width="600" />
+<img src="/images/ciexy-bw1.jpg" title="ciexy-bw1.jpg" width="600" />
 <figcaption>ciexy-bw1.jpg</figcaption>
 </figure>
 

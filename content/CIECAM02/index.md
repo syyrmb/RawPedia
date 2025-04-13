@@ -148,7 +148,7 @@ Raw file (Pixls.us - Creative Common Attribution-share Alike 4.0):
 [1](https://drive.google.com/file/d/1ctjOWX2lVmgcAzJtBwt69FGpxZOq-LyP/view?usp=sharing)
 
 <figure>
-<img src="ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
+<img src="/images/ciecam_light_prepa.jpg" title="ciecam_light_prepa.jpg"
 width="600" />
 <figcaption>ciecam_light_prepa.jpg</figcaption>
 </figure>
@@ -158,7 +158,7 @@ width="600" />
 Go to the Advanced tab and select Color Appearance & Lighting
 (CIECAM02/16). Under Scene Conditions set the Surround-Scene Lighting
 combobox to Dark. That's it!
-<img src="ciecam_ligh.jpg" title="ciecam_ligh.jpg" width="600"
+<img src="/images/ciecam_ligh.jpg" title="ciecam_ligh.jpg" width="600"
 alt="ciecam_ligh.jpg" />
 
 You can refine the adjustment using the Image Adjustments settings.
@@ -191,7 +191,7 @@ in the Color tab using White Balance \> Auto \> "Temperature
 correlation".
 
 <figure>
-<img src="catATwb.jpg" title="catATwb.jpg" width="600" />
+<img src="/images/catATwb.jpg" title="catATwb.jpg" width="600" />
 <figcaption>catATwb.jpg</figcaption>
 </figure>
 
@@ -218,7 +218,7 @@ To remedy this, we will use CIECAM02.
   That's it!
 
 <figure>
-<img src="catATauto.jpg" title="catATauto.jpg" width="600" />
+<img src="/images/catATauto.jpg" title="catATauto.jpg" width="600" />
 <figcaption>catATauto.jpg</figcaption>
 </figure>
 
@@ -255,7 +255,7 @@ Viewing environment:
 - Surround = Dim: the TV is set against a dark wall.
 
 <figure>
-<img src="voyagejpg.jpg" title="voyagejpg.jpg" width="600" />
+<img src="/images/voyagejpg.jpg" title="voyagejpg.jpg" width="600" />
 <figcaption>voyagejpg.jpg</figcaption>
 </figure>
 
@@ -267,7 +267,7 @@ absolute luminance).
 
 Of course, we are so keen to impress our guests that we have cheated a
 little by adding some extra contrast and chroma.
-<img src="voyage_plus.jpg" title="voyage_plus.jpg" width="600"
+<img src="/images/voyage_plus.jpg" title="voyage_plus.jpg" width="600"
 alt="voyage_plus.jpg" />
 
 ## Local Adjustments - Color Appearance (Cam16 & JzCzHz Experimental)
@@ -762,9 +762,9 @@ The darker the background will be, the more we'll have to boost
 colors...
 
 (Creative Common Attribution-share Alike 4.0)
-<img src="Simult-contr1.jpg" title="Simult-contr1.jpg" width="600"
+<img src="/images/Simult-contr1.jpg" title="Simult-contr1.jpg" width="600"
 alt="Simult-contr1.jpg" />
-<img src="Simult-contr3.jpg" title="Simult-contr3.jpg" width="600"
+<img src="/images/Simult-contr3.jpg" title="Simult-contr3.jpg" width="600"
 alt="Simult-contr3.jpg" />
 
 #### the Hunt's effect
@@ -772,9 +772,9 @@ alt="Simult-contr3.jpg" />
 Increased seen coloration (colorfulness) with luminance. An object
 appears more vivid and contrasty in full light than in shade. (Creative
 Common Attribution-share Alike 4.0)
-<img src="Huntseffect1.jpg" title="Huntseffect1.jpg" width="600"
+<img src="/images/Huntseffect1.jpg" title="Huntseffect1.jpg" width="600"
 alt="Huntseffect1.jpg" />
-<img src="Huntseffect-2.jpg" title="Huntseffect-2.jpg" width="600"
+<img src="/images/Huntseffect-2.jpg" title="Huntseffect-2.jpg" width="600"
 alt="Huntseffect-2.jpg" />
 
 #### Stevens's effect
@@ -783,7 +783,7 @@ Augmentation of the perceived contrast with the luminance. When the
 luminance increases, the dark colors looks like even darker and the
 luminous colors appears even more luminous. (Creative Common
 Attribution-share Alike 4.0)
-<img src="Simult-contr2.jpg" title="Simult-contr2.jpg" width="600"
+<img src="/images/Simult-contr2.jpg" title="Simult-contr2.jpg" width="600"
 alt="Simult-contr2.jpg" />
 
 #### Helmholtz-Kohlrausch's effect
@@ -792,7 +792,7 @@ Dependence of the brightness in relation to the luminance and
 chromaticity. Colored objects appear lighter than the achromatic objects
 with the same luminance. The most saturated colors appear brighter.
 (Creative Common Attribution-share Alike 4.0)
-<img src="Helmholtz-effect.jpg" title="Helmholtz-effect.jpg" width="600"
+<img src="/images/Helmholtz-effect.jpg" title="Helmholtz-effect.jpg" width="600"
 alt="Helmholtz-effect.jpg" />
 
 #### Chromatic adaptation

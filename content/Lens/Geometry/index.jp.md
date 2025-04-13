@@ -98,7 +98,7 @@ LCP](https://helpx.adobe.com/camera-raw/digital-negative.html#resources)ファ�
 ### オートフィル
 
 <figure>
-<img src="Lensgeometry_bluehorse_barrel_distortion_correction.jpg"
+<img src="/images/Lensgeometry_bluehorse_barrel_distortion_correction.jpg"
 title="Lensgeometry_bluehorse_barrel_distortion_correction.jpg"
 width="900" />
 <figcaption>Lensgeometry_bluehorse_barrel_distortion_correction.jpg</figcaption>
@@ -125,7 +125,7 @@ width="900" />
 <figcaption>Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg</figcaption>
 </figure>
 
-<img src="Lensgeometry_bluehorse_autocrop_after_rotation.jpg"
+<img src="/images/Lensgeometry_bluehorse_autocrop_after_rotation.jpg"
 title="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
 *オートフィル*を無効にすると、[image:Crop-auto.png](image:Crop-auto.png.md)*自動切抜き*が使えます。この機能は画像を改ざんするのではありません、歪みの補正や、回転によって発生した余分な空間を切り取るだけです。
@@ -145,7 +145,7 @@ alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
 撮影したい対象が画像の中心から多少ずれていた場合、この水平スライダーで（ある程度）調整が可能です。
 
 <figure>
-<img src="perspective_horizontal.jpg" title="perspective_horizontal.jpg"
+<img src="/images/perspective_horizontal.jpg" title="perspective_horizontal.jpg"
 width="900" />
 <figcaption>perspective_horizontal.jpg</figcaption>
 </figure>
@@ -154,7 +154,7 @@ width="900" />
 建築物の撮影で、垂直線のズレを矯正するのに非常に便利です。どちらのスライダーも値を高くし過ぎると、画像がかなり歪むので注意が必要ですが、気にしなければ、それなりに面白い画像作りが出来るでしょう。
 
 <figure>
-<img src="perspective_vertical.jpg" title="perspective_vertical.jpg"
+<img src="/images/perspective_vertical.jpg" title="perspective_vertical.jpg"
 width="900" />
 <figcaption>perspective_vertical.jpg</figcaption>
 </figure>
@@ -250,13 +250,13 @@ Correction）ボタンは、貴方のカメラがrawファイルに埋め込ん�
 ### 色収差補正
 
 <figure>
-<img src="chromatic_aberration_auto1.jpg"
+<img src="/images/chromatic_aberration_auto1.jpg"
 title="chromatic_aberration_auto1.jpg" width="900" />
 <figcaption>chromatic_aberration_auto1.jpg</figcaption>
 </figure>
 
 <figure>
-<img src="chromatic_aberration_auto2.jpg"
+<img src="/images/chromatic_aberration_auto2.jpg"
 title="chromatic_aberration_auto2.jpg" width="900" />
 <figcaption>chromatic_aberration_auto2.jpg</figcaption>
 </figure>

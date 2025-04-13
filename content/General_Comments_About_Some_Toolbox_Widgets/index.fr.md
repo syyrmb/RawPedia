@@ -156,7 +156,7 @@ et un éditeur des valeurs d'entrée/sortie des points de contrôle
 ### La pipette
 
 <figure>
-<img src="Rt55_lab_hh_color_picker.png"
+<img src="/images/Rt55_lab_hh_color_picker.png"
 title="Rt55_lab_hh_color_picker.png" />
 <figcaption>Rt55_lab_hh_color_picker.png</figcaption>
 </figure>

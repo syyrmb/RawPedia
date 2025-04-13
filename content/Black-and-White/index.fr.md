@@ -11,7 +11,7 @@ Noir-et-Blanc
 </div>
 
 <figure>
-<img src="Rt_ba_bw_1.jpg" title="Rt_ba_bw_1.jpg" width="900" />
+<img src="/images/Rt_ba_bw_1.jpg" title="Rt_ba_bw_1.jpg" width="900" />
 <figcaption>Rt_ba_bw_1.jpg</figcaption>
 </figure>
 

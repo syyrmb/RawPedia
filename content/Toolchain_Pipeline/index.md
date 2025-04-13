@@ -260,7 +260,7 @@ Note:
 - The restored black-to-white dynamic range is around 12 to 13 Ev.
 
 <figure>
-<img src="sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
+<img src="/images/sweep-rgb-neutral.jpg" title="sweep-rgb-neutral.jpg"
 width="600" />
 <figcaption>sweep-rgb-neutral.jpg</figcaption>
 </figure>
@@ -277,7 +277,7 @@ Note:
 - Note the use of "White distribution = 90".
 
 <figure>
-<img src="sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
+<img src="/images/sweep-rgb-log.jpg" title="sweep-rgb-log.jpg" width="600" />
 <figcaption>sweep-rgb-log.jpg</figcaption>
 </figure>
 
@@ -585,7 +585,7 @@ animals, etc.) and then add some local contrast. This can take 2 forms:
   - In the Abstract Profile module you have Contrast Enhancement based
     on the notion of contrast profiles.
 
-<img src="APwav.jpg" title="APwav.jpg" width="600" alt="APwav.jpg" />
+<img src="/images/APwav.jpg" title="APwav.jpg" width="600" alt="APwav.jpg" />
 
 - In Selective Editing, there is the Local Contrast & Wavelets tool,
   which in Basic mode allows you to adjust the local contrast (by
@@ -593,6 +593,6 @@ animals, etc.) and then add some local contrast. This can take 2 forms:
   Clarity function.
 
 <figure>
-<img src="locwav.jpg" title="locwav.jpg" width="600" />
+<img src="/images/locwav.jpg" title="locwav.jpg" width="600" />
 <figcaption>locwav.jpg</figcaption>
 </figure>

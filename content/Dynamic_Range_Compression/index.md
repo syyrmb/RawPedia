@@ -67,7 +67,7 @@ dynamic range across a series of images in a consistent way, use a curve
 instead. You can, however, use this tool on the stitched panorama.
 
 <figure>
-<img src="DRC-Example.jpg" title="DRC-Example.jpg" />
+<img src="/images/DRC-Example.jpg" title="DRC-Example.jpg" />
 <figcaption>DRC-Example.jpg</figcaption>
 </figure>
 

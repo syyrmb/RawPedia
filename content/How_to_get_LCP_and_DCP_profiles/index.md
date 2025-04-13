@@ -77,7 +77,7 @@ for de-fishing the Samyang 8mm lens, tailored to the APS-C sensor size
 used by Nikon, Pentax and Sony. Might need tweaking for Canon.
 
 - <figure>
-  <img src="Samyang_8mm_APS-C_Panini.lcp"
+  <img src="/images/Samyang_8mm_APS-C_Panini.lcp"
   title="File:Samyang 8mm APS-C Panini.lcp" />
   <figcaption><a href="File:Samyang">File:Samyang</a> 8mm APS-C
   Panini.lcp</figcaption>
@@ -87,7 +87,7 @@ used by Nikon, Pentax and Sony. Might need tweaking for Canon.
 Set Distortion Correction = 0, Auto-fill = unchecked
 
 - <figure>
-  <img src="Samyang_8mm_APS-C_Rectilinear.lcp"
+  <img src="/images/Samyang_8mm_APS-C_Rectilinear.lcp"
   title="File:Samyang 8mm APS-C Rectilinear.lcp" />
   <figcaption><a href="File:Samyang">File:Samyang</a> 8mm APS-C
   Rectilinear.lcp</figcaption>

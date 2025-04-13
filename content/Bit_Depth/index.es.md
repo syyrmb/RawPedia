@@ -221,7 +221,7 @@ que tiene el ojo humano: apreciamos mejor los cambios de tono en las
 zonas oscuras).
 
 Con este artificio se consigue que un JPEG de 8 bits pueda mostrar hasta
-<img src="gamma_log.png" title="gamma_log.png" width="153"
+<img src="/images/gamma_log.png" title="gamma_log.png" width="153"
 alt="gamma_log.png" /> pasos de rango dinámico, lo cual excede los 14
 pasos de las mejores cámaras actuales. Esto explica por qué a veces se
 puede ver el ruido de las sombras de una cámara incluso en un JPEG de 8

@@ -29,9 +29,9 @@ para alterar o efeito de coloração. Se a tonalidade da cor for
 aceitável, pode-se continuar os ajustes da imagem com as curvas de tom
 no painel [exposição](exposição.md).
 
-<img src="FadePack1_RawTherapee_01.jpg"
+<img src="/images/FadePack1_RawTherapee_01.jpg"
 title="FadePack1_RawTherapee_01.jpg" width="900"
 alt="FadePack1_RawTherapee_01.jpg" />
-<img src="FadePack1_RawTherapee_02.jpg"
+<img src="/images/FadePack1_RawTherapee_02.jpg"
 title="FadePack1_RawTherapee_02.jpg" width="900"
 alt="FadePack1_RawTherapee_02.jpg" />

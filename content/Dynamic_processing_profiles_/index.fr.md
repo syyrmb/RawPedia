@@ -88,7 +88,7 @@ la gamme des compensations d'exposition.
 Une copie d'écran est présentée ci-dessous.
 
 <figure>
-<img src="dynamic-profile-rules-screenshot.png"
+<img src="/images/dynamic-profile-rules-screenshot.png"
 title="File:dynamic-profile-rules-screenshot.png" />
 <figcaption><a
 href="File:dynamic-profile-rules-screenshot.png">File:dynamic-profile-rules-screenshot.png</a></figcaption>

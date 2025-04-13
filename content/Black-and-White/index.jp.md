@@ -14,5 +14,5 @@ contributors:
 
 　白黒のカラートーン調整に関しては、露光タブの
 Lab調整の中にある[白黒のカラートーン調整を](Lab_Adjustments/jp#白黒のカラートーン調整.md)参照して下さい。
-<img src="Rt_ba_bw_1.jpg" title="Rt_ba_bw_1.jpg" width="900"
+<img src="/images/Rt_ba_bw_1.jpg" title="Rt_ba_bw_1.jpg" width="900"
 alt="Rt_ba_bw_1.jpg" /> 　  

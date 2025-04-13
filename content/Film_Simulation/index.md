@@ -12,7 +12,7 @@ Film Simulation
 
 </div>
 
-<img src="Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
+<img src="/images/Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
 width="900" alt="Rt_haldclut_london.jpg" /> The *Film Simulation* tool
 allows you to match the colors of a photo to a reference image with a
 single click. This tool requires the use of reference images in the

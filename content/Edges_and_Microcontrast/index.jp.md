@@ -32,7 +32,7 @@ Llorens](https://github.com/ManuelLlorens)によってプログラムに実装�
 3.  　輝度のみ：エッジ機能はL\*a\*b\*色空間で使いますが、このオプションを有効にするとL\*要素だけに作用します。
 
 <figure>
-<img src="edges.jpg" title="edges.jpg" />
+<img src="/images/edges.jpg" title="edges.jpg" />
 <figcaption>edges.jpg</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Llorens](https://github.com/ManuelLlorens)によってプログラムに実装�
 　マイクロコントラストは、隣接するピクセルと比較したコントラストを増やす機能で、効果的には質感をはっきりさせます。ノイズ低減を行ったことで失われた質感を回復させる目的で使われます。ハロは生みません[2](https://web.archive.org/web/20100324142513/http://www.rawness.es/contraste-local-y-microcontraste/?lang=en)。
 
 <figure>
-<img src="seagull-microcontrast.jpg"
+<img src="/images/seagull-microcontrast.jpg"
 title="seagull-microcontrast.jpg" />
 <figcaption>seagull-microcontrast.jpg</figcaption>
 </figure>

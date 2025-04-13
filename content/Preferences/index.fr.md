@@ -86,7 +86,7 @@ des outils.
 - Montrer la barre d'outil de la pellicule d'image ("filmstrip")
 
 <figure>
-<img src="Rt_setm_fb.png" title="Rt_setm_fb.png" />
+<img src="/images/Rt_setm_fb.png" title="Rt_setm_fb.png" />
 <figcaption>Rt_setm_fb.png</figcaption>
 </figure>
 
@@ -158,7 +158,7 @@ Un redémarrage est nécessaire pour prendre ces modifications en compte.
 ### Apparence
 
 <figure>
-<img src="Image_editor.png"
+<img src="/images/Image_editor.png"
 title=" L&#39;onglet Editeur montrant : (1) l&#39;arrière plan de l&#39;aperçu, (2) le masque de recadrage, (3) la pipette à couleurs verrouillable et (4) les boutons qui basculent la couleur de l&#39;arrière plan de l&#39;aperçu entre noir, blanc ou défini par le thème." />
 <figcaption> L'onglet Editeur montrant : (1) l'arrière plan de l'aperçu,
 (2) le masque de recadrage, (3) la pipette à couleurs verrouillable et
@@ -217,7 +217,7 @@ recadrage pour trouver la meilleure composition (maintenir la touche
 **Shift** enfoncée et déplacer le recadrage avec la souris).
 
 <figure>
-<img src="Image_editor_navigator.png"
+<img src="/images/Image_editor_navigator.png"
 title="L&#39;onglet Editeur montrant : (1) Le panneau Navigateur, (2) Le guide du Navigateur qui indique les limites de la zone affichée dans l&#39;aperçu principal en cas de zoom-avant." />
 <figcaption>L'onglet Editeur montrant : (1) Le panneau Navigateur, (2)
 Le guide du Navigateur qui indique les limites de la zone affichée dans
@@ -233,7 +233,7 @@ seconde copie d'écran) visible dans le panneau
 lorsque l'aperçu principal est zoomé en avant.
 
 <figure>
-<img src="Rt56_hidpi.png" title="Rt56_hidpi.png" />
+<img src="/images/Rt56_hidpi.png" title="Rt56_hidpi.png" />
 <figcaption>Rt56_hidpi.png</figcaption>
 </figure>
 
@@ -291,7 +291,7 @@ lors du clic sur ce bouton.
 #### Linux
 
 <figure>
-<img src="Rt54_external_editor_linux_geeqie.png"
+<img src="/images/Rt54_external_editor_linux_geeqie.png"
 title="File:Rt54 external editor linux geeqie.png" />
 <figcaption><a href="File:Rt54">File:Rt54</a> external editor linux
 geeqie.png</figcaption>
@@ -324,7 +324,7 @@ geeqie.png</figcaption>
 #### macOS
 
 <figure>
-<img src="Rt54_external_editor_macos_pse.png"
+<img src="/images/Rt54_external_editor_macos_pse.png"
 title="File:Rt54 external editor macos pse.png" />
 <figcaption><a href="File:Rt54">File:Rt54</a> external editor macos
 pse.png</figcaption>
@@ -365,7 +365,7 @@ pse.png</figcaption>
 #### Windows
 
 <figure>
-<img src="Rt54_external_editor_win_pse.png"
+<img src="/images/Rt54_external_editor_win_pse.png"
 title="File:Rt54 external editor win pse.png" />
 <figcaption><a href="File:Rt54">File:Rt54</a> external editor win
 pse.png</figcaption>

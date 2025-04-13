@@ -18,7 +18,7 @@ Ready for publishing: no
 # Die Registerkarte Dateiverwaltung
 
 <figure>
-<img src="Rt_setm_fb.png" title="Rt_setm_fb.png" />
+<img src="/images/Rt_setm_fb.png" title="Rt_setm_fb.png" />
 <figcaption>Rt_setm_fb.png</figcaption>
 </figure>
 

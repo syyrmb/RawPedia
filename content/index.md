@@ -14,7 +14,7 @@ contributors:
 ---
 
 <figure>
-<img src="08_rt57_mushroom_blades_rawpedia.png"
+<img src="/images/08_rt57_mushroom_blades_rawpedia.png"
 title="08_rt57_mushroom_blades_rawpedia.png" width="600" />
 <figcaption>08_rt57_mushroom_blades_rawpedia.png</figcaption>
 </figure>
@@ -37,7 +37,7 @@ covered.
 <tbody>
 <tr class="odd">
 <td><figure>
-<img src="Flag_of_Brazil.svg" title="Flag_of_Brazil.svg" width="90"
+<img src="/images/Flag_of_Brazil.svg" title="Flag_of_Brazil.svg" width="90"
 height="60" />
 <figcaption>Flag_of_Brazil.svg</figcaption>
 </figure>

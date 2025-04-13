@@ -84,7 +84,7 @@ right tool panel above the tools.
 - Show Filmstrip Toolbar
 
 <figure>
-<img src="Rt_setm_fb.png" title="Rt_setm_fb.png" />
+<img src="/images/Rt_setm_fb.png" title="Rt_setm_fb.png" />
 <figcaption>Rt_setm_fb.png</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ A restart is required for these changes to take effect.
 ### Appearance
 
 <figure>
-<img src="Image_editor.png"
+<img src="/images/Image_editor.png"
 title="The Image Editor tab showing: (1) the preview background, (2) the crop mask, (3) lockable color pickers and (4) buttons which toggle the color of the preview background between black, white and theme-based." />
 <figcaption>The Image Editor tab showing: (1) the preview background,
 (2) the crop mask, (3) lockable color pickers and (4) buttons which
@@ -203,7 +203,7 @@ visible (2), so that you can move the crop around to find the best
 composition (hold the **Shift** key and move the crop with the mouse).
 
 <figure>
-<img src="Image_editor_navigator.png"
+<img src="/images/Image_editor_navigator.png"
 title="The Image Editor tab showing: (1) the Navigator panel, (2) the Navigator guide which marks the area currently visible in the main preview when zoomed-in." />
 <figcaption>The Image Editor tab showing: (1) the Navigator panel, (2)
 the Navigator guide which marks the area currently visible in the main
@@ -219,7 +219,7 @@ screenshot) visible in the
 "1") when the main preview is zoomed-in.
 
 <figure>
-<img src="Rt56_hidpi.png" title="Rt56_hidpi.png" />
+<img src="/images/Rt56_hidpi.png" title="Rt56_hidpi.png" />
 <figcaption>Rt56_hidpi.png</figcaption>
 </figure>
 
@@ -260,7 +260,7 @@ in PP3".
 ### External Editor
 
 <figure>
-<img src="Rt510_preferences_external_editor.png"
+<img src="/images/Rt510_preferences_external_editor.png"
 title="Rt510_preferences_external_editor.png" />
 <figcaption>Rt510_preferences_external_editor.png</figcaption>
 </figure>

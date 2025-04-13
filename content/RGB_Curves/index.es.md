@@ -41,7 +41,7 @@ de los píxeles en el eje horizontal y el tono que se añadirá a la foto
 en el eje vertical.
 
 Para realizar un ajuste simplemente haz clic
-(<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+(<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" />) en el punto que desees del gráfico y
 añadirás un punto de control a la línea diagonal. A continuación
 desplázalo hacia arriba o hacia abajo: hacia arriba introducirás una
@@ -50,7 +50,7 @@ del color complementario (en el canal rojo, dominante cián; en el canal
 verde, dominante magenta; en el canal azul, dominante amarilla).
 
 <figure>
-<img src="RGBcurves_tone.jpg" title="RGBcurves_tone.jpg" />
+<img src="/images/RGBcurves_tone.jpg" title="RGBcurves_tone.jpg" />
 <figcaption>RGBcurves_tone.jpg</figcaption>
 </figure>
 
@@ -61,10 +61,10 @@ ajustarlos convenientemente.
 Para añadir puntos de control en zonas específicas de la imagen (y no en
 zonas del gráfico, como se ha explicado antes), puedes usar el *selector
 de color*
-(<img src="Crosshair-node-curve.png" title="Crosshair-node-curve.png"
+(<img src="/images/Crosshair-node-curve.png" title="Crosshair-node-curve.png"
 width="22" alt="Crosshair-node-curve.png" />) como sigue: tras activar
 el botón ves a la imagen y haz  +
-<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" /> . Si sueltas el botón del ratón, añadirás
 un punto de control en la curva. Si no sueltas el botón del ratón y
 arrastras el puntero hacia arriba o hacia abajo, moverás simultáneamente
@@ -73,9 +73,9 @@ el punto de control recién creado hacia arriba o hacia abajo.
 Si aún necesitaras un control más preciso de los puntos de control,
 puedes activar la edición de los valores inicial y resultante de los
 puntos de control mediante el botón
-<img src="Edit-point.png" title="Edit-point.png" height="26"
+<img src="/images/Edit-point.png" title="Edit-point.png" height="26"
 alt="Edit-point.png" /> . Tras activarlo, haz clic derecho
-(<img src="mouse_right-click.png" title="mouse_right-click.png"
+(<img src="/images/mouse_right-click.png" title="mouse_right-click.png"
 height="26" alt="mouse_right-click.png" />) sobre el punto de control
 que vayas a modificar. Entonces podrás introducir un valor de
 luminosidad preciso en el campo «**E:**» y un valor modificado en el

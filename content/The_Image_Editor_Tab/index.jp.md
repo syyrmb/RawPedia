@@ -11,7 +11,7 @@ contributors:
 </div>
 
 <figure>
-<img src="Rt_55_trains.png" title="Rt_55_trains.png" />
+<img src="/images/Rt_55_trains.png" title="Rt_55_trains.png" />
 <figcaption>Rt_55_trains.png</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Curve"という処理プロファイルが使えます。これには編集画�
 ### プレビュー画面の背景色
 
 <figure>
-<img src="Rt59_preview_background_all.png"
+<img src="/images/Rt59_preview_background_all.png"
 title="File:Rt59 preview background all.png" />
 <figcaption><a href="File:Rt59">File:Rt59</a> preview background
 all.png</figcaption>
@@ -77,7 +77,7 @@ all.png</figcaption>
 ### プレビューのカラーチャンネル
 
 <figure>
-<img src="Rt59_preview_channel_all.png"
+<img src="/images/Rt59_preview_channel_all.png"
 title="File:Rt59_preview_channel_all.png" />
 <figcaption><a
 href="File:Rt59_preview_channel_all.png">File:Rt59_preview_channel_all.png</a></figcaption>
@@ -95,7 +95,7 @@ href="File:Rt59_preview_channel_all.png">File:Rt59_preview_channel_all.png</a></
 ### プレビューマスク
 
 <figure>
-<img src="Rt59_preview_mask_all.png"
+<img src="/images/Rt59_preview_mask_all.png"
 title="File:Rt59_preview_mask_all.png" />
 <figcaption><a
 href="File:Rt59_preview_mask_all.png">File:Rt59_preview_mask_all.png</a></figcaption>
@@ -109,7 +109,7 @@ href="File:Rt59_preview_mask_all.png">File:Rt59_preview_mask_all.png</a></figcap
 - 　ハイライトのクリッピングを表示
 
 <figure>
-<img src="Preview_6_focus_2.jpg"
+<img src="/images/Preview_6_focus_2.jpg"
 title="ピントの合っている面を示すフォーカスマスク" />
 <figcaption>ピントの合っている面を示すフォーカスマスク</figcaption>
 </figure>
@@ -143,18 +143,18 @@ left panel icon](panel-to-left.png "Hide left panel icon")
 ### メインヒストグラム
 
 <figure>
-<img src="Rt57_histogram_wide_labeled.png"
+<img src="/images/Rt57_histogram_wide_labeled.png"
 title="Rt57_histogram_wide_labeled.png" />
 <figcaption>Rt57_histogram_wide_labeled.png</figcaption>
 </figure>
 
 <figure>
-<img src="RT57_histogram_ani.gif" title="RT57_histogram_ani.gif" />
+<img src="/images/RT57_histogram_ani.gif" title="RT57_histogram_ani.gif" />
 <figcaption>RT57_histogram_ani.gif</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_histogram_rgbindicator.png"
+<img src="/images/Rt_histogram_rgbindicator.png"
 title="Rt_histogram_rgbindicator.png" />
 <figcaption>Rt_histogram_rgbindicator.png</figcaption>
 </figure>
@@ -219,7 +219,7 @@ title="Rt_histogram_rgbindicator.png" />
   トグル![text-middle](histogram-ellipsis-small.png "text-middle")のボタンを押せば表示されます）。スライダーで表示の明るさを上げることで、露出過多、或いは露出不足の部分がより鮮明に見えます。
 
 <figure>
-<img src="Waveform.jpg" title="Waveform.jpg" />
+<img src="/images/Waveform.jpg" title="Waveform.jpg" />
 <figcaption>Waveform.jpg</figcaption>
 </figure>
 
@@ -238,7 +238,7 @@ title="Rt_histogram_rgbindicator.png" />
 ### RGBパレード
 
 <figure>
-<img src="Parade.jpg" title="Parade.jpg" />
+<img src="/images/Parade.jpg" title="Parade.jpg" />
 <figcaption>Parade.jpg</figcaption>
 </figure>
 
@@ -266,7 +266,7 @@ title="Rt_histogram_rgbindicator.png" />
 　H-Sベクトルスコープでは、彩度100％、或いはそれに近い色は、円の縁に白い点描で記されるので、その色が完全に飽和している、或いは切り詰められている（クリップ）ことが分かります。円の内側の同心円は、小さい方から彩度25％、50％、75％、100％を示しています。このベクトルスコープは、出力プロファイルの色空間から外れているピクセルがどれ位あるか見極めるのに便利です。
 
 <figure>
-<img src="HSvectorscope.jpg" title="HSvectorscope.jpg" width="500" />
+<img src="/images/HSvectorscope.jpg" title="HSvectorscope.jpg" width="500" />
 <figcaption>HSvectorscope.jpg</figcaption>
 </figure>
 
@@ -277,7 +277,7 @@ title="Rt_histogram_rgbindicator.png" />
 　残りのピクセルは異なる色の量（彩度）に応じて分布しています。同じ範囲に分布するピクセルの数の多寡によって、白い点描が強く、或いは弱く表示されます。
 
 <figure>
-<img src="HSvectorscope_OOG.jpg" title="HSvectorscope_OOG.jpg"
+<img src="/images/HSvectorscope_OOG.jpg" title="HSvectorscope_OOG.jpg"
 width="500" />
 <figcaption>HSvectorscope_OOG.jpg</figcaption>
 </figure>
@@ -288,10 +288,10 @@ width="500" />
 　H-Cベクトルスコープで表示されている同心円は、それぞれ32％、64％、96％、128％の色度の指標になっています。やはり、外側に位置するピクセルほど色度が高いことを意味します。
 
 　色度（Chroma）の値はナビゲーターにも表示されているL\*a\*b\*の構成要素、a\*、b\*を使って次の計算式から求めたものです：
-<img src="Chroma.png" title="Chroma.png" width="200" alt="Chroma.png" />
+<img src="/images/Chroma.png" title="Chroma.png" width="200" alt="Chroma.png" />
 
 <figure>
-<img src="HCvectorscope_OOG.jpg" title="HCvectorscope_OOG.jpg"
+<img src="/images/HCvectorscope_OOG.jpg" title="HCvectorscope_OOG.jpg"
 width="500" />
 <figcaption>HCvectorscope_OOG.jpg</figcaption>
 </figure>
@@ -343,7 +343,7 @@ icon](panel-to-right.png "Hide right panel icon")非表示アイコンや[キー
 　⟨処理プロファイルセレクター⟩は、処理プロファイルの適用、保存、読み込み、コピー、貼り付けを、部分的或いは全体的に行うかどうかを制御するボタンです。
 
 <figure>
-<img src="Processing-profiles-selector.png"
+<img src="/images/Processing-profiles-selector.png"
 title="Processing-profiles-selector.png" />
 <figcaption>Processing-profiles-selector.png</figcaption>
 </figure>

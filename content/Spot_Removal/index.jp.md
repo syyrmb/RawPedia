@@ -13,7 +13,7 @@ contributors:
 　スポット除去は画像の一部分（例えば、センサーに付着したシミやゴミの跡）を同じ画像の別な部分を使ってマスクを掛ける（隠す）機能です。以下のスクリーンショットが示しているように、画像の中の対象物全体を隠してしまうことも可能です。
 
 <figure>
-<img src="SpotRemoval-Example.jpg"
+<img src="/images/SpotRemoval-Example.jpg"
 title="File:SpotRemoval-Example.jpg" />
 <figcaption><a
 href="File:SpotRemoval-Example.jpg">File:SpotRemoval-Example.jpg</a></figcaption>

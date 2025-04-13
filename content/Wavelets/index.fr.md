@@ -13,7 +13,7 @@ Ondelettes
 </div>
 
 <figure>
-<img src="Daffodil_split.jpg" title="Daffodil_split.jpg" />
+<img src="/images/Daffodil_split.jpg" title="Daffodil_split.jpg" />
 <figcaption>Daffodil_split.jpg</figcaption>
 </figure>
 
@@ -162,7 +162,7 @@ combinés.
 La taille des détails inclus dans chaque niveau est :
 
 <figure>
-<img src="Wavelet_detail_size.jpg" title="Wavelet_detail_size.jpg" />
+<img src="/images/Wavelet_detail_size.jpg" title="Wavelet_detail_size.jpg" />
 <figcaption>Wavelet_detail_size.jpg</figcaption>
 </figure>
 
@@ -516,22 +516,22 @@ cliquez une seconde fois sur l'image***. </span>
 <div>
 
 - <figure>
-  <img src="wavelet_pic.jpg" title="wavelet_pic.jpg" />
+  <img src="/images/wavelet_pic.jpg" title="wavelet_pic.jpg" />
   <figcaption>wavelet_pic.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_config_L2.jpg" title="wavelet_config_L2.jpg" />
+  <img src="/images/wavelet_config_L2.jpg" title="wavelet_config_L2.jpg" />
   <figcaption>wavelet_config_L2.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_config_L4.jpg" title="wavelet_config_L4.jpg" />
+  <img src="/images/wavelet_config_L4.jpg" title="wavelet_config_L4.jpg" />
   <figcaption>wavelet_config_L4.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_config_RI.jpg" title="wavelet_config_RI.jpg" />
+  <img src="/images/wavelet_config_RI.jpg" title="wavelet_config_RI.jpg" />
   <figcaption>wavelet_config_RI.jpg</figcaption>
   </figure>
 
@@ -577,7 +577,7 @@ des niveaux sont analysées et triées avant d'être modifiées et
 progressivement atténuées selon la courbe suivante :
 
 <figure>
-<img src="wavelet_beta.png" title="wavelet_beta.png" />
+<img src="/images/wavelet_beta.png" title="wavelet_beta.png" />
 <figcaption>wavelet_beta.png</figcaption>
 </figure>
 
@@ -654,12 +654,12 @@ niveau (et direction)
     <div>
 
     - <figure>
-      <img src="wavelet_beta+damper.png" title="wavelet_beta+damper.png" />
+      <img src="/images/wavelet_beta+damper.png" title="wavelet_beta+damper.png" />
       <figcaption>wavelet_beta+damper.png</figcaption>
       </figure>
 
     - <figure>
-      <img src="wavelet_beta-damper.png" title="wavelet_beta-damper.png" />
+      <img src="/images/wavelet_beta-damper.png" title="wavelet_beta-damper.png" />
       <figcaption>wavelet_beta-damper.png</figcaption>
       </figure>
 
@@ -713,7 +713,7 @@ personnaliser le résultat. c'est à dire.:
     <div style="overflow: hidden">
 
     <figure>
-    <img src="wavelet_contrast_highlight.jpg" title="gauche" />
+    <img src="/images/wavelet_contrast_highlight.jpg" title="gauche" />
     <figcaption>gauche</figcaption>
     </figure>
 
@@ -756,7 +756,7 @@ personnaliser le résultat. c'est à dire.:
     <div style="overflow: hidden">
 
     <figure>
-    <img src="wavelet_contrast_shadow.jpg"
+    <img src="/images/wavelet_contrast_shadow.jpg"
     title="wavelet_contrast_shadow.jpg" />
     <figcaption>wavelet_contrast_shadow.jpg</figcaption>
     </figure>
@@ -858,25 +858,25 @@ compte s'il existe des écarts par rapport à la valeur initiale.
 <div>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_H3S6.jpg"
+  <img src="/images/wavelet_contrast_15C+_H3S6.jpg"
   title="wavelet_contrast_15C+_H3S6.jpg" />
   <figcaption>wavelet_contrast_15C+_H3S6.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_WC_full.jpg"
+  <img src="/images/wavelet_chrom_WC_full.jpg"
   title="wavelet_chrom_WC_full.jpg" />
   <figcaption>wavelet_chrom_WC_full.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_WC_L1L2full.jpg"
+  <img src="/images/wavelet_chrom_WC_L1L2full.jpg"
   title="wavelet_chrom_WC_L1L2full.jpg" />
   <figcaption>wavelet_chrom_WC_L1L2full.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_WC_detail.jpg"
+  <img src="/images/wavelet_chrom_WC_detail.jpg"
   title="wavelet_chrom_WC_detail.jpg" />
   <figcaption>wavelet_chrom_WC_detail.jpg</figcaption>
   </figure>
@@ -920,7 +920,7 @@ les courbes de seuil de contraste ci-dessus.
     <div style="overflow: hidden">
 
     <figure>
-    <img src="wavelet_chrom_pastel.jpg" title="wavelet_chrom_pastel.jpg" />
+    <img src="/images/wavelet_chrom_pastel.jpg" title="wavelet_chrom_pastel.jpg" />
     <figcaption>wavelet_chrom_pastel.jpg</figcaption>
     </figure>
 
@@ -955,25 +955,25 @@ artefacts assez visibles.
 <div>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_H3S6.jpg"
+  <img src="/images/wavelet_contrast_15C+_H3S6.jpg"
   title="wavelet_contrast_15C+_H3S6.jpg" />
   <figcaption>wavelet_contrast_15C+_H3S6.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_WC_L1L2full.jpg"
+  <img src="/images/wavelet_chrom_WC_L1L2full.jpg"
   title="wavelet_chrom_WC_L1L2full.jpg" />
   <figcaption>wavelet_chrom_WC_L1L2full.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_SP_L1L2full_L3_60.jpg"
+  <img src="/images/wavelet_chrom_SP_L1L2full_L3_60.jpg"
   title="wavelet_chrom_SP_L1L2full_L3_60.jpg" />
   <figcaption>wavelet_chrom_SP_L1L2full_L3_60.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_H3S6.jpg"
+  <img src="/images/wavelet_contrast_15C+_H3S6.jpg"
   title="wavelet_contrast_15C+_H3S6.jpg" />
   <figcaption>wavelet_contrast_15C+_H3S6.jpg</figcaption>
   </figure>
@@ -1008,25 +1008,25 @@ gâcheraient la photo.
 <div>
 
 - <figure>
-  <img src="wavelet_chrom_Link_100.jpg"
+  <img src="/images/wavelet_chrom_Link_100.jpg"
   title="wavelet_chrom_Link_100.jpg" />
   <figcaption>wavelet_chrom_Link_100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_Link_50.jpg"
+  <img src="/images/wavelet_chrom_Link_50.jpg"
   title="wavelet_chrom_Link_50.jpg" />
   <figcaption>wavelet_chrom_Link_50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_chrom_Link_50_Str50.jpg"
+  <img src="/images/wavelet_chrom_Link_50_Str50.jpg"
   title="wavelet_chrom_Link_50_Str50.jpg" />
   <figcaption>wavelet_chrom_Link_50_Str50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_contrast_15C+_H3S6_Str50.jpg"
+  <img src="/images/wavelet_contrast_15C+_H3S6_Str50.jpg"
   title="wavelet_contrast_15C+_H3S6_Str50.jpg" />
   <figcaption>wavelet_contrast_15C+_H3S6_Str50.jpg</figcaption>
   </figure>
@@ -1073,12 +1073,12 @@ cet outil.
 <div>
 
 - <figure>
-  <img src="wavelets_gamut_nosky.jpg" title="wavelets_gamut_nosky.jpg" />
+  <img src="/images/wavelets_gamut_nosky.jpg" title="wavelets_gamut_nosky.jpg" />
   <figcaption>wavelets_gamut_nosky.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_gamut_sky.jpg" title="wavelets_gamut_sky.jpg" />
+  <img src="/images/wavelets_gamut_sky.jpg" title="wavelets_gamut_sky.jpg" />
   <figcaption>wavelets_gamut_sky.jpg</figcaption>
   </figure>
 
@@ -1096,7 +1096,7 @@ Pour les exemples qui suivent, la gamme suivante (plutôt restrictive) de
 tons rouges a été choisie :
 
 <figure>
-<img src="wavelets_gamut_skin_hue.jpg"
+<img src="/images/wavelets_gamut_skin_hue.jpg"
 title="wavelets_gamut_skin_hue.jpg" />
 <figcaption>wavelets_gamut_skin_hue.jpg</figcaption>
 </figure>
@@ -1124,19 +1124,19 @@ reste des couleurs.
 - ![](wavelets_gamut_skin.jpg "wavelets_gamut_skin.jpg")\]
 
 - <figure>
-  <img src="wavelets_gamut_skin_target0.jpg"
+  <img src="/images/wavelets_gamut_skin_target0.jpg"
   title="wavelets_gamut_skin_target0.jpg" />
   <figcaption>wavelets_gamut_skin_target0.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_gamut_skin_target-100.jpg"
+  <img src="/images/wavelets_gamut_skin_target-100.jpg"
   title="wavelets_gamut_skin_target-100.jpg" />
   <figcaption>wavelets_gamut_skin_target-100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_gamut_skin_target+100.jpg"
+  <img src="/images/wavelets_gamut_skin_target+100.jpg"
   title="wavelets_gamut_skin_target+100.jpg" />
   <figcaption>wavelets_gamut_skin_target+100.jpg</figcaption>
   </figure>
@@ -1159,13 +1159,13 @@ modifiées avec la courbe.
 <div>
 
 - <figure>
-  <img src="wavelets_gamut_curve_target100.jpg"
+  <img src="/images/wavelets_gamut_curve_target100.jpg"
   title="wavelets_gamut_curve_target100.jpg" />
   <figcaption>wavelets_gamut_curve_target100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_gamut_curve.jpg" title="wavelets_gamut_curve.jpg" />
+  <img src="/images/wavelets_gamut_curve.jpg" title="wavelets_gamut_curve.jpg" />
   <figcaption>wavelets_gamut_curve.jpg</figcaption>
   </figure>
 
@@ -1216,7 +1216,7 @@ particulier lors de la sélection de tons jaunes. Perceptuellement, ils
 sont équivalents à un graphique tel que celui ci-dessous :
 
 <figure>
-<img src="Cielab_8x8.jpg" title="Cielab_8x8.jpg" />
+<img src="/images/Cielab_8x8.jpg" title="Cielab_8x8.jpg" />
 <figcaption>Cielab_8x8.jpg</figcaption>
 </figure>
 
@@ -1339,19 +1339,19 @@ exclue :
 <div>
 
 - <figure>
-  <img src="wavelet_chrom_Link_50_Str50.jpg"
+  <img src="/images/wavelet_chrom_Link_50_Str50.jpg"
   title="wavelet_chrom_Link_50_Str50.jpg" />
   <figcaption>wavelet_chrom_Link_50_Str50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBYfull.jpg"
+  <img src="/images/wavelet_toning_opBYfull.jpg"
   title="wavelet_toning_opBYfull.jpg" />
   <figcaption>wavelet_toning_opBYfull.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBYfull_curve.jpg"
+  <img src="/images/wavelet_toning_opBYfull_curve.jpg"
   title="wavelet_toning_opBYfull_curve.jpg" />
   <figcaption>wavelet_toning_opBYfull_curve.jpg</figcaption>
   </figure>
@@ -1362,13 +1362,13 @@ exclue :
 - ![](wavelet_toning_opBY.jpg "wavelet_toning_opBY.jpg") \</ li\>
 
 - <figure>
-  <img src="wavelet_toning_opBY_Str50.jpg"
+  <img src="/images/wavelet_toning_opBY_Str50.jpg"
   title="wavelet_toning_opBY_Str50.jpg" />
   <figcaption>wavelet_toning_opBY_Str50.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_toning_opBY_curve.jpg"
+  <img src="/images/wavelet_toning_opBY_curve.jpg"
   title="wavelet_toning_opBY_curve.jpg" />
   <figcaption>wavelet_toning_opBY_curve.jpg</figcaption>
   </figure>
@@ -1518,24 +1518,24 @@ valeur qui vous convient le mieux (des valeurs négatives peuvent
 <div>
 
 - <figure>
-  <img src="wavelet_denoise_orig.jpg" title="wavelet_denoise_orig.jpg" />
+  <img src="/images/wavelet_denoise_orig.jpg" title="wavelet_denoise_orig.jpg" />
   <figcaption>wavelet_denoise_orig.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_L2d00s100.jpg"
+  <img src="/images/wavelet_denoise_L2d00s100.jpg"
   title="wavelet_denoise_L2d00s100.jpg" />
   <figcaption>wavelet_denoise_L2d00s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_L2d30s100.jpg"
+  <img src="/images/wavelet_denoise_L2d30s100.jpg"
   title="wavelet_denoise_L2d30s100.jpg" />
   <figcaption>wavelet_denoise_L2d30s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_L2d30s27.jpg"
+  <img src="/images/wavelet_denoise_L2d30s27.jpg"
   title="wavelet_denoise_L2d30s27.jpg" />
   <figcaption>wavelet_denoise_L2d30s27.jpg</figcaption>
   </figure>
@@ -1544,25 +1544,25 @@ valeur qui vous convient le mieux (des valeurs négatives peuvent
 <div>
 
 - <figure>
-  <img src="wavelet_denoise_L1d00s00.jpg"
+  <img src="/images/wavelet_denoise_L1d00s00.jpg"
   title="wavelet_denoise_L1d00s00.jpg" />
   <figcaption>wavelet_denoise_L1d00s00.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_L1d00s100.jpg"
+  <img src="/images/wavelet_denoise_L1d00s100.jpg"
   title="wavelet_denoise_L1d00s100.jpg" />
   <figcaption>wavelet_denoise_L1d00s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_L1d12s100.jpg"
+  <img src="/images/wavelet_denoise_L1d12s100.jpg"
   title="wavelet_denoise_L1d12s100.jpg" />
   <figcaption>wavelet_denoise_L1d12s100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_L1d12s-17.jpg"
+  <img src="/images/wavelet_denoise_L1d12s-17.jpg"
   title="wavelet_denoise_L1d12s-17.jpg" />
   <figcaption>wavelet_denoise_L1d12s-17.jpg</figcaption>
   </figure>
@@ -1571,24 +1571,24 @@ valeur qui vous convient le mieux (des valeurs négatives peuvent
 <div>
 
 - <figure>
-  <img src="wavelet_denoise_orig.jpg" title="wavelet_denoise_orig.jpg" />
+  <img src="/images/wavelet_denoise_orig.jpg" title="wavelet_denoise_orig.jpg" />
   <figcaption>wavelet_denoise_orig.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_final.jpg"
+  <img src="/images/wavelet_denoise_final.jpg"
   title="wavelet_denoise_final.jpg" />
   <figcaption>wavelet_denoise_final.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_orig100.jpg"
+  <img src="/images/wavelet_denoise_orig100.jpg"
   title="wavelet_denoise_orig100.jpg" />
   <figcaption>wavelet_denoise_orig100.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_denoise_final100.jpg"
+  <img src="/images/wavelet_denoise_final100.jpg"
   title="wavelet_denoise_final100.jpg" />
   <figcaption>wavelet_denoise_final100.jpg</figcaption>
   </figure>
@@ -1741,19 +1741,19 @@ graphique facilite la compréhension :
 <div>
 
 - <figure>
-  <img src="Wavelet_edge_sharpening_D-50.png"
+  <img src="/images/Wavelet_edge_sharpening_D-50.png"
   title="Wavelet_edge_sharpening_D-50.png" />
   <figcaption>Wavelet_edge_sharpening_D-50.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_edge_sharpening_unchanged.png"
+  <img src="/images/Wavelet_edge_sharpening_unchanged.png"
   title="Wavelet_edge_sharpening_unchanged.png" />
   <figcaption>Wavelet_edge_sharpening_unchanged.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Wavelet_edge_sharpening_D100.png"
+  <img src="/images/Wavelet_edge_sharpening_D100.png"
   title="Wavelet_edge_sharpening_D100.png" />
   <figcaption>Wavelet_edge_sharpening_D100.png</figcaption>
   </figure>
@@ -1861,7 +1861,7 @@ paramètres :
 <div class="parrpad">
 
 <figure>
-<img src="wavelet_local_contrast_gauss.jpg"
+<img src="/images/wavelet_local_contrast_gauss.jpg"
 title="wavelet_local_contrast_gauss.jpg" />
 <figcaption>wavelet_local_contrast_gauss.jpg</figcaption>
 </figure>
@@ -1908,19 +1908,19 @@ la courbe sous la ligne horizontale).
 <div>
 
 - <figure>
-  <img src="wavelet_local_contrast_curves_o.jpg"
+  <img src="/images/wavelet_local_contrast_curves_o.jpg"
   title="wavelet_local_contrast_curves_o.jpg" />
   <figcaption>wavelet_local_contrast_curves_o.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_local_contrast_curves_t.jpg"
+  <img src="/images/wavelet_local_contrast_curves_t.jpg"
   title="wavelet_local_contrast_curves_t.jpg" />
   <figcaption>wavelet_local_contrast_curves_t.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_local_contrast_curves_g.jpg"
+  <img src="/images/wavelet_local_contrast_curves_g.jpg"
   title="wavelet_local_contrast_curves_g.jpg" />
   <figcaption>wavelet_local_contrast_curves_g.jpg</figcaption>
   </figure>
@@ -2006,7 +2006,7 @@ certains aspects de l'algorithme de détection des contours :
 - 
 
 <figure>
-<img src="wavelet_edge_sharpness.jpg"
+<img src="/images/wavelet_edge_sharpness.jpg"
 title="wavelet_edge_sharpness.jpg" />
 <figcaption>wavelet_edge_sharpness.jpg</figcaption>
 </figure>
@@ -2112,13 +2112,13 @@ Dans les deux cas vous avez 3 curseurs pour ajuster les changements :
 - ![](wavelet_smc_original.jpg "wavelet_smc_original.jpg")\]
 
 - <figure>
-  <img src="wavelet_sharpm_ML60MC30.jpg"
+  <img src="/images/wavelet_sharpm_ML60MC30.jpg"
   title="wavelet_sharpm_ML60MC30.jpg" />
   <figcaption>wavelet_sharpm_ML60MC30.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelet_clarity_ML60MC30.jpg"
+  <img src="/images/wavelet_clarity_ML60MC30.jpg"
   title="wavelet_clarity_ML60MC30.jpg" />
   <figcaption>wavelet_clarity_ML60MC30.jpg</figcaption>
   </figure>
@@ -2153,17 +2153,17 @@ aucun effet sur le bruit.
 - ![](wavelets_residual_original.jpg "wavelets_residual_original.jpg")\]
 
 - <figure>
-  <img src="wavelets_residual_L5.jpg" title="wavelets_residual_L5.jpg" />
+  <img src="/images/wavelets_residual_L5.jpg" title="wavelets_residual_L5.jpg" />
   <figcaption>wavelets_residual_L5.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_residual_L7.jpg" title="wavelets_residual_L7.jpg" />
+  <img src="/images/wavelets_residual_L7.jpg" title="wavelets_residual_L7.jpg" />
   <figcaption>wavelets_residual_L7.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_residual_L8.jpg" title="wavelets_residual_L8.jpg" />
+  <img src="/images/wavelets_residual_L8.jpg" title="wavelets_residual_L8.jpg" />
   <figcaption>wavelets_residual_L8.jpg</figcaption>
   </figure>
 
@@ -2202,18 +2202,18 @@ davantage les ombres et augmenter la luminosité des hautes lumières :
 <div>
 
 - <figure>
-  <img src="wavelets_residual_original.jpg"
+  <img src="/images/wavelets_residual_original.jpg"
   title="wavelets_residual_original.jpg" />
   <figcaption>wavelets_residual_original.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_residual_SH.jpg" title="wavelets_residual_SH.jpg" />
+  <img src="/images/wavelets_residual_SH.jpg" title="wavelets_residual_SH.jpg" />
   <figcaption>wavelets_residual_SH.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_residual_SH-out.jpg"
+  <img src="/images/wavelets_residual_SH-out.jpg"
   title="wavelets_residual_SH-out.jpg" />
   <figcaption>wavelets_residual_SH-out.jpg</figcaption>
   </figure>
@@ -2245,13 +2245,13 @@ de seuil.
 <div>
 
 - <figure>
-  <img src="wavelets_residual_SHneg_original.jpg"
+  <img src="/images/wavelets_residual_SHneg_original.jpg"
   title="wavelets_residual_SHneg_original.jpg" />
   <figcaption>wavelets_residual_SHneg_original.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_residual_SHneg_old.jpg"
+  <img src="/images/wavelets_residual_SHneg_old.jpg"
   title="wavelets_residual_SHneg_old.jpg" />
   <figcaption>wavelets_residual_SHneg_old.jpg</figcaption>
   </figure>
@@ -2300,13 +2300,13 @@ intéressants :
 <div>
 
 - <figure>
-  <img src="wavelets_residual_contrast-.jpg"
+  <img src="/images/wavelets_residual_contrast-.jpg"
   title="wavelets_residual_contrast-.jpg" />
   <figcaption>wavelets_residual_contrast-.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="wavelets_residual_contrast+.jpg"
+  <img src="/images/wavelets_residual_contrast+.jpg"
   title="wavelets_residual_contrast+.jpg" />
   <figcaption>wavelets_residual_contrast+.jpg</figcaption>
   </figure>

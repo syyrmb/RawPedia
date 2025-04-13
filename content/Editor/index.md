@@ -16,7 +16,7 @@ The Editor
 </div>
 
 <figure>
-<img src="Rt_55_trains.png" title="Rt_55_trains.png" />
+<img src="/images/Rt_55_trains.png" title="Rt_55_trains.png" />
 <figcaption>Rt_55_trains.png</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ screens.
 ### Preview Background Color
 
 <figure>
-<img src="Rt59_preview_background_all.png"
+<img src="/images/Rt59_preview_background_all.png"
 title="Rt59_preview_background_all.png" />
 <figcaption>Rt59_preview_background_all.png</figcaption>
 </figure>
@@ -169,7 +169,7 @@ Available options:
 ### Preview Channel
 
 <figure>
-<img src="Rt59_preview_channel_all.png"
+<img src="/images/Rt59_preview_channel_all.png"
 title="Rt59_preview_channel_all.png" />
 <figcaption>Rt59_preview_channel_all.png</figcaption>
 </figure>
@@ -190,7 +190,7 @@ which channel might be clipping or for aesthetic reasons.
 ### Preview Mask
 
 <figure>
-<img src="Rt59_preview_mask_all.png"
+<img src="/images/Rt59_preview_mask_all.png"
 title="Rt59_preview_mask_all.png" />
 <figcaption>Rt59_preview_mask_all.png</figcaption>
 </figure>
@@ -206,7 +206,7 @@ Available options:
 - Clipped highlight indication.
 
 <figure>
-<img src="Preview_6_focus_2.jpg"
+<img src="/images/Preview_6_focus_2.jpg"
 title="Focus mask indicating the focusing plane" />
 <figcaption>Focus mask indicating the focusing plane</figcaption>
 </figure>
@@ -293,18 +293,18 @@ icon](panel-to-left.png "Hide left panel icon") hide icon, or its
 ### Main Histogram
 
 <figure>
-<img src="Rt57_histogram_wide_labeled.png"
+<img src="/images/Rt57_histogram_wide_labeled.png"
 title="Rt57_histogram_wide_labeled.png" />
 <figcaption>Rt57_histogram_wide_labeled.png</figcaption>
 </figure>
 
 <figure>
-<img src="RT57_histogram_ani.gif" title="RT57_histogram_ani.gif" />
+<img src="/images/RT57_histogram_ani.gif" title="RT57_histogram_ani.gif" />
 <figcaption>RT57_histogram_ani.gif</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_histogram_rgbindicator.png"
+<img src="/images/Rt_histogram_rgbindicator.png"
 title="Rt_histogram_rgbindicator.png" />
 <figcaption>Rt_histogram_rgbindicator.png</figcaption>
 </figure>
@@ -513,7 +513,7 @@ In greater detail:
   bottom of the waveform)
 
 <figure>
-<img src="Waveform.jpg" title="Waveform.jpg" />
+<img src="/images/Waveform.jpg" title="Waveform.jpg" />
 <figcaption>Waveform.jpg</figcaption>
 </figure>
 
@@ -619,7 +619,7 @@ how many pixels are outside (or almost outside) the color space of the
 *output profile*.
 
 <figure>
-<img src="HSvectorscope.jpg" title="HSvectorscope.jpg" width="500" />
+<img src="/images/HSvectorscope.jpg" title="HSvectorscope.jpg" width="500" />
 <figcaption>HSvectorscope.jpg</figcaption>
 </figure>
 
@@ -634,7 +634,7 @@ color” (saturation), represented as white areas of a more or less
 intense color, depending on the number of pixels in that area.
 
 <figure>
-<img src="HSvectorscope_OOG.jpg" title="HSvectorscope_OOG.jpg"
+<img src="/images/HSvectorscope_OOG.jpg" title="HSvectorscope_OOG.jpg"
 width="500" />
 <figcaption>HSvectorscope_OOG.jpg</figcaption>
 </figure>
@@ -649,13 +649,13 @@ located, the more saturated it is.
 The chroma values are calculated with the values a\* and b\* from the
 L\*a\*b\* coordinates that you can see in the *Navigator* panel using
 the formula:
-<img src="Chroma.png" title="Chroma.png" width="200" alt="Chroma.png" />
+<img src="/images/Chroma.png" title="Chroma.png" width="200" alt="Chroma.png" />
 
 In this example you see the more saturated colors reaching approximately
 the value 85. Specifically, they are the red and yellow tones.
 
 <figure>
-<img src="HCvectorscope_OOG.jpg" title="HCvectorscope_OOG.jpg"
+<img src="/images/HCvectorscope_OOG.jpg" title="HCvectorscope_OOG.jpg"
 width="500" />
 <figcaption>HCvectorscope_OOG.jpg</figcaption>
 </figure>
@@ -753,7 +753,7 @@ The Processing Profiles panel allows you to apply, save, load, copy and
 paste processing profiles, partially or in full.
 
 <figure>
-<img src="Processing-profiles-selector.png"
+<img src="/images/Processing-profiles-selector.png"
 title="Processing-profiles-selector.png" />
 <figcaption>Processing-profiles-selector.png</figcaption>
 </figure>

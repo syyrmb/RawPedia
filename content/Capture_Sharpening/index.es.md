@@ -92,12 +92,12 @@ estimar automáticamente el radio necesario para contrarrestar el efecto.
 <div>
 
 - <figure>
-  <img src="Clematis_original.png" title="Clematis_original.png" />
+  <img src="/images/Clematis_original.png" title="Clematis_original.png" />
   <figcaption>Clematis_original.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Clematis_good_radius.png" title="Clematis_good_radius.png" />
+  <img src="/images/Clematis_good_radius.png" title="Clematis_good_radius.png" />
   <figcaption>Clematis_good_radius.png</figcaption>
   </figure>
 
@@ -111,12 +111,12 @@ que sólo estás intentando deshacer el desenfoque en cámara.
 <div>
 
 - <figure>
-  <img src="Clematis_good_radius.png" title="Clematis_good_radius.png" />
+  <img src="/images/Clematis_good_radius.png" title="Clematis_good_radius.png" />
   <figcaption>Clematis_good_radius.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Clematis_bad_radius.png" title="Clematis_bad_radius.png" />
+  <img src="/images/Clematis_bad_radius.png" title="Clematis_bad_radius.png" />
   <figcaption>Clematis_bad_radius.png</figcaption>
   </figure>
 
@@ -142,12 +142,12 @@ pestaña *Raw*):
 <div>
 
 - <figure>
-  <img src="Renon_hotpixels.png" title="Renon_hotpixels.png" />
+  <img src="/images/Renon_hotpixels.png" title="Renon_hotpixels.png" />
   <figcaption>Renon_hotpixels.png</figcaption>
   </figure>
 
 - <figure>
-  <img src="Renon_nohotpixels.png" title="Renon_nohotpixels.png" />
+  <img src="/images/Renon_nohotpixels.png" title="Renon_nohotpixels.png" />
   <figcaption>Renon_nohotpixels.png</figcaption>
   </figure>
 

@@ -180,12 +180,12 @@ haut à droite de l'image d'aperçu. Les zones surexposées apparaîtront en
 noir.
 
 <figure>
-<img src="Hra_0_fr.png" title="Hra_0_fr.png" />
+<img src="/images/Hra_0_fr.png" title="Hra_0_fr.png" />
 <figcaption>Hra_0_fr.png</figcaption>
 </figure>
 
 <figure>
-<img src="Hra_0_chi_fr.png" title="Hra_0_chi_fr.png" />
+<img src="/images/Hra_0_chi_fr.png" title="Hra_0_chi_fr.png" />
 <figcaption>Hra_0_chi_fr.png</figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ lumières* autour ou en-dessous de 100, surveiller l'histogramme et
 l'aperçu pour trouver la valeur optimale.
 
 <figure>
-<img src="Hra_125_ba.jpg" title="Hra_125_ba.jpg" />
+<img src="/images/Hra_125_ba.jpg" title="Hra_125_ba.jpg" />
 <figcaption>Hra_125_ba.jpg</figcaption>
 </figure>
 
@@ -232,7 +232,7 @@ exemple, les zones noires de l'indicateur ont disparu avec une
 Compression hautes lumières de 125.
 
 <figure>
-<img src="Hra_toomuch_histogram.png"
+<img src="/images/Hra_toomuch_histogram.png"
 title="Hra_toomuch_histogram.png" />
 <figcaption>Hra_toomuch_histogram.png</figcaption>
 </figure>
@@ -377,7 +377,7 @@ désactive les autres courbes
 ### Personnalisé
 
 <figure>
-<img src="Rt55_curve_standard.png" title="Rt55_curve_standard.png" />
+<img src="/images/Rt55_curve_standard.png" title="Rt55_curve_standard.png" />
 <figcaption>Rt55_curve_standard.png</figcaption>
 </figure>
 
@@ -423,7 +423,7 @@ utilisant le curseur *Contraste*.
 ### Flexible
 
 <figure>
-<img src="Rt55_curve_flexible.png" title="Rt55_curve_flexible.png" />
+<img src="/images/Rt55_curve_flexible.png" title="Rt55_curve_flexible.png" />
 <figcaption>Rt55_curve_flexible.png</figcaption>
 </figure>
 
@@ -436,7 +436,7 @@ partie de la courbe avec peu d’impacts sur les autres parties
 ### Paramétrique
 
 <figure>
-<img src="Rt55_curve_parametric.png"
+<img src="/images/Rt55_curve_parametric.png"
 title="Rt55_curve_parametric.png" />
 <figcaption>Rt55_curve_parametric.png</figcaption>
 </figure>
@@ -481,7 +481,7 @@ Linéaire (zéro).
 ### Cage de contrôle
 
 <figure>
-<img src="Rt55_curve_control_cage.png"
+<img src="/images/Rt55_curve_control_cage.png"
 title="Rt55_curve_control_cage.png" />
 <figcaption>Rt55_curve_control_cage.png</figcaption>
 </figure>

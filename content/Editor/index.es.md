@@ -18,7 +18,7 @@ El lugar donde revelarás tus fotos
 ## Introducción
 
 <figure>
-<img src="Rt_setm_editor.png" title="Rt_setm_editor.png" />
+<img src="/images/Rt_setm_editor.png" title="Rt_setm_editor.png" />
 <figcaption>Rt_setm_editor.png</figcaption>
 </figure>
 
@@ -210,7 +210,7 @@ que se realizan todos los cambios que ves en la *Vista Previa*. Para ver
 la imagen exactamente como será al exportarla, debes hacer clic en el
 botón de [*editar la imagen actual en un programa
 externo*](#editar_la_imagen_actual_en_un_programa_externo.md)
-(<img src="palette-brush.png" title="palette-brush.png" height="26"
+(<img src="/images/palette-brush.png" title="palette-brush.png" height="26"
 alt="palette-brush.png" />).
 
 Además, la actualización del estado de la foto no se realiza
@@ -241,7 +241,7 @@ colores que tu monitor no pueda mostrar los tendrás que imaginar.
 En general la *Vista Previa* sólo muestra los colores con el perfil de
 la pantalla, salvo cuando utilizas el botón de [*prueba de
 impresión*](Color_Management/es#Los_cinco_tipos_de_perfiles_de_color_y_la_interfaz_del_programa.md)
-(<img src="gamut-softproof.png" title="gamut-softproof.png" width="26"
+(<img src="/images/gamut-softproof.png" title="gamut-softproof.png" width="26"
 alt="gamut-softproof.png" />), con el que se tienen en cuenta los
 perfiles de salida y de impresión, según la combinación de botones y
 ajustes.
@@ -262,7 +262,7 @@ Son muchas las tareas que puedes realizar con estos botones y por grupos
 de izquierda a derecha y de arriba a abajo:
 
 - <figure>
-  <img src="toolbar1.jpg" title="File:toolbar1.jpg" />
+  <img src="/images/toolbar1.jpg" title="File:toolbar1.jpg" />
   <figcaption><a
   href="File:toolbar1.jpg">File:toolbar1.jpg</a></figcaption>
   </figure>
@@ -270,9 +270,9 @@ de izquierda a derecha y de arriba a abajo:
   
 En ambas barras de herramientas encontrarás repartidos 3 botones que
 ocultan
-(<img src="panel-to-left.png" title="panel-to-left.png" height="26"
+(<img src="/images/panel-to-left.png" title="panel-to-left.png" height="26"
 alt="panel-to-left.png" /> botón activado, fondo negro) o despliegan
-(<img src="panel-to-right.png" title="panel-to-right.png" height="26"
+(<img src="/images/panel-to-right.png" title="panel-to-right.png" height="26"
 alt="panel-to-right.png" /> botón desactivado, fondo gris) el panel
 izquierdo, el panel derecho y la tira de contactos. Puedes usarlos o
 utilizar sus respectivos atajos de teclado para gestionar el espacio que
@@ -281,23 +281,23 @@ queda para la [*Vista Previa*](#La_Vista_Previa.md).
 <!-- -->
 
   
-Con la mano (<img src="hand-open.png" title="hand-open.png" height="26"
+Con la mano (<img src="/images/hand-open.png" title="hand-open.png" height="26"
 alt="hand-open.png" />) podrás desplazar la imagen de forma que puedas
 ver la zona que quieras procesar, o los detalles que más interés tengan.
 También puedes ver información básica sobre la imagen
-(<img src="info.png" title="info.png" height="26" alt="info.png" />),
+(<img src="/images/info.png" title="info.png" height="26" alt="info.png" />),
 cambiar el balance de blancos
-(<img src="color-picker.png" title="color-picker.png" height="26"
+(<img src="/images/color-picker.png" title="color-picker.png" height="26"
 alt="color-picker.png" />), recortar la imagen
-(<img src="crop.png" title="crop.png" height="26" alt="crop.png" />),
+(<img src="/images/crop.png" title="crop.png" height="26" alt="crop.png" />),
 enderezarla
-(<img src="rotate-straighten.png" title="rotate-straighten.png"
+(<img src="/images/rotate-straighten.png" title="rotate-straighten.png"
 height="26" alt="rotate-straighten.png" />), hacer correcciones de
-perspectiva (<img src="perspective-vertical-bottom.png"
+perspectiva (<img src="/images/perspective-vertical-bottom.png"
 title="perspective-vertical-bottom.png" height="26"
 alt="perspective-vertical-bottom.png" />) y todo esto tras haber
 activado la *Vista Previa dual*
-(<img src="beforeafter.png" title="beforeafter.png" height="26"
+(<img src="/images/beforeafter.png" title="beforeafter.png" height="26"
 alt="beforeafter.png" />), que mostrará la imagen antes (a la izquierda)
 y después (a la derecha) de los últimos cambios en las herramientas, de
 forma que puedas comparar la diferencia entre antes y después de las
@@ -307,7 +307,7 @@ modificaciones.
 
   
 Además, puedes añadir tantas *muestras de color*
-(<img src="color-picker-bars.png" title="color-picker-bars.png"
+(<img src="/images/color-picker-bars.png" title="color-picker-bars.png"
 height="26" alt="color-picker-bars.png" />) en la imagen como necesites,
 para poder ver los valores medios de cada grupo de píxeles muestreados:
 en el círculo del icono de la muestra se verá el color promediado de los
@@ -318,31 +318,31 @@ píxeles seleccionados.
   
 Las siguientes operaciones con las *muestras de color* se realizarán
 siempre con el botón
-<img src="color-picker-bars.png" title="color-picker-bars.png"
+<img src="/images/color-picker-bars.png" title="color-picker-bars.png"
 height="26" alt="color-picker-bars.png" /> seleccionado:
 
 :\* para añadir una muestra, haz clic izquierdo
-(<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+(<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" />) en la zona que te interese
 
 :\* para mover la muestra a otra posición haz
-<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" />, mantén pulsado y arrastra el ratón
 
 :\* para borrar una muestra, sitúa el cursor sobre la muestra y haz clic
-derecho (<img src="mouse_right-click.png" title="mouse_right-click.png"
+derecho (<img src="/images/mouse_right-click.png" title="mouse_right-click.png"
 height="26" alt="mouse_right-click.png" />)
 
 :\* para borrar todas las muestras, sitúa el cursor sobre una muestra y
-haz  + <img src="mouse_right-click.png" title="mouse_right-click.png"
+haz  + <img src="/images/mouse_right-click.png" title="mouse_right-click.png"
 height="26" alt="mouse_right-click.png" />
 
 :\* para agrandar el área de muestreo, sitúa el cursor sobre la muestra
-y haz  + <img src="mouse_right-click.png" title="mouse_right-click.png"
+y haz  + <img src="/images/mouse_right-click.png" title="mouse_right-click.png"
 height="26" alt="mouse_right-click.png" /> (hasta 5 veces)
 
 :\* para disminuir el área de muestreo,  +
-<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" /> (hasta 5 veces).
 
 :\* los valores numéricos de las muestras podrán tener las mismas
@@ -351,24 +351,24 @@ se actualizarán con cada cambio en los ajustes de las herramientas.
 Además cada muestra podrá mostrar su propia unidad, independientemente
 del resto de muestras: para seleccionar la que quieres que se muestre,
 haz  +
-<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" /> hasta que veas los valores RGB, HSV o
 L\*a\*b\*
 
 :\* si necesitas ver la imagen libre de puntos de muestreo, haz
-<img src="mouse_right-click.png" title="mouse_right-click.png"
+<img src="/images/mouse_right-click.png" title="mouse_right-click.png"
 height="26" alt="mouse_right-click.png" /> sobre el icono de *muestras
 de color*
-(<img src="color-picker-bars.png" title="color-picker-bars.png"
+(<img src="/images/color-picker-bars.png" title="color-picker-bars.png"
 height="26" alt="color-picker-bars.png" />) y este cambiará a modo
 «inactivo»
-(<img src="color-picker-hide.png" title="color-picker-hide.png"
+(<img src="/images/color-picker-hide.png" title="color-picker-hide.png"
 height="26" alt="color-picker-hide.png" />), ocultando (pero no
 borrando) las muestras de la imagen. Haciendo clic derecho de nuevo
 sobre el icono, las muestras volverán a aparecer donde las situaste
 
 - <figure>
-  <img src="toolbar2a.jpg" title="File:toolbar2a.jpg" />
+  <img src="/images/toolbar2a.jpg" title="File:toolbar2a.jpg" />
   <figcaption><a
   href="File:toolbar2a.jpg">File:toolbar2a.jpg</a></figcaption>
   </figure>
@@ -376,7 +376,7 @@ sobre el icono, las muestras volverán a aparecer donde las situaste
   
 Los primeros cuatro botones te permiten seleccionar el color de fondo de
 la *Vista Previa*
-(<img src="toolbar_background.jpg" title="toolbar_background.jpg"
+(<img src="/images/toolbar_background.jpg" title="toolbar_background.jpg"
 height="26" alt="toolbar_background.jpg" />) para facilitar la
 previsualización durante la edición y para ver mejor el recorte de la
 imagen.
@@ -421,7 +421,7 @@ de la interfaz</p></td>
   
 Una vez que estés contento con el color de fondo también puedes
 modificar la *Vista Previa* en sí misma
-(<img src="toolbar_channels.jpg" title="toolbar_channels.jpg" height="26"
+(<img src="/images/toolbar_channels.jpg" title="toolbar_channels.jpg" height="26"
 alt="toolbar_channels.jpg" />), <span id="canales_de_color">mostrando
 únicamente un canal de color</span> de la imagen, o el canal de
 luminosidad. Sólo se puede mostrar un canal a la vez y la *Vista Previa*
@@ -470,19 +470,19 @@ negro. Si es *255* se representará como blanco. Y un gris intermedio
 para valores intermedios.
 
 <figure>
-<img src="preview-ch_normal.jpg" title="preview-ch_normal.jpg" />
+<img src="/images/preview-ch_normal.jpg" title="preview-ch_normal.jpg" />
 <figcaption>preview-ch_normal.jpg</figcaption>
 </figure>
 
 <div>
 
 - <figure>
-  <img src="preview-r_red.jpg" title="preview-r_red.jpg" />
+  <img src="/images/preview-r_red.jpg" title="preview-r_red.jpg" />
   <figcaption>preview-r_red.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="preview-g_green.jpg" title="preview-g_green.jpg" />
+  <img src="/images/preview-g_green.jpg" title="preview-g_green.jpg" />
   <figcaption>preview-g_green.jpg</figcaption>
   </figure>
 
@@ -490,12 +490,12 @@ para valores intermedios.
 <div>
 
 - <figure>
-  <img src="preview-b_blue.jpg" title="preview-b_blue.jpg" />
+  <img src="/images/preview-b_blue.jpg" title="preview-b_blue.jpg" />
   <figcaption>preview-b_blue.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="preview-v_luminosity.jpg" title="preview-v_luminosity.jpg" />
+  <img src="/images/preview-v_luminosity.jpg" title="preview-v_luminosity.jpg" />
   <figcaption>preview-v_luminosity.jpg</figcaption>
   </figure>
 
@@ -508,14 +508,14 @@ usando el mezclador de canales, al evaluar el ruido de la imagen, para
 ver qué canal puede estar recortado, etc.
 
 - <figure>
-  <img src="toolbar2b.jpg" title="File:toolbar2b.jpg" />
+  <img src="/images/toolbar2b.jpg" title="File:toolbar2b.jpg" />
   <figcaption><a
   href="File:toolbar2b.jpg">File:toolbar2b.jpg</a></figcaption>
   </figure>
 
   
 La *Máscara de foco*
-(<img src="focusscreen-off.png" title="focusscreen-off.png" height="26"
+(<img src="/images/focusscreen-off.png" title="focusscreen-off.png" height="26"
 alt="focusscreen-off.png" />) se ha diseñado para destacar zonas de la
 imagen con buen contraste, ya que habitualmente las zonas enfocadas son
 las que presentan detalles con mayor contraste.
@@ -523,7 +523,7 @@ las que presentan detalles con mayor contraste.
 <div class="tlist">
 
 <figure>
-<img src="preview-focus.jpg" title="preview-focus.jpg" />
+<img src="/images/preview-focus.jpg" title="preview-focus.jpg" />
 <figcaption>preview-focus.jpg</figcaption>
 </figure>
 
@@ -543,7 +543,7 @@ máscara de foco activada.
 <div class="tlist tleft-list">
 
 <figure>
-<img src="Preview_6_focus.jpg" title="Preview_6_focus.jpg" />
+<img src="/images/Preview_6_focus.jpg" title="Preview_6_focus.jpg" />
 <figcaption>Preview_6_focus.jpg</figcaption>
 </figure>
 
@@ -571,7 +571,7 @@ borrarlas usando la máscara de foco como criterio**.
   
 De manera análoga al anterior botón, la *Máscara de contraste para el
 aumento de nitidez*
-(<img src="contrastmask-off.png" title="contrastmask-off.png" height="26"
+(<img src="/images/contrastmask-off.png" title="contrastmask-off.png" height="26"
 alt="contrastmask-off.png" />) resalta las zonas que serán modificadas
 por las herramientas de mejora de la nitidez (*[Nitidez en la
 captura](Capture_Sharpening/es#Nitidez_en_la_captura.md),
@@ -581,7 +581,7 @@ captura](Capture_Sharpening/es#Nitidez_en_la_captura.md),
 <div class="tlist tleft-list">
 
 <figure>
-<img src="preview-sharpmask.jpg" title="preview-sharpmask.jpg" />
+<img src="/images/preview-sharpmask.jpg" title="preview-sharpmask.jpg" />
 <figcaption>preview-sharpmask.jpg</figcaption>
 </figure>
 
@@ -621,16 +621,16 @@ ampliación.
 
   
 En cuanto a los indicadores de *recorte en sombras*
-(<img src="warning-shadows.png" title="warning-shadows.png" height="26"
+(<img src="/images/warning-shadows.png" title="warning-shadows.png" height="26"
 alt="warning-shadows.png" />) y *luces*
-(<img src="warning-highlights.png" title="warning-highlights.png"
+(<img src="/images/warning-highlights.png" title="warning-highlights.png"
 height="26" alt="warning-highlights.png" />), te permiten ver resaltadas
 las zonas de la imagen que son demasiado oscuras o demasiado brillantes.
 
 <div class="tlist">
 
 <figure>
-<img src="preview-clipped.jpg" title="preview-clipped.jpg" />
+<img src="/images/preview-clipped.jpg" title="preview-clipped.jpg" />
 <figcaption>preview-clipped.jpg</figcaption>
 </figure>
 
@@ -658,7 +658,7 @@ de luminosidad* además del indicador de luces recortadas.
   
 Ambos recortes se calculan usando el perfil ICC establecido con el botón
 del *Rango de color*
-(<img src="gamut-hist.png" title="gamut-hist.png" height="26"
+(<img src="/images/gamut-hist.png" title="gamut-hist.png" height="26"
 alt="gamut-hist.png" />): si está desactivado el cálculo empleará el
 [*Perfil de
 Salida*](Color_Management/es#Los_cinco_tipos_de_perfiles_de_color_y_la_interfaz_del_programa.md).
@@ -666,7 +666,7 @@ En cambio si el botón está activado empleará el [*Perfil de
 Trabajo*](Color_Management/es#Los_cinco_tipos_de_perfiles_de_color_y_la_interfaz_del_programa.md).
 
 - <figure>
-  <img src="toolbar2c.jpg" title="File:toolbar2c.jpg" />
+  <img src="/images/toolbar2c.jpg" title="File:toolbar2c.jpg" />
   <figcaption><a
   href="File:toolbar2c.jpg">File:toolbar2c.jpg</a></figcaption>
   </figure>
@@ -678,7 +678,7 @@ que los otros sirven para conseguir una *imagen espejo* del original
 (espejo horizontal o espejo vertical).
 
 - <figure>
-  <img src="toolbar3a.jpg" title="File:toolbar3a.jpg" />
+  <img src="/images/toolbar3a.jpg" title="File:toolbar3a.jpg" />
   <figcaption><a
   href="File:toolbar3a.jpg">File:toolbar3a.jpg</a></figcaption>
   </figure>
@@ -706,13 +706,13 @@ cambios tengan efecto.
   
 De forma similar puedes cambiar el [*Tipo de conversión del rango de
 colores*](Color_Management/es#Los_Tipos_de_Conversión_del_rango_de_colores.md)
-(<img src="intent-relative.png" title="intent-relative.png" height="26"
+(<img src="/images/intent-relative.png" title="intent-relative.png" height="26"
 alt="intent-relative.png" />), en caso de que lo necesites.
 
 <div class="tlist">
 
 <figure>
-<img src="preview-gamut.jpg" title="preview-gamut.jpg" />
+<img src="/images/preview-gamut.jpg" title="preview-gamut.jpg" />
 <figcaption>preview-gamut.jpg</figcaption>
 </figure>
 
@@ -722,9 +722,9 @@ alt="intent-relative.png" />), en caso de que lo necesites.
 Tal como se explica en la [*Gestión del
 color*](Color_Management/es#Los_cinco_tipos_de_perfiles_de_color_y_la_interfaz_del_programa.md),
 con los botones de *Prueba de impresión*
-(<img src="gamut-softproof.png" title="gamut-softproof.png" height="26"
+(<img src="/images/gamut-softproof.png" title="gamut-softproof.png" height="26"
 alt="gamut-softproof.png" />) y *Colores fuera de rango*
-(<img src="gamut-warning.png" title="gamut-warning.png" height="26"
+(<img src="/images/gamut-warning.png" title="gamut-warning.png" height="26"
 alt="gamut-warning.png" />) puedes comprobar cómo se verán los colores
 de la imagen interna (con la que trabaja RawTherapee) y cuáles no se
 podrán mostrar en la imagen exportada, en la imagen de la *Vista Previa*
@@ -744,7 +744,7 @@ codificadas en sRGB ([puedes consultar esta discusión en inglés sobre el
 tema](https://discuss.pixls.us/t/wide-gamut-preview-in-os-x/2481)).
 
 - <figure>
-  <img src="toolbar3b.jpg" title="File:toolbar3b.jpg" />
+  <img src="/images/toolbar3b.jpg" title="File:toolbar3b.jpg" />
   <figcaption><a
   href="File:toolbar3b.jpg">File:toolbar3b.jpg</a></figcaption>
   </figure>
@@ -766,7 +766,7 @@ que tengas activos (por ejemplo, dejar de ver sólo los archivos tif y
 volver a ver todas las imágenes de la carpeta).
 
 - <figure>
-  <img src="toolbar3c.jpg" title="File:toolbar3c.jpg" />
+  <img src="/images/toolbar3c.jpg" title="File:toolbar3c.jpg" />
   <figcaption><a
   href="File:toolbar3c.jpg">File:toolbar3c.jpg</a></figcaption>
   </figure>
@@ -786,7 +786,7 @@ Además mientras tengas el puntero del ratón sobre la *Vista Previa*,
 podrás acercar o alejar la imagen con la rueda central del ratón.
 
 - <figure>
-  <img src="toolbar3d.jpg" title="File:toolbar3d.jpg" />
+  <img src="/images/toolbar3d.jpg" title="File:toolbar3d.jpg" />
   <figcaption><a
   href="File:toolbar3d.jpg">File:toolbar3d.jpg</a></figcaption>
   </figure>
@@ -794,7 +794,7 @@ podrás acercar o alejar la imagen con la rueda central del ratón.
 <div class="tlist">
 
 <figure>
-<img src="preview-detail-window.jpg"
+<img src="/images/preview-detail-window.jpg"
 title="Las ventanas de detalle pueden tener el tamaño deseado y situarlas donde más te convenga. Además cada una puede tener su propio nivel de ampliación, independiente de las otras ventantas de detalle y de la Vista Previa. Cuando selecciones una, el área mostrada estará enmarcada por un recuadro rojo en la Vista Previa. En este ejemplo la ventana seleccionada es la inferior."
 width="400" />
 <figcaption>Las ventanas de detalle pueden tener el tamaño deseado y
@@ -810,7 +810,7 @@ seleccionada es la inferior.</figcaption>
 
   
 El botón de *Ocultar todos los paneles*
-(<img src="crossed-arrows-out.png" title="crossed-arrows-out.png"
+(<img src="/images/crossed-arrows-out.png" title="crossed-arrows-out.png"
 height="26" alt="crossed-arrows-out.png" />) te permite maximizar el
 área de *Vista Previa*
 
@@ -818,7 +818,7 @@ height="26" alt="crossed-arrows-out.png" />) te permite maximizar el
 
   
 Por su lado la <span id="ventana_de_detalle">*Ventana de detalle*</span>
-(<img src="window-add.png" title="window-add.png" height="26"
+(<img src="/images/window-add.png" title="window-add.png" height="26"
 alt="window-add.png" />) abre una pequeña previsualización con un tamaño
 y factor de ampliación ajustables. Esto te permite trabajar en la foto a
 una escala que quepa en la previsualización, al tiempo que examinas
@@ -844,7 +844,7 @@ actualizan rápidamente.
 
   
 Cuando selecciones una ventana de detalle
-(<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+(<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" /> en la ventana de detalle) podrás cambiar
 la escala con los pequeños botones de la ventana o con la rueda del
 ratón. Al mismo tiempo, una vez seleccionada el programa indicará qué
@@ -860,14 +860,14 @@ pinches sobre el recuadro rojo de la *Vista Previa* y lo arrastres hasta
 su destino.
 
 - <figure>
-  <img src="toolbar4.jpg" title="File:toolbar4.jpg" />
+  <img src="/images/toolbar4.jpg" title="File:toolbar4.jpg" />
   <figcaption><a
   href="File:toolbar4.jpg">File:toolbar4.jpg</a></figcaption>
   </figure>
 
   
 El icono del disquete
-(<img src="save.png" title="save.png" height="26" alt="save.png" />) te
+(<img src="/images/save.png" title="save.png" height="26" alt="save.png" />) te
 mostrará la ventana de [guardar inmediatemente la
 imagen](Saving_Images/es#Guardar_inmediatamente.md), para
 exportar la foto tal como está procesada en ese momento.
@@ -877,7 +877,7 @@ exportar la foto tal como está procesada en ese momento.
   
 Por el contrario si prefieres exportarla más tarde enviándola a la *Cola
 de procesamiento*, el botón de *enviar a la cola*
-(<img src="gears.png" title="gears.png" height="26" alt="gears.png" />)
+(<img src="/images/gears.png" title="gears.png" height="26" alt="gears.png" />)
 será el que necesites.
 
 <!-- -->
@@ -886,7 +886,7 @@ será el que necesites.
 Por fin, <span id="editar_la_imagen_actual_en_un_programa_externo">si
 quieres editar la imagen tal como está procesada en un programa
 externo<span>, usa el botón de la paleta de pintor
-(<img src="palette-brush.png" title="palette-brush.png" height="26"
+(<img src="/images/palette-brush.png" title="palette-brush.png" height="26"
 alt="palette-brush.png" />). El editor que se abrirá dependerá de lo que
 hayas especificado en ***Preferencias \> General \> Editor Externo***.
 
@@ -980,7 +980,7 @@ General \> Apariencia \> Color de la máscara de recorte**''.
 Debajo de esta miniatura verás los valores RGB, HSV y L\*a\*b\* del
 píxel sobre el que se encuentra el puntero del ratón. Los números
 mostrados dependen del estado del botón de *Rango de color*
-(<img src="gamut-hist.png" title="gamut-hist.png" height="26"
+(<img src="/images/gamut-hist.png" title="gamut-hist.png" height="26"
 alt="gamut-hist.png" />), pudiendo ser los del *Perfil de trabajo* o los
 del *Perfil de salida*, es decir los valores de los píxeles con los que
 trabaja internamente RawTherapee, o los valores de los píxeles en la
@@ -1266,7 +1266,7 @@ esté:
 <div>
 
 - <figure>
-  <img src="hist-church.jpg"
+  <img src="/images/hist-church.jpg"
   title="Habitualmente leerás que un histograma «debe» tener los tonos (los valores de los píxeles) repartidos a todo lo ancho del gráfico. Dependiendo de tus gustos muchas veces esto será lo normal, pero aún así el objetivo no es conseguir un histograma con una determinada forma."
   height="683" />
   <figcaption>Habitualmente leerás que un histograma «debe» tener los
@@ -1278,7 +1278,7 @@ esté:
   </figure>
 
 - <figure>
-  <img src="hist-seagull.jpg"
+  <img src="/images/hist-seagull.jpg"
   title="Una fotografía puede estar bien expuesta, bien procesada y aún así no tener un gráfico «a todo lo ancho». En esta foto la mayor parte de los píxeles están oscuros, en gran parte para conseguir que la blancura de la gaviota resalte sobre el fondo. Si este es el resultado que buscabas, el histograma simplemente será un reflejo de la imagen y no indicará nada «malo»."
   height="683" />
   <figcaption>Una fotografía puede estar bien expuesta, bien procesada y
@@ -1294,7 +1294,7 @@ esté:
 <div>
 
 - <figure>
-  <img src="hist-coast.jpg"
+  <img src="/images/hist-coast.jpg"
   title="Lo que siempre hace un histograma es analizar los píxeles y ofrecer información acerca de la imagen. En este caso el canal azul está desplazado más a la derecha que el resto, lo que indica que la foto tiene una dominante azul. Si ese es tu deseo, la foto está perfecta. Si no es así, tienes la oportunidad de corregirlo."
   height="683" />
   <figcaption>Lo que siempre hace un histograma es analizar los píxeles y
@@ -1306,7 +1306,7 @@ esté:
   </figure>
 
 - <figure>
-  <img src="hist-bee.jpg" title="hist-bee.jpg" />
+  <img src="/images/hist-bee.jpg" title="hist-bee.jpg" />
   <figcaption>hist-bee.jpg</figcaption>
   </figure>
 
@@ -1314,12 +1314,12 @@ esté:
 <div>
 
 - <figure>
-  <img src="hist-flower.jpg" title="hist-flower.jpg" />
+  <img src="/images/hist-flower.jpg" title="hist-flower.jpg" />
   <figcaption>hist-flower.jpg</figcaption>
   </figure>
 
 - <figure>
-  <img src="hist-swallow.jpg" title="hist-swallow.jpg" />
+  <img src="/images/hist-swallow.jpg" title="hist-swallow.jpg" />
   <figcaption>hist-swallow.jpg</figcaption>
   </figure>
 
@@ -1342,7 +1342,7 @@ del píxel del sensor de la cámara sobre el que se encuentra el cursor
 del ratón.
 
 <figure>
-<img src="raw-hist-lin-log.jpg"
+<img src="/images/raw-hist-lin-log.jpg"
 title="Los datos del sensor son lineales, pero si en el histograma usas el modo lineal, el gráfico se acumula en la zona izquierda. Esto es normal, aunque para ver qué a captado la cámara, no es demasiado útil.  El modo lineal-logarítmico (en el centro) ya facilita más el estudio del histograma, pero aún es difícil adivinar qué pasa en las sombras.  El modo log-log es el que permite observar mejor las zonas oscuras, a costa de perder un poco el detalle de las luces." />
 <figcaption>Los datos del sensor son lineales, pero si en el histograma
 usas el <em>modo lineal</em>, el gráfico se acumula en la zona
@@ -1474,7 +1474,7 @@ marco y puerta.
 #### AFO por Canales («parade»)
 
 <figure>
-<img src="parade.jpg" title="parade.jpg" />
+<img src="/images/parade.jpg" title="parade.jpg" />
 <figcaption>parade.jpg</figcaption>
 </figure>
 
@@ -1539,7 +1539,7 @@ salida*.
 <div>
 
 - <figure>
-  <img src="HSvectorscope.jpg"
+  <img src="/images/HSvectorscope.jpg"
   title="En este vectorscopio verás que hay 3 ejes que señalan los colores rojo, amarillo, verde, cian, azul y magenta.  En el análisis de la imagen se muestran los píxeles saturados sobre el círculo más grande, entre los colores amarillo y rojo (arriba a la derecha).  El resto de píxeles están repartidos y con «cantidades de color» (saturación) diferentes, representados como zonas blancas de un color más o menos vivo, dependiendo de la cantidad de píxeles en esa zona."
   height="712" />
   <figcaption>En este vectorscopio verás que hay 3 ejes que señalan los
@@ -1568,10 +1568,10 @@ que este gráfico es más intuitivo para valorar la saturación.
 Los valores de croma se calculan en base a los valores *a\** y *b\** de
 las coordenadas L\*a\*b\* que puedes ver en el panel del *Navegador*,
 mediante la fórmula:
-<img src="chroma.png" title="chroma.png" height="36" alt="chroma.png" />
+<img src="/images/chroma.png" title="chroma.png" height="36" alt="chroma.png" />
 
 <figure>
-<img src="HCvectorscope_OOG.jpg"
+<img src="/images/HCvectorscope_OOG.jpg"
 title="En este ejemplo ves los colores más saturados llegando aproximadamente al valor 85. En concreto son los tonos rojos y amarillos.  Sin embargo ten en cuenta que la forma tridimensional de los espacios de color no es uniforme (no son «esferas» o «cubos») y por esto para estimar correctamente los colores recortados debes combinar más de un método de análisis.  Además puedes ver una línea diagonal en la parte superior derecha: esta línea indica los colores de piel del humano caucásico medio. En un retrato, situando el puntero del ratón sobre un tono medio de piel, el gráfico debería marcar el píxel alrededor de esta línea. En caso contrario, hay una dominante de color sobre el tono de la piel que te interesaría eliminar."
 width="900" />
 <figcaption>En este ejemplo ves los colores más saturados llegando
@@ -1618,13 +1618,13 @@ Editor de pestaña única*](#Modos_de_pestaña_del_Editor.md)
 Editor***).
 
 <figure>
-<img src="Rt_filmstrip_21_toolbar-visible.jpeg"
+<img src="/images/Rt_filmstrip_21_toolbar-visible.jpeg"
 title="Rt_filmstrip_21_toolbar-visible.jpeg" />
 <figcaption>Rt_filmstrip_21_toolbar-visible.jpeg</figcaption>
 </figure>
 
 <figure>
-<img src="Rt_filmstrip_21_toolbar-hidden.jpeg"
+<img src="/images/Rt_filmstrip_21_toolbar-hidden.jpeg"
 title="Rt_filmstrip_21_toolbar-hidden.jpeg" />
 <figcaption>Rt_filmstrip_21_toolbar-hidden.jpeg</figcaption>
 </figure>
@@ -1641,7 +1641,7 @@ dónde residen estos *perfiles de procesamiento* en tu sistema.
 **¡Pon atención al botón *Modo de procesamiento de perfiles*!**:
 
 - Modo ***Rellenar***
-  <img src="Profile-filled.png" title="Profile-filled.png" height="26"
+  <img src="/images/Profile-filled.png" title="Profile-filled.png" height="26"
   alt="Profile-filled.png" />
 
   
@@ -1659,7 +1659,7 @@ habías realizado algún tipo de procesado a la imagen con esas
 herramientas, simplemente se sustituirán.
 
 - Modo ***Preservar***
-  <img src="Profile-partial.png" title="Profile-partial.png" height="26"
+  <img src="/images/Profile-partial.png" title="Profile-partial.png" height="26"
   alt="Profile-partial.png" />
 
   
@@ -1689,7 +1689,7 @@ información de todas las herramientas y sus valores.
 
 Si quieres trabajar con *perfiles parciales*, deberás usar los botones
 con la tecla (es decir,  +
-<img src="mouse_left-click.png" title="mouse_left-click.png" height="26"
+<img src="/images/mouse_left-click.png" title="mouse_left-click.png" height="26"
 alt="mouse_left-click.png" />). Así, en todos los casos verás un diálogo
 **donde poder elegir qué herramientas se incluirán en el perfil** a la
 hora de guardarlo, cargarlo y aplicarlo a la imagen, copiarlo en el

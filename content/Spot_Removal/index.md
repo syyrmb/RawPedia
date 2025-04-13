@@ -16,7 +16,7 @@ even use it to remove entire objects from an image, like in the example
 below.
 
 <figure>
-<img src="SpotRemoval-Example.jpg"
+<img src="/images/SpotRemoval-Example.jpg"
 title="File:SpotRemoval-Example.jpg" />
 <figcaption><a
 href="File:SpotRemoval-Example.jpg">File:SpotRemoval-Example.jpg</a></figcaption>
