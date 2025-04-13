@@ -10,7 +10,7 @@ Champ Uniforme
 
 </div>
 
-[thumb](image:Flatfield_landscape.jpg.md) La [correction Champ
+[thumb](image:flatfield_landscape.jpg) La [correction Champ
 Uniforme](https://en.wikipedia.org/wiki/Flat-field_correction) est
 utilisée pour compenser les non-uniformités caractéristiques de
 l'ensemble appareil photo plus objectif. Un exemple bien connu de ce
@@ -47,7 +47,7 @@ Pour raison de prise en considération des performances, les images en
 vignettes ne prennent pas en compte les corrections du Champ Uniforme.
 Aujourd'hui, seul [l'aperçu
 principal](The_Image_Editor_Tab/fr#Le_panneau_Aperçu.md) dans
-l'onglet [Editeur](The_Image_Editor_Tab/fr#Le_panneau_Aperçu.md)
+l'onglet [Editeur](the_image_editor_tab/fr#le_panneau_aperçu)
 et l'image de sortie peuvent être corrigées par Champ Uniforme.
 
 La précision de la correction du Champ Uniforme dépend largement de
@@ -57,7 +57,7 @@ objectif/appareil photo, ou la même chose avec en plus le retrait des
 points de poussière. La création des images Champ Uniforme pour les deux
 usages est décrite dans la prochaine section.
 
-[thumb](image:Flatfield_remove_itself.jpg.md) Pour illustrer la
+[thumb](image:flatfield_remove_itself.jpg) Pour illustrer la
 correction Champ Uniforme, une image champ uniforme a été appliquée à
 elle-même. On constate une asymétrie importante dans l'image "avant",
 celle du haut, autant pour la luminosité que pour la dominante verte. La
@@ -241,7 +241,7 @@ anciennes disparaissent.
 
 ## Spécificité des algorithmes et résumé concis
 
-[thumb](image:Rt_ff_dust1.jpg.md) L'image raw Champ uniforme
+[thumb](image:rt_ff_dust1.jpg) L'image raw Champ uniforme
 sélectionnée par l'utilisateur ou automatiquement ne nécessite pas
 d'avoir la même balance des blancs que l'image à laquelle elle est
 appliquée. Le Champ uniforme est rendu flou selon n'importe lequel des
@@ -265,7 +265,7 @@ tel qu'une répétition de lignes verticales.
 
 ## Organisation des Champs uniformes
 
-[thumb](image:Flatfield_flatfields.jpg.md) de RawTherapee..\]\]
+[thumb](image:flatfield_flatfields.jpg) de RawTherapee..\]\]
 La non uniformité des champs capturés dépend des paramètres suivants :
 
 - Appareil photo (ensemble appareil et capteur si utilisation d'un [dos
@@ -295,7 +295,7 @@ uniforme).
 
 ## Options du menu contextuel Champ Uniforme du Navigateur de fichiers
 
-[thumb](image:Flatfield_moveto_fr.png.md).\]\] Vous pouvez
+[thumb](image:flatfield_moveto_fr.png).\]\] Vous pouvez
 appliquer et gérer les images Champ Uniforme depuis l'onglet [Navigateur
 de fichiers](The_File_Browser_Tab/fr.md), en cliquant droit sur
 une vignette et en sélectionnant l'option "Champ Uniforme". Trois
@@ -308,13 +308,13 @@ sous-options vous seront présentées :
   automatique" sur les images sélectionnées.
 - "Déplacer vers le dossier de Champ Uniforme" déplace l'image
   sélectionnée dans le dossier spécifié dans
-  [Préférences](Preferences/fr.md).
+  [Préférences](preferences/fr).
 
   
 
 ## Sélection automatique
 
-[left](image:Flatfield_autoselection_fr.png.md)
+[left](image:flatfield_autoselection_fr.png)
 
 Les possibilités de la Sélection automatique du Champ uniforme peuvent
 être exploitées simplement en cochant la case "Sélection automatique".

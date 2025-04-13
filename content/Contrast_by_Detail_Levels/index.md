@@ -97,8 +97,8 @@ the detail window; you may want to zoom in to 200% or more to see better
 what this filter does.
 
 For high ISO shots (1600+), try for example clicking on the
-"*Contrast-*" button twice and using [Sharpening](Sharpening.md)
-\> [Unsharp Mask](Sharpening#Unsharp_Mask.md) with an amount of
+"*Contrast-*" button twice and using [Sharpening](sharpening)
+\> [Unsharp Mask](sharpening#unsharp_mask) with an amount of
 80.
 
 ## Threshold

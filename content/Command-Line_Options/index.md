@@ -35,12 +35,12 @@ Usage:
 `rawtherapee `<selected dir>
 
   
-Start [File Browser](The_File_Browser_Tab.md) inside folder.
+Start [File Browser](the_file_browser_tab) inside folder.
 
 `rawtherapee `<file>
 
   
-Start [Image Editor](The_Image_Editor_Tab.md) with file.
+Start [Image Editor](the_image_editor_tab) with file.
 
 <!-- -->
 
@@ -247,7 +247,7 @@ be built on top of the previous one, as explained below.
 
   
 Use the default raw or non-raw PP3 file as set in
-"[Preferences](Main_Page#Preferences.md) \> [Image
+"[Preferences](main_page#preferences) \> [Image
 Processing](Image_Processing_Tab.md) \> [Default Processing
 Profile](Image_Processing_Tab#Default_Processing_Profile.md)"
 

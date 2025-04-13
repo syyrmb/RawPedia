@@ -46,8 +46,8 @@ look 'warmer'.
 </div>
 
 The difference between the *Lightness* slider in the
-*[Exposure](Exposure.md)* section (in RGB space) and the
-*Lightness* slider in the *[Lab](Lab_Adjustments.md)* section is
+*[Exposure](exposure)* section (in RGB space) and the
+*Lightness* slider in the *[Lab](lab_adjustments)* section is
 subtle. A RGB *Lightness* setting of +30 produces an image that is
 overall a bit brighter than when using a Lab *Lightness* setting of +30.
 The colors in Lab *Lightness* are somewhat more saturated. The contrary

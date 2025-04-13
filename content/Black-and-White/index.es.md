@@ -67,12 +67,12 @@ luminancia**'' y***Mezclador de canales**''.
 
 Sin embargo también puedes crear imágenes monocromáticas mediante:
 
-- el deslizador [*Saturación*](Exposure/es#Saturación.md) de la
-  herramienta [*Exposición*](Exposure/es.md), ajustándolo a
+- el deslizador [*Saturación*](exposure/es#saturación) de la
+  herramienta [*Exposición*](exposure/es), ajustándolo a
   *-100*
 - el deslizador
-  [*Cromaticidad*](Lab_Adjustments/es#Cromaticidad.md) de la
-  herramienta [*Ajustes L\*a\*b\**](Lab_Adjustments/es.md),
+  [*Cromaticidad*](lab_adjustments/es#cromaticidad) de la
+  herramienta [*Ajustes L\*a\*b\**](lab_adjustments/es),
   ajustándolo a *-100*
 - activando la herramienta [*Simulación de
   película*](Film_Simulation/es.md) y seleccionando un filtro en
@@ -86,7 +86,7 @@ los *Ajustes L\*a\*b\** se ponen *a cero* para conseguir grises
 perfectos, ya que el procesado *L\*a\*b\** se realiza al final del
 circuito de revelado y podría interferir en los resultados deseados.
 
-Además la herramienta [*Virado de color*](Color_Toning/es.md)
+Además la herramienta [*Virado de color*](color_toning/es)
 tiene una vinculación especial con la herramienta *Blanco y Negro*, como
 se explicará más adelante.
 
@@ -225,7 +225,7 @@ grado de contraste de la imagen.
 Las ***curvas de luminancia*** modifican los niveles de gris de la
 imagen en función de la luminosidad de los píxeles. Se usan de la misma
 manera y dan el mismo resultado final que las descritas en la
-herramienta [*Exposición*](Exposure/es.md), permitiéndote
+herramienta [*Exposición*](exposure/es), permitiéndote
 refinar los resultados y haciéndolos independientes de los ajustes
 hechos en otras partes.
 

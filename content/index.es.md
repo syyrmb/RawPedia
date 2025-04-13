@@ -11,7 +11,7 @@ raw
 
 </div>
 
-[600px](image:08_rt57_mushroom_blades_rawpedia.png.md)
+[600px](image:08_rt57_mushroom_blades_rawpedia.png)
 
 <div class="greetings">
 
@@ -36,49 +36,49 @@ temas tratados.
   <figcaption>braz.png</figcaption>
   </figure>
 
-  [Brasileiro](Main_Page/pt.md)
+  [Brasileiro](main_page/pt)
 
 - <figure>
   <img src="/images/ct.png" title="ct.png" width="90" height="60" />
   <figcaption>ct.png</figcaption>
   </figure>
 
-  [Català](Main_Page/ca.md)
+  [Català](main_page/ca)
 
 - <figure>
   <img src="/images/deu.png" title="deu.png" width="90" height="60" />
   <figcaption>deu.png</figcaption>
   </figure>
 
-  [Deutsch](Main_Page/de.md)
+  [Deutsch](main_page/de)
 
 - <figure>
   <img src="/images/eng.png" title="eng.png" width="90" height="60" />
   <figcaption>eng.png</figcaption>
   </figure>
 
-  [English](Main_Page.md)
+  [English](main_page)
 
 - <figure>
   <img src="/images/frc.png" title="frc.png" width="90" height="60" />
   <figcaption>frc.png</figcaption>
   </figure>
 
-  [Français](Main_Page/fr.md)
+  [Français](main_page/fr)
 
 - <figure>
   <img src="/images/ita.png" title="ita.png" width="90" height="60" />
   <figcaption>ita.png</figcaption>
   </figure>
 
-  [Italiano](Main_Page/it.md)
+  [Italiano](main_page/it)
 
 - <figure>
   <img src="/images/jap.png" title="jap.png" width="90" height="60" />
   <figcaption>jap.png</figcaption>
   </figure>
 
-  [日本語](Main_Page/jp.md)
+  [日本語](main_page/jp)
 
 </div>
 </div>
@@ -93,31 +93,31 @@ temas tratados.
 
 <div class="RP3columns">
 
-- [Por dónde Empezar](Getting_Started/es.md)
-- [Características](Features/es.md)
-- [Descargas](Download/es.md)
-- [El Motor en Coma Flotante](The_Floating_Point_Engine/es.md)
-- [Profundidad de Bits](Bit_Depth/es.md)
-- [RGB y CIE Lab](RGB_and_Lab/es.md)
-- [El Navegador de Archivos](File_Browser/es.md)
-- [La Cola de Procesamiento](Queue/es.md)
-- [El Editor](Editor/es.md)
+- [Por dónde Empezar](getting_started/es)
+- [Características](features/es)
+- [Descargas](download/es)
+- [El Motor en Coma Flotante](the_floating_point_engine/es)
+- [Profundidad de Bits](bit_depth/es)
+- [RGB y CIE Lab](rgb_and_lab/es)
+- [El Navegador de Archivos](file_browser/es)
+- [La Cola de Procesamiento](queue/es)
+- [El Editor](editor/es)
 - [Revelado por lotes y
   Sincronización](Batch_Adjustments_-_Sync/es.md)
-- [Guardando las Imágenes](Saving_Images/es.md)
+- [Guardando las Imágenes](saving_images/es)
 - [Editar la Imagen Actual en un Programa
   Externo](Edit_Current_Image_in_External_Editor/es.md)
 - [Admitiendo Nuevos Formatos
   Raw](Adding_Support_for_New_Raw_Formats/es.md)
-- [Carpetas usadas por RawTherapee](File_Paths/es.md)
-- [Preferencias](Preferences/es.md)
-- [Módulo de conexión (*plug-in*) para Gimp](GIMP_Plugin/es.md)
-- [Generador de Perfiles ICC](ICC_Profile_Creator/es.md)
+- [Carpetas usadas por RawTherapee](file_paths/es)
+- [Preferencias](preferences/es)
+- [Módulo de conexión (*plug-in*) para Gimp](gimp_plugin/es)
+- [Generador de Perfiles ICC](icc_profile_creator/es)
 - [Cómo hacer una Instalación
   Portátil](Making_a_Portable_Installation/es.md)
-- [Opciones de Línea de Comandos](Command-Line_Options/es.md)
-- [Atajos de Teclado](Keyboard_Shortcuts/es.md)
-- [Circuito de revelado](Toolchain_Pipeline/es.md)
+- [Opciones de Línea de Comandos](command-line_options/es)
+- [Atajos de Teclado](keyboard_shortcuts/es)
+- [Circuito de revelado](toolchain_pipeline/es)
 
 </div>
 <hr/>
@@ -139,19 +139,19 @@ temas tratados.
 
 #### Secuencias de Comandos para Perfiles de Procesamiento
 
-- [RTProfileSelector](RTProfileSelector/es.md)
-- [RTbatch](RTbatch/es.md)
+- [RTProfileSelector](rtprofileselector/es)
+- [RTbatch](rtbatch/es)
 
 </div>
 <div class="keeptogether">
 
 #### Perfiles de Procesamiento Incluídos
 
-- [Neutral](Neutral/es.md)
-- [Curva con Ajuste Automático](Auto-Matched_Curve/es.md)
-- [Curva de Película Convencional](Standard_Film_Curve/es.md)
-- [Pop](Pop/es.md)
-- [Colores no recortados](Unclipped/es.md)
+- [Neutral](neutral/es)
+- [Curva con Ajuste Automático](auto-matched_curve/es)
+- [Curva de Película Convencional](standard_film_curve/es)
+- [Pop](pop/es)
+- [Colores no recortados](unclipped/es)
 
 </div>
 </div>
@@ -163,7 +163,7 @@ temas tratados.
 
 - [Comentarios Generales sobre algunas
   Herramientas](General_Comments_About_Some_Toolbox_Widgets/es.md)
-- [Pestaña de Favoritos](Favorites_Tab/es.md)
+- [Pestaña de Favoritos](favorites_tab/es)
 
 </div>
 <div class="RP3columns">
@@ -171,97 +171,97 @@ temas tratados.
 
 #### Pestaña de la Exposición
 
-- [Exposición](Exposure/es.md)
-- [Sombras y Altas Luces](Shadows/Highlights/es.md)
-- [Mapeo Tonal](Tone_Mapping/es.md)
+- [Exposición](exposure/es)
+- [Sombras y Altas Luces](shadows/highlights/es)
+- [Mapeo Tonal](tone_mapping/es)
 - [Compresión del Rango
   Dinámico](Dynamic_Range_Compression/es.md)
-- [Filtro de Viñeteado](Vignetting_Filter/es.md)
-- [Filtro Graduado](Graduated_Filter/es.md)
-- [Ajustes L\*a\*b\*](Lab_Adjustments/es.md)
+- [Filtro de Viñeteado](vignetting_filter/es)
+- [Filtro Graduado](graduated_filter/es)
+- [Ajustes L\*a\*b\*](lab_adjustments/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña de los Detalles
 
-- [Nitidez](Sharpening/es.md)
-- [Contraste Local](Local_Contrast/es.md)
-- [Bordes y Microcontraste](Edges_and_Microcontrast/es.md)
-- [Reducción de ruido impulsivo](Impulse_Noise_Reduction/es.md)
-- [Reducción de Ruido](Noise_Reduction/es.md)
-- [Eliminación de Bordes Púrpura](Defringe/es.md)
+- [Nitidez](sharpening/es)
+- [Contraste Local](local_contrast/es)
+- [Bordes y Microcontraste](edges_and_microcontrast/es)
+- [Reducción de ruido impulsivo](impulse_noise_reduction/es)
+- [Reducción de Ruido](noise_reduction/es)
+- [Eliminación de Bordes Púrpura](defringe/es)
 - [Contraste por Niveles de
   Detalle](Contrast_by_Detail_Levels/es.md)
-- [Eliminación de Neblina](Haze_Removal/es.md)
+- [Eliminación de Neblina](haze_removal/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña del Color
 
-- [Balance de Blancos](White_Balance/es.md)
-- [Vivacidad](Vibrance/es.md)
-- [Mezclador de Canales](Channel_Mixer/es.md)
-- [Blanco y Negro](Black-and-White/es.md)
-- [Ecualizador HSV](HSV_Equalizer/es.md)
-- [Simulación de Película](Film_Simulation/es.md)
-- [Luz Suave](Soft_Light/es.md)
-- [Curvas RGB](RGB_Curves/es.md)
-- [Virado de Color](Color_Toning/es.md)
-- [Gestión del Color](Color_Management/es.md)
-- [Gestión del Color - adenda](Color_Management_addon/es.md)
+- [Balance de Blancos](white_balance/es)
+- [Vivacidad](vibrance/es)
+- [Mezclador de Canales](channel_mixer/es)
+- [Blanco y Negro](black-and-white/es)
+- [Ecualizador HSV](hsv_equalizer/es)
+- [Simulación de Película](film_simulation/es)
+- [Luz Suave](soft_light/es)
+- [Curvas RGB](rgb_curves/es)
+- [Virado de Color](color_toning/es)
+- [Gestión del Color](color_management/es)
+- [Gestión del Color - adenda](color_management_addon/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña de las Herramientas Avanzadas
 
-- [Retinex](Retinex/es.md)
-- [Modelo CIE de Apariencia del Color 2002](CIECAM02/es.md)
-- [Niveles de Ondícula (Wavelets)](Wavelets/es.md)
+- [Retinex](retinex/es)
+- [Modelo CIE de Apariencia del Color 2002](ciecam02/es)
+- [Niveles de Ondícula (Wavelets)](wavelets/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña de Ajustes Locales
 
-- [Ajustes Locales](Local_Adjustments/es.md)
+- [Ajustes Locales](local_adjustments/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña de las Transformaciones
 
-- [Recortar](Crop/es.md)
-- [Cambiar Tamaño](Resize/es.md)
-- [Objetivos y Geometría](Lens/Geometry/es.md)
+- [Recortar](crop/es)
+- [Cambiar Tamaño](resize/es)
+- [Objetivos y Geometría](lens/geometry/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña del Procesado Raw
 
-- [Sensores](Sensor_with_Bayer/X-Trans_Matrix/es.md)
-- [Desentramado](Demosaicing/es.md)
-- [Nivel de Negros en el Archivo Raw](Raw_Black_Points/es.md)
-- [Procesado previo](Preprocessing/es.md)
+- [Sensores](sensor_with_bayer/x-trans_matrix/es)
+- [Desentramado](demosaicing/es)
+- [Nivel de Negros en el Archivo Raw](raw_black_points/es)
+- [Procesado previo](preprocessing/es)
 - [Corrección de Aberraciones
   Cromáticas](Chromatic_Aberration/es.md)
-- [Nivel de Blancos en el Archivo Raw](Raw_White_Points/es.md)
-- [Imagen de Negro Base](Dark-Frame/es.md)
-- [Imagen de Planeidad de Campo](Flat-Field/es.md)
-- [Inversión de Negativos](Film_Negative/es.md)
-- [Nitidez en captura](Capture_Sharpening/es.md)
+- [Nivel de Blancos en el Archivo Raw](raw_white_points/es)
+- [Imagen de Negro Base](dark-frame/es)
+- [Imagen de Planeidad de Campo](flat-field/es)
+- [Inversión de Negativos](film_negative/es)
+- [Nitidez en captura](capture_sharpening/es)
 
 </div>
 <div class="keeptogether">
 
 #### Pestaña de los Metadatos
 
-- [Modo De Copia de Metadatos](Metadata_Copy_Mode/es.md)
-- [Pestaña de Datos EXIF](Exif_Tab/es.md)
-- [Pestaña de Datos IPTC](IPTC_Tab/es.md)
+- [Modo De Copia de Metadatos](metadata_copy_mode/es)
+- [Pestaña de Datos EXIF](exif_tab/es)
+- [Pestaña de Datos IPTC](iptc_tab/es)
 
 </div>
 </div>
@@ -271,8 +271,8 @@ temas tratados.
 
 <div class="RP1columns">
 
-- [Foro](Forum/es.md)
-- [Chat IRC](IRC/es.md)
+- [Foro](forum/es)
+- [Chat IRC](irc/es)
 
 </div>
 
@@ -280,9 +280,9 @@ temas tratados.
 
 <div class="RP1columns">
 
-- En [Linux](Linux/es.md)
-- En [Windows](Windows/es.md)
-- En [macOS](macOS/es.md)
+- En [Linux](linux/es)
+- En [Windows](windows/es)
+- En [macOS](macos/es)
 
 </div>
 
@@ -294,7 +294,7 @@ temas tratados.
   Fallos](How_to_write_useful_bug_reports/es.md)
 - [Cómo Corregir los Problemas al Iniciar el
   Programa](How_to_fix_crashes_on_startup/es.md)
-- [Wayland](Wayland/es.md)
+- [Wayland](wayland/es)
 
 </div>
 
@@ -302,8 +302,8 @@ temas tratados.
 
 <div class="RP1columns">
 
-- [Traducir RawTherapee](Translating_RawTherapee/es.md)
-- [Traducir RawPedia](Translating_RawPedia/es.md)
+- [Traducir RawTherapee](translating_rawtherapee/es)
+- [Traducir RawPedia](translating_rawpedia/es)
 
 </div>
 </div>
@@ -327,7 +327,7 @@ temas tratados.
   ICC](How_to_extract_and_examine_ICC_profiles/es.md)
 - [Cómo Conseguir Perfiles ICM de
   Nikon](How_to_get_Nikon_ICM_profiles/es.md)
-- [«Marcas de Agua»](Watermarking/es.md)
+- [«Marcas de Agua»](watermarking/es)
 - [Compresión y Formatos de
   Archivo](Image_file_formats_and_compression/es.md)
 

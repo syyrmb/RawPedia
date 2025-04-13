@@ -17,7 +17,7 @@ The default processing profile for non-raw files like JPEG or TIFF is
 best set to "Neutral". The "Neutral" profile just loads the photo as it
 is, without applying anything like [Auto
 Levels](Exposure#Auto_Levels.md) or
-[Sharpening](Sharpening.md).
+[Sharpening](sharpening).
 
 ## Custom Processing Profile Builder
 
@@ -32,7 +32,7 @@ correction parameters or noise reduction based on image properties. It
 is called just once on the first edit of the picture, or called manually
 from the context menu when right-clicking on a thumbnail in the [File
 Browser](The_File_Browser_Tab.md) or
-[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)
+[Filmstrip](the_image_editor_tab#the_filmstrip)
 
 <b>Note:</b> You are responsible for using double quotes where necessary
 if you're using paths containing spaces.
@@ -69,7 +69,7 @@ reference images.
 ## Film Simulation
 
 Specify the directory which contains the HaldCLUT film simulation
-presets. See the [Film Simulation](Film_Simulation.md) article
+presets. See the [Film Simulation](film_simulation) article
 for more information.
 
 ## Metadata

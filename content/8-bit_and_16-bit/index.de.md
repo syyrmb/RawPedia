@@ -81,14 +81,14 @@ einzelnen Pixel auf dem Sensor Filter in den 3 Grundfarben nach einem
 bestimmten Muster. Erst mit der Kenntnis dieses Musters kann
 RawTherapee, wie alle Bildentwicklerprogramme, Farbinformationen
 interpretieren. Mit dem sogenannten
-[Demosaicing](Demosaicing/de.md) berechnet RawTherapee aus
+[Demosaicing](demosaicing/de) berechnet RawTherapee aus
 beieinander liegenden Pixeln den 3-kanaligen Farbton für jedes Pixel.
 Dieser Schritt ist eine Interpolation. Das heißt z.B. das die
 Grün-Information an der Stelle, wo ein Pixel im Sensor mit einem
 Rot-Filter versehen war, aus den umliegenden Pixeln mit Grün-Filter
 abgeschätzt wird. Dazu gibt es verschiedene Interpolationsalgorithmen.
 Weiteres dazu findest Du im Artikel
-[Demosaicing](Demosaicing/de.md). Aber somit braucht es Dich
+[Demosaicing](demosaicing/de). Aber somit braucht es Dich
 nicht wundern, dass ein Raw-Bild etwa nur 1/3 so groß ist, wie ein
 daraus entwickeltes (unkomprimiertes) TIFF-Bild mit 16-bitigen
 Farbkanälen. Selbst ein TIFF mit 8-Bit pro Farbkanal muss unkomprimiert
@@ -284,4 +284,4 @@ Berechen tut RawTherapee hingegen mit 3x32Bit-Gleitkomma. - Alles klar
 mit Dir? Und es geht immer noch eine Stufe komplizierter. Aber nicht
 mehr hier.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

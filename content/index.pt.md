@@ -38,7 +38,7 @@ width="90" height="60" />
 
 <div style="background-color: #f6f6f6; border: 1px solid #aaa; padding: 1em; margin-bottom: 1em;">
 
-[right](image:Rawtherapee_rawpedia_header1_h300.jpg.md)
+[right](image:rawtherapee_rawpedia_header1_h300.jpg)
 
 ## RawTherapee
 
@@ -46,30 +46,30 @@ width="90" height="60" />
 
 <div style="column-count:3;-moz-column-count:3;-webkit-column-count:3;">
 
-- [Iniciando](Getting_Starded/pt.md)
-- [Funcionalidades](Features/pt.md)
+- [Iniciando](getting_starded/pt)
+- [Funcionalidades](features/pt)
 - [O Mecanismo do Ponto
   Flutuante](The_Floating_Point_Engine/pt.md)
-- [8 bits e 16 bits](8-bit_and_16-bit/pt.md)
-- [RGB e Lab](RGB_and_Lab/pt.md)
+- [8 bits e 16 bits](8-bit_and_16-bit/pt)
+- [RGB e Lab](rgb_and_lab/pt)
 - [Fazendo uma Instalação
   Portátil](Making_a_Portable_Installation/pt.md)
-- [Guia do Navegador de Arquivos](The_File_Browser_Tab/pt.md)
-- [Guia do Editor de Imagens](The_Image_Editor_Tab/pt.md)
+- [Guia do Navegador de Arquivos](the_file_browser_tab/pt)
+- [Guia do Editor de Imagens](the_image_editor_tab/pt)
 - [Ajustes de Lote -
   Sincronização](Batch_Adjustments_-_Sync/pt.md)
-- [Salvando Imagens](Saving_Images/pt.md)
-- [Fila em Lote](The_Batch_Queue/pt.md)
+- [Salvando Imagens](saving_images/pt)
+- [Fila em Lote](the_batch_queue/pt)
 - [Editar Imagem Atual no Editor
   Externo](Edit_Current_Image_in_External_Editor/pt.md)
-- [Opções de Linha de Comando](Command-Line_Options/pt.md)
-- [Atalhos de Teclado](Keyboard_Shortcuts/pt.md)
+- [Opções de Linha de Comando](command-line_options/pt)
+- [Atalhos de Teclado](keyboard_shortcuts/pt)
 - [Adicionando Suporte para Novos Formatos
   Raw](Adding_Support_for_New_Raw_Formats/pt.md)
-- [Caminhos de Arquivo](File_Paths/pt.md)
-- [Preferências](Preferences/pt.md)
-- [Negativo](Negative/pt.md)
-- [Plugin GIMP](GIMP_Plugin/pt.md)
+- [Caminhos de Arquivo](file_paths/pt)
+- [Preferências](preferences/pt)
+- [Negativo](negative/pt)
+- [Plugin GIMP](gimp_plugin/pt)
 
 </div>
 <hr />
@@ -90,19 +90,19 @@ width="90" height="60" />
 
 #### Scripts de Perfis de Processamento
 
-- [Seletor de Perfil RT](RTProfileSelector/pt.md)
-- [Lote RT](RTbatch/pt.md)
+- [Seletor de Perfil RT](rtprofileselector/pt)
+- [Lote RT](rtbatch/pt)
 
 </div>
 <div style="display: inline-block; width: 100%;">
 
 #### Perfis de Processamento Empacotados
 
-- [Neutro](Neutral/pt.md)
-- [Curva Auto-Combinada](Auto-Matched_Curve/pt.md)
-- [Curva de Filme Padrão](Standard_Film_Curve/pt.md)
-- [Pop](Pop/pt.md)
-- [Faded](Faded/pt.md)
+- [Neutro](neutral/pt)
+- [Curva Auto-Combinada](auto-matched_curve/pt)
+- [Curva de Filme Padrão](standard_film_curve/pt)
+- [Pop](pop/pt)
+- [Faded](faded/pt)
 
 </div>
 </div>
@@ -118,26 +118,26 @@ width="90" height="60" />
 
 #### Guia Exposição
 
-- [Exposição](Exposure/pt.md)
-- [Sombras/Realces](Shadows/Highlights/pt.md)
-- [Mapeamento de Tom](Tone_Mapping/pt.md)
+- [Exposição](exposure/pt)
+- [Sombras/Realces](shadows/highlights/pt)
+- [Mapeamento de Tom](tone_mapping/pt)
 - [Compressão de Amplitude
   Dinâmica](Dynamic_Range_Compression/pt.md)
-- [Filtro de Vinheta](Vignetting_Filter/pt.md)
-- [Filtro Graduado](Graduated_Filter/pt.md)
-- [Ajustes Lab](Lab_Adjustments/pt.md)
+- [Filtro de Vinheta](vignetting_filter/pt)
+- [Filtro Graduado](graduated_filter/pt)
+- [Ajustes Lab](lab_adjustments/pt)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Guia Detalhes
 
-- [Nitidez](Sharpening/pt.md)
-- [Contraste Local](Local_Contrast/pt.md)
-- [Bordas e Microcontraste](Edges_and_Microcontrast/pt.md)
-- [Redução de Ruído por Impulso](Impulse_Noise_Reduction/pt.md)
-- [Redução de Ruído](Noise_Reduction/pt.md)
-- [Defringe](Defringe/pt.md)
+- [Nitidez](sharpening/pt)
+- [Contraste Local](local_contrast/pt)
+- [Bordas e Microcontraste](edges_and_microcontrast/pt)
+- [Redução de Ruído por Impulso](impulse_noise_reduction/pt)
+- [Redução de Ruído](noise_reduction/pt)
+- [Defringe](defringe/pt)
 - [Contraste por Níveis de
   Detalhe](Contrast_by_Detail_Levels/pt.md)
 
@@ -146,35 +146,35 @@ width="90" height="60" />
 
 #### Guia Cor
 
-- [Balanço de Branco](White_Balance/pt.md)
-- [Vibração](Vibrance/pt.md)
-- [Misturador de Canais](Channel_Mixer/pt.md)
-- [Preto e Branco](Black-and-White/pt.md)
-- [Adicionar Preto e Branco](Black-and-White_addon/pt.md)
-- [Equalizador HSV](HSV_Equalizer/pt.md)
-- [Simulação de Filme](Film_Simulation/pt.md)
-- [Curvas RGB](RGB_Curves/pt.md)
-- [Tonificação de Cor](Color_Toning/pt.md)
-- [Gerenciamento de Cor](Color_Management/pt.md)
-- [Adicionar Gerenciamento de Cor](Color_Management_addon/pt.md)
+- [Balanço de Branco](white_balance/pt)
+- [Vibração](vibrance/pt)
+- [Misturador de Canais](channel_mixer/pt)
+- [Preto e Branco](black-and-white/pt)
+- [Adicionar Preto e Branco](black-and-white_addon/pt)
+- [Equalizador HSV](hsv_equalizer/pt)
+- [Simulação de Filme](film_simulation/pt)
+- [Curvas RGB](rgb_curves/pt)
+- [Tonificação de Cor](color_toning/pt)
+- [Gerenciamento de Cor](color_management/pt)
+- [Adicionar Gerenciamento de Cor](color_management_addon/pt)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Guia Avançada
 
-- [Retinex](Retinex/pt.md)
-- [Modelo de Aparência de Cor CIE 2002](CIECAM02/pt.md)
-- [Wavelets](Wavelets/pt.md)
+- [Retinex](retinex/pt)
+- [Modelo de Aparência de Cor CIE 2002](ciecam02/pt)
+- [Wavelets](wavelets/pt)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Guia Transformar
 
-- [Cortar](Crop/pt.md)
-- [Redimensionar](Resize/pt.md)
-- [Lente/Geometria](Lens/Geometry/pt.md)
+- [Cortar](crop/pt)
+- [Redimensionar](resize/pt)
+- [Lente/Geometria](lens/geometry/pt)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
@@ -183,22 +183,22 @@ width="90" height="60" />
 
 - [Sensor com Matriz
   Bayer/X-Trans](Sensor_with_Bayer/X-Trans_Matrix/pt.md)
-- [Demosaicing](Demosaicing/pt.md)
-- [Pontos Pretos Raw](Raw_Black_Points/pt.md)
-- [Pré-processamento](Preprocessing/pt.md)
-- [Aberração Cromática](Chromatic_Aberration/pt.md)
-- [Pontos Brancos Raw](Raw_White_Points/pt.md)
-- [Quadro Escuro](Dark-Frame/pt.md)
-- [Campo Plano](Flat-Field/pt.md)
+- [Demosaicing](demosaicing/pt)
+- [Pontos Pretos Raw](raw_black_points/pt)
+- [Pré-processamento](preprocessing/pt)
+- [Aberração Cromática](chromatic_aberration/pt)
+- [Pontos Brancos Raw](raw_white_points/pt)
+- [Quadro Escuro](dark-frame/pt)
+- [Campo Plano](flat-field/pt)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Guia Metadados
 
-- [Modo de Cópia de Metadados](Metadata_Copy_Mode/pt.md)
-- [Guia Exif](Exif_Tab/pt.md)
-- [Guia IPTC](IPTC_Tab/pt.md)
+- [Modo de Cópia de Metadados](metadata_copy_mode/pt)
+- [Guia Exif](exif_tab/pt)
+- [Guia IPTC](iptc_tab/pt)
 
 </div>
 </div>
@@ -206,15 +206,15 @@ width="90" height="60" />
 
 ### Interagir
 
-- [Fórum](Forum/pt.md)
-- [IRC](IRC/pt.md)
-- [Google+](Google+/pt.md)
+- [Fórum](forum/pt)
+- [IRC](irc/pt)
+- [Google+](google+/pt)
 
 ### Compilando
 
-- No [Linux](Linux/pt.md)
-- No [Windows](Windows/pt.md)
-- No [macOS](macOS/pt.md)
+- No [Linux](linux/pt)
+- No [Windows](windows/pt)
+- No [macOS](macos/pt)
 
 ### Solução de Problemas
 
@@ -222,7 +222,7 @@ width="90" height="60" />
   úteis](How_to_write_useful_bug_reports/pt.md)
 - [Como corrigir falhas na
   inicialização](How_to_fix_crashes_on_startup/pt.md)
-- [Wayland](Wayland/pt.md)
+- [Wayland](wayland/pt)
 
 </div>
 <div style="background-color: #f6f6f6; border: 1px solid #aaa; padding: 1em; margin-bottom: 1em;">
@@ -233,14 +233,14 @@ width="90" height="60" />
   DNG](How_to_convert_raw_formats_to_DNG/pt.md)
 - [Como criar perfis de cores
   DCP](How_to_create_DCP_color_profiles/pt.md)
-- [Como criar perfis LCP](How_to_create_LCP_profiles/pt.md)
+- [Como criar perfis LCP](how_to_create_lcp_profiles/pt)
 - [Como conseguir perfis LCP e
   DCP](How_to_get_LCP_and_DCP_profiles/pt.md)
 - [Como extrair e examinar perfis
   ICC](How_to_extract_and_examine_ICC_profiles/pt.md)
 - [Como conseguir perfis Nikon
   ICM](How_to_get_Nikon_ICM_profiles/pt.md)
-- [Marca d'água](Watermarking/pt.md)
+- [Marca d'água](watermarking/pt)
 - [Formatos de arquivo de imagem e
   compressão](Image_file_formats_and_compression/pt.md)
 

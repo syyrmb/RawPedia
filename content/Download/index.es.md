@@ -83,7 +83,7 @@ El nombre de los archivos tiene esta estructura:
   especificar que esa compilación no funcionará en sistemas operativos
   de 32 bits (RawTherapee ya no se compila en versiones de 32 bits).
 - por último la *extensión* hace referencia a las mismas extensiones
-  [comentadas más arriba](#Compilaciones_de_desarrollo.md).
+  [comentadas más arriba](#compilaciones_de_desarrollo).
 
 Así pues, a modo de ejemplo este nombre de archivo:
 `RawTherapee_dev_5.8-2625-g6f7f41237_20201028_win64.zip` se refiere a la

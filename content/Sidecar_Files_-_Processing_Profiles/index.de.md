@@ -54,7 +54,7 @@ unterschiedlichen Stellen, obwohl sie immer gleich funktionieren:
     
   Wenn du bestimmte Profile öfters wiederverwenden willst, speichere sie
   im *config*-Ordner unter *profiles* (s. Seite
-  [Dateipfade](File_Paths/de#Konfigurations-Ordner.md)). Sobald
+  [Dateipfade](file_paths/de#konfigurations-ordner)). Sobald
   dort Profile abgelegt sind, wird neben *Bearbeitungsprofile \>
   Standardprofile* auch der Eintrag *Meine Profile* angezeigt und man
   kann sie auf die gleiche bequeme Art laden, wie die mitgelieferten
@@ -80,7 +80,7 @@ Standardmäßig werden die Prozessfiles "neben" das Original abgelegt,
 also in den gleichen Ordner. Dabei wird der Dateiname des Originals
 wiederverwendet. Zum Beispiel wird zu "*katze.raw*" ein Prozessfile
 "*katze.raw.pp3*" angelegt. Prozessfiles können aber auch in den
-[zentralen Cache](File_Paths/de#Cache.md) abgelegt werden. Die
+[zentralen Cache](file_paths/de#cache) abgelegt werden. Die
 Umschaltung zwischen beiden Varianten erfolgt unter
 ![<File:Gtk-preferences.png>](Gtk-preferences.png "File:Gtk-preferences.png")
 *Einstellungen \> Bildbearbeitung \> Behandlung der
@@ -128,7 +128,7 @@ zu erwarten, dass man das gleiche Bild inzwischen etwas anders
 entwickeln würde, als einige Jahre zuvor. Beachte auch das Problem, dass
 RawTherapee die Profile im Cache nicht mehr zuordnen kann, wenn sich der
 Verzeichnispfad, in dem die Bilder liegen, auch nur geringfügig geändert
-hat. Auf der Seite zu den [Dateipfaden](File_Paths/de#Cache.md)
+hat. Auf der Seite zu den [Dateipfaden](file_paths/de#cache)
 findest du den Ort, wo sich der Cache befindet.
 
 Wenn eine neue Haupt-Version von RawTherapee veröffentlicht wird kann es

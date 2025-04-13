@@ -32,7 +32,7 @@ Dateiverwaltung im Kontextmenü der Miniaturbilder unter
 *Profiloperationen \> Profil (selektiv) anwenden*.
 
 Lies auch die Anleitung unter
-[Bearbeitungsprofile](The_Image_Editor_Tab/de#Bearbeitungsprofile.md)
+[Bearbeitungsprofile](the_image_editor_tab/de#bearbeitungsprofile)
 des Editors. Insbesondere auch bezüglich Teilprofilen und dem
 Umschaltbutton
 ![<File:Profile-partial.png>](Profile-partial.png "File:Profile-partial.png")
@@ -80,7 +80,7 @@ einfügen lassen.
   einen Namen ein, die Endung hängt RawTherapee automatisch an. Wenn du
   dieses Profil im Aufklappmenü erreichen möchtest, wähle zum Speichern
   den Pfad des *profile*-Ordners innerhalb des *config*-Pfades (s.
-  [Konfigurations-Ordner](File_Paths/de#Konfigurations-Ordner.md))
+  [Konfigurations-Ordner](file_paths/de#konfigurations-ordner))
 - Starte RawTherapee neu und dein neues Prozessfile erscheint im
   Aufklappmenü unter *Meine Profile*.
 
@@ -88,7 +88,7 @@ einfügen lassen.
 
 ## Teil-Bearbeitungsprofile
 
-[frame](image:SelectProfileImportDlg_de_small.png.md)
+[frame](image:selectprofileimportdlg_de_small.png)
 
 Manchmal möchtest du vielleicht nur einen Teil der Einstellwerte
 speichern. Zum Beispiel um zu vermeiden, dass geometrische Parameter,

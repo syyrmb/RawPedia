@@ -13,8 +13,8 @@ Todo-List / State:
 
 Ready for publishing: no
 
-Page prepared for referencing only. --[fherb](User:Fherb.md)
-([talk](User_talk:Fherb.md)) 12:48, 14 March 2017 (MST)
+Page prepared for referencing only. --[fherb](user:fherb)
+([talk](user_talk:fherb)) 12:48, 14 March 2017 (MST)
 
 ------------------------------------------------------------------------
 
@@ -138,7 +138,7 @@ false colors especially in images from cameras without anti-aliasing
 filters.
 
 When working with very noisy, high ISO images in conjunction with the
-[Noise Reduction](Noise_Reduction.md) tool, it is recommended to
+[Noise Reduction](noise_reduction) tool, it is recommended to
 use the **LMMSE** or **IGV** demosaicing methods. They will prevent
 false maze patterns from appearing, and prevent the image from looking
 washed-out due to heavy noise reduction.
@@ -197,7 +197,7 @@ false color suppression, as the latter reduces color resolution.
 
 ### How to Find the Best Demosaicing Method
 
-[thumb](image:demosaicing_city1_example_bad.jpg.md) Zoom in to
+[thumb](image:demosaicing_city1_example_bad.jpg) Zoom in to
 at least 100% (1:1) and try all the demosaicing algorithms, see which
 works best for you. Try them on sharp photos with fine detail and tiny
 patterns, such as the wavy and repetitive fabric of a sweater (watch for

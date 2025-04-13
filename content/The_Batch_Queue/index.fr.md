@@ -12,7 +12,7 @@ La file d'attente
 
 ## Introduction
 
-[Enregistrer les images](Saving_Images/fr.md) à partir de
+[Enregistrer les images](saving_images/fr) à partir de
 RawTherapee peut se faire de plusieurs façons, les deux méthodes les
 plus utilisées sont Enregistrer l'image courante
 ![<File:Save.png>](Save.png "File:Save.png") depuis l'onglet Editeur et

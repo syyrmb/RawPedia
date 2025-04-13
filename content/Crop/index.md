@@ -25,13 +25,13 @@ to anything other than "theme-based" then the cropped-off area will be
 completely hidden from the preview, but if you set it to "theme-based"
 then by default the cropped-off area will be covered by a dark but
 semi-transparent mask. You can define the color and transparency of this
-mask in "[Preferences](Preferences.md) \> General \> [Crop mask
+mask in "[Preferences](preferences) \> General \> [Crop mask
 color/transparency](Preferences#Default_Theme.md)".
 
 Activate crop-placing mode by clicking the "Select Crop" button in the
 tool panel, the ![<File:Crop.png>](Crop.png "File:Crop.png") button in
-the [Editor's](The_Image_Editor_Tab.md) top toolbar, or the
-appropriate [keyboard shortcut](Keyboard_Shortcuts.md), then
+the [Editor's](the_image_editor_tab) top toolbar, or the
+appropriate [keyboard shortcut](keyboard_shortcuts), then
 create the crop by clicking and dragging over the preview with your
 mouse. Use the **Shift** key to move (pan) the crop over the image.
 Resize a crop by placing the mouse on one of the sides or corners. To

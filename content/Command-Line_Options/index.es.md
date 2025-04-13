@@ -119,13 +119,13 @@ especificar algunos parámetros:
 <!-- -->
 
 - **`rawtherapee `<carpeta seleccionada>** : inicia el programa con el
-  [Explorador de archivos](The_File_Browser_Tab/es.md) abierto
+  [Explorador de archivos](the_file_browser_tab/es) abierto
   dentro de la carpeta seleccionada
 
 <!-- -->
 
 - **`rawtherapee `<archivo>** : inicia el programa con el
-  [Editor](The_Image_Editor_Tab/es.md) abierto con el archivo
+  [Editor](the_image_editor_tab/es) abierto con el archivo
   indicado
 
 ### Trabajar con RawTherapee en la línea de órdenes

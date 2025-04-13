@@ -20,7 +20,7 @@ se funzionano esattamente nello stesso modo:
   possono essere usati insieme. Sono quelli che si trovano nell'elenco a
   discesa [Selezione dei profili di
   elaborazione](The_Image_Editor_Tab#Processing_Profile_Selector.md)"
-  nella scheda [Editor di immagini](The_Image_Editor_Tab.md).
+  nella scheda [Editor di immagini](the_image_editor_tab).
 - "I profili personali".
     
   Quando si effettua un profilo di elaborazione che si desidera
@@ -29,7 +29,7 @@ se funzionano esattamente nello stesso modo:
   nell'elenco a discesa Selezione del profilo di elaborazione, nel
   Sezione "I miei profili". Per farli apparire lì devono essere salvati
   nella cartella "profili" della cartella "config" - vedere l'articolo
-  [Percorsi dei file](File_Paths.md).
+  [Percorsi dei file](file_paths).
 - Profili generati automaticamente.
     
   Ogni volta che si modifica un'immagine, le impostazioni degli
@@ -45,7 +45,7 @@ se funzionano esattamente nello stesso modo:
 Per impostazione predefinita, il profilo di elaborazione di un'immagine
 viene memorizzato accanto all'immagine di input (se si apre
 "*kitty.raw*", verrà creato un nuovo file "*kitty.raw.pp3*", ma possono
-anche essere memorizzati in una [cache centrale](File_Paths.md).
+anche essere memorizzati in una [cache centrale](file_paths).
 Puoi scegliere se RawTherapee deve utilizzare la cache, scrivere il
 profilo di elaborazione a fianco dell'immagine o entrambi i metodi,
 dalle ""Preferenze\>Elaborazione immagine"". Ti consigliamo di
@@ -82,7 +82,7 @@ cache quando si installa una nuova versione di RawTherapee, si conserva
 la possibilità di tornare ad una versione precedente di RawTherapee per
 ottenere lo stesso risultato.
 
-L'articolo [Percorsi dei file](File_Paths.md) descrive dove è
+L'articolo [Percorsi dei file](file_paths) descrive dove è
 possibile trovare le cartelle "*cache*" and "*config*" nel sistema.
 
 Quando viene rilasciata una nuova versione di RawTherapee, può succedere
@@ -106,7 +106,7 @@ questo suona piacevole, ci sono buone ragioni quando decidiamo
   abilità e il tuo gusto sono evolute nel tempo. vuoi esattamente gli
   stessi risultati che hai avuto anni fa quando puoi fare meglio adesso?
 - Alcuni utenti non hanno controllato
-  "[Preferenze](Preferences.md)" per un lungo periodo, e il loro
+  "[Preferenze](preferences)" per un lungo periodo, e il loro
   programma è sintonizzato per quello che funzionava con le precedenti
   versioni, non per quello ottimizzato per la versione attuale. Le
   nostre impostazioni predefinite sono buone, li teniamo aggiornati per
@@ -114,10 +114,10 @@ questo suona piacevole, ci sono buone ragioni quando decidiamo
   quindi talvolta è un'ottima
 
 scelta aggiornare RawTherapee che motiverà gli utenti a esaminare anche
-le nuove "[Preferenze](Preferences.md)" .
+le nuove "[Preferenze](preferences)" .
 
 - Alcuni utenti non hanno mai guardato all'interno di
-  "[Preferenze](Preferences.md)" e non conoscono alcune delle
+  "[Preferenze](preferences)" e non conoscono alcune delle
   funzionalità che possono essere sbloccate. Come sopra, le impostazioni
   di default nuove attiveranno queste nuove possibiltà.
 - Alcuni vecchi file di cache e di configurazione possono causare il

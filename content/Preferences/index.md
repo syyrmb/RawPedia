@@ -14,7 +14,7 @@ Preferences
 </div>
 
 You can access the Preferences window by clicking on the Preferences
-button [image:preferences.png](image:preferences.png.md) which
+button [image:preferences.png](image:preferences.png) which
 is either in the bottom-left corner of the RawTherapee window, or the
 top-right one, depending on your [Editor tab mode
 layout](The_Image_Editor_Tab#Editor_Tab_Modes.md).
@@ -49,7 +49,7 @@ monitor or more. The following modes are available:
 
   
 Remember that if you simultaneously open several images each in its own
-[Editor](The_Image_Editor_Tab.md) tab, each tab and instance
+[Editor](the_image_editor_tab) tab, each tab and instance
 will require a significant amount of RAM. Only use multiple Editor tabs
 if you have quite a lot of RAM - exactly how much depends on what
 resolution your images are, which tools you use, how many other programs
@@ -96,7 +96,7 @@ useful to see the Filmstrip while working in the Editor tab, but you can
 hide it if you need the extra vertical screen space. Use this option to
 show or hide it. Note that you can also toggle its visibility from the
 Editor tab by using the "Toggle the visiblity of the Filmstrip's
-toolbar" [keyboard shortcut](Keyboard_Shortcuts.md).
+toolbar" [keyboard shortcut](keyboard_shortcuts).
 
 - Compact Toolbars in File Browser
 
@@ -172,7 +172,7 @@ particular importance to this paragraph are the properties of the area
 which surround the observed region. The way you perceive the colors of a
 photograph viewed on a screen depends in part on the colors of the area
 surrounding the photograph. You can read more about this in the
-[CIECAM02](CIECAM02.md) article. In order to mitigate the errors
+[CIECAM02](ciecam02) article. In order to mitigate the errors
 the user makes while adjusting a photo, RawTherapee ships themes which
 use neutral background colors. While all of the themes are based on
 shades of grey, the theme which is most suited to avoid affecting human
@@ -183,7 +183,7 @@ onward.
 
   
 Choose a custom main font, and a font for the Lockable Color Picker in
-the [Image Editor](The_Image_Editor_Tab.md) tab, marked "3" in
+the [Image Editor](the_image_editor_tab) tab, marked "3" in
 the screenshot.
 
 Some users will find the default font size too small or too large due to
@@ -215,7 +215,7 @@ preview when zoomed-in.</figcaption>
   
 Adjust the color and transparency of the frame (marked "2" in the second
 screenshot) visible in the
-[Navigator](The_Image_Editor_Tab#Navigator.md) panel (marked
+[Navigator](the_image_editor_tab#navigator) panel (marked
 "1") when the main preview is zoomed-in.
 
 <figure>
@@ -271,7 +271,7 @@ using the
 ![<File:Image-editor.png>](Image-editor.png "File:Image-editor.png")
 "[Edit Current Image in External
 Editor](Edit_Current_Image_in_External_Editor.md)" button in the
-Editor tab under the main preview - see the [Saving](Saving.md)
+Editor tab under the main preview - see the [Saving](saving)
 article. It is here in Preferences where you can customize which program
 the processed image is to be sent to when you click the button.
 
@@ -312,10 +312,10 @@ Specify which profile RawTherapee is to use when opening a raw or
 non-raw photo.
 
 - The default processing profile **for raw photos** as of RawTherapee
-  5.4 is "[Auto-Matched Curve](Auto-Matched_Curve.md) - ISO
+  5.4 is "[Auto-Matched Curve](auto-matched_curve) - ISO
   Low".
 - The default processing profile **for non-raw photos** (such as JPEG,
-  TIFF or PNG) is "[Neutral](Neutral.md)". The "Neutral" profile
+  TIFF or PNG) is "[Neutral](neutral)". The "Neutral" profile
   just loads the photo as it is, without applying any changes.
 
 To have processing profiles you have made yourself appear in the list,
@@ -345,7 +345,7 @@ correction parameters or noise reduction based on image properties. It
 is called just once on the first edit of the picture, or called manually
 from the context menu when right-clicking on a thumbnail in the [File
 Browser](The_File_Browser_Tab.md) or
-[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)
+[Filmstrip](the_image_editor_tab#the_filmstrip)
 
 <b>Note:</b> You are responsible for using double quotes where necessary
 if you're using paths containing spaces.
@@ -370,8 +370,8 @@ if you're using paths containing spaces.
 
 ### Directories
 
-Specify the location of your [Dark-Frame](Dark-Frame.md),
-[Flat-Field](Flat-Field.md) and [HaldCLUT Film
+Specify the location of your [Dark-Frame](dark-frame),
+[Flat-Field](flat-field) and [HaldCLUT Film
 Simulation](Film_Simulation.md) folders.
 
 ### Crop Editing
@@ -436,7 +436,7 @@ and how it should be displayed.
 
 Adjust the grouping of the right-click context menu in the [File
 Browser](The_File_Browser_Tab.md) (and
-[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)).
+[Filmstrip](the_image_editor_tab#the_filmstrip)).
 
 ### Parsed Extensions
 
@@ -452,19 +452,19 @@ Some users reported that their Parsed Extensions panel is empty. This
 could happen after updating from an unspecified older version of
 RawTherapee. If your parsed extensions panel is empty, we recommend you
 close RawTherapee, then find and delete the
-"[options](File_Paths#Config.md)" file. The next time you run
+"[options](file_paths#config)" file. The next time you run
 RawTherapee you will be using the latest defaults, and your list of
 parsed extensions will contain all supported formats.
 
 ### Cache Options
 
 To understand this section, first read the
-[Cache](File_Paths#Cache.md) article. The typical user should
+[Cache](file_paths#cache) article. The typical user should
 not need to change these defaults.
 
 The maximum thumbnail height decides how large you can make the
 thumbnails. Each thumbnail is stored in RawTherapee's
-[cache](File_Paths#Cache.md) folder and requires disk space, so
+[cache](file_paths#cache) folder and requires disk space, so
 keep this in mind if you increase the default size.
 
 The maximum number of cache entries decides how many of these cached
@@ -606,7 +606,7 @@ Edit](The_File_Browser_Tab#Batch_Adjustments_-_Sync.md) tab in
 the File Browser.
 
 The tool panel in the Batch Edit tab looks similar to the tool panel
-from the [Image Editor](The_Image_Editor_Tab.md) tab, but it
+from the [Image Editor](the_image_editor_tab) tab, but it
 uses checkboxes to communicate which tool settings are consistent across
 the selected images and which are not. These checkboxes have three
 states:
@@ -628,7 +628,7 @@ be the values of the default processing profile or the values from your
 last edit session of those photos.
 
 If an image is currently being edited in the
-[Editor](The_Image_Editor_Tab.md), the editor's values will be
+[Editor](the_image_editor_tab), the editor's values will be
 reflected in real time in the Batch Edit panel, and vice versa, so take
 care what you're doing.
 
@@ -678,7 +678,7 @@ available RAM and CPU speed.
 ### Preview Demosaicing Method
 
 The "Demosaicing method used for the preview at \<100% zoom" option sets
-which [demosaicing](demosaicing.md) method is used for the main
+which [demosaicing](demosaicing) method is used for the main
 preview in the Editor. By default, the same demosaicing method is used
 as specified in the Demosaicing section of the Raw tab, but if you are
 on a a very slow computer you can save a few hundred milliseconds by
@@ -695,14 +695,14 @@ uncompressed TIFF files.
 ### HaldCLUT Cache
 
 The "Maximum number of cached CLUTs" setting lets you specify how many
-last-used HaldCLUT ([Film Simulation](Film_Simulation.md))
+last-used HaldCLUT ([Film Simulation](film_simulation))
 images are stored in RAM for faster access when switching back and forth
 between them in the Editor.
 
 ### Inspect
 
 Most raw files contain an embedded JPEG preview image. To show that
-image in the [Inspect](File_Browser#Inspect.md) tab it needs to
+image in the [Inspect](file_browser#inspect) tab it needs to
 be extracted, which takes a fraction of a second. The "Maximum number of
 cached images" setting lets you specify how many of the last-viewed
 embedded images are kept in RAM, so that if you view the previous image
@@ -711,7 +711,7 @@ access it from RAM.
 
 The "Image to show" option lets you decide whether to use the embedded
 JPEG image or to render one based on the real raw data using the
-"[Neutral](Neutral.md)" processing profile. Using the embedded
+"[Neutral](neutral)" processing profile. Using the embedded
 image is faster than rendering from the real raw data.
 
 ### Threads
@@ -740,9 +740,9 @@ The "Sounds" tab lets you set an audible notification when a lengthy
 operation ends. It is currently only supported on Windows and Linux.
 
 The "Queue processing done" sound is played after the last
-[Queue](The_Batch_Queue.md) image finishes processing. The
+[Queue](the_batch_queue) image finishes processing. The
 "Editor processing done" sound is played after a lengthy
-in-[editor](The_Image_Editor_Tab.md) operation that took longer
+in-[editor](the_image_editor_tab) operation that took longer
 than the specified number of seconds is complete.
 
 Sounds can be muted either by disabling the "Enabled" checkbox or by

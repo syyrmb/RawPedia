@@ -1020,7 +1020,7 @@ alt="haze-reti1.jpg" />
 #### Comment utiliser le module "Denoise"
 
 Voir dans "Quelques particularités du mode local (par rapport à Lab
-adjustements) [Denoise](Local_Lab_controls/fr#Denoise.md)
+adjustements) [Denoise](local_lab_controls/fr#denoise)
 
 Plusieurs utilisations sont possibles.
 
@@ -5926,7 +5926,7 @@ d'impulsion.
 
 Exemple d'utilisation :
 
-[Log Encoding](Local_Adjustments/fr#Log_encoding.md)
+[Log Encoding](local_adjustments/fr#log_encoding)
 
 [Log Encoding et récupération des hautes
 lumières](Local_Adjustments/fr#Log_Encoding_et_r.C3.A9cup.C3.A9ration_des_hautes_lumi.C3.A8res.md)

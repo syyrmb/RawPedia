@@ -117,7 +117,7 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
 
   LMMSE and IGV  
   These are recommended when working with very noisy, high ISO images,
-  in conjunction with the [Noise Reduction](Noise_Reduction.md)
+  in conjunction with the [Noise Reduction](noise_reduction)
   tool. They will prevent false maze patterns from appearing, and
   prevent the image from looking washed-out due to heavy noise
   reduction. IGV is also quite effective at mitigating moiré patterns.
@@ -164,7 +164,7 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
 
 ## How to Find the Best Demosaicing Method
 
-[thumb](image:demosaicing_city1_example_bad.jpg.md)
+[thumb](image:demosaicing_city1_example_bad.jpg)
 
 Zoom in to at least 100% (1:1) and try all the demosaicing algorithms,
 see which works best for you. Try them on sharp photos with fine detail

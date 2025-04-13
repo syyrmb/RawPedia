@@ -80,9 +80,9 @@ Some examples of color phenomena that can be addressed with a CAM:
 
 ### Variables - data and vocabulary used by CIECAM
 
-[Variables - data](CIECAM02#Data.md)
+[Variables - data](ciecam02#data)
 
-[Definitions](CIECAM02#Some_definitions.md)
+[Definitions](ciecam02#some_definitions)
 
 ### CIECAM02/16 consists of 3 processes:
 
@@ -402,7 +402,7 @@ stage, it is not known whether these problems are:
   is capable of taking this into account and that it is possible to
   increase the accuracy of the screen profile calculations!
 
-[About L\*a\*b\*](Toolchain_Pipeline#L.2Aa.2Ab.2A.md)
+[About L\*a\*b\*](toolchain_pipeline#l.2aa.2ab.2a)
 
 - I don't have an HDR monitor (HDR monitors have luminance peaks of up
   to 6000 cd/m2 or more), nor do I have suitable ICC profiles or a
@@ -830,7 +830,7 @@ better white balance through a comparison/iteration process". I also
 worked on the concept of CRI (Color rendering index) which reflects the
 difference of illuminants compared to a base illuminant... The lower the
 CRI is, worse the rendering will be with an identical color temperature
-see : [Color_Management/fr](Color_Management/fr.md))
+see : [Color_Management/fr](color_management/fr))
 
 Based on CIECAM02, the patch contains the necessary basic elements to
 work these two points, but it lacks an essential element, not easy to

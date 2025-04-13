@@ -13,7 +13,7 @@ s'ajoute une tonalité des couleurs variant en fonction de la luminosité
 de l'image. La plupart des profils disposent de trois variantes :
 
 1.  la version de base,
-2.  une version CT ([compression tonale](Tone_Mapping/fr.md)),
+2.  une version CT ([compression tonale](tone_mapping/fr)),
     et
 3.  une version CT légèrement plus claire.
 
@@ -22,15 +22,15 @@ hautes lumières brûlées, rendant leur apparence plus naturelle et bien
 intégrée dans le reste de l'image.
 
 L'essentiel de l'effet tonal est majoritairement provoqué par
-l'utilisation de [Mixage des canaux](Channel_Mixer/fr.md) et de
-[Courbes RVB](RGB_Curves/fr.md) (les deux dans l'onglet
+l'utilisation de [Mixage des canaux](channel_mixer/fr) et de
+[Courbes RVB](rgb_curves/fr) (les deux dans l'onglet
 Couleur). Mixage des canaux ajoute l'effet délavé et Courbes RVB modifie
 ensuite la tonalité des couleurs.
 
 Pour régler un profil selon son goût personnel, on peut ajuster les
 Courbes RVB pour modifier la couleur. Si la tonalité de la couleur est
 acceptable, on peut poursuivre les ajustements de l'image avec les
-Courbes tonales dans le panneau [Exposition](exposure/fr.md)
+Courbes tonales dans le panneau [Exposition](exposure/fr)
 (onglet Exposition).
 
 <img src="/images/FadePack1_RawTherapee_01.jpg"

@@ -70,4 +70,4 @@ num sistema de 32 bits, tente o seguinte:
   "Propagação de Cor", então talvez seja necessário evitar usá-los se
   tua máquina e sistema operacional não forem padrão.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

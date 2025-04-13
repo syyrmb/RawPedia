@@ -202,7 +202,7 @@ This method is close to ACR and Lightroom, both in its operating mode
 and its rendering.
 
 It is mostly intended to color toning, even if it may be used in
-interaction with the [Black and White](Black-and-White_addon.md)
+interaction with the [Black and White](black-and-white_addon)
 tool.
 
 Two sliders with two levels are at your disposal, the first one for
@@ -248,12 +248,12 @@ that you will get the most pronounced (black and white) special effects.
 
 ### Film Simulation
 
-- In the case of color [film simulation](Film_Simulation.md),
+- In the case of color [film simulation](film_simulation),
   all the "Color Toning" tools are directly available.
 - In the case of black and white [film
   simulation](Film_Simulation.md), it is mandatory to enable the
   the "Black and White" tool. The
-  [desaturation](Black-and-White_addon#Desaturation.md) method
+  [desaturation](black-and-white_addon#desaturation) method
   is almost neutral and allows a direct use of the black and white
   simulations in all the "Color Toning" tools", but without being able
   to use the special effects of the "Black and White" tool.

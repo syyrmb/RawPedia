@@ -50,10 +50,10 @@ tint, typically warmer (orange) or colder (blue). Some people use this
 for creative effect, however there are various tools and operations
 which rely on the assumption that the white balance of the image is
 correct (for example highlight recovery in the
-[Exposure](Exposure.md) tool, skin targeting in the [Contrast by
+[Exposure](exposure) tool, skin targeting in the [Contrast by
 Detail Levels](Contrast_by_Detail_Levels.md) tool, sky targeting
-in the [Wavelets](Wavelets.md) tool, the
-[CIECAM02](CIECAM02.md) tool), so you should not misuse the
+in the [Wavelets](wavelets) tool, the
+[CIECAM02](ciecam02) tool), so you should not misuse the
 white balance tool to create a color cast for artistic effect but rather
 use it to ensure that neutral areas remain neutral, and then use [Color
 Toning](Color_Toning.md) or any of the other tools to render a
@@ -67,12 +67,12 @@ for diagnostic purposes or when working with UniWB images.
 
 ### Method
 
-- [image:Wb-camera.png](image:Wb-camera.png.md) Camera
+- [image:Wb-camera.png](image:wb-camera.png) Camera
     
   Takes the white balance used by the camera. If you shoot only in raw
   (so no raw+JPG), put the white balance settings of your camera on
   auto. This should generally give good results.
-- [image:Wb-auto.png](image:Wb-auto.png.md) Automatic
+- [image:Wb-auto.png](image:wb-auto.png) Automatic
   - RGB grey
       
     Automatically corrects the white balance, by assuming that the
@@ -104,24 +104,24 @@ for diagnostic purposes or when working with UniWB images.
       movement of this command brings a new calculation of temperature,
       tint and correlation.
     - A description of the Itcwb algorithim can be found here
-      [algorithm](White_Balance#The_Temperature_Correlation_Algorithm.md)
-- [image:Wb-custom.png](image:Wb-custom.png.md) Custom
+      [algorithm](white_balance#the_temperature_correlation_algorithm)
+- [image:Wb-custom.png](image:wb-custom.png) Custom
 
   
 Set your own color temperature and green tint by moving the two sliders
 and/or using the Spot WB tool.
 
 - Light source presets
-  - [image:Wb-sun.png](image:Wb-sun.png.md) Daylight (Sunny)
-  - [image:Wb-cloudy.png](image:Wb-cloudy.png.md) Cloudy
-  - [image:Wb-shade.png](image:Wb-shade.png.md) Shade
-  - [image:Wb-water.png](image:Wb-water.png.md) Underwater
-  - [image:Wb-tungsten.png](image:Wb-tungsten.png.md) Tungsten
-  - [image:Wb-fluorescent.png](image:Wb-fluorescent.png.md)
+  - [image:Wb-sun.png](image:wb-sun.png) Daylight (Sunny)
+  - [image:Wb-cloudy.png](image:wb-cloudy.png) Cloudy
+  - [image:Wb-shade.png](image:wb-shade.png) Shade
+  - [image:Wb-water.png](image:wb-water.png) Underwater
+  - [image:Wb-tungsten.png](image:wb-tungsten.png) Tungsten
+  - [image:Wb-fluorescent.png](image:wb-fluorescent.png)
     Fluorescent
-  - [image:Wb-lamp.png](image:Wb-lamp.png.md) Lamp
-  - [image:Wb-led.png](image:Wb-led.png.md) LED
-  - [image:Wb-flash.png](image:Wb-flash.png.md) Flash
+  - [image:Wb-lamp.png](image:wb-lamp.png) Lamp
+  - [image:Wb-led.png](image:wb-led.png) LED
+  - [image:Wb-flash.png](image:wb-flash.png) Flash
 
 ### Pick
 

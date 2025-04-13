@@ -56,31 +56,31 @@ height="60" />
 
 <div class="RP3columns">
 
-- [Getting Started](Getting_Started.md)
-- [Features](Features.md)
-- [Download](Download.md)
-- [The Floating Point Engine](The_Floating_Point_Engine.md)
-- [Bit Depth](Bit_Depth.md)
-- [RGB and Lab](RGB_and_Lab.md)
-- [About Noise Reduction](About_Noise_Reduction.md)
-- [The File Browser](File_Browser.md)
-- [The Queue](Queue.md)
-- [The Editor](Editor.md)
-- [Batch Adjustments - Sync](Batch_Adjustments_-_Sync.md)
-- [Saving Images](Saving_Images.md)
+- [Getting Started](getting_started)
+- [Features](features)
+- [Download](download)
+- [The Floating Point Engine](the_floating_point_engine)
+- [Bit Depth](bit_depth)
+- [RGB and Lab](rgb_and_lab)
+- [About Noise Reduction](about_noise_reduction)
+- [The File Browser](file_browser)
+- [The Queue](queue)
+- [The Editor](editor)
+- [Batch Adjustments - Sync](batch_adjustments_-_sync)
+- [Saving Images](saving_images)
 - [Edit Current Image in External
   Editor](Edit_Current_Image_in_External_Editor.md)
 - [Adding Support for New Raw
   Formats](Adding_Support_for_New_Raw_Formats.md)
-- [File Paths](File_Paths.md)
-- [Preferences](Preferences.md)
-- [GIMP Plugin](GIMP_Plugin.md)
-- [ICC Profile Creator](ICC_Profile_Creator.md)
+- [File Paths](file_paths)
+- [Preferences](preferences)
+- [GIMP Plugin](gimp_plugin)
+- [ICC Profile Creator](icc_profile_creator)
 - [Making a Portable
   Installation](Making_a_Portable_Installation.md)
-- [Command-Line Options](Command-Line_Options.md)
-- [Keyboard Shortcuts](Keyboard_Shortcuts.md)
-- [Toolchain pipeline - Colorimetry](Toolchain_Pipeline.md)
+- [Command-Line Options](command-line_options)
+- [Keyboard Shortcuts](keyboard_shortcuts)
+- [Toolchain pipeline - Colorimetry](toolchain_pipeline)
 
 </div>
 <hr/>
@@ -94,26 +94,26 @@ height="60" />
   Profiles](Sidecar_Files_-_Processing_Profiles.md)
 - [Creating processing profiles for general
   use](Creating_processing_profiles_for_general_use.md)
-- [Dynamic processing profiles](Dynamic_processing_profiles.md)
+- [Dynamic processing profiles](dynamic_processing_profiles)
 
 </div>
 <div class="keeptogether">
 
 #### Processing Profile Scripts
 
-- [RTProfileSelector](RTProfileSelector.md)
-- [RTbatch](RTbatch.md)
+- [RTProfileSelector](rtprofileselector)
+- [RTbatch](rtbatch)
 
 </div>
 <div class="keeptogether">
 
 #### Bundled Processing Profiles
 
-- [Neutral](Neutral.md)
-- [Auto-Matched Curve](Auto-Matched_Curve.md)
-- [Standard Film Curve](Standard_Film_Curve.md)
-- [Pop](Pop.md)
-- [Unclipped](Unclipped.md)
+- [Neutral](neutral)
+- [Auto-Matched Curve](auto-matched_curve)
+- [Standard Film Curve](standard_film_curve)
+- [Pop](pop)
+- [Unclipped](unclipped)
 
 </div>
 </div>
@@ -125,7 +125,7 @@ height="60" />
 
 - [General Comments About Some Toolbox
   Widgets](General_Comments_About_Some_Toolbox_Widgets.md)
-- [Favorites Tab](Favorites_Tab.md)
+- [Favorites Tab](favorites_tab)
 
 </div>
 <div class="RP3columns">
@@ -133,72 +133,72 @@ height="60" />
 
 #### Exposure Tab
 
-- [Exposure](Exposure.md)
-- [Shadows/Highlights](Shadows/Highlights.md)
-- [Tone Mapping](Tone_Mapping.md)
-- [Dynamic Range Compression](Dynamic_Range_Compression.md)
-- [Vignetting Filter](Vignetting_Filter.md)
-- [Graduated Filter](Graduated_Filter.md)
-- [L\*a\*b\* Adjustments](Lab_Adjustments.md)
+- [Exposure](exposure)
+- [Shadows/Highlights](shadows/highlights)
+- [Tone Mapping](tone_mapping)
+- [Dynamic Range Compression](dynamic_range_compression)
+- [Vignetting Filter](vignetting_filter)
+- [Graduated Filter](graduated_filter)
+- [L\*a\*b\* Adjustments](lab_adjustments)
 
 </div>
 <div class="keeptogether">
 
 #### Detail Tab
 
-- [Spot Removal](Spot_Removal.md)
-- [Sharpening](Sharpening.md)
-- [Local Contrast](Local_Contrast.md)
-- [Edges and Microcontrast](Edges_and_Microcontrast.md)
-- [Impulse Noise Reduction](Impulse_Noise_Reduction.md)
-- [Noise Reduction](Noise_Reduction.md)
-- [Defringe](Defringe.md)
-- [Contrast by Detail Levels](Contrast_by_Detail_Levels.md)
-- [Haze Removal](Haze_Removal.md)
+- [Spot Removal](spot_removal)
+- [Sharpening](sharpening)
+- [Local Contrast](local_contrast)
+- [Edges and Microcontrast](edges_and_microcontrast)
+- [Impulse Noise Reduction](impulse_noise_reduction)
+- [Noise Reduction](noise_reduction)
+- [Defringe](defringe)
+- [Contrast by Detail Levels](contrast_by_detail_levels)
+- [Haze Removal](haze_removal)
 
 </div>
 <div class="keeptogether">
 
 #### Color Tab
 
-- [White Balance](White_Balance.md)
-- [Vibrance](Vibrance.md)
-- [Channel Mixer](Channel_Mixer.md)
-- [Black-and-White](Black-and-White.md)
-- [Black-and-White addon](Black-and-White_addon.md)
-- [HSV Equalizer](HSV_Equalizer.md)
-- [Film Simulation](Film_Simulation.md)
-- [Film Negative](Film_Negative.md)
-- [Soft Light](Soft_Light.md)
-- [RGB Curves](RGB_Curves.md)
-- [Color Toning](Color_Toning.md)
-- [Color Management](Color_Management.md)
-- [Color Management Supplement](Color_Management_addon.md)
+- [White Balance](white_balance)
+- [Vibrance](vibrance)
+- [Channel Mixer](channel_mixer)
+- [Black-and-White](black-and-white)
+- [Black-and-White addon](black-and-white_addon)
+- [HSV Equalizer](hsv_equalizer)
+- [Film Simulation](film_simulation)
+- [Film Negative](film_negative)
+- [Soft Light](soft_light)
+- [RGB Curves](rgb_curves)
+- [Color Toning](color_toning)
+- [Color Management](color_management)
+- [Color Management Supplement](color_management_addon)
 
 </div>
 <div class="keeptogether">
 
 #### Advanced Tab
 
-- [Retinex](Retinex.md)
-- [Color Appearance Model Cam02/16 & Jzazbz](CIECAM02.md)
-- [Wavelet Levels](Wavelet_Levels.md)
+- [Retinex](retinex)
+- [Color Appearance Model Cam02/16 & Jzazbz](ciecam02)
+- [Wavelet Levels](wavelet_levels)
 
 </div>
 <div class="keeptogether">
 
 #### Selective Editing
 
-- [Local Adjustments](Local_Adjustments.md)
+- [Local Adjustments](local_adjustments)
 
 </div>
 <div class="keeptogether">
 
 #### Transform Tab
 
-- [Crop](Crop.md)
-- [Resize](Resize.md)
-- [Lens/Geometry](Lens/Geometry.md)
+- [Crop](crop)
+- [Resize](resize)
+- [Lens/Geometry](lens/geometry)
 
 </div>
 <div class="keeptogether">
@@ -207,25 +207,25 @@ height="60" />
 
 - [Sensor with Bayer/X-Trans
   Matrix](Sensor_with_Bayer/X-Trans_Matrix.md)
-- [Demosaicing](Demosaicing.md)
-- [Raw Black Points](Raw_Black_Points.md)
-- [Preprocessing](Preprocessing.md)
+- [Demosaicing](demosaicing)
+- [Raw Black Points](raw_black_points)
+- [Preprocessing](preprocessing)
 - [Chromatic Aberration
   Correction](Chromatic_Aberration_Correction.md)
-- [Raw White Points](Raw_White_Points.md)
-- [Preprocessing White Balance](Preprocessing_White_Balance.md)
-- [Dark-Frame](Dark-Frame.md)
-- [Flat-Field](Flat-Field.md)
-- [Capture Sharpening](Capture_Sharpening.md)
+- [Raw White Points](raw_white_points)
+- [Preprocessing White Balance](preprocessing_white_balance)
+- [Dark-Frame](dark-frame)
+- [Flat-Field](flat-field)
+- [Capture Sharpening](capture_sharpening)
 
 </div>
 <div class="keeptogether">
 
 #### Metadata Tab
 
-- [Metadata Copy Mode](Metadata_Copy_Mode.md)
-- [Exif Tab](Exif_Tab.md)
-- [IPTC Tab](IPTC_Tab.md)
+- [Metadata Copy Mode](metadata_copy_mode)
+- [Exif Tab](exif_tab)
+- [IPTC Tab](iptc_tab)
 
 </div>
 </div>
@@ -235,7 +235,7 @@ height="60" />
 
 <div class="RP1columns">
 
-- [Forum](Forum.md)
+- [Forum](forum)
 
 </div>
 
@@ -251,9 +251,9 @@ height="60" />
 
 <div class="RP1columns">
 
-- In [Linux](Linux.md)
-- In [Windows](Windows.md)
-- In [macOS](macOS.md)
+- In [Linux](linux)
+- In [Windows](windows)
+- In [macOS](macos)
 
 </div>
 
@@ -265,7 +265,7 @@ height="60" />
   reports](How_to_write_useful_bug_reports.md)
 - [How to fix crashes on
   startup](How_to_fix_crashes_on_startup.md)
-- [Wayland](Wayland.md)
+- [Wayland](wayland)
 
 </div>
 
@@ -273,8 +273,8 @@ height="60" />
 
 <div class="RP1columns">
 
-- [Translating RawTherapee](Translating_RawTherapee.md)
-- [Translating RawPedia](Translating_RawPedia.md)
+- [Translating RawTherapee](translating_rawtherapee)
+- [Translating RawPedia](translating_rawpedia)
 
 </div>
 </div>
@@ -284,7 +284,7 @@ height="60" />
 <div class="container">
 <div class="RP1columns">
 
-- [Contributing](Contributing.md)
+- [Contributing](contributing)
 
 </div>
 </div>
@@ -298,14 +298,14 @@ height="60" />
   DNG](How_to_convert_raw_formats_to_DNG.md)
 - [How to create DCP color
   profiles](How_to_create_DCP_color_profiles.md)
-- [How to create LCP profiles](How_to_create_LCP_profiles.md)
+- [How to create LCP profiles](how_to_create_lcp_profiles)
 - [How to get LCP and DCP
   profiles](How_to_get_LCP_and_DCP_profiles.md)
 - [How to extract and examine ICC
   profiles](How_to_extract_and_examine_ICC_profiles.md)
 - [How to get Nikon ICM
   profiles](How_to_get_Nikon_ICM_profiles.md)
-- [Watermarking](Watermarking.md)
+- [Watermarking](watermarking)
 - [Image file formats and
   compression](Image_file_formats_and_compression.md)
 

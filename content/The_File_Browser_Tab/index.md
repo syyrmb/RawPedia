@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [File Browser](File_Browser.md)
+1.  REDIRECT [File Browser](file_browser)

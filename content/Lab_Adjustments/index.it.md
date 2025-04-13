@@ -147,7 +147,7 @@ parzialmente facendo clic con il pulsante destro di una foto nel
 *Navigatore* e selezionate "*Operazioni sui Profili di Sviluppo \>
 Incolla - parziale*", oppure dalla scheda *Editor Immagine* con un
 Ctrl+click in "*Incolla profilo dagli appunti*"
-[image:Gtk-paste.png](image:Gtk-paste.png.md) per incollare solo
+[image:Gtk-paste.png](image:gtk-paste.png) per incollare solo
 la sezione delle *Regolazioni L\*a\*b\** del profilo. Nota che anche
 altre sezioni nelle sezioni *Regolazioni L\*a\*b\** saranno incollate.
 In alternativa, le curve a\* e b\* possono essere copiate e incollate

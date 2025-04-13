@@ -235,7 +235,7 @@ an intuitive understanding. Curves can do everything "levels" can do and
 much more, so the sooner you grasp how they work the better.
 
 As an example, look at the "Standard curve" (screenshot to the right) in
-the [Exposure](Exposure.md) tool. There are grid lines in the
+the [Exposure](exposure) tool. There are grid lines in the
 background at every 10% interval. The left end of the horizontal (input)
 axis represents pure black, then the shadows, then the mid-tones, then
 the highlights, and finally the right end represents pure white.
@@ -319,25 +319,25 @@ the alternatives.
 
 ### The Flat Curve
 
-[frame](image:Flat_curve_justcurve.png.md) A number of tools in
+[frame](image:flat_curve_justcurve.png) A number of tools in
 RawTherapee use the *flat curve*:
 
-- [Lab Adjustments](Lab_Adjustments.md)
-  - [LH](Lab_Adjustments#LH_Curve.md)
-  - [CH](Lab_Adjustments#CH_Curve.md)
-  - [HH](Lab_Adjustments#HH_Curve.md)
-- [Defringe](Defringe.md)
-  - [Hue](Defringe#Hue.md)
-- [HSV Equalizer](HSV_Equalizer.md)
-  - [H](HSV_Equalizer#H.md)
-  - [S](HSV_Equalizer#S.md)
-  - [V](HSV_Equalizer#V.md)
+- [Lab Adjustments](lab_adjustments)
+  - [LH](lab_adjustments#lh_curve)
+  - [CH](lab_adjustments#ch_curve)
+  - [HH](lab_adjustments#hh_curve)
+- [Defringe](defringe)
+  - [Hue](defringe#hue)
+- [HSV Equalizer](hsv_equalizer)
+  - [H](hsv_equalizer#h)
+  - [S](hsv_equalizer#s)
+  - [V](hsv_equalizer#v)
 
 It's very simple to use once you understand it, so let's use the [HSV
 Equalizer](HSV_Equalizer.md) in the
 ![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png")
 Color tab as an example. Click on the drop-down icon
-[image:Drop-down.png](image:Drop-down.png.md) next to the H(ue)
+[image:Drop-down.png](image:drop-down.png) next to the H(ue)
 button and choose "*Minima/Maxima control points*"
 ![<File:Curve-controlpoints-small.png>](Curve-controlpoints-small.png "File:Curve-controlpoints-small.png").
 You'll see six dots on the horizontal line in the middle and six
@@ -361,12 +361,12 @@ only in one direction (only horizontally or only vertically) you can use
 the 'snap to' function by holding down the Shift key while moving the
 point.
 
-[frame](image:Flat_curve_zoom.png.md) It's easy to see if a
+[frame](image:flat_curve_zoom.png) It's easy to see if a
 point is on its neutral value (i.e. on the middle line) because the
 color of the point will be green. As soon as you move a point off its
 neutral value, it changes color to black.
 
-The [HSV Equalizer](HSV_Equalizer.md) wraps around on the
+The [HSV Equalizer](hsv_equalizer) wraps around on the
 horizontal axis, so the very right vertical line equals the very left
 line. You can see this by dragging the red line on the left side a bit
 to the left. Now the left point of the graph is at the same position as
@@ -387,7 +387,7 @@ red and yellow) and move the graph around, change its slope and see what
 happens to your photo.
 
 Reset the *Hue* curve to "*Linear*" (no changes) by clicking on the
-reset icon [image:Gtk-undo-ltr.png](image:Gtk-undo-ltr.png.md)
+reset icon [image:Gtk-undo-ltr.png](image:gtk-undo-ltr.png)
 next to the *Value* button. To compare the effects of the *Hue* curve
 with linear: switch between "*Linear*" and "*Minima/Maxima control
 points*" in the drop-down menu next to this button, or use the history
@@ -407,7 +407,7 @@ tool the tones (or hues or saturations values) that you want processed
 (or processed differently).
 
 As an example, consider the Threshold curve editor on the Detail -\>
-[Sharpening](Sharpening.md) tool.
+[Sharpening](sharpening) tool.
 ![](_Sharpening_Threshold.png "_Sharpening_Threshold.png") The setting
 shown is telling the Sharpening tool to phase in sharpening quickly in
 the black areas (the steep line up on the left), maintain full
@@ -427,7 +427,7 @@ comment applies to Tone and Flat Curves as well.
 
 You’ll also find Threshold Curves used in the [Contrast by Detail
 Levels](Contrast_by_Detail_Levels.md) and the
-[Vibrance](Vibrance.md) tools.
+[Vibrance](vibrance) tools.
 
 You may have noticed that Threshold Curves actually consist of a few
 straight lines rather than a curve. If this bothers you, you might want
@@ -441,7 +441,7 @@ takes to process. For speed reasons, the preview of the effects of most
 tools is calculated not on the full-sized image (which would take
 exactly as long as saving the image, making using sliders and curves
 impossible), but on the preview image which is of the size of your
-preview area. Many tools, such as the [Exposure](Exposure.md)
+preview area. Many tools, such as the [Exposure](exposure)
 tool, can be applied to an image of any size, and their effects will be
 identical regardless of the size of the image they are applied to.
 However some tools are size-dependent, for example all of the tools in
@@ -456,7 +456,7 @@ decision to either disable the preview effects of these tools entirely
 at zoom levels less than 100%, or to keep the preview effects active but
 to warn you that what you see at zoom levels less than 100% may be
 inaccurate depending on the tool settings (for example [Tone
-Mapping](Tone_Mapping.md) and [Wavelet](Wavelet.md) may
+Mapping](Tone_Mapping.md) and [Wavelet](wavelet) may
 be accurate at zoom levels less than 100% or they may be inaccurate,
 depending on their settings). You will know which tools these are
 because they are marked with a "1:1" icon

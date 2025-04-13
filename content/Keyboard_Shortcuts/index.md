@@ -17,9 +17,9 @@ that some shortcuts, specifically ones that involve one or more modifier
 keys such as +, are known to not work on some non-QWERTY keyboard
 layouts. This is not a fault of RawTherapee.
 
-- SETM = [Single Editor Tab Mode](Editor#Editor_Tab_Modes.md)
+- SETM = [Single Editor Tab Mode](editor#editor_tab_modes)
   (required for Filmstrip panel visibility)
-- METM = [Multiple Editor Tabs Mode](Editor#Editor_Tab_Modes.md)
+- METM = [Multiple Editor Tabs Mode](editor#editor_tab_modes)
 
 <table>
 <caption>Cross-Platform Shortcuts |+ style="font-weight: normal;

@@ -525,7 +525,7 @@ mediante un archivo de texto con formato
 `workingspaces.json` y puede estar ubicado en:
 
 - la carpeta de perfiles ICC, establecida en
-  [`Preferencias > Gestión de color > Carpeta con perfiles de color ICC`](Preferences/es#color_management_tab.md)
+  [`Preferencias > Gestión de color > Carpeta con perfiles de color ICC`](preferences/es#color_management_tab)
 - la carpeta de perfiles de color del propio RawTherapee:
   - en Windows: `CarpetaDeInstalaciónDeRawTherapee\iccprofiles`
   - en Linux:
@@ -1090,7 +1090,7 @@ determinadas opciones en el perfil de entrada:
       ignora: puedes realizar la substracción del negro con la
       herramienta [***Raw \> Puntos
       Negros***](Raw_Black_Points/es.md), o con el deslizador
-      [***Nivel de negro***](Exposure/es#black.md) en la
+      [***Nivel de negro***](exposure/es#black) en la
       herramienta *Exposición*. Como muchos de los perfiles de Adobe
       indican la substracción automática del negro y Adobe Camera
       Raw/Lightroom la realizan, en esos casos RawTherapee presentará la

@@ -19,7 +19,7 @@ Ready for publishing: no
 
 Du kannst den Dialog zur Konfiguration der hier beschriebenen
 Einstellungen jederzeit über das Symbol
-[image:Gtk-preferences.png](image:Gtk-preferences.png.md)
+[image:Gtk-preferences.png](image:gtk-preferences.png)
 erreichen.
 
 **Beachte: Auch in Version 5 ist dieses Icon in der Oberfläche nicht
@@ -194,7 +194,7 @@ anstrengend, versuche hier verschiedene Einstellungen.
 
 Schriftart für den Farbwähler  
 Das Farbwählerwerkzeug
-[image:ColorPickerTool.jpg](image:ColorPickerTool.jpg.md) zeigt
+[image:ColorPickerTool.jpg](image:colorpickertool.jpg) zeigt
 im Bild die Werte der 3 Farbkanäle an. Die Darstellung dieser Anzeige
 kann hier eingestellt werden.
 
@@ -219,8 +219,8 @@ die Farbe dieses Rahmens fest.
 
 ### Anzeige zu heller/dunkler Bereiche
 
-Für die mit den Icons [image:Warnhl.png](image:Warnhl.png.md)
-und [image:Warnsh.png](image:Warnsh.png.md) zuschaltbare Anzeige
+Für die mit den Icons [image:Warnhl.png](image:warnhl.png)
+und [image:Warnsh.png](image:warnsh.png) zuschaltbare Anzeige
 für zu helle oder dunkle Bildbereiche (Pixel) können hier die beiden
 Schwellen eingestellt werden. Es werden hierbei die Pixelwerte des
 fertigen Bildes entsprechend des eingestellten Ausgabeprofils verwendet.
@@ -364,7 +364,7 @@ einzustellen, in dem diese abgelegt sind.
 
 Die Filmsimulation beruht auf sogenannten *Hald Color Look-Up-Tabellen*.
 Hier wird der Ordner eingestellt, in dem diese abgelegt wurden. Weiteres
-siehe in [Film Simulation](Film_Simulation/de.md).
+siehe in [Film Simulation](film_simulation/de).
 
 ### Metadaten
 
@@ -606,9 +606,9 @@ gemeinsam ausgewählt und jede Einstellung wird dann sofort auf die
 Bilder übertragen. Das ist der Grund, weshalb in der Dateiverwaltung
 auch sämtliche Werkzeuge angeboten werden, die auch im Editor vorhanden
 sind. Siehe zu diesem Thema in die Seite
-[Batch-Bearbeitung](Batch_Adjustments_-_Sync/de.md).
+[Batch-Bearbeitung](batch_adjustments_-_sync/de).
 
-In [Batch-Bearbeitung](Batch_Adjustments_-_Sync/de.md) wird
+In [Batch-Bearbeitung](batch_adjustments_-_sync/de) wird
 beschrieben, was passieren kann, wenn mehrere Bilder angewählt sind,
 aber ein Einstellwert in diesen Bildern verschiedene Werte besitzt: Ein
 neuer Wert überschreibt den Bisherigen in allen Bildern gleichzeitig
@@ -660,13 +660,13 @@ These parameters take part in the balance between speed and stability.
 
 ### Maximum Number of Threads for Noise Reduction
 
-The [Noise Reduction](Noise_Reduction.md) algorithm in
+The [Noise Reduction](noise_reduction) algorithm in
 RawTherapee is very powerful. It is also quite CPU and memory intensive.
 People with weak hardware who experience crashes caused by running out
 of RAM may find that tweaking this parameter prevents those crashes, at
 the cost of longer processing time.
 
-[Noise Reduction](Noise_Reduction.md) has a baseline requirement
+[Noise Reduction](noise_reduction) has a baseline requirement
 of 128MB of RAM for a 10 megapixel raw photo, or 512MB of RAM for a 40
 megapixel one, and additionally 128MB of RAM per thread. The more
 threads run in parallel, the quicker the computation, but higher the

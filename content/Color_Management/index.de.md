@@ -8,7 +8,7 @@ Todo: übersetzen
 
 Seite angelegt, um darauf refernzieren zu können
 
-[fherb](User:Fherb.md) ([talk](User_talk:Fherb.md))
+[fherb](user:fherb) ([talk](user_talk:fherb))
 12.3.2017
 
 ------------------------------------------------------------------------
@@ -219,7 +219,7 @@ simulating camera maker settings. The tone curve checkbox will be
 disabled for profiles which do not contain a tone curve.
 
 The curve mode used by the DCP tone curve is the same as the Exposure
-tool's "[film-like](Exposure#Film-Like.md)" mode, meaning you
+tool's "[film-like](exposure#film-like)" mode, meaning you
 can reproduce the effect using the Exposure tool's tone curves in
 film-like mode. When contrast is applied with a film-like curve the
 appearance of the colors will change and overall saturation is
@@ -232,7 +232,7 @@ Exposure tool's curves, but if you want to see exactly how the profile
 designer intended the colors to look you should enable the tone curve.
 
 While the input color profile is applied at the first stages of the
-[toolchain pipeline](Toolchain_Pipeline.md), the DCP tone curve
+[toolchain pipeline](toolchain_pipeline), the DCP tone curve
 is applied later in the pipeline at some point after the Exposure tool.
 
 ### Use DCP's base table
@@ -330,7 +330,7 @@ Management](Preferences#Color_Management_Tab.md).
 
 The main histogram, navigator and clipping indicators will use either
 the working or the output profile, depending on your setting in
-Preference \> [General](Preferences#General_Tab.md).
+Preference \> [General](preferences#general_tab).
 
 RawTherapee comes bundled with a number of custom-made high quality
 output profiles:

@@ -120,7 +120,7 @@ MinGW 64-bit**のシェルを使います。
     $ cmake -G "Ninja" -DLENSFUNDBDIR=put/your/lensfun/directory/here -DCMAKE_BUILD_TYPE="release" -DPROC_TARGET_NUMBER="2" -DCACHE_NAME_SUFFIX="5-dev" ..
     $ cmake --build . --target install
 
-　必ず、Lensfunのデータベースへのパスを、ソースププログラムの数ステップ前に取得したパスに差し替えます。様々なオプションの詳細を知りたい場合は、[Linuxの](Linux/jp#CMake.md)項を参照して下さい。貴方のPCのシステムにもよりますが、ビルドにはおよそ5分～25分の時間がかかります。
+　必ず、Lensfunのデータベースへのパスを、ソースププログラムの数ステップ前に取得したパスに差し替えます。様々なオプションの詳細を知りたい場合は、[Linuxの](linux/jp#cmake)項を参照して下さい。貴方のPCのシステムにもよりますが、ビルドにはおよそ5分～25分の時間がかかります。
 
 　ビルドの作成中に警告が出ることがあるかもしれませんが、それらは無視して構いません。本解説に従ってビルドの作成を行って、誤入力以外の要因でエラーが発生した場合は、[ここ](https://github.com/Beep6581/RawTherapee/issues/new?assignees=&labels=&template=bug_report.md&title=)に報告して下さい。
 
@@ -257,7 +257,7 @@ MinGW 64-bit**のシェルを使います。
 　コンパイル中に、RawTherapeeのインストールフォルダに`WindowsInnoSetup.iss`という名前のスクリプトが作成されます。このスクリプトは、Windowsプログラムのためにインストーラーを作るプログラム、[Inno
 Setup](http://www.jrsoftware.org/isinfo.php)で使われます。　幾つかの言語による問題を避けるために\[<http://www.jrsoftware.org/download.php/is-unicode.exe>　ユニコードで書かれたバージョン\]のダウンロードを奨めます。
 
-　ユーザーに[バグの報告をしてもらうことがあるので](How_to_write_useful_bug_reports/jp#有効なバグレポートの書き方.md)、パッケージの管理者には“release”と”debug”の両実行ファイルをビルドし、それらをGDBのデバッガ実行ファイルと共に一まとめにするようお願いします。
+　ユーザーに[バグの報告をしてもらうことがあるので](how_to_write_useful_bug_reports/jp#有効なバグレポートの書き方)、パッケージの管理者には“release”と”debug”の両実行ファイルをビルドし、それらをGDBのデバッガ実行ファイルと共に一まとめにするようお願いします。
 
 　言い換えると、rawtherapee.exe（release）ファイルとrawtherapee.exe(debug)ファイル、及びgdb.exeファイルを同じインストーラー或いは同じアーカイブに一緒に入れます。別な方法として、“release”より最適化はされていませんが、”debug”より動作速度が数段早い“relwithdebinfo”ビルドの作成があります。”debug”ビルドほどの詳細情報は得られませんが、このビルドでもかなりの情報が得られます。
 

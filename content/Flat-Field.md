@@ -11,7 +11,7 @@ Flat-Field
 
 </div>
 
-[thumb](image:Flatfield_landscape.jpg.md) [Flat-field
+[thumb](image:flatfield_landscape.jpg) [Flat-field
 correction](https://en.wikipedia.org/wiki/Flat-field_correction) is used
 to compensate for the non-uniformity characteristics of the camera and
 lens combination. A well known example of such non-uniformity is
@@ -42,7 +42,7 @@ applied to raw files only.
 Due to performance considerations, thumbnail images do not reflect
 flat-field corrections. At present only the [main
 preview](The_Image_Editor_Tab#The_Preview_Panel.md) in the
-[Editor](The_Image_Editor_Tab#The_Preview_Panel.md) tab and the
+[Editor](the_image_editor_tab#the_preview_panel) tab and the
 output image can be flat-field corrected.
 
 Accuracy of the flat-field correction is largely based on use of the
@@ -51,7 +51,7 @@ the sort of correction you desire - either lens/camera non-uniformity,
 or the same including the removal of dust spots. The creation of
 flat-field images for both purposes is described in the next section.
 
-[thumb](image:Flatfield_remove_itself.jpg.md) To illustrate
+[thumb](image:flatfield_remove_itself.jpg) To illustrate
 flat-field correction, a flat-field image has been applied unto itself.
 There is a noticeable light falloff asymmetry shown in the "before"
 image at the top, as well as a green color-cast. Flat-field correction
@@ -217,7 +217,7 @@ i.e. new dust spots appear or old ones disappear.
 
 ## Algorithm Specifics & Concise Summary
 
-[thumb](image:Rt_ff_dust1.jpg.md) The user or auto-selected raw
+[thumb](image:rt_ff_dust1.jpg) The user or auto-selected raw
 flat-field image need not have the same white balance as the image to
 which it is applied. The flat-field is blurred according to any of
 several user-selectable blur types and choice of blur radius. The
@@ -238,7 +238,7 @@ repeatable vertical lines.
 
 ## Organising Flat-Fields
 
-[thumb](image:Flatfield_flatfields.jpg.md).\]\] Non-uniformity
+[thumb](image:flatfield_flatfields.jpg).\]\] Non-uniformity
 of the captured field depends on the following parameters:
 
 - Camera (camera & sensor combination in case when a [digital
@@ -264,7 +264,7 @@ while depending on the number of flat-field images you have).
 
 ## Flat-Field File Browser Context Menu Options
 
-[thumb](image:Flatfield_moveto.jpg.md) tab.\]\] You can apply
+[thumb](image:flatfield_moveto.jpg) tab.\]\] You can apply
 and manage flat-field images from within the [File
 Browser](The_File_Browser_Tab.md) tab, by right-clicking on a
 thumbnail and selecting the "Flat-field" option. You will be presented
@@ -275,13 +275,13 @@ with three sub-options:
 - "Auto flat-field" allows to run the "Auto-select" option on the
   currently selected images.
 - "Move to flat-fields directory" moves the selected image into the
-  directory specified in [Preferences](Preferences.md).
+  directory specified in [Preferences](preferences).
 
   
 
 ## Auto Selection
 
-[left](image:Flatfield_autoselection.jpg.md) Flat-field
+[left](image:flatfield_autoselection.jpg) Flat-field
 auto-selection capability can be engaged simply by checking the
 "Auto-selection" checkbox. RawTherapee will search through the files in
 the "Flat-fields directory" specified in preferences and select the

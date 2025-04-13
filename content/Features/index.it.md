@@ -65,7 +65,7 @@ contributors:
   utilizzando script o chiamarlo da altri programmi,
 - Supporto per la maggior parte delle fotocamere,
 - Supporta nuovi formati raw semplicemente modificando il file
-  [camconst.json](camconst.json/it.md) in un editor di testo,
+  [camconst.json](camconst.json/it) in un editor di testo,
 - Feedback audio per informare l'utente quando termina un compito
   intensivo di CPU, ad esempio quando la coda di sviluppo viene
   elaborata,
@@ -119,7 +119,7 @@ contributors:
 - Conversione in bianco e nero,
 - Diversi metodi di color toning,
 - Supporto per fotocamere
-  [monocromatiche](Demosaicing/it#Monochrome_Cameras.md)
+  [monocromatiche](demosaicing/it#monochrome_cameras)
 - Adattamento del modello di aspetto dei colori
   [CIECAM02](https://en.wikipedia.org/wiki/CIECAM02) ratificato dalla
   Commissione Internazionale sull'Illuminazione (CIE) per mantenere
@@ -131,8 +131,8 @@ contributors:
   moltitudine di strumenti sono adatti per passare automaticamente alla
   modalità CIECAM02 quando sono in uso, tra cui [Tone
   Mapping](Tone_Mapping/it.md),
-  [Nitidezza](Sharpening/it.md),
-  [Defringe](Defringe/it.md), etc.
+  [Nitidezza](sharpening/it),
+  [Defringe](defringe/it), etc.
 - Gestione del colore.
 
 ## Caratteristiche di Dettaglio
@@ -186,4 +186,4 @@ contributors:
   lente e la polvere del sensore,
 - Correzione automatica dell'aberrazione cromatica e manuale.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

@@ -39,16 +39,16 @@ build you're using took this into account.
 The RawTherapee config folder contains:
 
 - the "options" file, which contains all of your settings from
-  [Preferences](Preferences.md),
+  [Preferences](preferences),
 - the "batch" folder, which stores temporary [processing
   profiles](Sidecar_Files_-_Processing_Profiles.md) of the
-  photos you sent to the [Queue](The_Batch_Queue.md),
+  photos you sent to the [Queue](the_batch_queue),
 - the user-editable
-  [camconst.json](Adding_Support_for_New_Raw_Formats.md) file,
+  [camconst.json](adding_support_for_new_raw_formats) file,
   where you can define details of how a specific raw format is to be
   treated (this overrides the values from the system camconst.json
   file),
-- the [dynamic profile](Dynamic_processing_profiles.md) rules,
+- the [dynamic profile](dynamic_processing_profiles) rules,
 - and the "profiles" folder where you can save your custom [processing
   profiles](Sidecar_Files_-_Processing_Profiles.md) to if you
   want them to appear in RawTherapee's drop-down list.

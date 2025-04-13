@@ -79,5 +79,5 @@ Sichere dazu auf ein portables Medium den RawTherapee-Ordner *config*.
 Insbesondere benötigst Du das "*options*"-File, das Nutzer-File
 "*camconst.json*", falls Du es erstellt hast, und sämtliche
 nutzerspezifischen PP3, ICC, DCP and LCP Profilefiles. Der
-[Dateipfade](File_Paths/de.md)-Artikel beschreibt, wo diese
+[Dateipfade](file_paths/de)-Artikel beschreibt, wo diese
 Files jeweils zu finden sind.

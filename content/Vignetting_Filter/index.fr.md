@@ -21,7 +21,7 @@ défauts mais pour créer un effet artistique) utilisez le filtre
 [correction
 vignettage](Lens/Geometry/fr#Correction_vignettage.md) présent
 dans l'onglet Transformation, outil Objectif/Géométrie. Encore mieux,
-utilisez l'outil [Champ Uniforme](Flat_Field/fr.md).
+utilisez l'outil [Champ Uniforme](flat_field/fr).
 
 ## Force
 

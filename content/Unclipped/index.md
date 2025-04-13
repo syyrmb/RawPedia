@@ -53,14 +53,14 @@ tools or settings are known to be incompatible with saving unclipped
 images in RawTherapee 5.6, and so are disabled by this processing
 profile:
 
-- [Exposure tone curves](Exposure#Tone_Curves.md),
-- [Vibrance](Vibrance.md),
+- [Exposure tone curves](exposure#tone_curves),
+- [Vibrance](vibrance),
 - Before/After curves in the
-  [Black-and-White](Black-and-White.md) tool,
-- [Film Simulation](Film_Simulation.md),
-- [RGB Curves](RGB_Curves.md) in luminosity mode,
-- [DCP look table](Color_Management#Use_DCP.27s_look_table.md),
-- [CIECAM02](CIECAM02.md)
+  [Black-and-White](black-and-white) tool,
+- [Film Simulation](film_simulation),
+- [RGB Curves](rgb_curves) in luminosity mode,
+- [DCP look table](color_management#use_dcp.27s_look_table),
+- [CIECAM02](ciecam02)
 
 ## Usage
 

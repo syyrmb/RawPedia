@@ -16,11 +16,11 @@ profilo contiene impostazioni in gran parte neutre e alcune modifiche
 che dovrebbe far risultare la foto piacevole e che puoi continuare a
 modificare secondo il tuo gusto. In particolare, utilizza [Livelli
 automatici](Exposure#Auto_Levels.md) per ottenere i toni e
-l'esposizione corretta, moderata [nitidezza](Sharpening.md),
+l'esposizione corretta, moderata [nitidezza](sharpening),
 rimozione automatica [Aberrazione
 cromatica](Chromatic_Aberration.md) e fissaggio dei pixel
 caldi/morti usando lo strumento
-[Pre-elaborazione](Preprocessing.md). L'immagine prodotta non
+[Pre-elaborazione](preprocessing). L'immagine prodotta non
 sarà come il JPEG prodotto dalla camera (o come la miniatura originale
 che hai visto per quella foto, identica al JPEG esterno).
 

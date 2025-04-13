@@ -43,7 +43,7 @@ che saturi.
 
 ### Toni della pelle - tonalità in base alla tonalità
 
-[thumb](image:Vibrance_hh.jpg.md) Questa curva H = f (H)
+[thumb](image:vibrance_hh.jpg) Questa curva H = f (H)
 consente di modificare la tonalità dell'incarnato. Si comporta come la
 curva di tonalità che conosci da qualsiasi programma di editing di
 immagini, ma invece di lavorare su un canale di colore intero funziona

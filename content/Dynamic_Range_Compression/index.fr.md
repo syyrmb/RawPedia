@@ -55,17 +55,17 @@ dynamique importante dans le domaine gradient), cité dans un autre
 logiciel comme Luminance HDR sous le nom de "Fattal".
 
 L'outil opère dans l'espace colorimétrique RVB est est appliqué juste
-après [Réduction du bruit](Noise_Reduction/fr.md) et
-[Elimination de la brume](Haze_Removal/fr.md), mais avant les
+après [Réduction du bruit](noise_reduction/fr) et
+[Elimination de la brume](haze_removal/fr), mais avant les
 autres ajustements de courbe tonale tels que les contrôles
-d'[Exposition](Exposure/fr.md).
+d'[Exposition](exposure/fr).
 
 Le curseur "Détail" correspond au paramètre α (alpha) du document, et le
 curseur "Quantité" correspond à β (beta).
 
 Les existe d'autres moyens de compresser la plage dynamique en utilisant
 d'autres outils. Le plus simple serait d'appliquer un contraste de
-valeur négative dans l'outil [Exposition](Exposure/fr.md) pour
+valeur négative dans l'outil [Exposition](exposure/fr) pour
 réduire (ou plutôt pour redistribuer) la plage dynamique, cependant, les
 effets ont la pluq grande chance d'apparaître plats et sans attrait. Une
 courbe donne un contrôle supplémentaire sur le processus, cependant cet

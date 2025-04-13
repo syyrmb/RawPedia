@@ -8,7 +8,7 @@ contributors:
 
 ![](Rt_filebrowser_customprofile.jpg "Rt_filebrowser_customprofile.jpg")).\]\]
 ![](Rt_imageeditor_customprofile_cropped.jpg "Rt_imageeditor_customprofile_cropped.jpg")
-nel [Editor di Immagine](The_Image_Editor_Tab.md).\]\] È
+nel [Editor di Immagine](the_image_editor_tab).\]\] È
 possibile creare i propri profili di elaborazione e presentarli nel menù
 a discesa [Selettore profili di
 sviluppo](The_Image_Editor_Tab#Processing_Profile_Selector.md).
@@ -25,9 +25,9 @@ sviluppo](The_Image_Editor_Tab#Processing_Profile_Selector.md).
   significativo. Ad esempio, se la fotocamera ha un sensore a bassa
   rumorosità e la tua lente non è molto nitida, potrebbe probabilmente
   aumentare l'impostazione predefinita
-  [risoluzione](Sharpening.md) o, altrimenti, se la fotocamera
+  [risoluzione](sharpening) o, altrimenti, se la fotocamera
   ha un sensore rumoroso, è possibile applicare un certo livello di
-  [riduzione del rumore](Noise_Reduction.md) per impostazione
+  [riduzione del rumore](noise_reduction) per impostazione
   predefinita. Forse non si desidera che "[Livelli
   automatici](Exposure_#_Auto_Levels.md) sia abilitato per
   impostazione predefinita o forse se la fotocamera sottoespone tutte le
@@ -35,12 +35,12 @@ sviluppo](The_Image_Editor_Tab#Processing_Profile_Selector.md).
   [compensazione
   dell'esposizione](Exposure_#_Exposure_Compensation.md) a +0.6.
   Forse si desidera modificare il profilo di input predefinito su
-  "[Gestione Colore](Color_Management#Custom.md) oppure
+  "[Gestione Colore](color_management#custom) oppure
   impostare il nome nel campo" Autore "e l'URL del tuo sito nel campo
   "Origine"(vedere [numero
   2420](https://code.google.com/p/rawtherapee/issues/detail?id=2420))
-  della [Scheda IPTC](IPTC_Tab.md). In genere vuoi lasciare il
-  [bilanciamento del bianco](White_Balance.md) impostato su
+  della [Scheda IPTC](iptc_tab). In genere vuoi lasciare il
+  [bilanciamento del bianco](white_balance) impostato su
   "Macchina fotografica", perché se si imposta un valore personalizzato,
   appare solo come desiderato in fotografie che sono state girate in
   condizioni identiche di illuminazione - un valore di temperatura di
@@ -53,7 +53,7 @@ sviluppo](The_Image_Editor_Tab#Processing_Profile_Selector.md).
   è necessario specificare l'estensione - RawTherapee lo aggiungerà per
   te. Per far apparire nell'elenco a discesa è necessario salvarlo nella
   sottocartella "profili" nella cartella "config", fare riferimento alla
-  pagina [Percorsi dei file](File_Paths.md) per scoprire dove si
+  pagina [Percorsi dei file](file_paths) per scoprire dove si
   trova questa cartella nel sistema.
 - Riavvia RawTherapee e ora il tuo nuovo profilo di elaborazione
   apparirà nell'elenco a discesa sotto "I miei profili".

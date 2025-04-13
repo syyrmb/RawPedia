@@ -13,7 +13,7 @@ Immagine](The_Image_Editor_Tab.md):
   gtk-save-large.png](_gtk-save-large.png "Image: gtk-save-large.png")
   Salva immediatamente dalla scheda Editor,
 - ![Image: processing.png](_processing.png "Image: processing.png")
-  Salva tramite [Batch Queue](The_Batch_Queue.md),
+  Salva tramite [Batch Queue](the_batch_queue),
 - ![File: Image-editor.png](_Image-editor.png "File: Image-editor.png")
   "[Modifica immagine corrente in Editor
   esterno](Modifica_immagine_corrente_in_Editor_esterno.md)"
@@ -29,7 +29,7 @@ basso a sinistra dell'immagine di anteprima o premi il collegamento
 finestra di dialogo "Salva con nome" standard. È possibile selezionare
 il nome e la posizione del file di output (RawTherapee aggiunge
 automaticamente l'estensione in base al formato scelto), scegliere un
-formato JPEG, TIFF o PNG ([8 bit e 16 bit](8_bit_e_16_bit.md)
+formato JPEG, TIFF o PNG ([8 bit e 16 bit](8_bit_e_16_bit)
 per TIFF e PNG) , impostare il rapporto di compressione, scegliere se si
 desidera che il profilo di elaborazione sia salvato accanto all'immagine
 di output ecc. L'ultima opzione consente di scegliere se si desidera
@@ -56,7 +56,7 @@ vantaggio di utilizzare la coda usando la finestra "*Salva*" è che puoi
 modificare individualmente il formato del file, il nome e la
 destinazione di ciascuna immagine, mentre mettere le immagini nella coda
 senza utilizzare il comando "*Salva*" utilizzerà le impostazioni dalla
-scheda [Batch Queue](The_Batch_Queue/it.md)".
+scheda [Batch Queue](the_batch_queue/it)".
 
 ## Naming
 

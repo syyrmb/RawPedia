@@ -13,7 +13,7 @@ The Queue
 
 ## Introduction
 
-[Saving images](Saving_Images.md) from RawTherapee can be done
+[Saving images](saving_images) from RawTherapee can be done
 in several ways, the two most common of which are either saving the
 image immediately ![<File:Save.png>](Save.png "File:Save.png") from the
 Editor tab, or adding it to the batch processing queue
@@ -47,7 +47,7 @@ There are several ways of adding an image to the queue:
     head/tail of the processing queue".
 3.  Right-click on a thumbnail in the [File
     Browser](File_Browser.md) or the
-    [Filmstrip](Editor#The_Filmstrip.md) and select "Put to
+    [Filmstrip](editor#the_filmstrip) and select "Put to
     queue".
 
 Regardless which method you use, when you go to the *Queue* tab you will

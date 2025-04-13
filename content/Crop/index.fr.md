@@ -26,13 +26,13 @@ retirées par recadrage seront complètement cachées dans l'aperçu, mais
 avec "Dépendant du thème", alors par défaut les parties retirées par
 recadrage seront recouvertes par un masque sombre semi-transparent. Vous
 pouvez choisir la transparence et la couleur de ce masque dans
-"[Préférences](Preferences/fr.md) \> Général \> [Masque de
+"[Préférences](preferences/fr) \> Général \> [Masque de
 recadrage](Preferences/fr#Thème.md)".
 
 Activez le mode recadrage en cliquant sur le bouton "Sélection du
 recadrage" dans le panneau de l'outil, ou sur le bouton
 ![<File:Crop.png>](Crop.png "File:Crop.png") dans la barre du haut de
-l'[Editeur](The_Image_Editor_Tab/fr.md) ou sur le [raccourci
+l'[Editeur](the_image_editor_tab/fr) ou sur le [raccourci
 clavier approprié](Keyboard_Shortcuts/fr.md), puis créer le
 cadre de sélection sur l'image d'aperçu par cliquer/glisser de la
 souris. Appuyer sur la touche **Majuscule** pour déplacer ce cadre sur

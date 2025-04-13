@@ -9,8 +9,8 @@ contributors:
 Aberration chromatique
 
 </div>
-[thumb](image:defringe.jpg.md)
-[thumb](image:defringe_curve.png.md) Les franges violettes sont
+[thumb](image:defringe.jpg)
+[thumb](image:defringe_curve.png) Les franges violettes sont
 une forme d'aberration chromatique axiale (ou longitudinale), elles
 apparaissent le long des arrêtes sombres adjacentes à des zones
 brillantes et sont dues à une focalisation incorrecte, des imperfections

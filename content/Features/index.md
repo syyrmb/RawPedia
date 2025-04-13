@@ -26,11 +26,11 @@ Features
   color profiles.
 - Supports most raw formats, as well as floating-point HDR images in the
   DNG format. Also supports JPEG, TIFF and PNG.
-- Support for [film negatives](Film_Negative.md) and
-  [monochrome](Demosaicing#Monochrome_Cameras.md) cameras.
+- Support for [film negatives](film_negative) and
+  [monochrome](demosaicing#monochrome_cameras) cameras.
 - Queue your photos for later exporting, freeing up your CPU for working
   with the preview in a responsive way.
-- [Rate](File_Browser#Rating.md) photos using a 0-5 star system
+- [Rate](file_browser#rating) photos using a 0-5 star system
   (ratings are read from embedded Exif and XMP), tag them by color,
   filter by filename and metadata.
 - Scroll the tool panels using your mouse scroll wheel without worrying

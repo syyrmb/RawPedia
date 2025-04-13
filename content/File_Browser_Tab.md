@@ -19,7 +19,7 @@ information below the images in the file browser.
 
 Adjust the grouping of the right-click context menu in the [File
 Browser](File_Browser.md) (and
-[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)).
+[Filmstrip](the_image_editor_tab#the_filmstrip)).
 
 ## Parsed Extensions
 

@@ -32,4 +32,4 @@ contributors:
   (LCP)を使ったレンズ補正（周辺光量不足、歪曲収差、色収差）が行えます。
 - 　特定のノイズやセンサーのゴミ跡、周辺光量不足、レンズによる色被りなどを除去するためのダークフレームとフラットフィールドをサポートしています。
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

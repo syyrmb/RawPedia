@@ -111,7 +111,7 @@ inside RawPedia) or external (to a webpage in the Internet):
     by double brackets as in
     `[[Getting_Started|the Getting Started page]]`. The text after the
     pipe `|` will be the text shown in the page. It will look like this:
-    [the Getting Started page](Getting_Started.md)
+    [the Getting Started page](getting_started)
   - linking to a section inside another RawPedia page: the code will
     start with the page name, followed by a `#`, all of it surrounded by
     double brackets as in

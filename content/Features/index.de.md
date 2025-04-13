@@ -114,7 +114,7 @@ Details, die uns dieses Programm bietet:
   oder von anderen Programmen aus direkt aufzurufen
 - Unterstützung der meisten Kameramodelle (Raw-Format)
 - Neue Raw-Formate werden auch dadurch unterstützt, indem das
-  [camconst.json](Adding_Support_for_New_Raw_Formats/de.md)-File
+  [camconst.json](adding_support_for_new_raw_formats/de)-File
   im Text-Editor vom Nutzer angepasst werden kann. (Work-Around für
   neuste Kameras, die erst nach dem Erscheinen der letzte
   RawTherapee-Version herausgekommen sind und ein neues proprietäres
@@ -195,13 +195,13 @@ Details, die uns dieses Programm bietet:
 - Schwarz-Weiß-Konvertierung mit unterschiedlichen Methoden
 - Kontrolle der Farbtöne mit unterschiedlichen Methoden
 - Farbinterpolation des Raw-Bildes
-  ([Demosaicing](Demosaicing/de.md)) auch für
-  [Monochrom-Kameramodelle](Demosaicing/de#Monochrome_Kameras.md)
+  ([Demosaicing](demosaicing/de)) auch für
+  [Monochrom-Kameramodelle](demosaicing/de#monochrome_kameras)
   möglich (also Abschaltung der Farbzuweisung zum Pixelmosaik)
 - Anpassung an das [CIECAM02](https://de.wikipedia.org/wiki/CIECAM02)
   Farberscheinungsmodell. Viele Werkzeuge, wie
-  [Dynamikkompression](Tone_Mapping/de.md),
-  [Schärfung](Sharpening/de.md), [Farbsaum
+  [Dynamikkompression](tone_mapping/de),
+  [Schärfung](sharpening/de), [Farbsaum
   entfernen](Defringe/de.md) und weitere, sind so angepasst,
   dass sie in diesen Modus arbeiten, [sobald er
   aktiviert](CIECAM02/de.md) wurde.
@@ -284,4 +284,4 @@ Detailierungsgrad zulässt:
 - manuelle oder automatische Korrektur der Farbfehler (Aberration) von
   Objektiven
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

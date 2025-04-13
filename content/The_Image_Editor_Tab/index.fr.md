@@ -48,7 +48,7 @@ travail puis est convertie dans l'espace colorimétrique de l'écran si un
 tel espace est installé, ou bien dans un espace sRVB dans le cas
 contraire. Il ne prend pas en compte le [Profil de
 sortie](Color_Management/fr#Profil_de_sortie.md)" de l'outil
-"[Gestion de la couleur (ICM)](Color_Management/fr.md)".
+"[Gestion de la couleur (ICM)](color_management/fr)".
 
 ### Oups! Ma photo raw n'a pas le même aspect que le JPEG de l'appareil photo
 
@@ -137,7 +137,7 @@ vous voulez traiter ces données. Lorsque vous utilisez le profil de
 traitement "Neutre" vous voyez l'image dématricée avec la balance des
 blancs de l'appareil dans votre espace colorimétrique de travail et
 aucune autre modification. Vous pouvez même voir l'image non dématricée
-et réglant l'option [dématriçage](demosaicing/fr.md) sur "None"
+et réglant l'option [dématriçage](demosaicing/fr) sur "None"
 (Aucune). Pour vous fournir un point de départ plus agréable
 esthétiquement, nous fournissons une collection de profils de traitement
 avec RawTherapee. Après l'installation de ce dernier, le profile de
@@ -479,7 +479,7 @@ Ceci est utilisé pour les outils ayant un temps de réponse assez long,
 par exemple les curseurs CIECAM02.
 
 Ces deux valeurs sont modifiables dans le fichier Options du dossier
-[Config](File_Paths/fr.md).
+[Config](file_paths/fr).
 
 ## Le panneau de gauche
 
@@ -611,7 +611,7 @@ le bouton gamut
 ![<File:Gamut-hist.png>](Gamut-hist.png "File:Gamut-hist.png") pour voir
 l'histogramme au niveau du profil de travail dans le pipeline. Il peut
 être utile d'appliquer temporairement le profil
-[Neutre](Neutre.md) afin de désactiver tous les outils pendant
+[Neutre](neutre) afin de désactiver tous les outils pendant
 la vérification, puis rétablir comme à l'origine. Si l'espace de travail
 n'est pas la cause du problème (l'espace de travail par défaut est
 ProPhoto qui est énorme), alors c'est probablement vos réglages qui le
@@ -670,7 +670,7 @@ l'électronique de l'appareil photo produisent du bruit numérique, donc
 le plancher du bruit peut être par exemple à 512. Le niveau du blanc
 n'est pas obligatoirement 16384; il dépend aussi de diverses choses, et
 peut se situer par exemple à 16300. Pour plus d'information, consulter
-les articles [Dématriçage](Demosaicing/fr.md) et [Ajouter la
+les articles [Dématriçage](demosaicing/fr) et [Ajouter la
 prise en charge de nouveaux formats
 raw](Adding_Support_for_New_Raw_Formats/fr.md) (principalement
 l'en-tête du fichier `camconst.json`). Les valeurs des niveaux du noir
@@ -678,8 +678,8 @@ et du blanc utilisés par RawTherapee sont hiérarchiquement établies en
 consultant plusieurs endroits : dans `dcraw.c`, à l'intérieur des
 métadonnées du fichier raw, et dans `camconst.json` (le dernier en
 premier). Ensuite, l'utilisateur peut peaufiner les niveaux raw
-[noir](Raw_Black_Points/fr.md) et
-[blanc](Raw_White_Points/fr.md) depuis RawTherapee.
+[noir](raw_black_points/fr) et
+[blanc](raw_white_points/fr) depuis RawTherapee.
 
 Les histogrammes raw présentent les données après la soustraction du
 niveau du noir. L'extrémité droite de l'histogramme est ancrée sur le
@@ -691,7 +691,7 @@ Lors de l'examen de l'histogramme raw, vous pouvez aussi régler la
 méthode de dématriçage sur "aucune". Cela révélera le motif du capteur
 dans l'aperçu, et aussi fera afficher les valeurs RVB du pixel
 actuellement survolé par la souris dans le panneau
-[Navigateur](The_Image_Editor_Tab/fr#Navigateur.md). Ces valeurs
+[Navigateur](the_image_editor_tab/fr#navigateur). Ces valeurs
 sont impactées par les niveaux détectés du noir et du blanc ainsi que
 par les ajustements du niveau du noir réalisés par l'utilisateur dans
 RawTherapee, mais ils ne sont pas impactés par les ajustements du niveau
@@ -724,7 +724,7 @@ RawTherapee 5.1 et suivants peuvent indiquer les valeurs raw réelles des
 photosites. Pour cela, paramétrer le Navigateur dans le format
 \[0-255\], appliquer le [profil de
 traitement](Sidecar_Files_-_Processing_Profiles/fr.md) neutre,
-puis régler la méthode de [Dématriçage](Demosaicing/fr.md) à
+puis régler la méthode de [Dématriçage](demosaicing/fr) à
 "Aucune". Le Navigateur indiquera la valeur raw réelle des photosites
 après la soustraction du niveau noir à l'intérieur de la gamme des
 données raw originales.
@@ -795,7 +795,7 @@ fichiers](File_Paths/fr.md) pour savoir où ces profils de
 traitement sont enregistrés sur votre système. Faire attention au bouton
 "*Mode de complètement des profils de traitement*"
 
-Bouton pressé [image:Profile-filled.png](image:Profile-filled.png.md)  
+Bouton pressé [image:Profile-filled.png](image:profile-filled.png)  
 Quand le bouton est activé et que vous ouvrez un profil partiel, les
 valeurs manquantes seront remplacées par les valeurs par défaut
 programmées dans RawTherapee.
@@ -805,7 +805,7 @@ paramétrage de la netteté, tous les autres outils (Exposition,
 Compression tonale, Réduction du bruit, redimensionnement, etc.)
 prendront leur position par défaut.
 
-Bouton relevé [image:Profile-partial.png](image:Profile-partial.png.md)  
+Bouton relevé [image:Profile-partial.png](image:profile-partial.png)  
 Quand le bouton est désactivé et que vous ouvrez un profil partiel,
 seulement ces valeurs du profil seront appliquées, et les autres
 resteront inchangées.
@@ -833,7 +833,7 @@ RawTherapee dispose de deux modes pour travailler les photos :
   est ouverte dans le même onglet *Editeur*. Il y a un panneau
   horizontal appelé *[bande
   film](The_Image_Editor_Tab/fr#La_bande_film.md)* en haut de
-  l'onglet *[Editeur](The_Image_Editor_Tab/fr#La_bande_film.md)*
+  l'onglet *[Editeur](the_image_editor_tab/fr#la_bande_film)*
   affichant les autres photos du répertoire pour y accéder facilement.
   Il y a aussi des boutons *Image précédente* et *Image suivante*
   ![<File:Nav-prev.png>](Nav-prev.png "File:Nav-prev.png")
@@ -843,8 +843,8 @@ RawTherapee dispose de deux modes pour travailler les photos :
   vers l'image précédente/suivante.
 - *Editeur multiple* (ou METM pour Multiple Editor Tabs Mode), avec
   lequel chaque photo est ouverte dans son propre onglet
-  *[Editeur](The_Image_Editor_Tab/fr#La_bande_film.md)*. La
-  *[bande film](The_Image_Editor_Tab/fr#La_bande_film.md)* est
+  *[Editeur](the_image_editor_tab/fr#la_bande_film)*. La
+  *[bande film](the_image_editor_tab/fr#la_bande_film)* est
   cachée dans ce mode et il n'y a pas de boutons précédent/suivant.
   Avoir plusieurs photos ouvertes en même temps requière plus de RAM.
 
@@ -898,7 +898,7 @@ précédente ![Open previous image
 icon](nav-prev.png "Open previous image icon") et image suivante ![Open
 next image icon](nav-next.png "Open next image icon") pour ouvrir les
 images précédentes/suivantes sans avoir besoin de retourner dans
-l'onglet *[Navigateur de fichiers](The_File_Browser_Tab/fr.md)*
+l'onglet *[Navigateur de fichiers](the_file_browser_tab/fr)*
 
 A partir de la version 4.2.10 de RawTherapee, on peut cacher la barre
 d'outils de la bande film pour économiser l'espace à l'écran. Il y a
@@ -906,7 +906,7 @@ deux façon de procéder : une qui ne fait que basculer la barre d'outils
 en mode affiché/caché sans redimensionner la bande film dans la hauteur,
 l'autre agit de même mais en plus redimensionne automatiquement la
 hauteur de la bande film. Les deux ne sont commandées que via les
-[raccourcis clavier](Keyboard_Shortcuts/fr.md). Vu que le
+[raccourcis clavier](keyboard_shortcuts/fr). Vu que le
 redimensionnement de la bande film déclenche le rafraîchissement de
 l'aperçu et que cela peut prendre du temps si des outils gourmands en
 temps processeur comme la réduction du bruit d'une image zoomée à 100%,
@@ -962,7 +962,7 @@ et dans la liste déroulante des profils de l'imprimante (Préférences \>
 [Gestion des
 couleurs](Preferences/fr#L'onglet_Gestion_des_couleurs.md) sont
 les fichiers ICC placés dans un répertoire que vous devez désigner à
-RawTherapee en allant dans [Préférences](Preferences/fr.md) \>
+RawTherapee en allant dans [Préférences](preferences/fr) \>
 [Gestion des
 couleurs](Preferences/fr#L'onglet_Gestion_des_couleurs.md) \>
 Dossier des profils ICC.

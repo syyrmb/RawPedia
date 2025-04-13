@@ -48,7 +48,7 @@ qu'il y ait de l'humidité dans l'air, s'il ne pleut pas, le seau reste
 vide, mais s'il pleut de trop, le seau va déborder. Notez que le concept
 de "pixel" n'existe pas encore à ce niveau, l'information en provenance
 de plusieurs photosites est plus tard combinée en un pixel pendant le
-processus appelé [dématriçage](Demosaicing/fr.md). Notez aussi
+processus appelé [dématriçage](demosaicing/fr). Notez aussi
 que certaines sources écrivent à tort "pixel" pour désigner les
 "photosites"
 
@@ -70,7 +70,7 @@ Il existe différents outils pour traiter les différents types de bruit :
   [Poisson](https://fr.wikipedia.org/wiki/Bruit_de_grenaille)) et le
   grain du film, ainsi que certains bruits de lecture.
 - Le bruit de lecture et le bruit thermique sont le mieux gérés par
-  l'outil [Trame Noire](Dark_Frame/fr.md).
+  l'outil [Trame Noire](dark_frame/fr).
 - Le bruit poivre et sel (pixels soudainement blancs ou noirs) est le
   mieux géré avec l'outil [Réduction du bruit
   d'impulsion](Impulse_Noise_Reduction/fr.md).
@@ -148,7 +148,7 @@ Ce chapitre détaille l'ordre des opérations pour retirer le bruit.
     les appliquer sur de fins détails, car votre photo bruitée n'a pas
     de fins détails ! Si vous utilisez [Contraste par niveaux de
     détail](Contrast_by_Detail_Levels/fr.md) or
-    [Ondelettes](Wavelets/fr.md), assurez vous que les un ou
+    [Ondelettes](wavelets/fr), assurez vous que les un ou
     deux premiers curseurs de contraste par niveaux de détail sont à 0
     pour éviter que ces outils n'amplifient le bruit
 3.  Zoomer la photo à 100 % ou plus et trouver une région qui possède à
@@ -175,7 +175,7 @@ Ce chapitre détaille l'ordre des opérations pour retirer le bruit.
 9.  Bien qu'il ne soit généralement pas conseillé de combiner la netteté
     avec la réduction du bruit, RawTherapee 5.5 présente un réglage de
     "seuil de contraste" dans l'outil
-    [Netteté](Sharpening/fr.md), grâce auquel vous pouvez agir
+    [Netteté](sharpening/fr), grâce auquel vous pouvez agir
     sur la netteté des détails tout en préservant la douceur des zones
     plates et uniformes.
 

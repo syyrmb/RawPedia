@@ -24,12 +24,12 @@ Bearbeitungsprofils als Sidecar-File das Resultat berechnet und dann in
 einem von dir gewählten Format gespeichert.
 
 Es gibt verschiedene Arten ein Bild im
-[Bild-Editor](The_Image_Editor_Tab/de.md) zu speichern:
+[Bild-Editor](the_image_editor_tab/de) zu speichern:
 
 - ![Image:gtk-save-large.png](gtk-save-large.png "Image:gtk-save-large.png")
   Sofort aus dem Editor speichern,
 - ![Image:processing.png](processing.png "Image:processing.png") Über
-  die [Warteschlange](The_Batch_Queue/de.md) speichern,
+  die [Warteschlange](the_batch_queue/de) speichern,
 - ![<File:Image-editor.png>](Image-editor.png "File:Image-editor.png")
   "[Edit Current Image in External
   Editor](Edit_Current_Image_in_External_Editor.md)" (wird in

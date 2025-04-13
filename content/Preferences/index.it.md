@@ -5,7 +5,7 @@ contributors:
 ---
 
 Puoi accedere alla finestra delle Preferenze cliccando sul bottone
-[image:Gtk-preferences.png](image:Gtk-preferences.png.md) che si
+[image:Gtk-preferences.png](image:gtk-preferences.png) che si
 trova in basso a sinistra della finestra di RawTherapee, oppure in alto
 a destra, dipende dall'impostazione della [Modalità Scheda Sviluppo
 Immagine](The_Image_Editor_Tab/it#Editor_Tab_Modes.md).
@@ -82,7 +82,7 @@ fattori, di particolare importanza per questo paragrafo, le proprietà
 dell'area che circonda la regione osservata. Il modo in cui si
 percepisce i colori di una fotografia visualizzata sullo schermo dipende
 dai colori dell'area che circonda la fotografia. Potete leggere di più
-su questo nel articolo [CIECAM02](CIECAM02.md). Al fine di
+su questo nel articolo [CIECAM02](ciecam02). Al fine di
 mitigare gli errori che l'utente effettua durante la regolazione di una
 foto, RawTherapee usa temi che utilizzano i colori di sfondo neutri.
 Mentre tutti i temi sono basati su sfumature di grigio, il tema più
@@ -118,7 +118,7 @@ nell'anteprima principale quando si ingrandisce.</figcaption>
 
 - La "Guida del Navigatore" consente di regolare il colore della cornice
   (contrassegnata con "2" nel secondo screenshot) visibile nel pannello
-  [Navigatore](The_Image_Editor_Tab/it#Navigator.md)
+  [Navigatore](the_image_editor_tab/it#navigator)
   (contrassegnato con "1") quando l'anteprima principale viene
   ingrandita.
 
@@ -132,7 +132,7 @@ colore solido. L'ombra di questo colore dipende dalla forza di taglio. I
 valori di soglia determinano quando il ritaglio è considerato iniziato.
 Gli indicatori di ritaglio vengono calcolati sull'immagine finale dello
 spazio colore in uscita selezionato per quella immagine nel pannello
-[Gestione colori](Color_Management/it#Output_Profile.md).
+[Gestione colori](color_management/it#output_profile).
 
 ### Amplificazione dell'ingrandimento panoramico
 
@@ -158,7 +158,7 @@ Image-editor.png](_Image-editor.png "File: Image-editor.png") "[Modifica
 immagine corrente in Editor
 esterno](Edit_Current_Image_in_External_Editor/it.md)" nella
 scheda Editor sotto l'anteprima principale, vedere l'articolo
-[Salvataggio](Saving/it.md). In Preferenze è possibile
+[Salvataggio](saving/it). In Preferenze è possibile
 personalizzare a quale programma deve essere inviata l'immagine
 elaborata quando si fa clic sul pulsante.
 
@@ -278,7 +278,7 @@ parametri di correzione dell'obiettivo o riduzione del rumore in base
 alle proprietà dell'immagine. Viene chiamata una sola volta nella prima
 modifica dell'immagine o chiamata manualmente dal menu contestuale
 quando fa clic con il pulsante destro del mouse su una miniatura nel
-[Navigatore](The_File_Browser_Tab/it.md) o[Sequenza di
+[Navigatore](the_file_browser_tab/it) o[Sequenza di
 immagini](The_Image_Editor_Tab/it#The_Filmstrip.md)
 
 <b>Nota:</b> Se si utilizza percorsi che contengono spazi, si è
@@ -361,13 +361,13 @@ miniature e come dovrebbe essere visualizzate.
 ### Opzioni del Menu contestuale
 
 Regola il raggruppamento del menu contestuale con il pulsante destro del
-mouse in [Navigatore](The_File_Browser_Tab/it.md) (e[Sequenza
+mouse in [Navigatore](the_file_browser_tab/it) (e[Sequenza
 Immagini](The_Image_Editor_Tab/it#The_Filmstrip.md)).
 
 ### Estensioni analizzate
 
 Scegliere quali file vengono riconosciuti come immagini e visualizzare
-nella [Scheda Navifatore](The_File_Browser_Tab.md). Tutte le
+nella [Scheda Navifatore](the_file_browser_tab). Tutte le
 estensioni supportate sono impostate come predefinite. Possono essere
 disattivati deselezionando la relativa casella. Se manca un'estensione
 desiderata, è possibile aggiungerla facilmente utilizzando il pulsante
@@ -487,7 +487,7 @@ degli strumenti batch". Le caselle di controllo qui hanno tre stati:
 
 L'elaborazione in Batch si realizza con la selezione di più di
 un'immagine con i tasti **Shift** o**Control** nel
-[Navigatore](The_File_Browser_Tab/it.md), e al conseguente
+[Navigatore](the_file_browser_tab/it), e al conseguente
 modifica delle immagini con gli strumenti del pannello degli strumenti
 batch a destra. Il modo in cui i valori dei cursori vengono utilizzati
 per modificare l'immagine dipende dalle opzioni impostate in questa
@@ -561,14 +561,14 @@ stabilità.
 
 ### Numero massimo di thread per la riduzione del rumore
 
-L'algoritmo [Riduzione Rumore](Noise_Reduction/it.md) in
+L'algoritmo [Riduzione Rumore](noise_reduction/it) in
 RawTherapee è molto potente. È anche abbastanza pesante nell'uso di CPU
 e memoria. Le persone che hanno a disposizione un hardware con cui si
 verificano errori causati dall'insufficienza di memoria RAM potrebbero
 scoprire che abbassando questo parametro possono ridurre tali crash,
 ovviamente con un costo maggiore di tempo di elaborazione.
 
-[Riduzione Rumore](Noise_Reduction/it.md) ha un requisito di
+[Riduzione Rumore](noise_reduction/it) ha un requisito di
 base di 128 MB di RAM per una foto raw di 10 megapixel o 512 MB di RAM
 per una da 40 megapixel e 128 MB di RAM per thread. Più thread
 funzionano in parallelo, più veloce è il calcolo, ma è più elevato il
@@ -594,9 +594,9 @@ viene terminata un'operazione lunga. Attualmente è supportato solo su
 Windows e Linux.
 
 Il suono "elaborazione coda" viene riprodotto dopo l'ultima elaborazione
-della [Coda di sviluppo](The_Batch_Queue/it.md). Il suono
+della [Coda di sviluppo](the_batch_queue/it). Il suono
 "Elaborazione Modifica finita" viene riprodotto se l'elaborazione della
-[Scheda Modifica Immagine](The_Image_Editor_Tab.md) ha richiesto
+[Scheda Modifica Immagine](the_image_editor_tab) ha richiesto
 più tempo del numero di secondi specificato.
 
 I suoni possono essere disattivati disattivando la casella di controllo

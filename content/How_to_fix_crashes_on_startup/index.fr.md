@@ -51,7 +51,7 @@ plus simple, et monter en complexité si elle ne suffit pas.
 
         Linux: `/home/vous/test`
     2.  Trouver le fichier "options" en suivant les indications de la
-        page [Où sont les fichiers](File_Paths/fr.md).
+        page [Où sont les fichiers](file_paths/fr).
     3.  Ouvrir le fichier "options" dans un éditeur de texte
           
         trouver la ligne `StartupDirectory` et la paramétrer avec
@@ -74,7 +74,7 @@ plus simple, et monter en complexité si elle ne suffit pas.
         aussitôt après le démarrage, suivez l'étape suivante.
 2.  Effacez le répertoire `batch` :
     1.  Trouver le répertoire "batch" en suivant les indications de la
-        page [Où sont les fichiers](File_Paths/fr.md),
+        page [Où sont les fichiers](file_paths/fr),
         sauvegarder et compresser tous les fichiers qu'il contient, s'il
         y en a, puis l'effacer.
     2.  Essayez à nouveau de démarrer RawTherapee. Si cela fonctionne,
@@ -85,7 +85,7 @@ plus simple, et monter en complexité si elle ne suffit pas.
         plantages continuent, procéder à l'étape suivante.
 3.  Effacez le répertoire `cache` :
     1.  Trouver le répertoire "cache" en suivant les indications de la
-        page [Où sont les fichiers](File_Paths/fr.md).
+        page [Où sont les fichiers](file_paths/fr).
     2.  Effacer le répertoire cache ou le renommer si vous ne désirez
         pas perdre son contenu (il suffit de renommer "cache" en
         "cache2", RawTherapee ne cherche que "cache" et ne trouvera pas

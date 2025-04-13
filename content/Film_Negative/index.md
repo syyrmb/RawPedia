@@ -45,7 +45,7 @@ common Kodak film types like the ColorPlus 200 or Gold 200.
     :\* These spots should have had no color tint in the original scene,
     they should have a neutral hue. Keep in mind that these spots might
     not appear neutral in your photographed film negative until you use
-    the [White Balance](White_Balance.md) tool.
+    the [White Balance](white_balance) tool.
 
     :\* The spots should differ in brightness, and should not be
     clipped.
@@ -59,7 +59,7 @@ common Kodak film types like the ColorPlus 200 or Gold 200.
     should be neutral in hue, if the image has one, is easiest.
       
     Picking the neutral spots changes the raw data's values in the
-    [pipeline](Toolchain_Pipeline.md) before the white balance
+    [pipeline](toolchain_pipeline) before the white balance
     tool takes effect; therefore it is recommended to white-balance the
     photo after having picked the spots. If you white-balanced it before
     picking the spots that is fine, but you might want to

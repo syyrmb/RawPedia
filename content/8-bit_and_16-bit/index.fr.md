@@ -271,7 +271,7 @@ serviteur - RawTherapee.
 ## Après RawTherapee
 
 Après la retouche d'une photo avec Rawtherapee, que vous êtes prêt à
-l'[enregistrer](Saving_Images/fr.md), vous faites face au choix
+l'[enregistrer](saving_images/fr), vous faites face au choix
 des [profil de sortie, profondeur de
 couleur](Color_Management/fr#Profil_de_sortie.md), [espace
 colorimétrique et correction

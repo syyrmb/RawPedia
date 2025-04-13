@@ -49,8 +49,8 @@ sont plus “chaudes”.
 </div>
 
 La différence entre le curseur *Luminosité* de la section
-*[Exposition](Exposure/fr.md)* (dans l'espace RVB) et le curseur
-*Luminosité* de la section *[Lab](Lab_Adjustments/fr.md)* est
+*[Exposition](exposure/fr)* (dans l'espace RVB) et le curseur
+*Luminosité* de la section *[Lab](lab_adjustments/fr)* est
 subtile. Une *Luminosité* de +30 dans dans l'espace RVB donne une image
 globalement un peu plus éclatante qu'avec une *Luminosité* de +30 dans
 l'espace Lab. Les couleurs de la *Luminosité* Lab sont plutôt plus

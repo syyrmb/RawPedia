@@ -185,7 +185,7 @@ Il cursore "Forza" consente di impostare la sensibilità del sistema:
     tonifica colore,
 3.  con valori elevati, è possibile utilizzare questo strumento come
     tonificazione in bianco e nero, interagendo con lo strumento
-    [Compendio Bianco e Nero](Black-and-White_addon/it.md) (i
+    [Compendio Bianco e Nero](black-and-white_addon/it) (i
     parametri di algoritmo interni sono diversi per un colore o
     un'azione in bianco e nero)
 
@@ -239,7 +239,7 @@ otterrete gli effetti speciali più pronunciati (in bianco e nero).
 - Nel caso di bianco e nero [simulazione di
   pellicola](Film_Simulation/it.md), è obbligatorio abilitare lo
   strumento "Bianco e Nero". Il metodo
-  [desaturazione](Black-and-White_addon/it#Desaturation.md) è
+  [desaturazione](black-and-white_addon/it#desaturation) è
   quasi neutro e consente l'utilizzo diretto delle simulazioni in bianco
   e nero in tutti gli strumenti "Color Toning", ma senza essere in grado
   di utilizzare gli effetti speciali del Strumento "Bianco e Nero".

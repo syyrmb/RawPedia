@@ -227,7 +227,7 @@ características que te ayudan a proteger tus imágenes:
 <!-- -->
 
 - Cuando utilices el *Editor*, a la izquierda verás el panel del
-  [*Historial*](Editor/es#Historial.md). Este panel muestra un
+  [*Historial*](editor/es#historial). Este panel muestra un
   listado de cada cambio que hayas realizado en tu imagen y para volver
   hasta el estado en que estaba la imagen en cualquier paso (incluso el
   momento en que la imagen se abrió), simplemente haz clic en la línea
@@ -236,7 +236,7 @@ características que te ayudan a proteger tus imágenes:
 <!-- -->
 
 - Debajo del panel del *Historial* verás el panel de
-  [*Instantáneas*](Editor/es#Instantáneas.md). Este panel
+  [*Instantáneas*](editor/es#instantáneas). Este panel
   almacena el estado de todas las herramientas como en una
   "instantánea". Puedes ignorarlo por ahora, pero te será útil cuando
   adquieras experiencia con RawTherapee, ya que por ejemplo te permite
@@ -265,7 +265,7 @@ características que te ayudan a proteger tus imágenes:
 2.  A continuación, ajusta la exposición yendo a la pestaña de
     *Exposición* (
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png") ),
-    desplegando la herramienta [*Exposición*](Exposure/es.md).
+    desplegando la herramienta [*Exposición*](exposure/es).
     De momento, utiliza únicamente los controles deslizantes de
     *Compensación de exposición* y *Saturación*.
 3.  Si tu imagen presenta ruido, cambia a la pestaña *Detalle* (
@@ -281,7 +281,7 @@ características que te ayudan a proteger tus imágenes:
     ), dejando por el momento los ajustes en sus valores por defecto.
     RawTherapee elimina automáticamente el ruido de color (ruido de
     «crominancia»). El ruido de luminancia se elimina
-    [manualmente](Noise_Reduction/es#Uso.md), aunque déjalo por
+    [manualmente](noise_reduction/es#uso), aunque déjalo por
     ahora ya que el ruido de luminancia generalmente proporciona un
     aspecto agradable, granulado y similar al de una película. Como
     regla general, cuando utilices la reducción de ruido, no utilices la
@@ -289,7 +289,7 @@ características que te ayudan a proteger tus imágenes:
     ver la imagen completa, ya sea usando el botón
     ![<File:Magnifier-fit.png>](Magnifier-fit.png "File:Magnifier-fit.png")
     o usando la tecla *«f»*.
-4.  Ahora corregirás la [*Geometría*](Lens/Geometry/es.md) y la
+4.  Ahora corregirás la [*Geometría*](lens/geometry/es) y la
     composición de tu foto.
     - Primero nivela el horizonte, o corrige las cosas que deben ser
       verticales, como las farolas o los bordes de los edificios. Para
@@ -313,11 +313,11 @@ características que te ayudan a proteger tus imágenes:
       guía de recorte* en *Ninguno*, si te molesta a la vista.
     - Por último reducirás el tamaño de la foto, porque ¿quién quiere
       subir un archivo JPEG de 10 MB a su red social? Activa la
-      herramienta [*Cambiar tamaño*](Resize/es.md) y déjala con
+      herramienta [*Cambiar tamaño*](resize/es) y déjala con
       la configuración predeterminada. **Ten en cuenta que el
       redimensionado sólo se aplica a la imagen en disco, no a la vista
       previa.**
-5.  Ya está todo listo, [guárdala](Saving/es.md) enseguida: haz
+5.  Ya está todo listo, [guárdala](saving/es) enseguida: haz
     clic en el botón *Guardar imagen actual* (
     ![<File:save.png>](save.png "File:save.png") ), o usa el método
     abreviado *«Ctrl+s»*. Guárdalo como un archivo JPG, Calidad a *92*,
@@ -384,27 +384,27 @@ operaciones:
     plano*](Flat_Field/es.md) y/o una [*Toma
     Negra*](Dark_Frame/es.md), hazlo ahora, para evitar
     posteriores reajustes.
-3.  Ahora ajusta el [*Balance de blancos*](White_Balance/es.md)
+3.  Ahora ajusta el [*Balance de blancos*](white_balance/es)
     correcto. Puedes modificar primero la exposición si la imagen es
     demasiado oscura (o demasiado luminosa) para ver mejor los cambios
     en el balance de blancos.
-4.  A continuación, ajusta la [*Exposición*](Exposure/es.md),
+4.  A continuación, ajusta la [*Exposición*](exposure/es),
     utilizando los controles deslizantes de *Compensación de Exposición*
     y *Nivel de Negro* para llevar la imagen a una apariencia correcta.
     Una vez que la imagen se vea bien, continúa con las *Curvas tonales*
     (al final de la herramienta *Exposición*). **Asegúrate de leer la
-    sección [*Curvas Tonales*](Exposure/es#Curvas_Tonales.md)**
+    sección [*Curvas Tonales*](exposure/es#curvas_tonales)**
     en el artículo sobre la *Exposición* para aprender por qué hay dos
     curvas y cómo usarlas correctamente: ¡son una herramienta muy
     potente!
 5.  En la sección de *Procedimientos Básicos*, te hemos sugerido que
     utilices el control deslizante
-    [*Saturación*](Exposure/es#Saturación.md) (en la herramienta
+    [*Saturación*](exposure/es#saturación) (en la herramienta
     *Exposición*). Ahora que ya has aprendido lo básico y estás
     explorando técnicas más avanzadas, te sugerimos que ya no uses el
     control deslizante de *Saturación*, sino que utilices la [*curva
     CC*](Lab_Adjustments/es#Curva_CC.md) de la herramienta
-    [*Ajustes Lab*](Lab_Adjustments/es.md), ya que te
+    [*Ajustes Lab*](lab_adjustments/es), ya que te
     proporciona un control más preciso.
 6.  El orden del resto no está demasiado definido. Algunas herramientas
     influirán inevitablemente en otras. Sigue con la herramienta
@@ -431,13 +431,13 @@ operaciones:
     imagen a tamaño real (no la vista previa). Un proceso lento, pero de
     alta calidad.
 10. Puedes editar los metadatos en la pestaña
-    [*Metadatos*](Metadata_Copy_Mode/es.md) (
+    [*Metadatos*](metadata_copy_mode/es) (
     ![<File:Metadata.png>](Metadata.png "File:Metadata.png") ) en
     cualquier momento antes de guardar la imagen.
 11. Guárdalo todo, ya sea directamente con el botón
     ![<File:save.png>](save.png "File:save.png") (en la parte inferior
     de la pantalla) cuando quieras guardar una sola foto, o a través de
-    la [*Cola de lotes*](The_Batch_Queue/es.md) (
+    la [*Cola de lotes*](the_batch_queue/es) (
     ![<File:gears.png>](gears.png "File:gears.png") ) cuando quieras
     procesar y guardar muchas fotos. Léete el artículo [*Guardar
     imágenes*](Saving_Images/es.md).

@@ -38,7 +38,7 @@ width="90" height="60" />
 
 <div style="background-color: #f6f6f6; border: 1px solid #aaa; padding: 1em; margin-bottom: 1em;">
 
-[right](image:Rawtherapee_rawpedia_header1_h300.jpg.md)
+[right](image:rawtherapee_rawpedia_header1_h300.jpg)
 
 ## RawTherapee
 
@@ -46,30 +46,30 @@ width="90" height="60" />
 
 <div style="column-count:3;-moz-column-count:3;-webkit-column-count:3;">
 
-- [Introduzione](Getting_Started/it.md)
-- [Caratteristice](Features/it.md)
-- [Il motore a virgola mobile](The_Floating_Point_Engine/it.md)
-- [8-bit e 16-bit](8-bit_and_16-bit/it.md)
-- [RGB e Lab](RGB_and_Lab/it.md)
+- [Introduzione](getting_started/it)
+- [Caratteristice](features/it)
+- [Il motore a virgola mobile](the_floating_point_engine/it)
+- [8-bit e 16-bit](8-bit_and_16-bit/it)
+- [RGB e Lab](rgb_and_lab/it)
 - [Creare un'installazione
   portatile](Making_a_Portable_Installation/it.md)
-- [Il pannello Navigatore](The_File_Browser_Tab/it.md)
+- [Il pannello Navigatore](the_file_browser_tab/it)
 - [Il pannello di Elaborazione
   Immagine](The_Image_Editor_Tab/it.md)
 - [Correzioni in sequenza -
   Sincronia](Batch_Adjustments_-_Sync/it.md)
-- [Salvataggio](Saving/it.md)
-- [La coda di elaborazione](The_Batch_Queue/it.md)
+- [Salvataggio](saving/it)
+- [La coda di elaborazione](the_batch_queue/it)
 - [Correggere l'immagine corrente in programma
   esterno](Edit_Current_Image_in_External_Editor/it.md)
-- [Opzioni a linea di comando](Command-Line_Options/it.md)
-- [Scorciatoie di tastiera](Keyboard_Shortcuts/it.md)
+- [Opzioni a linea di comando](command-line_options/it)
+- [Scorciatoie di tastiera](keyboard_shortcuts/it)
 - [Aggiungere supporto per i nuovi formati
   raw](Adding_Support_for_New_Raw_Formats/it.md)
-- [Percorsi e Documenti](File_Paths/it.md)
-- [Preferenze](Preferences/it.md)
-- [Negativo](Negative/it.md)
-- [GIMP Plugin](GIMP_Plugin/it.md)
+- [Percorsi e Documenti](file_paths/it)
+- [Preferenze](preferences/it)
+- [Negativo](negative/it)
+- [GIMP Plugin](gimp_plugin/it)
 
 </div>
 <hr />
@@ -90,16 +90,16 @@ width="90" height="60" />
 
 #### Profili di elaborazione come script
 
-- [RTProfileSelector](RTProfileSelector/it.md)
-- [RTbatch](RTbatch/it.md)
+- [RTProfileSelector](rtprofileselector/it)
+- [RTbatch](rtbatch/it)
 
 </div>
 <div style="display: inline-block; width: 100%;">
 
 #### Profili di elaborazione forniti
 
-- [Predefiniti](Default/it.md)
-- [Faded](Faded/it.md)
+- [Predefiniti](default/it)
+- [Faded](faded/it)
 
 </div>
 </div>
@@ -115,25 +115,25 @@ width="90" height="60" />
 
 #### Pannello esposizione
 
-- [Esposizione](Exposure/it.md)
-- [Ombre/Alteluci](Shadows/Highlights/it.md)
-- [Tone Mapping](Tone_Mapping/it.md)
-- [Retinex](Retinex/it.md)
-- [Filtro vignettatura](Vignetting_Filter/it.md)
-- [Filtro graduale](Graduated_Filter/it.md)
-- [Correzioni Lab](Lab_Adjustments/it.md)
-- [CIECAM02: Modello di aspetto Colore CIE 2002](CIECAM02/it.md)
+- [Esposizione](exposure/it)
+- [Ombre/Alteluci](shadows/highlights/it)
+- [Tone Mapping](tone_mapping/it)
+- [Retinex](retinex/it)
+- [Filtro vignettatura](vignetting_filter/it)
+- [Filtro graduale](graduated_filter/it)
+- [Correzioni Lab](lab_adjustments/it)
+- [CIECAM02: Modello di aspetto Colore CIE 2002](ciecam02/it)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Pannello Dettagli
 
-- [Nitidezza](Sharpening/it.md)
-- [Bordi e Microcrontasto](Edges_and_Microcontrast/it.md)
-- [Riduzione Rumore Puntuale](Impulse_Noise_Reduction/it.md)
-- [Riduzione Rumore](Noise_Reduction/it.md)
-- [Defringe](Defringe/it.md)
+- [Nitidezza](sharpening/it)
+- [Bordi e Microcrontasto](edges_and_microcontrast/it)
+- [Riduzione Rumore Puntuale](impulse_noise_reduction/it)
+- [Riduzione Rumore](noise_reduction/it)
+- [Defringe](defringe/it)
 - [Contrasto con Livelli di
   Dettaglio](Contrast_by_Detail_Levels/it.md)
 
@@ -142,16 +142,16 @@ width="90" height="60" />
 
 #### Pannello Colore
 
-- [Bilanciamento del Bianco](White_Balance/it.md)
-- [Vividezza](Vibrance/it.md)
-- [Miscelatore Canali](Channel_Mixer/it.md)
-- [Bianco e Nero](Black-and-White/it.md)
-- [Supplemento Bianco e Nero](Black-and-White_addon/it.md)
-- [Equalizzatore HSV](HSV_Equalizer/it.md)
-- [Simulazione Pellicola](Film_Simulation/it.md)
-- [Curve RGB](RGB_Curves/it.md)
-- [Tonalità del Colore](Color_Toning/it.md)
-- [Gestione del Colore](Color_Management/it.md)
+- [Bilanciamento del Bianco](white_balance/it)
+- [Vividezza](vibrance/it)
+- [Miscelatore Canali](channel_mixer/it)
+- [Bianco e Nero](black-and-white/it)
+- [Supplemento Bianco e Nero](black-and-white_addon/it)
+- [Equalizzatore HSV](hsv_equalizer/it)
+- [Simulazione Pellicola](film_simulation/it)
+- [Curve RGB](rgb_curves/it)
+- [Tonalità del Colore](color_toning/it)
+- [Gestione del Colore](color_management/it)
 - [Supplemento Gestione del
   Colore](Color_Management_addon/it.md)
 
@@ -160,37 +160,37 @@ width="90" height="60" />
 
 #### Pannello Wavelets
 
-- [Wavelets/it](Wavelets/it.md)
+- [Wavelets/it](wavelets/it)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Pannello Trasformazione
 
-- [Ritaglio](Crop/it.md)
-- [Ridimensionamento](Resize/it.md)
-- [Obiettivo/Geometria](Lens/Geometry/it.md)
+- [Ritaglio](crop/it)
+- [Ridimensionamento](resize/it)
+- [Obiettivo/Geometria](lens/geometry/it)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Pannello Raw
 
-- [Demosaicizzazione](Demosaicing/it.md)
-- [Pre-elaborazione](Preprocessing/it.md)
-- [Aberrazionei cromatiche](Chromatic_Aberration/it.md)
-- [Punto di Nero Raw](Raw_Black_Points/it.md)
-- [Punto di Bianco Raw](Raw_White_Points/it.md)
-- [Dark Frame/it](Dark_Frame/it.md)
-- [Flat Field/it](Flat_Field/it.md)
+- [Demosaicizzazione](demosaicing/it)
+- [Pre-elaborazione](preprocessing/it)
+- [Aberrazionei cromatiche](chromatic_aberration/it)
+- [Punto di Nero Raw](raw_black_points/it)
+- [Punto di Bianco Raw](raw_white_points/it)
+- [Dark Frame/it](dark_frame/it)
+- [Flat Field/it](flat_field/it)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Pannello Metadata
 
-- [Pannello Exif](Exif_Tab/it.md)
-- [Pannello IPTC](IPTC_Tab/it.md)
+- [Pannello Exif](exif_tab/it)
+- [Pannello IPTC](iptc_tab/it)
 
 </div>
 </div>
@@ -198,15 +198,15 @@ width="90" height="60" />
 
 ### Contatti
 
-- [Forum/it](Forum/it.md)
-- [IRC/it](IRC/it.md)
-- [Google+/it](Google+/it.md)
+- [Forum/it](forum/it)
+- [IRC/it](irc/it)
+- [Google+/it](google+/it)
 
 ### Compilazione
 
-- In [Linux/it](Linux/it.md)
-- In [Windows/it](Windows/it.md)
-- In [macOS/it](macOS/it.md)
+- In [Linux/it](linux/it)
+- In [Windows/it](windows/it)
+- In [macOS/it](macos/it)
 
 ### Risoluzone Problemi
 
@@ -230,7 +230,7 @@ width="90" height="60" />
   DCP](How_to_get_LCP_and_DCP_profiles/it.md)
 - [Come trovare i profile Nikon
   ICM](How_to_get_Nikon_ICM_profiles/it.md)
-- [Watermarking](Watermarking/it.md)
+- [Watermarking](watermarking/it)
 - [Formati dei file immagine e
   compressione](Image_file_formats_and_compression/it.md)
 

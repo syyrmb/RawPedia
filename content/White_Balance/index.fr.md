@@ -53,15 +53,15 @@ couleur, typiquement chaude (orange), ou froide (bleue). Certains
 utilisent cela à des fins d'effets créatifs. Cependant divers outils et
 opérations présument que la balance des blancs de l'image est correcte,
 par exemple la reconstruction des hautes lumières dans l'outil
-[Exposition](Exposure/fr.md), le réglage des tons chairs dans
+[Exposition](exposure/fr), le réglage des tons chairs dans
 l'outil [Contraste par niveaux de
 détail](Contrast_by_Detail_Levels/fr.md) ou des tons ciel dans
-l'outil [Ondelettes](Wavelets/fr.md), l'outil
-[CIECAM02](CIECAM02/fr.md) etc). Ainsi, ne faites pas une
+l'outil [Ondelettes](wavelets/fr), l'outil
+[CIECAM02](ciecam02/fr) etc). Ainsi, ne faites pas une
 mauvaise utilisation de l'outil balance des blancs pour créer une
 dominante de couleur à des fins artistiques, mais utilisez le plutôt
 pour vous assurer que les zones neutres restent neutres, puis utilisez
-[Virage partiel](Color_Toning/fr.md) ou tout autre outil pour
+[Virage partiel](color_toning/fr) ou tout autre outil pour
 apporter des dominantes créatrices.
 
 L'outil balance des blancs peut être activé/désactivé. Désactivé, les
@@ -77,7 +77,7 @@ La balance des blancs peut-être obtenue de différentes façons : Appareil
 photo, Auto, Personnalisé ou une multitude de réglages prédéfinis pour
 différentes sources de lumière.
 
-- [image:Wb-camera.png](image:Wb-camera.png.md) Appareil photo
+- [image:Wb-camera.png](image:wb-camera.png) Appareil photo
 
   
 Reprend la balance des blancs utilisée par l'appareil photo. Si vous
@@ -85,7 +85,7 @@ prenez les vues en mode raw uniquement (c'est à dire pas de raw+jpg),
 paramétrez la balance des blancs de l'appareil sur Auto. Cela donne en
 général de bons résultats.
 
-- [image:Wb-auto.png](image:Wb-auto.png.md) Auto
+- [image:Wb-auto.png](image:wb-auto.png) Auto
 
 Deux algorithmes sont à votre disposition
 
@@ -116,24 +116,24 @@ Deux algorithmes sont à votre disposition
 
 <!-- -->
 
-- [image:Wb-custom.png](image:Wb-custom.png.md) Personnalisé
+- [image:Wb-custom.png](image:wb-custom.png) Personnalisé
 
   
 Réglez votre propre température de couleur et teinte de vert en
 déplaçant les deux curseurs et/ou en utilisant l'outil Point de mesure.
 
 - Présélections de sources de lumière
-  - [image:Wb-sun.png](image:Wb-sun.png.md) Lumière du jour
+  - [image:Wb-sun.png](image:wb-sun.png) Lumière du jour
     (ensoleillé)
-  - [image:Wb-cloudy.png](image:Wb-cloudy.png.md) Nuageux
-  - [image:Wb-shade.png](image:Wb-shade.png.md) Ombre
-  - [image:Wb-water.png](image:Wb-water.png.md) sous marin
-  - [image:Wb-tungsten.png](image:Wb-tungsten.png.md) Tungstène
-  - [image:Wb-fluorescent.png](image:Wb-fluorescent.png.md)
+  - [image:Wb-cloudy.png](image:wb-cloudy.png) Nuageux
+  - [image:Wb-shade.png](image:wb-shade.png) Ombre
+  - [image:Wb-water.png](image:wb-water.png) sous marin
+  - [image:Wb-tungsten.png](image:wb-tungsten.png) Tungstène
+  - [image:Wb-fluorescent.png](image:wb-fluorescent.png)
     Fluorescent
-  - [image:Wb-lamp.png](image:Wb-lamp.png.md) Lampe
-  - [image:Wb-led.png](image:Wb-led.png.md) LED
-  - [image:Wb-flash.png](image:Wb-flash.png.md) Flash
+  - [image:Wb-lamp.png](image:wb-lamp.png) Lampe
+  - [image:Wb-led.png](image:wb-led.png) LED
+  - [image:Wb-flash.png](image:wb-flash.png) Flash
 
 ### Observer (branch whitebalanceopt)
 

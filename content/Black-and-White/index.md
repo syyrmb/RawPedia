@@ -18,7 +18,7 @@ black-and-white one.
 
 For black-and-white color toning, see the [Black and White Color
 Toning](Lab_Adjustments#Black-and-White_Color_Toning.md) section
-described in the [Lab Adjustments](Lab_Adjustments.md) chapter,
-[Exposure](Exposure.md) tab.
+described in the [Lab Adjustments](lab_adjustments) chapter,
+[Exposure](exposure) tab.
 
   

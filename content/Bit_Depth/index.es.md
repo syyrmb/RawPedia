@@ -242,7 +242,7 @@ ser contraproducente y **será mejor que emplees una gamma lineal**
 ## Si sigues con el procesado después de RawTherapee
 
 Una vez que hayas procesado una foto en RawTherapee y te dispongas a
-[guardarla](Saving_Images/es.md), siempre tendrás la misma duda:
+[guardarla](saving_images/es), siempre tendrás la misma duda:
 qué formato de archivo, qué profundidad de bits por canal, [qué perfil
 de color](Color_Management/es#El_perfil_de_salida.md) y [qué
 gamma](Color_Management/es#La_corrección_gamma.md) usar.

@@ -65,7 +65,7 @@ ColorPlus 200 ou Gold 200.
     existe un, est le plus simple.
       
     La sélection des points neutres change la valeur des données raw
-    dans le [pipeline](Toolchain_Pipeline/fr.md) avant l'action
+    dans le [pipeline](toolchain_pipeline/fr) avant l'action
     de l'outil balance des blancs, cependant il est recommandé
     d'utiliser la balance des blancs sur la photo après la sélection des
     points neutres. Si vous procédez à l'inverse, c'est correct aussi

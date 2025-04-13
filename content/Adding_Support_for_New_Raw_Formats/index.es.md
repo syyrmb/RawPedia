@@ -35,7 +35,7 @@ siguiente:
   - determinar dónde se sitúa la imagen en la matriz de fotodiodos del
     sensor de la cámara (el [***recorte
     raw***](#Recorte_raw.md)).
-  - crear un [***perfil de entrada***](#Perfil_de_entrada.md)
+  - crear un [***perfil de entrada***](#perfil_de_entrada)
     que reproduzca los colores con exactitud.
 
 Tendrás que tomar las fotografías, pero no necesitarás esforzarte por

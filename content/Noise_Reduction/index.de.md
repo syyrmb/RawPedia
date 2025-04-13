@@ -8,7 +8,7 @@ Todo: übersetzen
 
 Seite schon angelegt und Überschrift übersetzt, um sie zu referenzieren.
 
-[fherb](User:Fherb.md) ([talk](User_talk:Fherb.md))
+[fherb](user:fherb) ([talk](user_talk:fherb))
 12.3.2017
 
 ------------------------------------------------------------------------

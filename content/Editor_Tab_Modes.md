@@ -5,4 +5,4 @@ contributors:
   - Thanatomanic
 ---
 
-1.  REDIRECT [Editor](Editor.md).
+1.  REDIRECT [Editor](editor).

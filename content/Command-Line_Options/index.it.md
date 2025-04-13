@@ -30,13 +30,13 @@ Utilizzo:
 `rawtherapee `<selected dir>
 
   
-Avvia [il Navigatore](The_File_Browser_Tab.md) nel percorso
+Avvia [il Navigatore](the_file_browser_tab) nel percorso
 indicato.
 
 `rawtherapee `<file>
 
   
-Avvia [il Navigatore](The_Image_Editor_Tab.md) con l'immagine
+Avvia [il Navigatore](the_image_editor_tab) con l'immagine
 indicata.
 
 <!-- -->
@@ -246,7 +246,7 @@ sovrascrivere quella precedente, come spiegato di seguito.
 
   
 Usa il file PP3 predefinito specificato in
-"[Preferences](Main_Page#Preferences.md) \> [Image
+"[Preferences](main_page#preferences) \> [Image
 Processing](Image_Processing_Tab.md) \> [Default Processing
 Profile](Image_Processing_Tab#Default_Processing_Profile.md)"
 

@@ -4,8 +4,8 @@ contributors:
   - Andrea.romagnoli
 ---
 
-[thumb](image:defringe.jpg.md)
-[thumb](image:defringe_curve.png.md) Le frange viola sono una
+[thumb](image:defringe.jpg)
+[thumb](image:defringe_curve.png) Le frange viola sono una
 forma di aberrazione cromatica assiale (o longitudinale) e appaiono su
 spigoli scuri adiacenti a zone luminose a causa della messa a fuoco
 sbagliata, delle imperfezioni delle lenti o semplicemente (ma più

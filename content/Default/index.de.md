@@ -23,7 +23,7 @@ im Editor geöffnet wird. (Bei allen anderen Fotos wird hingegen das
 *Neutral*-Profil verwendet.) Falls das nicht gewünscht ist, kannst du
 das umstellen. Siehe hierzu auch:
 
-- [Standard-Bildverarbeitungsparameter](Preferences/de#Standard-Bildverarbeitungsparameter.md)
+- [Standard-Bildverarbeitungsparameter](preferences/de#standard-bildverarbeitungsparameter)
 - [Erstellung von Bearbeitungsprofilen für die allgemeine
   Verwendung](Creating_processing_profiles_for_general_use/de.md)
 

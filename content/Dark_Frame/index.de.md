@@ -8,7 +8,7 @@ Todo: übersetzen
 
 Seite angelegt, um sie zu referenzieren
 
-[fherb](User:Fherb.md) ([talk](User_talk:Fherb.md))
+[fherb](user:fherb) ([talk](user_talk:fherb))
 12.3.2017
 
 ------------------------------------------------------------------------
@@ -32,7 +32,7 @@ settings, this is not a problem.
 In the "Dark-Frame" panel, you can specify a single shot to subtract
 from the image, or check "Auto-Selection" and let RT choose the best
 match from the directory specified in
-"[Preferences](Preferences.md) \> Image Processing \>
+"[Preferences](preferences) \> Image Processing \>
 Dark-Frame". Under the widget, RT shows how many shots are found and how
 many groups of shots are found and averaged into a template. From now
 on, put your dark-frame shots there if not already done. You could also
@@ -85,11 +85,11 @@ specify the offset (4 for Bayer, 7 for X-Trans) in the first line of the
 
 The file has to be located in your dark-frames directory. Set it by
 going to "*Preferences
-[image:Gtk-preferences.png](image:Gtk-preferences.png.md) \>
+[image:Gtk-preferences.png](image:gtk-preferences.png) \>
 Image Processing \> Dark-Frame*". The file has to be named exactly as
 your camera's make and model: "*make model.badpixels*". Get the make and
 model as RawTherapee expects them by opening a raw image you want
-corrected in the [Image Editor](The_Image_Editor_Tab.md) tab and
+corrected in the [Image Editor](the_image_editor_tab) tab and
 looking at the displayed name and model in the "Quick info
 ![Image:info.png](info.png "Image:info.png")" overlay, shortcut "**i**",
 e.g.: "`Pentax K200D.badpixels`"
@@ -99,7 +99,7 @@ directory!
 
 If you've done the steps correctly and it still doesn't work, you can
 verify that your badpixels file is being read by closing RawTherapee,
-editing the "[options](File_Paths.md)" file in a text editor and
+editing the "[options](file_paths)" file in a text editor and
 changing "*Verbose=false*" to "*Verbose=true*", then starting
 RawTherapee from a console, opening the photo you want fixed, and
 looking at the text output in the console. If you see a message like

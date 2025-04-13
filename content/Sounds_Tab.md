@@ -5,4 +5,4 @@ contributors:
   - Thanatomanic
 ---
 
-1.  REDIRECT [Preferences#Sounds_Tab](Preferences#Sounds_Tab.md)
+1.  REDIRECT [Preferences#Sounds_Tab](preferences#sounds_tab)

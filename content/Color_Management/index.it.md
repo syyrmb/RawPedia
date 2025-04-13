@@ -247,7 +247,7 @@ il progettista del progetto ha inteso i colori da visualizzare, è
 necessario abilitare la curva di tono.
 
 Mentre il profilo di colore dell'ingresso viene applicato nelle prime
-fasi della [pipeline toolchain](Toolchain_Pipeline.md), la curva
+fasi della [pipeline toolchain](toolchain_pipeline), la curva
 del tono DCP viene applicata in un secondo momento in un punto dopo lo
 strumento Esposizione.
 
@@ -372,7 +372,7 @@ sarebbe abbastanza perdente.
 Gli indicatori principali dell'istogramma, del navigatore e del ritaglio
 utilizzeranno il profilo di lavoro o di uscita, a seconda
 dell'impostazione in Preference\>
-[Generale](Preferences/it#General_Tab.md).
+[Generale](preferences/it#general_tab).
 
 RawTherapee viene fornito con una serie di profili di produzione di alta
 qualità su misura:

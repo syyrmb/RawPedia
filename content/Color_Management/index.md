@@ -26,7 +26,7 @@ various options of the Color Management tool are explained below.
 ## Input Profile
 
 An essential first step in raw processing is the faithful conversion of
-the [camera sensor data](Demosaicing#Introduction.md) to an
+the [camera sensor data](demosaicing#introduction) to an
 internal RGB color space. This conversion requires an input profile made
 specifically for the camera. Such a profile is the result of the
 analysis of how specific colors and tones are captured, processed and
@@ -40,7 +40,7 @@ camera-specific input profile, accurate color representation is
 impossible.
 
 The input profile is applied to the image data at the beginning of
-RawTherapee's [processing pipeline](Toolchain_Pipeline.md)
+RawTherapee's [processing pipeline](toolchain_pipeline)
 because most tools depend on it. There are several ways to apply an
 input profile.
 
@@ -120,7 +120,7 @@ the exact name of the camera (case-sensitive) as is present in the image
 metadata.
 
 Most provided DCP profiles are dual-illuminant (see
-[below](Color_Management#DCP_Illuminant.md)) and some provide
+[below](color_management#dcp_illuminant)) and some provide
 tone curves and looks as well. New profiles are added exclusively based
 on user submission. Please read [How to create DCP color
 profiles](How_to_create_DCP_color_profiles.md) for further
@@ -170,7 +170,7 @@ simulating camera maker settings. The tone curve checkbox will be
 disabled for profiles which do not contain a tone curve.
 
 The curve mode used by the DCP tone curve is the same as the Exposure
-tool's "[film-like](Exposure#Film-Like.md)" mode, meaning you
+tool's "[film-like](exposure#film-like)" mode, meaning you
 can reproduce the effect using the Exposure tool's tone curves in
 film-like mode. When contrast is applied with a film-like curve the
 appearance of the colors will change and overall saturation is
@@ -183,7 +183,7 @@ Exposure tool's curves, but if you want to see exactly how the profile
 designer intended the colors to look you should enable the tone curve.
 
 While the input color profile is applied at the first stages of the
-[toolchain pipeline](Toolchain_Pipeline.md), the DCP tone curve
+[toolchain pipeline](toolchain_pipeline), the DCP tone curve
 is applied later in the pipeline at some point after the Exposure tool.
 
 If the DCP profile has a copyright tag with the value "Adobe Systems",
@@ -265,8 +265,8 @@ exposure if the DCP contains one.
 The DCP format also has a black render tag. This indicates if the raw
 converter should do "automatic" black subtraction or not. RawTherapee
 ignores this tag - you can perform manual black subtraction with the
-[Raw Black Points](Raw_Black_Points.md) tool or with the
-[black](Exposure#Black.md) slider in the Exposure tool. As many
+[Raw Black Points](raw_black_points) tool or with the
+[black](exposure#black) slider in the Exposure tool. As many
 of Adobe's profiles indicate auto black subtraction and Adobe Camera
 Raw/Lightroom does it, in those cases RawTherapee will render slightly
 lower contrast and brighter shadows.
@@ -304,7 +304,7 @@ the exposure adjustment and will thus be in the wrong place after
 adjustment; that is you don't get the same look as in Phase One's
 Capture One. Therefore it is recommended to have the right exposure out
 of the camera when using Phase One ICC profiles. You should also apply a
-suitable RGB [film-like](Exposure#Film-Like.md) curve, as those
+suitable RGB [film-like](exposure#film-like) curve, as those
 ICC profiles are designed to be used together with that.
 
 We are aware that LUT ICCs should typically be applied after exposure

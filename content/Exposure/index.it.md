@@ -47,7 +47,7 @@ ritagliati, se presenti. Ricorda che questo strumento viene utilizzato
 per la ricostruzione delle alteluci, mentre se si desidera solo
 comprimere le alteluci che sono state tagliate a causa dell'uso, ad
 esempio, di *Compensazione dell'esposizione*, utilizzare il cursore
-[Compressione Alteluci](Exposure#Highlight_Compression.md) (HC).
+[Compressione Alteluci](exposure#highlight_compression) (HC).
 Il pulsante *Auto Levels* abilita automaticamente *Ricostruzione
 Alteluci* se necessario.
 

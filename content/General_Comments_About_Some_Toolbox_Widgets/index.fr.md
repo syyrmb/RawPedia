@@ -44,7 +44,7 @@ limiter le besoin de faire défiler.
 La plupart des outils présentent un bouton d'activation à gauche de leur
 titre qui vous permet d'activer/désactiver cet outil. Ce bouton peut
 aussi prendre un état "intermédiaire" si vous sélectionnez deux photos
-ou plus dans le [Navigateur de fichiers](File_Browser/fr.md).
+ou plus dans le [Navigateur de fichiers](file_browser/fr).
 Dans cet état, l'outil est activé pour certaines des photos
 sélectionnées et désactivé pour les autres. Certains outils, à la place
 du bouton activer/désactiver, ont un "extenseur" qui permet d'étendre ou
@@ -143,7 +143,7 @@ l'image indifféremment du fait qu'elle soit visible ou non.
 Chaque courbe peut être resettée,
 ![<File:Undo-small.png>](Undo-small.png "File:Undo-small.png") à sa
 valeur par défaut. Certaines courbes fonctionnent en groupe, par exemple
-les courbes d'[Ajustements L\*a\*b\*](Lab_Adjustments/fr.md), il
+les courbes d'[Ajustements L\*a\*b\*](lab_adjustments/fr), il
 n'y a qu'un bouton reset pour tout le groupe et il s'applique à la
 courbe sélectionnée. Cliquer sur le bouton de la liste déroulante des
 types de courbe pour effectuer cette sélection.
@@ -251,7 +251,7 @@ courbes peuvent faire tout ce qui est faisable avec des systèmes de
 main et mieux ce sera.
 
 En guise d'exemple, observons la "Courbe personnalisée" (copie d'écran
-sur la droite), dans l'outil [Exposition](Exposure/fr.md). Il y
+sur la droite), dans l'outil [Exposition](exposure/fr). Il y
 a une grille en arrière plan avec des lignes espacées de 10%.
 L'extrémité gauche de l'axe horizontal (entrées) représente le noir pur,
 puis les ombres, puis les tons moyens, puis les hautes lumières et
@@ -339,25 +339,25 @@ contrôle aux autres.
 
 ### La Courbe Plate
 
-[frame](image:Flat_curve_justcurve.png.md) Nombre d'outils de
+[frame](image:flat_curve_justcurve.png) Nombre d'outils de
 RawTherapee utilisent la *Courbe Plate* :
 
-- [Ajustements Lab](Lab_Adjustments/fr.md)
-  - [LT](Lab_Adjustments/fr#Courbe_LT.md)
-  - [CT](Lab_Adjustments/fr#Courbe_CT.md)
-  - [TT](Lab_Adjustments/fr#Courbe_TT.md)
-- [Aberration chromatique](Defringe/fr.md)
-  - [Teinte](Defringe/fr#Teinte.md)
-- [Egaliseur TSV](HSV_Equalizer/fr.md)
-  - [T](HSV_Equalizer/fr#H.md)
-  - [S](HSV_Equalizer/fr#S.md)
-  - [V](HSV_Equalizer/fr#V.md)
+- [Ajustements Lab](lab_adjustments/fr)
+  - [LT](lab_adjustments/fr#courbe_lt)
+  - [CT](lab_adjustments/fr#courbe_ct)
+  - [TT](lab_adjustments/fr#courbe_tt)
+- [Aberration chromatique](defringe/fr)
+  - [Teinte](defringe/fr#teinte)
+- [Egaliseur TSV](hsv_equalizer/fr)
+  - [T](hsv_equalizer/fr#h)
+  - [S](hsv_equalizer/fr#s)
+  - [V](hsv_equalizer/fr#v)
 
 C'est d'utilisation très simple une fois le principe compris, aussi
-utilisons l'[égaliseur TSV](HSV_Equalizer/fr.md) dans l'onglet
+utilisons l'[égaliseur TSV](hsv_equalizer/fr) dans l'onglet
 ![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png")
 Couleur en guise d'exemple. Cliquez sur l'icône de la liste déroulante
-[image:Drop-down.png](image:Drop-down.png.md) près du bouton
+[image:Drop-down.png](image:drop-down.png) près du bouton
 T(einte) et choisissez
 ![<File:Curve-controlpoints-small.png>](Curve-controlpoints-small.png "File:Curve-controlpoints-small.png")
 *"Points de contrôle minima/maxima"*. Vous voyez maintenant six points
@@ -384,12 +384,12 @@ lui-même. Pour ne déplacer le point que dans une seule direction
 (horizontale ou verticale) vous pouvez utiliser la fonction 'accrocher'
 en tenant enfoncée la touche Maj pendant le déplacement du point.
 
-[frame](image:Flat_curve_zoom.png.md) Il est facile de voir si
+[frame](image:flat_curve_zoom.png) Il est facile de voir si
 un point est dans sa position neutre (c'est à dire sur la ligne du
 milieu) car dans ce cas, sa couleur est verte. Dès que vous bougez un
 point de sa valeur neutre, il devient noir.
 
-L'[Egaliseur TSV](HSV_Equalizer/fr.md) s'enroule autour de l'axe
+L'[Egaliseur TSV](hsv_equalizer/fr) s'enroule autour de l'axe
 horizontal, si bien que la ligne verticale complètement à gauche est la
 même que celle complètement à droite. Vous pouvez le constater en
 glissant la ligne rouge à gauche un peu plus vers la gauche. Maintenant
@@ -414,7 +414,7 @@ arrive à votre photo.
 
 Ré-initialiser la courbe *Teinte* sur "*Linéaire*" (supprimer tout
 changement) en cliquant sur l'icône de ré-initialisation
-[image:Gtk-undo-ltr.png](image:Gtk-undo-ltr.png.md) à droite du
+[image:Gtk-undo-ltr.png](image:gtk-undo-ltr.png) à droite du
 bouton *Valeur*. Pour comparer entre les effets de la courbe *Teinte*
 avec linéaire : commuter entre "*Linéaire*" et "*Points de contrôle
 minima/maxima*" dans le menu déroulant placé auprès de ce bouton. Ou
@@ -436,7 +436,7 @@ teinte ou de la saturation) que vous désirez voir traitée (ou traitée
 différemment).
 
 Comme exemple, considérons l'éditeur de la courbe de seuil de l'outil
-Détail -\> [Netteté](Sharpening/fr.md).
+Détail -\> [Netteté](sharpening/fr).
 ![](_Sharpening_Threshold_fr.png "_Sharpening_Threshold_fr.png") Dans
 l'exemple présenté, la courbe indique à l'outil netteté d'introduire
 rapidement la netteté dans les zones sombres (la ligne en pente raide
@@ -459,7 +459,7 @@ commentaire s'applique aussi aux Courbes Tonales et aux Courbes Plates.
 
 Vous trouverez également des Courbes de seuil dans les outils [Contraste
 par niveaux de détail](Contrast_by_Detail_Levels/fr.md) et
-[Vibrance](Vibrance/fr.md).
+[Vibrance](vibrance/fr).
 
 Vous avez sans doute remarqué que les Courbes de Seuil sont en fait
 constituées de quelques segments de droite plutôt que de courbes. Si
@@ -476,7 +476,7 @@ pleine et entière (ce qui demanderait exactement le même temps que pour
 l'enregistrement, rendant impossible l'usage des curseurs et des courbes
 pendant ce temps), mais sur l'image de l'aperçu qui fait la taille de la
 fenêtre de l'aperçu. Par ailleurs, beaucoup d'outils, tels que l'outil
-[Exposition](Exposure/fr.md), peuvent s'appliquer sur une image
+[Exposition](exposure/fr), peuvent s'appliquer sur une image
 de n'importe quelle taille, et leurs effets seront identiques
 indépendamment de la taille de l'image en question. Cependant, certains
 outils dépendent de la taille, par exemple, tous les outils de l'onglet

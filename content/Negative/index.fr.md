@@ -23,7 +23,7 @@ possibles de contournement :
 2.  Utiliser un Hald CLUT négatif via l'outil [Simulation de
     film](Film_Simulation/fr.md). La "Collection de simulations
     de Film de RawTherapee" en contient un, procurez vous le depuis la
-    page [Simulation de film](Film_Simulation/fr.md).
+    page [Simulation de film](film_simulation/fr).
     L'inconvénient de cette méthode est que certains contrôles peuvent
     agir à l'envers, tel que le curseur Exposition, et vous risquez
     d'obtenir des écrêtages dans les ombres et/ou dans les hautes

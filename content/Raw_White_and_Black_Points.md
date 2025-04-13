@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Raw Black Points](Raw_Black_Points.md)
+1.  REDIRECT [Raw Black Points](raw_black_points)

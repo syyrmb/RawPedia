@@ -40,13 +40,13 @@ la compilation que vous utilisez a pris ceci en compte.
 Le dossier config de RawTherapee contient :
 
 - le fichier "options" qui contient tous vos paramètres établis dans
-  [Préférences](Preferences/fr.md),
+  [Préférences](preferences/fr),
 - le dossier "batch" qui regroupe les [profils de
   traitement](Sidecar_Files_-_Processing_Profiles/fr.md)
   temporaires des photos envoyées dans la [File
   d'attente](The_Batch_Queue/fr.md),
 - le fichier éditable par l'utilisateur
-  [camconst.json](Adding_Support_for_New_Raw_Formats/fr.md), où
+  [camconst.json](adding_support_for_new_raw_formats/fr), où
   vous pouvez définir les détails sur la façon dont un format raw
   spécifique doit être traité (ceux-ci prévalent sur les valeurs du
   fichier système camconst.json),

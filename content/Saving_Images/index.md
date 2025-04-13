@@ -18,7 +18,7 @@ Editor](The_Image_Editor_Tab.md) tab:
 - ![<File:Save.png>](Save.png "File:Save.png") Save immediately from the
   Editor tab,
 - ![<File:Gears.png>](Gears.png "File:Gears.png") Save via the
-  [Queue](Queue.md),
+  [Queue](queue),
 - ![<File:Palette-brush.png>](Palette-brush.png "File:Palette-brush.png")
   [Edit Current Image in External
   Editor](Edit_Current_Image_in_External_Editor.md) (described
@@ -55,7 +55,7 @@ A shortcut for the *OK* button is  + .
 ## Put to the Head / Tail of the Processing Queue
 
 If you click on the gears icon
-[<file:gears.png>](file:gears.png.md) or in the "*Save*" window
+[<file:gears.png>](file:gears.png) or in the "*Save*" window
 choose "*Put to head or tail of the processing queue*", your image will
 be kept in a queue of files to be processed, so RawTherapee can make the
 most of your CPU and be responsive while you tweak your photos. Once
@@ -65,7 +65,7 @@ The benefit of putting it to the queue using the "*Save*" window is that
 you can individually change the file format, name and destination of
 each image, whereas putting images to the queue without using the
 "*Save*" window will use the settings from the
-"[Queue](Queue.md)" tab.
+"[Queue](queue)" tab.
 
 ## Naming
 
@@ -76,4 +76,4 @@ add a suffix if the file already exists*". When checked, you can make
 different versions of one raw, which will be saved as `photo_1000.jpg`,
 `photo_1000-1.jpg`, `photo_1000-2.jpg`, etc. The same applies when you
 send different versions of the same image to the
-[Queue](Queue.md).
+[Queue](queue).

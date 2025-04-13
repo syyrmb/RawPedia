@@ -13,8 +13,8 @@ Todo-List / State:
 
 Ready for publishing: no
 
-Page prepared for referencing only. --[fherb](User:Fherb.md)
-([talk](User_talk:Fherb.md)) 12:48, 14 March 2017 (MST)
+Page prepared for referencing only. --[fherb](user:fherb)
+([talk](user_talk:fherb)) 12:48, 14 March 2017 (MST)
 
 ------------------------------------------------------------------------
 
@@ -28,11 +28,11 @@ or not so well, depending on the "*Edge Stopping*" and "*Scale*"
 sliders. Read the "[Getting the preview to match the saved
 image](Tone_Mapping#Getting_the_preview_to_match_the_saved_image.md)"
 section below. Use a detail window (click on the
-[image:New-detail-window.png](image:New-detail-window.png.md)
+[image:New-detail-window.png](image:new-detail-window.png)
 icon under the [main preview
 panel](The_Image_Editor_Tab#The_Preview_Panel.md)) to inspect a
 part of the image, or zoom the main preview to 100% (also called 1:1)
-[image:Gtk-zoom-100.png](image:Gtk-zoom-100.png.md).
+[image:Gtk-zoom-100.png](image:gtk-zoom-100.png).
 
 ------------------------------------------------------------------------
 

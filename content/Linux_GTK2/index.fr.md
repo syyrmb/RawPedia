@@ -47,7 +47,7 @@ Pour compiler la version 3 obsolète de RawTherapee, vous avez besoin de
 
 Dépendances pour la version 3 obsoléte de RawTherapee :
 
-Reportez vous à l'actuel article [Linux](Linux/fr.md) pour
+Reportez vous à l'actuel article [Linux](linux/fr) pour
 obtenir les instructions de compilation et remplacez les dépendances de
 GTK3 avec celles de GTK2 là où c'est nécessaire. Utilisez la branche
 obsolète `5.0-r1-gtk2`, pas la branche `dev`.

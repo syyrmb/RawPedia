@@ -68,7 +68,7 @@ dabei aber nicht verändert.
 
 ## Lichter rekonstruieren
 
-[250px](image:HighlightReconstructionExample.png.md) Mit dieser
+[250px](image:highlightreconstructionexample.png) Mit dieser
 Funktion kann man (in Grenzen) im RAW-Bild eigentlich überbelichtete
 Details wieder etwas zurückholen. Ob und wie gut das funktioniert hängt
 vor allem davon ab, wie viel Informationen in den 3 Farbkanälen der

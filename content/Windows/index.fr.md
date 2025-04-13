@@ -14,17 +14,17 @@ Windows
 
 Cette page détaille les instructions pour la compilation de RawTherapee
 sur les systèmes "Windows". Il y a aussi des pages séparées avec des
-instructions pour la compilation sur [Linux](Linux.md) et
-[macOS](macOS.md). Ce guide détaille le "quoi" et le "comment"
+instructions pour la compilation sur [Linux](linux) et
+[macOS](macos). Ce guide détaille le "quoi" et le "comment"
 de la compilation. Concernant le "pourquoi" et les explications des
 commandes, pour obtenir la liste des dépendances, pour les options de
 CMake et d'autres informations, veuillez vous référer à l'article
-détaillé pour [Linux](Linux.md).
+détaillé pour [Linux](linux).
 
 Concernant les instructions sur le clonage de la source, le choix de la
 branche, la configuration de CMake et la réalisation de la compilation à
 proprement parler, voir ces instructions dans le guide
-[Linux](Linux.md). Les informations ci-dessous sont un
+[Linux](linux). Les informations ci-dessous sont un
 complément à cela.
 
 RawTherapee exige GTK+ 3.22.24 ou plus récent car c'est la [première
@@ -244,7 +244,7 @@ L' option -DPROC_TARGET_NUMBER="2" va générer une compilation optimisée
 pour votre l'architecture de votre PC (c'est à dire -march=native)
 
 Vous pouvez trouver des explications au sujet de différentes options de
-CMake dans la [page Linux](Linux/fr#CMake.md), y compris une
+CMake dans la [page Linux](linux/fr#cmake), y compris une
 explication des diverses options de "BUILD_TYPE".
 
 Si vous réalisez une compilation pour Windows 32 bits et utilisez le

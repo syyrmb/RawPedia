@@ -79,7 +79,7 @@ jamais encore été éditée dans RawTherapee, la vignette de la photo
 s'appuie sur l'image JPEG intégrée dans le fichier raw, c'est exactement
 la même image que vous voyez affichée sur votre appareil photo et dans
 la plupart des autres logiciels. Une fois cette photo ouverte dans
-[L’Éditeur](The_Image_Editor_Tab/fr.md), RawTherapee crée une
+[L’Éditeur](the_image_editor_tab/fr), RawTherapee crée une
 nouvelle vignette basée sur les données raw actuelles. Puisque la
 création d'une image depuis les données raw demande de la "préparation",
 et puisque vous n'avez pas encore édité manuellement cette image,
@@ -91,7 +91,7 @@ JPEG intégré mais sur les données raw actuelles. La vignette reflète
 maintenant les modifications que vous faites sur l'image dans l’Éditeur.
 
 L'édition est réalisée dans
-[L'Editeur](The_Image_Editor_Tab/fr.md). C'est ici que vous
+[L'Editeur](the_image_editor_tab/fr). C'est ici que vous
 travaillez avec Rawtherapee pour créer de stupéfiants chefs d’œuvres
 graphiques, ou peut-être plus simplement pour apporter les premiers
 soins à vos prises de vues. Lors de l'ouverture d'une photo raw dans
@@ -155,14 +155,14 @@ vous aider à protéger vos images :
   page de Rawpedia [Fichiers accolés – Profils de
   traitement](Sidecar_Files_-_Processing_Profiles/fr.md).
 - Lors de l'utilisation de l'Editeur, vous pouvez voir le panneau
-  [Historique](The_Image_Editor_Tab/fr#Historique.md) sur la
+  [Historique](the_image_editor_tab/fr#historique) sur la
   gauche. Ce panneau affiche la pile de l'historique de tous les
   changements réalisés sur l'image. Pour revenir à n'importe quelle
   étape des modifications (y compris celle originale du premier
   chargement de l'image), il suffit de cliquer sur la ligne
   correspondante dans le panneau de l'historique.
 - Sous le panneau Historique, il y a le panneau
-  [Captures](The_Image_Editor_Tab/fr#Captures.md). Vous pouvez
+  [Captures](the_image_editor_tab/fr#captures). Vous pouvez
   l'oublier pour l'instant, mais vous le trouverez pratique avec un peu
   plus d'expérience de RawTherapee. Ce panneau enregistre l'état de tous
   les outils à un moment donné sous forme d'une "capture". Cela vous
@@ -184,7 +184,7 @@ vous aider à protéger vos images :
     satisfait, vous avez terminé. Sinon, continuez la lecture.
 2.  Cliquer sur l'onglet Couleur
     ![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png")
-    puis ouvrir l'outil [Balance de blancs](White_Balance/fr.md)
+    puis ouvrir l'outil [Balance de blancs](white_balance/fr)
     par un clic droit (ou utilisez le [raccourci
     clavier](Keyboard_Shortcuts/fr.md) ). RawTherapee va
     démarrer avec la balance des blancs utilisée par votre appareil
@@ -195,7 +195,7 @@ vous aider à protéger vos images :
     sur une zone sans couleur (gris neutre). Ajuster à son goût.
 3.  Ensuite, régler l'exposition en allant dans l'onglet Exposition
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png") ouvrir
-    l'outil [Exposition](Exposure/fr.md) et ajuster à son goût.
+    l'outil [Exposition](exposure/fr) et ajuster à son goût.
     Pour l'instant, se limiter aux curseurs Compensation d'exposition et
     Saturation.
 4.  Si votre photo est bruitée, passez sur l'onglet Détail
@@ -205,13 +205,13 @@ vous aider à protéger vos images :
     ou à l'aide du raccourci clavier , car les effets des outils de cet
     onglet ne sont visibles dans l'aperçu que si celui-ci est zoomé à
     100% (et visibles aussi bien sûr dans l'image sauvegardée), et
-    activez l'outil [Réduction du bruit](Noise_Reduction/fr.md)
+    activez l'outil [Réduction du bruit](noise_reduction/fr)
     en cliquant sur le bouton d'activation
     ![<File:Power-on-small.png>](Power-on-small.png "File:Power-on-small.png"),
     laissant pour l'instant les paramètres à leur valeur par défaut.
     RawTherapee a enlevé automatiquement le bruit de couleur
     (chrominance). Le bruit de Luminance est retiré
-    [manuellement](Noise_Reduction/fr#Usage.md), mais laissez le
+    [manuellement](noise_reduction/fr#usage), mais laissez le
     pour l'instant, car le bruit de luminance procure un bel aspect
     présentant du grain comme avec le film. En règle générale, avec
     l'utilisation de la réduction du bruit, ne pas utiliser l'outil
@@ -220,7 +220,7 @@ vous aider à protéger vos images :
     ![<File:Magnifier-fit.png>](Magnifier-fit.png "File:Magnifier-fit.png")
     ou avec la raccourci clavier .
 5.  Maintenant on peut passer à l'amélioration de la
-    [géométrie](Lens/Geometry/fr.md) et de la composition de la
+    [géométrie](lens/geometry/fr) et de la composition de la
     photo.
     - Commencer par régler l'horizon, ou bien des choses qui doivent
       être verticales comme des lampadaires de rue ou des arêtes
@@ -235,7 +235,7 @@ vous aider à protéger vos images :
     - Pour recadrer la photo, appuyer sur le raccourci clavier (ou bien
       utiliser le bouton ![<File:Crop.png>](Crop.png "File:Crop.png"))
       et cliquer-glisser sur l'aperçu pour former le cadre; vous
-      remarquerez que l'outil [Recadrage](Crop/fr.md) s'active
+      remarquerez que l'outil [Recadrage](crop/fr) s'active
       automatiquement. Il est inutile d'"appliquer" un recadrage, il
       prend effet dès l'instant où il est tracé. Pour adapter la vue à
       la zone recadrée, vous pouvez zoomer en utilisant le raccourci
@@ -243,14 +243,14 @@ vous aider à protéger vos images :
       "Aucun" pour le "Type de guide" s'il pose problème.
     - Enfin, vous pouvez diminuer la résolution car vous ne pouvez pas
       envoyer une image JPEG de 10Mo sur votre réseau social. Activez
-      l'outil [Redimensionnement](Resize/fr.md) et l'outil
+      l'outil [Redimensionnement](resize/fr) et l'outil
       [Netteté après
       redimensionnement](Resize/fr#Netteté_après_redimensionnement.md)
       et laissez les valeurs par défaut. Le redimensionnement n'est
       appliqué que sur l'image enregistrée, pas sur l'aperçu, aussi vous
       ne verrez aucun changement dans l'aperçu lors de l'activation de
       ces outils.
-6.  Vous en avez terminé, [Enregistrez](Saving/fr.md) dès
+6.  Vous en avez terminé, [Enregistrez](saving/fr) dès
     maintenant. Cliquez sur le bouton Enregistrer l'image courante
     ![<File:save.png>](save.png "File:save.png"), ou bien utilisez le
     raccourci clavier +. Enregistrez au format JPG en gardant les
@@ -300,7 +300,7 @@ suivre cet ordre général des opérations :
       de RawTherapee.
     - Vous assurer que l'outil Gestion de la couleur est correctement
       configuré. En général les valeurs par défaut conviennent. Lire les
-      pages [Gestion de la couleur](Color_Management/fr.md) et
+      pages [Gestion de la couleur](color_management/fr) et
       [Gestion de la couleur -
       Supplément](Color_Management_addon/fr.md). Si au lieu
       d'utiliser un profil matrice couleur ou DCP ou ICC livrés avec
@@ -319,7 +319,7 @@ suivre cet ordre général des opérations :
     Blancs](White_Balance/fr.md). Vous pouvez régler
     l'exposition avant si l'image est trop foncée ou trop claire pour
     voir les effets de la balance des blancs.
-4.  Régler maintenant l'[Exposition](Exposure/fr.md), à l'aide
+4.  Régler maintenant l'[Exposition](exposure/fr), à l'aide
     des curseurs Compensation d'exposition et Noir pour amener l'image
     dans la bonne fourchette. Une fois dans la bonne fourchette,
     continuer en utilisant les deux courbes tonales. Bien lire [le
@@ -329,7 +329,7 @@ suivre cet ordre général des opérations :
     outils !
 5.  Dans la section "Fondamentaux" ci-dessus nous avons suggéré
     l'utilisation du curseur
-    [Saturation](Exposure/fr#Saturation.md) (dans l'outil
+    [Saturation](exposure/fr#saturation) (dans l'outil
     Exposition). Maintenant que vous connaissez les fondamentaux et que
     vous explorez des techniques plus évoluées, nous vous conseillons de
     ne plus utiliser le curseur Saturation, mais de le remplacer par la
@@ -339,7 +339,7 @@ suivre cet ordre général des opérations :
     plus fin.
 6.  L'ordre pour le reste n'est pas défini. Certains outils vont
     inévitablement en influencer d'autres. Continuer avec l'outil
-    [Ajustements Lab](Lab_Adjustments/fr.md) puis le reste des
+    [Ajustements Lab](lab_adjustments/fr) puis le reste des
     outils de l'onglet Exposition.
 7.  Puis les outils de l'onglet Couleur
     ![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png").
@@ -360,12 +360,12 @@ suivre cet ordre général des opérations :
     plus haute qualité.
 10. Vous pouvez à tout moment éditer les métadonnées dans l'onglet
     ![<File:Metadata.png>](Metadata.png "File:Metadata.png")
-    [Meta](Metadata_Copy_Mode/fr.md) a tout moment avant de
+    [Meta](metadata_copy_mode/fr) a tout moment avant de
     sauvegarder.
 11. Enregistrer, soit directement
-    [<file:save.png>](file:save.png.md) lorsque vous désirez
+    [<file:save.png>](file:save.png) lorsque vous désirez
     enregistrer une photo seule, ou bien via
-    [<file:gears.png>](file:gears.png.md) [La file
+    [<file:gears.png>](file:gears.png) [La file
     d'attente](The_Batch_Queue/fr.md) lorsqu'il y a plusieurs
     photos. Voir l'article [Enregistrer les
     images](Saving_Images/fr.md)

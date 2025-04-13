@@ -13,8 +13,8 @@ Todo-List / State:
 
 Ready for publishing: no
 
-Page added for referencing. --[fherb](User:Fherb.md)
-([talk](User_talk:Fherb.md)) 13:08, 14 March 2017 (MST)
+Page added for referencing. --[fherb](user:fherb)
+([talk](user_talk:fherb)) 13:08, 14 March 2017 (MST)
 
 ------------------------------------------------------------------------
 
@@ -111,7 +111,7 @@ better white balance through a comparison/iteration process". I also
 worked on the concept of CRI (Color rendering index) which reflects the
 difference of illuminants compared to a base illuminant... The lower the
 CRI is, worse the rendering will be with an identical color temperature
-see : [Color_Management/fr](Color_Management/fr.md))
+see : [Color_Management/fr](color_management/fr))
 
 Based on CIECAM02, the patch contains the necessary basic elements to
 work these two points, but it lacks an essential element, not easy to

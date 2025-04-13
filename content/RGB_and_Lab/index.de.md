@@ -129,4 +129,4 @@ abgesehen davon, dass man Helligkeit und Kontrast nicht nur mit Reglern,
 sondern auch mit den Tonwertkurven unter *Belichtung* aber eben auch mit
 Kurven im Lab-Farbraum beeinflussen kann.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

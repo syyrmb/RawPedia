@@ -22,7 +22,7 @@ de processamento raw disponíveis.
 Os usuários podem simplesmente baixar um instalador RawTherapee de
 <http://rawtherapee.com/downloads> ou do gerenciador de pacotes. No
 entanto, também é possível compilar você mesmo, se desejar ou precisar.
-A [página principal RawPédia](Main_Page#Compiling.md) tem links
+A [página principal RawPédia](main_page#compiling) tem links
 para instruções sobre como fazer isso.
 
 Muitas versões estão disponíveis para download, e este parágrafo tentará
@@ -113,13 +113,13 @@ alguns recursos que ajudam a proteger suas imagens:
   mais sobre eles no artigo [Arquivos Sidecar - Processamento de
   Perfis](Sidecar_Files_-_Processing_Profiles/pt.md).
 - Ao usar o Editor de Imagem, você verá o painel à
-  esquerda[Histórico](The_Image_Editor_Tab/pt#History.md). Este
+  esquerda[Histórico](the_image_editor_tab/pt#history). Este
   painel mostra uma pilha de histórico de todas as alterações feitas na
   sua imagem. Para voltar a qualquer etapa (inclusive quando a imagem
   foi carregada pela primeira vez), basta clicar na linha relevante no
   painel Histórico.
 - No painel Histórico, você verá um painel
-  [Instantâneos](The_Image_Editor_Tab/pt#Snapshots.md). Podes
+  [Instantâneos](the_image_editor_tab/pt#snapshots). Podes
   pular isso por enquanto, mas você achará útil quando ganhar
   experiência com RawTherapee. Este painel armazena o estado de todas as
   ferramentas como "instantâneo". Isso permite que facilmente, por
@@ -147,7 +147,7 @@ alguns recursos que ajudam a proteger suas imagens:
     neutro). Ajustar a gosto.
 2.  Em seguida, corrija a exposição indo na guia Exposição
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png"), expandindo
-    a ferramenta [Exposição](Exposure/pt.md) e ajustando-a a
+    a ferramenta [Exposição](exposure/pt) e ajustando-a a
     gosto. Por enquanto, basta usar os controles deslizantes Compensação
     de Exposição e Saturação.
 3.  Se tua imagem tiver ruido, mude para a guia Detalhes
@@ -162,7 +162,7 @@ alguns recursos que ajudam a proteger suas imagens:
     deixando as configurações em seus valores padrão por enquanto.
     RawTherapee removeu automaticamente o ruído de cor (crominância). O
     ruído de luminância é removido
-    [manualmente](Noise_Reduction/pt#Usage.md), embora sais por
+    [manualmente](noise_reduction/pt#usage), embora sais por
     hora, o ruído de luminância gerlamente empresta um visual agradável,
     granulado e semelhante a um filme. Como regra geral, ao usar a
     redução de ruído, não use nitidez. Diminua o zoom para ver a imagem
@@ -170,7 +170,7 @@ alguns recursos que ajudam a proteger suas imagens:
     ![<File:Gtk-zoom-fit.png>](Gtk-zoom-fit.png "File:Gtk-zoom-fit.png")
     ou usando a tecla de atalho de teclado "f".
 4.  Agora decidiste que queres consertar a
-    [geometria](Lens/Geometry/pt.md) e composição de tua foto.
+    [geometria](lens/geometry/pt) e composição de tua foto.
     - Primeiro faça o nível do horizonte, ou corrija as coisas que devem
       ser verticais, como lâmpadas de rua ou bordas de construções. Para
       fazer isso facilmente, pressione a tecla "s" no teclado (o mesmo
@@ -183,16 +183,16 @@ alguns recursos que ajudam a proteger suas imagens:
     - Para cortar a foto, pressione a tecla de atalho "c" no teclado (ou
       use o botão ![<File:Crop.png>](Crop.png "File:Crop.png")) e clique
       e arraste um recorte sobre a visualização; você notará que a
-      ferramenta [Cortar](Crop/pt.md) fica automaticamente
+      ferramenta [Cortar](crop/pt) fica automaticamente
       ativada. Não há necessidade de "aplicar" um corte - ele tem efeito
       no momento em que o desenhas. Podes querer definir Cortar "tipo de
       guia" para "nenhum" se for um problema.
     - Finalmente,podes querer diminuir a foto, porque quem quer enviar
       um JPEG de 10MB para sua rede social. Ativar oa
-      feramenta[Redimensionar](Resize/pt.md) e deixe-a nas
+      feramenta[Redimensionar](resize/pt) e deixe-a nas
       configurações padrão. Observe que o efeito de redimensionamento é
       aplicado apenas à imagem salva, não à visualização.
-5.  Tens tudo pronto, vamos [salvar](Saving/pt.md) isso
+5.  Tens tudo pronto, vamos [salvar](saving/pt) isso
     imediatamente. Clique no
     ![<File:Gtk-save-large.png>](Gtk-save-large.png "File:Gtk-save-large.png")
     botão Salvar a Imagem Atual ou use o atalho de teclado Ctrl+s. Salve
@@ -249,14 +249,14 @@ por isso, sugerimos que você se atenha a essa ordem geral de operações:
       use um perfil de saída - na maioria dos casos, o padrão, RT_sRGB.
       Se achas que estás sendo inteligente selecionando "Sem Saída ICM:
       sRGB", estás enganado.
-2.  Se quiseres usar uma imagem [Campo Plano](Flat_Field/pt.md)
-    e/ou [Quadro Escuro](Dark_Frame/pt.md), faça isso agora,
+2.  Se quiseres usar uma imagem [Campo Plano](flat_field/pt)
+    e/ou [Quadro Escuro](dark_frame/pt), faça isso agora,
     para evitar ajuste.
 3.  Agora defina o correto [Balanço de
     Branco](White_Balance/pt.md). Podes corrigir a exposição
     primeiro se a imagem estiver muito escura (ou muito clara) para ver
     as alterações no balanço de branco.
-4.  Primeiro. ajuste a [Exposição](Exposure/pt.md), usando os
+4.  Primeiro. ajuste a [Exposição](exposure/pt), usando os
     controles deslizantes Compensação de Exposição e Preto para obter a
     imagem no estádio certo. Uma vez no estádio certo, continue usando
     as duas curvas de tom. Não deixe de ler a [seção Curva de
@@ -264,22 +264,22 @@ por isso, sugerimos que você se atenha a essa ordem geral de operações:
     saber porque existem duas e como usá-las melhor - elas são
     ferramentas muito poderosas!
 5.  Na seção Noções Básicas acima, sugerimos que você use o controle
-    deslizante [Saturação](Exposure/pt#Saturation.md) (na
+    deslizante [Saturação](exposure/pt#saturation) (na
     ferramenta Exposição). Agora que aprendeste o básico e estás
     explorando técnicas mais avançadas, sugerimos que não uses mais o
     controle deslizante Saturação e, em vez disso, use o mais poderoso
-    [curva CC](Lab_Adjustments/pt#CC_Curve.md) na ferramenta
-    [Ajustes L\*a\*b\*](Lab_Adjustments/pt.md), como um controle
+    [curva CC](lab_adjustments/pt#cc_curve) na ferramenta
+    [Ajustes L\*a\*b\*](lab_adjustments/pt), como um controle
     mais refinado.
 6.  A ordem do resto fica confusa. Algumas ferramentas influenciarão
     inevitavelmente outras pessoas. Continue com a ferramenta [Ajustes
     L\*a\*b\*](Lab_Adjustments/pt.md) e depois o resto das
     ferramentas na guia Exposição.
-7.  Então use a ferramenta [Wavelet](Wavelet/pt.md) na guia
+7.  Então use a ferramenta [Wavelet](wavelet/pt) na guia
     Wavelet ![<File:wavelet.png>](wavelet.png "File:wavelet.png").
 8.  Em seguida, use as ferramentas na guia Cor
     ![<File:Colour.png>](Colour.png "File:Colour.png"). A ferramenta
-    [Tonificação de Cor](Color_Toning/pt.md) especificamente é
+    [Tonificação de Cor](color_toning/pt) especificamente é
     muito sensível a alterações de exposição, então deixe-a por último.
 9.  Em seguida, aplique zoom em 100% e use as ferramentas na guia
     Detalhes ![<File:Detail.png>](Detail.png "File:Detail.png").
@@ -296,7 +296,7 @@ por isso, sugerimos que você se atenha a essa ordem geral de operações:
     desse ponto, o RawTherapee faz seu processamento na imagem em
     tamanho cheio, que é lenta, mas de alta qualidade.
 11. Salvar, diretamente quando desejas salvar uma única foto ou via
-    [Fila em Lote](The_Batch_Queue/pt.md) quando desejas
+    [Fila em Lote](the_batch_queue/pt) quando desejas
     processar muitas fotos.
 
 Podes editar metadados na guia Metadados

@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Wavelets/fr](Wavelets/fr.md)
+1.  REDIRECT [Wavelets/fr](wavelets/fr)

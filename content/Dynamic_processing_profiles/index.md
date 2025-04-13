@@ -47,7 +47,7 @@ Dynamic profile rules work on the following image metadata:
 
 Camera  
 the camera name (including brand) as shown in the image info overlay of
-the [Image Editor](The_Image_Editor_Tab.md). If active, by
+the [Image Editor](the_image_editor_tab). If active, by
 default this entry will cause the rule to apply only to pictures taken
 with the exact camera specified here (the name is case-insensitive).
 However, if the entry starts with the `re:` prefix, then the rest of the

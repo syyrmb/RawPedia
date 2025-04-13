@@ -67,7 +67,7 @@ contributors:
   scripts ou chamá-lo de outros programas,
 - Suporte para a maioria das câmeras,
 - Suporta novos formatos raw simplesmente editando o arquivo
-  [camconst.json](camconst.json.md) em um editor de texto,
+  [camconst.json](camconst.json) em um editor de texto,
 - Feedback de áudio para informá-lo quando uma tarefa intensiva da CPU
   for concluída, por ex. quando a fila é processada,
 - Preserve [IPTC](https://en.wikipedia.org/wiki/IPTC) e
@@ -119,7 +119,7 @@ contributors:
 - Conversão Preto e Branco,
 - Vários métodos de tonalização de cor,
 - Suporte para câmeras
-  [monocromáticas](Demosaicing/pt#Monochrome_Cameras.md)
+  [monocromáticas](demosaicing/pt#monochrome_cameras)
 - Adaptação do modelo de aparência de
   cor[CIECAM02](https://en.wikipedia.org/wiki/CIECAM02) ratificado pela
   Comissão Internacional de Iluminação (CIE) para manter cores precisas
@@ -129,9 +129,9 @@ contributors:
   imagem usando o CIECAM02 é ativado por meio de vários métodos, usando
   curvas e controles deslizantes. Várias ferramentas são adaptadas para
   mudar automaticamente para o modo CIECAM02 quando em uso, incluindo
-  [Mapeamento de Tom](Tone_Mapping/pt.md),
-  [Nitidez](Sharpening/pt.md),
-  [Defringe](Defringe/pt.md), etc.
+  [Mapeamento de Tom](tone_mapping/pt),
+  [Nitidez](sharpening/pt),
+  [Defringe](defringe/pt), etc.
 - Gerenciamento de cor.
 
 ## Funcionalidades Detalhadas
@@ -184,4 +184,4 @@ contributors:
   a coloração da lente e a poeira do sensor,
 - Correção de aberração cromática manual e automática.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

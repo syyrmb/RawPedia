@@ -84,7 +84,7 @@ alt="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg" />
 <img src="/images/Lensgeometry_bluehorse_autocrop_after_rotation.jpg"
 title="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
-"[image:Crop-auto.png](image:Crop-auto.png.md) Recadrage auto"
+"[image:Crop-auto.png](image:crop-auto.png) Recadrage auto"
 est disponible quand "Remplir" est désactivé. Si activé, il ne provoque
 pas d'interpolation de l'image, mais à la place il rogne l'espace libre
 délaissé par la correction de la distorsion ou la rotation de l'image.
@@ -93,7 +93,7 @@ délaissé par la correction de la distorsion ou la rotation de l'image.
 
 ## Rotation
 
-[900px](image:rotate.jpg.md) Tourne l'image de - 45 à + 45
+[900px](image:rotate.jpg) Tourne l'image de - 45 à + 45
 degrés. Cliquez sur le bouton
 "![<File:Rotate-straighten.png>](Rotate-straighten.png "File:Rotate-straighten.png")
 Choisir la ligne d'horizon" pour établir un alignement de l'image soit
@@ -183,7 +183,7 @@ car vous pourriez perdre vos modifications lors d'une mise à jour.
 
 Au cas où vous désireriez utiliser la base de données de Lensfun d'un
 endroit particulier, vous pouvez l'indiquer à RawTherapee en éditant le
-fichier [`options`](File_Paths/fr#Config.md) pour modifier la
+fichier [`options`](file_paths/fr#config) pour modifier la
 valeur de la clé `DBDirectory` et entrer le chemin absolu vers la base
 de données de Lensfun choisie.
 
@@ -204,7 +204,7 @@ aberrations chromatiques latérales.
 La fonctionnalité de correction de la distorsion de l'outil Profil de
 correction d'objectif peut s'utiliser en même temps que l'outil
 correction manuelle de la
-[Distorsion](Lens/Geometry/fr#Distorsion.md), et la
+[Distorsion](lens/geometry/fr#distorsion), et la
 fonctionnalité correction du vignettage peut s'utiliser en même temps
 que l'outil manuel [correction du
 vignettage](Lens/Geometry/fr#Correction_vignettage.md) Cela vous
@@ -217,7 +217,7 @@ distorsion ou le vignettage en oubliant de désactiver les outils manuels
 si vous utilisez les équivalents LCP.
 
 La fonctionnalité correction du vignettage est cependant liée à l'outil
-[Champ plat](Flat_Field/fr.md), donc lorsque vous sélectionnez
+[Champ plat](flat_field/fr), donc lorsque vous sélectionnez
 une image champ plat, il n'y aura alors pas de correction du vignettage
 par LCP.
 
@@ -260,11 +260,11 @@ depuis l'onglet Navigateur de Fichiers.
 
 ## Distorsion
 
-[framed](Image:Rt_distortion_correction-fr.png.md) Corrige les
+[framed](image:rt_distortion_correction-fr.png) Corrige les
 distorsions dues à l'objectif. Un nombre négatif corrige la distorsion
 en barillet, un positif corrige la distorsion en coussin. Vous pouvez
 placer une grille sur l'image en activant le
-[recadrage](Crop/fr.md) (sans recadrer) puis en choisissant
+[recadrage](crop/fr) (sans recadrer) puis en choisissant
 "*Type de guide \> Grille*". Cela peut servir de guide pour corriger la
 distorsion de l'objectif.
 
@@ -322,7 +322,7 @@ téléobjectif bon marché et un cher est que le premier a toute les
 chances de souffrir d'un vignettage plus important que le plus cher.
 L'outil "Correction vignettage" est conçu pour corriger le vignettage du
 à l'objectif. Cet outil n'est pas adapté au vignettage artistique, pour
-cela utiliser l'outil [Filtre Dégradé](Vignetting_Filter/fr.md).
+cela utiliser l'outil [Filtre Dégradé](vignetting_filter/fr).
 
 Quantité  
 Glisser le curseur Quantité vers une valeur positive éclaircit les

@@ -66,7 +66,7 @@ générateur de profil ICC, vous spécifiez l'emplacement de ces couleurs
 primaires au moyen de coordonnées correspondant au diagramme de
 chromaticité CIExy de 1931.
 
-[Diagramme CIE xy](Color_Management/fr#Le_diagramme_CIE_xy.md)
+[Diagramme CIE xy](color_management/fr#le_diagramme_cie_xy)
 
 [Fonctionnement de
 l'algorithme](Color_Management/fr#Comment_fonctionne_l.27algorithme_.22Primaires_et_Point_Blanc.22.md)

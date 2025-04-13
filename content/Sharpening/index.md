@@ -14,10 +14,10 @@ This article describes the tool called "Sharpening", however RawTherapee
 contains other tools which can be used to perform various types of
 sharpening - see [Edges and
 Microcontrast](Edges_and_Microcontrast.md) and the
-[Wavelets](Wavelets.md) tools.
+[Wavelets](wavelets) tools.
 
 The Sharpening tool is applied to the full image, **before** the
-[Resize](Resize.md) tool. If you would like to apply sharpening
+[Resize](resize) tool. If you would like to apply sharpening
 **after** resizing, use the [Post-Resize
 Sharpening](Resize#Post-Resize_Sharpening.md) tool which you
 will find inside the Resize tool.
@@ -58,7 +58,7 @@ For low ISO images that are in focus and without motion blur a value of
 
 #### Threshold
 
-[image:Usm_threshold.png](image:Usm_threshold.png.md)
+[image:Usm_threshold.png](image:usm_threshold.png)
 
 The *Threshold* tool helps to suppress noise amplification and haloing
 and to confine sharpening to a desired tonal range. The Threshold tool

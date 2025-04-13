@@ -115,7 +115,7 @@ si verifichi nella foto. In quanto tale, poiché non esiste una perdita
 di qualità, si consiglia di utilizzare il file di identità di livello 12
 e di memorizzare le immagini Hald CLUT create automaticamente nello
 spazio colore sRGB, a 8 bit per canale. Vedere la sezione
-[Caveat](Film_Simulation#Caveat.md) sopra per aiutarti a
+[Caveat](film_simulation#caveat) sopra per aiutarti a
 decidere se utilizzare il formato TIFF o PNG.
 
 Se si applica questa Hald CLUT a una foto in RawTherapee e la foto

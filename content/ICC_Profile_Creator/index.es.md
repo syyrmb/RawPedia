@@ -119,7 +119,7 @@ de entrada de la imagen hacia otros valores, que serán los que se
 grabarán en la imagen de salida.
 
 Habitualmente es lo que se llama la
-[*«gamma»*](Color_Management/es#La_corrección_gamma.md) del
+[*«gamma»*](color_management/es#la_corrección_gamma) del
 perfil y cabe recordar que en las imágenes exportadas no se usa **«para
 ajustar la imagen digital a como nosotros la percibimos en la vida
 real»**: no olvides que en la *gestión del color* siempre hay dos

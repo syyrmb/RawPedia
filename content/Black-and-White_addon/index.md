@@ -25,13 +25,13 @@ different black and white result.
 Please note that Rawtherapee can produce black-and-white images without
 the use of this tool:
 
-1.  by setting the [Saturation](Exposure#Saturation.md) slider
-    in the [Exposure](Exposure.md) tool of the Exposure tab to
+1.  by setting the [Saturation](exposure#saturation) slider
+    in the [Exposure](exposure) tool of the Exposure tab to
     -100;
 2.  by setting the
-    [Chromaticity](Lab_Adjustments#Chromaticity.md) slider in
-    the [Lab Adjustments](Lab_Adjustments.md) tab to -100;
-3.  by enabling [Film Simulation](Film_Simulation.md) in black
+    [Chromaticity](lab_adjustments#chromaticity) slider in
+    the [Lab Adjustments](lab_adjustments) tab to -100;
+3.  by enabling [Film Simulation](film_simulation) in black
     and white (films Ilford, Kodak, Fuji...)
 
 Nevertheless only the methods in the current tool gives you the maximum
@@ -191,15 +191,15 @@ effect.
 ## 'Before' curve and 'After' curve
 
 These curves are used the same way and have the same final result as
-those described in the [Tone Curves](Exposure#Tone_Curves.md)
-section of the [Exposure](Exposure.md) tool. They allow
+those described in the [Tone Curves](exposure#tone_curves)
+section of the [Exposure](exposure) tool. They allow
 customizing the Black-and-White tool, making it independent of the
 tunings made elsewhere. Notice: the “After curve” has only one mode, as
 the image is then in black-and-white!
 
 ## Color Toning
 
-- You can use [Color Toning](Color_Toning.md) with the
+- You can use [Color Toning](color_toning) with the
   Black-and-White tool for special effects. You can also use [Color
   Toning](Color_Toning.md) with black-and-white film
   simulations, but provided the black-and-white tool is enabled.

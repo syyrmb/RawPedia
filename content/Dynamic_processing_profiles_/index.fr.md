@@ -42,7 +42,7 @@ suivantes de l'image :
 Appareil photo  
 le nom de l'appareil (y compris la marque) comme indiqué en
 surimpression en haut de l'aperçu de
-[l'éditeur](The_Image_Editor_Tab/fr.md) (non présent sur l'image
+[l'éditeur](the_image_editor_tab/fr) (non présent sur l'image
 visible dans ce lien). Si activée, par défaut cette entrée appliquera la
 règle à toutes les images réalisées uniquement avec l'appareil spécifié
 (excepté que les lettres majuscules sont ignorées). Cependant, si

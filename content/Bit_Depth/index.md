@@ -158,7 +158,7 @@ truly - RawTherapee.
 ## After RawTherapee
 
 Once you have adjusted a photo in RawTherapee and are ready to
-[save](Saving_Images.md), you are faced with a choice of [output
+[save](saving_images), you are faced with a choice of [output
 format, per-channel bit
 depth](Color_Management#Output_Profile.md), [color space and
 gamma

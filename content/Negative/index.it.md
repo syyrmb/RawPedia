@@ -20,7 +20,7 @@ serve a informarti sulle possibili soluzioni di soluzione alternative:
 2.  Utilizza un Hald CLUT negativo tramite lo strumento [Simulazione
     Pellicola](Film_Simulation.md). La "Collezione di
     simulazione di pellicole RawTherapee" ne contiene uno, utilizzalo
-    dalla pagina [Simulazione Pellicola](Simulazione_film.md).
+    dalla pagina [Simulazione Pellicola](simulazione_film).
     L'inconveniente è che alcuni comandi potrebbero funzionare al
     contrario, come il cursore Esposizione, e si possono verificare
     ritagli nelle ombre e/o nelle alte luci poiché questi strumenti non

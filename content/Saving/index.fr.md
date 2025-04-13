@@ -10,12 +10,12 @@ contributors:
 Votre fichier raw original ne sera jamais altéré par RawTherapee.
 
 Il existe plusieurs façons d'enregistrer une image depuis l'onglet
-[Editeur](The_Image_Editor_Tab/fr.md) :
+[Editeur](the_image_editor_tab/fr) :
 
 - ![Image:gtk-save-large.png](gtk-save-large.png "Image:gtk-save-large.png")
   Enregistrement immédiat depuis l'onglet Editeur,
 - ![Image:processing.png](processing.png "Image:processing.png")
-  Enregistrer via [la file d'attente](The_Batch_Queue/fr.md),
+  Enregistrer via [la file d'attente](the_batch_queue/fr),
 - ![<File:Image-editor.png>](Image-editor.png "File:Image-editor.png")
   "[Editer l'image courante dans l'éditeur
   externe](Edit_Current_Image_in_External_Editor/fr.md)" (décrit
@@ -73,4 +73,4 @@ cochée, cette option permet de conserver différentes versions d'un même
 fichier raw, elles seront enregistrées sous le nom "photo_1000.jpg",
 "photo_1000**-1**.jpg", "photo_1000**-2**.jpg", etc. Cela s'applique de
 même quand vous envoyez différentes versions du même fichier raw vers la
-[file d'attente](The_Batch_Queue/fr.md).
+[file d'attente](the_batch_queue/fr).

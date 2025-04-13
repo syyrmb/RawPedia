@@ -119,7 +119,7 @@ et le jaune. Cela peut être utilisé pour créer des effets colorés.
 
 Coloriser une image noir et blanc peut se faire selon l'une de ces deux
 méthodes : Celle qui est recommandée et la plus intuitive utilise
-l'outil [Virage Partiel](Color_Toning/fr#Noir_et_Blanc.md) en
+l'outil [Virage Partiel](color_toning/fr#noir_et_blanc) en
 combinaison avec l'outil Noir et Blanc. L'autre moins puissante, utilise
 les courbes a\* et b\* de l'outil Ajustements L\*a\*b\* une fois l'image
 dé-saturée. La raison pour laquelle nous continuons à décrire comment
@@ -150,7 +150,7 @@ partiellement soit par un clic droit sur une photo dans le "Navigateur
 de fichiers" puis sélectionner "*Opérations sur les profils \> Coller
 partiellement*", ou bien, depuis l'onglet *Editeur* par un contrôle+clic
 sur "*Colle le profil dans le presse papiers*"
-[image:Gtk-paste.png](image:Gtk-paste.png.md) pour ne coller que
+[image:Gtk-paste.png](image:gtk-paste.png) pour ne coller que
 la partie *Ajustements L\*a\*b\** du profil. Notez que les autres
 ajustements de la section *Ajustements L\*a\*b\** seront copiés aussi.
 De même, les courbes a\* et b\* peuvent être copiées/collées

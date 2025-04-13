@@ -12,7 +12,7 @@ La cola de procesamiento
 
 ## Introducción
 
-Las imágenes se pueden [guardar](Saving_Images/es.md) de dos
+Las imágenes se pueden [guardar](saving_images/es) de dos
 maneras: puedes guardarlas inmediatamente
 ![<File:Save.png>](Save.png "File:Save.png") en la pestaña del *Editor*,
 o añadirlas a la *cola de procesamiento por lotes*
@@ -51,8 +51,8 @@ Hay tres maneras de añadir una imagen a la *cola*:
     la pestaña Editor, y selecciona ***Poner al principio/final de la
     cola de procesamiento***.
 3.  Pulsa el botón derecho del ratón sobre una miniatura en el
-    [*Explorador de archivos*](File_Browser/es.md) o en la
-    [*tira de imágenes*](Editor/es#The_Filmstrip.md) y
+    [*Explorador de archivos*](file_browser/es) o en la
+    [*tira de imágenes*](editor/es#the_filmstrip) y
     selecciona ***Poner en la cola***. En este caso puedes haber
     seleccionado una sola imagen o varias (para enviarlas todas a la vez
     a la *cola*.
@@ -77,7 +77,7 @@ esperará a que actives la ejecución manualmente.
 ### Carpeta de Destino de las imágenes
 
 La carpeta de destino la puedes elegir directamente en el cuadro de
-diálogo [*Guardar inmediatamente*](Saving_Images/es.md), aunque
+diálogo [*Guardar inmediatamente*](saving_images/es), aunque
 en la pestaña *Cola* puedes crear dinámicamente la carpeta de destino y
 el nombre del archivo gracias a la opción *Usar plantilla*, que
 especifica el destino de la imagen exportada en función de la ubicación,

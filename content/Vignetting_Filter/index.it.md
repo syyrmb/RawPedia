@@ -14,7 +14,7 @@ dell'obiettivo (contrariamente a questo filtro che non è per la
 correzione ma per l'effetto artistico), utilizzare [Correzione
 Vignettatura](Lens/Geometry/it#Vignetting_Correction.md) nella
 scheda Transforma, nello strumento Lente/Geometria. Ancora meglio,
-utilizzare lo strumento [Flat Field](Flat_Field/it.md).
+utilizzare lo strumento [Flat Field](flat_field/it).
 
 ## Forza
 

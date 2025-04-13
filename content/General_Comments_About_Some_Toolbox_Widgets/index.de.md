@@ -259,19 +259,19 @@ bzw. die Kurve abschalten ("Linear").
 Auch diese Kurven haben einen Reset-Button
 ![<File:ResetButton.png>](ResetButton.png "File:ResetButton.png"), mit
 dem die Kurve zurück gesetzt werden kann. Weiterhin ein Pipette-Werkzeug
-[image:editmodehand.png](image:editmodehand.png.md), um einen
+[image:editmodehand.png](image:editmodehand.png), um einen
 bestimmten Wert in der horizontalen Koordinate aus einem Bild-Pixel
 heraus auszuwählen sowie ein Werkzeug (Knoten Ein-/Ausgangswert)
-[image:Gtk-edit.png](image:Gtk-edit.png.md), mit dem man die
+[image:Gtk-edit.png](image:gtk-edit.png), mit dem man die
 Position des Knotens per Wertvorgabe einstellen kann und in einigen
 Fällen auch die Steilheit der Kurve an diesem Punkt nach links und
 rechts bestimmen kann.  
 
 #### Die Pipette
 
-[thumb](image:rt_pipette_2_lab_ba.jpg.md) In RawTherapee
+[thumb](image:rt_pipette_2_lab_ba.jpg) In RawTherapee
 besitzen die meisten Kurven ein Pipetten-Werkzeug
-[image:editmodehand.png](image:editmodehand.png.md). Diese
+[image:editmodehand.png](image:editmodehand.png). Diese
 Funktion stellt eine gute Möglichkeit dar, bestimmte Farbwerte,
 Helligkeiten und Bereich in einer bestimmten Sättigung aus einem Bild
 heraus in der Kurve genau zu selektieren.
@@ -287,7 +287,7 @@ dich darauf verlassen, dass du genau den betreffenden Farbton änderst.
 
 Das Pipettenwerkzeug wird für eine Kurve aktiviert, indem man einfach
 auf das entsprechende Symbol
-[image:editmodehand.png](image:editmodehand.png.md) rechts oben
+[image:editmodehand.png](image:editmodehand.png) rechts oben
 an der Kurve klickt. Wenn du nun mit der Maus über das Bild fährst,
 wirst du eine vertikale Linie (in einigen Fällen auch vier) in der Kurve
 bemerken. Diese Linien repräsentieren den entsprechenden Wert des
@@ -356,7 +356,7 @@ Um die Einstellungen nachvollziehen zu können, aktiviere z.B. im
 Werkzeug *Belichtung \> L\*a\*b Anpassung* die LH-Kurve. Mit dieser
 Kurve kann man bestimmte Farbbereich heller und dunkler machen. Schalte
 das Pipettenwerkzeug der Kurve ein
-[image:editmodehand.png](image:editmodehand.png.md). Wähle jetzt
+[image:editmodehand.png](image:editmodehand.png). Wähle jetzt
 im Vorschaubild mit der Pipette ein Pixel aus (Strg + *Linke
 Maustaste*). Im Diagramm wird ein Knoten hizugefügt. Lasse die
 Strg-Taste los, halte aber die Maustaste gedrückt und verschiebe sie,
@@ -365,7 +365,7 @@ verschoben wird.
 
 **Um nun den Knoten genauer zu konfigurieren, klicke auf den
 Knoten-Editier-Button
-[image:Gtk-edit.png](image:Gtk-edit.png.md) und dann mit der
+[image:Gtk-edit.png](image:gtk-edit.png) und dann mit der
 *rechten* Maustaste auf den** gerade erstellten **Knoten. Der Knoten
 wird rot eingekreist.** In den Feldern x, y, LT und RT lassen sich jetzt
 die Werte dieses Punktes verändern. Verändere nun die Werte nach deinen
@@ -373,7 +373,7 @@ Vorstellungen.
 
 Du beendest, indem du mit der *rechten* Maustaste irgendwo in das
 Diagramm neben den roten Knoten klickst oder mit der *linken* Maustaste
-auf das Icon [image:Gtk-edit.png](image:Gtk-edit.png.md)
+auf das Icon [image:Gtk-edit.png](image:gtk-edit.png)
 drückst.
 
 Alternativ kannst du den Punkt auch nur mit der Maus im Diagramm
@@ -412,7 +412,7 @@ anderen Ausgangswerten zugeordnet. Zum Beispiel bestimmte
 Helligkeitswerte anderen, neuen Helligkeitswerten.
 
 Betrachten wir als Beispiel nebenstehend abgebildetes Diagramm des
-[Belichtungswerkzeugs](Exposure/de.md). In der waagerechten
+[Belichtungswerkzeugs](exposure/de). In der waagerechten
 Koordinate befinden sich links die dunklen und rechts die hellen Töne.
 Im Hintergrund wird dazu das Histogramm schwach eingeblendet. In der
 senkrechten Koordinate befinden sich die dunklen Bildtöne unten und die
@@ -477,7 +477,7 @@ wird, sondern nur in einem bestimmten Bereich um den Eingabewert
 verändert wird. Man könnte das auch mit einer Tonwertkurve erreichen.
 Das sähe dann zum Beispiel so aus:
 
-[frame](file:ToneCurveAsFlatCurveReplacement.png.md)  
+[frame](file:tonecurveasflatcurvereplacement.png)  
 Eine ziemlich fummelige Angelegenheit. Erst recht, wenn nur sehr geringe
 Nuancen verändert werden sollen. Aus diesem Grunde werden die
 sogenannten *Flachen Kurven* eingesetzt, in der nur noch **die
@@ -490,7 +490,7 @@ Zielgröße (Ausgangswert) dar. Die oben dargestellte Tonwertkurve mit dem
 dort parametrierten Kurvenverlauf würde als Flache Kurve etwa so
 aussehen:
 
-[frame](file:FlatCurveInComparison_de.png.md)  
+[frame](file:flatcurveincomparison_de.png)  
 Mit deutlich weniger Knoten, und in der vertikalen Auflösung viel weiter
 gespreizt, lässt sich der gewünschte Kurvenverlauf viel leichter
 einstellen.
@@ -522,7 +522,7 @@ hier x ein anderer Parameter des gleichen Pixels ist (z.B. der Farbton).
 Ein Beispiel hierzu: Die Einstellung der Retinex-Intensität als Funktion
 vom Farbton. Die Intensität wird bei grünen Farben angehoben:
 
-[frame](file:RetinexIntensityFlatCurve_de.png.md)  
+[frame](file:retinexintensityflatcurve_de.png)  
 Eine Besonderheit ist, dass RawTherapee bei den Flachen Kurven, die den
 Farbton in der waagerechten x-Koordinaten haben, an den Stellen, wo sich
 Kurvenknoten befinden, einen Balken im Farbton, den der Knoten
@@ -537,11 +537,11 @@ Knoten, die sich genau auf der Nulllinie befinden, werden grün
 dargestellt. Alle Knoten, die außerhalb der Nullinie liegen hingegen
 schwarz. Hier noch mal als Detail gezeigt:
 
-[frame](image:Flat_curve_zoom.png.md)  
+[frame](image:flat_curve_zoom.png)  
 Im Laufe der Entwicklung von RawTherapee sind immer mehr Werkzeuge
 hinzugekommen, die die Flache Kurve zur Parametereinstellung verwenden.
 Die Flachen Kurven werden in der Kurvenauswahl generell mit dem Icon
-[image:CurveType-controlPoints.png](image:CurveType-controlPoints.png.md)
+[image:CurveType-controlPoints.png](image:curvetype-controlpoints.png)
 symbolisiert.
 
 Weitere Finessen bei der Arbeit und dem Verhalten der Elemente in den
@@ -572,12 +572,12 @@ beliebigem Bild, um schnell zu verstehen, wie man mit den Flachen Kurven
 arbeiten kann.
 
 Wir wählen dazu das Werkzeug Farbton(H)/Sättigung(S)/Dynamik(V) aus,
-auch als [HSV-Equalizer](HSV_Equalizer/de.md) bekannt, dass sich
-unter dem Reiter [image:colour.png](image:colour.png.md) Farbe
+auch als [HSV-Equalizer](hsv_equalizer/de) bekannt, dass sich
+unter dem Reiter [image:colour.png](image:colour.png) Farbe
 findet. Klicke auf das Aufklappmenü-Icon
-[image:Drop-down.png](image:Drop-down.png.md) rechts neben
+[image:Drop-down.png](image:drop-down.png) rechts neben
 Kanal-Button *H(ue)* und wähle "*Min/Max-Kontrollpunkte*"
-[image:CurveType-controlPoints.png](image:CurveType-controlPoints.png.md).
+[image:CurveType-controlPoints.png](image:curvetype-controlpoints.png).
 
 Typisch für alle Flachen Kurven, bei denen die Ausgangsgröße
 (horizontale Koordinate) eine Farbkreisabwicklung darstellt, ist die
@@ -669,7 +669,7 @@ Wie exakt nun diese Verschiebung auf einen bestimmten Farbton wirkt,
 hängt von der Steilheit der Kurve ab. Wie schnell sie also auf die
 Nulllinie zurück kehrt. Diese Steilheit kannst du einerseits mit der
 oben geschilderten Methode der
-[Kurvenknoten-Ein-Ausgangs-Werte](General_Comments_About_Some_Toolbox_Widgets/de#Kurvenknoten_Ein-Ausgangs-Wert.md)
+[Kurvenknoten-Ein-Ausgangs-Werte](general_comments_about_some_toolbox_widgets/de#kurvenknoten_ein-ausgangs-wert)
 als Zahlenwert ändern. Du kannst aber auch, wenn du den Knoten an
 fährst, den blauen oder gelben Indikator anfahren, anklicken und dann
 verschieben. Du siehst sofort, welche mehr oder weniger steile Kurve

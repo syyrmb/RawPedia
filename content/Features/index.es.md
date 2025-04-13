@@ -40,11 +40,11 @@ Algunas de sus características más notables son las siguientes:
   formatos JPEG, TIFF y PNG.
 - Proporciona soporte para [película
   negativa](Film_Negative/es.md) y cámaras
-  [monocromas](Demosaicing/es#Cámaras_monocromas.md).
+  [monocromas](demosaicing/es#cámaras_monocromas).
 - Puedes poner tus fotos en una cola de procesamiento por lotes para
   exportarlas más tarde, liberando así la CPU para que la vista previa
   se actualice con rapidez.
-- Se puede [calificar](File_Browser/es#Calificación.md) las
+- Se puede [calificar](file_browser/es#calificación) las
   fotos con un sistema de 0 a 5 estrellas (las puntuaciones se leen
   desde los datos embebidos Exif y XMP), etiquetarlas por color y
   filtrarlas por nombre de archivo y metadatos.
@@ -67,7 +67,7 @@ Algunas de sus características más notables son las siguientes:
   eliminar.
 - RawTherapee se ha traducido a más de 15 idiomas.
 - Ofrece una adaptación del modelo de apariencia de color
-  [CIECAM02](CIECAM02/es.md), ratificado por la Comisión
+  [CIECAM02](ciecam02/es), ratificado por la Comisión
   Internacional de Iluminación (CIE), que permite mantener unos colores
   precisos y, dado un conjunto inicial de parámetros de condiciones de
   visualización, convierte la imagen de modo que tenga la misma

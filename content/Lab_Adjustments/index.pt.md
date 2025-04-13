@@ -134,7 +134,7 @@ em seguida, cole-o parcialmente ou clicando com o botão direito do mouse
 numa foto no *Navegador de Arquivo* e selecionando "*Operações de Perfil
 de Processamento \> Colar parcial*", ou da guia *Editor de Imagem* por
 Ctrl+clicando em "*Colar o perfil da área de transferência*"
-[image:Gtk-paste.png](image:Gtk-paste.png.md) para colar apenas
+[image:Gtk-paste.png](image:gtk-paste.png) para colar apenas
 a seção *Ajustes L\*a\*b\** do perfil. Observe que outros ajustes nas
 seções *Ajustes L\*a\*b\** também serão colados. Como alternativa, as
 curvas a\* e b\* podem ser copiadas e coladas individualmente. Esse é

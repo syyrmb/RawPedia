@@ -41,7 +41,7 @@ points of the raw histogram. The minimum value is 0.00, the maximum is
 As of RawTherapee 5.5, while the Auto Levels tool in the Editor still
 uses the Clip % value, the thumbnails use a fixed value of 0.2% - this
 was done to reduce the number of files needed to be stored in the
-[cache](File_Paths#Cache.md).
+[cache](file_paths#cache).
 
 ## Highlight Reconstruction
 

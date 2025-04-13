@@ -18,10 +18,10 @@ Linux
 
 This page details instructions for compiling RawTherapee on
 **GNU/Linux** systems. There are also instructions for compiling on
-[Windows](Windows.md) and [macOS](macOS.md).
+[Windows](windows) and [macOS](macos).
 
-When in doubt, [join us on IRC](IRC.md) or in the
-[Forum](Forum.md) and ask a human!
+When in doubt, [join us on IRC](irc) or in the
+[Forum](forum) and ask a human!
 
 ## Dependencies
 
@@ -62,13 +62,13 @@ code which requires GTK3. We dropped support for GTK2 with release
 "5.0-r1-gtk2" in February 2017. If you use a modern distribution, just
 copy and paste the code snippets as they are. If you're on an old
 distribution without the required GTK3 support, then refer to the
-archived [GTK2](Linux_GTK2.md) article, then checkout and
+archived [GTK2](linux_gtk2) article, then checkout and
 compile the obsolete `5.0-r1-gtk2` tag.
 
 ### Arch/Manjaro
 
 Current versions of Arch and Manjaro work well out of the box. Refer to
-the [GTK2](Linux_GTK2.md) article if compiling on a version
+the [GTK2](linux_gtk2) article if compiling on a version
 older than 17.1.12.
 
     sudo pacman -S cmake ninja exiv2 expat fftw glib2 glibmm gtk3 gtkmm3 lcms2 lensfun libcanberra libiptcdata libjpeg-turbo libpng librsvg libsigc++ libtiff zlib
@@ -76,7 +76,7 @@ older than 17.1.12.
 For Manjaro, you may need to additionally install the `pkg-config`
 package.
 
-Proceed to [Compilation](#Compilation.md).
+Proceed to [Compilation](#compilation).
 
 ### CentOS
 
@@ -133,7 +133,7 @@ section near the end of the file, for example after the
         -DTIFF_LIBRARY="$HOME/programs/tiff-4.0.9/libtiff-build/libtiff/libtiff.so" \
         -DCMAKE_CXX_FLAGS="-Wno-deprecated -Wno-parentheses" \
 
-Proceed to [Compilation](#Compilation.md).
+Proceed to [Compilation](#compilation).
 
 ### Debian/Ubuntu/Mint/elementary OS
 
@@ -153,11 +153,11 @@ When compiling, follow the manual steps and use git to checkout the
 `5.8` branch.
 
 ==== Ubuntu \<=14.04 LTS (Trusty), Debian \<=8 (Jessie) ==== Refer to
-the [GTK2](Linux_GTK2.md) article if compiling on earlier
+the [GTK2](linux_gtk2) article if compiling on earlier
 versions of Ubuntu. The GTK3 version of RawTherapee is unsupported in
 these distributions.
 
-Proceed to [Compilation](#Compilation.md).
+Proceed to [Compilation](#compilation).
 
 ### Fedora
 
@@ -189,11 +189,11 @@ In addition to the above notices and requirements, an updated version of
     ninja-build
     sudo ninja-build install
 
-==== Fedora \<=21 ==== Refer to the [GTK2](Linux_GTK2.md)
+==== Fedora \<=21 ==== Refer to the [GTK2](linux_gtk2)
 article if compiling on earlier versions of Fedora. The GTK3 version of
 RawTherapee is unsupported in these distributions.
 
-Proceed to [Compilation](#Compilation.md).
+Proceed to [Compilation](#compilation).
 
 ### Gentoo/Sabayon
 
@@ -203,13 +203,13 @@ instead of `sudo emerge -uva` use
 
     sudo emerge -uva dev-cpp/gtkmm:3.0 dev-libs/expat dev-util/cmake media-gfx/exiv2 media-libs/lcms media-libs/lensfun media-libs/libcanberra media-libs/libiptcdata media-libs/libjpeg-turbo media-libs/libpng gnome-base/librsvg media-libs/tiff net-misc/curl sci-libs/fftw sys-libs/zlib x11-libs/gtk+:3
 
-Proceed to [Compilation](#Compilation.md).
+Proceed to [Compilation](#compilation).
 
 ### openSUSE
 
 openSUSE Leap 15 and Tumbleweed should work well out of the box. Serious
 compilation issues can be expected with other versions. Refer to the
-[GTK2](Linux_GTK2.md) article if compiling on a version older
+[GTK2](linux_gtk2) article if compiling on a version older
 than 42.1.
 
     sudo zypper install git cmake gcc gcc-c++ gtk3-devel gtkmm3-devel liblcms2-devel fftw3-devel libiptcdata-devel librsvg-devel libtiff-devel libjpeg8-devel libcanberra-gtk3-devel
@@ -234,14 +234,14 @@ For other versions of openSUSE `lensfun` has to be installed manually:
     make
     sudo make install
 
-Proceed to [Compilation](#Compilation.md).
+Proceed to [Compilation](#compilation).
 
 ## Compilation
 
 There are two general ways you can compile RawTherapee: either use the
-[automatic](#The_Automatic_Way.md) Bash script which compiles
+[automatic](#the_automatic_way) Bash script which compiles
 RawTherapee for you (recommended), or do so
-[manually](#The_Manual_Way.md).
+[manually](#the_manual_way).
 
 ### The Automatic Way
 
@@ -250,7 +250,7 @@ simple and fool-proof. It relies on a Bash script which downloads the
 latest RawTherapee source code and compiles it in a way which is
 optimized for your CPU. The compiled builds are ready for use. The
 script does not check for build-time dependencies, so be sure to read
-the [Dependencies](#Dependencies.md) section before using the
+the [Dependencies](#dependencies) section before using the
 script. The compiled builds are standalone, meaning that you can keep
 several versions of RawTherapee at the same time simply by renaming the
 build folders so that creating a new build does not overwrite the
@@ -341,7 +341,7 @@ RawTherapee uses GTK+ for the user interface and requires GTK+ version
 3.16 or newer. If your system does not support version 3.16 or newer
 then you must checkout the `5.0-r1-gtk2` tag. Our GTK2 support has
 officially ended on 2 February 2017 - refer to the archived
-[GTK2](Linux_GTK2.md) article, and update your system.
+[GTK2](linux_gtk2) article, and update your system.
 
 Compiling old versions of RawTherapee will fail on a modern system, as
 you will be missing the old dependencies.
@@ -622,7 +622,7 @@ just do the following:
     cd ~/programs/code-rawtherapee
     git pull
 
-Then repeat the [Make](#Make.md) step above.
+Then repeat the [Make](#make) step above.
 
 When updating, you can re-use the `build` folder from last time to avoid
 having to recompile things which have not changed, to make the whole

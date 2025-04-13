@@ -13,7 +13,7 @@ Enregistrer les images
 Votre fichier raw original ne sera jamais altéré par RawTherapee.
 
 Il existe plusieurs façons d'enregistrer une image depuis l'onglet
-[Editeur](The_Image_Editor_Tab/fr.md) :
+[Editeur](the_image_editor_tab/fr) :
 
 - ![<File:Save.png>](Save.png "File:Save.png") Enregistrement immédiat
   depuis l'onglet Editeur,
@@ -59,7 +59,7 @@ Le bouton *OK* a comme raccourci **Ctrl+Enter**.
 ## Placer au début/à la fin de la file de traitement
 
 Cliquez sur l'icône des engrenages
-[<file:gears.png>](file:gears.png.md) ou dans la fenêtre
+[<file:gears.png>](file:gears.png) ou dans la fenêtre
 "*Enregistrer*" puis "*Placer au début/à la fin de la file de
 traitement*", pour conserver l'image dans une file d'attente en vue
 d'être traitée, ultérieurement, ainsi Rawtherapee peut exploiter au
@@ -84,4 +84,4 @@ cochée, cette option permet de conserver différentes versions d'un même
 fichier raw, elles seront enregistrées sous le nom "photo_1000.jpg",
 "photo_1000**-1**.jpg", "photo_1000**-2**.jpg", etc. Cela s'applique de
 même quand vous envoyez différentes versions du même fichier raw vers la
-[file d'attente](The_Batch_Queue/fr.md).
+[file d'attente](the_batch_queue/fr).

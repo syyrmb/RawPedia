@@ -27,7 +27,7 @@ inapreciable con valores por debajo de *7*) a bastante intenso al llegar
 a *100*, pero nunca llegando a ser excesivo.
 
 El efecto se podría conseguir mediante la herramienta
-[*Vivacidad*](Vibrance/es.md) junto a una de las muchas formas
+[*Vivacidad*](vibrance/es) junto a una de las muchas formas
 de controlar en contraste que hay en RawTherapee, pero con esta
 herramienta conseguimos lo mismo mucho más rápidamente.
 

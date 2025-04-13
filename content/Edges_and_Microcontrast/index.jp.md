@@ -14,7 +14,7 @@ __TOC__
 
 ## 全般
 
-　[アンシャープマスクと](Sharpening/jp#Unsharp_Mask.md)違って、"エッジ"は本当にシャープニングを行うアルゴリズムです。ハロの発生はなく、ノイズの多い画像にも使えます、L\*a\*b\*色空間で使います。エッジだけを強調する機能で、[マイクロコントラストと](Edges_and_Microcontrast/jp#Microcontrast.md)併用して画像の質感を高めることが出来ます。
+　[アンシャープマスクと](sharpening/jp#unsharp_mask)違って、"エッジ"は本当にシャープニングを行うアルゴリズムです。ハロの発生はなく、ノイズの多い画像にも使えます、L\*a\*b\*色空間で使います。エッジだけを強調する機能で、[マイクロコントラストと](edges_and_microcontrast/jp#microcontrast)併用して画像の質感を高めることが出来ます。
 
 　どちらのアルゴリズムも[Manuel
 Llorens](https://github.com/ManuelLlorens)によってプログラムに実装されました。

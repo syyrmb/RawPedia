@@ -62,12 +62,12 @@ advantages and drawbacks.
 ### Retinex in "Wavelets"
 
 I installed 2 possibilities to enable Retinex in the Wavelet process:
-[Wavelet levels/fr](Wavelet_levels/fr.md). Some of the quoted
+[Wavelet levels/fr](wavelet_levels/fr). Some of the quoted
 limitations are no more there !
 
 Quick comparison between the both versions " Retinex in Wavelets" and "
 Retinex at the beginning of the processing":
-[Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2Ffr_par_rapport_.C3.A0_Retinex_in_wavelet](Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2Ffr_par_rapport_.C3.A0_Retinex_in_wavelet.md)
+[Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2Ffr_par_rapport_.C3.A0_Retinex_in_wavelet](wavelet_levels/fr#avantages_.28.2b.29_et_inconv.c3.a9nients_.28-.29_de_retinex.2ffr_par_rapport_.c3.a0_retinex_in_wavelet)
 
 ## Imposed limitations by RawTherapee
 
@@ -640,7 +640,7 @@ goal isn't to get Min = 0 and Max = 32768, but more reasonable values.
 For example, it is possible to lower a little bit the left part of the
 curve and to lift a little bit the central part. We end up for example
 to the following adjustments:
-:[Media:madeira-first.pp3](Media:madeira-first.pp3.md)
+:[Media:madeira-first.pp3](media:madeira-first.pp3)
 
 ##### The Haze-free image
 
@@ -660,7 +660,7 @@ Then, in an iterative way between "Gain transmission" + "offset" and
 - work by iterations
 
 I arbitrary took the following values given in the pp3
-[Media:madeira-second.pp3](Media:madeira-second.pp3.md)
+[Media:madeira-second.pp3](media:madeira-second.pp3)
 
 #### To apply a Gaussian mask and a gamma
 
@@ -674,7 +674,7 @@ high and low lights.
 Again, all is matter of taste.
 
 We end up, for example to the following adjustments:
-[Media:madeira-third.pp3](Media:madeira-third.pp3.md)
+[Media:madeira-third.pp3](media:madeira-third.pp3)
 
 ### Act on the chroma
 
@@ -688,7 +688,7 @@ Two cases:
   Wavelet.
 
 We end up to the following adjustments:
-[Media:madeira-four.pp3](Media:madeira-four.pp3.md)
+[Media:madeira-four.pp3](media:madeira-four.pp3)
 
 ### To boost the contrast and to reduce the atmospheric veil even more – Wavelet
 
@@ -701,7 +701,7 @@ We end up to the following adjustments:
 - Enable "chroma balance"
 
 You end up to the following adjustments:
-[Media:madeira-five.pp3](Media:madeira-five.pp3.md)
+[Media:madeira-five.pp3](media:madeira-five.pp3)
 
 ### Final adjustment
 
@@ -712,4 +712,4 @@ You can, if necessary :
 - And also on all the other usual adjustments.
 
 You end up to the following adjustments:
-[Media:madeira-six.pp3](Media:madeira-six.pp3.md)
+[Media:madeira-six.pp3](media:madeira-six.pp3)

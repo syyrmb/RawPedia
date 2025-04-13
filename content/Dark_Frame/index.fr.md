@@ -30,7 +30,7 @@ n'est pas un problème.
 Dans le panneau "Trame noire", vous pouvez spécifier une prise de vue
 unique à soustraire de l'image, ou bien cocher "Sélection automatique"
 et laisser RT choisir la prise de vue la plus adaptée dans un dossier
-spécifié dans "[Préférences](Preferences/fr.md) \> Traitement de
+spécifié dans "[Préférences](preferences/fr) \> Traitement de
 l'image \> Trame Noire". Sous le widget, RT montre combien de prises de
 vues sont trouvées et combien de groupes de prises de vue sont trouvés
 et moyennés en un modèle. A partir de maintenant, si ce n'est déjà fait,
@@ -88,13 +88,13 @@ capteur X-Trans. Vous pouvez aussi préciser le décalage (4 pour Bayer et
 
 Le fichier doit être placé dans le dossier trame noire. Définissez le en
 allant dans "*Préférences
-[image:preferences.png](image:preferences.png.md) \> Traitement
+[image:preferences.png](image:preferences.png) \> Traitement
 de l'image \> Soustraction de Trame Noire*". Les fichiers doivent être
 nommés exactement selon le fabricant et modèle de l'appareil photo :
 "*fabricant modèle.badpixels*". Obtenez les désignations du fabricant et
 du modèle tels que RawTherapee les attend en ouvrant une image raw que
 vous désirez corriger dans l'onglet
-[Editeur](The_Image_Editor_Tab/fr.md) et en regardant les nom et
+[Editeur](the_image_editor_tab/fr) et en regardant les nom et
 modèle affichés par l'icône "Informations rapides"
 ![Image:info.png](info.png "Image:info.png"), raccourci "**i**", ex :
 "`Pentax K200D.badpixels`"
@@ -104,7 +104,7 @@ dossier Trame Noire spécifié dans Préférences !
 
 Si vous avez suivi correctement les différentes étapes et si cela ne
 fonctionne pas, vérifiez que le fichier badpixels est bien lu, fermez
-RawTherapee et éditez le fichier "[options](File_Paths/fr.md)"
+RawTherapee et éditez le fichier "[options](file_paths/fr)"
 dans un éditeur de texte et changez la ligne "*Verbose=false*" par
 "*Verbose=true*", puis démarrez RawTherapee depuis une console, ouvrir
 la photo que vous souhaitez corriger, et observez le texte affiché dans

@@ -8,7 +8,7 @@ Todo: übersetzen
 
 Seite angelegt und Überschrift übersetzt, um zu referenzireren.
 
-[fherb](User:Fherb.md) ([talk](User_talk:Fherb.md))
+[fherb](user:fherb) ([talk](user_talk:fherb))
 12.3.2017
 
 ------------------------------------------------------------------------
@@ -20,14 +20,14 @@ other programs is that the cropped-off area is never discarded - this
 means that once you draw the crop you don't need to click any "OK"
 button to apply it - it's done. You will see the masked cropped-off area
 in the preview, but it will not appear in the saved image. Go to
-"[Preferences](Preferences.md) \> General \> [Crop mask
+"[Preferences](preferences) \> General \> [Crop mask
 color/transparency](Preferences#Default_Theme.md)" to change the
 color and transparency of the masked area around the crop.
 
 Activate crop-placing mode by clicking the "Select Crop" button in the
 tool panel, the ![<File:Crop.png>](Crop.png "File:Crop.png") button in
-the [Editor's](The_Image_Editor_Tab.md) top toolbar, or the
-appropriate [keyboard shortcut](Keyboard_Shortcuts.md), then
+the [Editor's](the_image_editor_tab) top toolbar, or the
+appropriate [keyboard shortcut](keyboard_shortcuts), then
 create the crop by clicking and dragging over the preview with your
 mouse. Use the **Shift** key to move the crop over the image. Resize a
 crop by placing the mouse on one of the sides or corners. To clear the

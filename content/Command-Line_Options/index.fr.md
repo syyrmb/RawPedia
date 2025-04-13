@@ -36,13 +36,13 @@ Utilisation :
 `rawtherapee [`<répertoire sélectionné>`]`
 
   
-Lance le [Navigateur de fichiers](The_File_Browser_Tab/fr.md) à
+Lance le [Navigateur de fichiers](the_file_browser_tab/fr) à
 l'intérieur du répertoire.
 
 `rawtherapee `<fichier>
 
   
-Lance l'[Editeur](The_Image_Editor_Tab/fr.md) avec le fichier
+Lance l'[Editeur](the_image_editor_tab/fr) avec le fichier
 chargé.
 
 `-w`
@@ -227,7 +227,7 @@ expliqué ci-dessous.
 
   
 Utilise le fichier pp3 raw ou non-raw comme défini dans
-"[Préférences](Main_Page/fr#Préférences.md) \> [Traitement de
+"[Préférences](main_page/fr#préférences) \> [Traitement de
 l'image](Preferences/fr#L'onglet_Traitement_de_l'image.md) \>
 [Paramètres de traitement d'image par
 défaut](Preferences/fr#Paramètres_de_traitement_d'image_par_défaut.md)"

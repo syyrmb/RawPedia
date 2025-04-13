@@ -78,7 +78,7 @@ take a given photo. This information is decoded from the photo's
 metadata (currently using a home-made solution, and in the future using
 [Exiv2](https://exiv2.org/)). To check whether the camera and lens names
 are decoded correctly, open a photo and in the Editor tab hit the
-"[image:info.png](image:info.png.md) Quick info" button. The
+"[image:info.png](image:info.png) Quick info" button. The
 info panel should show your camera and lens names. If it does not, then
 RawTherapee failed to decode this information correctly. For the time
 being, there is nothing you can do about this but wait for a new version
@@ -95,7 +95,7 @@ look at the "Camera" and "Lens" drop-downs in the Profiled Lens
 Correction tool. If you click on either drop-down, it should contain a
 long list of entries. If it does not, then your RawTherapee installation
 is buggy - try reinstalling, and if the problem persists then seek help
-via the [forum](forum.md).
+via the [forum](forum).
 
 #### How to check whether your Lensfun database contains information about your camera/lens
 
@@ -137,7 +137,7 @@ Lensfun database (which could be taken from one of the files in
 `$HOME/.local/share/lensfun/myLensfun` and modify the relevant parameter
 to match the metadata from your photos. You can find the camera and lens
 name and parameters contained in your photos by viewing the
-"[image:info.png](image:info.png.md) Quick info" panel.
+"[image:info.png](image:info.png) Quick info" panel.
 
 Note that while editing the Lensfun database in `/usr/share/lensfun/`
 directly may be possible, this is not recommended because you could lose
@@ -145,7 +145,7 @@ your changes during an update.
 
 Should you need to use a Lensfun database in a custom location, you can
 point RawTherapee to it by editing the
-[`options`](File_Paths#Config.md) file and setting the
+[`options`](file_paths#config) file and setting the
 `DBDirectory` key's value to the absolute path of the custom Lensfun
 database file.
 
@@ -177,7 +177,7 @@ aberrations.
 The [Profiled Lens
 Correction](Lens/Geometry#Profiled_Lens_Correction.md) tool's
 "geometric distortion" feature can be used together with the manual
-[Distortion Correction](Lens/Geometry#Distortion_Correction.md)
+[Distortion Correction](lens/geometry#distortion_correction)
 tool, and the vignetting correction feature can be used together with
 the manual [Vignetting
 Correction](Lens/Geometry#Vignetting_Correction.md) tool. This
@@ -187,7 +187,7 @@ to sufficiently correct a parameter. Be careful that you don't overdo
 the distortion and vignetting correction by forgetting to turn the
 manual tools off if you use the LCP equivalents. However, the Profiled
 Lens Correction tool's vignetting correction is mutually exclusive with
-the [Flat Field](Flat_Field.md) tool - that is, when you select
+the [Flat Field](flat_field) tool - that is, when you select
 a flat-field image, then the LCP's vignetting correction will have no
 effect.
 
@@ -259,7 +259,7 @@ alt="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg" />
 title="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
 
-"[image:Crop-auto.png](image:Crop-auto.png.md) Auto-Crop" is
+"[image:Crop-auto.png](image:crop-auto.png) Auto-Crop" is
 available when "Auto-fill" is disabled. When activated, it will not
 cause image interpolation, but instead will crop away the empty space
 left by the distortion correction or image rotation.
@@ -268,7 +268,7 @@ left by the distortion correction or image rotation.
 
 ### Rotate
 
-[900px](image:rotate.jpg.md)
+[900px](image:rotate.jpg)
 
 Rotate the image between -45° and +45°. Use the
 "![<File:Rotate-straighten.png>](Rotate-straighten.png "File:Rotate-straighten.png")
@@ -331,7 +331,7 @@ distortion.
   post-processed with an off-center crop. Units are in percent of the
   image width/height.
 - Rotation: corrects rotation around the optical axis. This is different
-  from the [Rotate](Lens/Geometry#Rotate.md) tool because it is
+  from the [Rotate](lens/geometry#rotate) tool because it is
   applied after the shift (they are effectively the same if
   horizontal/vertical shift are 0). Units are degrees.
 - Horizontal/Vertical: corrects perspective distortion due to the
@@ -429,11 +429,11 @@ Lensfun and LCP sections of this page.
 
 ### Geometric Distortion
 
-[framed](Image:Rt_distortion_correction.png.md)
+[framed](image:rt_distortion_correction.png)
 
 Corrects lens distortion. A negative number corrects barrel distortion,
 a positive value will correct pincushion distortion. You can place a
-grid over the image by activating [Crop](Crop.md) (without
+grid over the image by activating [Crop](crop) (without
 cropping) and using "*Guide Type \> Grid*". This may serve as a guide to
 correct lens distortion.
 

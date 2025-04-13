@@ -25,7 +25,7 @@ You must always provide the following information:
 
 - **Version details** of the RawTherapee build you're using. You can
   find this information by clicking on
-  [image:preferences.png](image:preferences.png.md) Preferences
+  [image:preferences.png](image:preferences.png) Preferences
   \> About \> Version - in most cases that tab will be full of
   information, all of which you should copy and paste into your bug
   report. If that tab is empty, then you can get the RawTherapee version
@@ -104,7 +104,7 @@ Availability of debug builds:
 - Linux packages are generally "release" unless the package has the word
   "debug" in the title, though this depends on your distribution,
   package manager and source of packages. The best way to get a debug
-  build is to compile one yourself; see the [Linux](Linux.md)
+  build is to compile one yourself; see the [Linux](linux)
   compilation guide - it's easy!
 - macOS packages currently contain "release" executables only. We will
   hopefully include "debug" ones in the future.
@@ -115,7 +115,7 @@ Check [our download page](http://rawtherapee.com/downloads) or your
 package manager for a *debug* build of the latest version of
 RawTherapee. If there is none, then either ask us for one, or make one
 yourself. If you use Linux, making one is very easy, just follow the
-[Compiling in Linux](Linux.md) guide.
+[Compiling in Linux](linux) guide.
 
 Software can (and often does) behave differently running under a
 debugger than it normally would, due to the inevitable changes the
@@ -219,7 +219,7 @@ use backticks or indent the code - read [the Forum code formatting
 guide](Forum.md).
 
 Remember to include the contents of
-"*[image:preferences.png](image:preferences.png.md) Preferences
+"*[image:preferences.png](image:preferences.png) Preferences
 \> About \> Version*", a sample raw and PP3 file, along with full
 version information of your operating system, your CPU type and speed,
 and how much RAM you have, what you had for lunch, etc.

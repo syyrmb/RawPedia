@@ -87,7 +87,7 @@ La carpeta con las distintas confguraciones de RawTherapee contiene:
 - la carpeta ***batch***, que almacena [perfiles de
   procesamiento](Sidecar_Files_-_Processing_Profiles/es.md)
   temporales de las fotos que has enviado a la
-  [Cola](Queue/es.md),
+  [Cola](queue/es),
 - la carpeta ***HaldCLUT***,
 - la carpeta ***profiles***, donde puedes guardar tus [perfiles de
   procesamiento
@@ -96,9 +96,9 @@ La carpeta con las distintas confguraciones de RawTherapee contiene:
 - las reglas de ***[perfiles
   dinámicos](Dynamic_processing_profiles/es.md)***,
 - el archivo ***options***, que contiene todos los ajustes que hayas
-  hecho en las [Preferencias](Preferences/es.md),
+  hecho en las [Preferencias](preferences/es),
 - el archivo
-  ***[camconst.json](Adding_Support_for_New_Raw_Formats/es.md)***
+  ***[camconst.json](adding_support_for_new_raw_formats/es)***
   editado por el usuario (en el que habrás definido detalles de cómo
   debe tratarse un formato raw específico). La existencia de este
   archivo hace que se ignoren los valores del archivo *camconst.json*

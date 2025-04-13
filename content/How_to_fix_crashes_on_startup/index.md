@@ -154,7 +154,7 @@ and escalate if the simple steps do not help:
         file in any way as in doing so it might remove or obscure the
         problem. Zip files are safe containers. Upload the zip file
         using [FileBin](http://filebin.net/) and send us the link in
-        your [bug report](How_to_write_useful_bug_reports.md) or
+        your [bug report](how_to_write_useful_bug_reports) or
         in the [forum](https://discuss.pixls.us/c/software/rawtherapee)
         (preferably a bug report), along with the stack backtrace and
         other required information described in the guide "[How to write

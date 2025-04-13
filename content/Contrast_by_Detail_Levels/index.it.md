@@ -94,7 +94,7 @@ risultati nella finestra dei dettagli; potresti voler ingrandire fino al
 200% o più per vedere meglio questo filtro.
 
 Per gli scatti ISO (1600+), prova ad esempio facendo clic sul pulsante
-"*Contrast*" e utilizzando [Sharpening](Sharpening.md)\>
+"*Contrast*" e utilizzando [Sharpening](sharpening)\>
 \[Sharpening/it#Unsharp Mask\|Maschera di contrasto\]\] con una quantità
 di 80.
 

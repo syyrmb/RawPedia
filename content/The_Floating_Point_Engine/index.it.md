@@ -72,4 +72,4 @@ sistema a 32 bit, provare quanto segue:
   utilizzarli se la vostra macchina e il sistema operativo hanno poche
   risorse.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

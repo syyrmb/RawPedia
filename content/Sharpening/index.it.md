@@ -42,7 +42,7 @@ Il parametro *Quantità* controlla la forza della nitidezza.
 
 ### Soglia
 
-[image: Usm_threshold.png](image:_Usm_threshold.png.md) Lo
+[image: Usm_threshold.png](image:_usm_threshold.png) Lo
 strumento *Soglia* aiuta a sopprimere l'amplificazione e la formazione
 di aloni oltre a limitare la ntidezza ad una gamma tonale desiderata. Lo
 strumento Soglia permette di creare una curva attraverso cui viene

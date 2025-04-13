@@ -18,8 +18,8 @@ di modificare la luminosità dell'immagine modificando il contributo dei
 canali RGB, pur mantenendo lo stesso colore dell'immagine.
 
 L'effetto è in qualche modo simile alle modifiche a *V*
-nell'[Equalizzatore HSV](HSV_Equalizer/it.md), ma è più liscia e
+nell'[Equalizzatore HSV](hsv_equalizer/it), ma è più liscia e
 più ampia di tonalità, ma non selettiva. Quando si lavora su immagini in
 bianco e nero, le regolazioni simili possono essere effettuate tramite
-[Miscelatore Canali](Channel_Mixer/it.md), ma le curve RGB
+[Miscelatore Canali](channel_mixer/it), ma le curve RGB
 consentono un controllo più sottile.

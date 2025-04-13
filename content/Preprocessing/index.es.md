@@ -17,7 +17,7 @@ Operaciones previas al desentramado de la imagen
 
 ## Introducción
 
-Antes de efectuar el [*desentramado*](Demosaicing/es.md) de la
+Antes de efectuar el [*desentramado*](demosaicing/es) de la
 foto, RawTherapee realiza una serie de pasos previos que preparan los
 datos para convertirlos a RGB.
 
@@ -141,7 +141,7 @@ verdes, mientras que la diafonía intensa aparecerá como colores tenues y
 desaturados (ya que los canales de colores han sido mezclados). Observa
 que en general la diafonía no se produce sin una fuerte dominante de
 color, por lo que en este caso también te interesará usar la
-[*Corrección de campo plano*](Flat-Field/es.md).
+[*Corrección de campo plano*](flat-field/es).
 
 ### Filtro para líneas de Enfoque Automático por Detección de Fase (EADF)
 
@@ -270,7 +270,7 @@ listado, puedes verificar si está leyendo tu archivo *`.badpixels`*:
 
 - cierra RawTherapee
 - edita el archivo
-  [*options*](File_Paths/es#La_carpeta_con_las_configuraciones.md)
+  [*options*](file_paths/es#la_carpeta_con_las_configuraciones)
   en un editor de texto y cambia *Verbose=false* a ***Verbose=true***
 - [arranca RawTherapee desde la consola de
   comandos](Command-Line_Options/es#Arrancar_la_interfaz_gráfica_de_RawTherapee.md)

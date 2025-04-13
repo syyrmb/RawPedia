@@ -41,7 +41,7 @@ plus élevées accroissent le contraste, les plus basses le diminuent.
 A partir de Rawtherapee 5.5, alors que l'outil Niveaux Auto de l’Éditeur
 utilises encore la valeur Rognage %, les vignettes utilisent une valeur
 fixe de 0.2%, ceci pour réduire le nombre de fichiers à sauvegarder dans
-le [cache](File_Paths/fr#Cache.md).
+le [cache](file_paths/fr#cache).
 
 ## Reconstruction des hautes lumières
 

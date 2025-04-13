@@ -19,7 +19,7 @@ profilo di elaborazione o le regolazioni. Le selezioni vengono
 effettuate utilizzando combinazioni di tasti standard: Shift + clic per
 selezionare un intervallo, Ctrl + clic per selezionare singole immagini
 oppure Ctrl + A per selezionare tutto. Entrambe le modalità vengono
-eseguite nella scheda [Navigatore](File_Browser_Tab.md). Il
+eseguite nella scheda [Navigatore](file_browser_tab). Il
 metodo "copia e incolla" può essere eseguito anche tramite [Sequenza di
 immagini](The_Image_Editor_Tab_#_The_Filmstrip.md).
 
@@ -41,7 +41,7 @@ immagini](The_Image_Editor_Tab.md) e si modifica a piacimento.
 Una volta terminata la modifica, si applica il profilo di elaborazione
 di questa immagine a tutte le altre immagini della stessa serie. A tale
 scopo, si deve andare nella scheda
-[Navigatore](File_Browser_Tab.md), fare clic con il pulsante
+[Navigatore](file_browser_tab), fare clic con il pulsante
 destro del mouse su questa foto e selezionare "Operazioni di profilo di
 elaborazione\>Copia", quindi selezionare le immagini che si desidera
 applicare a questo profilo e fare clic con il pulsante destro del mouse

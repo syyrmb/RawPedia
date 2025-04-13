@@ -165,7 +165,7 @@ jeden überflüssigen Mausklick zu vermeiden.
 Doch, lass uns endlich anfangen.
 
 Beim ersten Start von Rawtherapee wird die Registerkarte
-[Dateiverwaltung](The_File_Browser_Tab/de.md) sichtbar und sehr
+[Dateiverwaltung](the_file_browser_tab/de) sichtbar und sehr
 wahrscheinlich leer sein (der Reiter der Registerkarte befindet sich
 ganz links oben). Suche in der Baumstruktur auf der linken Seite nach
 dem Ordner mit deinen Raw-Files und öffne diesen durch einen
@@ -186,7 +186,7 @@ RawTherapee vertraut bist, wirst du dies recht schnell erledigen und in
 der Regel zu einem weit aus besser entwickelten Ergebnis kommen.
 
 Die Bearbeitung erfolgt über die Registerkarte
-[Bildeditor](The_Image_Editor_Tab/de.md) (den Editor-Reiter
+[Bildeditor](the_image_editor_tab/de) (den Editor-Reiter
 findest du wieder ganz oben links). An dieser Stelle arbeitest du, um
 atemberaubende Kunstwerke zu erstellen - oder vielleicht auch nur, um
 Erste Hilfe für deine Schnappschüsse zu leisten.
@@ -271,7 +271,7 @@ helfen, deine Bilder zu schützen:
   Zusammenhang mit RawTherappe auch oft als *Profilfile* bezeichnet.
 - Wenn du den Bildeditor verwendest, findest du auf der linken Seite
   einen Bereich, der mit
-  [Historie](The_Image_Editor_Tab/de#Historie.md) überschrieben
+  [Historie](the_image_editor_tab/de#historie) überschrieben
   ist. Dieser Bereich zeigt sämtliche einzelnen Änderungen der
   Werkzeugparameter während deiner Bearbeitung als Tabelle in der
   Reihenfolge deiner Änderungen an. Um zu irgend einem Schritt
@@ -279,7 +279,7 @@ helfen, deine Bilder zu schützen:
   zurückzukehren, brauchst du nur auf den entsprechenden Eintrag in der
   Historie klicken.
 - Unterhalb der Historie befindet sich der Bereich
-  [Schnappschüsse](The_Image_Editor_Tab/de#Schnappsch.C3.BCsse.md).
+  [Schnappschüsse](the_image_editor_tab/de#schnappsch.c3.bcsse).
   Du kannst das erst mal überspringen. Aber du wirst dies recht
   praktisch finden, wenn du mit RawTherapee einige Erfahrungen gesammelt
   hast. Dieser Bereich speichert den aktuellen Stand der Einstellungen
@@ -313,9 +313,9 @@ helfen, deine Bilder zu schützen:
 2.  Klicke auf die
     ![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png")
     Farbregisterkarte und erweitere das Werkzeug
-    [Weißabgleich](White_Balance/de.md) durch Klicken mit der
+    [Weißabgleich](white_balance/de) durch Klicken mit der
     rechten Maustaste (oder verwende das
-    [Tastenkürzel](Keyboard_Shortcuts/de.md) ). RawTherapee
+    [Tastenkürzel](keyboard_shortcuts/de) ). RawTherapee
     beginnt mit dem von deiner Kamera verwendeten Weißabgleich. Die
     meisten Einstellungen des Weißabgleichs erfordern das Verschieben
     der Schieberegler *Farbtemperatur* und *Tönung* oder die Verwendung
@@ -326,7 +326,7 @@ helfen, deine Bilder zu schützen:
     Registerkarte
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png")
     (Belichtung) gehst, erweitere das Werkzeug
-    [Belichtung](Exposure/de.md) und stelle die Parameter so
+    [Belichtung](exposure/de) und stelle die Parameter so
     ein, dass dein Bild nach deinem Geschmack optimal ausgeleuchtet ist.
     Verwende jetzt erst mal nur die Regler Belichtungskorrektur und
     Sättigung.
@@ -339,7 +339,7 @@ helfen, deine Bilder zu schützen:
     einer Darstellung mit 100% oder darüber in der Vorschau sichtbar.
     Und natürlich auf dem fertigen, abgespeicherten Bild. Aktiviere nun
     auf dieser Registerkarte das Werkzeug
-    [Rauschreduzierung](Noise_Reduction/de.md) (den kleinen
+    [Rauschreduzierung](noise_reduction/de) (den kleinen
     "Netzschalter" links neben der Schrift "Rauschreduzierung"
     anklicken; er wechselt von Dunkel- auf Hellgrau). Das Werkzeug
     besitzt bereits voreingestellte Parameter, die mit der Aktivierung
@@ -355,7 +355,7 @@ helfen, deine Bilder zu schützen:
     ![<File:Gtk-zoom-fit.png>](Gtk-zoom-fit.png "File:Gtk-zoom-fit.png")
     oder auf der Tastatur die Taste "f".
 5.  Nehmen wir an, du möchtest jetzt noch dein Bild etwas bezüglich
-    [Linsen- und Geometriekorrektur](Lens/Geometry/de.md)
+    [Linsen- und Geometriekorrektur](lens/geometry/de)
     bearbeiten und dann das Bild noch beschneiden und in der Auflösung
     reduzieren. Was im Einzelnen zu tun ist, hängt natürlich von deinem
     Foto ab. Wir beschreiben hier mal exemplarisch einige Schritte, die
@@ -383,7 +383,7 @@ helfen, deine Bilder zu schützen:
       den Button ![<File:Crop.png>](Crop.png "File:Crop.png") und ziehe
       ein Rechteck entsprechend des Bildausschnitts auf den beschnitten
       werden soll. Auch in diesem Fall wird das passende Werkzeug
-      ["Ausschnitt"](Crop/de.md) im Werkzeugkasten angesprungen
+      ["Ausschnitt"](crop/de) im Werkzeugkasten angesprungen
       und aktiviert. Gewöhnlich schaltet RawTherapee dabei ein
       geeignetes festes Seitenformat zu, was du daran merkst, dass du
       das Rechteck nicht beliebig ziehen kannst. Ist das ungünstig,
@@ -407,7 +407,7 @@ helfen, deine Bilder zu schützen:
       gleich nachfolgend beschrieben, abspeicherst und den Effekt danach
       überprüfst.
 6.  Du bist mit der Bearbeitung fertig. Lass uns das Bild nun
-    [speichern](Saving/de.md). Klicke auf den Button
+    [speichern](saving/de). Klicke auf den Button
     ![<File:Gtk-save-large.png>](Gtk-save-large.png "File:Gtk-save-large.png")
     (Bild speichern) oder verwende die Tasten Strg+s als Abkürzung. Eine
     gute "Allgemein-Einstellungen" für die meisten Zwecke ist, wenn du
@@ -455,7 +455,7 @@ Informationen](Main_Page/de#Allgemeine_Informationen.md)
 innerhalb der RawPedia.
 
 Warst du schon mal auf der Seite
-[Tastatur-Kürzel](Keyboard_Shortcuts/de.md)?
+[Tastatur-Kürzel](keyboard_shortcuts/de)?
 
 #### Automatische Abarbeitungsreihenfolge der Werkzeuge bei der Bildberechnung
 
@@ -481,7 +481,7 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
     - Stelle sicher, dass RawTherapee dein Monitor-Farbprofil benutzt,
       wenn du mit Farbaufnahmen arbeitest. Prüfe dazu "Einstellungen" \>
       "Farbmanagement". Den Button für die Einstellungen
-      ([image:Gtk-preferences.png](image:Gtk-preferences.png.md))
+      ([image:Gtk-preferences.png](image:gtk-preferences.png))
       findest du ganz links unten. Es kann notwendig sein, dass du auch
       das entsprechende Kalibrierungsprofil in deinem Betriebssystem der
       Grafikkarte zuweist. Dieses ganze Thema der Farbkalibrierung und
@@ -498,8 +498,8 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
     - Stelle sicher, dass das Farbmanagement-Werkzeug korrekt
       konfiguriert ist. Für gewöhnlich sind die Standardeinstellungen
       optimal. Lies dazu die Artikel
-      [Farbmanagement](Color_Management/de.md) und
-      [Farbmanagement (Zusatz)](Color_Management_addon/de.md).
+      [Farbmanagement](color_management/de) und
+      [Farbmanagement (Zusatz)](color_management_addon/de).
       Wenn du dich, anstatt die mit RawTherapee mitgelieferten
       Farbmatrix bzw. DCP oder ICC Profile zu nutzen, dafür
       entscheidest, ein Externes zu nutzen, zum Beispiel ein selbst
@@ -514,16 +514,16 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
       Abweichungen von den Standardeinstellungen möglichst umfangreich
       alle erreichbaren Dokumentationen zu Rate.
 2.  Wenn du in deinem Workflow für ein betreffendes Bild ein
-    [Weißbild](Flat_Field/de.md) und/oder
-    [Dunkelbild](Dark_Frame/de.md) verwenden willst, dann tue es
+    [Weißbild](flat_field/de) und/oder
+    [Dunkelbild](dark_frame/de) verwenden willst, dann tue es
     jetzt, um eine spätere Neujustierung zahlreicher Parameter anderer
     Werkzeuge zu vermeiden.
 3.  Setze jetzt den korrekten
-    [Weißabgleich](White_Balance/de.md). Du kannst zuvor aber
+    [Weißabgleich](white_balance/de). Du kannst zuvor aber
     auch erst die Belichtung korrigieren, falls das Bild für diesen
     Schritt zu dunkel oder zu hell ist, um den richtigen Wert für den
     Weißabgleich zu finden.
-4.  Als nächstes gleiche die [Belichtung](Exposure/de.md) ab.
+4.  Als nächstes gleiche die [Belichtung](exposure/de) ab.
     Verwende dazu zuerst die Regler für "Belichtungskorrektur" und
     "Schwarzwert", um das Bild in den gewünschten Bereich "zu schieben".
     (Schaue dabei auch schon mal oben links auf das Histogramm.) Hast du
@@ -536,7 +536,7 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
     sie am besten verwendet. Beide zusammen genommen sind sie ein sehr
     wirksames Werkzeug!
 5.  Im Grundlagenabschnitt weiter oben haben wir vorgeschlagen, den
-    [Sättigungs-Regler](Exposure/de#S.C3.A4ttigung.md) innerhalb
+    [Sättigungs-Regler](exposure/de#s.c3.a4ttigung) innerhalb
     des Werkzeugs "Belichtung" zu verwenden. Jetzt, nachdem du die
     Grundlagen schon beherrschst, kannst du damit beginnen,
     fortgeschrittenere Techniken auszuprobieren. Wie bei vielen anderen
@@ -545,7 +545,7 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
     beschriebenen Sättigungsregler nicht mehr zu verwenden und statt
     dessen die leistungsstärkere [CC
     Kurve](Lab_Adjustments/de#CC_Kurve.md) im Werkzeug
-    [Lab-Anpassungen](Lab_Adjustments/de.md). Dies gibt uns eine
+    [Lab-Anpassungen](lab_adjustments/de). Dies gibt uns eine
     gefühlvollere Einstellmöglichkeit.
 6.  Die Vorgabe der Reihenfolge der restlichen Einstellungen kann man
     als zunmehmend "unscharf" bezeichnen. Von der hier weiter
@@ -555,10 +555,10 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
     iterativ mehrfach durchlaufen solltest, wenn das erforderlich wird,
     bis du die gewünschte Bildwirkung erreichst. Fahre jetzt mit den
     weiteren Reglern und Kurven im Werkzeug
-    [Lab-Anpassungen](Lab_Adjustments/de.md) fort, wenn das für
+    [Lab-Anpassungen](lab_adjustments/de) fort, wenn das für
     dein Bild erforderlich ist. Und wende dann je nach Bedarf den Rest
     der Einstellmöglichkeiten in der Registerkarte "Belichtung" an.
-7.  Nutze nun das [Wavelet](Wavelets/de.md) Werkzeug, Reiter
+7.  Nutze nun das [Wavelet](wavelets/de) Werkzeug, Reiter
     ![<File:wavelet.png>](wavelet.png "File:wavelet.png") (Wavelet). Mit
     diesem in Version 5 neu hinzugekommenen Werkzeug wirst du
     Möglichkeiten (zum Beispiel zu Einstellungen des Kontrastes)
@@ -619,7 +619,7 @@ musst. Halte Dich deswegen in der Regel an die folgenden Empfehlungen.
     Änderungen für das im Folgenden abzuspeichernde Bild übernommen.
 12. Speichere jetzt das Ergebnis. Entweder direkt, wie schon oben
     beschrieben als einzelnes Foto, oder lege es in die sogenannte
-    [Warteschlange](The_Batch_Queue/de.md) ab und lasse die
+    [Warteschlange](the_batch_queue/de) ab und lasse die
     Fotos erst am Ende in einem Rutsch fertigstellen, um dich nicht
     zwischendurch auszubremsen, wenn du weitere Bilder bearbeiten oder
     das gleiche Bild mit anderen Einstellungen ein weiteres mal

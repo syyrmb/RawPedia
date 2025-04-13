@@ -21,27 +21,27 @@ title="Rt55_icc_profile_creator.png" />
 〈ICCプロファイルクリエーター〉で貴方独自のICCプロファイルを作ることが出来ます。予め設定された値だけでなく、独自に設定した値も使えます。
 
 　RawTherapeeは
-[独自の作業プロファイル](Color_Management/jp#Adding_Custom_Working_Profiles.md)　で生成されるXYZカラーマトリクスを使って、出力プロファイル、モニタープロファイル、或いは独自の作業プロファイルを作成することが出来ます。
+[独自の作業プロファイル](color_management/jp#adding_custom_working_profiles)　で生成されるXYZカラーマトリクスを使って、出力プロファイル、モニタープロファイル、或いは独自の作業プロファイルを作成することが出来ます。
 
 　ICCプロファイルの全てのパラメータを調整出来るわけではありませんが（例えば、A2B或いはB2Aタグ）、写真家にとって重要なパラメータ（例、原色、TRC、ホワイトポイント（光源））を調整することが出来ます。
 
 　バージョン2と4に準ずるICCプロファイルを作成出来ます。どちらのケースでも、独自の原色を使って、光源の変更、トーンリプロダクションカーブ（TRC）の調整が出来ます。
 
-　コードと基本原理は、[アブストラクトプロファイルで](Color_Management/jp#Abstract_Profiles.md)使われるそれらと類似しています。
+　コードと基本原理は、[アブストラクトプロファイルで](color_management/jp#abstract_profiles)使われるそれらと類似しています。
 
 ## 使い方
 
 　このモジュールへアクセスするには、画面の左下或いは右上に表示されているICCプロファイルクリエーターボタン![<File:Gamut-plus.png>](Gamut-plus.png "File:Gamut-plus.png")を押します。
 
-　貴方が作成したプロファイルをRawTherapeeで使えるようにするには、[環境設定のカラーマネジメントタブの](Preferences/jp.md)中にある“カラープロファイルを含むディレクトリ”に保存します。
+　貴方が作成したプロファイルをRawTherapeeで使えるようにするには、[環境設定のカラーマネジメントタブの](preferences/jp)中にある“カラープロファイルを含むディレクトリ”に保存します。
 
 ### 原色
 
 　3つの原色、レッド、グリーン、ブルーは加法混色で、他の全ての色の基礎になります。ICCプロファイルクリエーターでは、xy座標を使ってCIExy色度のダイヤグラム1931上に、原色の位置を指定します。
 
-[CIExyダイヤグラム](Color_Management#The_CIE_xy_diagram.md)
+[CIExyダイヤグラム](color_management#the_cie_xy_diagram)
 
-[アルゴリズムの働き](Color_Management#How_the_.22Primaries_and_White_Point.22_algorithm_works.md)
+[アルゴリズムの働き](color_management#how_the_.22primaries_and_white_point.22_algorithm_works)
 
 ### トーンリプロダクションカーブ（TRC）
 
@@ -52,7 +52,7 @@ title="Rt55_icc_profile_creator.png" />
 
 　“標準ガンマ＝2.2”、“sRGBガンマ＝2.4　勾配=12.92”、などの、前もって定義されている値を選択出来ます。或いは、独自のTRCを構築することも出来ます。独自のTRCは、線形部分と放物線部分で構成され、2つはシームレスにつなげられます。
 
-　TRCの他の使い方はアブストラクトプロファイルの[トーンリプロダクションカーブの](Color_Management/jp#TRC_-_Tone_Response_Curve.md)中で解説されています。
+　TRCの他の使い方はアブストラクトプロファイルの[トーンリプロダクションカーブの](color_management/jp#trc_-_tone_response_curve)中で解説されています。
 
 ### 光源
 
@@ -63,4 +63,4 @@ title="Rt55_icc_profile_creator.png" />
 　通常、色は標準D50 、D60
 またはD65の何れかを使って符号化されますが、ドロップダウンリストから異なる光源を指定することも出来ます。この場合、ICCプロファイルクリエーターは、色を選択された光源に変換するために、必要な色度の調節を行います。
 
-　光源とアブストラクトプロファイルに関する詳細は、[アブストラクトプロファイルの](Color_Management/jp#Abstract_Profiles.md)項を参照して下さい。
+　光源とアブストラクトプロファイルに関する詳細は、[アブストラクトプロファイルの](color_management/jp#abstract_profiles)項を参照して下さい。

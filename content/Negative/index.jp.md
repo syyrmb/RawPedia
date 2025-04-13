@@ -9,8 +9,8 @@ contributors:
 
 　フィルムカメラで撮影された、明暗と色が反転しているような画像のことをネガと呼びますが、今のところRawTherapeeは、手間のかからないワンクリックで画像をネガへ変換することが出来ません。以下に、現在のバージョンでネガに変換する方法を紹介します：
 
-1.  　露光補正セクションの[トーンカーブを](Exposure/jp#トーンカーブ.md)反転させる、或いは[RGBカーブカーブ](RGB_Curves/jp.md)機能で、全てのカーブを反転させます。欠点：トーンが変化します。
-2.  　[フィルムシムレーションで](Film_Simulation/jp.md)、“RawTherapeeフィルムシミュレーション集”の中から“negative”のHaldCLUTを選んで適用します。欠点：幾つかの設定値、例えば露光量補正スライダーの値が逆向きに作用し、ハイライトやシャドウが飛んだり潰れたりするかもしれません（機能自体がネガを扱うように設計されていないため）。
+1.  　露光補正セクションの[トーンカーブを](exposure/jp#トーンカーブ)反転させる、或いは[RGBカーブカーブ](rgb_curves/jp)機能で、全てのカーブを反転させます。欠点：トーンが変化します。
+2.  　[フィルムシムレーションで](film_simulation/jp)、“RawTherapeeフィルムシミュレーション集”の中から“negative”のHaldCLUTを選んで適用します。欠点：幾つかの設定値、例えば露光量補正スライダーの値が逆向きに作用し、ハイライトやシャドウが飛んだり潰れたりするかもしれません（機能自体がネガを扱うように設計されていないため）。
 3.  　上記で説明したニュートラルなHaldCLUTのネガティブを使うだけでなく、既に貴方がネガティブへの変換だけでなく、RawTherapeeや他のソフトを使って好みの色調も調整出来るのであれば、独自のネガティブHaldCLUTを作成し、編集に適用することが出来ます。そうすれば画像を簡単にネガティブ変換するだけでなく、自分の好みに合わせた色調も同時に得られます。後は露光量補正や他のカーブでヒストグラムを拡大するだけで済みます。
 4.  　現状、ベストと思われる方法は、貴方のカメラのDCP（DNG Camera
     Profile）を使う方法です。DNG Profile
@@ -25,12 +25,12 @@ contributors:
 1.  \[<https://helpx.adobe.com/jp/photoshop/digital-negative.html>　 DNG
     Profile
     Editor\]を手に入れます。[wine　wine](https://www.winehq.org/)（英語）を使えばLinuxでも問題なく動作します。
-2.  貴方のカメラ或いはスキャナーのraw画像（ネガの写真でも可能です）の形式を、“[Rawファイルの形式をDNGに変換する](How_to_convert_raw_formats_to_DNG/jp.md)”の説明を参考に、DNGに変換します。
+2.  貴方のカメラ或いはスキャナーのraw画像（ネガの写真でも可能です）の形式を、“[Rawファイルの形式をDNGに変換する](how_to_convert_raw_formats_to_dng/jp)”の説明を参考に、DNGに変換します。
 3.  DNG Profile EditorでそのDNG形式の画像を開きます。
 4.  カラーテーブルタブの中で、“Adobe
     Standard（<your camera model>）”と呼ぶベースプロファイルを探します。あればそれを使いますが、無ければ“Choose
     external profile”を選択し、“<your camera model>Adobe Standard
-    dcp”と名付けられたファイルを探します。“[LCPとDCPプロファイルを取得する方法](How_to_get_LCP_and_DCP_profiles/jp.md)”に、入手方法と探し方が説明されています。
+    dcp”と名付けられたファイルを探します。“[LCPとDCPプロファイルを取得する方法](how_to_get_lcp_and_dcp_profiles/jp)”に、入手方法と探し方が説明されています。
 5.  トーンカーブタブの中のトーンカーブを反転させます。つまり、最上点を左に移動し、最下点を右に移動します。
 6.  同じトーンカーブタブの中に、3種類の“Base Tone
     Curve”があります。うち“Base Profile”と“Camera Raw

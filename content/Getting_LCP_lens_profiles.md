@@ -6,4 +6,4 @@ contributors:
 ---
 
 1.  REDIRECT
-    [How_to_get_LCP_and_DCP_profiles](How_to_get_LCP_and_DCP_profiles.md)
+    [How_to_get_LCP_and_DCP_profiles](how_to_get_lcp_and_dcp_profiles)

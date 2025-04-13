@@ -21,7 +21,7 @@ avec précision à chacun de ces relevés une couleur de l'espace
 colorimétrique pour assurer une fidèle reproduction de toutes les
 couleurs de la scène capturée. Le profil d'entrée est appliqué aux
 données de l'image au début du
-[pipeline](Toolchain_Pipeline/fr.md) de traitement de
+[pipeline](toolchain_pipeline/fr) de traitement de
 RawTherapee et la plupart des outils traitent les données en aval dans
 le pipeline.
 
@@ -181,7 +181,7 @@ cocher Courbe tonale sera désactivée pour les profils qui ne contiennent
 pas de courbe tonale.
 
 Le mode de courbe utilisé par la courbe tonale du DCP est le même que le
-mode "[Similaire Film](Exposure/fr#Similaire_Film.md)" de
+mode "[Similaire Film](exposure/fr#similaire_film)" de
 l'outil Exposition, ce qui fait que vous pouvez reproduire l'effet
 obtenu en utilisant les courbes tonales de l'outil Exposition dans le
 mode Similaire Film. Lorsque le contraste est appliqué avec une courbe
@@ -295,7 +295,7 @@ le convertisseur raw doit procéder ou pas à une soustraction
 "automatique" du noir. RawTherapee ignore cette balise, vous pouvez
 réaliser une soustraction manuelle du noir grâce à l'outil [Points noirs
 raw](Raw_Black_Points/fr.md) ou avec le curseur
-[noir](Exposure/fr#Noir.md) de l'outil Exposition. Un grand
+[noir](exposure/fr#noir) de l'outil Exposition. Un grand
 nombre de profils d'Adobe indiquent la soustraction automatique de noir
 et Adobe Camera Raw / Lightroom le font, dans ces cas RawTherapee aura
 un rendu avec un contraste un peu plus faible et des ombres un peu plus
@@ -340,7 +340,7 @@ endroits après avoir poussé l'image, vous n'avez pas le même résultat
 qu'avec Capture One de Phase One. Cependant, il est recommandé d'avoir
 une exposition correcte au sortir de l'appareil photo pour utiliser les
 profils ICC de Phase One. Vous devriez aussi appliquer une courbe
-[similaire Film](Exposure/fr#Similaire_Film.md) RVB correcte,
+[similaire Film](exposure/fr#similaire_film) RVB correcte,
 car ces profils ICC sont conçus pour être utilisés avec.
 
 Nous sommes conscients que les ICC des LUT devraient être appliqués
@@ -1119,7 +1119,7 @@ Par défaut tous ces profils ont une TRC (Courbe de reproduction des
 tons) de type sRGB - gamma =2.4 slope =12.92
 
 Vous pouvez personnaliser ces profils à l'aide de "ICC profile creator"
-[Générateur de profils ICC](ICC_Profile_Creator/fr.md) :
+[Générateur de profils ICC](icc_profile_creator/fr) :
 
 - changer la TRC et assigner des valeurs de 1 - gamma linéaire, ou toute
   autre valeur

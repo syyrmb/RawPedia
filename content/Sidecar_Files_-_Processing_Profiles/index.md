@@ -21,10 +21,10 @@ thumbnails shown for images which have no processing profile assigned
 JPEG image embedded in each raw file. A processing profile is assigned
 to the image the moment one of these actions are taken:
 
-- You open the photo for [editing](The_Image_Editor_Tab.md).
+- You open the photo for [editing](the_image_editor_tab).
 - You apply a processing profile manually, by using the right-click
-  context menu in the [File Browser](The_File_Browser_Tab.md) or
-  [Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md).
+  context menu in the [File Browser](the_file_browser_tab) or
+  [Filmstrip](the_image_editor_tab#the_filmstrip).
 - You apply a [dynamic processing
   profile](Dynamic_processing_profiles.md).
 
@@ -60,7 +60,7 @@ work in exactly the same way:
   save it so that it also appears in the Processing Profile Selector
   drop-down list, in the "My profiles" section. To have it appear there,
   save it to the "profiles" folder within the "config" folder - see the
-  [File Paths](File_Paths.md) article to find it.
+  [File Paths](file_paths) article to find it.
 - Automatically generated profiles.
     
   Whenever you edit an image, the tool settings you want applied to that
@@ -92,7 +92,7 @@ The processing profile is written to disk:
   Selector](The_Image_Editor_Tab#Processing_Profile_Selector.md)
   panel in the Editor tab.
 - When you use the "force saving current settings to the processing
-  profile" [keyboard shortcut](Keyboard_Shortcuts.md) from the
+  profile" [keyboard shortcut](keyboard_shortcuts) from the
   Editor tab.
 
 If a photo has an associated processing profile, a green check mark will
@@ -128,7 +128,7 @@ occur if you are working on a non-raw file.
 ## Defaults
 
 The default processing profile used when opening **non-raw** images is
-called "[Neutral](Neutral.md)". This profile has all tool
+called "[Neutral](neutral)". This profile has all tool
 settings at their neutral values, so they have no effect. Since non-raw
 images usually have already been processed and are ready for viewing,
 having RawTherapee not introduce any tweaks by default is the desirable
@@ -161,7 +161,7 @@ where only a subset of the parameters are involved, or full, involving
 all parameters. These operations are performed using the buttons in the
 [Processing Profile
 Selector](Editor#Processing_Profile_Selector.md) located in the
-top-right corner of the [Editor](Editor.md) tab. Clicking these
+top-right corner of the [Editor](editor) tab. Clicking these
 buttons invokes an operation on the full profile, while +clicking
 invokes an operation only on a subset of parameters. When a partial
 operation is invoked, a windows pops up letting you choose which
@@ -172,19 +172,19 @@ another, while omitting all other parameters.
 The processing profile fill mode allows you to decide what happens when
 you apply (load or paste) a partial processing profile.
 
-- [image:Profile-filled.png](image:Profile-filled.png.md) "Fill"
+- [image:Profile-filled.png](image:profile-filled.png) "Fill"
   mode takes missing values from RawTherapee's hard-coded defaults. For
   instance, if you apply a partial profile containing only sharpening
   settings, all of the remaining tools will be set to their default
   parameters, overwriting any edits you have made.
-- [image:Profile-partial.png](image:Profile-partial.png.md)
+- [image:Profile-partial.png](image:profile-partial.png)
   "Preserve" mode applies only those parameters that are available in
   the partial profile and leaves missing values unchanged. Using the
   previous example, only the sharpening settings would be applied and
   all other parameters would be left intact.
 
 Most of the profiles that come bundled with RawTherapee are partial
-profiles. The [File Paths](File_Paths.md) article explains where
+profiles. The [File Paths](file_paths) article explains where
 the processing profiles shown in the drop-down list can be found on your
 file system.
 
@@ -230,7 +230,7 @@ whole cache folder, when installing a new version of RawTherapee you
 retain the option of going back to an older version of RawTherapee in
 order to get the exact same result.
 
-The [File Paths](File_Paths.md) article describes where you can
+The [File Paths](file_paths) article describes where you can
 find the "*cache*" and "*config*" folders on your system.
 
 When releasing a major new version of RawTherapee, it may happen that we
@@ -245,15 +245,15 @@ reasons we may (rarely) choose to do that.
   and 4.0.12, so if your old processing profiles had it enabled, the
   results in 4.0.12 will be a little different and may require tuning
   your old profiles.
-- Some users have not checked "[Preferences](Preferences.md)" in
+- Some users have not checked "[Preferences](preferences)" in
   a long time, and their program is tuned for what worked best long ago,
   not for what works best now. Our defaults are good defaults, we keep
   them up to date to make RawTherapee look and function well
   out-of-the-box, so sometimes having RawTherapee start with fresh
   defaults is a good thing, and it will motivate users to look into
-  "[Preferences](Preferences.md)" again.
+  "[Preferences](preferences)" again.
 - Some users have never looked inside
-  "[Preferences](Preferences.md)" in the first place, and are
+  "[Preferences](preferences)" in the first place, and are
   unaware of some of the features that can be unlocked there. As above,
   fresh defaults will activate these things.
 - Some old cache and config files can cause RawTherapee to crash. While

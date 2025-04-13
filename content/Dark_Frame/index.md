@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Dark-Frame](Dark-Frame.md)
+1.  REDIRECT [Dark-Frame](dark-frame)

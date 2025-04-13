@@ -107,8 +107,8 @@ zoomer à 200% et plus pour mieux apprécier l'action du filtre.
 
 Pour les prises de vues avec une sensibilité ISO importante (1600 et
 plus), essayez par exemple de cliquer deux fois sur le bouton
-"*Contraste-*" et utilisez [Netteté](Sharpening/fr.md) \>
-[Masque Flou](Sharpening/fr#Masque_Flou.md) avec une Quantité de
+"*Contraste-*" et utilisez [Netteté](sharpening/fr) \>
+[Masque Flou](sharpening/fr#masque_flou) avec une Quantité de
 80.
 
 ## Seuil

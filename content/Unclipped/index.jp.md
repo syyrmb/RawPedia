@@ -12,7 +12,7 @@ contributors:
 
 ## イントロダクション
 
-　“クリップなし”の[処理プロファイル](Sidecar_Files_-_Processing_Profiles/jp#サイドカーファイル-処理プロファイル.md)
+　“クリップなし”の[処理プロファイル](sidecar_files_-_processing_profiles/jp#サイドカーファイル-処理プロファイル)
 （バージョン5.6のRawTherapeeから導入）を使うことで、クリップしているシャドウ部分とハイライト部分も含めて、画像の全諧調のデータを保存することが出来ます。これによりシャドウ・ハイライト部分の詳細が保たれるので、追加調整のために保存した画像に強い露光補正やダイナミックレンジ圧縮を施すことが可能となります。科学的目的として使えるだけでなく、パノラマスティッチング作成のように、追加的な編集が必要でも、各画像をスムーズにつなぎ合わせるための最終的な露出がまだ決まっていない時に便利です。
 
 <div align="center">
@@ -26,17 +26,17 @@ contributors:
 
 　クリップなしの画像を編集する場合、全ての機能が使えるわけではありません。一部の機能や設定は、RawTherapeeバージョン5.6のクリップなしで保存した画像には互換性がないので、この処理プロファイルでは次に示す機能が使えません：
 
-- [露光補正のトーンカーブ](Exposure/jp#トーンカーブ.md)
-- [自然な彩度](Vibrance/jp.md)
-- [白黒機能の](Black-and-White/jp#白黒.md)前/後カーブ
-- [フィルムシミュレーション](Film_Simulation/jp.md)
-- [RGBカーブの](RGB_Curves/jp.md)輝度だけのモード
-- [DCPのルックテーブルを使う](Color_Management/jp#DCPのルックテーブルを使う.md)
-- [CIE色の見えモデル02](CIECAM02/jp.md)
+- [露光補正のトーンカーブ](exposure/jp#トーンカーブ)
+- [自然な彩度](vibrance/jp)
+- [白黒機能の](black-and-white/jp#白黒)前/後カーブ
+- [フィルムシミュレーション](film_simulation/jp)
+- [RGBカーブの](rgb_curves/jp)輝度だけのモード
+- [DCPのルックテーブルを使う](color_management/jp#dcpのルックテーブルを使う)
+- [CIE色の見えモデル02](ciecam02/jp)
 
 ## 利用方法
 
 1.  “クリップなし”の処理プロファイルを適用します。この処理プロファイルで保存された画像には、先に挙げた機能や設定が使えません。出力プロファイルにはv4或いは線形で諧調反応するv2を使います。
-    - この処理プロファイルを適用し、全ての機能調整を安全なデフォルト値にリセットする場合は、このプロファイルを適用する前に、処理プロファイルの利用モードを[”補填”](Sidecar_Files_-_Processing_Profiles/jp#部分的処理プロファイルと補填モード.md)![<File:Profile-filled.png>](Profile-filled.png "File:Profile-filled.png")にします。
-    - 既存の調整を保持したままこの処理プロファイルを適用したい場合は、このプロファイルを適用する前に、処理プロファイルの利用モードを[”維持”](Sidecar_Files_-_Processing_Profiles/jp#部分的処理プロファイルと補填モード.md)![<File:Profile-partial.png>](Profile-partial.png "File:Profile-partial.png")にします。
+    - この処理プロファイルを適用し、全ての機能調整を安全なデフォルト値にリセットする場合は、このプロファイルを適用する前に、処理プロファイルの利用モードを[”補填”](sidecar_files_-_processing_profiles/jp#部分的処理プロファイルと補填モード)![<File:Profile-filled.png>](Profile-filled.png "File:Profile-filled.png")にします。
+    - 既存の調整を保持したままこの処理プロファイルを適用したい場合は、このプロファイルを適用する前に、処理プロファイルの利用モードを[”維持”](sidecar_files_-_processing_profiles/jp#部分的処理プロファイルと補填モード)![<File:Profile-partial.png>](Profile-partial.png "File:Profile-partial.png")にします。
 2.  適用後の画像は16ビット或いは32ビットの浮動小数点TIFFで保存します。

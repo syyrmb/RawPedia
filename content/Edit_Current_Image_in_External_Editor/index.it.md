@@ -14,7 +14,7 @@ immagini in modo che con un solo clic di un pulsante si visualizzino
 l'immagine finale di alta qualità.
 
 Il pulsante per inviare l'immagine ad un'applicazione esterna
-[image:Image-editor.png](image:Image-editor.png.md) si trova in
+[image:Image-editor.png](image:image-editor.png) si trova in
 basso a sinistra del pannello di anteprima. Quando si utilizza questa
 funzionalità, RawTherapee elabora l'immagine e la salva come un TIFF
 intero a 16 bit codificato con gamma alla [Percorsi e

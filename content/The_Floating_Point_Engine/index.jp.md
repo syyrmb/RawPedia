@@ -26,8 +26,8 @@ contributors:
   to set the /3GB Startup Switch in Windows XP and
   Vista](http://avatechsupport.blogspot.com/2008/03/how-to-set-3gb-startup-switch-in.html)"を参考にして下さい。
 - RawTherapee を使用する時は他のプログラムを閉じます。
-- 編集には、[シングル編集タブを](Preferences/jp#レイアウト.md)使います。
-- [バッチ処理の](The_Batch_Queue/jp.md)“自動スタート”はOFFにします。バッチ処理への画像追加は通常通りに行います。処理を始める準備が整ったら、RawTherapeeを再起動しRAMを空にします（この時に編集タブに画像はありません）、それからバッチ処理を開始します。
+- 編集には、[シングル編集タブを](preferences/jp#レイアウト)使います。
+- [バッチ処理の](the_batch_queue/jp)“自動スタート”はOFFにします。バッチ処理への画像追加は通常通りに行います。処理を始める準備が整ったら、RawTherapeeを再起動しRAMを空にします（この時に編集タブに画像はありません）、それからバッチ処理を開始します。
 - RawTherapeeにダークフレームやフラットフィールドの画像は読み込ませないようにします（それらを使用しないのであれば）。
 - 1つのフォルダーに数百枚以上の画像を保存しないようにします。各画像に（サムネイル、埋め込まれたICCプロフィルの処理、などに）、RAMを使用する必要があるからです。
 
@@ -48,4 +48,4 @@ contributors:
 　更に諸々の処理のため、追加的にメモリーが使われます、例えば開いた画像フォルダーに入っている他の画像のサムネイルを生成するためにもメモリーが必要です。
 処理や保存に必要なメモリーは使用した機能と上記に示した操作次第で著しく変わります。
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

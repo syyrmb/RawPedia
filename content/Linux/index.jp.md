@@ -11,9 +11,9 @@ Linux
 
 </div>
 
-　本ページは、**GNU/Linux**システムでRawTherapeeをコンパイルするためのインストラクションが詳述されています。[Windowsと](Windows/jp.md)[MacOSのインストラクションは](macOS/jp.md)別項にあります。
+　本ページは、**GNU/Linux**システムでRawTherapeeをコンパイルするためのインストラクションが詳述されています。[Windowsと](windows/jp)[MacOSのインストラクションは](macos/jp)別項にあります。
 
-　不明な点があれば、[IRC](IRC/jp.md)或いは或いは[フォーラムに](Forum/jp.md)参加して他の参加者に聞いてみて下さい。
+　不明な点があれば、[IRC](irc/jp)或いは或いは[フォーラムに](forum/jp)参加して他の参加者に聞いてみて下さい。
 
 ## ディペンデンシー
 
@@ -53,7 +53,7 @@ Linux
 
     sudo pacman -S --needed cmake exiv2 expat fftw glib2 glibmm gtk3 gtkmm3 lcms2 lensfun libcanberra libiptcdata libjpeg-turbo libpng librsvg libsigc++ libtiff zlib
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 ### CentOS
 
@@ -102,7 +102,7 @@ libtiff \>=4.0.4:
         -DTIFF_LIBRARY="$HOME/programs/tiff-4.0.9/libtiff-build/libtiff/libtiff.so" \
         -DCMAKE_CXX_FLAGS="-Wno-deprecated -Wno-parentheses" \
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 ### Debian/Ubuntu/Mint/elementary OS
 
@@ -112,14 +112,14 @@ libtiff \>=4.0.4:
     sudo apt update
     sudo apt install build-essential cmake curl git libcanberra-gtk3-dev libexiv2-dev libexpat-dev libfftw3-dev libglibmm-2.4-dev libgtk-3-dev libgtkmm-3.0-dev libiptcdata0-dev libjpeg-dev liblcms2-dev liblensfun-dev libpng-dev librsvg2-dev libsigc++-2.0-dev libtiff5-dev zlib1g-dev
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 #### Ubuntu 16.04 LTS
 
     sudo apt-get update
     sudo apt-get install build-essential cmake curl git libcanberra-gtk3-dev libexiv2-dev libexpat-dev libfftw3-dev libglibmm-2.4-dev libgtk-3-dev libgtkmm-3.0-dev libiptcdata0-dev libjpeg8-dev liblcms2-dev liblensfun-dev libpng12-dev librsvg2-dev libsigc++-2.0-dev libtiff5-dev zlib1g-dev
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 ### Fedora
 
@@ -127,7 +127,7 @@ libtiff \>=4.0.4:
 
     sudo yum install bzip2-devel cmake exiv2-devel expat-devel fftw-devel gcc-c++ glib2-devel glibmm24-devel gtk+-devel gtkmm24-devel lcms2-devel libcanberra-devel libiptcdata-devel libjpeg-turbo-devel libpng-devel librsvg2-devel libsigc++20-devel libtiff-devel zlib-devel
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 ### Gentoo/Sabayon
 
@@ -135,7 +135,7 @@ libtiff \>=4.0.4:
 
     sudo emerge -uva dev-cpp/gtkmm:3.0 dev-libs/expat dev-util/cmake media-gfx/exiv2 media-libs/lcms media-libs/lensfun media-libs/libcanberra media-libs/libiptcdata media-libs/libjpeg-turbo media-libs/libpng gnome-base/librsvg media-libs/tiff net-misc/curl sci-libs/fftw sys-libs/zlib x11-libs/gtk+:3
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 ### openSUSE
 
@@ -164,7 +164,7 @@ libtiff \>=4.0.4:
     make
     sudo make install
 
-[コンパイルの](Linux/jp.md)項に進みます。
+[コンパイルの](linux/jp)項に進みます。
 
 ## コンパイル
 

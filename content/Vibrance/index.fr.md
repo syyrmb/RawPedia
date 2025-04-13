@@ -50,7 +50,7 @@ contrôlant de la même façon les tons pastels et les tons saturés.
 
 ### Tons chairs – Teinte en fonction de la teinte
 
-[thumb](image:Vibrance_hh.jpg.md) Cette courbe H = f(H) permet
+[thumb](image:vibrance_hh.jpg) Cette courbe H = f(H) permet
 de modifier la teinte des tons chairs. Elle se comporte exactement comme
 les courbes tonales que vous connaissez dans tout programme d'édition
 d'images, mais au lieu de travailler sur la totalité d'un canal de

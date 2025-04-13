@@ -43,12 +43,12 @@ Bei den stabilen Versionen sollten solche Erweiterungen, wie *dev* oder
 Der *config*-Ordner enthält
 
 - das *options*-File, welches alle Deine Programmeinstellungen aus
-  [image:Gtk-preferences.png](image:Gtk-preferences.png.md)
+  [image:Gtk-preferences.png](image:gtk-preferences.png)
   Einstellungen enthält,
 - den *batch*-Ordner mit allen temporär gültigen
-  [Bearbeitungsprofilen](Sidecar_Files_-_Processing_Profiles/de.md)
+  [Bearbeitungsprofilen](sidecar_files_-_processing_profiles/de)
   der Bilder, die du in die
-  [Warteschlange](The_Batch_Queue/de.md) gelegt hast und
+  [Warteschlange](the_batch_queue/de) gelegt hast und
 - den *profiles*-Ordner, in den du deine Nutzer-Bearbeitungsprofil-Files
   ablegst, die du direkt in RawTherapees Auswahlliste sehen möchtest.
 
@@ -148,7 +148,7 @@ Linux and OS X
 ## Bearbeitungsprofil-Files (Sidecar-Files)
 
 Wenn du deine eigenen
-[Bearbeitungsprofile](Sidecar_Files_-_Processing_Profiles/de.md)
+[Bearbeitungsprofile](sidecar_files_-_processing_profiles/de)
 zentral ablegen möchtest, damit du sie jederzeit in RawTherapees Menü
 der Bearbeitungsprofile abrufbereit hast (z.B. Kontextmenü
 *Profiloperationen \> Einfügen*), dann speichere sie im Ordner

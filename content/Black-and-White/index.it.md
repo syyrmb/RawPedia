@@ -11,5 +11,5 @@ e nero.
 
 Per il viraggio del bianco e nero, vedere [Black and White Color
 Toning](Lab_Adjustments/it#Black-and-White_Color_Toning.md)
-descritta nel capitolo [Regolazioni Lab](Lab_Adjustments/it.md)
-della scheda [Esposizione](Exposure/it.md).
+descritta nel capitolo [Regolazioni Lab](lab_adjustments/it)
+della scheda [Esposizione](exposure/it).

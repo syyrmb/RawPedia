@@ -19,7 +19,7 @@ Windows
 Follow the instructions on this page to compile RawTherapee on Windows
 using the [MSYS2](https://www.msys2.org) build environment. For more
 details on customizing and understanding the build process, see the
-[Linux](Linux.md) article.
+[Linux](linux) article.
 
 Note: this guide applies to compiling the **64-bit** version of
 RawTherapee under **Windows 7 and newer**. Compiling the 32-bit version

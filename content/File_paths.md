@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [File Paths](File_Paths.md)
+1.  REDIRECT [File Paths](file_paths)

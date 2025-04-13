@@ -27,5 +27,5 @@ L'effet est un peu similaire à celui de la courbe *V* de l'[Egaliseur
 TSV](HSV_Equalizer/fr.md), mais en plus doux et plus profond
 dans les teintes, pas si sélectif. En cas de travail sur des photos en
 noir et blanc, des ajustements similaires peuvent être réalisés avec le
-[Mixage des canaux](Channel_Mixer/fr.md), mais *Courbes RVB*
+[Mixage des canaux](channel_mixer/fr), mais *Courbes RVB*
 permet un contrôle plus précis.

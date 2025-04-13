@@ -27,13 +27,13 @@ les tons chairs. Un 'mauvais' usage peut produire des effets ressemblant
 à la technique du traitement croisé dans le développement des
 pellicules. En cas d'utilisation sur des photos en noir et blanc,
 s'assurer que l'image raw est désaturée en réglant à -100 le curseur
-[Chromaticité](Lab_Adjustments/fr#Chromaticité.md) de l'outil
-[Ajustements Lab](Lab_Adjustments/fr.md) (onglet Exposition), ou
+[Chromaticité](lab_adjustments/fr#chromaticité) de l'outil
+[Ajustements Lab](lab_adjustments/fr) (onglet Exposition), ou
 bien en validant le [Mode N&B
 colorisable](Black-and-White/fr.md). L*'Egaliseur TSV* ne
 fonctionne pas si le fichier raw est désaturé par le réglage à -100 du
-curseur [Saturation](Exposure/fr#Saturation.md) de l'outil
-[Exposition](Exposure/fr.md).
+curseur [Saturation](exposure/fr#saturation) de l'outil
+[Exposition](exposure/fr).
 
 Une description du fonctionnement des [courbes
 plates](General_Comments_About_Some_Toolbox_Widgets/fr#La_Courbe_Plate.md)

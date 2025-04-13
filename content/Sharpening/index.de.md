@@ -13,8 +13,8 @@ Todo-List / State:
 
 Ready for publishing: no
 
-Page prepared for referencing only. --[fherb](User:Fherb.md)
-([talk](User_talk:Fherb.md)) 12:48, 14 March 2017 (MST)
+Page prepared for referencing only. --[fherb](user:fherb)
+([talk](user_talk:fherb)) 12:48, 14 March 2017 (MST)
 
 ------------------------------------------------------------------------
 
@@ -56,7 +56,7 @@ The *Amount* parameter controls the strength of the sharpening.
 
 ### Threshold
 
-[image:Usm_threshold.png](image:Usm_threshold.png.md) The
+[image:Usm_threshold.png](image:usm_threshold.png) The
 *Threshold* tool helps to suppress noise amplification and haloing and
 to confine sharpening to a desired tonal range. The Threshold tool
 allows one to create a curve via which the sharpening is applied. The

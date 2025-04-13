@@ -22,7 +22,7 @@ Vous devez fournir les informations suivantes :
 
 - **La version détaillée** de compilation de RawTherapee utilisée. Vous
   trouverez cette information en cliquant sur
-  [image:preferences.png](image:preferences.png.md) Préférences
+  [image:preferences.png](image:preferences.png) Préférences
   \> A propos \> Version et le plus souvent cet onglet est plein de
   renseignements, vous pouvez les copier/coller tous dans votre rapport
   de bogue. Si cet onglet est vide, vous trouverez le numéro de version
@@ -113,7 +113,7 @@ Disponibilité des compilations debug :
   dépende de votre distribution, du gestionnaire de paquetage et de la
   source des paqquetages. La meilleure façon d'obtenir une compilation
   debug est de la réaliser vous-même; voir le guide de compilation
-  [Linux](Linux/fr.md), c'est facile !
+  [Linux](linux/fr), c'est facile !
 - Les paquets macOS ne contiennent actuellement que les exécutables
   "release". Nous avons espoir d'inclure les exécutables "debug" à
   l'avenir.
@@ -235,7 +235,7 @@ aussi utiliser les coches inversés ou indenter le code - lire [Le guide
 pour le formatage du code du Forum](Forum/fr.md).
 
 Souvenez vous d'inclure le contenu de
-"*[image:preferences.png](image:preferences.png.md) Préférences
+"*[image:preferences.png](image:preferences.png) Préférences
 \> A propos \> Version*", un échantillon de fichier raw et PP3, avec une
 information complète de la version de votre système d'exploitation, le
 type de votre CPU et sa vitesse, de combien de RAM vous disposez, etc.

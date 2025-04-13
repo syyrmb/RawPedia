@@ -352,7 +352,7 @@ Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2
 
 　例題の画像の数値は：最小値＝‐5799、最大値＝14069となっています。他の値は差異の最小値＝‐9.8、差異の最大値＝7.7、平均＝8.8、標準偏差＝4.4、透過最小値＝‐13.1、透過最大値＝20.7です。　
 
-　最小値‐5799、最大値14069は、入力画像から差し引く透過マップの数値ですが、ご覧のようにこれらは普通RawTherapeeが使うL\*a\*b\*空間の輝度範囲0～32768とは一致していません。従って、最初に行う調整は、“透過マップ”カーブを使って、透過マップの数値を通常の輝度範囲に近づけることです。正確に最小値を0、最大値を32768にする必要はなく、ある程度近づけることが目標です。例えば、カーブの左側を少し下げ、右側を少し上げてみて下さい。リンクは筆者が行った調整のpp3ファイルです：[Media:madeira-first.pp3](Media:madeira-first.pp3.md)
+　最小値‐5799、最大値14069は、入力画像から差し引く透過マップの数値ですが、ご覧のようにこれらは普通RawTherapeeが使うL\*a\*b\*空間の輝度範囲0～32768とは一致していません。従って、最初に行う調整は、“透過マップ”カーブを使って、透過マップの数値を通常の輝度範囲に近づけることです。正確に最小値を0、最大値を32768にする必要はなく、ある程度近づけることが目標です。例えば、カーブの左側を少し下げ、右側を少し上げてみて下さい。リンクは筆者が行った調整のpp3ファイルです：[Media:madeira-first.pp3](media:madeira-first.pp3)
 
 #### 霞のない画像
 
@@ -362,7 +362,7 @@ Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2
 - 次に、“半径”、“コントラスト”、“スケール”を使って、更に細かい調節を行いました。コントラストがやや強い画像になりましたが、この辺りは個人の好み次第です。
 - 納得するまでこれら調整を繰り返します。
 
-　リンクは調整後のpp3ファイルです：[Media:madeira-second.pp3](Media:madeira-second.pp3.md)
+　リンクは調整後のpp3ファイルです：[Media:madeira-second.pp3](media:madeira-second.pp3)
 
 #### ガウシアンマスクとガンマ
 
@@ -372,7 +372,7 @@ Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2
 - “設定”の中の“ガンマ”を“低”に設定しました。
 
 　これら2つの設定も個人の好み次第です。 　
-　リンクは調整後のpp3ファイルです：[Media:madeira-third.pp3](Media:madeira-third.pp3.md)
+　リンクは調整後のpp3ファイルです：[Media:madeira-third.pp3](media:madeira-third.pp3)
 
 ### 色の調整
 
@@ -381,7 +381,7 @@ Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2
 - 露光補正パネルの中にあるレティネックスには色度を調整する機能がありません。調整は“L\*a\*b\*調整”の“色度”スライダー、或いはaカーブ、bカーブ、またはより直感的なCCカーブを使います。
 - “ウェーブレット機能の中のレティネックス”（パッチファイル）の場合は、ウェーブレットの“色度”スライダーを使います。
 
-　リンクは色度調整後のpp3ファイルです：[Media:madeira-four.pp3](Media:madeira-four.pp3.md)
+　リンクは色度調整後のpp3ファイルです：[Media:madeira-four.pp3](media:madeira-four.pp3)
 
 ### コントラストを増やし、更に霞を減らす‐ウェーブレット
 
@@ -390,7 +390,7 @@ Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2
 - “最終調整”の“バランス方式”で“スライダー”を選択し、“コントラストバランス　斜め／垂直・水平”を19にしました。
 - “色度のバランス”を有効にしました。
 
-　リンクは調整後のpp3ファイルです：[Media:madeira-five.pp3](Media:madeira-five.pp3.md)
+　リンクは調整後のpp3ファイルです：[Media:madeira-five.pp3](media:madeira-five.pp3)
 
 ### 最終調整
 
@@ -400,4 +400,4 @@ Wavelet_levels/fr#Avantages_.28.2B.29_et_inconv.C3.A9nients_.28-.29_de_Retinex.2
 - ウェーブレットの“最終的なローカルコントラスト”、或いは“後のコントラストカーブ”を調整
 - その他の機能で調整
 
-　リンクは最終的な調整のpp3ファイルです：[Media:madeira-six.pp3](Media:madeira-six.pp3.md)
+　リンクは最終的な調整のpp3ファイルです：[Media:madeira-six.pp3](media:madeira-six.pp3)

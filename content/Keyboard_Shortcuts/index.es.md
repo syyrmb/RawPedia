@@ -96,40 +96,40 @@ y se especifica entre paréntesis con estos acrónimos:
 | Editor                                                                                       |
 | Explorador de Archivos                                                                       |
 | Explorador de Archivos                                                                       |
-| [Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU)                        |
-| [Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU)                        |
-| [Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU)                        |
-| [Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU)                        |
+| [Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU)                        |
+| [Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU)                        |
+| [Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU)                        |
+| [Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU)                        |
 | Explorador de Archivos                                                                       |
 | Explorador de Archivos                                                                       |
 | Explorador de Archivos                                                                       |
-| [Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU)                        |
+| [Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU)                        |
 | Editor (MEPM)                                                                                |
 | Editor (MEPU)                                                                                |
 | Editor (MEPU)                                                                                |
 | Editor (MEPU)                                                                                |
 | Editor (MEPU)                                                                                |
-| [Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU)                        |
-| [Tira de Contacto](Editor/es#La_Tira_de_Contacto.md) (MEPU)                          |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
-| Explorador de Archivos/[Tira de Contactos](Editor/es#La_Tira_de_Contactos.md) (MEPU) |
+| [Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU)                        |
+| [Tira de Contacto](editor/es#la_tira_de_contacto) (MEPU)                          |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
+| Explorador de Archivos/[Tira de Contactos](editor/es#la_tira_de_contactos) (MEPU) |
 | Explorador de Archivos, Editor                                                               |
 | Explorador de Archivos, Editor                                                               |
 | Tira de Contacto                                                                             |

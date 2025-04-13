@@ -25,7 +25,7 @@ The Editor
 The Image Editor tab is where you tweak your photos. By default
 RawTherapee is in "Single Editor Tab Mode, Vertical Tabs" (SETM/VT)
 which is more memory-efficient and lets you use the
-[Filmstrip](Editor#The_Filmstrip.md) (described below). You can
+[Filmstrip](editor#the_filmstrip) (described below). You can
 switch to "Multiple Editor Tabs Mode" (METM) by going to "[Preferences
 \> General \> Layout](Preferences#Layout.md)", however each
 Editor tab will require a specific amount of RAM relative to the image
@@ -37,7 +37,7 @@ mode, so we recommend you first give SETM a try.
 The central panel shows a preview of the image being edited. This
 preview is generated from raw data if such is available. It reflects the
 adjustments made by the tools in the
-[Toolbox](Editor#Toolbox.md). Note that the effects of some
+[Toolbox](editor#toolbox). Note that the effects of some
 tools are only accurately visible when you are zoomed in to 1:1 (100%)
 or more; these tools are marked in the interface with a "1:1" icon
 ![Zoom 1:1](One-to-one-small.png "Zoom 1:1") alongside the tool's name.
@@ -113,13 +113,13 @@ happening here:
     processing to it, such as a base tone curve, even at their most
     neutral settings, thereby making it impossible for users to see the
     real, untouched contents of their raw photos. Adobe Lightroom is an
-    example. Comparing RawTherapee's real [neutral](Neutral.md)
+    example. Comparing RawTherapee's real [neutral](neutral)
     image to a pseudo-neutral one from these other programs will expose
     the differences.
 
 RawTherapee, on the other hand, is capable of showing you the real raw
 image in the main preview, leaving the way you want this data processed
-up to you. When you use the "[Neutral](Neutral.md)" processing
+up to you. When you use the "[Neutral](neutral)" processing
 profile you will see the demosaiced image with camera white balance in
 your working color space with no other modifications. You can even see
 the non-demosaiced image by setting the [demosaicing
@@ -130,7 +130,7 @@ RawTherapee by default uses the [Auto-Matched
 Curve](Auto-Matched_Curve.md) processing profile, which
 automatically generates a tone curve to make the tones of the raw image
 match those of the embedded JPEG, if one exists. If one does not exist,
-you can use the [Standard Film Curve](Standard_Film_Curve.md)
+you can use the [Standard Film Curve](standard_film_curve)
 processing profile, which applies a curve which looks good in most
 cases. Choose the sub-type (ISO Low/Medium/High) depending on how noisy
 your image is.
@@ -288,7 +288,7 @@ To the left is a panel which optionally shows the main histogram
 always shows the *Navigator*, *History* and *Snapshots*. You can hide
 this panel using the ![Hide left panel
 icon](panel-to-left.png "Hide left panel icon") hide icon, or its
-[keyboard shortcut](Keyboard_Shortcuts.md).
+[keyboard shortcut](keyboard_shortcuts).
 
 ### Main Histogram
 
@@ -397,7 +397,7 @@ clipping. Ensure your working profile's gamut is large enough by
 enabling the gamut button
 ![<File:Gamut-hist.png>](Gamut-hist.png "File:Gamut-hist.png") to see
 histograms at the working profile stage of the pipeline. You might want
-to temporarily apply the [Neutral](Neutral.md) profile to
+to temporarily apply the [Neutral](neutral) profile to
 disable all the tools while checking, then revert. If your working space
 is not causing clipping (the default working space is ProPhoto and it's
 huge), then it's likely your adjustments which are causing clipping.
@@ -448,14 +448,14 @@ the sensor and camera electronics produce digital noise, so the noise
 floor may lie for instance at 512. The white level is also not
 necessarily 16384; it depends on various things, and may lie for
 instance at 16300. For more information, see the articles
-[Demosaicing](Demosaicing.md) and [Adding Support for New Raw
+[Demosaicing](demosaicing) and [Adding Support for New Raw
 Formats](Adding_Support_for_New_Raw_Formats.md) (especially the
 header of the `camconst.json` file). The black and white level values
 used by RawTherapee are hierarchically set by looking in several places:
 in `dcraw.c`, inside the raw file's metadata, and in `camconst.json`
 (latter takes precedence). Furthermore, the user can tweak the raw
-[black](Raw_Black_Points.md) and
-[white](Raw_White_Points.md) levels from within RawTherapee.
+[black](raw_black_points) and
+[white](raw_white_points) levels from within RawTherapee.
 
 The raw histograms show data after black level subtraction. The right
 end of the histogram is anchored on the white level. The raw histograms
@@ -464,7 +464,7 @@ black and white level adjustments made by the user in RawTherapee.
 
 When examining the raw histogram, you may also want to set the
 demosaicing method to "none". This will reveal the sensor pattern in the
-preview, and also cause the [Navigator](Editor#Navigator.md)
+preview, and also cause the [Navigator](editor#navigator)
 panel to show the raw RGB values of the pixel currently being hovered
 over. These values are affected by the detected black and white levels
 as well as by the black level adjustments made by the user in
@@ -694,9 +694,9 @@ three formats:
 
 RawTherapee 5.1 onward can show the real raw photosite values. To see
 them, set the Navigator to use the \[0-255\] range, apply the
-[Neutral](Neutral.md) [processing
+[Neutral](neutral) [processing
 profile](Sidecar_Files_-_Processing_Profiles.md), then set the
-[Demosaicing](Demosaicing.md) method to "None". The Navigator
+[Demosaicing](demosaicing) method to "None". The Navigator
 will show the real raw photosite values after black level subtraction
 within the range of the original raw data.
 
@@ -743,9 +743,9 @@ photo in the *Image Editor* or close RawTherapee.
 To the right is a panel which optionally shows the main histogram and
 *Processing Profiles* selector ("*Preferences \> General \> Layout \>
 Histogram in left panel*"), and always shows the
-[Toolbox](Toolbox.md). You can hide this panel using the ![Hide
+[Toolbox](toolbox). You can hide this panel using the ![Hide
 right panel icon](panel-to-right.png "Hide right panel icon") hide icon,
-or its [keyboard shortcut](Keyboard_Shortcuts.md).
+or its [keyboard shortcut](keyboard_shortcuts).
 
 ### Processing Profile Selector
 
@@ -774,8 +774,8 @@ RawTherapee allows you to work on photos in two modes:
 - *Single Editor Tab Mode* (SETM), where you work only on one photo at a
   time, and each photo is opened in the same *Editor* tab. There is a
   horizontal panel called the
-  *[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)* at the
-  top of the *[Editor](The_Image_Editor_Tab#The_Filmstrip.md)*
+  *[Filmstrip](the_image_editor_tab#the_filmstrip)* at the
+  top of the *[Editor](the_image_editor_tab#the_filmstrip)*
   tab showing the rest of the photos in that folder for easy access.
   There are *Previous Image* and *Next Image*
   ![<File:Nav-prev.png>](Nav-prev.png "File:Nav-prev.png")
@@ -784,8 +784,8 @@ RawTherapee allows you to work on photos in two modes:
   shortcuts](Keyboard_Shortcuts.md) for them) to switch to the
   previous/next image.
 - *Multiple Editor Tabs Mode* (METM), where each photo is opened in its
-  own *[Editor](The_Image_Editor_Tab#The_Filmstrip.md)* tab. The
-  *[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)* is hidden
+  own *[Editor](the_image_editor_tab#the_filmstrip)* tab. The
+  *[Filmstrip](the_image_editor_tab#the_filmstrip)* is hidden
   in this mode and there are no previous/next buttons. Having multiple
   photos opened at the same time requires more RAM.
 
@@ -825,7 +825,7 @@ shortcuts](Keyboard_Shortcuts.md) or the previous ![Open
 previous image icon](nav-prev.png "Open previous image icon") and next
 ![Open next image icon](nav-next.png "Open next image icon") image
 buttons to open the previous/next image without needing to go back to
-the *[File Browser](The_File_Browser_Tab.md)* tab.
+the *[File Browser](the_file_browser_tab)* tab.
 
 As of RawTherapee version 4.2.10, you can hide the Filmstrip's toolbar
 to save screen space. There are two ways of doing this: one way just
@@ -882,6 +882,6 @@ The items you see in the monitor profile combo-box (under the main
 preview) and in the printer profile combobox (in Preferences \> [Color
 Management](Preferences#Color_Management_Tab.md)) are ICC files
 located in a folder which you can point RawTherapee to by going to
-"[Preferences](Preferences.md) \> [Color
+"[Preferences](preferences) \> [Color
 Management](Preferences#Color_Management_Tab.md) \> Directory
 containing color profiles".

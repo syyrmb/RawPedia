@@ -104,7 +104,7 @@ confronto/iterazione". Ho anche lavorato al concetto di CRI (Color
 rendering index - Indice di rendimento dei colori) che riflette la
 differenza di illuminanti rispetto ad un illuminatore di base ... Più
 basso è il CRI, peggio la resa sarà con una stessa temperatura di colore
-vedi: [Color_Management/fr](Color_Management/fr.md))
+vedi: [Color_Management/fr](color_management/fr))
 
 Basato su CIECAM02, la patch contiene gli elementi di base necessari per
 lavorare questi due punti, ma manca di un elemento essenziale, non

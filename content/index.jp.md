@@ -13,7 +13,7 @@ title="08_rt57_mushroom_blades_rawpedia.png" />
 
 ようこそ**RawTherapee**の解説書へ
 
-Raw現像が初めての方は是非、[初めにというページをご](Getting_Started/jp.md)覧下さい。この素晴らしいraw画像処理プログラムの概要が簡単にわかります
+Raw現像が初めての方は是非、[初めにというページをご](getting_started/jp)覧下さい。この素晴らしいraw画像処理プログラムの概要が簡単にわかります
 
 慣れている方は、全ての項目をカーバーする以下の目次をご覧下さい
 
@@ -46,28 +46,28 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 <div class="RP3columns">
 
-- [初めに](Getting_Started/jp.md)
-- [特徴](Features/jp.md)
-- [ダウンロード](Download/jp.md)
-- [浮動小数点演算](The_Floating_Point_Engine/jp.md)
-- [ビット深度](Bit_Depth/jp.md)
-- [RGB対Lab](RGB_and_Lab/jp.md)
-- [ノイズ低減について](About_Noise_Reduction/jp.md)
-- [ファイルブラウザ](The_File_Browser_Tab/jp.md)
-- [バッチ処理](The_Batch_Queue/jp.md)
-- [編集](The_Image_Editor_Tab/jp.md)
-- [バッチ処理‐シンクロ](Batch_Adjustments_-_Sync/jp.md)
-- [画像の保存](Saving/jp.md)
-- [外部エディターで今の画像を編集](Edit_Current_Image_in_External_Editor/jp.md)
-- [新しいRaw形式のサポートを追加する](Adding_Support_for_New_Raw_Formats/jp.md)
-- [ファイルパス](File_Paths/jp.md)
-- [環境設定](Preferences/jp.md)
-- [GIMPプラグイン](GIMP_Plugin/jp.md)
-- [ICCプロファイルクリエーター](ICC_Profile_Creater/jp.md)
-- [ポータブルメディアにインストール](Making_a_Portable_Installation/jp.md)
-- [コマンドラインオプション](Command-Line_Options/jp.md)
-- [キーボードショートカット](Keyboard_Shortcuts/jp.md)
-- [ツールチェーンパイプラインと測色](Toolchain_Pipeline/jp.md)
+- [初めに](getting_started/jp)
+- [特徴](features/jp)
+- [ダウンロード](download/jp)
+- [浮動小数点演算](the_floating_point_engine/jp)
+- [ビット深度](bit_depth/jp)
+- [RGB対Lab](rgb_and_lab/jp)
+- [ノイズ低減について](about_noise_reduction/jp)
+- [ファイルブラウザ](the_file_browser_tab/jp)
+- [バッチ処理](the_batch_queue/jp)
+- [編集](the_image_editor_tab/jp)
+- [バッチ処理‐シンクロ](batch_adjustments_-_sync/jp)
+- [画像の保存](saving/jp)
+- [外部エディターで今の画像を編集](edit_current_image_in_external_editor/jp)
+- [新しいRaw形式のサポートを追加する](adding_support_for_new_raw_formats/jp)
+- [ファイルパス](file_paths/jp)
+- [環境設定](preferences/jp)
+- [GIMPプラグイン](gimp_plugin/jp)
+- [ICCプロファイルクリエーター](icc_profile_creater/jp)
+- [ポータブルメディアにインストール](making_a_portable_installation/jp)
+- [コマンドラインオプション](command-line_options/jp)
+- [キーボードショートカット](keyboard_shortcuts/jp)
+- [ツールチェーンパイプラインと測色](toolchain_pipeline/jp)
 
 </div>
 <hr/>
@@ -79,23 +79,23 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 - [サイドカーファイル -
   処理プロファイル](Sidecar_Files_-_Processing_Profiles/jp.md)
-- [共通に使う処理プロファイルを作る](Creating_processing_profiles_for_general_use/jp.md)
-- [ダイナミック処理プロファイル](Dynamic_processing_profiles/jp.md)
+- [共通に使う処理プロファイルを作る](creating_processing_profiles_for_general_use/jp)
+- [ダイナミック処理プロファイル](dynamic_processing_profiles/jp)
 
 </div>
 <div class="keeptogether">
 
 #### 処理プロファイルのスクリプト
 
-- [RTプロファイルセレクター](RTProfileSelector/jp.md)
-- [RTバッチ](RTbatch/jp.md)
+- [RTプロファイルセレクター](rtprofileselector/jp)
+- [RTバッチ](rtbatch/jp)
 
 </div>
 <div class="keeptogether">
 
 #### 付属の処理プロファイル
 
-- [クリップなし](Unclipped/jp.md)
+- [クリップなし](unclipped/jp)
 
 </div>
 </div>
@@ -105,8 +105,8 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 <div class="RP1columns">
 
-- [一部の機能に関する全般的説明](General_Comments_About_Some_Toolbox_Widgets/jp.md)
-- [お気に入りタブ](Favorites_Tab/jp.md)
+- [一部の機能に関する全般的説明](general_comments_about_some_toolbox_widgets/jp)
+- [お気に入りタブ](favorites_tab/jp)
 
 </div>
 <div class="RP3columns">
@@ -114,95 +114,95 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 #### 露光タブ
 
-- [露光補正](Exposure/jp.md)
-- [シャドウ/ハイライト](Shadows/Highlights/jp.md)
-- [トーンマッピング](Tone_Mapping/jp.md)
-- [ダイナミックレンジの圧縮](Dynamic_Range_Compression/jp.md)
-- [ビネットフィルター](Vignetting_Filter/jp.md)
-- [減光フィルター](Graduated_Filter/jp.md)
-- [Lab調整](Lab_Adjustments/jp.md)
+- [露光補正](exposure/jp)
+- [シャドウ/ハイライト](shadows/highlights/jp)
+- [トーンマッピング](tone_mapping/jp)
+- [ダイナミックレンジの圧縮](dynamic_range_compression/jp)
+- [ビネットフィルター](vignetting_filter/jp)
+- [減光フィルター](graduated_filter/jp)
+- [Lab調整](lab_adjustments/jp)
 
 </div>
 <div class="keeptogether">
 
 #### ディテールタブ
 
-- [スポット除去](Spot_Removal/jp.md)
-- [シャープニング](Sharpening/jp.md)
-- [ローカルコントラスト](Local_Contrast/jp.md)
-- [エッジとマイクロコントラスト](Edges_and_Microcontrast/jp.md)
-- [インパルスノイズ低減](Impulse_Noise_Reduction/jp.md)
-- [ノイズ低減](Noise_Reduction/jp.md)
-- [フリンジ低減](Defringe/jp.md)
-- [詳細レベルによるコントラスト調整](Contrast_by_Detail_Levels/jp.md)
-- [霞除去](Haze_Removal/jp.md)
+- [スポット除去](spot_removal/jp)
+- [シャープニング](sharpening/jp)
+- [ローカルコントラスト](local_contrast/jp)
+- [エッジとマイクロコントラスト](edges_and_microcontrast/jp)
+- [インパルスノイズ低減](impulse_noise_reduction/jp)
+- [ノイズ低減](noise_reduction/jp)
+- [フリンジ低減](defringe/jp)
+- [詳細レベルによるコントラスト調整](contrast_by_detail_levels/jp)
+- [霞除去](haze_removal/jp)
 
 </div>
 <div class="keeptogether">
 
 #### カラータブ
 
-- [ホワイトバランス](White_Balance/jp.md)
-- [自然な彩度](Vibrance/jp.md)
-- [チャンネルミキサー](Channel_Mixer/jp.md)
-- [白黒](Black-and-White/jp.md)
-- [白黒 - 補足](Black-and-White_addon/jp.md)
-- [HSVイコライザ](HSV_Equalizer/jp.md)
-- [フィルムシミュレーション](Film_Simulation/jp.md)
-- [ソフトライト](Soft_Light/jp.md)
-- [RGBカーブ](RGB_Curves/jp.md)
-- [カラートーン調整](Color_Toning/jp.md)
-- [カラーマネジメント](Color_Management/jp.md)
-- [カラーマネジメント - 補足](Color_Management_addon/jp.md)
+- [ホワイトバランス](white_balance/jp)
+- [自然な彩度](vibrance/jp)
+- [チャンネルミキサー](channel_mixer/jp)
+- [白黒](black-and-white/jp)
+- [白黒 - 補足](black-and-white_addon/jp)
+- [HSVイコライザ](hsv_equalizer/jp)
+- [フィルムシミュレーション](film_simulation/jp)
+- [ソフトライト](soft_light/jp)
+- [RGBカーブ](rgb_curves/jp)
+- [カラートーン調整](color_toning/jp)
+- [カラーマネジメント](color_management/jp)
+- [カラーマネジメント - 補足](color_management_addon/jp)
 
 </div>
 <div class="keeptogether">
 
 #### ローカル編集タブ
 
-- [ローカル編集](Local_controls/jp.md)
+- [ローカル編集](local_controls/jp)
 
 </div>
 <div class="keeptogether">
 
 #### 高度機能タブ
 
-- [レティネックス](Retinex/jp.md)
-- [色の見えモデル02/16&Jzazbz](CIECAM02/jp.md)
-- [ウェーブレットのレベル](Wavelets/jp.md)
+- [レティネックス](retinex/jp)
+- [色の見えモデル02/16&Jzazbz](ciecam02/jp)
+- [ウェーブレットのレベル](wavelets/jp)
 
 </div>
 <div class="keeptogether">
 
 #### 変形タブ
 
-- [切り抜き](Crop/jp.md)
-- [リサイズ](Resize/jp.md)
-- [レンズ/ジオメトリ](Lens/Geometry/jp.md)
+- [切り抜き](crop/jp)
+- [リサイズ](resize/jp)
+- [レンズ/ジオメトリ](lens/geometry/jp)
 
 </div>
 <div class="keeptogether">
 
 #### Rawタブ
 
-- [デモザイク](Demosaicing/jp.md)
-- [前処理](Preprocessing/jp.md)
-- [色収差](Chromatic_Aberration/jp.md)
-- [Rawブラックポイント](Raw_Black_Points/jp.md)
-- [Rawホワイトポイント](Raw_White_Points/jp.md)
-- [ダークフレーム](Dark_Frame/jp.md)
-- [フラットフィールド](Flat_Field/jp.md)
-- [ネガフィルム](Film_Negative/jp.md)
-- [キャプチャーシャープニング](Capture_Sharpning/jp.md)
+- [デモザイク](demosaicing/jp)
+- [前処理](preprocessing/jp)
+- [色収差](chromatic_aberration/jp)
+- [Rawブラックポイント](raw_black_points/jp)
+- [Rawホワイトポイント](raw_white_points/jp)
+- [ダークフレーム](dark_frame/jp)
+- [フラットフィールド](flat_field/jp)
+- [ネガフィルム](film_negative/jp)
+- [キャプチャーシャープニング](capture_sharpning/jp)
 
 </div>
 <div class="keeptogether">
 
 #### メタデータタブ
 
-- [メタデータのコピーモード](Metadata_Copy_Mode/jp.md)
-- [Exifタブ](Exif_Tab/jp.md)
-- [IPTCタブ](IPTC_Tab/jp.md)
+- [メタデータのコピーモード](metadata_copy_mode/jp)
+- [Exifタブ](exif_tab/jp)
+- [IPTCタブ](iptc_tab/jp)
 
 </div>
 </div>
@@ -212,7 +212,7 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 <div class="RP1columns">
 
-- [フォーラム](Forum/jp.md)
+- [フォーラム](forum/jp)
 - 
 
 </div>
@@ -221,9 +221,9 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 <div class="RP1columns">
 
-- [Linux](Linux/jp.md)
-- [Windows](Windows/jp.md)
-- [macOS](macOS/jp.md)
+- [Linux](linux/jp)
+- [Windows](windows/jp)
+- [macOS](macos/jp)
 
 </div>
 
@@ -231,9 +231,9 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 <div class="RP1columns">
 
-- [有益なバグレポートの書き方](How_to_write_useful_bug_reports/jp.md)
-- [プログラムが起動時にクラッシュする](How_to_fix_crashes_on_startup/jp.md)
-- [Wayland](Wayland/jp.md)
+- [有益なバグレポートの書き方](how_to_write_useful_bug_reports/jp)
+- [プログラムが起動時にクラッシュする](how_to_fix_crashes_on_startup/jp)
+- [Wayland](wayland/jp)
 
 </div>
 
@@ -241,8 +241,8 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 
 <div class="RP1columns">
 
-- [RawTherapeeの翻訳](Translating_RawTherapee/jp.md)
-- [RawPediaの翻訳](Translating_RawPedia/jp.md)
+- [RawTherapeeの翻訳](translating_rawtherapee/jp)
+- [RawPediaの翻訳](translating_rawpedia/jp)
 
 </div>
 </div>
@@ -252,13 +252,13 @@ title="wikilink">ブラジルポルトガル語</a></p></td>
 <div class="container">
 <div class="RP1columns">
 
-- [Rawファイルの形式をDNGに変換する](How_to_convert_raw_formats_to_DNG/jp.md)
-- [DCPカラープロファイルの作り方](How_to_create_DCP_color_profiles/jp.md)
-- [LCPとDCPプロファイルを取得する方法](How_to_get_LCP_and_DCP_profiles/jp.md)
-- [ICCプロファイルの抽出と査定の方法](How_to_extract_and_examine_ICC_profiles/jp.md)
-- [NX2からニコンのICMプロファイルを取得する方法](How_to_get_Nikon_ICM_profiles_from_NX2/jp.md)
-- [画像に透かしを入れる](Watermarking/jp.md)
-- [画像ファイルの形式とその圧縮](Image_file_formats_and_compression/jp.md)
+- [Rawファイルの形式をDNGに変換する](how_to_convert_raw_formats_to_dng/jp)
+- [DCPカラープロファイルの作り方](how_to_create_dcp_color_profiles/jp)
+- [LCPとDCPプロファイルを取得する方法](how_to_get_lcp_and_dcp_profiles/jp)
+- [ICCプロファイルの抽出と査定の方法](how_to_extract_and_examine_icc_profiles/jp)
+- [NX2からニコンのICMプロファイルを取得する方法](how_to_get_nikon_icm_profiles_from_nx2/jp)
+- [画像に透かしを入れる](watermarking/jp)
+- [画像ファイルの形式とその圧縮](image_file_formats_and_compression/jp)
 
 </div>
 </div>

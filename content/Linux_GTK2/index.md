@@ -46,7 +46,7 @@ To compile the obsolete RawTherapee version 3, you will need these:
 
 Build-time dependencies for the obsolete RawTherapee 3:
 
-Refer to the current [Linux](Linux.md) article for compilation
+Refer to the current [Linux](linux) article for compilation
 instructions, and replace the GTK3 dependencies with the GTK2 ones where
 needed. Use the obsolete `5.0-r1-gtk2` branch, do not use the `dev`
 branch.

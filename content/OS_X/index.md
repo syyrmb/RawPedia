@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [MacOS](MacOS.md)
+1.  REDIRECT [MacOS](macos)

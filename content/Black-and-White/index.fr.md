@@ -22,6 +22,6 @@ Pour le Mode N&B colorisable, voir la section [Mode N&B
 colorisable](Lab_Adjustments/fr#Mode_N&B_colorisable.md)
 détaillée dans le chapitre [Ajustements
 Lab](Lab_Adjustments/fr.md), onglet
-[Exposition](Exposure/fr.md).
+[Exposition](exposure/fr).
 
   

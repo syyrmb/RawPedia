@@ -91,7 +91,7 @@ indem du die Buttons "Linkes Bedienfeld ein-/ausblenden
 oder "Rechtes Bedienfeld ein-/ausblenden
 ![<File:Panel-to-right.png>](Panel-to-right.png "File:Panel-to-right.png")"
 drückst. Siehe dafür auch die Seite
-[Tastatur-Kürzel](Keyboard_Shortcuts/de.md).
+[Tastatur-Kürzel](keyboard_shortcuts/de).
 
 Wenn Du einen Ordner öffnest, erstellt RawTherapee für sämtliche Fotos
 in diesem Ordner sofort Miniaturbilder, die im mittleren Bereich
@@ -136,7 +136,7 @@ Die sichtbaren Fotos können mittels mehrerer Methoden gefiltert werden:
 
 - Innerhalb der Dateiverwaltung verwende die obere Werkzeugleiste.
 - Im Editor verwende die Werkzeugleiste des
-  [Filmstreifens](The_Image_Editor_Tab/de#Der_Filmstreifen.md)
+  [Filmstreifens](the_image_editor_tab/de#der_filmstreifen)
   (wenn in den Einstellungen eingeschaltet).
 - Verwende das Suche-Feld ganz oben in beiden Registern (im Editor nur,
   wenn die Werkzeugleiste des Filmstreifens eingeschaltet ist).
@@ -168,4 +168,4 @@ Die Batch-Arbeit erfolgt ebenfalls innerhalb der Dateiverwaltung.
 Teilweise auch mit ersten Bearbeitungsschritten eines Bildes im Editor.
 Gerade weil es so wichtig ist, die Methoden gut zu beherrschen, wird die
 Batch-Verarbeitung im speziellen Artikel
-[Batch-Bearbeitung](Batch_Adjustments_-_Sync/de.md) behandelt.
+[Batch-Bearbeitung](batch_adjustments_-_sync/de) behandelt.

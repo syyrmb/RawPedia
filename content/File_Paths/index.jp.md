@@ -26,9 +26,9 @@ contributors:
 
 　RawTherapeeのconfigフォルダーには以下のものが含まれています。
 
-- [環境設定で](Preferences/jp.md)貴方が設定した数値すべてを記録しているoptionsファイル
-- 貴方がキューに移動した画像に関する一時的な[処理プロファイルを](Sidecar_Files_-_Processing_Profiles.md)記録している[バッチフォルダー](The_Batch_Queue.md)
-- 貴方が定義した画像のraw形式の特定的な扱い（システムのcamconst.jsonを上書きしたもの）を記録した編集可能な[camconst.jsonファイル](Adding_Support_for_New_Raw_Formats.md)
+- [環境設定で](preferences/jp)貴方が設定した数値すべてを記録しているoptionsファイル
+- 貴方がキューに移動した画像に関する一時的な[処理プロファイルを](sidecar_files_-_processing_profiles)記録している[バッチフォルダー](the_batch_queue)
+- 貴方が定義した画像のraw形式の特定的な扱い（システムのcamconst.jsonを上書きしたもの）を記録した編集可能な[camconst.jsonファイル](adding_support_for_new_raw_formats)
 - ダイナミックプロファイルの規定
 - RawTherapeeのドロップダウンリストに貴方独自の処理プロファイルを表示させるために保存しておくための“profile”フォルダー
 
@@ -100,11 +100,11 @@ LinuxとmacOSの場合
 
 ## 処理プロファイル
 
-　貴方ご自身の独自の[処理プロファイルを](Sidecar_Files_-_Processing_Profiles/jp#サイドカーファイル‐処理プロファイル.md)作成した場合は、それをRawTherapeeの“処理プロファイル”リストに表示されるよう、“*profiles*”に保存して下さい。上記“*config*”フォルダーの中にあります。
+　貴方ご自身の独自の[処理プロファイルを](sidecar_files_-_processing_profiles/jp#サイドカーファイル‐処理プロファイル)作成した場合は、それをRawTherapeeの“処理プロファイル”リストに表示されるよう、“*profiles*”に保存して下さい。上記“*config*”フォルダーの中にあります。
 
 ## 一時フォルダー
 
-　“[外部エディターで今の画像を編集](Edit_Current_Image_in_External_Editor/jp.md)”の操作が行われると、中間画像のファイルを一時的なフォルダーに保存します：
+　“[外部エディターで今の画像を編集](edit_current_image_in_external_editor/jp)”の操作が行われると、中間画像のファイルを一時的なフォルダーに保存します：
 
 Windowsの場合  
 デフォルトでは`$TEMP`環境変数の中に保存されます。通常は`%APPDATA%/Local/Temp`です。

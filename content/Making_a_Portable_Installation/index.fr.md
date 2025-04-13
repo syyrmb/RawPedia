@@ -45,7 +45,7 @@ définis par l'exécutable, appelés respectivement `mycache` et
 `mysettings`, donc dans `E:\RawTherapee\mycache` et
 `E:\RawTherapee\mysettings`.
 
-Voir aussi la page [Où sont les fichiers ?](File_Paths/fr.md)
+Voir aussi la page [Où sont les fichiers ?](file_paths/fr)
 pour savoir comment choisir un endroit différent pour ces deux
 répertoires.
 

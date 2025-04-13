@@ -29,7 +29,7 @@ tu imagen o al recorte, si es que lo estás usando.
 Para corregir el viñeteo producido por el objetivo (que también genera
 bordes oscuros en la imagen), debes usar el filtro [*Corrección de
 viñeteo*](Lens/Geometry/es#Corrección_de_viñeteo.md) de la
-herramienta [*Objetivo y Geometría*](Lens/Geometry/es.md), en la
+herramienta [*Objetivo y Geometría*](lens/geometry/es), en la
 pestaña *Transformar*. O aún mejor: usa la herramienta de [*Campo
 Plano*](Flat_Field/es.md).
 

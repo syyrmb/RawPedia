@@ -139,7 +139,7 @@ how to preview what the image will look like:
 2.  Save the image to a lossless format such as TIFF.
 3.  Open that saved TIFF in RawTherapee, apply the Neutral processing
     profile if that wasn't done automatically, and enable the
-    [Sharpening](Sharpening.md) tool in the Detail tab.
+    [Sharpening](sharpening) tool in the Detail tab.
 4.  Zoom to 100% (1:1) and tweak the Sharpening tool's parameters until
     you get a result that satisfies you. These are the values you should
     use in the Post-Resize Sharpening tool.
@@ -151,5 +151,5 @@ The Post-Resize Sharpening tool is only available when you use the
 
 As the Post-Resize Sharpening tool works identically to the standard
 Sharpening tool (except that it takes place right at the end of
-processing), refer to the [Sharpening](Sharpening.md) article to
+processing), refer to the [Sharpening](sharpening) article to
 learn more about how the sharpening tools work.

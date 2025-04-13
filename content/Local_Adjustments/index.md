@@ -724,7 +724,7 @@ width="600" />
 
 ##### Using Generalize Hyperbolic Stretch - GHS
 
-[GHS](Local_Adjustments#Generalized_Hyperbolic_Stretch.md)
+[GHS](local_adjustments#generalized_hyperbolic_stretch)
 
 ##### Recommendations
 
@@ -2954,7 +2954,7 @@ described in the two previous paragraphs, it was decided:
       changed.
 
 Some of these tools are similar to the Abstract Profile concept.
-[Abstract Profiles](Color_Management#Abstract_Profiles.md)
+[Abstract Profiles](color_management#abstract_profiles)
 
 ##### Source Data Adjustments and Scene conditions
 
@@ -3458,12 +3458,12 @@ JzCzHz](CIECAM02#Jzazbz_-_a_new_experimental_CAM.3F_.28Cam16_.26_JzCzHz.29.md)
 #### Understanding the CAM - SDR - HDR settings - General
 
 For a brief explanation of this module, see the following
-:[CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_General](CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_General.md)
+:[CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_General](ciecam02#understanding_the_cam_-_sdr_-_hdr_settings_-_general)
 
 #### Understanding the CAM - SDR - HDR settings -Introduction
 
 For a brief explanation of this module, see the following
-[CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_Introduction](CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_Introduction.md)
+[CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_Introduction](ciecam02#understanding_the_cam_-_sdr_-_hdr_settings_-_introduction)
 
 ##### Jz in practice
 
@@ -3556,7 +3556,7 @@ luminance (Yb%)".
 <img src="/images/Sigmoidjz1.jpg" title="Sigmoidjz1.jpg" width="600"
 alt="Sigmoidjz1.jpg" />
 
-- See [Sigmoid Jz - principles](CIECAM02#Sigmoid_Jz.md)
+- See [Sigmoid Jz - principles](ciecam02#sigmoid_jz)
 - Raw file (Rawtherapee - Creative Common Attribution-share Alike 4.0):
   [29](https://drive.google.com/file/d/1ziux382pWgdYa4jySimwKaKnK_KdDhno/view?usp=sharing)
 
@@ -5834,7 +5834,7 @@ equivalent in the main-menu "Wavelet levels" (Advanced tab) and has a
 similar degree of complexity. It targets the local-contrast effect on
 edges and has the same controls as its main-menu equivalent.
 
-- [Edge sharpness](Wavelet_Levels#Edge_Sharpness_module.md)
+- [Edge sharpness](wavelet_levels#edge_sharpness_module)
 
 In addition, it benefits from the specific functions in Local
 Adjustments such as scope, transitions, multiple selections etc.
@@ -6481,7 +6481,7 @@ filter other types of impulse noise.
 
 Example showing how it can be used:
 
-[Log Encoding](Local_Adjustments#Log_Encoding.md)
+[Log Encoding](local_adjustments#log_encoding)
 
 [Log Encoding and highlight
 recovery](Local_Adjustments#Log_Encoding_and_Highlight_Recovery.md)
@@ -6630,7 +6630,7 @@ possibilities of Local Adjustments i.e. deltaE, Scope, Transition
 Gradients, Excluding spots, etc.
 
 For an overview of Cam16:
-[Using_Cam16_and_HDR_features](Local_Adjustments#Using_the_Cam16_and_HDR_functions.md)
+[Using_Cam16_and_HDR_features](local_adjustments#using_the_cam16_and_hdr_functions)
 
 For a presentation of JzCzHz :[Experimental JzCzHz
 module](Local_Adjustments#An_experimental_JzCzHz_module.md)

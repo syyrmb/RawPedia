@@ -41,7 +41,7 @@ Il bilanciamento del bianco può essere impostato in modi diversi:
 fotocamera, auto, personalizzato o una serie di preset per diverse
 sorgenti luminose.
 
-- [image:Wb-camera.png](image:Wb-camera.png.md) Fotocamera
+- [image:Wb-camera.png](image:wb-camera.png) Fotocamera
 
   
 Usa il bilanciamento del bianco impostato dalla fotocamera. Se scatti
@@ -49,7 +49,7 @@ solo in raw (quindi non JPG + raw), conviene settare le impostazioni
 della bilanciamento del bianco della fotocamera su Auto. Questo dovrebbe
 generalmente dare buoni risultati.
 
-- [image:Wb-auto.png](image:Wb-auto.png.md) Auto
+- [image:Wb-auto.png](image:wb-auto.png) Auto
 
   
 Corregge automaticamente il bilanciamento del bianco, supponendo che il
@@ -57,28 +57,28 @@ colore medio della scena sia grigio neutro. Funziona bene per una vasta
 gamma di scene e può essere un buon punto di partenza per le regolazioni
 manuali.
 
-- [image:Wb-custom.png](image:Wb-custom.png.md) Personalizzato
+- [image:Wb-custom.png](image:wb-custom.png) Personalizzato
 
   
 Permette di impostare la propria temperatura colore e tinta verde
 spostando i due cursori e/o utilizzando lo strumento Spot WB.
 
 - Preselezioni di sorgenti luminose
-  - [image:Wb-sun.png](image:Wb-sun.png.md) Luce diurna
+  - [image:Wb-sun.png](image:wb-sun.png) Luce diurna
     (Soleggiato)
-  - [image:Wb-cloudy.png](image:Wb-cloudy.png.md) Nuvoloso
-  - [image:Wb-shade.png](image:Wb-shade.png.md) Ombra
-  - [image:Wb-tungsten.png](image:Wb-tungsten.png.md) Tungsteno
-  - [image:Wb-fluorescent.png](image:Wb-fluorescent.png.md)
+  - [image:Wb-cloudy.png](image:wb-cloudy.png) Nuvoloso
+  - [image:Wb-shade.png](image:wb-shade.png) Ombra
+  - [image:Wb-tungsten.png](image:wb-tungsten.png) Tungsteno
+  - [image:Wb-fluorescent.png](image:wb-fluorescent.png)
     Fluorescente
-  - [image:Wb-lamp.png](image:Wb-lamp.png.md) Lampada
-  - [image:Wb-led.png](image:Wb-led.png.md) LED
-  - [image:Wb-flash.png](image:Wb-flash.png.md) Flash
+  - [image:Wb-lamp.png](image:wb-lamp.png) Lampada
+  - [image:Wb-led.png](image:wb-led.png) LED
+  - [image:Wb-flash.png](image:wb-flash.png) Flash
 
 ### Spot WB
 
 Quando si fa clic sul pulsante Spot WB
-[image:Gtk-color-picker.png](image:Gtk-color-picker.png.md)
+[image:Gtk-color-picker.png](image:gtk-color-picker.png)
 (collegamento: **w**), il cursore cambia in pipetta quando è sopra
 l'anteprima. Fare clic su un'area grigia o neutra per determinare il
 bilanciamento del bianco corretto. L'area grigia/neutra non può essere

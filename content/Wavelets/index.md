@@ -5,4 +5,4 @@ contributors:
   - XavAL
 ---
 
-1.  REDIRECT [Wavelet Levels](Wavelet_Levels.md)
+1.  REDIRECT [Wavelet Levels](wavelet_levels)

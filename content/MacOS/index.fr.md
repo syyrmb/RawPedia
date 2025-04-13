@@ -12,19 +12,19 @@ MacOS
 
 Cette page détaille les instructions pour compiler RawTherapee sur les
 systèmes **macOS**. Il existe aussi une page séparée pour la compilation
-sur [Linux](Linux/fr.md) et [Windows](Windows/fr.md).
+sur [Linux](linux/fr) et [Windows](windows/fr).
 Cette page détaille le **Quoi** et le **Comment** de la compilation.
 Pour le **Pourquoi** et les explications de ces commandes, pour avoir la
 liste des dépendances, les options de CMake et d'autres informations,
 veuillez vous référer l'article détaillée de
-[Linux](Linux/fr.md).
+[Linux](linux/fr).
 
-En cas de doute, [joigniez nous sur IRC](IRC/fr.md) et demandez
+En cas de doute, [joigniez nous sur IRC](irc/fr) et demandez
 à un humain !
 
 Pour obtenir des instructions sur le clonage de la source, le choix de
 la branche, la configuration de CMake et la réalisation de la
-compilation, voir ces chapitres dans le guide [Linux](Linux.md).
+compilation, voir ces chapitres dans le guide [Linux](linux).
 Les informations ci-dessous viennent en complément.
 
 ## Dépendances

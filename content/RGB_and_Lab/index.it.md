@@ -41,8 +41,8 @@ utilizzando la stessa quantità di saturazione in RGB si ottengono colori
 </div>
 
 La differenza tra il cursore "Luminosità" nella sezione
-"[Esposizione](Exposure/it.md)" (nello spazio RGB) e nella
-sezione "[Lab](Lab_Adjustments/it.md)" è sottile.
+"[Esposizione](exposure/it)" (nello spazio RGB) e nella
+sezione "[Lab](lab_adjustments/it)" è sottile.
 Un'impostazione di +30 della *Luminosità* in RGB produce un'immagine
 complessivamente più luminosa di quando si utilizza un'impostazione
 identica di +30 della "Luminosità" in Lab. I colori in Lab sono

@@ -39,7 +39,7 @@ width="90" height="60" />
 
 <div style="background-color: #f6f6f6; border: 1px solid #aaa; padding: 1em; margin-bottom: 1em;">
 
-[right](image:Rawtherapee_rawpedia_header1_h300.jpg.md)
+[right](image:rawtherapee_rawpedia_header1_h300.jpg)
 
 ## RawTherapee
 
@@ -47,29 +47,29 @@ width="90" height="60" />
 
 <div style="column-count:3;-moz-column-count:3;-webkit-column-count:3;">
 
-- [Los geht's](Getting_Started/de.md)
-- [Funktionen](Features/de.md)
-- [Die Gleitkommazahl-Engine](The_Floating_Point_Engine/de.md)
-- [8 Bit und 16 Bit](8-bit_and_16-bit/de.md)
-- [RGB und Lab](RGB_and_Lab/de.md)
+- [Los geht's](getting_started/de)
+- [Funktionen](features/de)
+- [Die Gleitkommazahl-Engine](the_floating_point_engine/de)
+- [8 Bit und 16 Bit](8-bit_and_16-bit/de)
+- [RGB und Lab](rgb_and_lab/de)
 - [Eine portable Installation
   erstellen](Making_a_Portable_Installation/de.md)
 - [Die Registerkarte
   Dateiverwaltung](The_File_Browser_Tab/de.md)
-- [Die Registerkarte Bildeditor](The_Image_Editor_Tab/de.md)
-- [Batcheinstellungen - Sync](Batch_Adjustments_-_Sync/de.md)
-- [Speichern](Saving/de.md)
-- [Die Batch-Warteschlange](The_Batch_Queue/de.md)
+- [Die Registerkarte Bildeditor](the_image_editor_tab/de)
+- [Batcheinstellungen - Sync](batch_adjustments_-_sync/de)
+- [Speichern](saving/de)
+- [Die Batch-Warteschlange](the_batch_queue/de)
 - [Aktuelles Bild in einem externen Editor
   bearbeiten](Edit_Current_Image_in_External_Editor/de.md)
-- [Komandozeilenoptionen](Command-Line_Options/de.md)
-- [Tastaturkürzel](Keyboard_Shortcuts/de.md)
+- [Komandozeilenoptionen](command-line_options/de)
+- [Tastaturkürzel](keyboard_shortcuts/de)
 - [Hinzufügen von Unterstützung für neue
   Raw-Formate](Adding_Support_for_New_Raw_Formats/de.md)
-- [Dateipfade](File_Paths/de.md)
-- [Einstellungen](Preferences/de.md)
-- [Negativ](Negative/de.md)
-- [GIMP-Plugin](GIMP_Plugin/de.md)
+- [Dateipfade](file_paths/de)
+- [Einstellungen](preferences/de)
+- [Negativ](negative/de)
+- [GIMP-Plugin](gimp_plugin/de)
 
 </div>
 <hr />
@@ -82,23 +82,23 @@ width="90" height="60" />
   Prozessprofile](Sidecar_Files_-_Processing_Profiles/de.md)
 - [Erstellen von Prozessprofilen für den allgemeinen
   Gebrauch](Creating_processing_profiles_for_general_use/de.md)
-- [Dynamische Prozessprofile](Dynamic_processing_profiles/de.md)
+- [Dynamische Prozessprofile](dynamic_processing_profiles/de)
 
 </div>
 <div style="display: inline-block; width: 100%;">
 
 #### Skripte für Prozessprofile
 
-- [RTProfileSelector](RTProfileSelector/de.md)
-- [RTbatch](RTbatch/de.md)
+- [RTProfileSelector](rtprofileselector/de)
+- [RTbatch](rtbatch/de)
 
 </div>
 <div style="display: inline-block; width: 100%;">
 
 #### Bundled Processing Profiles
 
-- [Default (Standard)](Default/de.md)
-- [Faded (Ausgeblichen)](Faded/de.md)
+- [Default (Standard)](default/de)
+- [Faded (Ausgeblichen)](faded/de)
 
 </div>
 </div>
@@ -114,83 +114,83 @@ width="90" height="60" />
 
 #### Registerkarte Belichtung
 
-- [Belichtung](Exposure/de.md)
-- [Gamma - Differential/de](Gamma_-_Differential/de.md) (WIP,
+- [Belichtung](exposure/de)
+- [Gamma - Differential/de](gamma_-_differential/de) (WIP,
   noch nicht verfügbar)
-- [Schatten/Lichter](Shadows/Highlights/de.md)
-- [Dynamikkompression](Tone_Mapping/de.md)
-- [Vignettierungsfilter](Vignetting_Filter/de.md)
-- [Grauverlaufsfilter](Graduated_Filter/de.md)
-- [Lab-Anpassungen](Lab_Adjustments/de.md)
-- [CIE Color Appearance Model 2002](CIECAM02/de.md)
+- [Schatten/Lichter](shadows/highlights/de)
+- [Dynamikkompression](tone_mapping/de)
+- [Vignettierungsfilter](vignetting_filter/de)
+- [Grauverlaufsfilter](graduated_filter/de)
+- [Lab-Anpassungen](lab_adjustments/de)
+- [CIE Color Appearance Model 2002](ciecam02/de)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Registerkarte Details
 
-- [Schärfung](Sharpening/de.md)
+- [Schärfung](sharpening/de)
 - [Kantenschärfung und
   Mikrokontrast](Edges_and_Microcontrast/de.md)
-- [Impulsrauschreduzierung](Impulse_Noise_Reduction/de.md)
-- [Rauschreduzierung](Noise_Reduction/de.md)
-- [Farbsaum entfernen (Defringe)](Defringe/de.md)
-- [Detailebenenkontrast](Contrast_by_Detail_Levels/de.md)
+- [Impulsrauschreduzierung](impulse_noise_reduction/de)
+- [Rauschreduzierung](noise_reduction/de)
+- [Farbsaum entfernen (Defringe)](defringe/de)
+- [Detailebenenkontrast](contrast_by_detail_levels/de)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Registerkarte Farbe
 
-- [Weißabgleich](White_Balance/de.md)
-- [Dynamik](Vibrance/de.md)
-- [RGB-Kanalmixer](Channel_Mixer/de.md)
-- [Schwarz / Weiß](Black-and-White/de.md)
-- [Schwarz / Weiß-Erweiterung](Black-and-White_addon/de.md)
+- [Weißabgleich](white_balance/de)
+- [Dynamik](vibrance/de)
+- [RGB-Kanalmixer](channel_mixer/de)
+- [Schwarz / Weiß](black-and-white/de)
+- [Schwarz / Weiß-Erweiterung](black-and-white_addon/de)
 - [Farbton (H) / Sättignung (S) / Dynamik
   (V)](HSV_Equalizer/de.md)
-- [Filmsimulation](Film_Simulation/de.md)
-- [RGB-Kurven](RGB_Curves/de.md)
-- [Farbanpassungen](Color_Toning/de.md)
-- [Farbmanagement](Color_Management/de.md)
-- [Farbmanagementerweiterung](Color_Management_addon/de.md)
+- [Filmsimulation](film_simulation/de)
+- [RGB-Kurven](rgb_curves/de)
+- [Farbanpassungen](color_toning/de)
+- [Farbmanagement](color_management/de)
+- [Farbmanagementerweiterung](color_management_addon/de)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Registerkarte Wavelet
 
-- [Wavelet](Wavelets/de.md)
+- [Wavelet](wavelets/de)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Registerkarte Transformieren
 
-- [Ausschnitt](Crop/de.md)
-- [Skalieren](Resize/de.md)
-- [Objektivkorrekturen](Lens/Geometry/de.md)
+- [Ausschnitt](crop/de)
+- [Skalieren](resize/de)
+- [Objektivkorrekturen](lens/geometry/de)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Registerkarte RAW
 
-- [Sensor mit Bayer-Matrix](Demosaicing/de.md)
-- [Vorverarbeitung](Preprocessing/de.md)
-- [Sensor mit X-Trans-Matrix](Chromatic_Aberration/de.md)
-- [Schwarzpunkt](Raw_Black_Points/de.md)
-- [Weißpunkt](Raw_White_Points/de.md)
-- [Dunkelbild](Dark_Frame/de.md)
-- [Weißbild](Flat_Field/de.md)
+- [Sensor mit Bayer-Matrix](demosaicing/de)
+- [Vorverarbeitung](preprocessing/de)
+- [Sensor mit X-Trans-Matrix](chromatic_aberration/de)
+- [Schwarzpunkt](raw_black_points/de)
+- [Weißpunkt](raw_white_points/de)
+- [Dunkelbild](dark_frame/de)
+- [Weißbild](flat_field/de)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Regieterkarte Metadaten
 
-- [Registerkarte Exif](Exif_Tab/de.md)
-- [Registerkarte IPTC](IPTC_Tab/de.md)
+- [Registerkarte Exif](exif_tab/de)
+- [Registerkarte IPTC](iptc_tab/de)
 
 </div>
 </div>
@@ -198,15 +198,15 @@ width="90" height="60" />
 
 ### Interagieren
 
-- [Forum](Forum/de.md)
-- [IRC](IRC/de.md)
-- [Google+](Google+/de.md)
+- [Forum](forum/de)
+- [IRC](irc/de)
+- [Google+](google+/de)
 
 ### Kompilieren
 
-- In [Linux](Linux/de.md)
-- In [Windows](Windows/de.md)
-- In [macOS](macOS/de.md)
+- In [Linux](linux/de)
+- In [Windows](windows/de)
+- In [macOS](macos/de)
 
 ### Fehlerbehebung
 
@@ -230,7 +230,7 @@ width="90" height="60" />
   bekommt](How_to_get_LCP_and_DCP_profiles/de.md)
 - [Wie man Nikon ICM-Profile
   bekommt](How_to_get_Nikon_ICM_profiles/de.md)
-- [Wasserzeichen](Watermarking/de.md)
+- [Wasserzeichen](watermarking/de)
 - [Bilddateienformate und
   -kompressionen](Image_file_formats_and_compression/de.md)
 

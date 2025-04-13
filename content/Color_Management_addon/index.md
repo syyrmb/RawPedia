@@ -249,7 +249,7 @@ RawTherapee allows 5 possibilities:
   on a theoretical neutral grey basis;
 - « pre-set settings »: like Shade, Daylight, Fluorescent, etc.
 - « Custom »: the user can choose Temperature and Tint (see the section
-  [White balance gaps](#White_balance_gaps.md))
+  [White balance gaps](#white_balance_gaps))
 - « Spot WB »: the user choose a neutral-grey area as a reference. This
   almost means a neutral-grey chart must be present when shooting.
 
@@ -572,7 +572,7 @@ preserve the best colors and gamut.
 
 Functions available in "Exposure" does not modify the hue, except
 "Saturation" that make it by dysfunction of the Lab mode (see about that
-the [Munsell correction](#The_"Munsell"_correction.md) section
+the [Munsell correction](#the_"munsell"_correction) section
 
 Same thing for "Lab adjustments", for the "Saturation" slider, along
 with the "a" and "b" curves and all the curves that control the
@@ -748,7 +748,7 @@ incompatible - important risk of posterization - with wide gamut spaces
 
 Because of the copyrights, I shipped specific files with more detailed
 LUT that should bring less posterization in the shadows. These files are
-a by-product of [Output Gamma](#Output_Gamma.md) (see below)
+a by-product of [Output Gamma](#output_gamma) (see below)
 
 - RT_sRGB.icm: similar (primary) to sRGB.icm standard with internal
   gamma close to sRGB: g=2.40 slope=12.92

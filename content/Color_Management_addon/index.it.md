@@ -255,7 +255,7 @@ RawTherapee consente 5 possibilità:
 - "Impostazioni preimpostate": come la sfumatura, la luce diurna,
   fluorescente, ecc.
 - "Custom": l'utente può scegliere Temperature e Tint (vedere la sezione
-  [Bilanciamento del bianco](#White_balance_gaps.md))
+  [Bilanciamento del bianco](#white_balance_gaps))
 - «Spot WB»: l'utente seleziona un'area grigio neutrale come
   riferimento. Ciò significa deve essere presente una tavoletta grigio
   medio durante la ripresa.

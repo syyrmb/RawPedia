@@ -215,7 +215,7 @@ résiduelle continuera d'être ce qui reste après que les détails de
 chacun des niveaux ont été supprimés (qu'ils aient été modifiés ou non).
 
 Notez que si vous souhaitez utiliser l'outil Niveaux d'ondelettes en
-même temps que [l'outil CIECAM](CIECAM02/fr.md), vous pouvez
+même temps que [l'outil CIECAM](ciecam02/fr), vous pouvez
 obtenir des artefacts dus au fait que le modèle colorimétrique CIECAM
 utilise des valeurs spécifiques proches, mais différentes des valeurs de
 l'espace colorimétrique Lab. Du fait du codage de l'outil, ces artefacts
@@ -628,7 +628,7 @@ Contraste-).
 
 En général ces boutons permettent de définir une progression logique des
 valeurs de
-[microcontrast](Edges_and_Microcontrast/fr#Microcontrast.md) :
+[microcontrast](edges_and_microcontrast/fr#microcontrast) :
 plus haut pour les premiers niveaux et plus bas pour les derniers
 niveaux.
 
@@ -1044,8 +1044,8 @@ des pétales.
 
 ## Gamut (contrôle)
 
-Ce module est lié aux modules [Contraste](#Contraste.md) et
-[Chroma](#Chroma.md), afin que les ajustements puissent être
+Ce module est lié aux modules [Contraste](#contraste) et
+[Chroma](#chroma), afin que les ajustements puissent être
 ciblés en fonction de la chrominance dans les détails. En d'autres
 termes, pour les détails dans chacun des niveaux d'ondelettes, vous
 pouvez non seulement prendre en compte le contraste de la luminance
@@ -1507,7 +1507,7 @@ Pour mieux comprendre dans quelle mesure les niveaux de bruit peuvent
 être améliorés, il est utile de procéder niveau par niveau, en profitant
 du fait que vous pouvez visualiser le détail de chaque niveau individuel
 sur un fond neutre (comme expliqué à propos de
-*[Preview](#The_preview.md)*). Désactivez *Lien avec Edge
+*[Preview](#the_preview)*). Désactivez *Lien avec Edge
 Sharpness' Strength* puis augmentez le curseur *Strength* du niveau sur
 lequel vous travaillez au maximum : le bruit deviendra évident et vous
 pourrez évaluer la quantité de bruit nécessaire . Une fois que vous avez
@@ -2342,7 +2342,7 @@ brouillard ou compresser la plage dynamique des images à plage dynamique
 #### Méthode de compression : Tone Mapping
 
 Dans ce cas, la méthode de compression utilisée est la même que celle de
-l'outil [Tone Mapping](Tone_Mapping.md) et ses curseurs agissent
+l'outil [Tone Mapping](tone_mapping) et ses curseurs agissent
 de la même manière. Il n'agit que sur l'image résiduelle et va modifier
 en profondeur le contraste (à la manière du Tone Mapping). Pour cette
 raison, vous devrez très probablement également réajuster tout

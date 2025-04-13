@@ -13,12 +13,12 @@ Può essere molto utile per correggere i toni della pelle pure. L'uso
 "non corretto" può produrre effetti che assomigliano alla tecnica di
 elaborazione incrociata analogica. Quando si usa per bianco e nero,
 assicurarsi che la materia prima sia desaturata impostando
-[Chromaticity](Lab_Adjustments/it#Chromaticity.md) nel tool
-[Aggiustamenti Lab](Lab_Adjustments/it.md) a -100 o attivando lo
-strumento [Bianco e Nero](Black-and-White/it.md). Il *HSV
+[Chromaticity](lab_adjustments/it#chromaticity) nel tool
+[Aggiustamenti Lab](lab_adjustments/it) a -100 o attivando lo
+strumento [Bianco e Nero](black-and-white/it). Il *HSV
 Equalizer* non funziona quando il file raw viene desaturato impostando
-[Saturazione](Exposure_#_Saturation.md) nello strumento
-[Esposizione](Esposizione.md) -100.C'è una descrizione di come
+[Saturazione](exposure_#_saturation) nello strumento
+[Esposizione](esposizione) -100.C'è una descrizione di come
 [tipo di curva
 piatta](General_Comments_About_Some_Toolbox_Widgets/it#The_Flat_Curve.md)
 funziona nel capitolo [Commento generale di alcuni widget di

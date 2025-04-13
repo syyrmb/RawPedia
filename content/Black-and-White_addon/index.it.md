@@ -19,13 +19,13 @@ Si prega di notare che Rawtherapee può produrre immagini in bianco e
 nero senza l'utilizzo di questo strumento:
 
 1.  impostando il cursore
-    [Saturazione](Exposure/it#Saturation.md) nello strumento
-    [Esposizione](Exposure/it.md) della scheda Esposizione a
+    [Saturazione](exposure/it#saturation) nello strumento
+    [Esposizione](exposure/it) della scheda Esposizione a
     -100;
 2.  impostando il cursore
-    [Cromaticità](Lab_Adjustments/it#_Chromaticity.md) nella
-    scheda [Correzioni Lab](Lab_Adjustments/it.md) a -100;
-3.  attivando [Simulazione film](Film_Simulation/it.md) in
+    [Cromaticità](lab_adjustments/it#_chromaticity) nella
+    scheda [Correzioni Lab](lab_adjustments/it) a -100;
+3.  attivando [Simulazione film](film_simulation/it) in
     bianco e nero (pellicole Ilford, Kodak, Fuji ...)
 
 Tuttavia solo i metodi presenti nell'attuale strumento consentono di
@@ -34,7 +34,7 @@ ottenere la massima possibilità di conversione in bianco e nero.
 Per un tono grigio perfetto, tranne nel caso di [Color
 Toning](Color_Toning/it.md), come "Correzioni Lab" vengono
 trattati alla fine della pipeline, i valori di "a" e "b" nelle
-[Correzioni Lab](Adjustments_Lab/it.md) della scheda
+[Correzioni Lab](adjustments_lab/it) della scheda
 "Esposizione" sono impostati su zero.
 
 Notare anche l'interazione con lo strumento [Color
@@ -125,13 +125,13 @@ different black and white result.
 Please note that Rawtherapee can produce black-and-white images without
 the use of this tool:
 
-1.  by setting the [Saturation](Exposure#Saturation.md) slider
-    in the [Exposure](Exposure.md) tool of the Exposure tab to
+1.  by setting the [Saturation](exposure#saturation) slider
+    in the [Exposure](exposure) tool of the Exposure tab to
     -100;
 2.  by setting the
-    [Chromaticity](Lab_Adjustments#Chromaticity.md) slider in
-    the [Lab Adjustments](Lab_Adjustments.md) tab to -100;
-3.  by enabling [Film Simulation](Film_Simulation.md) in black
+    [Chromaticity](lab_adjustments#chromaticity) slider in
+    the [Lab Adjustments](lab_adjustments) tab to -100;
+3.  by enabling [Film Simulation](film_simulation) in black
     and white (films Ilford, Kodak, Fuji...)
 
 Nevertheless only the methods in the current tool gives you the maximum
@@ -298,16 +298,16 @@ l'effetto.
 Queste curve vengono utilizzate allo stesso modo e hanno lo stesso
 risultato finale di quelle descritte nella sezione [Curve di
 tono](Exposure/it#Tone_Curves.md) dello strumento
-[Esposizione](Exposure/it.md). Permettono di personalizzare lo
+[Esposizione](exposure/it). Permettono di personalizzare lo
 strumento Black-and-White, che lo rende indipendente dalle impostazioni
 fatte altrove. Avviso: il "curva Dopo" ha solo una modalità, in quanto
 l'immagine è in bianco e nero!
 
 ## Color Toning
 
-- È possibile utilizzare [Color Toning](Color_Toning/it.md) con
+- È possibile utilizzare [Color Toning](color_toning/it) con
   lo strumento Black-and-White per effetti speciali. È inoltre possibile
-  utilizzare [Color Toning](Color_Toning/it.md) con simulazioni
+  utilizzare [Color Toning](color_toning/it) con simulazioni
   di pellicola in bianco e nero, ma a condizione che sia abilitato lo
   strumento in bianco e nero.
 - L'architettura (i vari ordini di utensili nella pipeline di

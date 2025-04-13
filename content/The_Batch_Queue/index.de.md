@@ -81,13 +81,13 @@ Bei maximaler Auslastung der CPU.
 ## Zufügen von Bildern zur Warteschlange
 
 Dieser Schritt wurde bereits im Artikel
-[Speichern](Saving/de.md) behandelt. Dort gibt es auch einige
+[Speichern](saving/de) behandelt. Dort gibt es auch einige
 Informationen zu den zur Verfügung stehenden Zielformaten. Die Parameter
 für die Zielformate mit dem Speicher-Button
 ![Image:gtk-save-large.png](gtk-save-large.png "Image:gtk-save-large.png")
 im Editor sind identisch mit den Parametern, die in der Warteschlange
 eingestellt werden können. Vergleiche also bitte mit Artikel
-[Speichern](Saving/de.md).
+[Speichern](saving/de).
 
 Mit dem Button
 ![Image:gtk-save-large.png](gtk-save-large.png "Image:gtk-save-large.png")
@@ -175,14 +175,14 @@ umsortieren. Du kannst auch einzelne Bilder aus der Warteschlange wieder
 entfernen.
 
 Zum Start der Bearbeitung nutze den klassischen *Play*-Button
-[image:Gtk-media-play.png](image:Gtk-media-play.png.md) links
+[image:Gtk-media-play.png](image:gtk-media-play.png) links
 oben.
 
 Wenn du nur eine Arbeitspause machst, kannst du die Warteschlange schon
 mal der CPU übergeben und den Vorgang anhalten, wenn du mit der
 Bearbeitung der nächsten Fotos weiter machen willst. Denn, wo ein
 *Play*-Button ist, ist auch ein *Stop*-Button nicht weit:
-[image:Gtk-media-stop.png](image:Gtk-media-stop.png.md).
+[image:Gtk-media-stop.png](image:gtk-media-stop.png).
 
 Für den Fall, dass Du an einer leistungsstarken *Maschine* arbeitest,
 und feststellst, dass dich der CPU-aufwendige Prozess der finalen

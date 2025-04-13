@@ -25,9 +25,9 @@ kein Fehler innerhalb RawTherapees.
 **Abkürzungen im Folgenden:**
 
 - ERM =
-  [Ein-Reitermodus](The_Image_Editor_Tab/de#Nur_ein_Reiter_oder_der_Multi-Reiter-Modus.md)
+  [Ein-Reitermodus](the_image_editor_tab/de#nur_ein_reiter_oder_der_multi-reiter-modus)
   (erforderlich für die Verwendung des
-  [Filmstreifens](The_Image_Editor_Tab/de#Der_Filmstreifen.md))
+  [Filmstreifens](the_image_editor_tab/de#der_filmstreifen))
 - ***E**selsbrücke* zum leichteren Einprägen des Tastatur-Kürzels.
 - Für die Umschalt-Taste wird der englische Begriff *Shift* verwendet,
   weil damit das gut erkennbare Pfeil-Symbol erhalten bleibt:

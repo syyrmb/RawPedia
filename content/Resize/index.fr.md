@@ -151,7 +151,7 @@ voici comment obtenir un aperçu de l'image :
 2.  Enregistrer l'image dans un format sans pertes tel que TIFF.
 3.  Ouvrir ce TIFF enregistré dans RawTherapee, appliquer le profil de
     traitement Neutre si cela n'est pas fait automatiquement, et activer
-    l'outil [Netteté](Sharpening/fr.md) dans l'onglet Détail.
+    l'outil [Netteté](sharpening/fr) dans l'onglet Détail.
 4.  Zoomer à 100% (1:1) et peaufiner le paramètres de l'outil Netteté
     jusqu'à obtenir un résultat satisfaisant. Ce sont les valeurs à
     utiliser dans l'outil Netteté post-redimensionnement.
@@ -165,5 +165,5 @@ utilisez la méthode de redimensionnement "Lanczos".
 Etant donné que l'outil Netteté post-redimensionnement travaille de
 façon identique à l'outil Netteté standard (sauf qu'il est placé à la
 fin du processus), se reporter à l'article
-[Netteté](Sharpening/fr.md) pour en savoir plus sur le
+[Netteté](sharpening/fr) pour en savoir plus sur le
 fonctionnement des outils de netteté.

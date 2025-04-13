@@ -30,20 +30,20 @@ on your home computer once while developing the photo is much more
 comfortable and efficient than doing so through the web browser every
 time you share an image. Multiple "Keywords" and "Suppl. Categories"
 (Supplemental Categories) can be added/removed using the plus
-[image:List-add-small.png](image:List-add-small.png.md) and
+[image:List-add-small.png](image:list-add-small.png) and
 minus
-[image:List-remove-red-small.png](image:List-remove-red-small.png.md)
+[image:List-remove-red-small.png](image:list-remove-red-small.png)
 signs next to them.
 
 There are three buttons:
 
-- "[image:Gtk-undo-ltr.png](image:Gtk-undo-ltr.png.md) Reset"
+- "[image:Gtk-undo-ltr.png](image:gtk-undo-ltr.png) Reset"
   resets the IPTC values to those saved in your current processing
   profile.
-- "[image:Gtk-copy.png](image:Gtk-copy.png.md)" copies your
+- "[image:Gtk-copy.png](image:gtk-copy.png)" copies your
   current IPTC setting to the clipboard. This is especially useful when
   you you want to apply the same IPTC values to multiple images.
-- "[image:Gtk-paste.png](image:Gtk-paste.png.md)" pastes the
+- "[image:Gtk-paste.png](image:gtk-paste.png)" pastes the
   formerly copied IPTC settings from the clipboard to your current
   image.
 

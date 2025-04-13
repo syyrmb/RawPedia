@@ -30,7 +30,7 @@ JPEG intégrées dans tout fichier raw. Un profil de traitement est
 assigné à l'image dès qu'une de ces actions est engagée :
 
 - Vous ouvrez l'image pour
-  [édition](The_Image_Editor_Tab/fr.md).
+  [édition](the_image_editor_tab/fr).
 - Vous appliquez manuellement un profil de traitement en utilisant le
   menu contextuel du clic droit dans le [Navigateur de
   Fichiers](The_File_Browser_Tab/fr.md) ou [La bande
@@ -65,7 +65,7 @@ différentes bien qu'il fonctionnent exactement de la même façon :
   liste déroulante de la section profils de traitement [Sélecteur de
   profil de
   traitement](The_Image_Editor_Tab/fr#Sélecteur_de_profil_de_traitement.md)
-  dans [L'onglet Editeur](The_Image_Editor_Tab/fr.md).
+  dans [L'onglet Editeur](the_image_editor_tab/fr).
 
 <!-- -->
 
@@ -77,7 +77,7 @@ différentes bien qu'il fonctionnent exactement de la même façon :
   sorte qu'il soit visible dans la liste déroulante du sélecteur du
   profil de traitement, dans la section "Mes profils". Pour cela,
   enregistrer le profil dans le sous dossier "profils" du dossier
-  "config". Voir la page [Où sont les fichiers](File_Paths.md)
+  "config". Voir la page [Où sont les fichiers](file_paths)
   pour le trouver.
 
 <!-- -->
@@ -136,7 +136,7 @@ traitement](Preferences/fr#Gestionnaire_des_profils_de_traitement.md).
 Par défaut, le profil de traitement d'une image est enregistré à coté de
 l'image d'entrée (si vous ouvrez `kitty.raw`, un nouveau fichier
 `kitty.raw.pp3` sera créé a côté de lui), mais il peut aussi être
-enregistré dans un [cache central](File_Paths/fr.md). Il est
+enregistré dans un [cache central](file_paths/fr). Il est
 possible de choisir si RawTherapee doit utiliser le cache, écrire le
 profil de traitement à côté de l'image ou les deux, dans "*Préférences
 \> Traitement de l'image*". Nous recommandons d'enregistrer ces fichiers
@@ -155,14 +155,14 @@ cas de travail sur des fichiers non-raw.
 ## Profils par défaut
 
 Le profil de traitement par défaut utilisé à l'ouverture d'images
-**non-raw** est appelé "[Neutre](Neutral/fr.md)". Pour ce
+**non-raw** est appelé "[Neutre](neutral/fr)". Pour ce
 profil, tous les paramètres des outils sont à la valeur neutre, ils
 n'ont donc aucun effet. Puisque les images non-raw ont habituellement
 déjà été traitées et sont prêtes au visionnage, le comportement attendu
 par défaut de RawTherapee est de n'ajouter aucun réglage supplémentaire.
 
 Les profil de traitement par défaut utilisé pour les images **raw** est
-appelé "[Auto-Matched Curve/fr](Auto-Matched_Curve/fr.md)" (à
+appelé "[Auto-Matched Curve/fr](auto-matched_curve/fr)" (à
 partir de RawTherapee 5.4). Ce profil donne à votre image un aspect JPEG
 sorti tout droit du boitier, ce qui est habituellement un bon point de
 départ.
@@ -194,7 +194,7 @@ image alors que dans ce profil certains paramètres d'outils ne sont pas
 renseignés
 
 - Mode "bouton pressé"
-  [image:Profile-filled.png](image:Profile-filled.png.md)
+  [image:Profile-filled.png](image:profile-filled.png)
     
   En mode "bouton pressé", les valeurs manquantes seront considérées
   valoir les valeurs par défaut codées en dur de RawTherapee
@@ -206,7 +206,7 @@ renseignés
 <!-- -->
 
 - Mode "bouton relevé"
-  [image:Profile-partial.png](image:Profile-partial.png.md)
+  [image:Profile-partial.png](image:profile-partial.png)
     
   En mode "bouton relevé", seules ces valeurs du profile seront
   appliquées, et les autres restent inchangées.
@@ -265,7 +265,7 @@ cache à chaque nouvelle installation de RawTherapee, vous vous préservez
 la possibilité de revenir à une ancienne version de RawTherapee pour
 obtenir exactement le même résultat.
 
-La page [Où sont les fichiers ?](File_Paths/fr.md) explique où
+La page [Où sont les fichiers ?](file_paths/fr) explique où
 vous pouvez trouver les répertoires "*cache*" et "*config*" sur votre
 système.
 
@@ -283,16 +283,16 @@ préjudiciable, il y a de bonnes raisons pour agir (rarement) ainsi :
   4.0.12 sont légèrement différents et peuvent nécessiter une correction
   des vieux profils.
 - Certains utilisateurs n'ont pas vérifié
-  "[Préférences](Preferences/fr.md)" depuis longtemps, et les
+  "[Préférences](preferences/fr)" depuis longtemps, et les
   réglages sont restés ceux qui fonctionnaient le mieux il y a
   longtemps, pas ce qui fonctionne le mieux maintenant. Ceux par défauts
   sont bons, nous les maintenons à jour pour assurer un bon
   fonctionnement de RawTherapee dès la mise en route, donc quelquefois
   faire démarrer RawTherapee avec des valeurs par défaut toutes fraîches
   est une bonne chose, et motivera les utilisateurs pour a nouveau
-  consulter "[Préférences](Preferences/fr.md)".
+  consulter "[Préférences](preferences/fr)".
 - Certains utilisateurs n'ont jamais regardé dans
-  "[Préférences](Preferences/fr.md)" et n'ont pas conscience des
+  "[Préférences](preferences/fr)" et n'ont pas conscience des
   fonctionnalités qui peuvent être enclenchées ici. Comme ci-dessus, des
   valeurs par défaut toutes fraîches vont activer ces choses.
 - Les anciens répertoires "*cache*" et "*config*" peuvent éventuellement

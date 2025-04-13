@@ -284,7 +284,7 @@ Remarquez :
   luminosité et/ou la saturation, Ciecam tiendra compte de l'image et de
   son environnement.
 
-[Ciecam - english](CIECAM02.md)
+[Ciecam - english](ciecam02)
 
 ### Balance des blancs
 

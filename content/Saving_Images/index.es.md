@@ -24,12 +24,12 @@ aplicará todo el procesado: **la imagen raw no se modifica en ningún
 momento**.
 
 Hay un par de maneras de *guardar* una imagen desde la pestaña del
-[*Editor*](The_Image_Editor_Tab/es.md):
+[*Editor*](the_image_editor_tab/es):
 
 - ![<File:Save.png>](Save.png "File:Save.png") ***Guardar
   inmediatamente*** desde la pestaña *Editor*,
 - ![<File:Gears.png>](Gears.png "File:Gears.png") ***Guardar usando la
-  [Cola](Queue/es.md)***,
+  [Cola](queue/es)***,
 
 ### Guardar inmediatamente
 
@@ -74,7 +74,7 @@ manualmente hasta esa ubicación.
 ### Poner a la cola de procesamiento
 
 Mientras estés en el *Editor*, si pulsas sobre el icono de los
-engranajes [<file:gears.png>](file:gears.png.md) o seleccionas
+engranajes [<file:gears.png>](file:gears.png) o seleccionas
 *Poner al principio/final de la cola de procesamiento* en el cuadro de
 diálogo *Guardar*, tu imagen se situará en la [cola de archivos
 pendientes de procesar](Queue/es.md).

@@ -22,7 +22,7 @@ l'ulteriore tonificazione del colore. Per modificare il profilo al gusto
 personale, è possibile regolare le curve RGB per modificare l'effetto di
 colorazione.Se la tonalità del colore è accettabile, è possibile
 continuare le regolazioni delle immagini con le curve di tono nel
-pannello [esposizione](exposure/it.md).
+pannello [esposizione](exposure/it).
 
 <img src="/images/FadePack1_RawTherapee_01.jpg"
 title="FadePack1_RawTherapee_01.jpg" width="900"

@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Preview Modes](Preview_Modes.md)
+1.  REDIRECT [Preview Modes](preview_modes)

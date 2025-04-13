@@ -61,7 +61,7 @@ non utilizzare per il salvataggio tipico!). 8- Fare clic con il pulsante
 destro del mouse sul menu contestuale (in genere verrà utilizzato per
 applicare un profilo di elaborazione a tutti i file selezionati).\]\] La
 prima volta che si avvia RawTherapee, verrà visualizzata la scheda
-[Navigatore](The_File_Browser_Tab/it.md) e potrebbe essere
+[Navigatore](the_file_browser_tab/it) e potrebbe essere
 vuota. Devi indicare a RawTherapee dove sono memorizzate le tue foto
 raw. Utilizza il browser dell'albero di directory a sinistra nella
 scheda *Navigatore* per andare alla tua cartella di foto raw e fai
@@ -112,13 +112,13 @@ che ti aiutano a proteggere le tue immagini:
   su di loro nell'articolo [Sidecar Files - Profili di
   sviluppo](Sidecar_Files_-_Processing_Profiles/it.md).
 - Quando si utilizza l'editor di immagini, verrà visualizzato il
-  pannello [Cronologia](The_Image_Editor_Tab/it#History.md) a
+  pannello [Cronologia](the_image_editor_tab/it#history) a
   sinistra. Questo pannello mostra una pila di tutte le modifiche
   apportate all'immagine. Per tornare indietro a qualsiasi passo (anche
   al primo quando l'immagine è stata caricata per la prima volta), fai
   clic sulla riga corrispondente nel pannello Cronologia.
 - Nel pannello Storia, verrà visualizzato un pannello
-  [Istantanee](The_Image_Editor_Tab/it#Snapshots.md). Puoi
+  [Istantanee](the_image_editor_tab/it#snapshots). Puoi
   tralasciarlo per ora, ma lo troverai utile quando guadagnerai
   esperienza con RawTherapee. Questo pannello memorizza lo stato di
   tutti gli strumenti come "istantanee". Ciò consente di modificare, ad
@@ -136,7 +136,7 @@ che ti aiutano a proteggere le tue immagini:
 
 1.  Inizia con un clic sulla scheda Colore
     ![<File:Colour.png>](Colour.png "File:Colour.png") e espandi lo
-    strumento [Bilanciamento del bianco](White_Balance/it.md)
+    strumento [Bilanciamento del bianco](white_balance/it)
     con un clic del pulsante destro. RawTherapee inizia con il
     bilanciamento del bianco utilizzato dalla fotocamera. La maggior
     parte delle regolazioni del bilanciamento del bianco comporta lo
@@ -148,7 +148,7 @@ che ti aiutano a proteggere le tue immagini:
     regolare a piacere.
 2.  Poi correggi l'esposizione passando alla scheda Esposizione
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png"), espandendo
-    lo strumento [Esposizione](Exposure/it.md) e regolandolo a
+    lo strumento [Esposizione](exposure/it) e regolandolo a
     piacere. Per ora, utilizza semplicemente i cursori Compensazione
     esposizione e Saturazione.
 3.  Se l'immagine è rumorosa, passa alla scheda
@@ -158,18 +158,18 @@ che ti aiutano a proteggere le tue immagini:
     o usando il tasto di scelta rapido "z" perché gli effetti degli
     strumenti in questa scheda sono visibili solo con l'immagine
     ingrandita (e naturalmente nell'immagine salvata) e abilitare lo
-    strumento [Riduzione Rumore](Noise_Reduction/it.md)
+    strumento [Riduzione Rumore](noise_reduction/it)
     utilizzando per ora le impostazioni predefinite. RawTherapee rimuove
     automaticamente il rumore di colore (crominanza). Il rumore di
     luminosità viene rimosso in
-    [manuale](Noise_Reduction/it#Usage.md), anche se di default
+    [manuale](noise_reduction/it#usage), anche se di default
     lo lascia perché il rumore di luminanza in genere conferisce un
     aspetto piacevole, granuloso e cinematografico. Come regola
     generale, quando si utilizza la riduzione del rumore non utilizzare
     la nitidezza. Per vedere l'intera immagine usa il pulsante
     ![<File:Gtk-zoom-fit.png>](Gtk-zoom-fit.png "File:Gtk-zoom-fit.png")
     o utilizza il tasto di scelta rapida "f".
-4.  Ora dovresti sistemare la [geometria](Lens/Geometry/it.md) e
+4.  Ora dovresti sistemare la [geometria](lens/geometry/it) e
     la composizione della tua foto.
     - Per prima cosa imposta il livello orizzontale oppure correggi le
       linee che dovrebbero essere verticali, come lampade stradali o
@@ -190,11 +190,11 @@ che ti aiutano a proteggere le tue immagini:
       corretto.
     - Infine, puoi ridimensionare la foto, perché magari la vuoi
       caricare come JPEG da 10 MB su un'applicazione social. Attiva lo
-      strumento [Ridimensiona](Resize/it.md) e lascialo alle
+      strumento [Ridimensiona](resize/it) e lascialo alle
       impostazioni predefinite. Nota che l'effetto di ridimensionamento
       è applicato solo all'immagine salvata, non all'anteprima.
 5.  Ora che è tutto impostato, puoi eseguire
-    [salva](Saving/it.md) subito. Fai clic sul pulsante
+    [salva](saving/it) subito. Fai clic sul pulsante
     ![<File:Gtk-save-large.png>](Gtk-save-large.png "File:Gtk-save-large.png")
     Salva l'immagine corrente, oppure utilizza la scorciatoia da
     tastiera Ctrl + s. Salva come file JPG con qualità "92", campionata
@@ -260,7 +260,7 @@ rispettare questo ordine generale di operazioni:
     bianco](White_Balance/it.md). È possibile risolvere
     l'esposizione in primo luogo se l'immagine è troppo scura (o troppo
     luminosa) per vedere le modifiche del bilanciamento del bianco.
-4.  Regolare l'[Esposizione](Exposure/it.md) utilizzando
+4.  Regolare l'[Esposizione](exposure/it) utilizzando
     l'opzione Compensazione dell'esposizione e i cursori dei neri per
     migliorare l'immagine nelle ombre. Una volta compensato i neri,
     continuare con l'utilizzo di entrambe le curve di tono. Assicuratevi
@@ -269,7 +269,7 @@ rispettare questo ordine generale di operazioni:
     per scoprire perché ci sono due e come utilizzarle al meglio: sono
     uno strumento molto potente!
 5.  Nella sezione Base di cui sopra abbiamo suggerito di utilizzare il
-    cursore [Saturazione](Exposure/it#Saturation.md) (nello
+    cursore [Saturazione](exposure/it#saturation) (nello
     strumento Exposure). Ora che stiamo esplorando le tecniche più
     avanzate, ti consigliamo di non utilizzare più il cursore di
     saturazione e utilizzare invece la più potente [Curca
@@ -280,12 +280,12 @@ rispettare questo ordine generale di operazioni:
     inevitabilmente altri. Continua con lo strumento [Correzioni
     Lab](Lab_Adjustments/it.md) e poi il resto degli strumenti
     nella scheda Esposizione.
-7.  Quindi utilizzare lo strumento [Wavelet](Wavelet/it.md)
+7.  Quindi utilizzare lo strumento [Wavelet](wavelet/it)
     nella scheda Wavelet
     ![<File:wavelet.png>](wavelet.png "File:wavelet.png").
 8.  Quindi utilizzare gli strumenti nella scheda Colore
     ![<File:Colour.png>](Colour.png "File:Colour.png"). Lo strumento
-    [Tonalità del Colore (Color Toning)](Color_Toning/it.md) è
+    [Tonalità del Colore (Color Toning)](color_toning/it) è
     particolarmente sensibile ai cambiamenti dell'esposizione, quindi
     lasciatelo per ultimo.
 9.  Adesso ingrandisci al 100% e utilizza gli strumenti nella scheda

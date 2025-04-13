@@ -57,7 +57,7 @@ basis of all other colors. In the ICC profile generator, you specify the
 location of the primary colors on the 1931 CIE xy chromaticity diagram
 using the xy coordinates.
 
-[CIE xy diagram](Color_Management#The_CIE_xy_diagram.md)
+[CIE xy diagram](color_management#the_cie_xy_diagram)
 
 [Operation of the
 algorithm](Color_Management#How_the_.22Primaries_and_White_Point.22_algorithm_works.md)
@@ -77,7 +77,7 @@ will consist of a linear part and a parabolic part with a seamless
 connection between the two.
 
 You can see other uses of the TRC in Abstract profiles \>
-[TRC_-_Tone_Response_Curve](Color_Management#TRC_-_Tone_Response_Curve.md).
+[TRC_-_Tone_Response_Curve](color_management#trc_-_tone_response_curve).
 
 ### Illuminant
 

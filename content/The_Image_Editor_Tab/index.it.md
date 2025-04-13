@@ -41,7 +41,7 @@ colore del profilo di lavoro e convertito nello spazio colore del
 profilo del monitor, se viene caricato un profilo di monitor o in sRGB
 se non lo è. Non tiene conto del "[Profilo di
 Uscita](Color_Management/it#Output_Profile.md)" dello strumento
-"[Gestione del Colore](Color_Management/it.md)".
+"[Gestione del Colore](color_management/it)".
 
 ### Eek! La mia foto raw sembra diversa rispetto alla fotocamera JPEG
 
@@ -128,7 +128,7 @@ elaborazione "Neutrale" si vedrà l'immagine demo-tagliata con il
 bilanciamento del bianco della fotocamera nello spazio colore di lavoro
 senza altre modifiche. Risulta possibile vedere anche l'immagine non
 domosaicizzata impostando l'opzione
-[demosaicizzazione](demosaicing/it.md) su "Nessuno". Per offrire
+[demosaicizzazione](demosaicing/it) su "Nessuno". Per offrire
 un punto di partenza esteticamente più piacevole, è stata aggiunta una
 collezione di profili di elaborazione con RawTherapee. Dopo
 l'installazione di RawTherapee, il profilo predefinito per
@@ -168,13 +168,13 @@ contrario dell'aspetto piatto dell'utilizzo del profilo di elaborazione
 "Neutral") senza dover utilizzare [Livelli
 automatici](Exposure/it#Auto_Levels.md) e senza toccare nessuno
 degli altri strumenti, ed è completamente opzionale. Leggere l'articolo
-su [profili di ingresso](Color_Management/it#Input_Profile.md).
+su [profili di ingresso](color_management/it#input_profile).
 Se è presente un DCP per il tuo modello di fotocamera che include la
 curva di tono, la casella di controllo "curva di tono" in *Gestione del
 colore\> Profilo di input\> DCP* sarà cliccabile. Applicare il profilo
 di elaborazione (Neutro) disattiverà la curva di tono. Mentre il profilo
 di colore dell'ingresso viene applicato nelle prime fasi della
-[toolchain pipeline](Toolchain_Pipeline/it.md), la curva del
+[toolchain pipeline](toolchain_pipeline/it), la curva del
 tono DCP viene applicata in un secondo momento dopo lo strumento
 Esposizione.
 
@@ -466,7 +466,7 @@ cosa succede all'immagine mentre modifichi lentamente un determinato
 parametro.
 
 È possibile regolare entrambi questi valori nel file delle opzioni nella
-[config folder](File_Paths/it.md).
+[config folder](file_paths/it).
 
 ## Il pannello sinistro
 
@@ -475,7 +475,7 @@ principale ("" "Preferenze\> Generale\> Layout\> Istogramma nel pannello
 di sinistra" ") e mostra sempre i" 'Navigator' ',' 'History' 'e'
 'Snapshots ''. Puoi nascondere questo pannello usando l'icona ![Hide
 left panel icon](panel-to-left.png/it "Hide left panel icon") o la
-relativa [scorciatoie da tastiera](Keyboard_Shortcuts/it.md).
+relativa [scorciatoie da tastiera](keyboard_shortcuts/it).
 
 ### Principale istogramma
 
@@ -549,9 +549,9 @@ tre formati:
 
 RawTherapee 5.1 in avanti può mostrare i valori reali di photosite
 grezzi. Per vederli, impostare il Navigatore per utilizzare l'intervallo
-\[0-255\], applicare il profilo [Neutri](Neutral/it.md) [profilo
+\[0-255\], applicare il profilo [Neutri](neutral/it) [profilo
 di sviluppo](Sidecar_Files_-_Processing_Profiles/it.md), quindi
-impostare il metodo [Demosaicizzazione](Demosaicing/it.md) su
+impostare il metodo [Demosaicizzazione](demosaicing/it) su
 "Nessuno". Il Navigatore mostrerà i valori reali di photosite privi dopo
 la sottrazione di livello nero nell'ambito dei dati grezzi originali.
 
@@ -585,23 +585,23 @@ foto nell'Editor di immagini '' o chiudi RawTherapee.
 A destra è un pannello che mostra in opzione l'istogramma principale e
 il selettore "'Profili di elaborazione' '(' *Preferenze\> Generale\>
 Layout\> Istogramma nel pannello di sinistra*) e mostra sempre
-[Strumenti](Toolbox/it.md). Puoi nascondere questo pannello
+[Strumenti](toolbox/it). Puoi nascondere questo pannello
 usando l'icona ![Hide right panel
 icon](panel-to-right.png/it "Hide right panel icon") o la relativa
-[scorciatoie da tastiera](Keyboard_Shortcuts/it.md).
+[scorciatoie da tastiera](keyboard_shortcuts/it).
 
 ### Selezione del profilo di elaborazione
 
 L'elenco a discesa *Profili di elaborazione* consente di applicare in
 bundle o personalizzate [profilo di
 sviluppo](Sidecar_Files_-_Processing_Profiles_/it.md). Vedere
-l'articolo [Percorsi File](File_Paths/it.md) per informazioni su
+l'articolo [Percorsi File](file_paths/it) per informazioni su
 dove questi profili di elaborazione risiedono nel sistema.
 
 Prestare attenzione al pulsante "*Modalità di riempimento del profilo di
 elaborazione*"!
 
-Modo "Riempimento" [image:Profile-filled.png](image:Profile-filled.png.md)  
+Modo "Riempimento" [image:Profile-filled.png](image:profile-filled.png)  
 Quando il pulsante è attivato e si apre un profilo parziale, i valori
 mancanti saranno sostituiti con i valori predefiniti di RawTherapee.
 
@@ -611,7 +611,7 @@ l'esposizione, la mappatura del suono, la riduzione del rumore, la
 ridimensionamento, ecc.) Verranno visualizzati nelle posizioni
 predefinite.
 
-Modalità "Preservare" [image:Profile-partial.png](image:Profile-partial.png.md)  
+Modalità "Preservare" [image:Profile-partial.png](image:profile-partial.png)  
 Se il pulsante è disattivato e si apre un profilo parziale, verranno
 applicati solo i valori nel profilo e quelli mancanti rimangono
 invariati.
@@ -637,9 +637,9 @@ RawTherapee consente di lavorare su foto in due modi:
 - *Single Editor Mod Tab* (SETM), dove si lavora solo su una foto alla
   volta e ogni foto viene aperta nella stessa scheda *Editor*. Esiste un
   pannello orizzontale denominato
-  *[Filmstrip](The_Image_Editor_Tab/it#The_Filmstrip.md)* nella
+  *[Filmstrip](the_image_editor_tab/it#the_filmstrip)* nella
   parte superiore del
-  *[editor](The_Image_Editor_Tab/it#The_Filmstrip.md)* che
+  *[editor](the_image_editor_tab/it#the_filmstrip)* che
   mostra le altre foto in quella cartella per un facile accesso. Nella
   barra degli strumenti inferiore (e
   ![<File:Nav-prev.png>](Nav-prev.png "File:Nav-prev.png")
@@ -647,8 +647,8 @@ RawTherapee consente di lavorare su foto in due modi:
   all'immagine precedente / successiva.
 - *Multiple Module Module Editor* (METM), dove ogni foto viene aperta
   nel proprio
-  *[editor](The_Image_Editor_Tab/it#The_Filmstrip.md)*. Il
-  *[Filmstrip](The_Image_Editor_Tab/it#The_Filmstrip.md)* è
+  *[editor](the_image_editor_tab/it#the_filmstrip)*. Il
+  *[Filmstrip](the_image_editor_tab/it#the_filmstrip)* è
   nascosto in questa modalità e non ci sono pulsanti precedenti /
   successivi. Avere più foto aperte allo stesso tempo richiede più RAM.
 
@@ -690,7 +690,7 @@ tastiera](Keyboard_Shortcuts/it.md) o precedente ![Open previous
 image icon](nav-prev.png/it "Open previous image icon") e successive
 ![Open next image icon](nav-next.png/it "Open next image icon") pulsanti
 immagine per aprire l'immagine precedente / successiva senza necessità
-di tornare alla* [Navigatoreile](The_File_Browser_Tab/it.md)
+di tornare alla* [Navigatoreile](the_file_browser_tab/it)
 Browser File \| File Browser\] '' tab.
 
 A partire da RawTherapee versione 4.2.10, è possibile nascondere la
@@ -755,6 +755,6 @@ l'anteprima principale) e nel combinatore di comandi della stampante (in
 Preferenze\> [Gestione del
 Colore](Preferences/it#Color_Management_Tab.md) sono i file ICC
 situati in una cartella in cui è possibile puntare RawTherapee per
-andare a "[Preferenze](Preferences/it.md)\> [Gestione del
+andare a "[Preferenze](preferences/it)\> [Gestione del
 Colore](Preferences/it#Color_Management_Tab.md)\> Directory
 contenente profili di colore".

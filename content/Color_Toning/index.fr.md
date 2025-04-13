@@ -265,10 +265,10 @@ marqués.
 - Dans le cas de [simulation de
   filmscouleurs](Film_Simulation/fr.md), l'ensemble des modules
   "Virage partiel" est directement accessible
-- Dans le cas de [simulation de films](Film_Simulation/fr.md)
+- Dans le cas de [simulation de films](film_simulation/fr)
   noir et blanc, il est indispensable d'activer le module "Noir et
   Blanc". La méthode
-  [désaturation](Black-and-White_addon/fr#Désaturation.md) est
+  [désaturation](black-and-white_addon/fr#désaturation) est
   quasiment neutre et permet un usage direct des simulations Noir et
   Blanc dans l'ensemble des modules "Virage partiel", mais sans pouvoir
   utiliser les effets spéciaux du module "Noir et Blanc"

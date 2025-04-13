@@ -8,7 +8,7 @@ Todo: übersetzen
 
 Seite angelegt und Überschrift übersetzt, um sie zu refernzieren
 
-[fherb](User:Fherb.md) ([talk](User_talk:Fherb.md))
+[fherb](user:fherb) ([talk](user_talk:fherb))
 12.3.2017
 
 ------------------------------------------------------------------------
@@ -28,7 +28,7 @@ full resolution image, so it will be sharp. If you zoom the preview in,
 then RawTherapee will use this higher resolution preview image when
 calculating the transformation, so to see what the saved file will look
 like, just zoom in to 100%
-[image:Gtk-zoom-100.png](image:Gtk-zoom-100.png.md).
+[image:Gtk-zoom-100.png](image:gtk-zoom-100.png).
 
 ## Auto-Fill
 
@@ -62,15 +62,15 @@ alt="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg" />
 <img src="/images/Lensgeometry_bluehorse_autocrop_after_rotation.jpg"
 title="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
-"[image:Crop-auto.png](image:Crop-auto.png.md) Auto-Crop" is
+"[image:Crop-auto.png](image:crop-auto.png) Auto-Crop" is
 available when "Auto-fill" is disabled. When activated, it will not
 cause image interpolation, but instead will crop away the empty space
 left by the distortion correction or image rotation.
 
   
-== Rotate == [900px](image:rotate.jpg.md) Rotate the image
+== Rotate == [900px](image:rotate.jpg) Rotate the image
 between -45° and +45°. Use the
-"[image:Straighten.png](image:Straighten.png.md) Select Straight
+"[image:Straighten.png](image:straighten.png) Select Straight
 Line" button to set either a vertical or a horizontal image alignment.
 Use the mouse to draw this line - click and hold mouse to start, move to
 draw a new vertical or horizontal axis and release to engage image
@@ -109,7 +109,7 @@ The Lens Correction Profile tool's distortion correction feature can be
 used together with the manual [Distortion
 Correction](Lens/Geometry#Distortion_Correction.md) tool, and
 the vignetting correction feature can be used together with the manual
-[Vignetting Correction](Lens/Geometry#Vignetting_Correction.md)
+[Vignetting Correction](lens/geometry#vignetting_correction)
 tool. This lets you use the manual controls in addition to the LCP
 profile for artistic reasons or if the LCP fails to sufficiently correct
 a parameter (which happens on some extreme distortion occasions, like
@@ -167,10 +167,10 @@ the parts which get pushed out of view remain discarded.
 
 ## Distortion Correction
 
-[framed](Image:Rt_distortion_correction.png.md) Corrects lens
+[framed](image:rt_distortion_correction.png) Corrects lens
 distortion. A negative number corrects barrel distortion, a positive
 value will correct pincushion distortion. You can place a grid over the
-image by activating [Crop](Crop.md) (without cropping) and using
+image by activating [Crop](crop) (without cropping) and using
 "*Guide Type \> Grid*". This may serve as a guide to correct lens
 distortion.
 
@@ -198,16 +198,16 @@ alt="chromatic_aberration_auto1.jpg" />
 title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" /> This "Chromatic Aberration
 Correction" tool in the *Transform* tab works on the image **after**
-demosaicing. The [Chromatic Aberration](Chromatic_Aberration.md)
+demosaicing. The [Chromatic Aberration](chromatic_aberration)
 tool in the *Raw* tab works on the image **before** demosaicing.
 
 Chromatic aberration can be corrected by using the "Red" and "Blue"
 sliders. Normally you won't see any chromatic aberration in the
 fit-to-screen preview, therefore it is highly recommended to open a
 detail window
-[image:New-detail-window.png](image:New-detail-window.png.md) or
+[image:New-detail-window.png](image:new-detail-window.png) or
 to zoom the main preview in to 100%
-[image:Gtk-zoom-100.png](image:Gtk-zoom-100.png.md) or more when
+[image:Gtk-zoom-100.png](image:gtk-zoom-100.png) or more when
 you attempt this kind of correction. As in other software tools, this
 algorithm eliminates moderate chromatic aberration quite well. Do not
 expect miracles with images having extremely high chromatic aberration -
@@ -220,8 +220,8 @@ differences between a cheap telephoto lens and an expensive one is that
 the former is likely to produce vignetting, while the latter will not
 (or less). The "Vignetting Correction" tool is meant to correct
 vignetting caused by the lens, regardless of the
-[Crop](Crop.md). This tool is not intended for artistic
-vignetting; use the [Vignetting Filter](Vignetting_Filter.md)
+[Crop](crop). This tool is not intended for artistic
+vignetting; use the [Vignetting Filter](vignetting_filter)
 tool for that.
 
 Amount  

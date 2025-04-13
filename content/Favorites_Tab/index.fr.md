@@ -34,7 +34,7 @@ Pour ajouter un outil dans l'onglet Favoris :
 1.  Si RawTherapee est en cours d'exécution, l'arrêter. Ceci pour
     garantir l'intégrité de vos éditions manuelles dans le fichier
     `options`.
-2.  Éditer le fichier [`options`](File_Paths/fr.md) dans un
+2.  Éditer le fichier [`options`](file_paths/fr) dans un
     éditeur de texte.
 3.  Repérer la clé `Favorites=` dans la section `GUI`.
 4.  Ajouter les outils par leur nom de code (listés ci-dessous), séparés

@@ -44,7 +44,7 @@ quelle image de la série dans [L'onglet
 Editeur](The_Image_Editor_Tab/fr.md) et de la peaufiner à votre
 goût. Cela fait, vous allez appliquer le profil de traitement de cette
 image à toutes les autres de la même série. Pour cela, allez dans
-[L'onglet Navigateur de fichiers](The_File_Browser_Tab/fr.md),
+[L'onglet Navigateur de fichiers](the_file_browser_tab/fr),
 cliquer droit sur cette photo et sélectionner "*Opérations sur les
 profils \> Copier le profil*", puis sélectionner les images auxquelles
 on souhaite appliquer ce profil, clic droit sur n'importe laquelle

@@ -62,7 +62,7 @@ Vous pouvez cacher ces panneaux individuellement grâce aux boutons
 ![<File:Panel-to-left.png>](Panel-to-left.png "File:Panel-to-left.png")"
 et "Montrer/cacher le panneau de droite
 ![<File:Panel-to-right.png>](Panel-to-right.png "File:Panel-to-right.png")".
-Voir la page [Raccourcis clavier](Keyboard_Shortcuts/fr.md).
+Voir la page [Raccourcis clavier](keyboard_shortcuts/fr).
 
 Quand vous ouvrez un répertoire, RawTherapee génère dans le panneau
 central les vignettes des photos trouvées dans ce répertoire. La

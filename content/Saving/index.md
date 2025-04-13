@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Saving Images](Saving_Images.md)
+1.  REDIRECT [Saving Images](saving_images)

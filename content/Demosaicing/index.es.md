@@ -18,7 +18,7 @@ La regeneración de la escena: de datos raw a imágenes RGB
 ## Introducción
 
 ![](Chipincamera.jpg "Chipincamera.jpg") La mayoría de cámaras digitales
-usan un [sensor](Sensor_with_Bayer/X-Trans_Matrix/es.md) que
+usan un [sensor](sensor_with_bayer/x-trans_matrix/es) que
 contiene millones de elementos sensibles a la luz, llamados
 *fotodiodos*. Sin embargo, esos fotodiodos generan únicamente una carga
 eléctrica, por lo que no existe aún el concepto de color.
@@ -34,7 +34,7 @@ Los únicos mosaicos de color compatibles con RawTherapee son el
 ***[filtro de
 Bayer](Sensor_with_Bayer/X-Trans_Matrix/es#Filtro_de_Bayer.md)**''
 y
-el***[X-Trans](Sensor_with_Bayer/X-Trans_Matrix/es#Filtro_X-Trans.md)**''.
+el***[X-Trans](sensor_with_bayer/x-trans_matrix/es#filtro_x-trans)**''.
 
 En el caso del *filtro de Bayer* hay el doble de fotodiodos verdes que
 de rojos o azules, así que la mitad de datos (fotodiodos) del canal

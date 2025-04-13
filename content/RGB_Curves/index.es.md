@@ -105,7 +105,7 @@ también cambien en cierta medida, puesto que normalmente serán mezclas
 variables de los tres canales.
 
 El efecto es, en cierto modo, similar a los cambios en el valor, *V*,
-del [*Ecualizador HSV*](HSV_Equalizer/es.md), pero es más suave
+del [*Ecualizador HSV*](hsv_equalizer/es), pero es más suave
 y afecta a una mayor extensión de matices, no siendo tan selectivo.
 
 ## Virajes clásicos en Blanco y Negro

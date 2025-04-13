@@ -193,7 +193,7 @@ siendo lo que quede después de eliminar todos los detalles de todos los
 niveles (se hayan modificado o no).
 
 Es necesario destacar que si deseas usar las ondículas al mismo tiempo
-que [la herramienta CIECAM](CIECAM02/es.md), es posible que te
+que [la herramienta CIECAM](ciecam02/es), es posible que te
 encuentres con artefactos debidos a que el modelo de color CIECAM
 utiliza valores específicos que son cercanos pero a la vez diferentes de
 los valores del espacio de color Lab. Conforme está codificada la
@@ -271,7 +271,7 @@ diferencias importantes entre éllas:
 
 Dicho ésto, nadie te impide usar ambas herramientas a la vez, aunque ten
 en cuenta que el *Contraste por Niveles de detalle* se aplica antes en
-el [circuito de revelado](Toolchain_Pipeline/es.md), así que
+el [circuito de revelado](toolchain_pipeline/es), así que
 según la intensidad de los ajustes realizados allí, podrían verse
 afectados los detalles que se presentarán en los niveles del *1* al *6*.
 Es decir, puesto que el contraste habrá cambiado con los ajustes del
@@ -570,7 +570,7 @@ Extra*, que no modifica su contraste, en cada salto de nivel se añaden
 que hagas clic en los botones).
 
 En general con estos botones se obtiene una progresión lógica del
-[microcontraste](Edges_and_Microcontrast/es#Microcontraste.md):
+[microcontraste](edges_and_microcontrast/es#microcontraste):
 mayor para los primeros niveles y menor para los últimos niveles. Sin
 embargo no olvides que si un nivel es uniforme en contraste, la acción
 del control deslizante de ese nivel será nula (si no hay detalles, no se
@@ -1076,8 +1076,8 @@ el tono de las «venas» en los pétalos.
 ## Módulo del Rango de colores
 
 Este módulo está vinculado a los módulos de
-[Contraste](#Módulo_de_Contraste.md) y
-[Color](#Módulo_de_Color.md), de manera que te ayuda a afinar
+[Contraste](#módulo_de_contraste) y
+[Color](#módulo_de_color), de manera que te ayuda a afinar
 dónde se aplican sus efectos dependiendo del tono (color) que tengan los
 detalles. Es decir, ya no sólo tendrás en cuenta el contraste de la
 luminosidad (módulo de contraste) o el contraste de los tonos (módulo de
@@ -2314,7 +2314,7 @@ valores negativos*, los deslizadores de las sombras y las luces solo
 podrán tener valores positivos, de forma que únicamente podrás
 *recuperar* las sombras (aclarándolas) o las luces (oscureciéndolas). El
 resultado es muy parecido al de la herramienta
-[Sombras/Luces](Shadows/Highlights/es.md) de la pestaña
+[Sombras/Luces](shadows/highlights/es) de la pestaña
 Exposición. Sin embargo ten en cuenta que esta herramienta no tiene
 capacidad de [reconstruir las
 luces](Exposure/es#Reconstrucción_de_Luces.md).
@@ -2445,7 +2445,7 @@ niebla o permitir representar una imagen altamente dinámica.
 #### Método de Compresión: Mapeo de Tonos
 
 En este caso el método de compresión empleado es el mismo que el de la
-herramienta [Mapeo de Tonos](Tone_Mapping/es.md) y sus
+herramienta [Mapeo de Tonos](tone_mapping/es) y sus
 deslizadores actúan de la misma manera, aunque aplicados únicamente a la
 imagen residual. Así pues modificarás los contrastes en profundidad
 (como hace el mapeo tonal) y resultará casi imprescindible que ajustes

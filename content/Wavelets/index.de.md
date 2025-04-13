@@ -487,7 +487,7 @@ process, because it increases local contrast, can generate or amplify
 small artifacts. This checkbox introduces a median filter to reduce
 these artifacts.
 
-Do not forget to use the [Noise Reduction](Noise_Reduction.md)
+Do not forget to use the [Noise Reduction](noise_reduction)
 tool which is called upstream in the toolchain pipeline.
 
 ### Hue Targetting/Protection
@@ -536,7 +536,7 @@ processing. It allows one to:
 Moving the Shadows and Highlights sliders to the right increases
 luminance in these areas; to the left - decreases. This action is
 comparable to that of the
-[Shadows/Highlights](Shadows/Highlights.md) tool in the Exposure
+[Shadows/Highlights](shadows/highlights) tool in the Exposure
 tab. Beware though that it does not invoke the principle of [highlight
 reconstruction](Exposure#Highlight_Reconstruction.md).
 

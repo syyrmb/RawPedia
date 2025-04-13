@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [About Noise Reduction](About_Noise_Reduction.md)
+1.  REDIRECT [About Noise Reduction](about_noise_reduction)

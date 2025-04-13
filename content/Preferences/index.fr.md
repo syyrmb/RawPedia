@@ -12,7 +12,7 @@ Préférences
 </div>
 
 On accède à la fenêtre Préférence en cliquant sur le bouton
-[image:preferences.png](image:preferences.png.md) qui est placé
+[image:preferences.png](image:preferences.png) qui est placé
 soit dans l'angle en bas à gauche ou en haut à droite de la fenêtre de
 RawTherapee, suivant votre choix de [disposition de l'onglet
 éditeur](The_Image_Editor_Tab/fr#Modes_de_l'onglet_Editeur.md).
@@ -47,7 +47,7 @@ plusieurs écrans. Les modes suivants sont proposés :
 
   
 Rappelez vous que si vous ouvrez simultanément plusieurs images, chacune
-dans son propre [Onglet Editeur](The_Image_Editor_Tab/fr.md),
+dans son propre [Onglet Editeur](the_image_editor_tab/fr),
 chaque onglet et instance vont requérir une quantité significative de
 RAM. N'utilisez le mode Editeurs multiples que si vous possédez beaucoup
 de RAM. Combien exactement dépend de la résolution de votre moniteur, de
@@ -182,7 +182,7 @@ facteurs. En ce qui concerne ce paragraphe, les propriétés de la zone
 qui entoure la région observée sont d'une importance particulière. La
 façon dont vous percevez les couleurs d'une photo observée sur un écran
 dépend en partie de la zone entourant la photo. Vous pouvez en savoir
-plus à ce sujet en lisant la page [CIECAM02/fr](CIECAM02/fr.md).
+plus à ce sujet en lisant la page [CIECAM02/fr](ciecam02/fr).
 Pour atténuer les erreurs commises par l'utilisateur lors du réglage
 d'une photo, RawTherapee fournit des thèmes avec des couleurs d'arrière
 plan neutres. Alors que tous les thèmes sont à base de nuances de gris,
@@ -229,7 +229,7 @@ l'aperçu principal en cas de zoom-avant.</figcaption>
   
 Définissez la couleur et la transparence du cadre (repéré "2" dans la
 seconde copie d'écran) visible dans le panneau
-[Navigateur](The_Image_Editor_Tab/fr#Navigateur.md) (repéré "1")
+[Navigateur](the_image_editor_tab/fr#navigateur) (repéré "1")
 lorsque l'aperçu principal est zoomé en avant.
 
 <figure>
@@ -284,7 +284,7 @@ d'image ou un script. Cela se fait avec le bouton
 "[Editer l'image courante dans un éditeur
 externe](Edit_Current_Image_in_External_Editor/fr.md) dans
 l'onglet Editeur, en-dessous de l'aperçu principal, voir la page
-[Enregistrer](Saving/fr.md). C'est ici dans Préférences que vous
+[Enregistrer](saving/fr). C'est ici dans Préférences que vous
 pouvez définir vers quel programme les images traitées seront envoyés
 lors du clic sur ce bouton.
 
@@ -405,7 +405,7 @@ fichier raw ou à celle d'un fichier non raw.
 <!-- -->
 
 - Le profil de traitement par défaut **pour les photos non-raw** (comme
-  JPEG, TIFF ou PNG) est "[Neutre](Neutral/fr.md)". Ce profil se
+  JPEG, TIFF ou PNG) est "[Neutre](neutral/fr)". Ce profil se
   contente de charger la photo telle qu'elle est, sans l'application
   d'aucun changement.
 
@@ -451,7 +451,7 @@ doubles pour spécifier des chemins si ceux-ci contiennent des espaces.
     
   Choisir si vous préférez que RawTherapee enregistre les profils de
   traitement accolés au fichier d'entrée (le comportement par défaut),
-  ou dans le [cache central](File_Paths/fr#Cache.md), ou les
+  ou dans le [cache central](file_paths/fr#cache), ou les
   deux.
 
   Il est généralement conseillé d'enregistrer les profils de traitement
@@ -530,19 +530,19 @@ Considérées était vide. Cela peut arriver après une mise à jour depuis
 une ancienne version de RawTherapee. Si votre panneau Extensions
 Considérées est vide, nous vous recommandons de fermer RawTherapee, puis
 de trouver et d'effacer fichier
-"[options](File_Paths/fr#Config.md)". Au démarrage suivant de
+"[options](file_paths/fr#config)". Au démarrage suivant de
 RawTherapee, il utilisera les dernières valeurs par défaut et la liste
 des extensions considérées contiendra tous les formats supportés.
 
 ### Options du Cache
 
 Pour comprendre cette section, lire d'abord l'article
-[Cache](File_Paths/fr#Cache.md). L'utilisateur typique ne
+[Cache](file_paths/fr#cache). L'utilisateur typique ne
 devrait pas avoir besoin de modifier ces valeurs par défaut.
 
 La hauteur maximale des vignettes définit la taille des vignettes.
 Chaque vignette est stockée dans le dossier
-[cache](File_Paths/fe#Cache.md) de RawTherapee et consomme de
+[cache](file_paths/fe#cache) de RawTherapee et consomme de
 l'espace disque, gardez cela en tête si vous décidez d’augmenter la
 taille par défaut.
 
@@ -710,7 +710,7 @@ pas. Les cases à cocher ici ont trois états :
 `[-]` Valeurs différentes entre les images sélectionnées.
 
 Le traitement par lot est réalisé en sélectionnant plusieurs dans
-l'onglet [Navigateur de fichiers](The_File_Browser_Tab/fr.md),
+l'onglet [Navigateur de fichiers](the_file_browser_tab/fr),
 maintenir les touches ou apputées et cliquer sur les images à
 sélectionner. Vous pouvez alors éditer ces images avec les outils de
 l'Edition par lot dans le panneau de droite.
@@ -768,7 +768,7 @@ CPU.
 
 L'option "Méthode de dématriçage utilisée pour l'aperçu à un zoom
 \<100%" définit quelle méthode de
-[Dématriçage](demosaicing/fr.md) est utilisée pour l'aperçu
+[Dématriçage](demosaicing/fr) est utilisée pour l'aperçu
 principal dans l'Editeur. Par défaut, la même méthode de dématriçage est
 reprise dans la section dématriçage de l'onglet Raw, mais si vous avez
 un ordinateur très lent, vous pouvez gagner quelques centaines de
@@ -785,7 +785,7 @@ première fois d'un dossier rempli de fichiers TIFF non compressés.
 ### Cache HaldCLUT
 
 Le "Nombre maximal de cache CLUT" vous permet de spécifier combien
-d'images HaldCLUT ([Simulation de Film](Film_Simulation/fr.md))
+d'images HaldCLUT ([Simulation de Film](film_simulation/fr))
 dernièrement utilisées sont conservées en RAM pour profiter d'un accès
 rapide lors de passage de l'une à l'autre dans l'Editeur.
 
@@ -793,7 +793,7 @@ rapide lors de passage de l'une à l'autre dans l'Editeur.
 
 La plupart des images raw contiennent une image d'aperçu JPEG intégrée.
 Pour montrer cette image dans l'onglet
-[Inspecter](File_Browser/fr#Inspecter.md) elle doit être
+[Inspecter](file_browser/fr#inspecter) elle doit être
 extraite, ce qui prend une fraction de seconde. Le "Nombre maxi de
 mémoire tampon" vous permet de spécifier combien d'images intégrées
 dernièrement visualisées sont conservées en RAM afin que si vous
@@ -802,7 +802,7 @@ pas besoin de l'extraire à nouveau, mais simplement d'y accéder en RAM.
 
 l'option "Image à montrer" permet de choisir entre l'image JPEG intégrée
 ou bien d'en calculer une basée sur les données raw réelles en utilisant
-le profil de traitement "[neutre](Neutral/fr.md)". L'utilisation
+le profil de traitement "[neutre](neutral/fr)". L'utilisation
 de l'image intégrée est plus rapide que le calcul d'après les données
 raw réelles.
 
@@ -838,7 +838,7 @@ d'attente](The_Batch_Queue/fr.md).
 
 Le son "Traitement de la zone de prévisualisation terminé" est exécuté
 après la fin d'une longue opération par
-l'[éditeur](The_Image_Editor_Tab/fr.md) qui a pris plus de temps
+l'[éditeur](the_image_editor_tab/fr) qui a pris plus de temps
 que le nombre indiqué de secondes dans le champ "après (s) :".
 
 Les sons peuvent être désactivés soit en décochant l'option Activer soit

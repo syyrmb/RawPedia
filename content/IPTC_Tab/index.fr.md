@@ -31,20 +31,20 @@ développement des photos, est beaucoup plus confortable et efficace que
 de le faire via le navigateur internet à chaque fois que vous partagez
 une image. De multiples "Mots clé" et "Catégories suppl." (Catégories
 supplémentaires) peuvent être ajoutés ou enlevés grâce aux signes plus
-[image:List-add-small.png](image:List-add-small.png.md) ou moins
-[image:List-remove-red-small.png](image:List-remove-red-small.png.md)
+[image:List-add-small.png](image:list-add-small.png) ou moins
+[image:List-remove-red-small.png](image:list-remove-red-small.png)
 situés à coté.
 
 Il y a trois boutons :
 
-- "[image:Gtk-undo-ltr.png](image:Gtk-undo-ltr.png.md)
+- "[image:Gtk-undo-ltr.png](image:gtk-undo-ltr.png)
   Réinitialisation" réinitialise les données IPTC à leur valeur
   enregistrée dans votre profil de traitement actif.
-- "[image:Gtk-copy.png](image:Gtk-copy.png.md)" copie les
+- "[image:Gtk-copy.png](image:gtk-copy.png)" copie les
   réglages IPTC dans le presse papiers. C'est particulièrement utile
   quand vous désirez appliquer les mêmes données IPTC à de multiples
   images.
-- "[image:Gtk-paste.png](image:Gtk-paste.png.md)" colle les
+- "[image:Gtk-paste.png](image:gtk-paste.png)" colle les
   réglages IPTC préalablement copiés depuis le presse papiers vers
   l'image courante.
 

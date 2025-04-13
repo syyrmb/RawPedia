@@ -111,7 +111,7 @@ oben, oder den Windowspfad. Zum Vergleich mit oben:
 
 Hast du dein Bild soweit, dass du es extern weiterverarbeiten willst,
 brauchst du nur den Button
-[image:Image-editor.png](image:Image-editor.png.md) *Bild im
+[image:Image-editor.png](image:image-editor.png) *Bild im
 externen Editor öffnen* drücken. Das Bild wird von RawTherapee berechnet
 und dann das eingestellte Programm gestartet.
 

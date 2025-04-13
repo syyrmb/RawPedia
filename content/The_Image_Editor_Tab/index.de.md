@@ -61,8 +61,8 @@ Das Bild, dass du in der Vorschau siehst wird dem Farbraum des
 Arbeitsprofils entnommen und in das Monitorprofil umgewandelt, falls ein
 Monitorprofil geladen ist. Andernfalls in sRGB, was in der Regel in so
 einem Fall auch richtig ist. Es berücksichtigt hingegen nicht die
-[Ausgabeprofil](Color_Management/de#Ausgabeprofil.md)-Einstellung
-des Werkzeugs [Farbmanagement](Color_Management/de.md).
+[Ausgabeprofil](color_management/de#ausgabeprofil)-Einstellung
+des Werkzeugs [Farbmanagement](color_management/de).
 
 ### Heh! Mein Raw-Bild sieht anders aus als das Kamera-JPEG
 
@@ -158,7 +158,7 @@ Vorschaubild ganz anders (häufig im ersten Moment sogar besser) aus.
 RawTherapee hingegen ist so gestaltet, dass es in der Vorschau das reale
 Raw-Bild anzeigt und dir den Weg offen lässt das Bild nach deinen
 Wünschen zu verarbeiten. Wenn Du das "Neutral" Profil wählst, wird nur
-das [Demosaicing](Demosaicing/de.md) ausgeführt und der
+das [Demosaicing](demosaicing/de) ausgeführt und der
 Weißabgleich der Kamera verwendet. Es werden keine weiteren
 Modifikationen durchgeführt. Wenn du das Raw-Bild vor dem Demosacing
 sehehen willst, stelle beim Democaicing-Verfahren die Auswahl auf
@@ -202,13 +202,13 @@ Startpunkt machbar ist (im Gegensatz zum flachen Bildeindruck mit dem
 Belichtungseinstellung](Exposure/de#Automatische_Belichtungseinstellung.md)
 oder irgend ein anderes Werkzeug verwendet zu haben. Und, es ist völlig
 optional. Weiteres dazu findest Du im Artikel
-[Eingangsfarbprofil](Color_Management/de#Eingangsfarbprofil.md).
+[Eingangsfarbprofil](color_management/de#eingangsfarbprofil).
 Falls wir für deine Kamera ein DCP mit einer solchen Tonwertkurve
 mitliefern, dann ist die Checkbox *Farbe \> Farbmanagement \>
 Eingangsfarbprofil \> DCP \> Tonwertkurve*, einschaltbar. Wählst du
 *Neutral* als Profil, dann wird diese Tonwertkurve wieder abgeschaltet.
 Während das Eingangsfarbprofil schon in einer frühen Stufe der
-[Prozesskette](Toolchain_Pipeline/de.md) verarbeitet wird, wird
+[Prozesskette](toolchain_pipeline/de) verarbeitet wird, wird
 die DCP-Tonwertkurve erst nach dem Belichtungswerkzeug angewendet.
 
 Du kannst dir ein Prozess-Profil selbst erstellen, dass ideal auf deine
@@ -223,7 +223,7 @@ Zusätzlich zur ganz normalen Vorschau unterstützt RawTherapee eine ganze
 Reihe anderer Vorschau-Arten, die dir beim Bearbeiten des Fotos helfen
 können. Diese Vorschau-Arten können mittels kleiner Buttons in der
 oberen Werkzeugleiste des Editors gesteuert werden. Oder du verwendest
-alternativ [Tastatur-Kürzel](Keyboard_Shortcuts/de.md). Es ist
+alternativ [Tastatur-Kürzel](keyboard_shortcuts/de). Es ist
 nur möglich, zu einem Zeitpunkt immer jeweils genau eine Vorschau-Art
 auszuwählen.
 
@@ -488,7 +488,7 @@ erzeugt wird.
 Diese beiden Werte können nicht unter *Einstellungen* geändert werden.
 Wer sie eventuell aus Gründen der Performance seines Rechners ändern
 will, findet die Parameter im File *option* (ohne Dateiendung) im
-[Konfigurations-Ordner](File_Paths/de#Konfigurations-Ordner.md)
+[Konfigurations-Ordner](file_paths/de#konfigurations-ordner)
 und kann sie dort mit einem Editor anpassen (File-Abschnitt
 *\[General\]*):
 
@@ -518,7 +518,7 @@ Die linke Arbeitsfläche besteht aus den Komponenten
 Die linke Arbeitsfläche kann temporär ausgeblendet werden (Button
 ![Linkes Bedienfeld
 ein-/ausblenden](panel-to-left.png "Linkes Bedienfeld ein-/ausblenden")
-bzw. [Tastatur-Kürzel](Keyboard_Shortcuts.md) **l** (das ist ein
+bzw. [Tastatur-Kürzel](keyboard_shortcuts) **l** (das ist ein
 kleines L)).
 
 ### Haupt-Histogramm
@@ -604,9 +604,9 @@ Arbeitsprofil zur Darstellung des Haupthistogramms verwenden*
 RawTherapee 5.1 (and current development versions of the "pixelshift"
 branch) can show the real raw photosite values. To see them, set the
 Navigator to use the \[0-255\] range, apply the
-[Neutral](Neutral.md) [processing
+[Neutral](neutral) [processing
 profile](Sidecar_Files_-_Processing_Profiles.md), then set the
-[Demosaicing](Demosaicing.md) method to "None". The Navigator
+[Demosaicing](demosaicing) method to "None". The Navigator
 will show the real raw photosite values after black level subtraction
 within the range of the original raw data.
 
@@ -669,7 +669,7 @@ Du kannst die gesamte rechte Bearbeitungsfläche zusammen mit dem
 Werkzeugkasten zeitweilig ausblenden. Nutze dazu den kleine Button
 ![Rechtes Bedienfeld
 ein-/ausblenden](panel-to-right.png "Rechtes Bedienfeld ein-/ausblenden")
-oder das [Tastatur-Kürzel](Keyboard_Shortcuts.md) **Alt+l** (das
+oder das [Tastatur-Kürzel](keyboard_shortcuts) **Alt+l** (das
 ist ein kleines L).
 
 ### Bearbeitungsprofile
@@ -722,7 +722,7 @@ RawTherapee zeigt für alle die Werkzeugparameter, die du auf diesem Weg
 nicht mit lädst, folgendes Verhalten:
 
 - Ist der Umschalt-Button **eingeschaltet** und sieht so aus:
-  [image:Profile-filled.png](image:Profile-filled.png.md) ,  
+  [image:Profile-filled.png](image:profile-filled.png) ,  
   dann **werden alle Parameter**, die nicht über das Bearbeitungsprofil
   geladen werden (weil sie nicht enthalten sind oder von dir deaktiviert
   wurden), **gelöscht** und durch fest kodierte Standardwerte von
@@ -737,7 +737,7 @@ nicht mit lädst, folgendes Verhalten:
     Schritt rückgängig machen.)  
       
 - Ist der Umschalt-Button ausgeschaltet und sieht so aus:
-  [image:Profile-partial.png](image:Profile-partial.png.md) ,  
+  [image:Profile-partial.png](image:profile-partial.png) ,  
   dann werden nur die gewünschten Parameter übernommen und alle Anderen
   bleiben da stehen, wo sie sind.
 
@@ -747,17 +747,17 @@ Mitgelieferte Profile, aber auch von dir Erstellte, die du regelmäßig
 verwenden willst, können über den breiten Button der Auswahlliste sehr
 schnell erreicht werden. Wo du dafür deine eigenen Bearbeitungsprofile
 ablegen musst, damit sie in dieser Liste angezeigt werden, findest du im
-Artikel [Dateipfade](File_Paths/de.md).
+Artikel [Dateipfade](file_paths/de).
 
 #### *Bearbeitungsprofil einlesen und speichern*
 
 Neben der Auswahlliste kann man mit Button
-[image:Gtk-open.png](image:Gtk-open.png.md) ein solches
+[image:Gtk-open.png](image:gtk-open.png) ein solches
 Bearbeitungsprofil von beliebiger Stelle aus laden. Zum Beispiel das
 Bearbeitungsprofil, dass als Sidecar-File neben einem der Bilder liegt,
 die du vielleich gestern bearbeitet hast. Die aktuellen Einstellungen
 speicherst du mit diesem Button:
-[image:Gtk-save-large-dark.png](image:Gtk-save-large-dark.png.md)
+[image:Gtk-save-large-dark.png](image:gtk-save-large-dark.png)
 
 Der Tooltipp-Text dieser Buttons verrät ein Feature, dass Du mit der
 Steuerungstaste erreichst, wenn Du sie genau in dem Moment gedrückt
@@ -768,19 +768,19 @@ hältst, wenn du den Butten anklickst. Näheres dazu gleich.
 Willst du ein aktuelles Bearbeitungsprofil, dass du gerade eingestellt
 hast, auf andere Bilder übertragen (auch teilweise), dann brauchst du es
 nicht erst abzuspeichern. Lege es mit
-[image:Edit-copy.png](image:Edit-copy.png.md) in die
+[image:Edit-copy.png](image:edit-copy.png) in die
 Zwischenablage. Es handelt sich dabei nicht um die Zwischenablage deines
 Betriebssystems, sondern um eine reine RawTherapee-Funktion nur für
 Bearbeitungsprofile. Um das Profil auf ein inzwischen neu geladenes Bild
 anzuwenden klickst du
-[image:Edit-paste.png](image:Edit-paste.png.md) an. Diese
+[image:Edit-paste.png](image:edit-paste.png) an. Diese
 Funktionen sind auch in der Dateiverwaltung über das Kontextmenü
 ausgewählter. Kombiniere hier also Einzelbildbearbeitung mit
 Batch-Bearbeitung.
 
 #### *Teilprofile über die Strg-Taste*
 
-[frame](image:SelectProfileImportDlg_de_small.png.md)
+[frame](image:selectprofileimportdlg_de_small.png)
 
 In der Batchverarbeitung wird das auch *selektiv einfügen* bzw.
 *selektives anwenden* genannt:
@@ -810,14 +810,14 @@ nicht herum. (Lösung am Ende der Seite)
 
 ### Werkzeugkiste
 
-[frame](image:ToolBoxTopView_de.png.md)
+[frame](image:toolboxtopview_de.png)
 
 Die größte Fläche im rechten Bereich nehmen die
 Bildbearbeitzungswerkzeuge ein. Dieser Bereich besteht aus einigen
 Registerkarten, die du über die kleinen symbolischen Reiter oben
 erreichst. Für jedes dieser Werkzeuge gibt es einen einzelnen Artikel in
 der
-[Referenz](Main_Page/de#Referenz_aller_Bildverarbeitungswerkzeuge.md).
+[Referenz](main_page/de#referenz_aller_bildverarbeitungswerkzeuge).
 Nutze den Tooltipp-Text, wenn du ohne zu drücken über die Reitersymbole
 fährst, falls du dir noch über den Inhalt der jeweiligen Registerkarten
 unsicher bist.
@@ -825,18 +825,18 @@ unsicher bist.
 **Beachte:**
 
 1.  Wenn Du die Werkzeuge aus dem Detail-Register
-    [image:Detail_icon.png](image:Detail_icon.png.md)
+    [image:Detail_icon.png](image:detail_icon.png)
     verwendest, wird deren Wirkung nur im Vorschaubild angezeigt, wenn
     du es **mindestens mit 100% Auflösung** anzeigst.
 2.  Falls du Metainformationen
-    [image:Meta.png](image:Meta.png.md) änderst oder einträgst,
+    [image:Meta.png](image:meta.png) änderst oder einträgst,
     werden die
 
 - nie in das Quellfile (also z.B. das Raw, dass du gerade bearbeitest)
   übernommen,
 - und auch nur dann in das gespeicherte Endresultat übernommen, wenn du
   unter
-  [image:Gtk-preferences.png](image:Gtk-preferences.png.md)
+  [image:Gtk-preferences.png](image:gtk-preferences.png)
   *Einstellungen \> Bildbearbeitung \> Metadaten* den Punkt *Exif/XMP
   unverändert in die Ausgabedatei übernehmen* **deaktiviert** hast.
 

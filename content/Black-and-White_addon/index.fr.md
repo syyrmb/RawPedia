@@ -25,11 +25,11 @@ A noter que Rawtherapee permet de produire des images noir et blanc sans
 l'usage de cet outil.
 
 1.  en réglant à -100 le curseur
-    [Saturation](Exposure/fr#Saturation.md) dans l'outil
-    [Exposition](Exposure/fr.md) de l'onglet Exposition;
+    [Saturation](exposure/fr#saturation) dans l'outil
+    [Exposition](exposure/fr) de l'onglet Exposition;
 2.  en réglant à -100 le curseur
-    [Chromaticité](Lab_Adjustments/fr#Chromaticité.md) dans
-    l'outil [Ajustements Lab](Lab_Adjustments/fr.md) de l'onglet
+    [Chromaticité](lab_adjustments/fr#chromaticité) dans
+    l'outil [Ajustements Lab](lab_adjustments/fr) de l'onglet
     Exposition;
 3.  en activant les [simulations de
     films](Film_Simulation/fr.md) Noir et Blanc (films Ilford,
@@ -41,7 +41,7 @@ permettent son exploitation maximum.
 Afin d'assurer un gris parfait, sauf dans le cas ou [Virage
 partiel](Color_Toning/fr.md) est activé, comme le module
 "Ajustements Lab" est situé en fin de processus de traitement, les
-valeurs "a" et "b" de [Ajustements Lab](Lab_Adjustments/fr.md)
+valeurs "a" et "b" de [Ajustements Lab](lab_adjustments/fr)
 de l'onglet "Exposition" sont mises à zéro.
 
 A noter également l'interaction avec l'outil [Virage
@@ -213,7 +213,7 @@ canal bleu peu opérant. Il suffit de choisir sRGB pour voir l'effet.
 Ces courbes ont un mode d'emploi et une finalité identique à ce qui est
 décrit dans le chapitre [Courbes
 tonales](Exposure/fr#Courbes_tonales.md) de l'outil
-[Exposition](Exposure/fr.md).
+[Exposition](exposure/fr).
 
 Elles permettent une personnalisation du module "Noir et blanc", le
 rendant ainsi "indépendant" des modifications pouvant être réalisées par
@@ -224,7 +224,7 @@ l'image est maintenant en noir et blanc !
 
 ## Virage Partiel
 
-Vous pouvez utiliser [Virage partiel](Color_Toning/fr.md) avec
+Vous pouvez utiliser [Virage partiel](color_toning/fr) avec
 l'outil Noir et Blanc pour produire des effets spéciaux.
 
 Vous pouvez également utiliser [Virage

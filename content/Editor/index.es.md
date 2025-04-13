@@ -163,7 +163,7 @@ similar al *aspecto de tu cámara*, ya que se trata de la curva
 predeterminada para película de Adobe Camera Raw. De esta forma tendrás
 un punto de partida con colores vivaces (a diferencia del aspecto plano
 que se obtiene con el perfil de procesamiento *Neutro*), sin tener que
-usar [Niveles automáticos](Exposure/es#Auto_Levels.md) y sin
+usar [Niveles automáticos](exposure/es#auto_levels) y sin
 tener que tocar ninguna de las demás herramientas.
 
 Algunos ejemplos de programas que son incapaces de mostrar (o que no los
@@ -276,7 +276,7 @@ alt="panel-to-left.png" /> botón activado, fondo negro) o despliegan
 alt="panel-to-right.png" /> botón desactivado, fondo gris) el panel
 izquierdo, el panel derecho y la tira de contactos. Puedes usarlos o
 utilizar sus respectivos atajos de teclado para gestionar el espacio que
-queda para la [*Vista Previa*](#La_Vista_Previa.md).
+queda para la [*Vista Previa*](#la_vista_previa).
 
 <!-- -->
 
@@ -346,7 +346,7 @@ height="26" alt="mouse_right-click.png" /> (hasta 5 veces)
 alt="mouse_left-click.png" /> (hasta 5 veces).
 
 :\* los valores numéricos de las muestras podrán tener las mismas
-unidades que se muestran en el [*Navegador*](#El_Navegador.md) y
+unidades que se muestran en el [*Navegador*](#el_navegador) y
 se actualizarán con cada cambio en los ajustes de las herramientas.
 Además cada muestra podrá mostrar su propia unidad, independientemente
 del resto de muestras: para seleccionar la que quieres que se muestre,
@@ -575,8 +575,8 @@ aumento de nitidez*
 alt="contrastmask-off.png" />) resalta las zonas que serán modificadas
 por las herramientas de mejora de la nitidez (*[Nitidez en la
 captura](Capture_Sharpening/es#Nitidez_en_la_captura.md),
-[Máscara de nitidez](Sharpening/es#Máscara_de_nitidez.md) y
-[Deconvolución](Sharpening/es#Deconvolución.md)*)
+[Máscara de nitidez](sharpening/es#máscara_de_nitidez) y
+[Deconvolución](sharpening/es#deconvolución)*)
 
 <div class="tlist tleft-list">
 
@@ -1005,7 +1005,7 @@ Por último, existe una manera de mostrar los valores raw reales de los
 fotodiodos del sensor: configura el *Navegador* para que use el rango
 *\[0-255\]*, aplica el *[perfil de procesamiento
 Neutro](Sidecar_Files_-_Processing_Profiles/es.md)* y ajusta el
-método de *[Desentramado](Demosaicing/es.md)* a *«Ninguno»*. El
+método de *[Desentramado](demosaicing/es)* a *«Ninguno»*. El
 Navegador mostrará los valores raw reales después de la substracción del
 nivel de negro.
 
@@ -1231,7 +1231,7 @@ especulares](https://es.wikipedia.org/wiki/Resaltado_especular).
 Si un histograma muestra recortes y consideras importantes las regiones
 recortadas, debes comenzar estableciendo dónde ocurre el recorte:
 
-- comprueba el [*histograma raw*](#EL_histograma_raw.md): ¿hay
+- comprueba el [*histograma raw*](#el_histograma_raw): ¿hay
   algún canal recortado? Si es así, la [recuperación de las
   luces](Exposure/es#Highlight_Reconstruction.md) posiblemente
   pueda ayudarte.
@@ -1244,7 +1244,7 @@ recortadas, debes comenzar estableciendo dónde ocurre el recorte:
   imagen mientras está en el circuito de revelado (con los datos que usa
   el motor del programa).
 - es posible que quieras aplicar temporalmente el perfil
-  [Neutro](Neutral/es.md) para desactivar todas las herramientas
+  [Neutro](neutral/es) para desactivar todas las herramientas
   mientras haces la comprobación, y luego volver atrás.
 - si no es el *perfil de trabajo* el que causa el recorte (el *espacio
   de trabajo* predeterminado es ProPhoto, y es enormemente grande), es
@@ -1337,7 +1337,7 @@ pero no les afectan los ajustes de *corrección del punto blanco*.
 Al examinar el *histograma raw*, posiblemente quieras poner el método de
 desentramado a *Ninguno*. Esto revelará el patrón del sensor en la
 *Vista previa* y también hará que el panel del
-[Navegador](Editor/es#El_Navegador.md) muestre los valores RGB
+[Navegador](editor/es#el_navegador) muestre los valores RGB
 del píxel del sensor de la cámara sobre el que se encuentra el cursor
 del ratón.
 
@@ -1376,7 +1376,7 @@ ser necesariamente *16383*: depende de varias cosas y por ejemplo puede
 recaer en el valor *16300*.
 
 Para más información, consulta los artículos
-[Desentramado](Demosaicing/es.md) y [Añadir compatibilidad con
+[Desentramado](demosaicing/es) y [Añadir compatibilidad con
 nuevos formatos Raw](Adding_Support_for_New_Raw_Formats/es.md)
 (especialmente la cabecera del archivo `camconst.json`).
 
@@ -1601,11 +1601,11 @@ la carpeta que tengas abierta. Y puesto que se trata de una sola fila y
 no una hoja, le llamamos ***Tira de Contactos***.
 
 Además está sincronizada con la imagen actualmente abierta, por lo que
-puedes usar [atajos de teclado](Keyboard_Shortcuts/es.md) o
+puedes usar [atajos de teclado](keyboard_shortcuts/es) o
 botones para pasar a la imagen anterior
 (![](arrow2-left.png "arrow2-left.png")) o la siguiente
 (![](arrow2-right.png "arrow2-right.png")) sin necesidad de volver a la
-pestaña del *[Navegador de archivos](File_Browser/es.md)*. E
+pestaña del *[Navegador de archivos](file_browser/es)*. E
 incluso tiene su propia barra de herramientas, que se puede ocultar para
 ahorrar espacio en pantalla: puedes hacer aparecer/desaparecer su barra
 de herramientas sin cambiar la altura de la *Tira de contactos* (, útil
@@ -1701,14 +1701,14 @@ La *Caja de herramientas*, en el panel derecho, contiene todas las
 herramientas que utilizarás para procesar tus fotos.
 
 Cada herramienta tiene su propio artículo en RawPedia y puedes acceder a
-todos ellos desde [el índice principal](Main_Page/es.md).
+todos ellos desde [el índice principal](main_page/es).
 
 ## Modos de pestaña del Editor
 
 De forma predeterminada, RawTherapee se abrirá en el modo ***Editor de
 pestaña única, pestañas verticales***, que es más eficiente en términos
 de consumo de memoria y permite el uso de la *Tira de contactos*
-([descrita anteriormente](#La_Tira_de_contactos.md)).
+([descrita anteriormente](#la_tira_de_contactos)).
 
 Sin embargo RawTherapee te permite trabajar sobre las fotos en cuatro
 modos:

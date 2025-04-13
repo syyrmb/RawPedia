@@ -38,7 +38,7 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
 
 <div style="background-color: #f6f6f6; border: 1px solid #aaa; padding: 1em; margin-bottom: 1em;">
 
-[right](image:Rawtherapee_rawpedia_header1_h300.jpg.md)
+[right](image:rawtherapee_rawpedia_header1_h300.jpg)
 
 ## RawTherapee
 
@@ -46,29 +46,29 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
 
 <div style="column-count:3;-moz-column-count:3;-webkit-column-count:3;">
 
-- [Primers passos](Getting_Started/ca.md)
-- [Features/ca](Features/ca.md)
+- [Primers passos](getting_started/ca)
+- [Features/ca](features/ca)
 - [The Floating Point
   Engine/ca](The_Floating_Point_Engine/ca.md)
-- [8-bit and 16-bit/ca](8-bit_and_16-bit/ca.md)
-- [RGB and Lab/ca](RGB_and_Lab/ca.md)
+- [8-bit and 16-bit/ca](8-bit_and_16-bit/ca)
+- [RGB and Lab/ca](rgb_and_lab/ca)
 - [Making a Portable
   Installation/ca](Making_a_Portable_Installation/ca.md)
-- [The File Browser Tab/ca](The_File_Browser_Tab/ca.md)
-- [The Image Editor Tab/ca](The_Image_Editor_Tab/ca.md)
-- [Batch Adjustments - Sync/ca](Batch_Adjustments_-_Sync/ca.md)
-- [Saving/ca](Saving/ca.md)
-- [The Batch Queue/ca](The_Batch_Queue/ca.md)
+- [The File Browser Tab/ca](the_file_browser_tab/ca)
+- [The Image Editor Tab/ca](the_image_editor_tab/ca)
+- [Batch Adjustments - Sync/ca](batch_adjustments_-_sync/ca)
+- [Saving/ca](saving/ca)
+- [The Batch Queue/ca](the_batch_queue/ca)
 - [Edit Current Image in External
   Editor/ca](Edit_Current_Image_in_External_Editor/ca.md)
-- [Command-Line Options/ca](Command-Line_Options/ca.md)
-- [Keyboard Shortcuts/ca](Keyboard_Shortcuts/ca.md)
+- [Command-Line Options/ca](command-line_options/ca)
+- [Keyboard Shortcuts/ca](keyboard_shortcuts/ca)
 - [Adding Support for New Raw
   Formats/ca](Adding_Support_for_New_Raw_Formats/ca.md)
-- [File Paths/ca](File_Paths/ca.md)
-- [Preferences/ca](Preferences/ca.md)
-- [Negative/ca](Negative/ca.md)
-- [GIMP Plugin/ca](GIMP_Plugin/ca.md)
+- [File Paths/ca](file_paths/ca)
+- [Preferences/ca](preferences/ca)
+- [Negative/ca](negative/ca)
+- [GIMP Plugin/ca](gimp_plugin/ca)
 
 </div>
 <hr />
@@ -89,16 +89,16 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
 
 #### Processing Profile Scripts
 
-- [RTProfileSelector/ca](RTProfileSelector/ca.md)
-- [RTbatch/ca](RTbatch/ca.md)
+- [RTProfileSelector/ca](rtprofileselector/ca)
+- [RTbatch/ca](rtbatch/ca)
 
 </div>
 <div style="display: inline-block; width: 100%;">
 
 #### Bundled Processing Profiles
 
-- [Default/ca](Default/ca.md)
-- [Faded/ca](Faded/ca.md)
+- [Default/ca](default/ca)
+- [Faded/ca](faded/ca)
 
 </div>
 </div>
@@ -114,25 +114,25 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
 
 #### Exposure Tab
 
-- [Exposure/ca](Exposure/ca.md)
-- [Shadows/Highlights/ca](Shadows/Highlights/ca.md)
-- [Tone Mapping/ca](Tone_Mapping/ca.md)
-- [Retinex/ca](Retinex/ca.md)
-- [Vignetting Filter/ca](Vignetting_Filter/ca.md)
-- [Graduated Filter/ca](Graduated_Filter/ca.md)
-- [Lab Adjustments/ca](Lab_Adjustments/ca.md)
-- [CIE Color Appearance Model 2002](CIECAM02/ca.md)
+- [Exposure/ca](exposure/ca)
+- [Shadows/Highlights/ca](shadows/highlights/ca)
+- [Tone Mapping/ca](tone_mapping/ca)
+- [Retinex/ca](retinex/ca)
+- [Vignetting Filter/ca](vignetting_filter/ca)
+- [Graduated Filter/ca](graduated_filter/ca)
+- [Lab Adjustments/ca](lab_adjustments/ca)
+- [CIE Color Appearance Model 2002](ciecam02/ca)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Detail Tab
 
-- [Sharpening/ca](Sharpening/ca.md)
-- [Edges and Microcontrast/ca](Edges_and_Microcontrast/ca.md)
-- [Impulse Noise Reduction/ca](Impulse_Noise_Reduction/ca.md)
-- [Noise Reduction/ca](Noise_Reduction/ca.md)
-- [Defringe/ca](Defringe/ca.md)
+- [Sharpening/ca](sharpening/ca)
+- [Edges and Microcontrast/ca](edges_and_microcontrast/ca)
+- [Impulse Noise Reduction/ca](impulse_noise_reduction/ca)
+- [Noise Reduction/ca](noise_reduction/ca)
+- [Defringe/ca](defringe/ca)
 - [Contrast by Detail
   Levels/ca](Contrast_by_Detail_Levels/ca.md)
 
@@ -141,54 +141,54 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
 
 #### Color Tab
 
-- [White Balance/ca](White_Balance/ca.md)
-- [Vibrance/ca](Vibrance/ca.md)
-- [Channel Mixer/ca](Channel_Mixer/ca.md)
-- [Black-and-White/ca](Black-and-White/ca.md)
-- [Black-and-White addon/ca](Black-and-White_addon/ca.md)
-- [HSV Equalizer/ca](HSV_Equalizer/ca.md)
-- [Film Simulation/ca](Film_Simulation/ca.md)
-- [RGB Curves/ca](RGB_Curves/ca.md)
-- [Color Toning/ca](Color_Toning/ca.md)
-- [Color Management/ca](Color_Management/ca.md)
-- [Color Management addon/ca](Color_Management_addon/ca.md)
+- [White Balance/ca](white_balance/ca)
+- [Vibrance/ca](vibrance/ca)
+- [Channel Mixer/ca](channel_mixer/ca)
+- [Black-and-White/ca](black-and-white/ca)
+- [Black-and-White addon/ca](black-and-white_addon/ca)
+- [HSV Equalizer/ca](hsv_equalizer/ca)
+- [Film Simulation/ca](film_simulation/ca)
+- [RGB Curves/ca](rgb_curves/ca)
+- [Color Toning/ca](color_toning/ca)
+- [Color Management/ca](color_management/ca)
+- [Color Management addon/ca](color_management_addon/ca)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Wavelets Tab
 
-- [Wavelets/ca](Wavelets/ca.md)
+- [Wavelets/ca](wavelets/ca)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Transform Tab
 
-- [Crop/ca](Crop/ca.md)
-- [Resize/ca](Resize/ca.md)
-- [Lens/Geometry/ca](Lens/Geometry/ca.md)
+- [Crop/ca](crop/ca)
+- [Resize/ca](resize/ca)
+- [Lens/Geometry/ca](lens/geometry/ca)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Raw Tab
 
-- [Demosaicing/ca](Demosaicing/ca.md)
-- [Preprocessing/ca](Preprocessing/ca.md)
-- [Chromatic Aberration/ca](Chromatic_Aberration/ca.md)
-- [Raw Black Points/ca](Raw_Black_Points/ca.md)
-- [Raw White Points/ca](Raw_White_Points/ca.md)
-- [Dark Frame/ca](Dark_Frame/ca.md)
-- [Flat Field/ca](Flat_Field/ca.md)
+- [Demosaicing/ca](demosaicing/ca)
+- [Preprocessing/ca](preprocessing/ca)
+- [Chromatic Aberration/ca](chromatic_aberration/ca)
+- [Raw Black Points/ca](raw_black_points/ca)
+- [Raw White Points/ca](raw_white_points/ca)
+- [Dark Frame/ca](dark_frame/ca)
+- [Flat Field/ca](flat_field/ca)
 
 </div>
 <div style="break-inside: avoid-column; -webkit-column-break-inside: avoid;">
 
 #### Metadata Tab
 
-- [Exif Tab/ca](Exif_Tab/ca.md)
-- [IPTC Tab/ca](IPTC_Tab/ca.md)
+- [Exif Tab/ca](exif_tab/ca)
+- [IPTC Tab/ca](iptc_tab/ca)
 
 </div>
 </div>
@@ -196,15 +196,15 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
 
 ### Interact
 
-- [Forum/ca](Forum/ca.md)
-- [IRC/ca](IRC/ca.md)
-- [Google+/ca](Google+/ca.md)
+- [Forum/ca](forum/ca)
+- [IRC/ca](irc/ca)
+- [Google+/ca](google+/ca)
 
 ### Compiling
 
-- In [Linux/ca](Linux/ca.md)
-- In [Windows/ca](Windows/ca.md)
-- In [macOS/ca](macOS/ca.md)
+- In [Linux/ca](linux/ca)
+- In [Windows/ca](windows/ca)
+- In [macOS/ca](macos/ca)
 
 ### Troubleshooting
 
@@ -228,7 +228,7 @@ title="Flag_of_the_United_States.svg" width="90" height="60" />
   profiles/ca](How_to_get_LCP_and_DCP_profiles/ca.md)
 - [How to get Nikon ICM
   profiles/ca](How_to_get_Nikon_ICM_profiles/ca.md)
-- [Watermarking/ca](Watermarking/ca.md)
+- [Watermarking/ca](watermarking/ca)
 - [Image file formats and
   compression/ca](Image_file_formats_and_compression/ca.md)
 

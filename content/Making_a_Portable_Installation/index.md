@@ -43,7 +43,7 @@ settings in subfolders relative to the executable, named `mycache` and
 `mysettings`, respectively, so in `E:\RawTherapee\mycache` and
 `E:\RawTherapee\mysettings`.
 
-See also the [File paths](File_Paths.md) page on how to set a
+See also the [File paths](file_paths) page on how to set a
 different location for these two folders.
 
 When updating RawTherapee, it is recommended to unzip the new version to

@@ -12,7 +12,7 @@ tastiera non QWERTY. Questo non è un difetto di RawTherapee.
 - SETM = [Modalità a singolo
   editor](The_Image_Editor_Tab#Editor_Tab_Modes.md) (richiesta
   per la visibilità del pannello
-  della[Sequanza](The_Image_Editor_Tab/it#The_Filmstrip.md))
+  della[Sequanza](the_image_editor_tab/it#the_filmstrip))
 - METM = [Modalità a editor
   multiplo](The_Image_Editor_Tab#Editor_Tab_Modes.md)
 

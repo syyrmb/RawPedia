@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Local Adjustments](Local_Adjustments.md)
+1.  REDIRECT [Local Adjustments](local_adjustments)

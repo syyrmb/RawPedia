@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Queue](Queue.md)
+1.  REDIRECT [Queue](queue)

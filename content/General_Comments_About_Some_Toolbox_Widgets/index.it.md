@@ -112,7 +112,7 @@ strumento RawTherapee i toni (oppure i colori o i valori di saturazione)
 che si desidera elaborare (o elaborare in modo diverso).
 
 Ad esempio, considerare l'editor della curva di soglia sullo strumento
-Detail -\> [Nitidezza](Sharpening/it.md).
+Detail -\> [Nitidezza](sharpening/it).
 ![](_Sharpening_Threshold.png "_Sharpening_Threshold.png")
 L'impostazione mostrata indica che lo strumento di nitidezza aumenta
 rapidamente l'affilatura nelle aree scure (la linea ripida a sinistra),
@@ -135,7 +135,7 @@ piatte.
 
 Troverete anche Curve di soglia utilizzate negli strumenti [Contrasto da
 Dettaglio Livelli](Contrast_by_Detail_Levels/it.md) e
-[Vivacità](Vibrance/it.md).
+[Vivacità](vibrance/it).
 
 Potresti aver notato che le curve di soglia sono in realtà costituite da
 poche righe piuttosto che da una curva. Se questo ti dà fastidio, ti
@@ -165,7 +165,7 @@ che meritano sezioni proprie.
 
 #### Pipetta
 
-[thumb](image:rt_pipette_2_lab_ba.jpg.md) La maggior parte delle
+[thumb](image:rt_pipette_2_lab_ba.jpg) La maggior parte delle
 curve in RawTherapee ha un pulsante pipetta [image:
 editmodehand.png](image:_editmodehand.png.md). Questa
 funzionalità è un ottimo modo per specificare le tonalità, i toni e le
@@ -217,7 +217,7 @@ di patch noti.
 Lo strumento funziona con i nodi e il modo migliore per creare questi
 nodi è utilizzare la pipetta. Per questo esempio, inizieremo con una
 curva senza nodi e ne creeremo alcuni utilizzando la pipetta. Fai clic
-sul pulsante [image: Gtk-edit.png](image:_Gtk-edit.png.md)
+sul pulsante [image: Gtk-edit.png](image:_gtk-edit.png)
 vicino alla curva e fai clic sul pulsante [image:
 editmodehand.png](image:_editmodehand.png.md) della pipetta. Ora
 vedrete i valori "I" (in) e "O" (out) visualizzati sotto la curva.
@@ -255,7 +255,7 @@ sviluppano rapidamente una comprensione intuitiva.
 </figure>
 
 Ad esempio, considerare la figura a destra - parte dello strumento
-[Esposizione](Exposure/it.md). La parte sinistra del grafico
+[Esposizione](exposure/it). La parte sinistra del grafico
 rappresenta i toni più scuri, la parte destra rappresenta i toni più
 luminosi della foto. È possibile vedere che la parte inferiore sinistra
 della curva è stata spostata verso l'alto. Ciò provoca l'aumento delle
@@ -305,23 +305,23 @@ tono consentono quattro modi diversi di manipolare la curva:
 
 ### La curva piatta
 
-[frame](image:Flat_curve_justcurve.png.md) Un certo numero di
+[frame](image:flat_curve_justcurve.png) Un certo numero di
 strumenti in RawTherapee utilizza la *curva piatta*:
 
-- [Lab Adjustments](Lab_Adjustments.md)
-  - [LH](Lab_Adjustments#LH_Curve.md)
-  - [CH](Lab_Adjustments#CH_Curve.md)
-  - [HH](Lab_Adjustments#HH_Curve.md)
-- [Defringe](Defringe.md)
-  - [Hue](Defringe#Hue.md)
-- [HSV Equalizer](HSV_Equalizer.md)
-  - [H](HSV_Equalizer#H.md)
-  - [S](HSV_Equalizer#S.md)
-  - [V](HSV_Equalizer#V.md)
+- [Lab Adjustments](lab_adjustments)
+  - [LH](lab_adjustments#lh_curve)
+  - [CH](lab_adjustments#ch_curve)
+  - [HH](lab_adjustments#hh_curve)
+- [Defringe](defringe)
+  - [Hue](defringe#hue)
+- [HSV Equalizer](hsv_equalizer)
+  - [H](hsv_equalizer#h)
+  - [S](hsv_equalizer#s)
+  - [V](hsv_equalizer#v)
 
 È molto semplice da usare una volta che lo si capisce, come esempio,
-quindi, utilizziamolo [HSV Equalizer](HSV_Equalizer.md) nella
-scheda Colore [image:colour.png](image:colour.png.md). Facciamo
+quindi, utilizziamolo [HSV Equalizer](hsv_equalizer) nella
+scheda Colore [image:colour.png](image:colour.png). Facciamo
 clic sull'icona del menù a discesa [image:
 Drop-down.png](image:_Drop-down.png.md) accanto al pulsante
 H(ue) e scegliamo "*Minima/Maxima control points*" [image:
@@ -350,12 +350,12 @@ orizzontalmente o solo in verticale) è possibile utilizzare la funzione
 'snap to' tenendo premuto il tasto Maiusc durante lo spostamento del
 punto.
 
-[frame](image:Flat_curve_zoom.png.md) È facile vedere se un
+[frame](image:flat_curve_zoom.png) È facile vedere se un
 punto è sul suo valore neutro (cioè sulla linea centrale) perché il
 colore del punto sarà verde. Non appena sposta un punto dal suo valore
 neutro, cambia colore in nero.
 
-Il [HSV Equalizer](HSV_Equalizer.md) si avvolge sull'asse
+Il [HSV Equalizer](hsv_equalizer) si avvolge sull'asse
 orizzontale, quindi la linea verticale destra è uguale alla linea
 sinistro. È possibile vedere questo trascinando la linea rossa sul lato
 sinistro un pò a sinistra. Ora il punto sinistro del grafico è nella
@@ -378,7 +378,7 @@ giro, modifica la pendenza e osserva cosa succede alla foto.
 
 E' possibile ripristina la curva *Hue* a "*Lineare*" (nessuna modifica)
 facendo clic sull'icona di reset
-[image:Gtk-undo-ltr.png](image:Gtk-undo-ltr.png.md) accanto al
+[image:Gtk-undo-ltr.png](image:gtk-undo-ltr.png) accanto al
 pulsante *Valore*. Per confrontare gli effetti della curva "Hue" con
 lineare: passare tra "*Lineare*" e "*Minima/Maxima punti di controllo*"
 nel menu a discesa accanto a questo pulsante oppure utilizzare l'elenco
@@ -402,7 +402,7 @@ sull'immagine di dimensioni complete (che richiederebbe lo stesso tempo
 del salvataggio dell'immagine, rendendo impossibile utilizzare cursori e
 curve), ma sull'immagine di anteprima di dimensioni della tua area di
 anteprima. Molti strumenti, ad esempio lo strumento
-[Esposizione](Exposure/it.md), possono essere applicati ad
+[Esposizione](exposure/it), possono essere applicati ad
 un'immagine di qualsiasi dimensione e i loro effetti saranno identici
 indipendentemente dalla dimensione dell'immagine su cui vengono
 applicati. Tuttavia, alcuni strumenti dipendono dalla dimensione, ad
@@ -419,8 +419,8 @@ disattivare completamente gli effetti di anteprima di questi strumenti a
 livelli di zoom inferiori al 100% o mantenere gli effetti di anteprima
 attivi ma avvisarvi che ciò che vedete a livelli di zoom inferiore al
 100% può essere impreciso a seconda delle impostazioni degli strumenti
-(ad esempio [Mappa dei Toni](Tone_Mapping/ti.md) e
-[Wavelet](Wavelet/it.md) possono essere precisi a livelli di
+(ad esempio [Mappa dei Toni](tone_mapping/ti) e
+[Wavelet](wavelet/it) possono essere precisi a livelli di
 zoom inferiori al 100% oppure possono essere imprecisi, a seconda delle
 impostazioni. Saprai quali strumenti sono questi perché sono
 contrassegnati da un'icona "1:1" ![icona zoom 100

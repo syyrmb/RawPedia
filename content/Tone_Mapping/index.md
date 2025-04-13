@@ -61,7 +61,7 @@ closely matches the saved image. If you wish to adjust these values, you
 will need to process the full image every time you change them to make
 sure that their effects on the saved output are what you had in mind. An
 easy way to simplify this task is by setting an image viewer as the
-"[External editor](Preferences#External_Editor.md)", then you
+"[External editor](preferences#external_editor)", then you
 just hit the keyboard shortcut Ctrl+e to have RawTherapee fully process
 the image and automatically view it in your image viewer.
 

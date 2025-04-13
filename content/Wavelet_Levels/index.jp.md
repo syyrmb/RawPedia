@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Wavelets/jp](Wavelets/jp.md)
+1.  REDIRECT [Wavelets/jp](wavelets/jp)

@@ -55,7 +55,7 @@ Dezimalsystem) und wird mit jedem Rechenschritt wieder neu auf ihren
 auflösungstechnischen Maximalwert skaliert.
 
 Speicherbedarf: 32 Bit Gleitkomma benötigen genau Faktor 2 mehr als 16
-Bit-Berechnungen. Nach dem [Demosaicing](Demosaicing/de.md)
+Bit-Berechnungen. Nach dem [Demosaicing](demosaicing/de)
 haben wir dann sogar 3 Stück 32-Bit-Werte pro Pixel. Während der
 Berechnung des Bildes müssen unter Umständen gleichzeitig auch mal 2
 Felder der Bildinformationen angelegt werden, um das Bild Schritt für
@@ -111,4 +111,4 @@ Speicherraum für die Arbeit mit RawTherapee zu optimieren:
   rekonstruieren* mit der Methode "Farbübertragung". Verwende die
   Funktion notfalls nicht, wenn Dein Rechner zu knapp bemessen ist.
 
-[Category:General](Category:General.md)
+[Category:General](category:general)

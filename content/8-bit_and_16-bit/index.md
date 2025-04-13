@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Bit Depth](Bit_Depth.md)
+1.  REDIRECT [Bit Depth](bit_depth)

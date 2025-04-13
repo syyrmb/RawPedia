@@ -15,7 +15,7 @@ __TOC__
 
 ## Généralités
 
-Contrairement à *[Masque flou](Sharpening/fr#Masque_flou.md)*,
+Contrairement à *[Masque flou](sharpening/fr#masque_flou)*,
 *Bords* est un vrai algorithme de netteté. Il n'introduit pas de halos,
 il peut être utilisé sur les images bruitées et il fonctionne dans
 l'espace colorimétrique Lab. *Bords* accentue les arêtes uniquement et

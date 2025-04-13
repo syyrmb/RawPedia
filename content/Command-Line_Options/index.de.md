@@ -39,14 +39,14 @@ möglich.
 
   
 Startet auf der Registerkarte
-[Dateiverwaltung](The_File_Browser_Tab/de.md) im angegebenen
+[Dateiverwaltung](the_file_browser_tab/de) im angegebenen
 Verzeichnis.
 
 `rawtherapee `<File>
 
   
 Startet direkt die
-[Editor](The_Image_Editor_Tab/de.md)-Registerkarte mit dem
+[Editor](the_image_editor_tab/de)-Registerkarte mit dem
 angegebenen File.
 
 ## Option `-w` "keine Konsole öffnen"

@@ -18,7 +18,7 @@ l'opzione [pannello di anteprima
 principale](The_Image_Editor_Tab/it#Pannello_di_anteprima_principale.md))
 per controllare una parte dell'immagine o zoommare l'anteprima
 principale al 100% (chiamato anche 1: 1)
-[image:Gtk-zoom-100.png](image:Gtk-zoom-100.png.md).
+[image:Gtk-zoom-100.png](image:gtk-zoom-100.png).
 
 ------------------------------------------------------------------------
 

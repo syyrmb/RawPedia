@@ -42,7 +42,7 @@ que tenga GIMP, es posible que no veas claramente qué programa raw está
 seleccionado.
 
 Cuando arranque RawTherapee, verás que estás en la ventana del
-[*Editor*](Editor/es.md), con cualquier revelado previo
+[*Editor*](editor/es), con cualquier revelado previo
 realizado a la imagen ya cargado. Además te dará la bienvenida un cuadro
 de diálogo indicándote que has arrancado RawTherapee mediante el plugin:
 ![](gimp_rtpluginwelcome.jpg "gimp_rtpluginwelcome.jpg")

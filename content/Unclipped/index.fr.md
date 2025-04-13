@@ -60,11 +60,11 @@ traitement :
 
 - [Courbes tonales
   d'exposition](Exposure/fr#Courbes_tonales.md),
-- [Vibrance](Vibrance/fr.md),
+- [Vibrance](vibrance/fr),
 - Les courbes Avant/Après dans l'outil
-  [Noir-et-Blanc](Black-and-White/fr.md),
-- [Simulation de Film](Film_Simulation/fr.md),
-- [Courbes RVB](RGB_Curves/fr.md) en mode luminosité,
+  [Noir-et-Blanc](black-and-white/fr),
+- [Simulation de Film](film_simulation/fr),
+- [Courbes RVB](rgb_curves/fr) en mode luminosité,
 - [Utiliser Look table de
   DCP](Color_Management/fr#Utiliser_Look_table.md),
 - [Modèle d'apparence des couleurs CIE 2002 et Cat02 White

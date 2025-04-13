@@ -49,8 +49,8 @@ following will help make the most of it:
   the guide "[How to set the /3GB Startup Switch in Windows XP and
   Vista](http://avatechsupport.blogspot.se/2008/03/how-to-set-3gb-startup-switch-in.html)".
 - Close other programs while working in RawTherapee.
-- Use a [single Editor tab](Preferences#Layout.md).
-- Turn off "auto-start" in the [Queue](Queue.md). Add photos to
+- Use a [single Editor tab](preferences#layout).
+- Turn off "auto-start" in the [Queue](queue). Add photos to
   the Queue as usual. When ready to start processing them, restart
   RawTherapee to free up RAM (no image open in the Editor), and start
   the queue.

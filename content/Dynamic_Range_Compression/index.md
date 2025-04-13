@@ -36,13 +36,13 @@ as "Fattal", e.g. in Luminance HDR.
 The algorithm uses two parameters to control the compression (α and β)
 which can be tuned by the "detail" and "amount" sliders of the tool,
 respectively. The tool operates in RGB space and is applied right after
-[Noise Reduction](Noise_Reduction.md) and [Haze
+[Noise Reduction](noise_reduction) and [Haze
 Removal](Haze_Removal.md), but before other tone curve
-adjustments such as the [Exposure](Exposure.md) controls.
+adjustments such as the [Exposure](exposure) controls.
 
 N.B. There are alternative ways of compressing the dynamic range using
 other tools. The simplest would be a negative contrast value in the
-[Exposure](Exposure.md) tool to reduce (or rather to
+[Exposure](exposure) tool to reduce (or rather to
 redistribute) the dynamic range, however the effect would most likely
 appear flat and unappealing. A curve gives more control over the
 process, but may need a lot of fine-tuning.

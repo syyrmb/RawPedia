@@ -13,15 +13,15 @@ Todo-List / State:
 
 Ready for publishing: no
 
-Page prepared for referencing only. --[fherb](User:Fherb.md)
-([talk](User_talk:Fherb.md)) 12:48, 14 March 2017 (MST)
+Page prepared for referencing only. --[fherb](user:fherb)
+([talk](user_talk:fherb)) 12:48, 14 March 2017 (MST)
 
 ------------------------------------------------------------------------
 
 # Farbsaum entfernen
 
-[thumb](image:defringe.jpg.md)
-[thumb](image:defringe_curve.png.md) Purple fringes are a form
+[thumb](image:defringe.jpg)
+[thumb](image:defringe_curve.png) Purple fringes are a form
 of axial (or longitudinal) chromatic aberration, and appear along dark
 edges adjacent to bright areas due to incorrect focus, lens
 imperfections, or simply (but more technically) due to the nature of

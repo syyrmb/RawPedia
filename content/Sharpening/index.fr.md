@@ -13,12 +13,12 @@ Cet article décrit l'outil appelé "Netteté", cependant, RawTherapee
 contient d'autres outils utilisables pour travailler sur différents
 types de netteté. Voir les outils [Bords et
 Microcontraste](Edges_and_Microcontrast/fr.md) et
-[Ondelettes](Wavelets/fr.md).
+[Ondelettes](wavelets/fr).
 
 L'outil Netteté est appliqué à l'image entière **avant** l'outil
-[Redimensionnement](Resize/fr.md). Si vous préfériez appliquer
+[Redimensionnement](resize/fr). Si vous préfériez appliquer
 l'outil netteté **après** le redimensionnement, utilisez l'outil
-[Post-Resize Sharpening](Resize/fr#Post-Resize_Sharpening.md)
+[Post-Resize Sharpening](resize/fr#post-resize_sharpening)
 que vous trouverez à l'intérieur de l'outil redimensionnement.
 
 ## Masque Flou
@@ -52,7 +52,7 @@ Netteté.
 
 ### Seuil
 
-[image:Usm_threshold.png](image:Usm_threshold.png.md) L'outil
+[image:Usm_threshold.png](image:usm_threshold.png) L'outil
 *Seuil* aide à la suppression de l'amplification du bruit et des halos
 et à limiter l'action de l'outil Netteté à l'intérieur de la gamme
 tonale désirée. L'outil Seuil permet de créer une courbe via laquelle

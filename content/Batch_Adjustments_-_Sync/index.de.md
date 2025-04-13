@@ -82,7 +82,7 @@ Profil kopieren* und *Profiloperationen \> Profil einfügen*.
 
 #### *Selektiv einfügen*
 
-[frame](image:SelectProfileImportDlg_de_small.png.md)
+[frame](image:selectprofileimportdlg_de_small.png)
 
 Willst Du nicht alle Werkzeugeinstellungen übertragen, sonder nur von
 ganz speziellen Werkzeugen, dann
@@ -265,9 +265,9 @@ Löse das Problem:
     Sucherei in hunderten Fotos.  
     Hast du dich statt dessen für die Variante mit den Farbmarkern
     entschieden, nutze hier die Filterfunktionen. Du findest sie oben in
-    der [Dateiverwaltung](The_File_Browser_Tab/de.md) und auch
+    der [Dateiverwaltung](the_file_browser_tab/de) und auch
     im Editor in der Werkzeugleiste des
-    [Filmstreifens](The_Image_Editor_Tab/de#Der_Filmstreifen.md).
+    [Filmstreifens](the_image_editor_tab/de#der_filmstreifen).
 5.  Wenn es die Zielqualität der Bilder erfordert, gehe jetzt jedes
     einzelne Bild zum Finishing durch. Zumindest die Wahl des passenden
     Ausschnitts ist ein Schritt, der für jedes Bild einzeln entschieden

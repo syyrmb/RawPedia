@@ -25,7 +25,7 @@ manager, such as digiKam.
 
 ## Get RawTherapee
 
-Head over to the [Download](Download.md) page to get stable
+Head over to the [Download](download) page to get stable
 builds for production use or unstable development builds for testing.
 
 ## Start RawTherapee
@@ -69,7 +69,7 @@ Browser](File_Browser.md) which has never been edited in
 RawTherapee before, the photo's thumbnail is based on the JPEG image
 embedded inside that raw file -- the exact same image you see when
 viewing that photo on your camera or in most other software. Once you
-open that photo in the [Editor](Editor.md), RawTherapee creates
+open that photo in the [Editor](editor), RawTherapee creates
 a new thumbnail based on the actual raw data. Since creating an image
 from raw data requires "cooking" it, and since you have not manually
 edited that image yet, RawTherapee uses parameters from the [default
@@ -80,7 +80,7 @@ embedded JPEG but on the actual raw data. When you make adjustments to
 the image in the Editor, the thumbnail is updated to reflect your
 changes.
 
-Editing is done in the [Editor](Editor.md). This is where you
+Editing is done in the [Editor](editor). This is where you
 work with RawTherapee to create stunning works of art - or perhaps just
 apply first aid to your snapshots. When you open a raw photo in the
 Editor for the first time, the [default processing profile for raw
@@ -91,7 +91,7 @@ your raw photo to look like the out-of-camera JPEG. It does so by
 analyzing the JPEG image which was created by your camera and is stored
 within the raw file, and adjusting the tone curve so as to match it. In
 most cases this match is very close to the "camera look". In rare cases
-it may fail. See the [Auto-Matched Curve](Auto-Matched_Curve.md)
+it may fail. See the [Auto-Matched Curve](auto-matched_curve)
 article for more information.
 
 <figure>
@@ -131,12 +131,12 @@ you protect your images:
   in the [Sidecar Files - Processing
   Profiles](Sidecar_Files_-_Processing_Profiles.md) article.
 - When using the Editor, you'll see the
-  [History](Editor#History.md) panel on the left. This panel
+  [History](editor#history) panel on the left. This panel
   shows a history stack of every change you have made to your image. To
   go back to any step (including when the image was first loaded), just
   click on the relevant line in the History panel.
 - Under the History panel you'll see a
-  [Snapshots](Editor#Snapshots.md) panel. You can skip it for
+  [Snapshots](editor#snapshots) panel. You can skip it for
   now, but you'll find it handy when you gain experience with
   RawTherapee. This panel stores the state of all the tools as a
   "snapshot". This allows you to easily, for example, tweak your photo
@@ -157,7 +157,7 @@ you protect your images:
     ![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png")
     Color tab and expanding the [White
     Balance](White_Balance.md) tool by right-clicking on it (or
-    use the [keyboard shortcut](Keyboard_Shortcuts.md)).
+    use the [keyboard shortcut](keyboard_shortcuts)).
     RawTherapee will start with the white balance used by your camera.
     Most white balance adjustments involve moving the Temperature and
     Tint sliders, or using the
@@ -166,7 +166,7 @@ you protect your images:
     Adjust to taste.
 3.  Next, fix the exposure by going to the
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png") Exposure
-    tab, expanding the [Exposure](Exposure.md) tool and
+    tab, expanding the [Exposure](exposure) tool and
     adjusting it to taste. For now, just use the Exposure Compensation
     and Saturation sliders.
 4.  If your image is noisy, switch to the
@@ -181,7 +181,7 @@ you protect your images:
     ![<File:Power-on-small.png>](Power-on-small.png "File:Power-on-small.png")
     leaving the settings at their default values for now. RawTherapee
     has automatically removed color (chrominance) noise. Luminance noise
-    is removed [manually](Noise_Reduction#Usage.md), though
+    is removed [manually](noise_reduction#usage), though
     leave it for now as luminance noise generally lends a pleasing,
     grainy, film-like look. As a general rule, when using noise
     reduction don't use sharpening. Zoom back out to see the whole image
@@ -189,7 +189,7 @@ you protect your images:
     ![<File:Magnifier-fit.png>](Magnifier-fit.png "File:Magnifier-fit.png")
     button or using the keyboard shortcut key.
 5.  Now you decided you want to fix the
-    [geometry](Lens/Geometry.md) and composition of your photo.
+    [geometry](lens/geometry) and composition of your photo.
     - First make the horizon level, or correct the things which should
       be vertical such as street lamps or building edges. To easily do
       this, press the "s" key on your keyboard (the same as clicking the
@@ -202,19 +202,19 @@ you protect your images:
     - To crop the photo, press the shortcut key on your keyboard (or use
       the ![<File:Crop.png>](Crop.png "File:Crop.png") button) and
       click-and-drag a crop over the preview; you will notice that the
-      [Crop](Crop.md) tool becomes automatically enabled. There
+      [Crop](crop) tool becomes automatically enabled. There
       is no need to "apply" a crop - it takes effect the moment you draw
       it. You can zoom to fit the crop area by using the keyboard
       shortcut, or + if you want to fit the whole image. You may want to
       set the Crop "Guide type" to "none" if it's a problem.
     - Finally, you want to downscale the photo, because who wants to
       upload a 10MB JPEG to your social network. Enable the
-      [Resize](Resize.md) tool and the [Post-Resize
+      [Resize](resize) tool and the [Post-Resize
       Sharpening](Resize#Post-Resize_Sharpening.md) sub-tool,
       and leave them at the default settings. The resizing effect is
       only applied to the saved image, not to the preview, so you won't
       see any change in the preview as you enable these tools.
-6.  You're all set, let's [save](Saving.md) it straight away.
+6.  You're all set, let's [save](saving) it straight away.
     Click the ![<File:save.png>](save.png "File:save.png") Save Current
     Image button (located below the lower left corner of the preview
     area), or use the + keyboard shortcut. Save it as a JPG file using
@@ -237,7 +237,7 @@ a firm understanding of what it does. The articles explain how the tools
 work in RawTherapee, while the general concepts unspecific to
 RawTherapee are left to the user to find on Wikipedia or elsewhere.
 
-Be sure to see the [Keyboard Shortcuts](Keyboard_Shortcuts.md).
+Be sure to see the [Keyboard Shortcuts](keyboard_shortcuts).
 
 The order of the tools inside RawTherapee's engine pipeline is
 hard-coded, so from that point of view it does not matter when you
@@ -266,13 +266,13 @@ this reason we suggest you stick to this general order of operations:
       Always use an output profile - in most cases the default one,
       RT_sRGB. If you think you're being smart by selecting "No ICM:
       sRGB Output", you're mistaken.
-2.  If you want to use a [Flat-Field](Flat_Field.md) and/or
-    [Dark-Frame](Dark_Frame.md) image, do so now, to avoid
+2.  If you want to use a [Flat-Field](flat_field) and/or
+    [Dark-Frame](dark_frame) image, do so now, to avoid
     re-adjustment.
-3.  Now set the correct [White Balance](White_Balance.md). You
+3.  Now set the correct [White Balance](white_balance). You
     may fix the exposure first if the image is too dark (or too bright)
     to see white balance changes.
-4.  Next, adjust the [Exposure](Exposure.md), using the Exposure
+4.  Next, adjust the [Exposure](exposure), using the Exposure
     Compensation and Black sliders to get the image into the right
     ballpark. Once in the right ballpark, continue with using both tone
     curves. Be sure to read the [Tone Curve
@@ -280,7 +280,7 @@ this reason we suggest you stick to this general order of operations:
     learn why there are two of them and how best to use them - they are
     a very powerful tool!
 5.  In the Basics section above we suggested that you use the
-    [Saturation](Exposure#Saturation.md) slider (in the Exposure
+    [Saturation](exposure#saturation) slider (in the Exposure
     tool). Now that you've learned the basics and are exploring more
     advanced techniques, we suggest you not use the Saturation slider
     anymore, and instead use the more powerful [CC
@@ -309,9 +309,9 @@ this reason we suggest you stick to this general order of operations:
     full-sized image, which is slow but of high quality.
 10. You can edit metadata in the
     ![<File:Metadata.png>](Metadata.png "File:Metadata.png")
-    [Meta](Metadata_Copy_Mode.md) tab at any time before saving.
-11. Save, either directly [<file:save.png>](file:save.png.md)
+    [Meta](metadata_copy_mode) tab at any time before saving.
+11. Save, either directly [<file:save.png>](file:save.png)
     when you want to save a single photo, or via the
-    [<file:gears.png>](file:gears.png.md) [Batch
+    [<file:gears.png>](file:gears.png) [Batch
     Queue](The_Batch_Queue.md) when you want to process many
-    photos. See the [Saving Images](Saving_Images.md) article.
+    photos. See the [Saving Images](saving_images) article.

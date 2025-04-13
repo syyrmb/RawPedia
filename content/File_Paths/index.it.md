@@ -34,13 +34,13 @@ build lo tenga in considerazione.
 La cartella di configurazione di RawTherapee contiene:
 
 - i file delle preferenze "options", che contiene tutte le impostazione
-  specificate in [Preferences](Preferences.md),
+  specificate in [Preferences](preferences),
 - la cartella "batch", dove sono memorizzati i [Profili di
   sviluppo](Sidecar_Files_-_Processing_Profiles/it.md) delle
   foto che sono processate nella [Coda di
   sviluppo](The_Batch_Queue/it.md),
 - il file editabile
-  [camconst.json](Adding_Support_for_New_Raw_Formats.md), dove
+  [camconst.json](adding_support_for_new_raw_formats), dove
   vengono definiti i dettagli specifici dei formati raw che devono
   essere elaborati (questo sovrascrive i valori del file camconst.json
   di sistema),

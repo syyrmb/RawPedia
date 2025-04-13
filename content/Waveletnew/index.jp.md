@@ -6,7 +6,7 @@ contributors:
 
 <div class="develop">
 
-この機能が使えるのは、開発中バージョンのRawTherapeeだけです。[ダウンロードページから](Download/jp.md)入手できます。
+この機能が使えるのは、開発中バージョンのRawTherapeeだけです。[ダウンロードページから](download/jp)入手できます。
 
 </div>
 

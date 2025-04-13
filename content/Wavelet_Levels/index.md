@@ -200,7 +200,7 @@ be what is left after the details in each of the levels have been
 removed (regardless of whether they have been modified).
 
 Note that if you want to use the Wavelet Levels tool at the same time as
-[the CIECAM tool](CIECAM02.md), you may get artifacts due to the
+[the CIECAM tool](ciecam02), you may get artifacts due to the
 fact that the CIECAM color model uses specific values that are close to,
 but different from the values of the Lab color space. Because of the way
 the tool is coded these artifacts are unavoidable, but their appearance
@@ -272,7 +272,7 @@ differences between them:
 
 That said, it is possible to use both tools at the same time. It should
 be noted however that *Contrast by Detail Levels* is applied earlier in
-the [Processing Pipeline](Toolchain_Pipeline.md), so depending
+the [Processing Pipeline](toolchain_pipeline), so depending
 on the intensity of the adjustments made there, the details presented in
 levels from *1* to *6* may be affected. In other words, since the
 contrast will have changed with the *Contrast by Levels of Detail*
@@ -562,7 +562,7 @@ respect to the previous level (the actual amount will depend on the
 number of times you click on the Contrast+ or the Contrast- buttons).
 
 In general these buttons allow you to define a logical progression of
-[microcontrast](Edges_and_Microcontrast#Microcontrast.md)
+[microcontrast](edges_and_microcontrast#microcontrast)
 values: higher for the first levels and lower for the last levels.
 
 Don't forget that if a level has uniform contrast, the slider action for
@@ -1027,8 +1027,8 @@ the color in the «veins» of the petals.
 
 ## Gamut module
 
-This module is linked to the [Contrast](#Contrast_module.md) and
-[Chroma](#Chroma_module.md) modules, so that adjustments can be
+This module is linked to the [Contrast](#contrast_module) and
+[Chroma](#chroma_module) modules, so that adjustments can be
 targeted as a function of the chroma in the details. In other words, for
 the details in each of the wavelet levels, you can not only take into
 account the contrast of the luminance (contrast module) or the contrast
@@ -1048,7 +1048,7 @@ in areas where there are changes in tone or which have high contrast.
 Although useful for fast and undemanding processing, you will actually
 achieve better results with a judicious combination of the *[Noise
 Reduction](Noise_Reduction.md)* tool in the Detail tab and the
-*[Denoise and Refine module](#Denoise_and_Refine_module.md)* in
+*[Denoise and Refine module](#denoise_and_refine_module)* in
 this tool.
 
 <div>
@@ -1276,7 +1276,7 @@ vertical axis (or *y* axis):
 
 By default, the curve is flat and lies on the mid-line. To get an idea
 of how you can interact with the curve, see the explanations of the
-*[Tone Curves](Exposure#Tone_Curves.md)*. And remember that if
+*[Tone Curves](exposure#tone_curves)*. And remember that if
 you don't like the changes you have made to the curve, you can always
 start over by clicking the reset arrow
 ![<File:ResetButton.png>](ResetButton.png "File:ResetButton.png").
@@ -1472,7 +1472,7 @@ To get a better understanding of the extent to which the noise levels
 can be improved, it is useful to proceed on a level-by-level basis,
 taking advantage of the fact that you can view the detail in each
 individual level on a neutral background (as explained when dealing with
-the *[Preview](#The_preview.md)*). Turn off *Link with Edge
+the *[Preview](#the_preview)*). Turn off *Link with Edge
 Sharpness' Strength* and then increase the *Strength* slider of the
 level you are working on to the maximum: the noise will become obvious
 and you will be able to assess how much denoise is needed. Once you have
@@ -2229,9 +2229,9 @@ sliders.
 If sliders for shadows and highlights have positive values, you can only
 *recover* the shadows (lightening them) or highlights (darkening them).
 The result is similar to the
-[Shadows/Highlights](Shadows/Highlights.md) tool in the Exposure
+[Shadows/Highlights](shadows/highlights) tool in the Exposure
 tab. However, note that this tool does not have the ability to
-[Reconstruct Highlights](Exposure#Highlight_Reconstruction.md).
+[Reconstruct Highlights](exposure#highlight_reconstruction).
 
 - negative values have a strong impact on the residual image
 - highlights are darkened if negative values are used

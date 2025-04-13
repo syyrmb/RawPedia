@@ -14,11 +14,11 @@ contributors:
 　注意として、ショートカットの中の幾つか、特に+のように1個以上の調整キーを使うもの、は非QWERTY形式キーボードでは機能しないことが知られています。でもこれはRawTherapeeがどうすることも出来ない問題です。
 
 - SETM =
-  [シングル編集タブモード](The_Image_Editor_Tab/jp#編集タブのモード.md)
-  ([画像スライド](The_Image_Editor_Tab/jp#画像スライド.md)
+  [シングル編集タブモード](the_image_editor_tab/jp#編集タブのモード)
+  ([画像スライド](the_image_editor_tab/jp#画像スライド)
   パネルを表示するために必要なモード)
 - METM =
-  [マルチ編集タブモード](The_Image_Editor_Tab/jp#編集タブのモード.md)
+  [マルチ編集タブモード](the_image_editor_tab/jp#編集タブのモード)
 
 <table>
 <caption>クロスプラットフォームのショートカット |+ style="font-weight:

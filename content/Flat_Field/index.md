@@ -4,4 +4,4 @@ contributors:
   - DrSlony
 ---
 
-1.  REDIRECT [Flat-Field](Flat-Field.md)
+1.  REDIRECT [Flat-Field](flat-field)

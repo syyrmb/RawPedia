@@ -18,7 +18,7 @@ d'un tel profil, il rend la photo éclatante et charmante, il relève les
 ombres et fait ressortir les détails.
 
 La liste complète des Profils de traitement est visible dans l'onglet
-*[Editeur](The_Image_Editor_Tab/fr.md)*, si vous déroulez la
+*[Editeur](the_image_editor_tab/fr)*, si vous déroulez la
 liste des "Profils de traitement". Vous pouvez aussi la voir dans
 l'onglet *Navigateur de fichiers* en cliquant droit sur une vignette et
 en choisissant "*Opérations sur les profils \> Appliquer le profil*".
@@ -33,7 +33,7 @@ complètement des profils de traitement.
 
 ![](Rt_file_browser_custom_profile_fr.jpg "Rt_file_browser_custom_profile_fr.jpg")).\]\]
 ![](Rt_imageeditor_customprofile_cropped_fr.jpg "Rt_imageeditor_customprofile_cropped_fr.jpg")
-de l'[Editeur](The_Image_Editor_Tab/fr.md).\]\]
+de l'[Editeur](the_image_editor_tab/fr).\]\]
 
 Il est possible de créer ses propres profils de traitement et de les
 voir apparaître dans la liste déroulante [Sélecteur de profil de
@@ -50,11 +50,11 @@ traitement](The_Image_Editor_Tab/fr#Sélecteur_de_profil_de_traitement.md).
   convenir à l'autre si elles diffèrent significativement. Par exemple,
   si votre appareil photo a un capteur à très faible bruit et que votre
   objectif n'a pas un bon piqué, vous pourriez probablement activer la
-  [netteté](Sharpening/fr.md), ou à l'inverse si votre appareil
+  [netteté](sharpening/fr), ou à l'inverse si votre appareil
   photo a un capteur générant du bruit vous pourriez appliquer un
-  certain niveau de [réduction du bruit](Noise_Reduction/fr.md)
+  certain niveau de [réduction du bruit](noise_reduction/fr)
   par défaut. Il est d'usage courant d'entrer son nom dans le champ
-  "Auteur" de [l'onglet IPTC](IPTC_Tab/fr.md) et faire en sorte
+  "Auteur" de [l'onglet IPTC](iptc_tab/fr) et faire en sorte
   que RawTherapee [copie vos modifications de métadonnées dans les
   fichiers sauvegardés](Metadata_Copy_Mode/fr.md). Généralement,
   il vaut mieux laisser la [balance des
@@ -76,7 +76,7 @@ traitement](The_Image_Editor_Tab/fr#Sélecteur_de_profil_de_traitement.md).
 
 ## Profils de traitement partiels
 
-[thumb](image:Pp3_partial_window_fr.png.md)
+[thumb](image:pp3_partial_window_fr.png)
 
 Quelquefois, on ne désire sauver qu'une partie des paramètres
 disponibles, par exemple pour éviter de stocker des paramètres

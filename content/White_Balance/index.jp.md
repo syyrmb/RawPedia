@@ -18,9 +18,9 @@ contributors:
 
 　ニュートラルカラーとは、3原色、レッド、グリーン、ブルーの値が同じである色のことです。例えば、R=G=B=65%とR=G=B=90%の色はどちらもニュートラルカラーです。但し、前者は後者より暗くなります。画像の中のニュートラルカラーであるべきスポットが正しいかどうかは、各RGB値が同じである、L\*a\*b\*色空間のa\*値とb\*値が同じである、或いはヒストグラムのRGBインディケーターバーがお互いに重なりあっていることで、確認出来ます。たとえ貴方のモニターのキャリブレーションが誤っていても同じように確認できます。色の変化に対する人間の目の知覚機能は、周りの色やそれを見る部屋の明るさにも影響されます。見た目の色は信用しないことです。前述した方法で確かめることが肝要です。
 
-　ホワイトバランスが誤っていると、画像に色被りが生じます、典型的には画像の印象が暖か味が強過ぎたり（オレンジ）、冷た過ぎたり（ブルー）します。ユーザーの中には、それを独創的な効果として使う人もいますが、RawTherapeeに備わった機能や作用には、ホワイトバランスが適正であることを前提にしたものが数多くあります、例えば[露光補正の](Exposure/jp.md)中のハイライト復元機能や、[詳細レベルによるコントラスト調整の](Contrast_by_Detail_Levels/jp.md)肌色の目標/保護、[ウェーブレット](Wavelets/jp.md)
+　ホワイトバランスが誤っていると、画像に色被りが生じます、典型的には画像の印象が暖か味が強過ぎたり（オレンジ）、冷た過ぎたり（ブルー）します。ユーザーの中には、それを独創的な効果として使う人もいますが、RawTherapeeに備わった機能や作用には、ホワイトバランスが適正であることを前提にしたものが数多くあります、例えば[露光補正の](exposure/jp)中のハイライト復元機能や、[詳細レベルによるコントラスト調整の](contrast_by_detail_levels/jp)肌色の目標/保護、[ウェーブレット](wavelets/jp)
 の青空の色相-トーン、
-[CIE色の見えモデル02/16などです](CIECAM02/jp.md)。従って、独自の色味を作り出すためにホワイトバランス機能を使うことは奨められません。この機能あくまでニュートラルな色をニュートラルに見せるための調整に使うもので、独創的な色味を加える場合は、[カラートーン調整](Color_Toning/jp.md)、或いは他の機能を使うべきでしょう。
+[CIE色の見えモデル02/16などです](ciecam02/jp)。従って、独自の色味を作り出すためにホワイトバランス機能を使うことは奨められません。この機能あくまでニュートラルな色をニュートラルに見せるための調整に使うもので、独創的な色味を加える場合は、[カラートーン調整](color_toning/jp)、或いは他の機能を使うべきでしょう。
 
 　ホワイトバランス機能はオン・オフすることが出来ます。オフにすると、raw画像の編集時に3原色に対する乗数が、それぞれR=1、G=1、B=1、となります。色の診断やUniWBイメージを扱う時に役立つでしょう。
 
@@ -28,13 +28,13 @@ contributors:
 
 ### 方法
 
-- [image:Wb-camera.png](image:Wb-camera.png.md) カメラ
+- [image:Wb-camera.png](image:wb-camera.png) カメラ
     
   カメラにプログラムされているホワイトバランスを使う方法です。raw画像だけ（JPEG画像は同時に撮らない）撮影する場合は、カメラのホワイトバランスを自動に設定する方が、一般的に良い結果が得られるようです。
 
 <!-- -->
 
-- [image:Wb-auto.png](image:Wb-auto.png.md) 自動
+- [image:Wb-auto.png](image:wb-auto.png) 自動
   - RGBグレーを使った自動調整
       
     自動的にホワイトバランスを設定する選択で、撮影シーンの平均色がニュートラルグレーであることを前提にしています。幅広い撮影シーンに対応しており、その後の手動による画像調整を行う起点としては良いかもしれません。
@@ -50,28 +50,28 @@ contributors:
       - 　1000が表示された場合は、反復計算が行われず、前の結果が使われていることを意味します。5002が表示された場合は、アルゴリズムによる計算が失敗したことを意味します。
       - 　0.01より低い値が表示されれば、調整結果が良いことを意味します。
     - 　⟨自動ホワイトバランス　色温度のバイアス⟩で、算出結果を微調整できます。
-    - 　このアルゴリズム（Itcwb）の解説は[別項にあります](White_Balance/jp#色温度の相関関係アルゴリズム.md)。
+    - 　このアルゴリズム（Itcwb）の解説は[別項にあります](white_balance/jp#色温度の相関関係アルゴリズム)。
 
 <!-- -->
 
-- [image:Wb-custom.png](image:Wb-custom.png.md) カスタム
+- [image:Wb-custom.png](image:wb-custom.png) カスタム
     
   2つのスライダーで色温度と色偏差を設定するか、スポットホワイトバランス機能を使うか、或いはその両方を使って貴方ご自身で設定する方法です。
 
 <!-- -->
 
 - 光源によってプリセットされたホワイトバランス
-  - [image:Wb-sun.png](image:Wb-sun.png.md) 昼光（晴天）
-  - [image:Wb-cloudy.png](image:Wb-cloudy.png.md) 曇天
-  - [image:Wb-shade.png](image:Wb-shade.png.md) 日陰
-  - [image:Wb-water.png](image:Wb-water.png.md) 水中
-  - [image:Wb-tungsten.png](image:Wb-tungsten.png.md)
+  - [image:Wb-sun.png](image:wb-sun.png) 昼光（晴天）
+  - [image:Wb-cloudy.png](image:wb-cloudy.png) 曇天
+  - [image:Wb-shade.png](image:wb-shade.png) 日陰
+  - [image:Wb-water.png](image:wb-water.png) 水中
+  - [image:Wb-tungsten.png](image:wb-tungsten.png)
     タングステンライト
-  - [image:Wb-fluorescent.png](image:Wb-fluorescent.png.md)
+  - [image:Wb-fluorescent.png](image:wb-fluorescent.png)
     蛍光灯
-  - [image:Wb-lamp.png](image:Wb-lamp.png.md) ランプ
-  - [image:Wb-led.png](image:Wb-led.png.md) LED
-  - [image:Wb-flash.png](image:Wb-flash.png.md) フラッシュ
+  - [image:Wb-lamp.png](image:wb-lamp.png) ランプ
+  - [image:Wb-led.png](image:wb-led.png) LED
+  - [image:Wb-flash.png](image:wb-flash.png) フラッシュ
 
 ### ピック
 

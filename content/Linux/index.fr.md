@@ -13,11 +13,11 @@ Linux
 
 Cette page détaille les instructions pour compiler RawTherapee dans les
 systèmes **GNU/Linux**. Vous trouverez aussi des instructions pour la
-compilation dans [Windows](Windows/fr.md) et
-[MacOS](MacOS/fr.md).
+compilation dans [Windows](windows/fr) et
+[MacOS](macos/fr).
 
-En cas de doute, [Joigniez nous sur IRC](IRC/fr.md) ou sur le
-[Forum](Forum/fr.md) et demandez à un humain !
+En cas de doute, [Joigniez nous sur IRC](irc/fr) ou sur le
+[Forum](forum/fr) et demandez à un humain !
 
 ## Dépendances
 
@@ -57,19 +57,19 @@ depuis l'édition "5.0-r1-gtk2" de février 2017. Si vous utilisez une
 distribution moderne, simplement copier et coller les fragments de code
 tels qu'ils sont. Si vous êtes sur une vieille distribution sans le
 support de GTK3, alors reportez vous sur l'article archivé
-[GTK2](Linux_GTK2/fr.md), puis choisissez et compilez la balise
+[GTK2](linux_gtk2/fr), puis choisissez et compilez la balise
 obsolète `5.0-r1-gtk2`.
 
 ### Arch/Manjaro
 
 Les versions actuelles de Arch et de Manjaro fonctionnent correctement
 "au sortir de la boite". Reportez vous à l'article
-[GTK2](Linux_GTK2/fr.md) si vous compilez sur une version
+[GTK2](linux_gtk2/fr) si vous compilez sur une version
 antérieure à 17.1.2.
 
     sudo pacman -S --needed bzip2 cmake exiv2 expat fftw glib2 glibmm gtk3 gtkmm3 lcms2 lensfun libcanberra libiptcdata libjpeg-turbo libpng librsvg libsigc++ libtiff zlib
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 ### CentOS
 
@@ -125,13 +125,13 @@ la section CMake près de la fin du fichier, par exemple après la ligne
         -DTIFF_LIBRARY="$HOME/programs/tiff-4.0.9/libtiff-build/libtiff/libtiff.so" 
         -DCMAKE_CXX_FLAGS="-Wno-deprecated -Wno-parentheses" \
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 ### Debian/Ubuntu/Mint/elementary OS
 
 Les versions actuelles de ces distributions fonctionnent correctement
 "au sortir de la boite". Reportez vous à l'article
-[GTK2](Linux_GTK2/fr.md) si vous compilez sur une version
+[GTK2](linux_gtk2/fr) si vous compilez sur une version
 d'Ubuntu antérieure à 16.04.
 
 ==== Ubuntu \>=16.10, Mint \>=18.3, elementary OS \>=0.4.1 ====
@@ -139,24 +139,24 @@ d'Ubuntu antérieure à 16.04.
     sudo apt update
     sudo apt install build-essential cmake curl git libcanberra-gtk3-dev libexiv2-dev libexpat-dev libfftw3-dev libglibmm-2.4-dev libgtk-3-dev libgtkmm-3.0-dev libiptcdata0-dev libjpeg-dev liblcms2-dev libpng-dev librsvg2-dev libsigc++-2.0-dev libtiff5-dev zlib1g-dev
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 #### Ubuntu 16.04 LTS
 
     sudo apt-get update
     sudo apt-get install build-essential cmake curl git libbz2-dev libcanberra-gtk3-dev libexiv2-dev libexpat-dev libfftw3-dev libglibmm-2.4-dev libgtk-3-dev libgtkmm-3.0-dev libiptcdata0-dev libjpeg8-dev liblcms2-dev liblensfun-dev libpng12-dev librsvg2-dev  libsigc++-2.0-dev libtiff5-dev zlib1g-dev
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 ### Fedora
 
 Les versions actuelles de Fedora fonctionnent correctement "au sortir de
-la boite". Reportez vous à l'article [GTK2](Linux_GTK2/fr.md) si
+la boite". Reportez vous à l'article [GTK2](linux_gtk2/fr) si
 vous compilez sur une version antérieure à 22.
 
     sudo dnf install cmake curl expat-devel fftw-devel gcc-c++ git exiv2-devel gtk3-devel gtkmm30-devel lcms2-devel lensfun-devel libatomic libcanberra-devel libiptcdata-devel libjpeg-turbo-devel libpng-devel librsvg2-devel libtiff-devel zlib-devel
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 ### Gentoo/Sabayon
 
@@ -166,14 +166,14 @@ prendre `sudo equo install sys-devel/gcc dev-vcs/git`.
 
     sudo emerge -uva dev-cpp/gtkmm:3.0 dev-libs/expat dev-util/cmake media-gfx/exiv2 media-libs/lcms media-libs/lensfun media-libs/libcanberra media-libs/libiptcdata media-libs/libjpeg-turbo media-libs/libpng gnome-base/librsvg media-libs/tiff net-misc/curl sci-libs/fftw sys-libs/zlib x11-libs/gtk+:3
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 ### openSUSE
 
 Les versions d'openSUSE supérieures à Leaf 15.0 et Tumbleweed devraient
 fonctionner sans aucune réserve. Des problèmes sérieux de compilation
 sont probables avec les versions antérieures. Reportez vous à l'article
-[GTK2](Linux_GTK2/fr.md) si vous compilez sur une version
+[GTK2](linux_gtk2/fr) si vous compilez sur une version
 antérieure à 42.1.
 
     sudo zypper cmake gcc gcc-c++ gtk3-devel gtkmm3-devel liblcms2-devel fftw3-devel libitpcdata-devel librsvg-devel libtiff-devel libjpeg-devel libcanberra-gtk3-devel
@@ -189,14 +189,14 @@ Ensuite, `lensfun` doit être installé manuellement:
     make
     sudo make install
 
-Procéder à la [compilation](#Compilation.md).
+Procéder à la [compilation](#compilation).
 
 ## Compilation
 
 Il existe deux écoles pour compiler RawTherapee : soit utiliser le
-script Bash [automatique](#La_méthode_automatique.md) qui
+script Bash [automatique](#la_méthode_automatique) qui
 compile RawTherapee à votre place (recommandé), ou faites le
-[manuellement](#La_méthode_manuelle.md).
+[manuellement](#la_méthode_manuelle).
 
 ### La méthode automatique
 
@@ -205,7 +205,7 @@ rapide, simple et sûre. Elle s'appuie sur un script Bash qui télécharge
 le dernier code source de RawTherapee et le compile de façon optimisée
 pour votre processeur. Les compilations sont prêtes à l'usage. Le script
 ne vérifie pas la disponibilité des dépendances, lisez donc bien le
-chapitre [Dépendances](Linux/fr#Dépendances.md) avant de lancer
+chapitre [Dépendances](linux/fr#dépendances) avant de lancer
 le script. Les compilations sont autonomes, c'est à dire que vous pouvez
 faire cohabiter plusieurs versions de RawTherapee en même temps,
 simplement en renommant les dossiers de compilation afin que la création
@@ -303,7 +303,7 @@ version 3.16 ou supérieure. Si votre système ne supporte pas cette
 version 3.16 ou plus récente, vous devez utiliser la publication
 `5.0-r1-gtk2`. Notre support de GTK2 a officiellement cessé le 02
 février 2017. Reportez vous à l'article archivé
-[GTK2](Linux_GTK2/fr.md) et mettez votre système à jour.
+[GTK2](linux_gtk2/fr) et mettez votre système à jour.
 
 La compilation d'anciennes versions de RawTherapee échouera sur un
 système moderne, car les vieilles dépendances seront manquantes.
@@ -584,7 +584,7 @@ code disponible, simplement faire ce qui suit :
     cd ~/programs/code-rawtherapee
     git pull
 
-Puis répéter l'étape [Make](#Make.md) ci-dessus.
+Puis répéter l'étape [Make](#make) ci-dessus.
 
 Pour la mise à jour, vous pouvez récupérer le dossier `build` de la fois
 précédente pour éviter d'avoir à recompiler des choses qui n'ont pas

@@ -8,7 +8,7 @@ Todo: übersetzen
 
 Angelegt, um die Seite zu referenzieren
 
-[fherb](User:Fherb.md) ([talk](User_talk:Fherb.md))
+[fherb](user:fherb) ([talk](user_talk:fherb))
 12.3.2017
 
 ------------------------------------------------------------------------
@@ -49,41 +49,41 @@ effect.
 White balance can be set in different ways: Camera, Auto, Custom, or a
 host of presets for different light sources.
 
-- [image:Wb-camera.png](image:Wb-camera.png.md) Camera
+- [image:Wb-camera.png](image:wb-camera.png) Camera
 
   
 Takes the white balance used by the camera. If you shoot only in raw (so
 no raw+JPG), put the white balance settings of your camera on Auto. This
 should generally give good results.
 
-- [image:Wb-auto.png](image:Wb-auto.png.md) Auto
+- [image:Wb-auto.png](image:wb-auto.png) Auto
 
   
 Automatically corrects the white balance, by assuming that the average
 color of the scene is neutral gray. Works well for a wide range of
 scenes, and can be a good starting point for manual adjustments.
 
-- [image:Wb-custom.png](image:Wb-custom.png.md) Custom
+- [image:Wb-custom.png](image:wb-custom.png) Custom
 
   
 Set your own color temperature and green tint by moving the two sliders
 and/or using the Spot WB tool.
 
 - Light source presets
-  - [image:Wb-sun.png](image:Wb-sun.png.md) Daylight (Sunny)
-  - [image:Wb-cloudy.png](image:Wb-cloudy.png.md) Cloudy
-  - [image:Wb-shade.png](image:Wb-shade.png.md) Shade
-  - [image:Wb-tungsten.png](image:Wb-tungsten.png.md) Tungsten
-  - [image:Wb-fluorescent.png](image:Wb-fluorescent.png.md)
+  - [image:Wb-sun.png](image:wb-sun.png) Daylight (Sunny)
+  - [image:Wb-cloudy.png](image:wb-cloudy.png) Cloudy
+  - [image:Wb-shade.png](image:wb-shade.png) Shade
+  - [image:Wb-tungsten.png](image:wb-tungsten.png) Tungsten
+  - [image:Wb-fluorescent.png](image:wb-fluorescent.png)
     Fluorescent
-  - [image:Wb-lamp.png](image:Wb-lamp.png.md) Lamp
-  - [image:Wb-led.png](image:Wb-led.png.md) LED
-  - [image:Wb-flash.png](image:Wb-flash.png.md) Flash
+  - [image:Wb-lamp.png](image:wb-lamp.png) Lamp
+  - [image:Wb-led.png](image:wb-led.png) LED
+  - [image:Wb-flash.png](image:wb-flash.png) Flash
 
 ### Spot WB
 
 When you click on the Spot WB button
-[image:Gtk-color-picker.png](image:Gtk-color-picker.png.md)
+[image:Gtk-color-picker.png](image:gtk-color-picker.png)
 (shortcut: **w**), the cursor changes into a pipette when it's over the
 preview. Click on a gray or neutral area to determine the correct white
 balance. The gray/neutral area may not be clipped, otherwise readings

@@ -27,7 +27,7 @@ Como estos fotodiodos no distinguen los colores, el sensor tiene una
 captar los tonos de la escena, de modo que cada fotodiodo capta sólo una
 longitud de onda concreta. El [*filtro
 Bayer*](#Filtro_de_Bayer.md) es el más común, aunque también
-existen otros filtros como el [*X-Trans*](#Filtro_X-Trans.md).
+existen otros filtros como el [*X-Trans*](#filtro_x-trans).
 **Estos dos son los únicos filtros de color revelados por RawTherapee**,
 mientras que el resto de filtros del mercado no son compatibles con el
 programa.
@@ -35,7 +35,7 @@ programa.
 Sin embargo, los datos que aporta el sensor sólo son una matriz con 3
 colores repartidos entre los píxeles, por lo que antes de poder ver la
 imagen los datos tienen que ser procesados mediante el
-[*Desentramado*](demosaicing/es.md).
+[*Desentramado*](demosaicing/es).
 
 ## Tecnología de los sensores
 
@@ -124,7 +124,7 @@ posteriormente se convierten a datos digitales, lo cual genera ruido.
 Por el contrario los CMOS realizan la conversión a nivel de fotodiodo,
 antes de realizar la transferencia, lo cual genera una cantidad menor de
 ruido. En ambos casos RawTherapee puede mitigarlo o eliminarlo gracias a
-la herramienta [*Imagen de Negro Base*](Dark-Frame/es.md).
+la herramienta [*Imagen de Negro Base*](dark-frame/es).
 
 Sin embargo, la cantidad de electrónica asociada a cada fotodiodo hace
 que los sensores CMOS tengan menos sensibilidad a la luz que los CCD: la
@@ -220,7 +220,7 @@ intercalados.
 Como resultado de este filtrado, la *«resolución cromática»* sufre
 bastante, ya que sólo hay información del canal rojo o del canal azul
 cada dos líneas. Sin embargo existen métodos de
-[*desentramado*](demosaicing/es.md) muy sofisticados que
+[*desentramado*](demosaicing/es) muy sofisticados que
 consiguen combinar los datos disponibles y regenerar en gran medida la
 escena original.
 

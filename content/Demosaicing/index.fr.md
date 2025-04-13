@@ -174,7 +174,7 @@ city1 fast.png\|Fast Image:Demosaicing city1 none.png\|None
 
 ## Comment trouver la meilleure méthode de dématriçage
 
-[thumb](image:demosaicing_city1_example_bad.jpg.md)
+[thumb](image:demosaicing_city1_example_bad.jpg)
 
 Zoomer à au moins 100% (1:1) et essayer tous les algorithmes de
 dématriçage, voir celui qui fonctionne le mieux. Les tester sur des

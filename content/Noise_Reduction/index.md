@@ -45,7 +45,7 @@ the bucket is empty, but if it rains too much then it overflows.
 
 Note that the idea of "pixel" does not exist at this point yet -
 information from several photosites will later be combined into one
-pixel during a process called [demosaicing](demosaicing.md).
+pixel during a process called [demosaicing](demosaicing).
 Also note that some sources do write "pixels" when they mean
 "photosites".
 
@@ -65,9 +65,9 @@ There are different tools for dealing with different types of noise:
   [Poisson](https://en.wikipedia.org/wiki/Shot_noise) noise) and film
   grain, and some sensor read noise.
 - Sensor read noise and thermal noise are best handled by the
-  [Dark-Frame](Dark-Frame.md) tool.
+  [Dark-Frame](dark-frame) tool.
 - Salt and pepper noise (sudden white or black pixels) is best handled
-  by the [Impulse Noise Reduction](Impulse_Noise_Reduction.md)
+  by the [Impulse Noise Reduction](impulse_noise_reduction)
   tool.
 - Hot and dead pixels are best dealt with using the [Hot/Dead Pixel
   Filter](Preprocessing#Hot.2FDead_Pixel_Filter.md).
@@ -134,7 +134,7 @@ This section details the order of operations for removing noise.
     any fine detail, because your noisy photo has no fine detail! If
     you're using [Contrast by Detail
     Levels](Contrast_by_Detail_Levels.md) or
-    [Wavelets](Wavelets.md), make sure that the first one or two
+    [Wavelets](wavelets), make sure that the first one or two
     fine-detail contrast sliders are at 0 to prevent these tools from
     amplifying noise.
 3.  Zoom into the photo to 100% or more and find an area that has both
@@ -156,7 +156,7 @@ This section details the order of operations for removing noise.
     process. Use the Median filter to remove them.
 9.  While it is generally not recommended to combine sharpening with
     noise reduction, RawTherapee-5.5 has a "contrast threshold" adjuster
-    in the [Sharpening](Sharpening.md) tool, thanks to which you
+    in the [Sharpening](sharpening) tool, thanks to which you
     can sharpen details while preserving the smoothness of uniform, flat
     areas.
 

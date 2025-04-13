@@ -101,13 +101,13 @@ funcions que us ajudaran a protegir les vostres fotos:
   informació d'aquests fitxers a l'article [Fitxers laterals - Perfils
   de processament](Sidecar_Files_-_Processing_Profiles/ca.md)
 - Quan utilitzeu l'Editor d'imatges veureu el quadre
-  [Historial](The_Image_Editor_Tab/ca#Historial.md) a
+  [Historial](the_image_editor_tab/ca#historial) a
   l'esquerra. Aquest quadre us mostra una pila de tots els canvis que
   heu anat fent a la imatge. Per tornar enrere a qualsevol pas (incloent
   el moment en què s'ha obert la imatge per primera vegada), feu clic a
   la línia en qüestió del quadre d'Historial.
 - A sota el quadre d'Historial veureu un quadre
-  d'[Instantànies](The_Image_Editor_Tab/ca#Instantànies.md).
+  d'[Instantànies](the_image_editor_tab/ca#instantànies).
   Podeu ignorar-lo per ara, però el trobareu molt útil quan aneu
   adquirint experiència amb el RawTherapee. Aquest quadre desa l'estat
   de totes les eines com una «instantània». Això us permet, d'una forma
@@ -126,7 +126,7 @@ funcions que us ajudaran a protegir les vostres fotos:
 
 1.  Comenceu fent clic a la
     ![<File:Colour.png>](Colour.png "File:Colour.png") Pestanya Color i
-    amplieu l'eina [Balanç de blancs](White_Balance/ca.md)
+    amplieu l'eina [Balanç de blancs](white_balance/ca)
     fent-hi clic amb el botó dret. El RawTherapee comença amb el balanç
     de blancs utilitzat per la vostra càmera. La major part dels ajustos
     de balanç de blancs es fan movent els controls de Temperatura i
@@ -136,7 +136,7 @@ funcions que us ajudaran a protegir les vostres fotos:
     neutre). Toqueu-los per provar.
 2.  Després, modifiqueu l'exposició anant a la
     ![<File:Exposure.png>](Exposure.png "File:Exposure.png") Pestanya
-    Exposició, ampliant l'eina [Exposició](Exposure/ca.md) i
+    Exposició, ampliant l'eina [Exposició](exposure/ca) i
     ajustant-la al vostre gust. Per ara, utilitzeu només els controls de
     Compensació d'exposició i Saturació.
 3.  Si la vostra imatge té soroll, canvieu a la
@@ -146,10 +146,10 @@ funcions que us ajudaran a protegir les vostres fotos:
     o la drecera de teclat «z», perquè els efectes de les eines
     d'aquesta pestanya només es veuen en una previsualització ampliada
     al 100% (i evidentment en la imatge desada), i activeu l'eina
-    [Reducció de soroll](Noise_Reduction/ca.md) utilitzant, per
+    [Reducció de soroll](noise_reduction/ca) utilitzant, per
     ara, els paràmetres per defecte. El RawTherapee ha eliminat
     automàticament el soroll de color (crominància). El soroll de
-    luminància s'elimina [manualment](Noise_Reduction/ca#Ús.md),
+    luminància s'elimina [manualment](noise_reduction/ca#ús),
     així que de moment deixeu-lo, ja que el soroll de luminància
     normalment ofereix un aspecte granulat, com de pel·lícula, força
     agradable. Com a norma general, quan utilitzeu la reducció de soroll
@@ -158,7 +158,7 @@ funcions que us ajudaran a protegir les vostres fotos:
     ![<File:Gtk-zoom-fit.png>](Gtk-zoom-fit.png "File:Gtk-zoom-fit.png")
     o la drecera de teclat «f».
 4.  Ara heu decidit que voleu arreglar la
-    [geometria](Lent/Geometria.md) i composició de la vostra
+    [geometria](lent/geometria) i composició de la vostra
     foto.
     - Primer anivelleu l'horitzó, o corregiu les coses que haurien de
       ser verticals, com fanals o parets d'edificis. Per fer-ho
@@ -173,16 +173,16 @@ funcions que us ajudaran a protegir les vostres fotos:
     - Per escapçar la foto, premeu la drecera de teclat «c» (o utilitzeu
       el botó ![<File:Crop.png>](Crop.png "File:Crop.png")) i feu clic i
       arrossegueu la zona que voleu escapçar sobre la previsualització;
-      veureu que l'eina [Escapçat](Crop/ca.md) s'activa
+      veureu que l'eina [Escapçat](crop/ca) s'activa
       automàticament. No és necessari «aplicar» un escapçat; té efecte
       tan bon punt el dibuixeu. Potser voleu establir el «Tipus de guia»
       d'escapçat a «cap» si és un problema.
     - Finalment, voleu reduir la mida de la foto, perquè qui vol
       carregar un fitxer JPEG de 10Mb a les xarxes socials? Activeu
-      l'eina [Redimensiona](Resize/ca.md) i deixeu-la en els
+      l'eina [Redimensiona](resize/ca) i deixeu-la en els
       paràmetres per defecte. Veureu que l'efecte de redimensionar només
       s'aplica a la imatge desada, no a la previsualització.
-    - Ja esteu, anem a [desar-la](Saving/ca.md) de seguida. Feu
+    - Ja esteu, anem a [desar-la](saving/ca) de seguida. Feu
       clic al botó
       ![<File:Gtk-save-large.png>](Gtk-save-large.png "File:Gtk-save-large.png")
       Desa la imatge actual, o utilitzeu la drecera de teclat Ctrl+s.
@@ -246,36 +246,36 @@ d'operacions:
     pla](Flat_Field/ca.md) i/o [Marc
     fosc](Dark_Frame.md), feu-ho ara, per evitar haver de tornar
     a ajustar paràmetres.
-3.  Ara establiu el [Balanç de blancs](White_Balance/ca.md)
+3.  Ara establiu el [Balanç de blancs](white_balance/ca)
     correcte. Podeu ajustar l'exposició abans si la imatge és massa
     fosca (o massa brillant) per veure els canvis en el balanç de
     blancs.
-4.  A continuació, ajusteu l'[Exposició](Exposure/ca.md),
+4.  A continuació, ajusteu l'[Exposició](exposure/ca),
     utilitzant els controls de Compensació d'exposició i de Negre per
     aconseguir que la imatge tingui l'aproximació correcta. Un cop la
     tingui, continueu amb les dues corbes de to. Assegureu-vos de llegir
-    la secció [Corbes de to](Exposure/ca#Corbes_de_to.md) a
+    la secció [Corbes de to](exposure/ca#corbes_de_to) a
     l'article d'Exposició per aprendre perquè n'hi ha dues i quina és la
     millor manera d'utilitzar-les; són una eina molt útil!
 5.  A la secció Aspectes bàsics d'aquí sobre us hem suggerit que
     utilitzeu el control de
-    [Saturació](Exposure/ca#Saturació.md) (a l'eina
+    [Saturació](exposure/ca#saturació) (a l'eina
     d'Exposició). Ara que ja heu après els aspectes bàsics i esteu
     explorant tècniques més avançades, us suggerim que ja no utilitzeu
     més el control de Saturació, i que en el seu lloc utilitzeu la
-    [Corba CC](Lab_Adjustments/ca#Corba_CC.md) de l'eina
-    [Ajustaments Lab](Lab_Adjustments/ca.md), molt més potent i
+    [Corba CC](lab_adjustments/ca#corba_cc) de l'eina
+    [Ajustaments Lab](lab_adjustments/ca), molt més potent i
     que us ofereix un control més fi.
 6.  L'ordre del que queda no és clar. Algunes eines influenciaran
     inevitablement a les altres. Seguiu amb l'eina [Ajustaments
     Lab](Lab_Adjustments/ca.md) i després la resta de les eines
     de la Pestanya Exposició.
-7.  Després utilitzeu l'eina [Wavelet](Wavelet.md) a la
+7.  Després utilitzeu l'eina [Wavelet](wavelet) a la
     ![<File:wavelet.png>](wavelet.png "File:wavelet.png") Pestanya
     Wavelet.
 8.  A continuació utilitzeu les eines de la
     ![<File:Colour.png>](Colour.png "File:Colour.png") Pestanya Color.
-    L'eina de [Coloració](Color_Toning.md) específicament és
+    L'eina de [Coloració](color_toning) específicament és
     molt sensible als canvis d'exposició, millor que la deixeu pel
     final.
 9.  Després amplieu al 100% i utilitzeu les eines a la
@@ -294,7 +294,7 @@ d'operacions:
     el RawTherapee fa el seu processament amb la imatge a mida completa,
     que és més lent però d'alta qualitat.
 11. Deseu, ja sigui directament quan vulgueu desar només una foto, o a
-    través de la [Cua de lots](The_Batch_Queue/ca.md) quan
+    través de la [Cua de lots](the_batch_queue/ca) quan
     vulgueu processar moltes fotos.
 
 Podeu editar les metadades a la

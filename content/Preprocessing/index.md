@@ -146,7 +146,7 @@ or not - if a photosite is dead, every photo will have the dead pixel in
 the same spot. Because their position is static and always present when
 using the same camera body, you can fix them not only using the
 automatic "Dead pixel filter" but also by adding their coordinates to a
-*.badpixels* file; see [Bad Pixels](Dark_Frame#Bad_Pixels.md).
+*.badpixels* file; see [Bad Pixels](dark_frame#bad_pixels).
 
 <img src="/images/Rt-43_hotdead2_artifacts.jpg"
 title="Rt-43_hotdead2_artifacts.jpg" width="900"

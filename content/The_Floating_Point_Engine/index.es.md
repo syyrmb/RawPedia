@@ -58,7 +58,7 @@ sistema de 32-bits, a continuación tienes algunos consejos:
 - cierra todos los programas cuando trabajes con RawTherapee
 - utiliza el *[Editor de Pestaña
   Única](Preferencias#Distribución.md)*
-- desactiva el inicio automático en la *[Cola](Queue/es.md)*,
+- desactiva el inicio automático en la *[Cola](queue/es)*,
   añade las fotos a la cola como de costumbre y cuando estés listo para
   empezar a procesarlas, reinicia RawTherapee para liberar memoria (no
   habrá ninguna imagen abierta en el Editor). Entonces arranca el

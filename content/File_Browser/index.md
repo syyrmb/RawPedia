@@ -45,7 +45,7 @@ You can hide the individual panels using the "Show/Hide the left panel
 ![<File:Panel-to-left.png>](Panel-to-left.png "File:Panel-to-left.png")"
 and "Show/Hide the right panel
 ![<File:Panel-to-right.png>](Panel-to-right.png "File:Panel-to-right.png")"
-buttons - see the [Keyboard Shortcuts](Keyboard_Shortcuts.md)
+buttons - see the [Keyboard Shortcuts](keyboard_shortcuts)
 page.
 
 When you open a folder, RawTherapee will generate thumbnails of the
@@ -81,7 +81,7 @@ File Browser \> Maximal Thumbnail Height*").
 
 You can filter the visible photos by using the buttons in the *File
 Browser's* or
-*[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md)'s* top
+*[Filmstrip](the_image_editor_tab#the_filmstrip)'s* top
 toolbar, as well as by using the "*Find*" box or the "*Filter*" tab.
 Possible uses:
 

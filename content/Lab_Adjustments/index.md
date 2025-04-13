@@ -50,7 +50,7 @@ by using the dedicated and powerful *Black-and-White* tool in the
 ## B&W Toning
 
 The "*B&W toning*" checkbox is deprecated from version 4.0.12 and is
-replaced by the *[Black-and-White](Black-and-White.md)* tool
+replaced by the *[Black-and-White](black-and-white)* tool
 located in the *Color* tab. For backwards compatibility, when opening
 processing profiles where "*B&W toning*" was used, the *Chromaticity*
 slider will get automatically set to -100, providing the same effect.
@@ -104,7 +104,7 @@ yellow. This can be used to apply color toning effects.
 
 Color-toning a black-and-white image can be done using one of two
 methods: the recommended and most intuitive method is by using the
-[Color Toning](Color_Toning#Black_and_White.md) tool along with
+[Color Toning](color_toning#black_and_white) tool along with
 the Black-and-White tool. The other, less powerful method is using the
 a\* and b\* curves of the L\*a\*b\* Adjustments tool once the image is
 desaturated. The reason we still describe how to do it without using the
@@ -114,7 +114,7 @@ older version which lacks these tools, or you're just curious what your
 options are.
 
 Read about color-toning a black-and-white image the recommended way on
-the [Color Toning](Color_Toning#Black_and_White.md) tool's page;
+the [Color Toning](color_toning#black_and_white) tool's page;
 this section describes how to do it by using the a\* and b\* curves.
 
 First you need to make the image black-and-white. Do this using any of
@@ -131,7 +131,7 @@ partial-paste it either by right-clicking on a photo in the *File
 Browser* and selecting "*Processing Profile Operations \> Paste -
 partial*", or from the *Image Editor* tab by Ctrl+clicking on "*Paste
 profile from clipboard*"
-[image:Gtk-paste.png](image:Gtk-paste.png.md) to paste only the
+[image:Gtk-paste.png](image:gtk-paste.png) to paste only the
 *L\*a\*b\* Adjustments* section of the profile. Note that other
 adjustments in the *L\*a\*b\* Adjustments* sections will be pasted as
 well. Alternatively, the a\* and b\* curves can be copied and pasted

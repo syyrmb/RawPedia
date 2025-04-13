@@ -23,9 +23,9 @@ Both ways involve making a selection of photos you want the processing
 profile or adjustments applied to. Selections are made using standard
 key combinations: Shift+click to select a range, Ctrl+click to select
 individual images, or Ctrl+A to select everything. Both ways are
-performed from the [File Browser](The_File_Browser_Tab.md) tab.
+performed from the [File Browser](the_file_browser_tab) tab.
 The "copy & paste" method can also be done via the
-[Filmstrip](The_Image_Editor_Tab#The_Filmstrip.md).
+[Filmstrip](the_image_editor_tab#the_filmstrip).
 
 <noinclude>== Copy & Paste ==</noinclude> <includeonly>=== Copy & Paste
 ===</includeonly> Copying and pasting a processing profile to a
@@ -39,7 +39,7 @@ noise reduction, the same sharpening and lens distortion correction, and
 so forth.
 
 To process the lot, what you would usually do is open any one image from
-the whole series in the [Editor](The_Image_Editor_Tab.md) tab
+the whole series in the [Editor](the_image_editor_tab) tab
 and tweak it to your liking. Once you have finished tweaking it, you
 will apply this image's processing profile to all other images in the
 same series. To do that, go to the [File

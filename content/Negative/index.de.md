@@ -36,10 +36,10 @@ Auf Grund der noch nicht übersetzen Seite "Filmsimulation", auf die hier
 immer wieder verwiesen wird, übersetze ich den folgen Abschnit noch
 nicht:
 
-1.  Invert a diagonal [tone curve](Exposure#Tone_Curves.md)
+1.  Invert a diagonal [tone curve](exposure#tone_curves)
     either in the Exposure tool, or all of the curves in the [RGB
     Curves](RGB_Curves.md) tool. In the Color Management tool
-    select "[No profile](Color_Management#No_Profile.md)" as the
+    select "[No profile](color_management#no_profile)" as the
     input profile. The downside is that there are tonal shifts when
     doing this.
 2.  Use a negative Hald CLUT via the [Film

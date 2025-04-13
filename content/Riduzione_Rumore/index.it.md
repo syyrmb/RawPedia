@@ -4,4 +4,4 @@ contributors:
   - Andrea.romagnoli
 ---
 
-1.  REDIRECT [Noise Reduction/it](Noise_Reduction/it.md)
+1.  REDIRECT [Noise Reduction/it](noise_reduction/it)

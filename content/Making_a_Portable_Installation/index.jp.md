@@ -29,7 +29,7 @@ contributors:
 
 　仮に解凍されたZipファイルが`E:\RawTherapee`にあるとしましょう。この場合の`E:\`はUSBフラッシュメモリーのドライブのことを指しています。ここで、`E:\RawTherapee\options`のファイルを開き、`MultiUser`オプションを無効にします。これでRawTherapeeを使えば、cacheと貴方の設定は、実行プログラムに関連するサブフォルダーに保存されます。名前はcache、設定の順に、`mychache`、`mysettings`、つまり`E：￥RawTherapee\mycache`、`E:\RawTherapee\mysettings`です。
 
-　これら2つのフォルダーを別々な場所に保存する場合は、[ファイルパスの](File_Paths/jp.md)項を参照して下さい。
+　これら2つのフォルダーを別々な場所に保存する場合は、[ファイルパスの](file_paths/jp)項を参照して下さい。
 　RawTherapeeを更新する際は、新しいバージョンを別なフォルダーに入れて、`mychache`と`mysettings`をそこに移動することを奨めます。
 
 ## Linuxの場合
@@ -45,4 +45,4 @@ AppImageはどのLinuxバージョンでもRawTherapeeが動作するために�
 
 　AppImageバージョン、安定バージョンのどちらを使用するにしても、RawTherapeeのコンフィギュレーションと処理プロファイルは保持したいところです。
 
-　コンフィギュレーションのバックアップを取っておくため、RawTherapeeの“config”フォルダーから　USBにコピーして下さい。具体的に言えば、“options”ファイルと、貴方が作成した“camconst.json”、PP3、ICC、DCP、LCPなどのカスタムプロファイルです。[ファイルパスの](File_Paths/jp.md)項目に、これらファイルの探し方が説明されています。
+　コンフィギュレーションのバックアップを取っておくため、RawTherapeeの“config”フォルダーから　USBにコピーして下さい。具体的に言えば、“options”ファイルと、貴方が作成した“camconst.json”、PP3、ICC、DCP、LCPなどのカスタムプロファイルです。[ファイルパスの](file_paths/jp)項目に、これらファイルの探し方が説明されています。

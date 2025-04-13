@@ -87,9 +87,9 @@ environnements d'affichage.
 
 ### Variables - données et vocabulaire utilisées par CIECAM
 
-[Variables - données](CIECAM02/fr#Donn.C3.A9es.md)
+[Variables - données](ciecam02/fr#donn.c3.a9es)
 
-[Définitions](CIECAM02/fr#Quelques_d.C3.A9finitions.md)
+[Définitions](ciecam02/fr#quelques_d.c3.a9finitions)
 
 ### Ciecam02 est articulé autour de 3 processus
 
@@ -654,7 +654,7 @@ pertinence de "Jzazbz" pour remplacer L\*a\*b\*
 ##### Log encoding Jz
 
 Permet - comme son homologue en mode RGB incorporé au module Local
-Adjustments [Log encoding](CIECAM02/fr#Log_encoding.md) - de
+Adjustments [Log encoding](ciecam02/fr#log_encoding) - de
 modifier l'équilibre des valeurs "Jz", réduisant de fait les contrastes,
 en rehaussant les ombres et réduisant les hautes lumières, sans trop
 dénaturer le rendu de l'image. Au lieu de se servir de la luminance RGB
@@ -885,7 +885,7 @@ balance des blancs ». J'ai également travaillé sur la notion de « CRI
 -Color rendering Index » qui traduit l'écart d'un illuminant par rapport
 aux illuminants de base...plus le CRI est bas, plus le rendu sera
 mauvais à température de couleur
-identique[Color_Management/fr](Color_Management/fr.md)
+identique[Color_Management/fr](color_management/fr)
 
 Le patch s'appuyant sur CIECAM02, contient les éléments nécessaires de
 base pour travailler ces 2 points, mais il manque un élément essentiel,
