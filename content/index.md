@@ -21,8 +21,7 @@ title="08_rt57_mushroom_blades_rawpedia.png" width="600" />
 
 Welcome to **RawTherapee's** documentation!
 
-If you're a new user, don't miss the [Getting
-Started](Getting_Started.md) page to quickly learn your way
+If you're a new user, don't miss the [Getting Started](getting_started) page to quickly learn your way
 around this awesome raw image processing program.
 
 If you're an experienced user, here you have an index of all the topics
@@ -46,7 +45,7 @@ height="60" />
 </tbody>
 </table>
 
-  
+
 
 ## RawTherapee
 
@@ -68,16 +67,13 @@ height="60" />
 - [The Editor](editor)
 - [Batch Adjustments - Sync](batch_adjustments_-_sync)
 - [Saving Images](saving_images)
-- [Edit Current Image in External
-  Editor](Edit_Current_Image_in_External_Editor.md)
-- [Adding Support for New Raw
-  Formats](Adding_Support_for_New_Raw_Formats.md)
+- [Edit Current Image in External Editor](edit_current_image_in_external_editor)
+- [Adding Support for New Raw Formats](adding_support_for_new_raw_formats)
 - [File Paths](file_paths)
 - [Preferences](preferences)
 - [GIMP Plugin](gimp_plugin)
 - [ICC Profile Creator](icc_profile_creator)
-- [Making a Portable
-  Installation](Making_a_Portable_Installation.md)
+- [Making a Portable Installation](making_a_portable_installation)
 - [Command-Line Options](command-line_options)
 - [Keyboard Shortcuts](keyboard_shortcuts)
 - [Toolchain pipeline - Colorimetry](toolchain_pipeline)
@@ -90,10 +86,8 @@ height="60" />
 <div class="RP3columns">
 <div class="keeptogether">
 
-- [Sidecar Files - Processing
-  Profiles](Sidecar_Files_-_Processing_Profiles.md)
-- [Creating processing profiles for general
-  use](Creating_processing_profiles_for_general_use.md)
+- [Sidecar Files - Processing Profiles](sidecar_files_-_processing_profiles)
+- [Creating processing profiles for general use](creating_processing_profiles_for_general_use)
 - [Dynamic processing profiles](dynamic_processing_profiles)
 
 </div>
@@ -123,8 +117,7 @@ height="60" />
 
 <div class="RP1columns">
 
-- [General Comments About Some Toolbox
-  Widgets](General_Comments_About_Some_Toolbox_Widgets.md)
+- [General Comments About Some Toolbox Widgets](general_comments_about_some_toolbox_widgets)
 - [Favorites Tab](favorites_tab)
 
 </div>
@@ -205,13 +198,11 @@ height="60" />
 
 #### Raw Tab
 
-- [Sensor with Bayer/X-Trans
-  Matrix](Sensor_with_Bayer/X-Trans_Matrix.md)
+- [Sensor with Bayer/X-Trans Matrix](sensor_with_bayer/x-trans_matrix)
 - [Demosaicing](demosaicing)
 - [Raw Black Points](raw_black_points)
 - [Preprocessing](preprocessing)
-- [Chromatic Aberration
-  Correction](Chromatic_Aberration_Correction.md)
+- [Chromatic Aberration Correction](chromatic_aberration_correction)
 - [Raw White Points](raw_white_points)
 - [Preprocessing White Balance](preprocessing_white_balance)
 - [Dark-Frame](dark-frame)
@@ -241,8 +232,7 @@ height="60" />
 
 ### Tutorials
 
-- [Rawtherapee Processing Challenge
-  feedback](Rawtherapee_Processing_Challenge_feedback.md)
+- [Rawtherapee Processing Challenge feedback](rawtherapee_processing_challenge_feedback)
 
 </div>
 <div class="keeptogether">
@@ -261,10 +251,8 @@ height="60" />
 
 <div class="RP1columns">
 
-- [How to write useful bug
-  reports](How_to_write_useful_bug_reports.md)
-- [How to fix crashes on
-  startup](How_to_fix_crashes_on_startup.md)
+- [How to write useful bug reports](how_to_write_useful_bug_reports)
+- [How to fix crashes on startup](how_to_fix_crashes_on_startup)
 - [Wayland](wayland)
 
 </div>
@@ -294,20 +282,14 @@ height="60" />
 <div class="container">
 <div class="RP1columns">
 
-- [How to convert raw formats to
-  DNG](How_to_convert_raw_formats_to_DNG.md)
-- [How to create DCP color
-  profiles](How_to_create_DCP_color_profiles.md)
+- [How to convert raw formats to DNG](how_to_convert_raw_formats_to_dng)
+- [How to create DCP color profiles](how_to_create_dcp_color_profiles)
 - [How to create LCP profiles](how_to_create_lcp_profiles)
-- [How to get LCP and DCP
-  profiles](How_to_get_LCP_and_DCP_profiles.md)
-- [How to extract and examine ICC
-  profiles](How_to_extract_and_examine_ICC_profiles.md)
-- [How to get Nikon ICM
-  profiles](How_to_get_Nikon_ICM_profiles.md)
+- [How to get LCP and DCP profiles](how_to_get_lcp_and_dcp_profiles)
+- [How to extract and examine ICC profiles](how_to_extract_and_examine_icc_profiles)
+- [How to get Nikon ICM profiles](how_to_get_nikon_icm_profiles)
 - [Watermarking](watermarking)
-- [Image file formats and
-  compression](Image_file_formats_and_compression.md)
+- [Image file formats and compression](image_file_formats_and_compression)
 
 </div>
 </div>
