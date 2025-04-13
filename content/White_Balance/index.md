@@ -50,13 +50,11 @@ tint, typically warmer (orange) or colder (blue). Some people use this
 for creative effect, however there are various tools and operations
 which rely on the assumption that the white balance of the image is
 correct (for example highlight recovery in the
-[Exposure](exposure) tool, skin targeting in the [Contrast by
-Detail Levels](Contrast_by_Detail_Levels.md) tool, sky targeting
+[Exposure](exposure) tool, skin targeting in the [Contrast by Detail Levels](contrast_by_detail_levels) tool, sky targeting
 in the [Wavelets](wavelets) tool, the
 [CIECAM02](ciecam02) tool), so you should not misuse the
 white balance tool to create a color cast for artistic effect but rather
-use it to ensure that neutral areas remain neutral, and then use [Color
-Toning](Color_Toning.md) or any of the other tools to render a
+use it to ensure that neutral areas remain neutral, and then use [Color Toning](color_toning) or any of the other tools to render a
 creative color tint.
 
 The white balance tool can be turned on/off. When off, the multipliers
@@ -67,20 +65,20 @@ for diagnostic purposes or when working with UniWB images.
 
 ### Method
 
-- [image:Wb-camera.png](image:wb-camera.png) Camera
-    
+- [/images/Wb-camera.png](/images/wb-camera.png) Camera
+
   Takes the white balance used by the camera. If you shoot only in raw
   (so no raw+JPG), put the white balance settings of your camera on
   auto. This should generally give good results.
-- [image:Wb-auto.png](image:wb-auto.png) Automatic
+- [/images/Wb-auto.png](/images/wb-auto.png) Automatic
   - RGB grey
-      
+
     Automatically corrects the white balance, by assuming that the
     average color of the scene is neutral gray. Works well for a wide
     range of scenes, and can be a good starting point for manual
     adjustments.
   - Temperature correlation
-      
+
     Provides a generally better color balance than auto “RGB grey". The
     algorithm is based on the best correlation (Student's test) between
     the colors of the image and an array of 200 spectral reference
@@ -105,23 +103,23 @@ for diagnostic purposes or when working with UniWB images.
       tint and correlation.
     - A description of the Itcwb algorithim can be found here
       [algorithm](white_balance#the_temperature_correlation_algorithm)
-- [image:Wb-custom.png](image:wb-custom.png) Custom
+- [/images/Wb-custom.png](/images/wb-custom.png) Custom
 
-  
+
 Set your own color temperature and green tint by moving the two sliders
 and/or using the Spot WB tool.
 
 - Light source presets
-  - [image:Wb-sun.png](image:wb-sun.png) Daylight (Sunny)
-  - [image:Wb-cloudy.png](image:wb-cloudy.png) Cloudy
-  - [image:Wb-shade.png](image:wb-shade.png) Shade
-  - [image:Wb-water.png](image:wb-water.png) Underwater
-  - [image:Wb-tungsten.png](image:wb-tungsten.png) Tungsten
-  - [image:Wb-fluorescent.png](image:wb-fluorescent.png)
+  - [/images/Wb-sun.png](/images/wb-sun.png) Daylight (Sunny)
+  - [/images/Wb-cloudy.png](/images/wb-cloudy.png) Cloudy
+  - [/images/Wb-shade.png](/images/wb-shade.png) Shade
+  - [/images/Wb-water.png](/images/wb-water.png) Underwater
+  - [/images/Wb-tungsten.png](/images/wb-tungsten.png) Tungsten
+  - [/images/Wb-fluorescent.png](/images/wb-fluorescent.png)
     Fluorescent
-  - [image:Wb-lamp.png](image:wb-lamp.png) Lamp
-  - [image:Wb-led.png](image:wb-led.png) LED
-  - [image:Wb-flash.png](image:wb-flash.png) Flash
+  - [/images/Wb-lamp.png](/images/wb-lamp.png) Lamp
+  - [/images/Wb-led.png](/images/wb-led.png) LED
+  - [/images/Wb-flash.png](/images/wb-flash.png) Flash
 
 ### Pick
 
@@ -138,7 +136,7 @@ title="White_balance_1_after.png" />
 </figure>
 
 When you click on the Pick button
-![<File:Color-picker.png>](Color-picker.png "File:Color-picker.png")
+![<File:Color-picker.png>](/images/Color-picker.png "File:Color-picker.png")
 (shortcut: **w**), the cursor changes into a pipette when it's over the
 preview. Click on a neutral area to set the correct white balance for
 the whole image based on the clicked area.
@@ -694,10 +692,9 @@ rendering. You can, if you wish, change the Ciecam settings like
 I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
 (and cannot) do, associated or not with Color Appearance & Lighting.
 
-- [Salt mountain in
-  Turkey](https://drive.google.com/file/d/1azCxu1midw6dcuN7SbvbAiJH4pxX5BTA/view?usp=sharing)
+- [Salt mountain in Turkey](https://drive.google.com/file/d/1azCxu1midw6dcuN7SbvbAiJH4pxX5BTA/view?usp=sharing)
   (`_ASC4145.NEF` CC BY-SA 4.0 Jacques Desmis)
-    
+
   This image that seems harmless is complex in terms of photography, for
   several reasons:
 
@@ -711,7 +708,7 @@ I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
 - [Lunching
   Room](https://drive.google.com/file/d/1MMNzw3tPQuMeD5baqDlBXRvl4lDy2mLX/view?usp=sharing)
   (`LunchingRoom.CR2` CC BY-SA 4.0 Rawtherapee)
-    
+
   This image shows that the algorithm can handle complex situations.
 
   - By default with White Balance set to "Camera" the image is green.
@@ -720,7 +717,7 @@ I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
 - [London
   Bridge](https://drive.google.com/file/d/1CiQ2t4KyD3tdCiNNhskqUG2cH9LT2ly7/view?usp=sharing)
   (`london_bridge_moving_1.pef` CC BY-SA 4.0 Maciej Dworak)
-    
+
   This image shows both the need for chromatic adaptation and the
   relevance of the Itcwb algorithm.
 

@@ -32,8 +32,7 @@ is considerably improved with Ciecam16.
 The Color Appearance module (Cam16 & JzCzHz) combines a real CAM (Cam16)
 and JzCzHz which is not a real CAM, but has some of its characteristics.
 
-[HDR to SDR: A First Approach (Log Encoding - CAM16 - JzCzHz -
-Sigmoid)](Local_Adjustments#HDR_to_SDR:_A_First_Approach_.28Log_Encoding_-_CAM16_-_JzCzHz_-_Sigmoid.29.md)
+[HDR to SDR: A First Approach (Log Encoding - CAM16 - JzCzHz - Sigmoid)](local_adjustments#hdr_to_sdr:_a_first_approach_.28log_encoding_-_cam16_-_jzczhz_-_sigmoid.29)
 
 ### Definition of a color appearance model (CAM)
 
@@ -123,8 +122,7 @@ Adjustments tab
   - Advanced: adds additional Cam16 tools and variables and a JzCzHz
     module.
 
-[HDR to SDR: A First Approach (Log Encoding - CAM16 - JzCzHz -
-Sigmoid)](Local_Adjustments#HDR_to_SDR:_A_First_Approach_.28Log_Encoding_-_CAM16_-_JzCzHz_-_Sigmoid.29.md)
+[HDR to SDR: A First Approach (Log Encoding - CAM16 - JzCzHz - Sigmoid)](local_adjustments#hdr_to_sdr:_a_first_approach_.28log_encoding_-_cam16_-_jzczhz_-_sigmoid.29)
 
 ### Some examples of CIECAM02/16
 
@@ -296,8 +294,7 @@ Note1: PQ =  Perceptual Quantizer
 
 ## Jzazbz - a new experimental CAM? (Cam16 & JzCzHz)
 
-See the possible use in Local Adjustments: [An experimental JzCzHz
-module](Local_Adjustments#An_experimental_JzCzHz_module.md)
+See the possible use in Local Adjustments: [An experimental JzCzHz module](local_adjustments#an_experimental_jzczhz_module)
 
 ### General
 
@@ -878,11 +875,11 @@ complexity choice
 ### Some definitions
 
 1.  Brightness \[brilliance\] (CIECAM02/16 & JzCzHz) :
-      
+
     The amount of perceived light from a stimulus = indicator that a
     stimulus appears as more or less bright, light.
 2.  Lightness \[luminance\] (Lab, CIECAM02/16) :
-      
+
     The clarity of a stimulus relative to the brightness of a stimulus
     that appears white under similar viewing conditions.
 
@@ -890,22 +887,22 @@ complexity choice
     will need to make a patch to rename “brightness” to “lightness” in
     the “exposure”, “Lab adjustments”, etc... modules.
 3.  Hue and hue angle (partly in Lab, CIECAM02/16) :
-      
+
     The degree to which a stimulus can be described as similar to a
     color described as red, green, blue and yellow.
 4.  Colorfulness (CIECAM02/16) :
-      
+
     The perceived amount of color relative to gray = indicator that a
     stimulus appears to be more or less colored.
 5.  Chroma (Lab, CIECAM02/16 & JzCzHz) :
-      
+
     The “coloration” of a stimulus relative to the brightness of a
     stimulus that appears white under identical conditions.
 6.  Saturation (CIECAM02/16 & JzCzHz) :
-      
+
     Coloration of a stimulus relative to its own brightness.
 7.  PQ (Cam16 & JzCzHz) :Perceptual quantizer.
-      
+
     A sort of variable gamma that is applied to the conversion matrices.
     It takes into account the characteristics of the image (Source) and
     the type of output (HDR or SDR monitor) to adjust the observed
@@ -917,8 +914,8 @@ To summarize :
 2.  Saturation= (Colorfulness) / (Brightness)
 3.  Lightness= (Brightness) / (Brightness of White)
 4.  Saturation= (Chroma) / (Lightness)
-      
-      
+
+
     = \[(Colorfulness) / (Brightness of White)\] x \[(Brightness of
     White) / (Brightness)\]
 
@@ -945,8 +942,8 @@ ac, bc : close to a and b (Lab)
 Why the saturation in addition to other close variables? Here is a quote
 from a text by Robert Hunt (2001) :
 
-  
-  
+
+
 *“Of the three basic color perceptions, hue, brightness and
 colorfulness, hue has no relative version, but brightness has lightness,
 and colorfulness has chroma and saturation. Correlates of chroma are
@@ -1008,7 +1005,7 @@ I completed this process by :
     “exposure” ;
 2.  a choice for color curves between chroma, saturation and color level
     (colorfulness).
-      
+
     We could add other algorithms based on the Fourier transform, or
     replacing equivalent functions of RT...
 
@@ -1102,8 +1099,8 @@ before the RGB conversion and the sends to the output device, so we can
 assume that the user has used various tools of RT to make the image have
 an "average" histogram
 
-  
-  
+
+
 So I arbitrarily made Yb inaccessible by calculating it from the average
 luminance of the image. Of course, if in the future RT integrates
 pipettes to separate the image areas (dark, normal, bright...) then it
@@ -1142,7 +1139,7 @@ Appearance Model 2002” tool
 
 - **Surround**(also in JzCzHz: Scene Conditions)
 
-  
+
 Again, I have made simplifications...
 
 - for process \#1, this data reflects some shooting conditions, such as
@@ -1231,7 +1228,7 @@ the brightness of the room.
 
 - **“Js” algorithm**
 
-  
+
 It is similar to JC, but :
 
 - - the chroma is replaced by the saturation (CIECAM). But for which
