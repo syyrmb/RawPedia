@@ -1,6 +1,7 @@
 baseURL = 'https://rawpedia.rawtherapee.com/'
 languageCode = 'en-us'
 title = 'RawPedia'
+theme = ['hugo-bootstrap-bare']
 [markup]
   [markup.highlight]
     style =  'algol_nu'
