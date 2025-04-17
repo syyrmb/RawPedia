@@ -23,8 +23,7 @@ The ICC Profile Creator allows you to generate your own ICC profiles.
 You can use standard presets as well as custom values.
 
 RawTherapee can generate output, screen or custom working profiles using
-the XYZ matrix generated for [Custom
-profiles](Color_Management#Adding_Custom_Working_Profiles.md)
+the XYZ matrix generated for [Custom profiles](color_management#adding_custom_working_profiles)
 
 You cannot adjust all the parameters of an ICC profile with this tool,
 e.g. the A2B or B2A tags, but you can adjust those that are important
@@ -35,20 +34,19 @@ You can generate profiles in accordance with ICC versions 2 and 4, and
 in both cases you can use custom primaries and modify the illuminant as
 well as the tone reproduction curve (TRC).
 
-The code and the basic principles are similar to those used for[Abstract
-profiles](Color_Management#Abstract_Profiles.md)
+The code and the basic principles are similar to those used for
+[Abstract profiles](color_management#abstract_profiles)
 
 ## Usage
 
 Access this module via the
-![<File:Gamut-plus.png>](Gamut-plus.png "File:Gamut-plus.png") ICC
+![<File:Gamut-plus.png>](/images/Gamut-plus.png "File:Gamut-plus.png") ICC
 Profile Creator button located either in the bottom-left or top-right of
 the RawTherapee window.
 
 To make the profiles you generate available for use in RawTherapee, save
 them to the "directory containing color profiles" as specified in
-Preferences \> [Color
-Management](Preferences#Color_Management_Tab.md).
+Preferences \> [Color Management](preferences#color_management_tab).
 
 ### Primary Colors
 
@@ -59,8 +57,7 @@ using the xy coordinates.
 
 [CIE xy diagram](color_management#the_cie_xy_diagram)
 
-[Operation of the
-algorithm](Color_Management#How_the_.22Primaries_and_White_Point.22_algorithm_works.md)
+[Operation of the algorithm](color_management#how_the_.22primaries_and_white_point.22_algorithm_works)
 
 ### Tone Reproduction Curve
 
@@ -96,5 +93,4 @@ necessary chromaticity adaptation to convert the colors to the selected
 illuminant.
 
 For further information on illuminants and Abstract Profiles see:
-[Illuminant - Abstract
-profile](Color_Management#Illuminant_-_white_point.md).
+[Illuminant - Abstract profile](color_management#illuminant_-_white_point).

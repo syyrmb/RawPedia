@@ -24,7 +24,7 @@ full resolution image, so it will be sharp. If you zoom the preview in,
 then RawTherapee will use this higher resolution preview image when
 calculating the transformation, so to see what the saved file will look
 like, just zoom in to 100%
-![<File:Magnifier-1to1.png>](Magnifier-1to1.png "File:Magnifier-1to1.png").
+![<File:Magnifier-1to1.png>](/images/Magnifier-1to1.png "File:Magnifier-1to1.png").
 
 ## Introduction
 
@@ -78,7 +78,7 @@ take a given photo. This information is decoded from the photo's
 metadata (currently using a home-made solution, and in the future using
 [Exiv2](https://exiv2.org/)). To check whether the camera and lens names
 are decoded correctly, open a photo and in the Editor tab hit the
-"[image:info.png](image:info.png) Quick info" button. The
+"![image:info.png](/images/info.png) Quick info" button. The
 info panel should show your camera and lens names. If it does not, then
 RawTherapee failed to decode this information correctly. For the time
 being, there is nothing you can do about this but wait for a new version
@@ -120,8 +120,7 @@ If you do not find your camera or lens in the drop-downs, then your
 version of the Lensfun database does not contain this data. Update your
 Lensfun database. If it still does not contain your camera or lens, then
 play your part in the open-source world and contribute this
-information - see the [Lensfun
-documentation](https://lensfun.github.io/calibration/) to find out how
+information - see the [Lensfun documentation](https://lensfun.github.io/calibration/) to find out how
 to measure the parameters and contribute them for everyone's benefit.
 
 #### Updating your Lensfun database in Linux
@@ -137,7 +136,7 @@ Lensfun database (which could be taken from one of the files in
 `$HOME/.local/share/lensfun/myLensfun` and modify the relevant parameter
 to match the metadata from your photos. You can find the camera and lens
 name and parameters contained in your photos by viewing the
-"[image:info.png](image:info.png) Quick info" panel.
+"![image:info.png](/images/info.png) Quick info" panel.
 
 Note that while editing the Lensfun database in `/usr/share/lensfun/`
 directly may be possible, this is not recommended because you could lose
@@ -167,20 +166,16 @@ Adobe provides Lens Correction Profiles (LCP) and the tools needed to
 create them. These are text files which describe the distortion,
 vignetting and chromatic aberrations (CA) of a lens, so that simply
 loading this file in LCP-capable software such as RawTherapee will
-correct these issues. Select an [Adobe
-LCP](http://www.adobe.com/products/photoshop/extend.displayTab2.html#resources)
-file (read the guide on [how to get LCP
-profiles](How_to_get_LCP_and_DCP_profiles.md)) to automatically
+correct these issues. Select an [Adobe LCP](http://www.adobe.com/products/photoshop/extend.displayTab2.html#resources)
+file (read the guide on [how to get LCP profiles](how_to_get_lcp_and_dcp_profiles)) to automatically
 correct geometric distortion, vignetting and lateral chromatic
 aberrations.
 
-The [Profiled Lens
-Correction](Lens/Geometry#Profiled_Lens_Correction.md) tool's
+The [Profiled Lens Correction](lens/geometry#profiled_lens_correction) tool's
 "geometric distortion" feature can be used together with the manual
 [Distortion Correction](lens/geometry#distortion_correction)
 tool, and the vignetting correction feature can be used together with
-the manual [Vignetting
-Correction](Lens/Geometry#Vignetting_Correction.md) tool. This
+the manual [Vignetting Correction](lens/geometry#vignetting_correction) tool. This
 lets you apply manual adjustments in addition to the LCP profile's
 automatic adjustments, either for artistic reasons or if the LCP fails
 to sufficiently correct a parameter. Be careful that you don't overdo
@@ -207,14 +202,13 @@ The following restrictions apply:
   might look soft.
 
 As with any other tool, you can apply an LCP to multiple images either
-by including it in the processing profile (see [Creating processing
-profiles for general
-use](Creating_processing_profiles_for_general_use.md)), or by
+by including it in the processing profile (see
+[Creating processing profiles for general use](creating_processing_profiles_for_general_use)), or by
 selecting multiple images where the same lens was used (you can use the
 Metadata Filter in the File Browser tab to make this easier) and
 applying the LCP from the File Browser tab.
 
-  
+
 
 ## Interface
 
@@ -237,8 +231,7 @@ This option will upscale or downscale the photo to the extent that the
 whole image fits within the image boundaries with no black borders
 visible.
 
-When correcting images that suffer from [barrel
-distortion](https://en.wikipedia.org/wiki/Distortion_(optics)),
+When correcting images that suffer from [barrel distortion](https://en.wikipedia.org/wiki/Distortion_(optics)),
 "Auto-fill" will perform downscaling to fit as much of the re-projected
 image as possible into the image boundaries, so that you don't
 unnecessarily lose any parts of the image. Conversely if the image
@@ -246,12 +239,12 @@ suffers from pincushion distortion, "Auto-Fill" will upscale the
 corrected image to fill the frame without black borders around the
 periphery.
 
-  
+
 
 ### Auto-Crop
 
 <img
-src="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg"
+src="/images/Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg"
 title="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg"
 width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg" />
@@ -259,25 +252,25 @@ alt="Lensgeometry_bluehorse_autocrop_after_distortion_correction.jpg" />
 title="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" width="900"
 alt="Lensgeometry_bluehorse_autocrop_after_rotation.jpg" />
 
-"[image:Crop-auto.png](image:crop-auto.png) Auto-Crop" is
+"![image:Crop-auto.png](/images/crop-auto.png) Auto-Crop" is
 available when "Auto-fill" is disabled. When activated, it will not
 cause image interpolation, but instead will crop away the empty space
 left by the distortion correction or image rotation.
 
-  
+
 
 ### Rotate
 
-[900px](image:rotate.jpg)
+![900px](/images/rotate.jpg)
 
 Rotate the image between -45° and +45°. Use the
-"![<File:Rotate-straighten.png>](Rotate-straighten.png "File:Rotate-straighten.png")
+"![<File:Rotate-straighten.png>](/images/Rotate-straighten.png "File:Rotate-straighten.png")
 Select Straight Line" button to set either a vertical or a horizontal
 image alignment. Use the mouse to draw this line - click and hold mouse
 to start, move to draw a new vertical or horizontal axis and release to
 engage image rotation.
 
-  
+
 
 ### Perspective
 
@@ -429,7 +422,7 @@ Lensfun and LCP sections of this page.
 
 ### Geometric Distortion
 
-[framed](image:rt_distortion_correction.png)
+![framed](/images/rt_distortion_correction.png)
 
 Corrects lens distortion. A negative number corrects barrel distortion,
 a positive value will correct pincushion distortion. You can place a
@@ -450,7 +443,7 @@ image by making it match the JPEG image. There are two limitations:
   will the results be, but as the computed correction will be shown on
   the *Amount* slider, you can further refine it manually.
 
-  
+
 
 ### Chromatic Aberration Correction
 
@@ -462,23 +455,22 @@ title="chromatic_aberration_auto2.jpg" width="900"
 alt="chromatic_aberration_auto2.jpg" />
 
 This "Chromatic Aberration Correction" tool in the *Transform* tab works
-on the image **after** demosaicing. The [Chromatic
-Aberration](Chromatic_Aberration.md) tool in the *Raw* tab works
+on the image **after** demosaicing. The [Chromatic Aberration](chromatic_aberration) tool in the *Raw* tab works
 on the image **before** demosaicing.
 
 Chromatic aberration can be corrected by using the "Red" and "Blue"
 sliders. Normally you won't see any chromatic aberration in the
 fit-to-screen preview, therefore it is highly recommended to open a
 detail window
-![<File:Window-add.png>](Window-add.png "File:Window-add.png") or to
+![<File:Window-add.png>](/images/Window-add.png "File:Window-add.png") or to
 zoom the main preview in to 100%
-![<File:Magnifier-1to1.png>](Magnifier-1to1.png "File:Magnifier-1to1.png")
+![<File:Magnifier-1to1.png>](/images/Magnifier-1to1.png "File:Magnifier-1to1.png")
 or more when you attempt this kind of correction. As in other software
 tools, this algorithm eliminates moderate chromatic aberration quite
 well. Do not expect miracles with images having extremely high chromatic
 aberration - garbage in, garbage out.
 
-  
+
 
 ### Vignetting Correction
 
@@ -487,20 +479,19 @@ compared to the center. One of the differences between a cheap lens and
 an expensive one is that the former is likely to produce stronger
 vignetting than the latter. The "Vignetting Correction" tool is meant to
 correct vignetting caused by the lens. This tool is not intended for
-artistic vignetting; use the [Vignetting
-Filter](Vignetting_Filter.md) tool for that.
+artistic vignetting; use the [Vignetting Filter](vignetting_filter) tool for that.
 
-Amount  
+Amount
 Setting the "Amount" slider to a positive value brightens the four edges
 of the images to correct the classical vignetting. Setting it to a
 negative value darkens them.
 
-Radius  
+Radius
 Influences how much of the image beginning from the edges will be
 brightened or darkened. Lower values: area of darkening is bigger;
 higher values: area of darkening is smaller.
 
-Strength  
+Strength
 Amplifies the settings of the "Amount" and "Radius" sliders. Set
 "Amount" to -100, "Radius" to 50 and move "Strength" from 1 to 100 to
 see how this works.

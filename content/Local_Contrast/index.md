@@ -16,8 +16,7 @@ can be tuned by several parameters explained below.
 
 This tool was first implemented by [G'MIC](http://gmic.eu/) and then
 ported to RawTherapee. Its effect is applied in L\*a\*b\* space and only
-on the lightness channel. Its position in the [processing
-pipeline](http://rawpedia.rawtherapee.com/Toolchain_Pipeline) is after
+on the lightness channel. Its position in the [processing pipeline](http://rawpedia.rawtherapee.com/Toolchain_Pipeline) is after
 the Shadows / Highlight tool and before all other tools that operate in
 L\*a\*b\* space.
 

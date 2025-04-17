@@ -11,9 +11,9 @@ Haze Removal
 
 </div>
 
-![](Rt55_haze_removal_1.png "Rt55_haze_removal_1.png")
-![](Rt55_haze_removal_2.png "Rt55_haze_removal_2.png")
-![](Rt55_haze_removal_2_depth_map.png "Rt55_haze_removal_2_depth_map.png")
+![](/images/Rt55_haze_removal_1.png "Rt55_haze_removal_1.png")
+![](/images/Rt55_haze_removal_2.png "Rt55_haze_removal_2.png")
+![](/images/Rt55_haze_removal_2_depth_map.png "Rt55_haze_removal_2_depth_map.png")
 
 ## Introduction
 

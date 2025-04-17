@@ -13,14 +13,12 @@ How to Create DCP Color Profiles
 
 ## What Are DCP Profiles and Why Do I Need Them?
 
-Technically, each photosite in a digital photography camera's [image
-sensor](http://en.wikipedia.org/wiki/Image_sensor) outputs a certain
+Technically, each photosite in a digital photography camera's [image sensor](http://en.wikipedia.org/wiki/Image_sensor) outputs a certain
 current based on the number of
 [photons](http://en.wikipedia.org/wiki/Photon) of light that hit that
 photosite. The current is converted into a number. These numbers, along
 with some [metadata](http://en.wikipedia.org/wiki/Metadata), are stored
-in what is known as a "[raw
-file](http://en.wikipedia.org/wiki/Raw_image_format)". At this point
+in what is known as a "[raw file](http://en.wikipedia.org/wiki/Raw_image_format)". At this point
 there is no concept of color and the raw data looks nothing like an
 image. As in traditional photography, the image must be "developed" into
 a usable form. One of the steps of this development involves translating
@@ -30,8 +28,7 @@ camera, to map the numbers to specific known colors.
 Practically, you must use an input color profile in order to get
 accurate colors, and currently the best way to go about this is using a
 "DNG camera profile" (DCP for short - do not confuse with the entirely
-unrelated [Digital Cinema
-Package](http://en.wikipedia.org/wiki/Digital_Cinema_Package)). The
+unrelated [Digital Cinema Package](http://en.wikipedia.org/wiki/Digital_Cinema_Package)). The
 input color profile is what makes a camera's colors look they way they
 do when you open a photo, before you make any tweaks.
 
@@ -48,8 +45,7 @@ RawTherapee ships with the following profile types:
 You can create your own DCP profiles tailored to specific lighting
 situations for ultimate color accuracy. Let's say you are shooting a
 wedding, or panoramas for a virtual tour. You need accurate and
-consistent colors. The [color
-spectrum](http://en.wikipedia.org/wiki/Color_spectrum) of the light
+consistent colors. The [color spectrum](http://en.wikipedia.org/wiki/Color_spectrum) of the light
 outside the building is completely different to that inside, and even
 indoors the light will differ between the rooms as general consumer
 light bulbs produce light of different temperatures and spectrums, and
@@ -59,8 +55,7 @@ as the X-Rite ColorChecker Passport, all you need to do is to take a
 photo of this chart in the same location(s) as your normal photos, one
 shot per lighting situation (which usually translates to one shot per
 room and outdoors), then generate DCP profiles from these shots and use
-them in RawTherapee to achieve correct and consistent colors and [white
-balance](http://en.wikipedia.org/wiki/White_balance) between all your
+them in RawTherapee to achieve correct and consistent colors and [white balance](http://en.wikipedia.org/wiki/White_balance) between all your
 shots.
 
 ## Color Targets
@@ -106,9 +101,9 @@ Find out more:
 
 ## Shooting the Color Target
 
-![](PENTAX_K10D_daylight_london_summer.jpg "PENTAX_K10D_daylight_london_summer.jpg")
-![](Colortarget_glare.png "Colortarget_glare.png")
-![](Gluehlampe_01_KMJ.png "Gluehlampe_01_KMJ.png")
+![](/images/PENTAX_K10D_daylight_london_summer.jpg "PENTAX_K10D_daylight_london_summer.jpg")
+![](/images/Colortarget_glare.png "Colortarget_glare.png")
+![](/images/Gluehlampe_01_KMJ.png "Gluehlampe_01_KMJ.png")
 
 This guide assumes you use the X-Rite ColorChecker Passport, though you
 can use any supported color target. If using the X-Rite ColorChecker
@@ -116,8 +111,7 @@ Passport, while it's enough if you shoot just the 24-patch part we do
 prefer shots of the whole target.
 
 The light shining on the color target (the "illuminant") must meet
-certain requirements ("[standard
-illuminants](https://en.wikipedia.org/wiki/Standard_illuminant)"), and
+certain requirements ("[standard illuminants](https://en.wikipedia.org/wiki/Standard_illuminant)"), and
 you will be shooting in two types of light:
 
 - Light from a non-tinted incandescent tungsten light bulb, known as
@@ -138,7 +132,7 @@ profile sticks to the requirements because many people will use it. In
 the latter case, you will probably only use that profile on that
 specific occasion, and it will be of no use to other people.
 
-Shooting the color target for inclusion in RawTherapee:  
+Shooting the color target for inclusion in RawTherapee:
 
 - We need photos taken in both incandescent light and daylight.
 - Ideally, wait for a clear, sunny day when the sun is high above the
@@ -204,19 +198,18 @@ Shooting the color target for inclusion in RawTherapee:
   your target was manufactured, or at least the year when you bought it.
   A starting point to automatically rename the files using
   [ExifTool](https://exiftool.org/):
-    
+
   `exiftool '-FileName<${make}_${model}_iso${iso}_f${aperture}_%c.%le' dir`
 - Read each of these points again and make sure your photo conforms to
   them before uploading.
-- Open a new issue on the [RawTherapee GitHub
-  page](https://github.com/Beep6581/RawTherapee/issues/new), upload your
+- Open a new issue on the [RawTherapee GitHub page](https://github.com/Beep6581/RawTherapee/issues/new), upload your
   raw photos using [Filebin](https://filebin.net/) and paste a link to
   them in your new GitHub issue. We are interested only in the raw
   photos, not in a ready-made DCP - we will make one ourselves. If you
   bracketed, you can upload a series of each and we will choose the best
   ones.
 
-Shooting the color target in specific lighting situations for yourself:  
+Shooting the color target in specific lighting situations for yourself:
 
 - As above, you will want the color target to fill a third of your
   frame, f/8, ISO100, sharp, though the points about light do not apply
@@ -236,12 +229,10 @@ open-source alternative is using DCamProf.
 
 Simply install the X-Rite ColorChecker Passport software bundled with
 your chart (it works in Linux too using [wine](http://www.winehq.org/),
-just follow the same steps as outlined for [installing Adobe DNG
-Converter in
-Linux](How_to_convert_raw_formats_to_DNG#Installing_Adobe_DNG_Converter_in_Linux.md))
+just follow the same steps as outlined for
+[installing Adobe DNG Converter in Linux](how_to_convert_raw_formats_to_dng#installing_adobe_dng_converter_in_linux))
 and open your shot in it. It expects the shot to be in the DNG format,
-so you should first [convert it to
-DNG](How_to_convert_raw_formats_to_DNG.md). Using it is
+so you should first [convert it to DNG](how_to_convert_raw_formats_to_dng). Using it is
 straightforward, it's intuitive.
 
 ### Creating DCP profiles using DCamProf
@@ -258,10 +249,10 @@ reference, to exemplify the process of using it to create a
 dual-illuminant DCP profile.
 
 - DCamProf GitHub project and documentation:
-    
+
   <https://github.com/Beep6581/dcamprof>
 - DCamProf homepage:
-    
+
   <https://torger.se/anders/dcamprof.html>
 
 You will need [ArgyllCMS](http://www.argyllcms.com/) to be installed, as
@@ -280,8 +271,7 @@ To generate a dual-illuminant DCP profile from two ColorChecker Passport
 shots:
 
 1.  Take two photographs of the color target as described above in the
-    [Shooting the color
-    chart](How_to_create_DCP_color_profiles#Shooting_the_color_chart.md)
+    [Shooting the color chart](how_to_create_dcp_color_profiles#shooting_the_color_chart)
     section.
 2.  For each of the two photos, do the following:
     1.  Open the photo in the latest version of RawTherapee,
@@ -322,8 +312,7 @@ in the `dcpprofiles` folder. This folder will typically be inside the
 RawTherapee installation folder in Windows, or in
 `/usr/share/rawtherapee/dcpprofiles/` in Linux and macOS. Alternatively,
 create a new default PP3 for raw files which uses your new DCP - see
-[Creating processing profiles for general
-use](Creating_processing_profiles_for_general_use.md).
+[Creating processing profiles for general use](creating_processing_profiles_for_general_use).
 
 Per default DCamProf will smooth the LUT to prioritize smoothness over
 accuracy. This makes the profile more robust for general-purpose use. If

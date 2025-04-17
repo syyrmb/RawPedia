@@ -18,10 +18,10 @@ know about. Take a few minutes to read it.
 
 The Editor tab has three main panels whose visibility can be toggled
 using the Show/Hide Panel buttons
-![<File:Panel-to-bottom.png>](Panel-to-bottom.png "File:Panel-to-bottom.png")
-![<File:Panel-to-left.png>](Panel-to-left.png "File:Panel-to-left.png")
-![<File:Panel-to-top.png>](Panel-to-top.png "File:Panel-to-top.png")
-![<File:Panel-to-right.png>](Panel-to-right.png "File:Panel-to-right.png"),
+![<File:Panel-to-bottom.png>](/images/Panel-to-bottom.png "File:Panel-to-bottom.png")
+![<File:Panel-to-left.png>](/images/Panel-to-left.png "File:Panel-to-left.png")
+![<File:Panel-to-top.png>](/images/Panel-to-top.png "File:Panel-to-top.png")
+![<File:Panel-to-right.png>](/images/Panel-to-right.png "File:Panel-to-right.png"),
 making more room for the image preview.
 
 You can use the mouse scrollwheel to safely scroll the panels up/down
@@ -40,25 +40,24 @@ scrolling.
 
 Most tools have a power button to the left of their title which lets you
 turn that tool on or off. The power button can also have an
-"inconsistent" state if you select two or more photos in the [File
-Browser](File_Browser.md) and a given tool is turned on in some
+"inconsistent" state if you select two or more photos in the [File Browser](file_browser) and a given tool is turned on in some
 of the selected photos but off in others. Some tools instead of an
 on/off button have an "expander" which lets you expand or collapse the
 contents of that tool.
 
-![<File:Power-off-small.png>](Power-off-small.png "File:Power-off-small.png")
+![<File:Power-off-small.png>](/images/Power-off-small.png "File:Power-off-small.png")
 Off.
 
-![<File:Power-on-small.png>](Power-on-small.png "File:Power-on-small.png")
+![<File:Power-on-small.png>](/images/Power-on-small.png "File:Power-on-small.png")
 On.
 
-![<File:Power-inconsistent-small.png>](Power-inconsistent-small.png "File:Power-inconsistent-small.png")
+![<File:Power-inconsistent-small.png>](/images/Power-inconsistent-small.png "File:Power-inconsistent-small.png")
 Inconsistent.
 
-![<File:Expander-closed-small.png>](Expander-closed-small.png "File:Expander-closed-small.png")
+![<File:Expander-closed-small.png>](/images/Expander-closed-small.png "File:Expander-closed-small.png")
 Collapsed.
 
-![<File:Expander-open-small.png>](Expander-open-small.png "File:Expander-open-small.png")
+![<File:Expander-open-small.png>](/images/Expander-open-small.png "File:Expander-open-small.png")
 Expanded.
 
 ## Sliders
@@ -76,7 +75,7 @@ while holding the knob. This is a standard feature of all programs which
 use [GTK+ 3](https://en.wikipedia.org/wiki/GTK+).
 
 Each slider has a "reset" button
-![<File:Undo-small.png>](Undo-small.png "File:Undo-small.png") which
+![<File:Undo-small.png>](/images/Undo-small.png "File:Undo-small.png") which
 behaves as follows:
 
 - resets the slider to the default value, which is hard-coded to 0 for
@@ -134,16 +133,15 @@ enabled, then that curve has an effect on the image regardless whether
 it is visible or not.
 
 Each curve can be reset
-![<File:Undo-small.png>](Undo-small.png "File:Undo-small.png") to the
-default value. Some curves come in groups, such as the [Lab
-Adjustments](Lab_Adjustments.md) curves. There is one reset
+![<File:Undo-small.png>](/images/Undo-small.png "File:Undo-small.png") to the
+default value. Some curves come in groups, such as the [Lab Adjustments](lab_adjustments) curves. There is one reset
 button for the whole group, and it applies to the currently selected
 curve. Click on the curve type drop-down button to select that curve.
 
 Some curves have a color picker
-![<File:Crosshair-node-curve.png>](Crosshair-node-curve.png "File:Crosshair-node-curve.png")
+![<File:Crosshair-node-curve.png>](/images/Crosshair-node-curve.png "File:Crosshair-node-curve.png")
 and a control point in/out value editor
-![<File:Edit-point.png>](Edit-point.png "File:Edit-point.png").
+![<File:Edit-point.png>](/images/Edit-point.png "File:Edit-point.png").
 
 ### Color Picker
 
@@ -154,7 +152,7 @@ title="Rt55_lab_hh_color_picker.png" />
 </figure>
 
 Most curves in RawTherapee have a color picker button
-![<File:Crosshair-node-curve.png>](Crosshair-node-curve.png "File:Crosshair-node-curve.png").
+![<File:Crosshair-node-curve.png>](/images/Crosshair-node-curve.png "File:Crosshair-node-curve.png").
 The color picker enables you to place a control point in a curve at the
 exact spot which corresponds to the area you're hovering over on the
 preview.
@@ -200,9 +198,9 @@ create these control points is by using the color picker. For this
 example, we will start with a curve without any control points and
 create some using the color picker. Click the control point in/out value
 editor button
-![<File:Edit-point.png>](Edit-point.png "File:Edit-point.png") next to
+![<File:Edit-point.png>](/images/Edit-point.png "File:Edit-point.png") next to
 the curve, and also click the color picker button
-![<File:Crosshair-node-curve.png>](Crosshair-node-curve.png "File:Crosshair-node-curve.png").
+![<File:Crosshair-node-curve.png>](/images/Crosshair-node-curve.png "File:Crosshair-node-curve.png").
 You will now see "I" (in) and "O" (out) values displayed under the
 curve. They correspond to the point under the mouse cursor if you hover
 it over the curve or over the preview. Hover the cursor over the
@@ -222,11 +220,11 @@ deactivate it.
 
 ### Tone Curves
 
-![](Rt55_curve_linear.png "Rt55_curve_linear.png")
-![](Rt55_curve_standard.png "Rt55_curve_standard.png")
-![](Rt55_curve_flexible.png "Rt55_curve_flexible.png")
-![](Rt55_curve_parametric.png "Rt55_curve_parametric.png")
-![](Rt55_curve_control_cage.png "Rt55_curve_control_cage.png")
+![](/images/Rt55_curve_linear.png "Rt55_curve_linear.png")
+![](/images/Rt55_curve_standard.png "Rt55_curve_standard.png")
+![](/images/Rt55_curve_flexible.png "Rt55_curve_flexible.png")
+![](/images/Rt55_curve_parametric.png "Rt55_curve_parametric.png")
+![](/images/Rt55_curve_control_cage.png "Rt55_curve_control_cage.png")
 
 Tone curves serve to map an input value (on the horizontal or X axis) to
 an output value (on the vertical or Y axis). Though they may seem
@@ -263,7 +261,7 @@ There are multiple types of curves at your disposal:
 
 - **Linear**
 
-  
+
 The default type - a straight line that results in no change to input
 values. The mathematically inclined may observe that it is a graph of
 y=x. The rest of us just set the control to linear to “turn off” the
@@ -271,7 +269,7 @@ curve.
 
 - **Standard**
 
-  
+
 The type most commonly seen in other software. Click to drop a control
 point anywhere on the curve and then drag the control point to change
 the curve's shape. The top-right point represents the brightest areas in
@@ -284,7 +282,7 @@ underexposure. Move it vertically up to make the darks lighter.
 
 - **Flexible**
 
-  
+
 A characteristic of the "Standard" cubic spline curve is that editing
 one node could have a huge impact on what happens to the curve in
 relation to the other nodes. The "Flexible" centripetal Catmull–Rom
@@ -293,17 +291,17 @@ with little impact on the other parts.
 
 - **Parametric**
 
-  
+
 Allows you to use sliders rather than dragging the curve directly. For
 the Parametric curve type, clicking the right mouse button over the zone
 selector
-(![Image:Parametric_curve_bar.png](Parametric_curve_bar.png "Image:Parametric_curve_bar.png"))
+(![Image:Parametric_curve_bar.png](/images/Parametric_curve_bar.png "Image:Parametric_curve_bar.png"))
 will reset the handles' position to their default values. (The global
 reset button will reset them too.)
 
 - **Control Cage**
 
-  
+
 At first sight this curve type looks very much like the Custom curve,
 but there are some differences. With the Custom curve, the curve touches
 all the control points. This is not the case with the control cage curve
@@ -319,7 +317,7 @@ the alternatives.
 
 ### The Flat Curve
 
-[frame](image:flat_curve_justcurve.png) A number of tools in
+[frame](/images/flat_curve_justcurve.png) A number of tools in
 RawTherapee use the *flat curve*:
 
 - [Lab Adjustments](lab_adjustments)
@@ -333,13 +331,12 @@ RawTherapee use the *flat curve*:
   - [S](hsv_equalizer#s)
   - [V](hsv_equalizer#v)
 
-It's very simple to use once you understand it, so let's use the [HSV
-Equalizer](HSV_Equalizer.md) in the
-![<File:Color-circles.png>](Color-circles.png "File:Color-circles.png")
+It's very simple to use once you understand it, so let's use the [HSV Equalizer](hsv_equalizer) in the
+![<File:Color-circles.png>](/images/Color-circles.png "File:Color-circles.png")
 Color tab as an example. Click on the drop-down icon
-[image:Drop-down.png](image:drop-down.png) next to the H(ue)
+[image:Drop-down.png](/images/drop-down.png) next to the H(ue)
 button and choose "*Minima/Maxima control points*"
-![<File:Curve-controlpoints-small.png>](Curve-controlpoints-small.png "File:Curve-controlpoints-small.png").
+![<File:Curve-controlpoints-small.png>](/images/Curve-controlpoints-small.png "File:Curve-controlpoints-small.png").
 You'll see six dots on the horizontal line in the middle and six
 vertical lines that cross these dots. Notice that those lines are
 colored; from left to right: red, yellow, green, aqua, blue and magenta.
@@ -361,7 +358,7 @@ only in one direction (only horizontally or only vertically) you can use
 the 'snap to' function by holding down the Shift key while moving the
 point.
 
-[frame](image:flat_curve_zoom.png) It's easy to see if a
+[frame](/images/flat_curve_zoom.png) It's easy to see if a
 point is on its neutral value (i.e. on the middle line) because the
 color of the point will be green. As soon as you move a point off its
 neutral value, it changes color to black.
@@ -387,7 +384,7 @@ red and yellow) and move the graph around, change its slope and see what
 happens to your photo.
 
 Reset the *Hue* curve to "*Linear*" (no changes) by clicking on the
-reset icon [image:Gtk-undo-ltr.png](image:gtk-undo-ltr.png)
+reset icon ![image:Gtk-undo-ltr.png](/images/gtk-undo-ltr.png)
 next to the *Value* button. To compare the effects of the *Hue* curve
 with linear: switch between "*Linear*" and "*Minima/Maxima control
 points*" in the drop-down menu next to this button, or use the history
@@ -408,7 +405,7 @@ tool the tones (or hues or saturations values) that you want processed
 
 As an example, consider the Threshold curve editor on the Detail -\>
 [Sharpening](sharpening) tool.
-![](_Sharpening_Threshold.png "_Sharpening_Threshold.png") The setting
+![](/images/Sharpening_Threshold.png "_Sharpening_Threshold.png") The setting
 shown is telling the Sharpening tool to phase in sharpening quickly in
 the black areas (the steep line up on the left), maintain full
 sharpening through mid-tones (the plateau area) and then phase out
@@ -425,8 +422,7 @@ button, there's no way to bring back your curve. (Ctrl-z will go one
 step before in the *History* list, not in the curve's edition). This
 comment applies to Tone and Flat Curves as well.
 
-You’ll also find Threshold Curves used in the [Contrast by Detail
-Levels](Contrast_by_Detail_Levels.md) and the
+You’ll also find Threshold Curves used in the [Contrast by Detail Levels](contrast_by_detail_levels) and the
 [Vibrance](vibrance) tools.
 
 You may have noticed that Threshold Curves actually consist of a few
@@ -455,11 +451,10 @@ be accurate when applied to a small zoomed-out preview. We made the
 decision to either disable the preview effects of these tools entirely
 at zoom levels less than 100%, or to keep the preview effects active but
 to warn you that what you see at zoom levels less than 100% may be
-inaccurate depending on the tool settings (for example [Tone
-Mapping](Tone_Mapping.md) and [Wavelet](wavelet) may
+inaccurate depending on the tool settings (for example [Tone Mapping](tone_mapping) and [Wavelet](wavelet) may
 be accurate at zoom levels less than 100% or they may be inaccurate,
 depending on their settings). You will know which tools these are
 because they are marked with a "1:1" icon
-![<File:One-to-one-small.png>](One-to-one-small.png "File:One-to-one-small.png")
+![<File:One-to-one-small.png>](/images/One-to-one-small.png "File:One-to-one-small.png")
 next to their names. RawPedia explains how accurate the preview is for
 all affected tools on each tool's page.

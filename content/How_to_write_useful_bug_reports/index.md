@@ -12,8 +12,7 @@ How to Write Useful Bug Reports
 
 </div>
 
-Bugs must be reported in our [RawTherapee GitHub issue
-tracker](https://github.com/Beep6581/RawTherapee), not in the forum and
+Bugs must be reported in our [RawTherapee GitHub issue tracker](https://github.com/Beep6581/RawTherapee), not in the forum and
 not in IRC.
 
 We use the term "bug report" in the broadest sense, any issue you have
@@ -25,7 +24,7 @@ You must always provide the following information:
 
 - **Version details** of the RawTherapee build you're using. You can
   find this information by clicking on
-  [image:preferences.png](image:preferences.png) Preferences
+  ![image:preferences.png](/images/preferences.png) Preferences
   \> About \> Version - in most cases that tab will be full of
   information, all of which you should copy and paste into your bug
   report. If that tab is empty, then you can get the RawTherapee version
@@ -90,9 +89,9 @@ compiled in one of two ways:
 
 While it is possible to get some information out of a *release* build,
 the information is far more precise if you use a *debug* one. You will
-find both "release" and "debug" builds of RawTherapee on the [official
-downloads page](http://rawtherapee.com/downloads) as well as in [the
-forum](https://discuss.pixls.us/c/software/rawtherapee). For day-to-day
+find both "release" and "debug" builds of RawTherapee on the
+[official downloads page](http://rawtherapee.com/downloads) as well as in
+[the forum](https://discuss.pixls.us/c/software/rawtherapee). For day-to-day
 use, use a release type build because it runs much faster. If you
 encounter a crash, use a debug type build to provide us with useful
 information so that we can fix the crash.
@@ -134,7 +133,7 @@ reporting a bug! Reporting based on an old version is a waste of time.
 1.  Get GDB. How you do this will depend on your operating
     system/distribution.
     - **Linux** - Use your package manager.
-        
+
       In Ubuntu you would open a terminal and write:
 
           sudo apt-get install gdb
@@ -159,11 +158,11 @@ reporting a bug! Reporting based on an old version is a waste of time.
       RawTherapee debug executable is `rawtherapee-DEBUG.exe` then type:
           gdb rawtherapee-DEBUG.exe
 3.  GDB starts up and is ready to run RawTherapee. To run it, type:
-      
+
         r
 4.  RawTherapee runs, and you will notice a flood of information in GDB.
     Most of it will look like this:
-      
+
     `[New Thread 0x7fffa7b2e700 (LWP 11532)]`
 
     `[New Thread 0x7fffa9b32700 (LWP 11533)]`
@@ -180,7 +179,7 @@ reporting a bug! Reporting based on an old version is a waste of time.
     easier in the next three commands you will tell GDB to save it to a
     text file called `log.txt` (or anything, the name doesn't matter).
     Type:
-      
+
         set pagination off
 
         set logging file log.txt
@@ -188,7 +187,7 @@ reporting a bug! Reporting based on an old version is a waste of time.
         set logging on
 6.  Now to have GDB show info on all threads and print the actual stack
     backtrace, type:
-      
+
         info threads
 
         thread apply all bt full
@@ -196,27 +195,25 @@ reporting a bug! Reporting based on an old version is a waste of time.
     You should see a screen full of text, numbers, code and magical
     spells. These were automatically saved to the `log.txt` file.
 7.  You may now quit GDB. To do so, type:
-      
+
         q
 
     and confirm it with a
 
         y
 8.  Now it is time to send us the bug report. Open a new issue in our
-    [GitHub bug
-    tracker](https://github.com/Beep6581/RawTherapee/issues/new),
+    [GitHub bug tracker](https://github.com/Beep6581/RawTherapee/issues/new),
     explain the steps you performed which lead to the crash, **attach
     the `log.txt` file**, and provide all the information we asked for
     above.
 
 Nicely formatted text is easier to read. If you are pasting code into
-GitHub, use backticks or indent the code - read [GitHub's Basic
-Formatting Syntax
-documentation](https://guides.github.com/features/mastering-markdown/)
+GitHub, use backticks or indent the code - read
+[GitHub's Basic Formatting Syntax documentation](https://guides.github.com/features/mastering-markdown/)
 to learn how to do that. If you want to paste code into the
 [forum](https://discuss.pixls.us/c/software/rawtherapee), you can also
-use backticks or indent the code - read [the Forum code formatting
-guide](Forum.md).
+use backticks or indent the code - read
+[the Forum code formatting guide](forum).
 
 Remember to include the contents of
 "*[image:preferences.png](image:preferences.png) Preferences

@@ -281,8 +281,7 @@ update itself.
 The script compiles the current branch, which by default is `dev` where
 most of the development happens. To compile a different branch, check it
 out using standard git commands before running the script. Read more
-about RawTherapee's branches below in the [Choose a
-Branch](Linux#Choose_a_branch.md) section.
+about RawTherapee's branches below in the [Choose a Branch](linux#choose_a_branch) section.
 
 For more information, see `./build-rawtherapee --help`
 
@@ -292,8 +291,7 @@ You have finished, RawTherapee is ready for use. You can skip the
 ### The Manual Way
 
 The recommended way of compiling RawTherapee is by using the automatic
-script - see [Compilation: The Automatic
-Way](#The_Automatic_Way.md). If you want to learn how to compile
+script - see [Compilation: The Automatic Way](#the_automatic_way). If you want to learn how to compile
 manually, read on.
 
 In order to keep your "home" folder clean when manually compiling
@@ -357,14 +355,13 @@ and then you will move this folder to `~/programs/rawtherapee`
 There are a few compilation settings you need to be aware of, you will
 pass these to CMake using the `-D` option as described below:
 
-CMAKE_BUILD_TYPE  
+CMAKE_BUILD_TYPE
 One of: `release` (default), `relwithdebinfo` or `debug`.
 
 This controls whether the build will favor faster execution time or more
 verbose debugging output.
 
-The "debug" and "relwithdebinfo" builds will let you [get a useful
-stack-backtrace](How_to_write_useful_bug_reports.md) if
+The "debug" and "relwithdebinfo" builds will let you [get a useful stack-backtrace](how_to_write_useful_bug_reports) if
 RawTherapee crashes while running through GDB which you can then submit
 to us so we can find the problem and fix it. The "debug" build is the
 slowest but generates the most detailed information. The
@@ -378,12 +375,12 @@ If you find a reproducible bug, then make a "debug" build and send us a
 stack-backtrace (or fix it yourself and send us the patch!). We prefer
 stack backtraces from debug builds than from relwithdebinfo ones.
 
-  
+
 To make a "release" type build, set: `-DCMAKE_BUILD_TYPE="release"`
 
 <!-- -->
 
-USE_OLD_CXX_ABI  
+USE_OLD_CXX_ABI
 `ON` or `OFF` (default).
 
 When compiling a program, one must use the same conventions as those
@@ -399,15 +396,15 @@ your libraries were built using the older C++03 standard, then
 RawTherapee must be set to use the same, and this is when you would set
 "USE_OLD_CXX_ABI" to "ON".
 
-  
+
 To enable USE_OLD_CXX_ABI, set: `-DUSE_OLD_CXX_ABI="ON"`
 
 <!-- -->
 
-CACHE_NAME_SUFFIX  
+CACHE_NAME_SUFFIX
 The CACHE_NAME_SUFFIX options sets the suffix of the cache and config
-folder names the compiled RawTherapee build will use. See the [File
-Paths](File_Paths.md) article for an explanation of what those
+folder names the compiled RawTherapee build will use. See the
+[File Paths](file_paths) article for an explanation of what those
 are.
 
 For stable releases (if you checkout the "releases" branch) use
@@ -418,7 +415,7 @@ other than "releases") use `-DCACHE_NAME_SUFFIX="5-dev"`
 
 <!-- -->
 
-PROC_TARGET_NUMBER  
+PROC_TARGET_NUMBER
 From `0` (default) to `9`.
 
 The PROC_TARGET_NUMBER option sets which CPU type to optimize for.
@@ -436,13 +433,13 @@ benefit from the best optimizations possible for the user's CPU.
 For more info, see the file "ProcessorTargets.cmake" in the cloned
 repository.
 
-  
+
 To make a build using "native" optimizations, set:
 `-DPROC_TARGET_NUMBER="2"`
 
 <!-- -->
 
-BUILD_BUNDLE  
+BUILD_BUNDLE
 `ON` or `OFF`.
 
 Forced to "ON" for Windows and macOS. Optional in Linux where it is
@@ -454,7 +451,7 @@ would typically be system-wide.
 
 <!-- -->
 
-BUNDLE_BASE_INSTALL_DIR  
+BUNDLE_BASE_INSTALL_DIR
 Use an absolute path.
 
 The program will be built into this folder.
@@ -467,7 +464,7 @@ If it is not set, the default is to use
 
 <!-- -->
 
-LENSFUNDBDIR  
+LENSFUNDBDIR
 Unset by default.
 
 The `LENSFUNDBDIR` option permits to locate the lensfun database in the
@@ -486,7 +483,7 @@ otherwise it is relative to `DATADIR`, i.e.
 
 <!-- -->
 
-OPTION_OMP  
+OPTION_OMP
 `ON` (default) or `OFF`.
 
 Build with OpenMP support when enabled, which enables multithreading and
@@ -494,7 +491,7 @@ makes RawTherapee much faster.
 
 <!-- -->
 
-WITH_LTO  
+WITH_LTO
 `ON` or `OFF` (default).
 
 Build with link-time optimizations when enabled, which may make
@@ -502,7 +499,7 @@ RawTherapee run a little faster.
 
 <!-- -->
 
-WITH_PROF  
+WITH_PROF
 `ON` or `OFF` (default).
 
 For debugging purposes. Generate extra code to write profile information
@@ -510,38 +507,37 @@ suitable for the analysis program gprof.
 
 <!-- -->
 
-WITH_SAN  
+WITH_SAN
 `OFF` (default) or one of various other options.
 
 For debugging purposes. Allows enabling various sanitizers to help
 detect program issues.
 
-See GCC manual's [Program Instrumentation
-Options](https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html)
+See GCC manual's [Program Instrumentation Options](https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html)
 chapter for more information.
 
 <!-- -->
 
-WITH_SYSTEM_KLT  
+WITH_SYSTEM_KLT
 `ON` or `OFF` (default).
 
 Build using system KLT library when ON, otherwise use KLT files bundled
 with RawTherapee.
 
-The Kanade–Lucas–Tomasi (KLT) feature tracker is used by the [Auto
-Distortion Correction](Lens/Geometry#Distortion_Correction.md)
+The Kanade–Lucas–Tomasi (KLT) feature tracker is used by the
+[Auto Distortion Correction](lens/geometry#distortion_correction)
 tool.
 
 <!-- -->
 
-WITH_BENCHMARK  
+WITH_BENCHMARK
 `ON` or `OFF` (default).
 
 Build with timing functions enabled to benchmark performance.
 
 <!-- -->
 
-ENABLE_TCMALLOC  
+ENABLE_TCMALLOC
 `ON` or `OFF` (default).
 
 In some cases the operating system has trouble handling memory

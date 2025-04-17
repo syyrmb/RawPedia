@@ -23,8 +23,7 @@ ergo the tool's name.
 
 RawTherapee needs to be able to access these HaldCLUT images in order
 that you can use the tool. You can download our collection, called the
-[RawTherapee Film Simulation
-Collection](Film_Simulation#RawTherapee_Film_Simulation_Collection.md),
+[RawTherapee Film Simulation Collection](film_simulation#rawtherapee_film_simulation_collection),
 or you can design your own - more on that later on. The first time you
 run this tool you will see a message informing you that you need to
 point RawTherapee to a folder which contains the reference images. Once
@@ -57,7 +56,7 @@ folder as suggested, keeping only HaldCLUT images in it.
 
 ## How It Works
 
-![](Hald_CLUT_Identity_12.png "Hald_CLUT_Identity_12.png") The Film
+![](/images/Hald_CLUT_Identity_12.png "Hald_CLUT_Identity_12.png") The Film
 Simulation tool uses specially prepared images in what is called a
 HaldCLUT pattern. "CLUT" means "Color Look-Up Table", while what "Hald"
 means is anyone's guess. A HaldCLUT image contains a set of gradients of
@@ -162,8 +161,7 @@ with the terms "assign color profile" vs "convert to color profile" from
 GIMP or Photoshop - which color profile is assigned does not matter
 because it does not alter pixel values, but converting matters because
 then the pixel values change. When editing the HaldCLUT image in
-RawTherapee, the choice of [output color
-profile](Color_Management#Output_Profile.md) matters because it
+RawTherapee, the choice of [output color profile](color_management#output_profile) matters because it
 alters pixel values of the saved image. As the identity image provided
 by us or generated according to our recipe uses the sRGB primary
 chromaticities, so you should use RTv2_sRGB or RTv4_sRGB when saving it
@@ -227,8 +225,7 @@ collection.
 
 If you would like to compare the effects of several specific HaldCLUTs,
 and they are not consecutive in the combobox, an easy way to switch
-between them is by [taking a
-snapshot](The_Image_Editor_Tab#Snapshots.md) after applying
+between them is by [taking a snapshot](the_image_editor_tab#snapshots) after applying
 each, and then just clicking on the snapshots.
 
 ## RawTherapee Film Simulation Collection
@@ -246,40 +243,40 @@ The suffixes +, ++, +++, -, --, --- refer to the strength the film was
 development (non-linear), and "generic" refers to the film type usually
 sold for rebranding.
 
-[Download](http://rawtherapee.com/shared/HaldCLUT.zip) (402MB!)  
+[Download](http://rawtherapee.com/shared/HaldCLUT.zip) (402MB!)
 
 <!-- -->
 
-Changelog  
-2015-09-20  
+Changelog
+2015-09-20
 Added the "CreativePack-1" color collection.
 
 Converted all TIFFs to PNG (except for the identity image).
 
-2015-03-25  
+2015-03-25
 The identity CLUT had a bug causing cyan colors in the highlights, it
 has been replaced with a fixed one.
 
 Numbered the files so they are sorted in the correct order when pushed
 or pulled (--, -, normal, +, ++).
 
-2014-08-25  
+2014-08-25
 The first public release.
 
 Re-organized into *Color* and *Black-and-White*, sub-folders sorted by
 brand.
 
-2014-08-15  
+2014-08-15
 Expanded README.txt and added disclaimer.
 
-2014-07-05  
+2014-07-05
 The first internal release.
 
 All images re-compressed with maximum lossless compression.
 
 Learn more about HaldCLUTs here:
 
-  
+
 <http://www.quelsolaar.com/technology/clut.html>
 
 <http://blog.patdavid.net/2013/08/film-emulation-presets-in-gmic-gimp.html>
@@ -288,7 +285,7 @@ Learn more about HaldCLUTs here:
 
 Credits:
 
-  
+
 Pat David - <https://discuss.pixls.us/u/patdavid>
 
 Pavlov Dmitry
@@ -297,7 +294,7 @@ Michael Ezra - <https://discuss.pixls.us/u/michaelezra>
 
 Disclaimer:
 
-  
+
 The trademarked names which may appear in the filenames of the HaldCLUT
 images are there for informational purposes only. They serve only to
 inform the user which film stock the given HaldCLUT image is designed to

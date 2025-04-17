@@ -22,8 +22,7 @@ free and open-source [GIMP](http://www.gimp.org/) (links for Windows and
 Mac at the bottom of the page). To take a screenshot in Gimp, click on
 "File \> Create \> Screenshot".
 
-Wikipedia has a good [comparison of raster graphics
-editors](http://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors).
+Wikipedia has a good [comparison of raster graphics editors](http://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors).
 
 Suggestions screenshot programs:
 
@@ -54,8 +53,7 @@ then we must get them **exactly** as you have them. Do not use "image
 sharing" websites, because those websites re-compress your images, so
 the image we get is not identical to the one you uploaded!
 
-Wikipedia has an [explanation and comparison of file hosting
-websites](http://en.wikipedia.org/wiki/File_hosting).
+Wikipedia has an [explanation and comparison of file hosting websites](http://en.wikipedia.org/wiki/File_hosting).
 
 ## Uploading Screenshots
 
@@ -159,18 +157,16 @@ disposal, in no particular order:
   use this if your RawTherapee window is 1920x1080 pixels in size (it
   records the whole screen and then downscales to 720p):
 
-`vid="screencast"; \`  
-`crf="23"; \`  
-`preset="slower"; \`  
-`pushd /tmp/ && \`  
-`ffmpeg -y -f x11grab -show_region 1 -s 1920x1080 -i :0.0+0,0 -an -c:v libx264 -preset ultrafast -qp 0 -threads 0 /dev/shm/${vid}.mp4 && \`  
-`` ffmpeg -y -ss 00:00:02 -i /dev/shm/${vid}.mp4 -an -c:v libx264 -preset ${preset} -crf ${crf} -s 1920x1080 -s hd720 -sws_flags lanczos -threads 0 ~/${vid}_${crf}crf_${preset}_`date +%F_%H%M%S`.mp4 && \ ``  
+`vid="screencast"; \`
+`crf="23"; \`
+`preset="slower"; \`
+`pushd /tmp/ && \`
+`ffmpeg -y -f x11grab -show_region 1 -s 1920x1080 -i :0.0+0,0 -an -c:v libx264 -preset ultrafast -qp 0 -threads 0 /dev/shm/${vid}.mp4 && \`
+`` ffmpeg -y -ss 00:00:02 -i /dev/shm/${vid}.mp4 -an -c:v libx264 -preset ${preset} -crf ${crf} -s 1920x1080 -s hd720 -sws_flags lanczos -threads 0 ~/${vid}_${crf}crf_${preset}_`date +%F_%H%M%S`.mp4 && \ ``
 `popd && ls -l /dev/shm/${vid}*.mp4 && ls -l ~/${vid}*.mp4 && rm --interactive /dev/shm/${vid}*.mp4`
 
-Wikipedia has a good [comparison of screencasting
-software](http://en.wikipedia.org/wiki/Comparison_of_screencasting_software)
-and [list of screencasting
-software](http://en.wikipedia.org/wiki/List_of_screencasting_software).
+Wikipedia has a good [comparison of screencasting software](http://en.wikipedia.org/wiki/Comparison_of_screencasting_software)
+and [list of screencasting software](http://en.wikipedia.org/wiki/List_of_screencasting_software).
 
 Once you create a screencast, use one of the file hosting sites listed
 above to upload it and then paste the link to it to the appropriate

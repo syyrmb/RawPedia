@@ -11,7 +11,7 @@ L\*a\*b\* Adjustments
 
 </div>
 
-![](Lab_color_space.png "Lab_color_space.png")
+![](/images/Lab_color_space.png "Lab_color_space.png")
 [Lab](https://en.wikipedia.org/wiki/Lab_color_space) (also called CIELAB
 or L\*a\*b) is a three dimensional color space designed to approximate
 human vision, as opposed to the RGB color space which models the output
@@ -58,8 +58,7 @@ slider will get automatically set to -100, providing the same effect.
 ## Avoid Color Shift
 
 Fits the colors of the image into the gamut of the working color space
-and applies [Munsell
-correction](https://en.wikipedia.org/wiki/Munsell_color_system) to
+and applies [Munsell correction](https://en.wikipedia.org/wiki/Munsell_color_system) to
 retain color purity.
 
 ## Restrict LC to Red and Skin Tones
@@ -82,14 +81,14 @@ image. Below are illustrated explanations of each curve.
 
 ### L Curve
 
-![](Lab_L_BA.jpg "Lab_L_BA.jpg") The L curve allows to control output
+![](/images/Lab_L_BA.jpg "Lab_L_BA.jpg") The L curve allows to control output
 lightness based on the input lightness, L=f(L). The histogram on the L
 curve reflects lightness after the Lab adjustments. This curve allows
 you to control the lightness without affecting color.
 
 An S-shaped curve applied to the L channel increases image contrast. At
 the same time this leads to a perceptually desaturated look.
-Chromaticity adjustments can be used to compensate for this effect.  
+Chromaticity adjustments can be used to compensate for this effect.
 
 ### "a" and "b" Curves
 
@@ -98,7 +97,7 @@ based on the input "a" and "b" channels respectively, a=f(a) and b=f(b).
 
 As indicated by the color bars, the "a" curve allows one to shift colors
 between green and magenta, and the "b" curve to shift between blue and
-yellow. This can be used to apply color toning effects.  
+yellow. This can be used to apply color toning effects.
 
 #### Black-and-White Color Toning
 
@@ -126,36 +125,36 @@ color-spaces. It's just a matter of taste. Once the image is reduced to
 grayscale you can give the image a tone by using the a\* and b\* curves.
 To copy just color toning from one image to another, copy the current
 processing profile to clipboard
-![Image:Gtk-copy.png](Gtk-copy.png "Image:Gtk-copy.png"), then
+![Image:Gtk-copy.png](/images/Gtk-copy.png "Image:Gtk-copy.png"), then
 partial-paste it either by right-clicking on a photo in the *File
 Browser* and selecting "*Processing Profile Operations \> Paste -
 partial*", or from the *Image Editor* tab by Ctrl+clicking on "*Paste
 profile from clipboard*"
-[image:Gtk-paste.png](image:gtk-paste.png) to paste only the
+[image:Gtk-paste.png](/images/gtk-paste.png) to paste only the
 *L\*a\*b\* Adjustments* section of the profile. Note that other
 adjustments in the *L\*a\*b\* Adjustments* sections will be pasted as
 well. Alternatively, the a\* and b\* curves can be copied and pasted
 individually. This is another reason for using the recommended method,
 because it's easier, more precise, to copy and paste the Color Toning
-and Black-and-White tools.  
+and Black-and-White tools.
 
 ### LH Curve
 
-![](Lab_LH_BA.jpg "Lab_LH_BA.jpg") The LH curve (lightness according to
+![](/images/Lab_LH_BA.jpg "Lab_LH_BA.jpg") The LH curve (lightness according to
 hue) allows to modify the lightness based on hue. To lighten the colors
 of the particular hue, move the desired point on the LH curve up, and to
-darken - down.  
+darken - down.
 
 ### CH Curve
 
-![](Lab_CH_BA1.jpg "Lab_CH_BA1.jpg") The CH curve (chromaticity
+![](/images/Lab_CH_BA1.jpg "Lab_CH_BA1.jpg") The CH curve (chromaticity
 according to hue) allows to control output chromaticity based on the
 input hue, C=f(H). Using it you can very easily boost or mute only a
-selected range of colors.  
+selected range of colors.
 
 ### HH Curve
 
-![](Lab_HH_BA.jpg "Lab_HH_BA.jpg") The HH curve (hue according to hue)
+![](/images/Lab_HH_BA.jpg "Lab_HH_BA.jpg") The HH curve (hue according to hue)
 allows to alter the hue for a specified hue. For example, one could
 shift reds to be more orange by moving the red point up until the thick
 horizontal line that appears as the point is being dragged becomes the
@@ -167,7 +166,7 @@ between the previous and next color, e.g. green could be changed within
 the range of yellow and blue (as you can see in the curve on the
 screenshot above). This is useful, for example, for fine-tuning skin
 tone appearance, removing a greenish pale look by shifting reds and
-yellows a little towards magenta.  
+yellows a little towards magenta.
 
 ### CC Curve
 
@@ -183,7 +182,7 @@ Image:Lab_CC_BA2.jpg\|Mute low chromaticity. Image:Lab_CC_BA3.jpg\|Mute
 low chromaticity.
 
 You can use the Show/Hide chromaticity histogram button
-![<File:Histogram-gold-on-small.svg>](Histogram-gold-on-small.svg "File:Histogram-gold-on-small.svg")
+![<File:Histogram-gold-on-small.svg>](/images/Histogram-gold-on-small.svg "File:Histogram-gold-on-small.svg")
 besides the histogram to help you see the effects of your CC curve
 tweaks on the histogram, and to help you find the maximum value before
 you start clipping colors.

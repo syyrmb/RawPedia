@@ -12,16 +12,15 @@ If you would like to chat with other RawTherapee users about any topic
 in real time, or catch one of the devs, feel welcome to join our
 [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) channel:
 
-`Channel: #rawtherapee`  
-`Network: freenode`  
+`Channel: #rawtherapee`
+`Network: freenode`
 `Server: chat.freenode.net`
 
 To do so, follow these steps:
 
 1.  Use
     [webchat](http://webchat.freenode.net/?randomnick=1&channels=rawtherapee&prompt=1),
-    or download an [IRC
-    client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
+    or download an [IRC client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
     (which is a piece of software that lets users like us talk on IRC).
     There are many free clients for all platforms.
     - For Windows: [HexChat](http://hexchat.github.io/),
@@ -35,7 +34,7 @@ To do so, follow these steps:
     - For Android:
       [Yaaic](https://play.google.com/store/apps/details?id=org.yaaic)
 
-      
+
     The Opera web browser also has native IRC support.
 
     Once you've installed an IRC client, take a look at its settings.

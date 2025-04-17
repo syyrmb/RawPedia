@@ -19,13 +19,13 @@ Local editing in RawTherapee is based on RT-spots, which are similar in
 principle to the U-Point concept originally used in Nikon Capture NX2
 and subsequently in the Nik Collection, DxO PhotoLab and Capture NXD.
 RT-spots use algorithms developed specifically for RawTherapee by
-Jacques Desmis.  
+Jacques Desmis.
 This approach is completely different to the more familiar local editing
 methods used in applications such as GIMP, Photoshop, etc., which
 primarily use selection tools such as lassos, magic wands etc.,
 associated with brushes, layers and blend masks. These methods can be
 time consuming and difficult to use accurately when complex shapes are
-involved.  
+involved.
 An RT-spot consists of either an ellipse or a rectangle with a
 variable-diameter circle at the center. The shapes have four control
 points, which can be adjusted independently or symmetrically. The
@@ -209,8 +209,7 @@ text.
 
 #### Choose the type of Spot
 
-[The four types of
-RT-spot](Local_Adjustments#The_4_types_of_RT-spot.md)
+[The four types of RT-spot](local_adjustments#the_4_types_of_rt-spot)
 
 #### Preparation
 
@@ -1429,9 +1428,8 @@ Other methods can be used for the same purpose.
   - Wavelet levels noise reduction, which includes a "Denoise hue
     equalizer" and makes use of local contrast.
 
-Comparison of Denoise tools [Comparison of the 3 Rawtherapee noise
-reduction
-tools](Comparison_of_the_3_Rawtherapee_noise_reduction_tools.md)
+Comparison of Denoise tools
+[Comparison of the 3 Rawtherapee noise reduction tools](comparison_of_the_3_rawtherapee_noise_reduction_tools)
 
 ###### Summary
 
@@ -2552,8 +2550,8 @@ width="600" alt="ciecam_light_prepa.jpg" />
 ##### Using Log Encoding + Ciecam
 
 Create a full-image spot and then "Add tool to current spot" \> Log
-Encoding. For this example, and for comparison with [Lift the
-shadows](Local_Adjustments#Using_Log_Encoding.md), the following
+Encoding. For this example, and for comparison with
+[Lift the shadows](local_adjustments#using_log_encoding), the following
 arbitrary settings are used:
 
 - Set the value of Scope = 79
@@ -2835,9 +2833,8 @@ processing chain. Other aspects such as the HDR monitor characteristics
   (LA) process and Lab=\>RGB at the end of the LA process do not change
   the dynamic range (DR). If an image has a DR of 15Ev before the LA
   module, it has approximately the same value after the LA module (any
-  differences will be due to user adjustments).[Jzazbz - a new
-  experimental CAM? (Cam16 &
-  JzCzHz)](CIECAM02#Jzazbz_-_a_new_experimental_CAM_(Cam16_&_JzCzHz) "wikilink").
+  differences will be due to user adjustments).
+  [Jzazbz - a new experimental CAM? (Cam16 & JzCzHz)](CIECAM02#Jzazbz_-_a_new_experimental_CAM_(Cam16_&_JzCzHz) "wikilink").
   However, while Lab allows low light levels (less than 0.005 cd/m2) to
   be taken into account, this is not the case for highlights \> 120
   cd/m2 because of the use of gamma. Nevertheless, Lab preserves
@@ -2912,8 +2909,7 @@ described in the two previous paragraphs, it was decided:
     when it isn’t necessary can lead to a change in the overall
     colorimetry that is not always easy to recover. The "Brightness
     compression" slider is used to limit the action for high luminance
-    values.[An evaluation of the dynamic-range capabilities of
-    tools](Local_Adjustments#An_evaluation_of_the_dynamic-range_capabilities_of_tools_in_the_%E2%80%9Clacam16%E2%80%9D_development_branch.md)
+    values.[An evaluation of the dynamic-range capabilities of tools](local_adjustments#an_evaluation_of_the_dynamic-range_capabilities_of_tools_in_the_%e2%80%9clacam16%e2%80%9d_development_branch)
   - Tone Response Curve (TRC) & Midtones: in the majority of cases, this
     module allows you to modify underexposed images (with deep shadows),
     or images where there are problems with luminance balance. This
@@ -2971,9 +2967,7 @@ luminance of the background (in full sunlight, in a dark room, etc.). Be
 careful not to misuse the Viewing Conditions settings to compensate for
 imperfect Scene Conditions or Source Data Adjustments settings.
 
-[Color Appearance & Lighting (CIECAM02/16) et Color Appearance (Cam16 &
-JzCzHz) -
-Tutorial](CIECAM02#Color_Appearance_.26_Lighting_.28CIECAM02.2F16.29_et_Color_Appearance_.28Cam16_.26_JzCzHz.29_-_Tutorial.md)
+[Color Appearance & Lighting (CIECAM02/16) et Color Appearance (Cam16 & JzCzHz) - Tutorial](ciecam02#color_appearance_.26_lighting_.28ciecam02.2f16.29_et_color_appearance_.28cam16_.26_jzczhz.29_-_tutorial)
 
 ###### What principles do "Log encoding" and Scene Conditions use to render an image prior to Cam16?
 
@@ -3159,11 +3153,9 @@ In Primaries & Illuminant - go to “Dominant color”:
 - Raw file(Copyright - Roberto Posadas - Common Attribution-share Alike
   4.0):
   [28](https://drive.google.com/open?id=1RXoXp-AHWzo6mzbd-VyRTRvmRlFtyZDq)
-- pp3 file ![Truck-tunnel.pp3](Truck-tunnel-1.pp3 "Truck-tunnel.pp3")
-- pp3 file 2 ![Truck-tunnel.pp3 - 2
-  spots](Truck-tunnel-2.pp3 "Truck-tunnel.pp3 - 2 spots")
-- pp3 file 3 ![Truck-tunnel.pp3 -
-  Surround](Truck-tunnel-3.pp3 "Truck-tunnel.pp3 - Surround")
+- pp3 file ![Truck-tunnel.pp3](/images/Truck-tunnel-1.pp3 "Truck-tunnel.pp3")
+- pp3 file 2 ![Truck-tunnel.pp3 - 2  spots](/images/Truck-tunnel-2.pp3 "Truck-tunnel.pp3 - 2 spots")
+- pp3 file 3 ![Truck-tunnel.pp3 - Surround](/images/Truck-tunnel-3.pp3 "Truck-tunnel.pp3 - Surround")
 
 ###### Image d'origine
 
@@ -3440,25 +3432,21 @@ should help to remedy this.
 Evaluation of the Source Data Adjustments 'SDA' module in Rawtherapee
 Processing Challenge -March and April 2024.
 
-[Evaluation of the SDA
-module](Rawtherapee_Processing_Challenge_feedback.md)
+[Evaluation of the SDA module](rawtherapee_processing_challenge_feedback)
 
 ### **Ciecam -JzCzHz Tutorial**
 
-[Color Appearance & Lighting (CIECAM02/16) et Color Appearance (Cam16 &
-JzCzHz) -
-Tutorial](CIECAM02#Color_Appearance_.26_Lighting_.28CIECAM02.2F16.29_et_Color_Appearance_.28Cam16_.26_JzCzHz.29_-_Tutorial.md)
+[Color Appearance & Lighting (CIECAM02/16) et Color Appearance (Cam16 & JzCzHz) - Tutorial](ciecam02#color_appearance_.26_lighting_.28ciecam02.2f16.29_et_color_appearance_.28cam16_.26_jzczhz.29_-_tutorial)
 
 ### **An experimental JzCzHz module**
 
-For a brief explanation of this module, see the following: [Experimental
-tool -
-JzCzHz](CIECAM02#Jzazbz_-_a_new_experimental_CAM.3F_.28Cam16_.26_JzCzHz.29.md)
+For a brief explanation of this module, see the following:
+[Experimental tool - JzCzHz](ciecam02#jzazbz_-_a_new_experimental_cam.3f_.28cam16_.26_jzczhz.29)
 
 #### Understanding the CAM - SDR - HDR settings - General
 
 For a brief explanation of this module, see the following
-:[CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_General](ciecam02#understanding_the_cam_-_sdr_-_hdr_settings_-_general)
+:[CIECAM02#Understanding_the_CAM_-_SDR_-_HDR_settings_-_General](/images/ciecam02#understanding_the_cam_-_sdr_-_hdr_settings_-_general)
 
 #### Understanding the CAM - SDR - HDR settings -Introduction
 
@@ -4223,9 +4211,7 @@ major differences:
   Light & Original Retinex, Blur/Grain & Denoise, Tone Mapping, Dehaze &
   Retinex, Sharpening, Local Contrast & Wavelets, Contrast by Detail
   Levels. There is also a Cam16 & JzCzHz Color Appearance module. See
-  [Tutoriel Color Appearance & Lighting (CIECAM02/16) et Color
-  Appearance (Cam16 &
-  JzCzHz)](CIECAM02#Color_Appearance_.26_Lighting_.28CIECAM02.2F16.29_et_Color_Appearance_.28Cam16_.26_JzCzHz.29_-_Tutorial.md)
+  [Tutoriel Color Appearance & Lighting (CIECAM02/16) et Color Appearance (Cam16 &  JzCzHz)](ciecam02#color_appearance_.26_lighting_.28ciecam02.2f16.29_et_color_appearance_.28cam16_.26_jzczhz.29_-_tutorial)
 - Each RT-spot creates an additional "layer" similar to the way layers
   are added in bit-map editors. Each new RT-spot is transparent and
   allows the user to see any previous modifications. The Excluding Spot
@@ -4247,8 +4233,7 @@ major differences:
     capable of handling over 15Ev which is well beyond the range of
     ordinary monitors. If an HDR monitor is available then the JzCzHz
     module can be used as a first approach to HDR processing.
-  - For more information go to [Tool sequence in the pipeline - General
-    colorimetry](Toolchain_Pipeline.md)
+  - For more information go to [Tool sequence in the pipeline - General colorimetry](toolchain_pipeline)
 - RT-spot objects are managed in a "for" loop (creation, modification,
   follow-up).
 - There is no code duplication. For example the Denoise tool in
@@ -4881,8 +4866,8 @@ function to work.
 
 ### Complementary algorithm - Mask and Modifications
 
-Example using a mask: [Example in Getting started to improve color
-selection](Local_Adjustments#Using_a_simple_mask_to_improve_color_selection.md)
+Example using a mask:
+[Example in Getting started to improve color selection](local_adjustments#using_a_simple_mask_to_improve_color_selection)
 
 #### Preamble
 
@@ -5251,8 +5236,8 @@ The Retinex module is similar to the other tools, however:
 
 ### Common Color Mask
 
-Example using a Common Color Mask:[Example in First Steps, Common Color
-Mask](Local_Lab_controls/fr#How_to_use_a_Common_Color_Mask_and_Example_merging_2_RT-Spots.md)
+Example using a Common Color Mask:
+[Example in First Steps, Common Color Mask](local_lab_controls/fr#how_to_use_a_common_color_mask_and_example_merging_2_rt-spots)
 
 The tools in this mask have the same characteristics as the other masks
 mentioned above. However the mask is based on different principles and
@@ -5424,8 +5409,8 @@ functions in the rest of RawTherapee.
   L\*a\*b\* Adjustments in the main-menu, which may lead to some
   differences in rendering.
 
-An example with Color & Light:[Example in first steps with Color &
-Light](Local_Adjustments#Adding_the_Color_&_Light_tool.md)
+An example with Color & Light:
+[Example in first steps with Color & Light](local_adjustments#adding_the_color_&_light_tool)
 
 <img src="/images/Colorspace_flowers.jpg" title="Colorspace_flowers.jpg"
 width="300" alt="Colorspace_flowers.jpg" />
@@ -5606,8 +5591,8 @@ Tips:
 ### Shadows/Highlights & Tone Equalizer
 
 Example using Shadows/Highlights & Tone Equalizer \> Tone Response
-Curve(TRC): [Example in First
-Steps](Local_Adjustments#Five_ways_to_change_the_exposure_and_lift_the_shadows.md)
+Curve(TRC):
+[Example in First Steps](local_adjustments#five_ways_to_change_the_exposure_and_lift_the_shadows)
 
 The module also includes:
 
@@ -5745,9 +5730,8 @@ or 1).
 
 #### Wavelets
 
-A simple application of wavelets (without using the pyramid): [Exemple
-dans Premiers pas d'utilisation de
-Wavelet](Local_Lab_controls/fr#Un_moment_de_folie_-_utiliser_wavelet.md)
+A simple application of wavelets (without using the pyramid):
+[Exemple dans Premiers pas d'utilisation de Wavelet](local_lab_controls/fr#un_moment_de_folie_-_utiliser_wavelet)
 
 Available controls:
 
@@ -5945,9 +5929,8 @@ close to the mean are amplified more than the lower and higher values.
 
 ### Tone Mapping
 
-Example increasing texture:[Example in First steps - increasing texture
-with Tone
-mapping](Local_Adjustments#Three_ways_of_increasing_texture.md)
+Example increasing texture:
+[Example in First steps - increasing texture with Tone mapping](local_adjustments#three_ways_of_increasing_texture)
 
 - Masking and "Recovery based on luminance mask" available in Standard
   and Advanced modes.
@@ -5974,8 +5957,7 @@ Soft Light is the same as the main-menu function.
 
 #### Original Retinex
 
-Example:[Dodge and Burn example in First
-Steps](Local_Adjustments#Dodging_and_Burning.md)
+Example: [Dodge and Burn example in First Steps](local_adjustments#dodging_and_burning)
 
 Tests on the original Retinex algorithm (based on the work carried out
 by IPOL) have shown that it has some useful features for local editing.
@@ -6039,9 +6021,8 @@ with Retinex for better results.
 
 #### Retinex: Important differences with the main-menu module
 
-Example using it to increase texture : [Example in First steps -
-increasing texture with
-Retinex](Local_Adjustments#Three_ways_of_increasing_texture.md)
+Example using it to increase texture :
+[Example in First steps - increasing texture with Retinex](local_adjustments#three_ways_of_increasing_texture)
 
 In Local adjustments, Retinex is similar to the main-menu
 implementation, however there are some differences.
@@ -6283,8 +6264,7 @@ in addition to the Denoise module for difficult images.
 
 ### Denoise
 
-Example: [Example in Getting started - Using Denoise
-module](Local_Adjustments#Using_the_Denoise_module.md)
+Example: [Example in Getting started - Using Denoise module](local_adjustments#using_the_denoise_module)
 
 This module is quite different from the main-menu noise reduction module
 for several reasons:
@@ -6483,11 +6463,9 @@ Example showing how it can be used:
 
 [Log Encoding](local_adjustments#log_encoding)
 
-[Log Encoding and highlight
-recovery](Local_Adjustments#Log_Encoding_and_Highlight_Recovery.md)
+[Log Encoding and highlight recovery](local_adjustments#log_encoding_and_highlight_recovery)
 
-[Other examples using Log
-Encoding](Local_Adjustments#Other_Examples_Log_Encoding.md)
+[Other examples using Log Encoding](local_adjustments#other_examples_log_encoding)
 
 #### Introduction
 
@@ -6600,9 +6578,8 @@ with a Graduated Filter equipped with 2 sliders: “Gradient strength” and
 
 ### Color appearance (Cam16 & JzCzHz)
 
-Example using Color Appearance and HDR functions:[HDR-SDR First approach
-: Log encoding – Cam16 – JzCzHz –
-Sigmoid](Local_Adjustments#HDR_to_SDR:_A_First_Approach_(Log_Encoding_-_CAM16_-_JzCzHz_-_Sigmoid) "wikilink")
+Example using Color Appearance and HDR functions:
+[HDR-SDR First approach : Log encoding – Cam16 – JzCzHz – Sigmoid](Local_Adjustments#HDR_to_SDR:_A_First_Approach_(Log_Encoding_-_CAM16_-_JzCzHz_-_Sigmoid) "wikilink")
 
 The Color appearance module (Cam16 & JzCzHz) is both:
 
@@ -6632,12 +6609,11 @@ Gradients, Excluding spots, etc.
 For an overview of Cam16:
 [Using_Cam16_and_HDR_features](local_adjustments#using_the_cam16_and_hdr_functions)
 
-For a presentation of JzCzHz :[Experimental JzCzHz
-module](Local_Adjustments#An_experimental_JzCzHz_module.md)
+For a presentation of JzCzHz :
+[Experimental JzCzHz module](local_adjustments#an_experimental_jzczhz_module)
 
-To see the tutorial: [Tutorial Color Appearance & Lighting (CIECAM02/16)
-and Color Appearance (Cam16 &
-JzCzHz)](CIECAM02#Color_Appearance_&_Lighting_(CIECAM02/16)_et_Color_Appearance_(Cam16_&_JzCzHz)_-_Tutorial "wikilink")
+To see the tutorial:
+[Tutorial Color Appearance & Lighting (CIECAM02/16) and Color Appearance (Cam16 &  JzCzHz)](CIECAM02#Color_Appearance_&_Lighting_(CIECAM02/16)_et_Color_Appearance_(Cam16_&_JzCzHz)_-_Tutorial "wikilink")
 It should be noted that the JzCzHz module contains all the tools
 necessary to replace Lab:
 

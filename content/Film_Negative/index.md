@@ -22,8 +22,7 @@ types and non-raw formats are not supported.
 
 In the negative image, each channel value is proportional to a power of
 the reciprocal of the corresponding channel in the original exposure
-(see [Photographic Film -
-Basics](https://en.wikipedia.org/wiki/Photographic_film#Film_basics) for
+(see [Photographic Film - Basics](https://en.wikipedia.org/wiki/Photographic_film#Film_basics) for
 more info). Each channel value is raised to a different exponent,
 depending on the film type, age and possibly other factors, such as
 shooting conditions. These exponents can be specified in order to better
@@ -50,14 +49,14 @@ common Kodak film types like the ColorPlus 200 or Gold 200.
     :\* The spots should differ in brightness, and should not be
     clipped.
 
-      
+
     Picking the spots needs to be done only once per film roll, then the
     processing profile can be copied and pasted onto the other
     photographs from the same roll. This allows you to use any image in
     the whole roll to pick the neutral spots.
 4.  White-balance the photo. Picking the white balance off a spot which
     should be neutral in hue, if the image has one, is easiest.
-      
+
     Picking the neutral spots changes the raw data's values in the
     [pipeline](toolchain_pipeline) before the white balance
     tool takes effect; therefore it is recommended to white-balance the

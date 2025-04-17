@@ -10,13 +10,12 @@ Specify which profile RawTherapee is to use when opening a raw photo and
 when opening a non-raw photo. When you have made your own default
 profile, you can tell RawTherapee to always use that one. To do that, to
 have it show up in the list, you must save it to RawTherapee's
-"*config*" folder. You can find out where it is on the [file
-paths](File_paths#Processing_Profiles.md) page.
+"*config*" folder. You can find out where it is on the
+[file paths](file_paths#processing_profiles) page.
 
 The default processing profile for non-raw files like JPEG or TIFF is
 best set to "Neutral". The "Neutral" profile just loads the photo as it
-is, without applying anything like [Auto
-Levels](Exposure#Auto_Levels.md) or
+is, without applying anything like [Auto Levels](exposure#auto_levels) or
 [Sharpening](sharpening).
 
 ## Custom Processing Profile Builder
@@ -30,8 +29,8 @@ allow a rules-based processing profile generation.
 This feature is very powerful; for example it allows you to set lens
 correction parameters or noise reduction based on image properties. It
 is called just once on the first edit of the picture, or called manually
-from the context menu when right-clicking on a thumbnail in the [File
-Browser](The_File_Browser_Tab.md) or
+from the context menu when right-clicking on a thumbnail in the
+[File Browser](the_file_browser_tab) or
 [Filmstrip](the_image_editor_tab#the_filmstrip)
 
 <b>Note:</b> You are responsible for using double quotes where necessary

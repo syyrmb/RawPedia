@@ -11,8 +11,7 @@ Flat-Field
 
 </div>
 
-[thumb](image:flatfield_landscape.jpg) [Flat-field
-correction](https://en.wikipedia.org/wiki/Flat-field_correction) is used
+[thumb](/images/flatfield_landscape.jpg) [Flat-field correction](https://en.wikipedia.org/wiki/Flat-field_correction) is used
 to compensate for the non-uniformity characteristics of the camera and
 lens combination. A well known example of such non-uniformity is
 vignetting - a peripheral darkening of the image, more pronounced in the
@@ -40,8 +39,7 @@ gamma-induced shifts. Thus in RawTherapee flat-field correction can be
 applied to raw files only.
 
 Due to performance considerations, thumbnail images do not reflect
-flat-field corrections. At present only the [main
-preview](The_Image_Editor_Tab#The_Preview_Panel.md) in the
+flat-field corrections. At present only the [main preview](the_image_editor_tab#the_preview_panel) in the
 [Editor](the_image_editor_tab#the_preview_panel) tab and the
 output image can be flat-field corrected.
 
@@ -87,15 +85,13 @@ Your flat-field image should be a de-focused photograph of a uniformly
 lit, uniformly colored and toned subject.
 
 The most optimal method of shooting such a flat-field image is to use a
-uniform piece of milky, semi-opaque [Poly(methyl
-methacrylate)](https://en.wikipedia.org/wiki/Poly(methyl_methacrylate))
+uniform piece of milky, semi-opaque [Poly(methyl methacrylate)](https://en.wikipedia.org/wiki/Poly(methyl_methacrylate))
 (PMMA, also sold under the names Acrylite, Lucite, Perspex and
 Plexiglas). It should be plain, colorless, smooth, with no symbols or
 writing etched or
 [embossed](https://en.wikipedia.org/wiki/Paper_embossing) into it. You
 can find sheets at hardware and art stores, or you may have luck finding
-an empty container made of such material - [Nordsjö
-Vävlim](http://www.nordsjoidedesign.se/se/PRODUKTER/Ovrigt/Tapettillbehor-1261.html)
+an empty container made of such material - [Nordsjö Vävlim](http://www.nordsjoidedesign.se/se/PRODUKTER/Ovrigt/Tapettillbehor-1261.html)
 containers work well. Cut out a shape the size of your lens barrel. If
 you use a lens with an extremely wide angle of view, such as Samyang 8mm
 fisheye lens, then the size will need to be several times larger than
@@ -142,8 +138,7 @@ Radius" slider at 32 or above.
 If you haven't yet found a PMMA sheet and you need a flat-field image
 ASAP, you can take a completely de-focused photo of a plain blank wall
 or a large sheet of matte paper. The difficulty here will be getting the
-light uniform - remember that the [inverse square
-law](https://en.wikipedia.org/wiki/Inverse-square_law) is playing
+light uniform - remember that the [inverse square law](https://en.wikipedia.org/wiki/Inverse-square_law) is playing
 against you. The light source should be far away and diffused, as you
 will not get a good flat-field image using a room light or a diffused
 strobe. Do not replace the PMMA sheet for a piece of paper, as the paper
@@ -241,8 +236,7 @@ repeatable vertical lines.
 [thumb](image:flatfield_flatfields.jpg).\]\] Non-uniformity
 of the captured field depends on the following parameters:
 
-- Camera (camera & sensor combination in case when a [digital
-  back](https://en.wikipedia.org/wiki/Digital_back) is used),
+- Camera (camera & sensor combination in case when a [digital   back](https://en.wikipedia.org/wiki/Digital_back) is used),
 - Lens,
 - Focal distance,
 - Aperture,
@@ -264,9 +258,8 @@ while depending on the number of flat-field images you have).
 
 ## Flat-Field File Browser Context Menu Options
 
-[thumb](image:flatfield_moveto.jpg) tab.\]\] You can apply
-and manage flat-field images from within the [File
-Browser](The_File_Browser_Tab.md) tab, by right-clicking on a
+![thumb](/images/flatfield_moveto.jpg) tab.\]\] You can apply
+and manage flat-field images from within the [File Browser](the_file_browser_tab) tab, by right-clicking on a
 thumbnail and selecting the "Flat-field" option. You will be presented
 with three sub-options:
 
@@ -277,11 +270,11 @@ with three sub-options:
 - "Move to flat-fields directory" moves the selected image into the
   directory specified in [Preferences](preferences).
 
-  
+
 
 ## Auto Selection
 
-[left](image:flatfield_autoselection.jpg) Flat-field
+[left](/images/flatfield_autoselection.jpg) Flat-field
 auto-selection capability can be engaged simply by checking the
 "Auto-selection" checkbox. RawTherapee will search through the files in
 the "Flat-fields directory" specified in preferences and select the
@@ -298,7 +291,7 @@ Auto-selection does not account for the tilt-shift settings used on the
 lens, therefore such flat-fields should not be stored in the main
 flat-fields directory, but rather in a descriptively named
 sub-directory. Such unusual flat-field files should be applied
-manually.  
+manually.
 
 ## Auto matching logic
 
@@ -319,22 +312,22 @@ The search for the best match is twofold:
 
 ## Blur Type
 
-Area  
+Area
 The default and generally most useful setting to apply blur action
 equally in all directions. Works well for correcting vignetting and lens
 cast.
 
-Vertical  
+Vertical
 Blurs the flat-field vertically to compensate for vertical
 non-uniformities. This is useful if the vertical sensor readout has
 variation between columns.
 
-Horizontal  
+Horizontal
 Blurs the flat-field horizontally to compensate for horizontal
 non-uniformities. This is useful if the horizontal sensor readout has
 variation between rows.
 
-Vertical + Horizontal  
+Vertical + Horizontal
 Blurs the flat-field sequentially horizontally and then vertically to
 compensate for both vertical and horizontal non-uniformities.
 

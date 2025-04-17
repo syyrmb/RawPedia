@@ -11,9 +11,9 @@ HSV Equalizer
 
 </div>
 
-![](HSV_color_solid_cylinder_alpha_lowgamma.png "HSV_color_solid_cylinder_alpha_lowgamma.png")
-The *HSV Equalizer* (Hue, Saturation and Value) works in the [HSV color
-space](https://en.wikipedia.org/wiki/HSL_and_HSV). Use it to selectively
+![](/images/HSV_color_solid_cylinder_alpha_lowgamma.png "HSV_color_solid_cylinder_alpha_lowgamma.png")
+The *HSV Equalizer* (Hue, Saturation and Value) works in the
+[HSV color space](https://en.wikipedia.org/wiki/HSL_and_HSV). Use it to selectively
 change colors, e.g. make the sky more dramatic by making it somewhat
 darker or more saturated without touching other colors. It can be very
 useful for correcting skin tones as well. 'Incorrect' use may produce
@@ -26,8 +26,8 @@ enabling the [Black-and-White](black-and-white) tool. The
 setting [Saturation](exposure#saturation) in the
 [Exposure](exposure) tool to -100.
 
-There is a description of how the [flat curve
-type](General_Comments_About_Some_Toolbox_Widgets#The_Flat_Curve.md)
-works in the [General Comments About Some Toolbox
-Widgets](General_Comments_About_Some_Toolbox_Widgets.md)
+There is a description of how the
+[flat curve type](general_comments_about_some_toolbox_widgets#the_flat_curve)
+works in the
+[General Comments About Some Toolbox Widgets](general_comments_about_some_toolbox_widgets)
 chapter.

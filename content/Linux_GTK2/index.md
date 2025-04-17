@@ -69,8 +69,7 @@ These versions of Ubuntu are badly outdated. The code below used to work
 but it may stop working at any moment. Upgrade your operating system.
 
 As these versions of Ubuntu only support GCC-4.8.1 and older, the latest
-commit you will be able to compile is [commit
-b343b9a7](https://github.com/Beep6581/RawTherapee/commit/b343b9a7) from
+commit you will be able to compile is [commit b343b9a7](https://github.com/Beep6581/RawTherapee/commit/b343b9a7) from
 2015-12-29 - newer versions will not compile.
 
     sudo apt-get update

@@ -13,8 +13,8 @@ How to Convert Raw Formats to DNG
 
 __TOC__
 
-![](Adobe_dng_converter_83.png "Adobe_dng_converter_83.png")
-![](Adobe_dng_converter_raw.png "Adobe_dng_converter_raw.png")
+![](/images/Adobe_dng_converter_83.png "Adobe_dng_converter_83.png")
+![](/images/Adobe_dng_converter_raw.png "Adobe_dng_converter_raw.png")
 
 Digital photography cameras can most often save your images in the
 [JPEG](http://en.wikipedia.org/wiki/JPEG) format, as well as dump the
@@ -72,8 +72,7 @@ Converter.
 
 Get the latest version of Adobe DNG Converter here:
 
-- [Download Adobe DNG
-  Converter](https://www.filehorse.com/download-adobe-dng-converter/old-versions/)
+- [Download Adobe DNG Converter](https://www.filehorse.com/download-adobe-dng-converter/old-versions/)
   (get the build for Windows if you're using Linux - installation is
   explained below).
 
@@ -91,8 +90,7 @@ The DNG format can contain real raw data, but it can also contain
 demosaiced images. These demosaiced images are no longer really raw -
 they have been pre-cooked. While this is generally undesirable, there
 are situations where we can take advantage of this possibility. Some
-cameras have sensors with [color filter
-array](https://en.wikipedia.org/wiki/Color_filter_array) layouts and
+cameras have sensors with [color filter array](https://en.wikipedia.org/wiki/Color_filter_array) layouts and
 sensor pixel layouts unsupported by RawTherapee. Though you cannot
 directly process these raw files in RawTherapee, you can convert them to
 demosaiced DNG files using the Adobe DNG Converter. As these demosaiced
@@ -113,7 +111,7 @@ These demosaiced DNG files can now be used in RawTherapee (or any other
 DNG-supporting program), though as they are already demosaiced the tools
 in the "Raw" tab will be disabled.
 
-  
+
 
 ## Installing Adobe DNG Converter in Linux
 

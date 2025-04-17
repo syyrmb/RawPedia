@@ -43,14 +43,13 @@ and escalate if the simple steps do not help:
 
 1.  First, try having RawTherapee use an empty startup folder:
     1.  Create a new empty folder somewhere on your disk,
-          
+
         Windows: `C:\\test`
 
         Linux: `/home/you/test`
-    2.  Find the "options" file as described in the [File
-        paths](File_paths.md) page.
+    2.  Find the "options" file as described in the [File paths](file_paths) page.
     3.  Open the "options" file in a text editor,
-          
+
         find the `StartupDirectory` line and set it to
         `StartupDirectory=last`
 
@@ -68,17 +67,14 @@ and escalate if the simple steps do not help:
         step 3. However, if RawTherapee still crashes right after
         starting, proceed to the next step.
 2.  Delete the `batch` folder:
-    1.  Find the "batch" folder as described in the [File
-        paths](File_paths.md) page, zip all of the files it
+    1.  Find the "batch" folder as described in the [File paths](file_paths) page, zip all of the files it
         contains if there are any, and then delete the folder.
     2.  Try starting RawTherapee again. If it works, then you know that
         one of the processing profiles of the photos you sent to the
-        Queue is faulty. Include the zip archive in your [bug
-        report](How_to_write_useful_bug_reports.md). If it still
+        Queue is faulty. Include the zip archive in your [bug report](how_to_write_useful_bug_reports). If it still
         crashes, proceed to the next step.
 3.  Delete the `cache` folder:
-    1.  Find the "cache" folder as described in the [File
-        paths](File_paths.md) page.
+    1.  Find the "cache" folder as described in the [File paths](file_paths) page.
     2.  Delete the cache folder or rename it if you don't want to lose
         the contents (renaming it from "cache" to "cache2" is enough,
         RawTherapee will only look for "cache" and not find it). Note
@@ -100,8 +96,8 @@ and escalate if the simple steps do not help:
 4.  Nail it down
     1.  A stack backtrace would most likely tell us everything we need
         to know, including the name of the faulty file and/or where to
-        find the problem in the code. See the [guide to
-        stack-backtraces](How_to_write_useful_bug_reports#When_RawTherapee_crashes_-_An_introduction_to_stack_backtraces.md).
+        find the problem in the code. See the
+        [guide to stack-backtraces](how_to_write_useful_bug_reports#when_rawtherapee_crashes_-_an_introduction_to_stack_backtraces).
         The instructions may seem complicated but they are simple to
         follow and it would be of tremendous help if you did follow
         them. Sending us a stack backtrace in most cases is enough.
@@ -128,7 +124,7 @@ and escalate if the simple steps do not help:
     - That there are 100 photos in the faulty folder, `001.raw` -
       `100.raw`
 
-      
+
     Let's find the faulty file:
 
     1.  This is grunt work. This guide assumes raw files as an example,
@@ -157,6 +153,5 @@ and escalate if the simple steps do not help:
         your [bug report](how_to_write_useful_bug_reports) or
         in the [forum](https://discuss.pixls.us/c/software/rawtherapee)
         (preferably a bug report), along with the stack backtrace and
-        other required information described in the guide "[How to write
-        useful bug
-        reports](How_to_write_useful_bug_reports.md)".
+        other required information described in the guide
+        "[How to write useful bug reports](how_to_write_useful_bug_reports)".
