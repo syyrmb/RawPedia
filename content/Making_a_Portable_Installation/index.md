@@ -5,12 +5,6 @@ contributors:
   - Hombre
 ---
 
-<div class="pagetitle">
-
-Making a Portable Installation
-
-</div>
-
 RawTherapee and the cache folder can be stored "self-contained" on a USB
 flash drive or any other mass-storage device.
 

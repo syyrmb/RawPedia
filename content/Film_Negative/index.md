@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Film Negative
-
-</div>
-
 ## Introduction
 
 Negatives are images with reversed lightness and hues, such as those

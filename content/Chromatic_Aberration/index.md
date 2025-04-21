@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Chromatic Aberration
-
-</div>
-
 <img src="/images/chromatic_aberration_auto1.jpg"
 title="chromatic_aberration_auto1.jpg" width="900"
 alt="chromatic_aberration_auto1.jpg" />

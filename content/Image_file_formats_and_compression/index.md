@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Image File Formats and Compression
-
-</div>
-
 ## Obsolete
 
 While the information contained here may have some value, note that it

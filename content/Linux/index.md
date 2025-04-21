@@ -10,12 +10,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Linux
-
-</div>
-
 This page details instructions for compiling RawTherapee on
 **GNU/Linux** systems. There are also instructions for compiling on
 [Windows](windows) and [macOS](macos).

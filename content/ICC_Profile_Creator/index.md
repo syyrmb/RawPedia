@@ -5,12 +5,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-The ICC Profile Creator
-
-</div>
-
 ## Introduction
 
 <figure>

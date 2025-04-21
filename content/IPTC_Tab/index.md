@@ -6,12 +6,6 @@ contributors:
   - Lebarhon
 ---
 
-<div class="pagetitle">
-
-IPTC Tab
-
-</div>
-
 [IPTC](https://en.wikipedia.org/wiki/IPTC_Information_Interchange_Model)
 values are metadata, as they are stored in the image files but do not
 affect the actual image. Basically the metadata summarized as IPTC

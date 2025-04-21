@@ -5,13 +5,8 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Defringe
-
-</div>
-[thumb](image:defringe.jpg)
-[thumb](image:defringe_curve.png) Purple fringes are a form
+[thumb](/images/defringe.jpg)
+[thumb](/images/defringe_curve.png) Purple fringes are a form
 of axial (or longitudinal) chromatic aberration, and appear along dark
 edges adjacent to bright areas due to incorrect focus, lens
 imperfections, or simply (but more technically) due to the nature of

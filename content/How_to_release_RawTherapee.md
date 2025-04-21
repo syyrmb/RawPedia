@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-How to Release RawTherapee
-
-</div>
-
 1.  Tea
 2.  Pull and update
 3.  Run:
@@ -20,18 +14,18 @@ How to Release RawTherapee
         dos2unix rtdata/languages/* rtdata/profiles/*
 5.  Update splash screen, `RELEASE_NOTES.txt`, AppData, language files,
     profiles, etc. Once ready, commit to new branch:
-      
+
         :git checkout -b release-5.10
         :git commit -a -m "Preparing for release 5.10-rc1"
         :git push --set-upstream origin release-5.10
 6.  Once others have revised the changes, merge this `release-5.10`
     branch into `releases`:
-      
+
         :git checkout releases
         :git pull
         :git merge release-5.10
 7.  Tag and push:
-      
+
         :git tag -a "5.10-rc1" -m "Tagged RawTherapee 5.10-rc1"
         :git push origin "5.10-rc1"
         :git push

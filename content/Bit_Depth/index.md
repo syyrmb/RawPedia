@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Bit Depth
-
-</div>
-
 ## Introduction
 
 You will hear terms such as "8-bit", "16-bit", "24-bit", "32-bit",

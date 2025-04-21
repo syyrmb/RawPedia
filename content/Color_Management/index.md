@@ -9,12 +9,6 @@ contributors:
   - Thanatomanic
 ---
 
-<div class="pagetitle">
-
-Color Management
-
-</div>
-
 Color management comprises all tasks to ensure a faithful representation
 of colors from scene to intermediate formats, editors and various output
 media. This is an often complicated and technical matter that

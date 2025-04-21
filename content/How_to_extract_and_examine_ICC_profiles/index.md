@@ -5,16 +5,10 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Extract and Examine ICC Profiles
-
-</div>
-
 ## DisplayCAL
 
-Project: DisplayCAL  
-Website: <https://displaycal.net/>  
+Project: DisplayCAL
+Website: <https://displaycal.net/>
 
 User interface, for Linux, macOS and Windows.
 
@@ -24,10 +18,10 @@ curves and colorspace gamut. It also lets you export these as images or
 
 ## ArgyllCMS
 
-Project: ArgyllCMS  
-Website: <https://www.argyllcms.com/>  
-Documentation (iccdump): <https://www.argyllcms.com/doc/iccdump.html>  
-Documentation (extracticc): <https://www.argyllcms.com/doc/extracticc.html>  
+Project: ArgyllCMS
+Website: <https://www.argyllcms.com/>
+Documentation (iccdump): <https://www.argyllcms.com/doc/iccdump.html>
+Documentation (extracticc): <https://www.argyllcms.com/doc/extracticc.html>
 
 Command-line, for Linux, macOS and Windows.
 
@@ -40,8 +34,8 @@ contents of ICC profiles as human-readable text.
 
 ## ICC Examin
 
-Project: Oyranos  
-Website: <http://www.oyranos.org/icc-examin/>  
+Project: Oyranos
+Website: <http://www.oyranos.org/icc-examin/>
 
 User interface, for Linux and macOS.
 
@@ -50,8 +44,8 @@ ICC Examin can show you ICC profile details including visualizing it in
 
 ## colord
 
-Project: colord  
-Website: <https://www.freedesktop.org/software/colord/>  
+Project: colord
+Website: <https://www.freedesktop.org/software/colord/>
 
 System service, user interfaces are available. Linux.
 
@@ -59,8 +53,8 @@ colord can show you ICC profile details.
 
 ## ExifTool
 
-Project: ExifTool  
-Website: <http://www.sno.phy.queensu.ca/~phil/exiftool/>  
+Project: ExifTool
+Website: <http://www.sno.phy.queensu.ca/~phil/exiftool/>
 
 Command-line, for Linux, macOS and Windows.
 
@@ -75,8 +69,8 @@ extract ICC profiles from images and embed them into images.
 
 ## GIMP
 
-Project: GIMP  
-Website: <https://www.gimp.org/>  
+Project: GIMP
+Website: <https://www.gimp.org/>
 
 User interface, for Linux, macOS and Windows.
 
@@ -85,8 +79,8 @@ User interface, for Linux, macOS and Windows.
 
 ## ImageMagick
 
-Project: ImageMagick  
-Website: <https://www.imagemagick.org/script/index.php>  
+Project: ImageMagick
+Website: <https://www.imagemagick.org/script/index.php>
 
 Command-line, for Linux, macOS and Windows.
 
@@ -94,8 +88,8 @@ Command-line, for Linux, macOS and Windows.
 
 ## iccToXml
 
-Project: IccXML  
-Website: <https://sourceforge.net/projects/iccxml/>  
+Project: IccXML
+Website: <https://sourceforge.net/projects/iccxml/>
 
 Command-line, Linux and Windows. Dead project.
 
@@ -106,7 +100,7 @@ Convert: `iccToXml profile.icc profile.xml`
 
 ## ICC Profile Inspector
 
-Project: ICC Profile Inspector  
-Website: <http://www.color.org/profileinspector.xalter>  
+Project: ICC Profile Inspector
+Website: <http://www.color.org/profileinspector.xalter>
 
 User interface, Windows only though runs in wine. Dead project.

@@ -6,12 +6,6 @@ contributors:
   - Benitoite
 ---
 
-<div class="pagetitle">
-
-The Favorites Tab
-
-</div>
-
 ## Favorites
 
 This tab allows you to choose which tools appear in the Favorites tab of

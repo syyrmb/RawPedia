@@ -5,11 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Contrast by Detail Levels
-
-</div>
 *Contrast by Detail Levels* uses wavelet decomposition to decompose the
 image into six levels, each adjusted by a slider. Slider 0 (Finest) has
 a pixel radius of 1, sliders 1 to 5 have a pixel radius of approximately
@@ -44,11 +39,11 @@ intention is to view it at its full size and from up close (e.g. art
 gallery), zoom to 100% and start by setting the sliders as follows, then
 fine-tune to taste:
 
-`0 (Finest)  : 1.4`  
-`1           : 1.4`  
-`2           : 0.4`  
-`3           : 0.4`  
-`4 (Coarsest): 1.2`  
+`0 (Finest)  : 1.4`
+`1           : 1.4`
+`2           : 0.4`
+`3           : 0.4`
+`4 (Coarsest): 1.2`
 `Skin Tones Targetting/Protection: -75`
 
 <img src="/images/Rt_cbdl_25_1.jpg" title="Rt_cbdl_25_1.jpg" width="900"

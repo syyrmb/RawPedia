@@ -6,11 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Impulse Noise Reduction
-
-</div>
 Suppresses salt-and-pepper noise - sudden white and black pixels, which
 remind one of salt and pepper sprinkled over a photo. This is done after
 demosaicing.

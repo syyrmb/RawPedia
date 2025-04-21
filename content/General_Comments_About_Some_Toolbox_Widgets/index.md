@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-General Comments About Some Toolbox Widgets
-
-</div>
-
 This article will enable you to use RawTherapee more efficiently and to
 take full advantage of features which even an experienced user may not
 know about. Take a few minutes to read it.

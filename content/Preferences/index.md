@@ -7,12 +7,6 @@ contributors:
   - Benitoite
 ---
 
-<div class="pagetitle">
-
-Preferences
-
-</div>
-
 You can access the Preferences window by clicking on the Preferences
 button [image:preferences.png](image:preferences.png) which
 is either in the bottom-left corner of the RawTherapee window, or the

@@ -9,12 +9,6 @@ contributors:
   - Benitoite
 ---
 
-<div class="pagetitle">
-
-The Editor
-
-</div>
-
 <figure>
 <img src="/images/Rt_55_trains.png" title="Rt_55_trains.png" />
 <figcaption>Rt_55_trains.png</figcaption>

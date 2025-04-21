@@ -5,12 +5,6 @@ contributors:
   - Thanatomanic
 ---
 
-<div class="pagetitle">
-
-The Queue
-
-</div>
-
 ## Introduction
 
 [Saving images](saving_images) from RawTherapee can be done

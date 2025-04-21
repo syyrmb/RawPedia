@@ -5,12 +5,6 @@ contributors:
   - Benitoite
 ---
 
-<div class="pagetitle">
-
-File Paths
-
-</div>
-
 RawTherapee makes use of a "cache" folder to store temporary files which
 are safe to delete, and a "config" folder which stores your RawTherapee
 settings, custom processing profiles and other user-editable files.

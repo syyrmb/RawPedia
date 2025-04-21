@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Batch Adjustments / Sync
-
-</div>
-
 RawTherapee lets you batch-adjust, or sync, the processing settings in
 many photos at the same time in generally two ways. It lets you copy and
 paste a [processing profile](sidecar_files_-_processing_profiles) (a collection

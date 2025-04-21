@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Color Toning
-
-</div>
-
 ## Introduction
 
 ![](Rt55_color_toning_grids_1_mask_on.png "Rt55_color_toning_grids_1_mask_on.png")

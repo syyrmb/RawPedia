@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Write Useful Bug Reports
-
-</div>
-
 Bugs must be reported in our [RawTherapee GitHub issue tracker](https://github.com/Beep6581/RawTherapee), not in the forum and
 not in IRC.
 

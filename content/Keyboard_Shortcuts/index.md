@@ -6,12 +6,6 @@ contributors:
   - Thanatomanic
 ---
 
-<div class="pagetitle">
-
-Keyboard Shortcuts
-
-</div>
-
 ![](KB_United_States-NoAltGr.svg "KB_United_States-NoAltGr.svg") Note
 that some shortcuts, specifically ones that involve one or more modifier
 keys such as +, are known to not work on some non-QWERTY keyboard

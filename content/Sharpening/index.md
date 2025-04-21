@@ -5,11 +5,6 @@ contributors:
   - Ingo
 ---
 
-<div class="pagetitle">
-
-Sharpening
-
-</div>
 This article describes the tool called "Sharpening", however RawTherapee
 contains other tools which can be used to perform various types of
 sharpening - see [Edges and Microcontrast](edges_and_microcontrast) and the

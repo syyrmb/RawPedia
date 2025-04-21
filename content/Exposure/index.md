@@ -7,12 +7,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Exposure
-
-</div>
-
 ## Auto Levels
 
 The *Auto Levels* tool analyzes the histogram and then adjusts the

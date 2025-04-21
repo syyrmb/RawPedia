@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Translating RawTherapee
-
-</div>
-
 This article explains how you can help translate RawTherapee's
 interface.
 

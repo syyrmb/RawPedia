@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Create LCP Profiles
-
-</div>
-
 You can easily create LCP (Lens Correction Profile) profiles using Adobe
 Lens Profile Creator.
 

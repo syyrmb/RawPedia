@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Flat-Field
-
-</div>
-
 [thumb](/images/flatfield_landscape.jpg) [Flat-field correction](https://en.wikipedia.org/wiki/Flat-field_correction) is used
 to compensate for the non-uniformity characteristics of the camera and
 lens combination. A well known example of such non-uniformity is

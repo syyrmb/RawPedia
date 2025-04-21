@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Black-and-White addon
-
-</div>
-
 ## The different methods
 
 ### General remarks

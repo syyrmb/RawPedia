@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Fix Crashes on Startup
-
-</div>
-
 RawTherapee might crash immediately after starting for several reasons,
 the common ones being that it tries to open a file which looks like an
 image but is not an image, it tries to open a corrupt or unsupported

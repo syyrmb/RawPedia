@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Channel Mixer
-
-</div>
-
 The *Channel Mixer* is used for special effects, for color and
 black-and-white alike. The *Channel Mixer* is divided into three
 sections: Red, Green and Blue. Those sections represent the three

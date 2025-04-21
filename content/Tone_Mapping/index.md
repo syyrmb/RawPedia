@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Tone Mapping
-
-</div>
-
 The effects of this tool are visible at any zoom level. However, due to
 the nature of the algorithm, only the 1:1 (or more) preview zoom will
 match the saved image perfectly. If you are zoomed out at less than 1:1,

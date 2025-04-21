@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-The File Browser
-
-</div>
-
 __TOC__
 
 The File Browser tab is where you review your photos, select photos for

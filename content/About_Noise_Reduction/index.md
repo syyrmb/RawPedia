@@ -5,11 +5,7 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Comparison of the RawTherapee noise reduction tools
-
-</div>
+# Comparison of the RawTherapee noise reduction tools
 
 ## Preamble
 

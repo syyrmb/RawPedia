@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Saving Images
-
-</div>
-
 Your original raw file will never be altered by RawTherapee.
 
 There are several ways of saving an image from the

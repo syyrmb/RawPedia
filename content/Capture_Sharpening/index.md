@@ -4,12 +4,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Capture Sharpening
-
-</div>
-
 ## What is it
 
 The Capture Sharpening tool helps recover details lost due to in-camera

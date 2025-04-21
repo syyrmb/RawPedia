@@ -5,12 +5,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-L\*a\*b\* Adjustments
-
-</div>
-
 ![](/images/Lab_color_space.png "Lab_color_space.png")
 [Lab](https://en.wikipedia.org/wiki/Lab_color_space) (also called CIELAB
 or L\*a\*b) is a three dimensional color space designed to approximate

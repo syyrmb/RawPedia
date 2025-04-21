@@ -6,12 +6,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-White Balance
-
-</div>
-
 ## Introduction
 
 Digital images generally consist of a mixture of the three primary

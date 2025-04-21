@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Crop
-
-</div>
-
 Cropping in RawTherapee does not discard the cropped-off area, it just
 hides it by drawing a crop frame and zooming in to fit the frame to the
 available screen space. You can still see the cropped-off area in the

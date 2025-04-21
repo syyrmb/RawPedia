@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Convert Raw Formats to DNG
-
-</div>
-
 __TOC__
 
 ![](/images/Adobe_dng_converter_83.png "Adobe_dng_converter_83.png")

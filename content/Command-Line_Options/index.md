@@ -5,12 +5,6 @@ contributors:
   - Hombre
 ---
 
-<div class="pagetitle">
-
-Command-Line Options
-
-</div>
-
 ## Explanation
 
 

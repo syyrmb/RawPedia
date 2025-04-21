@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Preprocessing
-
-</div>
-
 There are several preprocessing settings and they are split into two
 parts in the user interface, both in the "Raw" tab: one part appears as
 the main "Preprocessing" tool, and the other part appears within the

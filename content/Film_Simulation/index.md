@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Film Simulation
-
-</div>
-
 <img src="/images/Rt_haldclut_london.jpg" title="Rt_haldclut_london.jpg"
 width="900" alt="Rt_haldclut_london.jpg" /> The *Film Simulation* tool
 allows you to match the colors of a photo to a reference image with a

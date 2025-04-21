@@ -6,12 +6,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Vibrance
-
-</div>
-
 *Vibrance* is an intelligent saturation adjustment tuned to correlate
 with the color sensitivity of human vision. The vibrance effect is
 applied with higher accuracy on a correctly white balanced image when

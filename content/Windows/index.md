@@ -10,12 +10,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Windows
-
-</div>
-
 Follow the instructions on this page to compile RawTherapee on Windows
 using the [MSYS2](https://www.msys2.org) build environment. For more
 details on customizing and understanding the build process, see the

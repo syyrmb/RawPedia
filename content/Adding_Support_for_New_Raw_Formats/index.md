@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Adding Support for New Raw Formats
-
-</div>
-
 ## Introduction
 
 Supporting a raw format requires the following:

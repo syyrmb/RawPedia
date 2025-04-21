@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Color Appearance Model Cam02/16 & Jzazbz
-
-</div>
-
 August 2022
 
 ## Color Appearance & Lighting (CIECAM02/16) et Color Appearance (Cam16 & JzCzHz) - Tutorial

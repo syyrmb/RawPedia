@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Create DCP Color Profiles
-
-</div>
-
 ## What Are DCP Profiles and Why Do I Need Them?
 
 Technically, each photosite in a digital photography camera's [image sensor](http://en.wikipedia.org/wiki/Image_sensor) outputs a certain

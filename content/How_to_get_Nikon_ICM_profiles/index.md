@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Get Nikon ICM Profiles
-
-</div>
-
 Capture NX-D, Capture NX 2 and ViewNX-i are proprietary Windows programs
 provided for Nikon cameras and are able to accurately develop raw images
 to match the in-camera rendering. Behind the scenes, these programs
@@ -25,7 +19,7 @@ registered and trial versions of these programs.
 
 1.  First you have to install any of these programs.
 2.  Open the NEF file in it, and look inside the hidden folder:
-      
+
     `%APPDATA%\Local\Temp\Nkn`<random strings>`.tmp`
 
     The temporary ICC profiles will be created in this folder, with

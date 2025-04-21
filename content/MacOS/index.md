@@ -9,12 +9,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-MacOS
-
-</div>
-
 This page details instructions for compiling RawTherapee on **macOS**
 systems. There are also separate pages with instructions for compiling
 on [Linux](linux) and [Windows](windows). This

@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Features
-
-</div>
-
 - Open-source, cross-platform.
 - Easy camera-like starting point. By default, RawTherapee matches your
   raw photo to look like the out-of-camera JPEG photo. You can export

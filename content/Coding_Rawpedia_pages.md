@@ -4,18 +4,9 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Coding Rawpedia pages
-
-</div>
-<div class="headline">
-
 What follows are a set of coding rules needed to write Rawpedia pages,
 while using the customized Pivot skin. This page is not intended to be
 translated, just to help those who write documentation pages.
-
-</div>
 
 ## Standard MediaWiki coding markup
 

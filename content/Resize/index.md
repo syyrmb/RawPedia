@@ -7,12 +7,6 @@ contributors:
   - Thanatomanic
 ---
 
-<div class="pagetitle">
-
-Resize
-
-</div>
-
 <figure>
 <img src="/images/Resize_tool_5.4-dev.png" title="Resize_tool_5.4-dev.png" />
 <figcaption>Resize_tool_5.4-dev.png</figcaption>
@@ -55,7 +49,7 @@ significant:
 
 - Nearest
 
-  
+
 The "nearest neighbor" method of interpolation is meant to be used when
 you want to upscale an image in order to make some detail larger without
 introducing smooth blending between pixels. It preserves the pixels as
@@ -65,7 +59,7 @@ method is not meant to be used for everyday photography.
 
 - Lanczos
 
-  
+
 Lanczos is the default method. It is meant to be used for everyday
 photography and in all cases except for the one described above. It
 results in a smooth yet sharp and high quality image. Use it to resize
@@ -77,20 +71,20 @@ You can specify what dimensions to scale to or by:
 
 - Scale
 
-  
+
 Uniformly scale the image by a factor. Ranges from 0.01 (100 times
 smaller) to 16 (16 times bigger).
 
 - Width / Height
 
-  
+
 Set the desired absolute width or height in pixels, regardless of the
 image orientation. The other dimension is updated according to the
 aspect ratio.
 
 - Bounding Box
 
-  
+
 Resize to fit the image within a box of certain width and height in
 pixels, regardless of the image orientation. The image aspect ratio is
 kept. E.g. for a bounding box of 1920×1080 px and a landscape image of
@@ -100,7 +94,7 @@ will be 720×1080 px.
 
 - Long Edge / Short Edge (Since RawTherapee 5.9)
 
-  
+
 Set the desired size of either the long or short edge of the image in
 pixels. The other dimension is updated according to the aspect ratio.
 E.g. setting the long edge to 1500 px for a landscape image of

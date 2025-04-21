@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Contributing
-
-</div>
-
 - Only RawTherapee developers or experienced users who have good
   communication with a developer will be given access to edit RawPedia.
 - If it's not revelatory, it's probably not worth writing. The longer a
@@ -41,14 +35,14 @@ Contributing
 - Keep one empty line above and below all headings and files, as this
   makes editing documentation easier. e.g.
 
-`Lorem ipsum.`  
-  
-`==Foo Bar==`  
-  
-`Dolor sit amet. Consectetur adipiscing elit.`  
-  
-[`1`](File:foo.png)  
-  
+`Lorem ipsum.`
+
+`==Foo Bar==`
+
+`Dolor sit amet. Consectetur adipiscing elit.`
+
+[`1`](File:foo.png)
+
 `Duis vestibulum sodales est, eu placerat nulla vulputate a.`
 
 - The first time you use an abbreviation on a page, use the full form of
@@ -81,7 +75,7 @@ Contributing
 
 ` ./tools/generatePngIcons rtdata/images/svg/gamut-plus.svg`
 
-  
+
 Use the PNG icon from the folder named "dark".
 
 - Screenshots should show the relevant part and skip the rest.

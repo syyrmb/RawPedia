@@ -6,12 +6,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Edges and Microcontrast
-
-</div>
-
 __TOC__
 
 ## General

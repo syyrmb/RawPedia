@@ -6,14 +6,9 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Demosaicing
-
-</div>
-![](Chipincamera.jpg "Chipincamera.jpg")
-![](Bayer_pattern_on_sensor.svg "Bayer_pattern_on_sensor.svg")
-![](Bayer_pattern_on_sensor_profile.svg "Bayer_pattern_on_sensor_profile.svg")
+![](/imags/Chipincamera.jpg "Chipincamera.jpg")
+![](/imags/Bayer_pattern_on_sensor.svg "Bayer_pattern_on_sensor.svg")
+![](/imags/Bayer_pattern_on_sensor_profile.svg "Bayer_pattern_on_sensor_profile.svg")
 
 ## Introduction
 

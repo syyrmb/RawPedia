@@ -5,12 +5,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-The Floating-Point Engine
-
-</div>
-
 RawTherapee performs all calculations in 32-bit [floating point](https://en.wikipedia.org/wiki/Floating_point) precision (in
 contrast to 16-bit integer as used in many other converters such as
 [dcraw](https://en.wikipedia.org/wiki/Dcraw) and also in RawTherapee up

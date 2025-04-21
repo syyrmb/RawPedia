@@ -6,12 +6,6 @@ contributors:
   - Thanatomanic
 ---
 
-<div class="pagetitle">
-
-Getting Started
-
-</div>
-
 ## Scope
 
 RawTherapee is a powerful cross-platform raw image processing program,

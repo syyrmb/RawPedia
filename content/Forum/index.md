@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Forum
-
-</div>
-
 Visit our forum at <https://discuss.pixls.us/c/software/rawtherapee>
 
 ## Creating Screenshots

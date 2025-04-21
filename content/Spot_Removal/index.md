@@ -4,12 +4,6 @@ contributors:
   - Thanatomanic
 ---
 
-<div class="pagetitle">
-
-Spot Removal
-
-</div>
-
 The spot removal tool can be used to mask portions of an image (e.g.
 blemishes, sensor dust) with another part of the same image. You can
 even use it to remove entire objects from an image, like in the example

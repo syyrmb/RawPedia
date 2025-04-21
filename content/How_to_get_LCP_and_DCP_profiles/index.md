@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-How to Get LCP and DCP profiles
-
-</div>
-
 A large collection of LCP (Adobe Lens Correction Profiles - for
 correcting lens distortion, vignetting and chromatic aberration) and DCP
 (DNG Color Profiles - camera input color profiles) come bundled with

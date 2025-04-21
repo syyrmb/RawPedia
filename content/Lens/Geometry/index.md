@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Lens/Geometry
-
-</div>
-
 To keep the preview fast, RawTherapee uses the preview image of the
 current zoom level when applying these transformations. Because of this,
 the preview image can become soft. Lets assume you are editing a Nikon

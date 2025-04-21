@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Color Management Supplement
-
-</div>
-
 ## Colorimetry concepts
 
 This document aims at several objectives about colorimetry:

@@ -5,12 +5,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Local Adjustments
-
-</div>
-
 22/01/2025
 
 ## Introduction

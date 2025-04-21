@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Dark-Frame
-
-</div>
-
 [Dark-frame subtraction](https://en.wikipedia.org/wiki/Dark-frame_subtraction) is a
 method of dealing with thermal, dark-current and fixed-pattern noise. It
 is not effective against high ISO noise because of its different random
