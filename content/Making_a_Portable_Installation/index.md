@@ -28,7 +28,7 @@ extract the RawTherapee files.
   [innoextract](http://constexpr.org/innoextract/) to unpack it.
 - If it is an MSI installer (no recent Windows builds use this at the
   time of writing), fire up a command prompt and type:
-    
+
       msiexec /a RawTherapee.msi TARGETDIR="C:\TargetDir" /qb
 
   Replace the name of the MSI installer and the target directory as
@@ -64,9 +64,8 @@ A RawTherapee AppImage is a single file which contains a RawTherapee
 executable along with all the required files needed for it to run on any
 Linux distribution. Download it, make it executable, and run it. We are
 currently in the testing phase regarding AppImages. They are not yet
-available from our Downloads page, but you can find them on [our
-"development builds" page in the
-forum](https://discuss.pixls.us/t/download-rawtherapee-development-builds/2924?u=morgan_hardwood).
+available from our Downloads page, but you can find them on
+[our "development builds" page in the forum](https://discuss.pixls.us/t/download-rawtherapee-development-builds/2924?u=morgan_hardwood).
 
 Regardless whether you use the AppImage or a "proper" RawTherapee build
 from the distribution's package manager, you will want to be able to
@@ -75,5 +74,5 @@ hang on to your RawTherapee configuration and processing profiles.
 In order to backup your configuration you will want to copy
 RawTherapee's *config* folder onto your USB stick. Specifically, you
 want the "*options*" file, your custom "*camconst.json*" if you made
-one, and any custom PP3, ICC, DCP and LCP profiles. The [File
-Paths](File_Paths.md) article describes where to find these.
+one, and any custom PP3, ICC, DCP and LCP profiles. The
+[File Paths](file_paths) article describes where to find these.

@@ -29,10 +29,8 @@ The latest version of RawTherapee to work under 32-bit Windows XP is
 [here](http://www.rawtherapee.com/downloads/5.0-r1/) (dated 2017-02-02).
 
 Note that RawTherapee also requires the availability of GTK+ 3.22.24 or
-newer to have [native window
-support](https://gitlab.gnome.org/GNOME/gtk/issues/760#note_110809).
-Without it RawTherapee may exhibit [strange
-behavior](https://github.com/Beep6581/RawTherapee/issues/4125), such as
+newer to have [native window support](https://gitlab.gnome.org/GNOME/gtk/issues/760#note_110809).
+Without it RawTherapee may exhibit [strange behavior](https://github.com/Beep6581/RawTherapee/issues/4125), such as
 maximizing underneath the taskbar in Windows 10. When using an up to
 date build environment, you should not encounter this problem.
 
@@ -47,8 +45,7 @@ the command:
 
     $ pacman -Syu
 
-MSYS2 provides [three
-'shells'](https://www.msys2.org/wiki/MSYS2-introduction/) (command-line
+MSYS2 provides [three 'shells'](https://www.msys2.org/wiki/MSYS2-introduction/) (command-line
 interfaces) for different purposes: **MSYS**, **MinGW 32-bit** and
 **MinGW 64-bit**. They can be launched through shortcuts in your Start
 menu. Most commonly you will be running a 64-bit operating system and
@@ -139,8 +136,7 @@ repository](https://github.com/Beep6581/RawTherapee):
 
 After cloning you will automatically have checked out the `dev` branch.
 This is the main development branch of RawTherapee and probably what you
-want to use. To switch to a [different
-branch](https://github.com/Beep6581/RawTherapee/branches), do the
+want to use. To switch to a [different branch](https://github.com/Beep6581/RawTherapee/branches), do the
 following:
 
     $ git checkout branchname # replace with another available branch name
@@ -341,8 +337,7 @@ Unicode version
 [2](http://www.jrsoftware.org/download.php/is-unicode.exe) to avoid
 problems with some languages.
 
-To help users [write useful bug
-reports](How_to_write_useful_bug_reports.md), package
+To help users [write useful bug reports](how_to_write_useful_bug_reports), package
 maintainers are encouraged to produce builds which include both a
 "release" and a "debug" executable, and to bundle them together with the
 GDB debugger executable.

@@ -12,10 +12,8 @@ RGB and L\*a\*b\*
 
 ![](RGB_Cube_Show_lowgamma_cutout_b.png "RGB_Cube_Show_lowgamma_cutout_b.png")
 ![](Lab_color_space.png "Lab_color_space.png")
-*[RGB](https://en.wikipedia.org/wiki/RGB_color_space)* and *[CIE
-L\*a\*b\*](https://en.wikipedia.org/wiki/Lab_color_space)* (or just
-"*Lab*") are two different [color
-spaces](https://en.wikipedia.org/wiki/Color_space), or ways of
+*[RGB](https://en.wikipedia.org/wiki/RGB_color_space)* and *[CIE L\*a\*b\*](https://en.wikipedia.org/wiki/Lab_color_space)* (or just
+"*Lab*") are two different [color spaces](https://en.wikipedia.org/wiki/Color_space), or ways of
 describing colors.
 
 Many people wonder what the differences are between adjusting lightness,

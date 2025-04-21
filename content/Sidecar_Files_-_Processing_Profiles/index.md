@@ -25,18 +25,15 @@ to the image the moment one of these actions are taken:
 - You apply a processing profile manually, by using the right-click
   context menu in the [File Browser](the_file_browser_tab) or
   [Filmstrip](the_image_editor_tab#the_filmstrip).
-- You apply a [dynamic processing
-  profile](Dynamic_processing_profiles.md).
+- You apply a [dynamic processing profile](dynamic_processing_profiles).
 
 When you open an image for editing, or when a processing profile is
 assigned, RawTherapee will convert the real raw data into a viewable
 image. In order to do this, there are many settings which need to be set
 to *something*, and what these specific values are depends on:
 
-- Your [default processing
-  profile](Preferences#Default_Processing_Profile.md).
-- Your [dynamic processing profile
-  rules](Dynamic_processing_profiles.md), if any.
+- Your [default processing profile](preferences#default_processing_profile).
+- Your [dynamic processing profile rules](dynamic_processing_profiles), if any.
 - Or on the processing profile you selected from the right-click context
   menu if you right-clicked on a thumbnail.
 
@@ -46,15 +43,13 @@ Processing profiles come from three quite different sources, though they
 work in exactly the same way:
 
 - "Bundled profiles".
-    
+
   RawTherapee comes with a bundle of profiles. Their purpose is to give
   you a good starting point, to demonstrate how the tools can be used
-  together. They are the ones you see in the [Processing Profile
-  Selector](The_Image_Editor_Tab#Processing_Profile_Selector.md)
-  drop-down list's "Bundled profiles" section, in the [Image
-  Editor](The_Image_Editor_Tab.md).
+  together. They are the ones you see in the [Processing Profile Selector](the_image_editor_tab#processing_profile_selector)
+  drop-down list's "Bundled profiles" section, in the [Image Editor](the_image_editor_tab).
 - "My profiles".
-    
+
   When you make a processing profile which you want to re-use, for
   example one which works well with your camera and your style, you can
   save it so that it also appears in the Processing Profile Selector
@@ -62,12 +57,11 @@ work in exactly the same way:
   save it to the "profiles" folder within the "config" folder - see the
   [File Paths](file_paths) article to find it.
 - Automatically generated profiles.
-    
+
   Whenever you edit an image, the tool settings you want applied to that
   image are stored in a processing profile that is particular to that
   image (ranking information, the history panel contents and snapshots
-  are not stored in these files yet, see [issue
-  \#473](https://code.google.com/p/rawtherapee/issues/detail?id=473)).
+  are not stored in these files yet, see [issue \#473](https://code.google.com/p/rawtherapee/issues/detail?id=473)).
 
 ## Saving
 
@@ -80,16 +74,13 @@ The processing profile is written to disk:
 
 - When you apply a processing profile manually or using a dynamic
   profile.
-- When you close the current image (the Editor tab) if using [Multiple
-  Editor Tabs Mode](The_Image_Editor_Tab#Editor_Tab_Modes.md)
+- When you close the current image (the Editor tab) if using
+  [Multiple Editor Tabs Mode](the_image_editor_tab#editor_tab_modes)
   (METM).
 - When you close the current image by opening a different image if using
-  [Single Editor Tab
-  Mode](The_Image_Editor_Tab#Editor_Tab_Modes.md) (SETM).
+  [Single Editor Tab Mode](the_image_editor_tab#editor_tab_modes) (SETM).
 - When you close the current image by closing RawTherapee.
-- When you manually save the processing profile using the [Processing
-  Profile
-  Selector](The_Image_Editor_Tab#Processing_Profile_Selector.md)
+- When you manually save the processing profile using the [Processing Profile Selector](the_image_editor_tab#processing_profile_selector)
   panel in the Editor tab.
 - When you use the "force saving current settings to the processing
   profile" [keyboard shortcut](keyboard_shortcuts) from the
@@ -104,14 +95,11 @@ Editor tab.
 
 ## Storage
 
-Where the processing profile is stored can be configured in [Preferences
-\> Processing Profile
-Handling](Preferences#Processing_Profile_Handling.md).
+Where the processing profile is stored can be configured in [Preferences \> Processing Profile Handling](preferences#processing_profile_handling).
 
 By default, the processing profile for an image is stored alongside the
 input image (if you open `kitty.raw`, a new file `kitty.raw.pp3` will be
-created next to it), but they can also be stored in a [central
-cache](File_Paths.md). You can choose whether RawTherapee should
+created next to it), but they can also be stored in a [central cache](file_paths). You can choose whether RawTherapee should
 use the cache, write the processing profile alongside the image, or
 both, from "*Preferences \> Image Processing*". We suggest you store
 these files alongside your input image files so that if you decide to
@@ -134,8 +122,7 @@ images usually have already been processed and are ready for viewing,
 having RawTherapee not introduce any tweaks by default is the desirable
 behavior.
 
-The default profile for **raw** photos is called "[Auto-Matched
-Curve](Auto-Matched_Curve.md)" (from RawTherapee 5.4 onward).
+The default profile for **raw** photos is called "[Auto-Matched Curve](auto-matched_curve)" (from RawTherapee 5.4 onward).
 This profile makes your raw image look like the out-of-camera JPEG,
 which is usually a desirable starting point.
 
@@ -159,8 +146,7 @@ Processing profile storage (saving to a file or copying to memory) and
 application (loading from a file or pasting from memory) can be partial,
 where only a subset of the parameters are involved, or full, involving
 all parameters. These operations are performed using the buttons in the
-[Processing Profile
-Selector](Editor#Processing_Profile_Selector.md) located in the
+[Processing Profile Selector](editor#processing_profile_selector) located in the
 top-right corner of the [Editor](editor) tab. Clicking these
 buttons invokes an operation on the full profile, while +clicking
 invokes an operation only on a subset of parameters. When a partial
@@ -172,12 +158,12 @@ another, while omitting all other parameters.
 The processing profile fill mode allows you to decide what happens when
 you apply (load or paste) a partial processing profile.
 
-- [image:Profile-filled.png](image:profile-filled.png) "Fill"
+- [image:Profile-filled.png](/images/profile-filled.png) "Fill"
   mode takes missing values from RawTherapee's hard-coded defaults. For
   instance, if you apply a partial profile containing only sharpening
   settings, all of the remaining tools will be set to their default
   parameters, overwriting any edits you have made.
-- [image:Profile-partial.png](image:profile-partial.png)
+- [image:Profile-partial.png](/images/profile-partial.png)
   "Preserve" mode applies only those parameters that are available in
   the partial profile and leaves missing values unchanged. Using the
   previous example, only the sharpening settings would be applied and
@@ -194,8 +180,8 @@ Using certain tools in certain ways may make your processing profile
 only usable with that specific image. For example if you set a white
 balance, cropping and rotation, you won't get good results if you apply
 that profile to an image taken under different lighting with the camera
-rotated any other way. See the article [Creating processing profiles for
-general use](Creating_processing_profiles_for_general_use.md)
+rotated any other way. See the article
+[Creating processing profiles for general use](creating_processing_profiles_for_general_use)
 for advice on how to make processing profiles which can be used on many
 images.
 

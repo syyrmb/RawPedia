@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-Shadows / Highlights
-
-</div>
-
 ## Introduction
 
 Use this tool to brighten the shadows or darken the highlights of an
@@ -24,8 +18,7 @@ saturation.
 
 Use it in moderation to preserve a natural look. If the photographed
 scene has a high dynamic range (very deep shadows and very bright
-highlights) then use the [Dynamic Range
-Compression](Dynamic_Range_Compression.md) tool to compress the
+highlights) then use the [Dynamic Range Compression](dynamic_range_compression) tool to compress the
 dynamic range to a more manageable level, and then optionally use this
 Shadows/Highlights tool on top of that.
 

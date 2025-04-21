@@ -49,7 +49,7 @@ equally controlling saturation of both pastel and saturated colors.
 
 ### Skin Tones - Hue According to Hue
 
-[thumb](image:vibrance_hh.jpg) This H=f(H) curve lets you
+[thumb](/images/vibrance_hh.jpg) This H=f(H) curve lets you
 change the hue of skin tones. It behaves just like the tone curve you
 know from any image editing program, but instead of working on a whole
 color channel it just works on a range of common skin tones. The x axis

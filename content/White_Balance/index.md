@@ -705,8 +705,7 @@ I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
     distribution. The majority of the image sky, trees, mountain is in
     sRGB, but the flowers at the bottom of the image (red, orange,
     yellow) are well beyond: how to treat, incidences of settings
-- [Lunching
-  Room](https://drive.google.com/file/d/1MMNzw3tPQuMeD5baqDlBXRvl4lDy2mLX/view?usp=sharing)
+- [Lunching Room](https://drive.google.com/file/d/1MMNzw3tPQuMeD5baqDlBXRvl4lDy2mLX/view?usp=sharing)
   (`LunchingRoom.CR2` CC BY-SA 4.0 Rawtherapee)
 
   This image shows that the algorithm can handle complex situations.
@@ -714,8 +713,7 @@ I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
   - By default with White Balance set to "Camera" the image is green.
   - Try successively, White Balance auto : 'Rgb grey' and "Temperature
     correlation".
-- [London
-  Bridge](https://drive.google.com/file/d/1CiQ2t4KyD3tdCiNNhskqUG2cH9LT2ly7/view?usp=sharing)
+- [London Bridge](https://drive.google.com/file/d/1CiQ2t4KyD3tdCiNNhskqUG2cH9LT2ly7/view?usp=sharing)
   (`london_bridge_moving_1.pef` CC BY-SA 4.0 Maciej Dworak)
 
   This image shows both the need for chromatic adaptation and the
@@ -726,8 +724,7 @@ I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
     temperature is high, giving the image a warm coloring, which can be
     seen on the faces, the deck stays.
   - Try Color Appearance in "Automatic symmetric" mode
-- [Calibration test
-  pattern](https://drive.google.com/file/d/1YFeoPL-RhStftDCCkbDNlmj8New_SgX0/view?usp=share_link)
+- [Calibration test pattern](https://drive.google.com/file/d/1YFeoPL-RhStftDCCkbDNlmj8New_SgX0/view?usp=share_link)
   (`DSCF5334.RAF` CC BY-SA 4.0 RawTherapee)
   - I chose this test pattern for two reasons: the first is that it is a
     RAF file, so it is not a Bayer file; the second is that it contains
@@ -742,14 +739,12 @@ I have (arbitrarily) chosen these 6 examples, to show what Itcwb can
     'Sort in chroma order' off or on and 'no purple used' off - the
     results are very close to those with Camera (which are better?), but
     there is no drift.
-- [Caribbean
-  Backlight](https://drive.google.com/file/d/1iqpj-vT3dqUmaXKOQE7QB_rynf4cbRPC/view?usp=share_link)
+- [Caribbean Backlight](https://drive.google.com/file/d/1iqpj-vT3dqUmaXKOQE7QB_rynf4cbRPC/view?usp=share_link)
   (`DSC02973.ARW` CC BY-SA 4.0 Jacques Desmis)
   - I chose this image, taken with my old Sony during a trip to the
     Caribbean, where I had chosen the automatic white balance.
   - Try with 'Camera' then 'Itcwb'.
-- [Using
-  Inpaint-opposed](https://drive.google.com/file/d/1ZxucMREXAAFlBijiBiBZoH9kG4-O2GYb/view?usp=share_link)
+- [Using Inpaint-opposed](https://drive.google.com/file/d/1ZxucMREXAAFlBijiBiBZoH9kG4-O2GYb/view?usp=share_link)
   (`Nikon - D800 - 14bit uncompressed (3_2).NEF` CC0 1.0 Pascal Obry)
   - I chose this image to show the impact of the white balance on
     "Inpaint opposed" (highlight reconstruction), especially the green

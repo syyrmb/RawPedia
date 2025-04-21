@@ -6,11 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Noise Reduction
-
-</div>
 ## Introduction
 
 <figure>
@@ -30,11 +25,12 @@ In order to effectively deal with mitigating noise it is useful to
 understand what types of noise exist and where they come from. The topic
 of noise is well explained in this paper by one of RawTherapee's
 developers and physics professor at the Enrico Fermi Institute, Emil J.
-Martinec: [Noise, Dynamic Range and Bit Depth in Digital
-SLRs](https://homes.psd.uchicago.edu/~ejmartin/pix/20d/tests/noise/index.html)
+Martinec:
 
-Light consists of packets of energy called photons. A [digital
-sensor](https://en.wikipedia.org/wiki/Image_sensor) comprises of
+[Noise, Dynamic Range and Bit Depth in Digital SLRs](https://homes.psd.uchicago.edu/~ejmartin/pix/20d/tests/noise/index.html)
+
+Light consists of packets of energy called photons. A
+[digital sensor](https://en.wikipedia.org/wiki/Image_sensor) comprises of
 millions of light-sensitive elements called *photosites* (also known as
 *sensels* - sensor elements). Each photosite is capable of recording a
 signal from a certain range of photons - too few and the photosite will
@@ -51,8 +47,7 @@ Also note that some sources do write "pixels" when they mean
 
 The physical sensitivity of the sensor is constant, however the
 photographer can amplify the recorded signal by modifying a setting you
-know as ISO (see the [Film
-Speed](https://en.wikipedia.org/wiki/Film_speed) article on Wikipedia).
+know as ISO (see the [Film Speed](https://en.wikipedia.org/wiki/Film_speed) article on Wikipedia).
 Since the signals recorded by the sensor are not perfect, using a higher
 ISO amplifies not only the desired signal, but also the noise. Sensors
 are susceptible to noise at every ISO level, however the higher the ISO
@@ -115,8 +110,8 @@ like a completely clean, smooth result, while others prefer to have some
 grain left over to give the photo a more film-like quality.
 RawTherapee's powerful *Noise Reduction* tool caters to all your needs -
 it lets you eliminate noise while retaining detail. It uses
-[wavelets](http://en.wikipedia.org/wiki/Wavelet), a [Fourier
-transform](https://en.wikipedia.org/wiki/Fourier_transform) and a
+[wavelets](http://en.wikipedia.org/wiki/Wavelet), a
+[Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) and a
 [median filter](https://en.wikipedia.org/wiki/Median_filter) to work its
 magic. Read on to learn how to use it efficiently.
 
@@ -132,16 +127,14 @@ This section details the order of operations for removing noise.
     and IGV are designed to prevent that from happening.
 2.  Check the sharpening tools to make sure that you're not sharpening
     any fine detail, because your noisy photo has no fine detail! If
-    you're using [Contrast by Detail
-    Levels](Contrast_by_Detail_Levels.md) or
+    you're using [Contrast by Detail Levels](contrast_by_detail_levels) or
     [Wavelets](wavelets), make sure that the first one or two
     fine-detail contrast sliders are at 0 to prevent these tools from
     amplifying noise.
 3.  Zoom into the photo to 100% or more and find an area that has both
     sharp, in-focus parts as well as large, plain or out-of-focus ones,
     so that you have a good overview of the effects of the tool.
-4.  Enable the [Hot/Dead Pixel
-    Filter](Preprocessing#Hot.2FDead_Pixel_Filter.md) if you
+4.  Enable the [Hot/Dead Pixel Filter](preprocessing#hot.2fdead_pixel_filter) if you
     notice salt-and-pepper noise (black and/or white pixels).
 5.  Enable the Noise Reduction tool. Chrominance noise is automatically
     removed and usually does not require any tweaking. At this point the
@@ -166,8 +159,8 @@ This section details the order of operations for removing noise.
 <File:Noise-cactus-2-lmmse.png%7CChanging> the demosaicing method to
 LMMSE eliminates the small maze-like patterns and makes the
 salt-and-pepper noise more clear.
-<File:Noise-cactus-3-pixelfilter.png%7CEnabling> the [Hot/Dead Pixel
-Filter](Preprocessing#Hot.2FDead_Pixel_Filter.md) eliminates the
+<File:Noise-cactus-3-pixelfilter.png%7CEnabling> the
+[Hot/Dead Pixel Filter](preprocessing#hot.2fdead_pixel_filter) eliminates the
 salt-and-pepper noise. <File:Noise-cactus-4-nr-chroma.png%7CEnabling>
 automatic chromaticity noise reduction renders a pleasantly-grainy
 image. <File:Noise-cactus-5-nr-luminance.png%7CLuminance> noise was
@@ -275,7 +268,7 @@ reintroducing noise, unless you set this value too high.
 
 ### Chrominance
 
-Method  
+Method
 
 Chrominance noise reduction can be performed using one of three methods:
 
@@ -283,7 +276,7 @@ Chrominance noise reduction can be performed using one of three methods:
 - Automatic global
 - Preview
 
-Preview noise  
+Preview noise
 
 The "Preview noise" indicator gives the estimated chromatic noise values
 after "Chrominance" processing:
@@ -296,24 +289,24 @@ after "Chrominance" processing:
 The three sliders and the curve act on the full image. You control the
 settings manually.
 
-Master  
+Master
 
 Controls the strength of chrominance noise reduction. Functions as an
 offset independently to the red-green and blue-yellow values. For
 example if master=50, red-green=-50 and blue-yellow=-50, the end result
 is 0; no effect.
 
-Red-Green  
+Red-Green
 
 Reduce/boost noise reduction in the red-green channel (a\* in
 L\*a\*b\*).
 
-Blue-Yellow  
+Blue-Yellow
 
 Reduce/boost noise reduction in the blue-yellow channel (b\* in
 L\*a\*b\*).
 
-Chrominance curve  
+Chrominance curve
 
 The chrominance curve lets you control chrominance noise as a function
 of the pixels' chrominance - e.g. it allows you to have strong
@@ -360,12 +353,12 @@ re-calculated when you pan or when you copy the profile to other images.
 
 <img src="/images/Rt_nr_median_books.jpg" title="Rt_nr_median_books.jpg"
 width="600" alt="Rt_nr_median_books.jpg" />
-![](Rt_nr_median_zoom_books.jpg "Rt_nr_median_zoom_books.jpg")
+![](/images/Rt_nr_median_zoom_books.jpg "Rt_nr_median_zoom_books.jpg")
 
 Use this filter to remove tiny, sharp-looking artifacts left-over from
 noise reduction.
 
-Median Type  
+Median Type
 
 The [median filter](https://en.wikipedia.org/wiki/Median_filter)
 replaces each pixel with the median value of its neighboring pixels. The
@@ -378,7 +371,7 @@ Available window sizes:
 
 - 3x3 soft: treats 5 pixels in a 3x3 pixel window.
 
-  
+
 ○●○
 
 ●●●
@@ -387,7 +380,7 @@ Available window sizes:
 
 - 3x3: treats 9 pixels in a 3x3 pixel window.
 
-  
+
 ●●●
 
 ●●●
@@ -396,7 +389,7 @@ Available window sizes:
 
 - 5x5 soft: treats 13 pixels in a 5x5 pixel window.
 
-  
+
 ○○●○○
 
 ○●●●○
@@ -409,7 +402,7 @@ Available window sizes:
 
 - 5x5: treats 25 pixels in a 5x5 pixel window.
 
-  
+
 ●●●●●
 
 ●●●●●
@@ -422,7 +415,7 @@ Available window sizes:
 
 - 7x7: treats 49 pixels in a 7x7 pixel window.
 
-  
+
 ●●●●●●●
 
 ●●●●●●●
@@ -439,7 +432,7 @@ Available window sizes:
 
 - 9x9: treats 81 pixels in a 9x9 pixel window.
 
-  
+
 ●●●●●●●●●
 
 ●●●●●●●●●
@@ -462,7 +455,7 @@ Sometimes it is possible to achieve higher quality running several
 iterations with a small window size than one iteration with a large
 window size.
 
-Median Method  
+Median Method
 
 You have five methods at your disposal:
 
@@ -489,8 +482,7 @@ filtering removes variations which you will lose anyway if you downscale
 the image. You are also likely not to see these variations if you print
 the image. Removing them using median filtering can reduce the file size
 by even 40% (tested using JPEG compression strength 92 with "balanced
-quality" [chroma
-subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling)), so give
+quality" [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling)), so give
 it a try if output file size is a factor.
 
 Finally, the "chroma only" median filter method can be used as a

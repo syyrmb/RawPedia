@@ -19,8 +19,7 @@ interface.
 RawTherapee's graphical user interface contains text in many places. In
 order to allow showing this text in various languages, the code contains
 only a key, and whenever text is meant to be displayed the code looks
-for that key in a plain-text [key--value
-pair](https://en.wikipedia.org/wiki/Attribute–value_pair) translation
+for that key in a plain-text [key--value pair](https://en.wikipedia.org/wiki/Attribute–value_pair) translation
 file, which corresponds to the language selected by the user (or
 auto-detected by RawTherapee, based on system settings). When a key is
 found in the chosen translation file, they key's value is used. If not
@@ -51,22 +50,21 @@ translation becomes outdated and this fact is not marked in any way. For
 this reason people maintaining a translation need to keep an eye on
 changes to existing values in `default` and update their translation
 accordingly. One way of keeping an eye on changes to `default` is by
-checking [git commits which affect that
-file](https://github.com/Beep6581/RawTherapee/commits/dev/rtdata/languages/default).
+checking [git commits which affect that file](https://github.com/Beep6581/RawTherapee/commits/dev/rtdata/languages/default).
 
 Using the "Exposure compensation" label as an example:
 
 - The key used in the code is `TP_EXPOSURE_EXPCOMP`.
 - The `default` file contains the key--value pair:
-    
+
   `TP_EXPOSURE_EXPCOMP;Exposure compensation`
 - The `English (US)` file contains the same pair, but prefixed with an
   exclamation mark:
-    
+
   `!TP_EXPOSURE_EXPCOMP;Exposure compensation`
 - Translations should contain the key with the value translated and the
   exclamation mark removed, e.g.:
-    
+
   `TP_EXPOSURE_EXPCOMP;Lorem ipsum`
 
 ## How To
@@ -82,7 +80,7 @@ Using the "Exposure compensation" label as an example:
     - If there is one, download it (right-click the "Raw" button and
       "Save link as").
 2.  Translate new strings.
-      
+
     Open `Inuktitut` in a modern text editor (Windows users: do not use
     "Notepad", get [Notepad++](https://notepad-plus-plus.org/) instead).
     All the strings that need translating are on lines that begin with
@@ -98,7 +96,7 @@ Using the "Exposure compensation" label as an example:
 
     `TP_EXPOSURE_EXPCOMP;Lorem ipsum`
 3.  Update existing strings
-      
+
     If your `Inuktitut` file has already been translated a long time
     ago, chances are that some of the translated parts are out of date.
     To update them, open the latest
@@ -108,8 +106,7 @@ Using the "Exposure compensation" label as an example:
     go through each already-translated string in `Inuktitut`, compare it
     to the English string in `default`, and update the translation if it
     no longer matches the English string.
-4.  When done translating, open a [new issue in
-    GitHub](https://github.com/Beep6581/RawTherapee/issues/new) and
+4.  When done translating, open a [new issue in GitHub](https://github.com/Beep6581/RawTherapee/issues/new) and
     attach your translation to it. Please do not create patch files of
     translations, just send us the whole translated file. We will then
     run it through the `/tools/generateTranslationDiffs` script which
@@ -132,8 +129,7 @@ those keys will not display correctly. Always stick to the style used in
 your translation.
 
 When a key uses markup, certain characters must be written using their
-[HTML character entity
-reference](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
+[HTML character entity reference](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
 name:
 
 - Write `<` using `<;`

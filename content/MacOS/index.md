@@ -32,8 +32,7 @@ that.
 
 ## Dependencies
 
-See the list of dependencies in the [Compiling in
-Linux](Linux#Dependencies.md) article.
+See the list of dependencies in the [Compiling in Linux](linux#dependencies) article.
 
 ### Homebrew
 
@@ -42,10 +41,10 @@ The following command installs dependencies for RawTherapee:
 
 - **Configuring the homebrew build environment for Apple Silicon "M1"**
 
-  
+
 To your `cmake` command add the following flags:
 
-  
+
 `-DLOCAL_PREFIX:STRING="/opt/homebrew"`
 
 `-DCMAKE_OSX_ARCHITECTURES=arm64`
@@ -58,35 +57,34 @@ Tested on OS X 10.9-12.
   - Xcode Developer Tools & Command Line Tools
   - MacPorts
     - Detailed instructions on setting up MacPorts and the developer
-      tools are available on the [MacPorts
-      website](https://www.macports.org).
+      tools are available on the [MacPorts website](https://www.macports.org).
 - **Configure MacPorts:**
 
-  
+
 Add the following line to /opt/local/etc/macports/variants.conf
 
-  
+
 `+quartz -x11 -gnome +openmp`
 
 - **Dependencies**
 
-  
+
 To install the dependencies, run from the terminal:
 
-  
+
 `sudo port install git cmake clang-11 libomp gtk3 gtkmm3 gtk-osx-application-gtk3 adwaita-icon-theme libsigcxx2 lcms2 libiptcdata fftw-3-single lensfun`
 
 If compiling on Xcode 9.2 you will also need to do:
 
-  
+
 `sudo port install ld64 +ld64_xcode`
 
 - **Configuring compile system for MacPorts**
 
-  
+
 To your `cmake` command add the following flag:
 
-  
+
 `-DLOCAL_PREFIX:STRING="/opt/local"`
 
 ## Compiling
@@ -116,27 +114,26 @@ compiler first:
 </div>
 
 If you see **Apple clang** mentioned in the top line of the **clang**
-version output, note the version number it specifies and refer to [this
-Wikipeda
-table](https://en.wikipedia.org/wiki/Xcode#Xcode_7.0_-_12.x_(since_Free_On-Device_Development))
+version output, note the version number it specifies and refer to
+[this Wikipeda table](https://en.wikipedia.org/wiki/Xcode#Xcode_7.0_-_12.x_(since_Free_On-Device_Development))
 for the mapping between **Apple clang** and **llvm clang** versions.
 This knowledge may be useful when tracing any compilation errors.
 
 If you want to upload a generic \`x86_64\` build or otherwise share it
 with others, you must use
 
-  
+
 `-DPROC_TARGET_NUMBER="1"`
 
 and set the processor label manually by setting
 
-  
+
 `-DPROC_LABEL="generic processor"`
 
 If you want to compile a CPU-optimized for yourself only, or build for
 the Apple \`M1\`, then use
 
-  
+
 `-DPROC_TARGET_NUMBER="2"`
 
 and then the processor label would be irrelevant, you could skip it.
@@ -145,7 +142,7 @@ If you wish to
 [codesign](https://developer.apple.com/support/code-signing/) your
 build, add your details to the CMake command:
 
-  
+
 `-DCODESIGNID="Developer ID Application: Firstname Lastname (XXXXXXXXXX)"`
 
 The app and the generated dmg (Apple Disk Image) will be codesigned.
@@ -155,7 +152,7 @@ To
 your codesigned build, include your app-specific notarial credential in
 the CMake command:
 
-  
+
 `-DNOTARY="--username user@mail.com --password abcd-efgh-ijkl-mnop"`
 
 The app and dmg will be notarized (scanned for malware) and stapled
@@ -246,13 +243,13 @@ architecture requirements you specified in variants.conf earlier.
 
 The generated zip file is named according to this template:
 
-  
+
 RawTherapee_OSX_**<minimum supported macOS version>**_64_**<RawTherapee version>**.dmg.zip
 
 RawTherapee_OSX_10.9_64_5.8-94-g4dbbc4053.dmg.zip
 
-Upload the zip archive to <http://filebin.net/> and [open a new issue on
-our GitHub page](https://github.com/Beep6581/RawTherapee/issues/new)
+Upload the zip archive to <http://filebin.net/> and
+[open a new issue on our GitHub page](https://github.com/Beep6581/RawTherapee/issues/new)
 with the link so that we can upload it to the website.
 
 ## macOS installation

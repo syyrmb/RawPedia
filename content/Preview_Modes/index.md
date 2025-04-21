@@ -110,8 +110,7 @@ which channel might be clipping or for aesthetic reasons.
 
 ## Focus Mask
 
-![Focus mask indicating the focusing
-plane](Preview_6_focus_2.jpg "Focus mask indicating the focusing plane")
+![Focus mask indicating the focusing plane](/images/Preview_6_focus_2.jpg "Focus mask indicating the focusing plane")
 The focus mask is designed to highlight areas of the image which are in
 focus. Naturally, focused areas are sharper, so the sharp areas are
 being highlighted. The focus mask is more accurate on images with a

@@ -10,10 +10,9 @@ cropping is used.
 
 For correcting vignetting caused by the lens light fall-off (as opposed
 to this filter which is not for correction but for artistic effect), use
-the [Vignetting
-Correction](Lens/Geometry#Vignetting_Correction.md) filter in
-the Transform tab, in the Lens/Geometry tool. Even better, use the [Flat
-Field](Flat_Field.md) tool.
+the [Vignetting Correction](lens/geometry#vignetting_correction) filter in
+the Transform tab, in the Lens/Geometry tool. Even better, use the
+[Flat Field](flat_field) tool.
 
 ## Strength
 

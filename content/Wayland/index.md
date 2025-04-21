@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Wayland
-
-</div>
-
 Users of the Wayland, a computer protocol which specifies the
 communication between a display server (called a Wayland compositor) and
 its clients, may find that there are some glitches in RawTherapee's user
@@ -34,7 +28,7 @@ Affected users are advised to:
 
 More information:
 
-  
+
 <https://fedoraproject.org/wiki/How_to_debug_Wayland_problems>
 
 Note that some information in the above document may not be up to date.

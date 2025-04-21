@@ -7,12 +7,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Wavelet Levels
-
-</div>
-
 <figure>
 <img src="/images/Daffodil_split.jpg" title="Daffodil_split.jpg" />
 <figcaption>Daffodil_split.jpg</figcaption>
@@ -68,7 +62,7 @@ is that in the Wavelet Transform the data being analyzed is represented
 as the frequencies present at the pixel level of the image, whereas in
 the standard Fourier Transform the data represents the frequencies
 present in the full image. Therefore, using wavelets offers more
-precision when analyzing the data.  
+precision when analyzing the data.
 <span style="font-size: 0.7em; font-style: italic;">\[Obviously this is
 a very simplistic explanation: mathematicians would surely have a lot to
 say here...\]</span>
@@ -77,9 +71,7 @@ say here...\]</span>
 wavelets in various tools, and in this one in particular it uses the
 [Daubechies](https://en.wikipedia.org/wiki/Daubechies_wavelet) wavelet,
 to decompose the elements of the image into the components of the
-[L\*a\*b\* color
-space](https://en.wikipedia.org/wiki/CIELAB_color_space) (*L\**, *a\**
-and *b\**).
+[L\*a\*b\* color space](https://en.wikipedia.org/wiki/CIELAB_color_space) (*L\**, *a\** and *b\**).
 
 Image decomposition is carried out using an
 [algorithm](https://en.wikipedia.org/wiki/Algorithm) to analyze the
@@ -106,7 +98,7 @@ characterize the image in the following two ways:
   your needs, however keep in mind that processing time and memory
   requirements will increase with the number of levels.
 
-  
+
 Because only *variations* (gradients, or differences) in
 [hue](https://en.wikipedia.org/wiki/Hue) or
 [luminance](https://en.wikipedia.org/wiki/Luminance) are analyzed at
@@ -124,8 +116,7 @@ scene-related optical phenomena.
 
 Moreover, each level the tool takes into account the set of coefficient
 values and calculates their arithmetic mean (for each level the mean
-will be different) and the [standard
-deviation](https://en.wikipedia.org/wiki/Standard_deviation). By adding
+will be different) and the [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation). By adding
 the maximum and minimum coefficients to this data, a characteristic
 distribution curve is generated for each level (it should be noted that
 this curve is not
@@ -136,8 +127,8 @@ the wavelet levels tool.
 ## In practice
 
 After decomposition, the resulting levels can be used for different
-purposes: image compression, noise reduction, [secret
-watermarking](http://www.intechopen.com/books/discrete-wavelet-transforms-algorithms-and-applications/application-of-discrete-wavelet-transform-in-watermarking),
+purposes: image compression, noise reduction,
+[secret watermarking](http://www.intechopen.com/books/discrete-wavelet-transforms-algorithms-and-applications/application-of-discrete-wavelet-transform-in-watermarking),
 specific residual image treatment for astronomy, etc.
 
 Depending on your needs, you can work either with an individual level of
@@ -151,8 +142,8 @@ The size of the details included in each level is:
 <figcaption>Wavelet_detail_size.jpg</figcaption>
 </figure>
 
-  
-  
+
+
 **1 (Finest)** : 2x2 pixels
 
 **2** : 4x4 pixels
@@ -188,8 +179,7 @@ little more than a blurred background.
 
 Wavelet decomposition separates the
 *[lightness](https://en.wikipedia.org/wiki/Lightness)* and the
-*[chroma](http://www.huevaluechroma.com/015.php)* channels ([*a\** and
-*b\**](https://en.wikipedia.org/wiki/CIELAB_color_space#CIELAB)) in the
+*[chroma](http://www.huevaluechroma.com/015.php)* channels ([*a\** and *b\**](https://en.wikipedia.org/wiki/CIELAB_color_space#CIELAB)) in the
 residual image and in each of the levels. This allows you to apply
 different adjustments to the brightness and tones of each level and
 carry out completely different processing operations on the residual
@@ -213,8 +203,7 @@ sharpness and on one’s ability to see any small changes introduced by
 the various modules: **the effects of this tool are only visible at full
 size** (or larger).
 
-In practice, this means that, [for processing speed
-reasons](General_Comments_About_Some_Toolbox_Widgets#The_Preview_Area.md),
+In practice, this means that, [for processing speed reasons](general_comments_about_some_toolbox_widgets#the_preview_area),
 you must have the final size of the image in mind. If it is planned to
 reduce the image size (scale it down, not crop it), then it is advised
 to first export it with its final size and process it afterwards with
@@ -255,8 +244,7 @@ many levels are being used for the preview (under the last slider of the
 
 #### Contrast by Detail Levels vs Wavelet Levels
 
-It's worth mentioning that RawTherapee has a tool called *[Contrast by
-Detail Levels](Contrast_by_Detail_Levels.md)* and although it
+It's worth mentioning that RawTherapee has a tool called *[Contrast by Detail Levels](contrast_by_detail_levels)* and although it
 looks like the Wavelet Levels tool, there are several important
 differences between them:
 
@@ -266,8 +254,7 @@ differences between them:
   of each level,
 - *Contrast by Detail Levels* adjusts equally all luminance (or chroma)
   values present in the level, while Wavelet Levels performs a
-  progressive adjustment ([this is explained further in the contrast
-  attenuation section](#The_attenuation_curve.md)),
+  progressive adjustment ([this is explained further in the contrast attenuation section](#the_attenuation_curve)),
 - *Contrast by Detail Levels* doesn't have a residual image.
 
 That said, it is possible to use both tools at the same time. It should
@@ -344,8 +331,7 @@ quality of the lower levels, or that of the residual image:
 - in some cases the best results for edge detection are obtained with D2
 - in other cases with D6 or D14
 
-This parameter has a fairly strong impact on *[Edge
-detection](#Edge_detection.md)* and also on global decomposition
+This parameter has a fairly strong impact on *[Edge detection](#edge_detection)* and also on global decomposition
 (the relationship between the residual image and each level).
 
 ### Preview
@@ -507,8 +493,8 @@ these values in all of the modules.
 In the case of the Contrast module, the first step is to set the
 contrast slider values for each decomposed level depending on the effect
 required. However, if you only perform this action, the contrast
-variations would be proportional to the original contrast ([homothetical
-modifications](https://en.wikipedia.org/wiki/Homothetic_transformation),
+variations would be proportional to the original contrast (
+[homothetical modifications](https://en.wikipedia.org/wiki/Homothetic_transformation),
 as in the *Contrast by Detail Levels* tool) and it would be quite easy
 to generate artifacts.
 
@@ -548,7 +534,7 @@ fundamental points:
 
 ### Contrast Levels
 
-![](wavelet_contrast_buttons.jpg "wavelet_contrast_buttons.jpg") The
+![](/images/wavelet_contrast_buttons.jpg "wavelet_contrast_buttons.jpg") The
 number of levels shown is defined by the ***Wavelet levels*** and you
 can reduce or increase this number in the wavelet configuration
 settings.
@@ -576,8 +562,7 @@ after removing all the details distributed across all of the levels.
 ### Attenuation and selectivity in contrast changes
 
 There are 3 sliders that allow you to adjust the curve for each level,
-as explained in [Analysis of the contrasts in each
-level](#Analysis_of_the_contrasts_in_each_level.md):
+as explained in [Analysis of the contrasts in each level](#analysis_of_the_contrasts_in_each_level):
 
 1.  ***Attenuation Response***: by selecting positive values the upper
     part of the curve becomes wider around the medium contrast area, and
@@ -817,9 +802,8 @@ the *Neutral* button to reset all the level sliders to their default
 value (0).
 
 In addition, there is a *Attenuation Response* slider for all 3 options,
-which will act in the same way as described in the [section on the
-attenuation of the Contrast
-module](#Attenuation_and_selectivity_in_contrast_changes.md).
+which will act in the same way as described in the
+[section on the attenuation of the Contrast module](#attenuation_and_selectivity_in_contrast_changes).
 
 ### Whole chroma range
 
@@ -906,8 +890,7 @@ curves above.
     </div>
   - *it should be noted that the dark area of the gradient corresponds
     to the pastel tones and the lighter area corresponds to the
-    saturated tones (following [this explanation of
-    saturation](https://en.wikipedia.org/wiki/Colorfulness))*
+    saturated tones (following [this explanation of saturation](https://en.wikipedia.org/wiki/Colorfulness))*
   - hovering the mouse over it, you can see the limits: by default the
     values presented are *Bottom-Left: 0, Top-Left: 2, Top-Right: 20,
     Bottom-Right: 30*.
@@ -1041,13 +1024,12 @@ Digital images often have speckled noise in the blue colors of the sky.
 Wavelet processing can accentuate this noise or generate small artifacts
 because it increases local contrast.
 
-This checkbox introduces a [median
-filter](https://en.wikipedia.org/wiki/Median_filter) to reduce these
+This checkbox introduces a [median filter](https://en.wikipedia.org/wiki/Median_filter) to reduce these
 artifacts, at the expense of loss of detail and generation of artifacts
 in areas where there are changes in tone or which have high contrast.
 Although useful for fast and undemanding processing, you will actually
-achieve better results with a judicious combination of the *[Noise
-Reduction](Noise_Reduction.md)* tool in the Detail tab and the
+achieve better results with a judicious combination of the
+*[Noise Reduction](noise_reduction)* tool in the Detail tab and the
 *[Denoise and Refine module](#denoise_and_refine_module)* in
 this tool.
 
@@ -1100,7 +1082,7 @@ rest of the colors.
 
 <div>
 
-- ![](wavelets_gamut_skin.jpg "wavelets_gamut_skin.jpg")\]
+- ![](/images/wavelets_gamut_skin.jpg "wavelets_gamut_skin.jpg")\]
 
 - <figure>
   <img src="/images/wavelets_gamut_skin_target0.jpg"
@@ -1151,8 +1133,8 @@ into account regardless of the colors modified with the curve.
 ### Avoid color shift
 
 Processing by Wavelet Levels can introduce significant hue changes,
-especially near the limits of the color range of the [working color
-space](Color_Management#Working_Profile.md). Activating this
+especially near the limits of the color range of the
+[working color space](color_management#working_profile). Activating this
 option makes a series of corrections to ensure that the resulting hue is
 related to the initial color.
 
@@ -1170,9 +1152,8 @@ Still, you can control to some extent which hues will be modified and
 decide which color dominants they will take.
 
 As with the other modules, there is an *Attenuation Response* slider,
-which will act in the same way as described in the [chapter on the
-attenuation in the Contrast
-module](#Attenuation_and_selectivity_in_contrast_changes.md).
+which will act in the same way as described in the
+[chapter on the attenuation in the Contrast module](#attenuation_and_selectivity_in_contrast_changes).
 
 ### Excluded Colors
 
@@ -1240,17 +1221,15 @@ would turn towards magenta/violet).
 
 From a practical point of view: a tone can become more or less saturated
 up *to a certain limit* and at the same time undergo a change in hue. To
-better visualize these effects, take a look at this [view from above the
-*L\*a\*b\* color
-space*](https://upload.wikimedia.org/wikipedia/commons/0/06/CIELAB_color_space_top_view.png),
+better visualize these effects, take a look at this
+[view from above the *L\*a\*b\* color space*](https://upload.wikimedia.org/wikipedia/commons/0/06/CIELAB_color_space_top_view.png),
 with *b\** as the vertical axis and *a\** as the horizontal axis. And
-don't miss this [front view of the *L\*a\*b\* color
-space*](https://upload.wikimedia.org/wikipedia/commons/7/7d/CIELAB_color_space_front_view.png).
+don't miss this [front view of the *L\*a\*b\* color space*](https://upload.wikimedia.org/wikipedia/commons/7/7d/CIELAB_color_space_front_view.png).
 The bottom of the top view matches the front of the front view.
 
 In the interface you will find two *curve types:* *Linear*
-(![](wavelet_toning_linear.jpg "wavelet_toning_linear.jpg")) and
-*Equalizer* (![](wavelet_toning_curve.jpg "wavelet_toning_curve.jpg")).
+(![](/images/wavelet_toning_linear.jpg "wavelet_toning_linear.jpg")) and
+*Equalizer* (![](/images/wavelet_toning_curve.jpg "wavelet_toning_curve.jpg")).
 To choose between one or the other, click on the small triangle on the
 right.
 
@@ -1279,7 +1258,7 @@ of how you can interact with the curve, see the explanations of the
 *[Tone Curves](exposure#tone_curves)*. And remember that if
 you don't like the changes you have made to the curve, you can always
 start over by clicking the reset arrow
-![<File:ResetButton.png>](ResetButton.png "File:ResetButton.png").
+![<File:ResetButton.png>](/images/ResetButton.png "File:ResetButton.png").
 
 As long as there are variations in contrast in the original image color,
 these curves will allow you to selectively vary the tone of the desired
@@ -1351,8 +1330,7 @@ to be the same.
 
 ## Denoise and Refine module
 
-This module complements the general **[Noise
-Reduction](Noise_Reduction.md)** tool (in the *Detail tab*) and
+This module complements the general **[Noise Reduction](noise_reduction)** tool (in the *Detail tab*) and
 **Edge Sharpness** (explained in the next section).
 
 Noise management is a complex issue because decisions have to be made as
@@ -1612,8 +1590,7 @@ highlighting it when analyzing the edges
 This module applies a form of contour detection on the details in each
 of the wavelet levels.
 
-At first glance it looks like an **[Unsharp
-Mask](Sharpening#Unsharp_Mask.md)**, because decomposition by
+At first glance it looks like an **[Unsharp Mask](sharpening#unsharp_mask)**, because decomposition by
 wavelet levels generates a *residual image* that looks a bit like a
 mask, but that's where the similarities end.
 
@@ -1627,9 +1604,8 @@ of these options are explained in detail below).
 
 Before explaining how to use the module, keep in mind the following to
 avoid generating excessively strong artifacts or effects: both the
-configuration of the *[Edge performance (D2, D4 ...
-D14)](#Edge_performance.md)* and the [strength of each level in
-*Denoise and Refine*](#Denoise_and_Refine_module.md) (when you
+configuration of the *[Edge performance (D2, D4 ... D14)](#edge_performance)* and the
+[strength of each level in *Denoise and Refine*](#denoise_and_refine_module) (when you
 have *Link with Edge Sharpness' Strength* activated) have a noticeable
 effect on *Edge detection*. Each time you make an adjustment, you need
 to evaluate the result and readjust everything to obtain good sharpness
@@ -1657,9 +1633,7 @@ There are 4 sliders:
     contrast. Its effect is stronger at finer levels and resetting this
     slider cancels out any changes in the rest of the module.
 2.  **Attenuation Response**: this operates in the same way as the
-    attenuation control described in the [chapter covering the
-    attenuation of the Contrast
-    module](#Attenuation_and_selectivity_in_contrast_changes.md).
+    attenuation control described in the [chapter covering the attenuation of the Contrast module](#attenuation_and_selectivity_in_contrast_changes).
     It controls the extent to which the contrast values will be
     modified.
 3.  **Radius**: generates a three-dimensional image effect and may give
@@ -1772,8 +1746,7 @@ For example, you can:
 ### Local contrast
 
 For each level of decomposition, the tool calculates the
-[mean](https://en.wikipedia.org/wiki/Mean) and [standard
-deviation](https://en.wikipedia.org/wiki/Standard_deviation) of the
+[mean](https://en.wikipedia.org/wiki/Mean) and [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) of the
 internal contrast of the details (also called *local contrast*) and then
 uses the results for subsequent modifications.
 
@@ -1952,8 +1925,7 @@ sliders:
   areas (such as noise or small details). Conversely, moving the cursor
   to the left will detect more edges, even the smallest ones, but it
   will also highlight noise.
-- **Threshold low (noise)**: this slider configures a [Gaussian
-  filter](https://en.wikipedia.org/wiki/Gaussian_blur) that does not
+- **Threshold low (noise)**: this slider configures a [Gaussian filter](https://en.wikipedia.org/wiki/Gaussian_blur) that does not
   directly modify the image, but rather the decomposition coefficients.
   On the left it acts on a 3x3 matrix, while on the right it acts on a
   larger 5x5 matrix. By blurring the image, noise and finer or lower
@@ -2002,7 +1974,7 @@ aspects of the edge detection algorithm:
 
 <div>
 
-- 
+-
 
 <figure>
 <img src="/images/wavelet_edge_sharpness.jpg"
@@ -2020,9 +1992,8 @@ This module allows you to selectively blur («defocus») the details of
 selected levels. The result is stronger in the higher levels (from
 *level 7* upwards) and is especially useful in astrophotography.
 
-The ***Attenuation Response*** slider acts as described in the [chapter
-on the attenuation of the Contrast
-module](#Attenuation_and_selectivity_in_contrast_changes.md).
+The ***Attenuation Response*** slider acts as described in the
+[chapter on the attenuation of the Contrast module](#attenuation_and_selectivity_in_contrast_changes).
 
 The ***Blur by levels*** curve modifies the luminance of each level: it
 is divided into 10 zones, with *level 1* on the left and *Extra* on the
@@ -2105,7 +2076,7 @@ In both cases you have 3 sliders to adjust the changes:
 
 <div>
 
-- ![](wavelet_smc_original.jpg "wavelet_smc_original.jpg")\]
+- ![](/images/wavelet_smc_original.jpg "wavelet_smc_original.jpg")\]
 
 - <figure>
   <img src="/images/wavelet_sharpm_ML60MC30.jpg"
@@ -2128,8 +2099,7 @@ Finally, under the *Soft Radius* you have the option to *Show wavelet
   black background and the details will be highlighted in white (if you
   have ever seen an *Unsharp Mask*, you will find it similar).
 - however, with the *Clarity* option, the mask is different and is based
-  on [Guided Image
-  Filtering](https://kaiminghe.github.io/eccv10/index.html) and is less
+  on [Guided Image Filtering](https://kaiminghe.github.io/eccv10/index.html) and is less
   intuitive. In general, the white areas (although blurred) are the ones
   that will be highlighted.
 
@@ -2265,8 +2235,7 @@ The last option in this group is the *Radius Shadows/Highlights*. Note:
 this slider will be hidden when the *Algorithm using negative values*
 option is activated.
 
-This slider applies [Guided Image
-Filtering](https://kaiminghe.github.io/eccv10/index.html) that
+This slider applies [Guided Image Filtering](https://kaiminghe.github.io/eccv10/index.html) that
 attenuates the transitions in the shadows and the highlights caused by
 the previous adjustments. It controls the area of influence of
 adjustments made in the shadows and highlights to improve the way they
@@ -2356,8 +2325,7 @@ aid to improve the [bokeh](https://en.wikipedia.org/wiki/Bokeh) of the
 image, by blurring the luminance of the residual image (***Blur
 Luminance**'') and its color component (***Blur Chroma**'').
 
-The result is closely linked to the values and to the number of [Wavelet
-levels](#Wavelet_levels.md): to obtain a good bokeh you need to
+The result is closely linked to the values and to the number of [Wavelet levels](#wavelet_levels): to obtain a good bokeh you need to
 be able to adjust the amount of detail in the image depending on whether
 you want the background to be partially recognizable or completely
 blurred.
@@ -2465,10 +2433,8 @@ weight of one over the other, to achieve a different result.
 
 This *balance* control changes the balance between diagonal
 decomposition on the one hand and vertical and horizontal decomposition
-on the other. Its principle is similar to that of the [edge-preserving
-decomposition](http://www.cs.huji.ac.il/~danix/epd) which is based on
-the [Cholesky
-factorization](https://en.wikipedia.org/wiki/Cholesky_decomposition) and
+on the other. Its principle is similar to that of the [edge-preserving decomposition](http://www.cs.huji.ac.il/~danix/epd) which is based on
+the [Cholesky factorization](https://en.wikipedia.org/wiki/Cholesky_decomposition) and
 linearly modifies the luminance values of the image.
 
 This module allows you to modify the effects of the following modules:
@@ -2496,9 +2462,7 @@ placed to the right, the lower levels are reduced and the upper levels
 are increased.
 
 You also have at your disposal an ***Attenuation Response*** slider,
-which will act as described in the [chapter on attenuation of the
-Contrast
-module](#Attenuation_and_selectivity_in_contrast_changes.md).
+which will act as described in the [chapter on attenuation of the Contrast module](#attenuation_and_selectivity_in_contrast_changes).
 
 Finally the option ***Chrominance balance*** allows you to modify the
 d/v-h balance of the chromatic components of the decomposition using the
@@ -2528,9 +2492,8 @@ contrast and thus soften the visibility of the noise, or reduce the
 values of high local contrasts and avoid artifacts.
 
 In addition, there is also a ***Attenuation Response*** slider, which
-will act in the same way explained in the [chapter on the attenuation of
-the Contrast
-module](#Attenuation_and_selectivity_in_contrast_changes.md).
+will act in the same way explained in the
+[chapter on the attenuation of the Contrast module](#attenuation_and_selectivity_in_contrast_changes).
 
 ### *After* Contrast Curve
 
@@ -2549,7 +2512,7 @@ image.
 
 ## Final comparison
 
- 
+
 
 <div>
 

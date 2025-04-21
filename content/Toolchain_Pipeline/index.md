@@ -6,12 +6,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Toolchain Pipeline and Colorimetry
-
-</div>
-
 ## Toolchain Pipeline
 
 ### Processing Order
@@ -384,8 +378,7 @@ use it to process images using tools such as:
 - Lightness, Brightness (and their corresponding contrast parameters),
   Chroma, Saturation, Colorfulness, etc.
 
-[Selective Editing - Cam16 and HDR
-functions](Local_Adjustments#Using_the_Cam16_and_HDR_functions.md)
+[Selective Editing - Cam16 and HDR functions](local_adjustments#using_the_cam16_and_hdr_functions)
 
 As mentioned above, colorimetry is not an exact science so you should
 use whichever tools give a result that is pleasing to your eye.
@@ -451,8 +444,7 @@ are concerned:
   or 15 Ev. HDR software that produces a DNG image from several
   bracketed images should be able to reach around 20 Ev.
 
-[An evaluation of the dynamic-range capabilities of tools in
-Selective_Editing](Local_Adjustments#An_evaluation_of_the_dynamic-range_capabilities_of_tools_in_Selective_Editing.md)
+[An evaluation of the dynamic-range capabilities of tools in Selective_Editing](local_adjustments#an_evaluation_of_the_dynamic-range_capabilities_of_tools_in_selective_editing)
 
 #### The principle of calculating Dynamic Range (DR)
 
@@ -570,8 +562,7 @@ account (as much as possible).
   either with ‘Ev- based’ or ‘Gamma-based’. If you want to increase the
   overall contrast you can activate ‘Slope-based’ or Sigmoid.
 
-[Rawtherapee Processing Challenge April
-2024](Rawtherapee_Processing_Challenge_feedback.md)
+[Rawtherapee Processing Challenge April 2024](rawtherapee_processing_challenge_feedback)
 
 ### Local Contrast
 

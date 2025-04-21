@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Soft Light
-
-</div>
-
 <figure>
 <img src="/images/Rt55_soft_light.png" title="Rt55_soft_light.png" />
 <figcaption>Rt55_soft_light.png</figcaption>

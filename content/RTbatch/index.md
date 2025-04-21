@@ -4,12 +4,6 @@ contributors:
   - DrSlony
 ---
 
-<div class="pagetitle">
-
-RTbatch
-
-</div>
-
 RTbatch is a
 [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 script which allows you to easily process an input image with all of

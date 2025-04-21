@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Watermarking
-
-</div>
-
 The following free, cross-platform software can be used for visually
 watermarking your images:
 
@@ -24,8 +18,7 @@ watermarking your images:
 - [G'MIC](http://gmic.sourceforge.net/)
 - [Imager](http://opendesktop.org/content/show.php/Imager?content=164549)
 - [ImageMagick](http://www.imagemagick.org/Usage/annotating/#watermarking)
-- [JACo
-  Watermark](https://sourceforge.net/projects/jaco-watermark/?source=directory)
+- [JACo Watermark](https://sourceforge.net/projects/jaco-watermark/?source=directory)
 - [Phatch](http://photobatch.stani.be/)
 - [XnConvert](http://www.xnview.com/en/xnconvert/)
 - [XnViewMP](http://www.xnview.com/en/xnviewmp/)
@@ -33,13 +26,12 @@ watermarking your images:
 Apply a hidden watermark to your images:
 
 - [G'MIC](http://gmic.sourceforge.net/)
-    
+
   See the "[Fourier watermark](https://gmicol.greyc.fr/)" tool in the
   "Spectral filters" menu.
 
   Reference:
   [-watermark-fourier](http://gmic.sourceforge.net/reference.shtml#watermark_fourier)
   (Document)
-- [Wavelet Based Steganography and
-  Watermarking](http://www.cs.cornell.edu/topiwala/wavelets/report.html)
+- [Wavelet Based Steganography and Watermarking](http://www.cs.cornell.edu/topiwala/wavelets/report.html)
   (Document)

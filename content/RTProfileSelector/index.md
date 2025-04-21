@@ -28,5 +28,4 @@ RTProfileSelector uses
 metadata from images.
 
 For installation procedures and online documentation, please go to the
-project's [wiki
-section](https://github.com/marcapelini/RTProfileSelector/wiki).
+project's [wiki section](https://github.com/marcapelini/RTProfileSelector/wiki).

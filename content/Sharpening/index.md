@@ -12,14 +12,12 @@ Sharpening
 </div>
 This article describes the tool called "Sharpening", however RawTherapee
 contains other tools which can be used to perform various types of
-sharpening - see [Edges and
-Microcontrast](Edges_and_Microcontrast.md) and the
+sharpening - see [Edges and Microcontrast](edges_and_microcontrast) and the
 [Wavelets](wavelets) tools.
 
 The Sharpening tool is applied to the full image, **before** the
 [Resize](resize) tool. If you would like to apply sharpening
-**after** resizing, use the [Post-Resize
-Sharpening](Resize#Post-Resize_Sharpening.md) tool which you
+**after** resizing, use the [Post-Resize Sharpening](resize#post-resize_sharpening) tool which you
 will find inside the Resize tool.
 
 ## Contrast Mask
@@ -28,7 +26,7 @@ The "contrast threshold" and "blur radius" sliders allow you to control
 a mask that decides which areas are affected by sharpening and which are
 left untouched. Activate the "preview the sharpening contrast mask"
 button
-![<File:Contrastmask-off.png>](Contrastmask-off.png "File:Contrastmask-off.png")
+![<File:Contrastmask-off.png>](/images/Contrastmask-off.png "File:Contrastmask-off.png")
 (in the toolbar above the main preview) to see this mask.
 
 ## Methods
@@ -40,9 +38,9 @@ technique used to increase the apparent
 [acutance](https://en.wikipedia.org/wiki/Acutance) (edge contrast) of an
 image, making it appear clearer, even though it technically does not
 really sharpen the image. It makes use of several phenomena of the human
-visual system in order to accomplish this effect, such as the [Cornsweet
-illusion](https://en.wikipedia.org/wiki/Cornsweet_illusion) and [Mach
-bands](https://en.wikipedia.org/wiki/Mach_bands). Though unsharp masking
+visual system in order to accomplish this effect, such as the
+[Cornsweet illusion](https://en.wikipedia.org/wiki/Cornsweet_illusion) and
+[Mach bands](https://en.wikipedia.org/wiki/Mach_bands). Though unsharp masking
 in other software is easily prone to causing
 [halos](https://en.wikipedia.org/wiki/Haloing), RawTherapee has a unique
 threshold slider which allows you to achieve a superb sharpening effect
@@ -58,7 +56,7 @@ For low ISO images that are in focus and without motion blur a value of
 
 #### Threshold
 
-[image:Usm_threshold.png](image:usm_threshold.png)
+[image:Usm_threshold.png](/images/usm_threshold.png)
 
 The *Threshold* tool helps to suppress noise amplification and haloing
 and to confine sharpening to a desired tonal range. The Threshold tool
@@ -118,8 +116,7 @@ sharpening too aggressively. When activated, a new slider appears:
 [RL
 deconvolution](https://en.wikipedia.org/wiki/Richardson%E2%80%93Lucy_deconvolution)
 is named after the makers of this algorithm, Richardson and Lucy. It
-uses the [point spread
-function](https://en.wikipedia.org/wiki/Point_spread_function) (PSF) to
+uses the [point spread function](https://en.wikipedia.org/wiki/Point_spread_function) (PSF) to
 deconvolve (reverse) the effects of Gaussian-like blur. In reality, the
 blur produced by the lens and by motion may differ from Gaussian blur
 significantly, therefore some artifacts, such as halos, may appear when
@@ -128,8 +125,7 @@ and when then effect is too strong.
 
 #### Radius
 
-The radius defines the [standard
-deviation](https://en.wikipedia.org/wiki/Standard_deviation) (sigma) of
+The radius defines the [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) (sigma) of
 the [Gaussian blur](https://en.wikipedia.org/wiki/Gaussian_blur) in the
 image. Find the right value through trial and error.
 

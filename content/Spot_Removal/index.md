@@ -26,7 +26,7 @@ href="File:SpotRemoval-Example.jpg">File:SpotRemoval-Example.jpg</a></figcaption
 
 In order to add, remove or change spots, the spot editing mode needs to
 be active. Toggle this mode using the
-![<File:Edit-point.png>](Edit-point.png "File:Edit-point.png") button.
+![<File:Edit-point.png>](/images/Edit-point.png "File:Edit-point.png") button.
 
 ### Adding spots
 

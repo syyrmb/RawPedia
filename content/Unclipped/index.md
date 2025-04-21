@@ -5,16 +5,9 @@ contributors:
   - Lebarhon
 ---
 
-<div class="pagetitle">
-
-Unclipped
-
-</div>
-
 ## Introduction
 
-The "Unclipped" [processing
-profile](Sidecar_Files_-_Processing_Profiles.md) (introduced in
+The "Unclipped" [processing profile](sidecar_files_-_processing_profiles) (introduced in
 RawTherapee 5.6) allows one to save an image in a way which preserves
 data across the whole tonal range, including clipped shadows and
 highlights, thus allowing for strong exposure adjustments and dynamic
@@ -69,15 +62,14 @@ profile:
     that your output ICC profile is either v4, or a linear tone response
     curve v2.
     - If you want to apply this profile and reset all tools to safe
-      default values, then set the [processing profile fill
-      mode](Sidecar_Files_-_Processing_Profiles#Partial_Processing_Profiles_and_Fill_Modes.md)
+      default values, then set the [processing profile fill mode](sidecar_files_-_processing_profiles#partial_processing_profiles_and_fill_modes)
       to "Filled"
-      ![<File:Profile-filled.png>](Profile-filled.png "File:Profile-filled.png")
+      ![<File:Profile-filled.png>](/images/Profile-filled.png "File:Profile-filled.png")
       before applying this profile.
     - If you want to apply this profile while preserving existing
       adjustments, then set the processing profile fill mode to
       "Preserve"
-      ![<File:Profile-partial.png>](Profile-partial.png "File:Profile-partial.png")
+      ![<File:Profile-partial.png>](/images/Profile-partial.png "File:Profile-partial.png")
       before applying this profile.
 2.  Save the image as either a 16-bit floating-point TIFF or a 32-bit
     floating-point TIFF.

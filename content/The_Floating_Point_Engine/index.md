@@ -11,8 +11,7 @@ The Floating-Point Engine
 
 </div>
 
-RawTherapee performs all calculations in 32-bit [floating
-point](https://en.wikipedia.org/wiki/Floating_point) precision (in
+RawTherapee performs all calculations in 32-bit [floating point](https://en.wikipedia.org/wiki/Floating_point) precision (in
 contrast to 16-bit integer as used in many other converters such as
 [dcraw](https://en.wikipedia.org/wiki/Dcraw) and also in RawTherapee up
 to version 3.0).
@@ -43,19 +42,16 @@ issues on 32-bit systems.
 If you nevertheless need to use RawTherapee on a 32-bit system, the
 following will help make the most of it:
 
-- Use 4-Gigabyte Tuning in Windows. See "[4-Gigabyte Tuning: BCDEdit and
-  Boot.ini](http://msdn.microsoft.com/en-us/library/bb613473%28VS.85%29.aspx)"
+- Use 4-Gigabyte Tuning in Windows. See "[4-Gigabyte Tuning: BCDEdit and Boot.ini](http://msdn.microsoft.com/en-us/library/bb613473%28VS.85%29.aspx)"
   for an explanation of what it is, and find out how to do it by reading
-  the guide "[How to set the /3GB Startup Switch in Windows XP and
-  Vista](http://avatechsupport.blogspot.se/2008/03/how-to-set-3gb-startup-switch-in.html)".
+  the guide "[How to set the /3GB Startup Switch in Windows XP and Vista](http://avatechsupport.blogspot.se/2008/03/how-to-set-3gb-startup-switch-in.html)".
 - Close other programs while working in RawTherapee.
 - Use a [single Editor tab](preferences#layout).
 - Turn off "auto-start" in the [Queue](queue). Add photos to
   the Queue as usual. When ready to start processing them, restart
   RawTherapee to free up RAM (no image open in the Editor), and start
   the queue.
-- Ensure that RawTherapee [does not
-  load](Preferences#Directories.md) dark-frame or flat-field
+- Ensure that RawTherapee [does not load](preferences#directories) dark-frame or flat-field
   images if you do not use them.
 - Avoid having more than a few hundred photos per folder, as each photo
   requires a little RAM (thumbnail, embedded ICC profile, etc.).

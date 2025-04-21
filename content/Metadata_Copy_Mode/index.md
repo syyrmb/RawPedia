@@ -5,12 +5,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Metadata Copy Mode
-
-</div>
-
 RawTherapee let's you decide which of three things should happen to
 metadata (Exif and IPTC) when saving an image:
 

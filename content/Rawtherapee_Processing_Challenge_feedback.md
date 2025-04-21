@@ -4,12 +4,6 @@ contributors:
   - Jdc
 ---
 
-<div class="pagetitle">
-
-Rawtherapee Processing Challenge feedback
-
-</div>
-
 ## Introduction - Who this document is for ?
 
 This Feedback Report (Retour d'Expériences : « Rex » in french) was

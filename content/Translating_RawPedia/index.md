@@ -19,8 +19,8 @@ documentation, RawPedia.
 A page's title automatically serves as its name in the URL. Translations
 are created by appending an ISO 639-1 suffix to the English URL.
 
-Updates to the documentation happen all the time, click on "[Recent
-changes](https://rawpedia.rawtherapee.com/Special:RecentChanges)" to see
+Updates to the documentation happen all the time, click on
+"[Recent changes](https://rawpedia.rawtherapee.com/Special:RecentChanges)" to see
 them.
 
 ## How To
@@ -38,15 +38,13 @@ Registration:
 
 Translating a new page:
 
-1.  Find your [ISO
-    639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+1.  Find your [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
     language code. For example if you want to translate into Inuktitut,
     the ISO 639-1 code is "iu". If an ISO 639-1 code for your language
-    is missing, use a [ISO
-    639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) code.
+    is missing, use a [ISO 639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) code.
     You will be using this code for every translated page.
 2.  Create a new page for your translation.
-      
+
     Start with the main page:
     <https://rawpedia.rawtherapee.com/Main_Page>
 

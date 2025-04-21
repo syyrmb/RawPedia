@@ -16,8 +16,8 @@ Preferences
 You can access the Preferences window by clicking on the Preferences
 button [image:preferences.png](image:preferences.png) which
 is either in the bottom-left corner of the RawTherapee window, or the
-top-right one, depending on your [Editor tab mode
-layout](The_Image_Editor_Tab#Editor_Tab_Modes.md).
+top-right one, depending on your
+[Editor tab mode layout](the_image_editor_tab#editor_tab_modes).
 
 ## About
 
@@ -25,8 +25,8 @@ The About button opens a window which contains a splash screen,
 technical details of the specific RawTherapee build you're running,
 credits, licence and release notes.
 
-Please include these technical details when filing a [bug
-report](How_to_write_useful_bug_reports.md).
+Please include these technical details when filing a
+[bug report](how_to_write_useful_bug_reports).
 
 ## General Tab
 
@@ -34,7 +34,7 @@ report](How_to_write_useful_bug_reports.md).
 
 - Editor Layout
 
-  
+
 The layout of RawTherapee's user interface can be adapted to suite your
 taste and needs, specifically pertaining to whether you would like to
 have more than one raw file open simultaneously, and whether you use one
@@ -47,7 +47,7 @@ monitor or more. The following modes are available:
 
 <!-- -->
 
-  
+
 Remember that if you simultaneously open several images each in its own
 [Editor](the_image_editor_tab) tab, each tab and instance
 will require a significant amount of RAM. Only use multiple Editor tabs
@@ -58,12 +58,12 @@ be to not use multiple Editor tabs unless you have more than 8GB of RAM.
 
 <!-- -->
 
-  
+
 A restart is required for these changes to take effect.
 
 - Position of Curve Copy & Paste Buttons
 
-  
+
 Curves include adjacent buttons for copying, pasting, opening and saving
 the curve, and some include buttons for placing a node on the curve by
 picking a sample from the preview and for setting numeric in/out values.
@@ -72,12 +72,12 @@ relative to the curve widget.
 
 <!-- -->
 
-  
+
 A restart is required for these changes to take effect.
 
 - Histogram in Left Panel
 
-  
+
 Position the main histogram in the left panel above "History", or in the
 right tool panel above the tools.
 
@@ -88,7 +88,7 @@ right tool panel above the tools.
 <figcaption>Rt_setm_fb.png</figcaption>
 </figure>
 
-  
+
 The Filmstrip is a narrow panel which you can toggle to appear within
 the Editor tab. It contains thumbnails of the images in the currently
 opened folder, along with the filter and ratings toolbar. It can be
@@ -100,27 +100,27 @@ toolbar" [keyboard shortcut](keyboard_shortcuts).
 
 - Compact Toolbars in File Browser
 
-![](Single-row-file-browser-toolbar-off.png "Single-row-file-browser-toolbar-off.png")
-![](Single-row-file-browser-toolbar-on.png "Single-row-file-browser-toolbar-on.png")
+![](/images/Single-row-file-browser-toolbar-off.png "Single-row-file-browser-toolbar-off.png")
+![](/images/Single-row-file-browser-toolbar-on.png "Single-row-file-browser-toolbar-on.png")
 
-  
+
 Enable this option if you have a high resolution screen to merge all the
 toolbars at the top of the File Browser tab into one.
 
 <!-- -->
 
-  
+
 
 - Hide Vertical Scrollbar
 
-  
+
 You can hide the vertical scrollbar from the toolbox to save a little
 horizontal screen space. Use the mouse scroll-wheel to scroll when the
 scrollbar is hidden.
 
 - Tool Collapsed/Expanded State
 
-  
+
 If you have a few favorite tools which you would like to always see
 expanded, you can expand them now, hide the others, then return here to
 Preferences, disable "Automatically save tools' collapsed/expanded state
@@ -129,7 +129,7 @@ click "OK" to close the Preferences window and commit your changes.
 
 <!-- -->
 
-  
+
 Alternatively, if you would instead like RawTherapee to remember which
 tools are collapsed and which are expanded at the end of every editing
 session, then enable "Automatically save tools' collapsed/expanded state
@@ -144,7 +144,7 @@ override the auto-detected language by selecting one manually.
 If you would like to help by updating one of the translations or
 creating a new one, see this post:
 
-  
+
 <https://discuss.pixls.us/t/localization-how-to-translate-rawtherapee-and-rawpedia/2594>
 
 A restart is required for these changes to take effect.
@@ -162,7 +162,7 @@ theme-based.</figcaption>
 
 - Theme
 
-  
+
 Choose a theme for the user interface. Although you will see
 theme-related changes as soon as you hit the "OK" button, you need to
 restart for the changes to take affect correctly.
@@ -181,7 +181,7 @@ onward.
 
 - Main font, and color picker font
 
-  
+
 Choose a custom main font, and a font for the Lockable Color Picker in
 the [Image Editor](the_image_editor_tab) tab, marked "3" in
 the screenshot.
@@ -192,7 +192,7 @@ the font size.
 
 - Crop mask color
 
-  
+
 Adjust the color and transparency of the area outside of a cropped
 region, marked "2" in the screenshot. By clicking on the colored button,
 a new window appears where you can select a standard color or click on
@@ -212,7 +212,7 @@ preview when zoomed-in.</figcaption>
 
 - Navigator guide color
 
-  
+
 Adjust the color and transparency of the frame (marked "2" in the second
 screenshot) visible in the
 [Navigator](the_image_editor_tab#navigator) panel (marked
@@ -225,7 +225,7 @@ screenshot) visible in the
 
 - Pseudo-HiDPI mode
 
-  
+
 Scales the user interface so that text and images remain sharp even on a
 HiDPI screen. Introduced in RawTherapee 5.6. Scaling in RawTherapee
 depends on font size, DPI and display scaling. While scaling has been
@@ -269,21 +269,20 @@ RawTherapee can send the processed image directly to an external
 program, e.g. an image editor, an image viewer or a script. This is done
 using the
 ![<File:Image-editor.png>](Image-editor.png "File:Image-editor.png")
-"[Edit Current Image in External
-Editor](Edit_Current_Image_in_External_Editor.md)" button in the
+"[Edit Current Image in External Editor](edit_current_image_in_external_editor)" button in the
 Editor tab under the main preview - see the [Saving](saving)
 article. It is here in Preferences where you can customize which program
 the processed image is to be sent to when you click the button.
 
 To get started, click the
-![<File:Add-small.png>](Add-small.png "File:Add-small.png") plus button.
+![<File:Add-small.png>](/images/Add-small.png "File:Add-small.png") plus button.
 This will add a new entry to the list. Then, click Change Application or
 Change Executable to select the external editor. The Change Application
 button opens a list of installed applications to choose from, while the
 Change Executable button opens an executable file selector. Multiple
 external editors can be added this way. To remove an editor, select the
 entry in the list and click the
-![<File:Remove-small.png>](Remove-small.png "File:Remove-small.png")
+![<File:Remove-small.png>](/images/Remove-small.png "File:Remove-small.png")
 minus button.
 
 The external editor names and commands can be edited directly by double
@@ -320,11 +319,10 @@ non-raw photo.
 
 To have processing profiles you have made yourself appear in the list,
 save them to the "*profiles*" sub-folder within the "*config*" folder.
-You can find out where it is on the [file
-paths](File_paths#Processing_Profiles.md) page.
+You can find out where it is on the [file paths](file_paths#processing_profiles) page.
 
-The special entry "Dynamic" activates the support for [Dynamic
-Processing Profiles](Dynamic_processing_profiles.md).
+The special entry "Dynamic" activates the support for
+[Dynamic Processing Profiles](dynamic_processing_profiles).
 
 When you right-click on a thumbnail and select "Processing profile
 operations \> Reset to default" RawTherapee will apply whichever
@@ -343,8 +341,8 @@ allow a rules-based processing profile generation.
 This feature is very powerful; for example it allows you to set lens
 correction parameters or noise reduction based on image properties. It
 is called just once on the first edit of the picture, or called manually
-from the context menu when right-clicking on a thumbnail in the [File
-Browser](The_File_Browser_Tab.md) or
+from the context menu when right-clicking on a thumbnail in the
+[File Browser](the_file_browser_tab) or
 [Filmstrip](the_image_editor_tab#the_filmstrip)
 
 <b>Note:</b> You are responsible for using double quotes where necessary
@@ -353,16 +351,16 @@ if you're using paths containing spaces.
 ### Processing Profile Handling
 
 - Processing profile saving location
-    
+
   Choose whether you want RawTherapee to store the processing profiles
-  next to the input file (the default behavior), to a [central
-  cache](File_Paths#Cache.md), or both.
+  next to the input file (the default behavior), to a
+  [central cache](file_paths#cache), or both.
 
   It is a good idea to save the processing profiles next to the input
   files, as that lets you easily backup and handle your photos and their
   associated processing profiles.
 - Processing profile loading location
-    
+
   RawTherapee will look for processing profiles alongside the images,
   and in the central cache. If a profile exists in both places and they
   are not identical, this setting allows you to choose which one should
@@ -371,8 +369,8 @@ if you're using paths containing spaces.
 ### Directories
 
 Specify the location of your [Dark-Frame](dark-frame),
-[Flat-Field](flat-field) and [HaldCLUT Film
-Simulation](Film_Simulation.md) folders.
+[Flat-Field](flat-field) and
+[HaldCLUT Film Simulation](film_simulation) folders.
 
 ### Crop Editing
 
@@ -434,18 +432,18 @@ and how it should be displayed.
 
 ### Context Menu Options
 
-Adjust the grouping of the right-click context menu in the [File
-Browser](The_File_Browser_Tab.md) (and
+Adjust the grouping of the right-click context menu in the
+[File Browser](the_file_browser_tab) (and
 [Filmstrip](the_image_editor_tab#the_filmstrip)).
 
 ### Parsed Extensions
 
-Choose which files are recognized as images and displayed in the [File
-Browser](The_File_Browser_Tab.md). All supported extensions are
+Choose which files are recognized as images and displayed in the
+[File Browser](the_file_browser_tab). All supported extensions are
 set by default, except for PNG which is disabled by default.
 
 If a desired extension is missing you can easily add it by clicking the
-"Add" ![<File:Add-small.png>](Add-small.png "File:Add-small.png")
+"Add" ![<File:Add-small.png>](/images/Add-small.png "File:Add-small.png")
 button.
 
 Some users reported that their Parsed Extensions panel is empty. This
@@ -486,8 +484,8 @@ Standard locations where color profiles are stored:
 
 :; Windows
 
-  
-  
+
+
 `C:\Windows\system32\spool\drivers\color`
 
 ### Monitor
@@ -520,8 +518,7 @@ monitor color profile" option.
   select "Install profile" in the context menu, or search for "colour
   management" in the Start menu.
 - In macOS, monitor profiles on an application level are not supported.
-  All displayed colors will be in the [sRGB
-  space](https://en.wikipedia.org/wiki/SRGB), and then, if necessary,
+  All displayed colors will be in the [sRGB space](https://en.wikipedia.org/wiki/SRGB), and then, if necessary,
   converted by the native macOS color pipeline to match the screen
   calibration, if any. This means that you cannot choose a monitor color
   profile in macOS. If you have a wide-gamut screen, RawTherapee's
@@ -559,8 +556,8 @@ printer profile's color space.
 
 :; Relative Colorimetric
 
-  
-  
+
+
 Colors from the source which lie outside the gamut of the destination
 color space will be shown using the nearest in-gamut color without
 affecting other in-gamut colors. The white point will be corrected. This
@@ -568,8 +565,8 @@ is the default option and works with all profiles.
 
 :; Perceptual
 
-  
-  
+
+
 Colors from the source which lies outside the gamut of the destination
 color space will be compressed into the destination's gamut at the
 expense of also affecting in-gamut colors. How the compression is
@@ -582,8 +579,8 @@ is standard behavior across most software).
 
 :; Absolute Colorimetric
 
-  
-  
+
+
 Similar to relative colorimetric, but the white point will not be
 corrected. For this reason, it is used when you want to match paper
 whiteness to screen. You might want to use it when proofing, but not
@@ -601,8 +598,7 @@ dark areas) at the expense of less color correctness.
 ## Batch Edit Tab
 
 Batch editing is making adjustments to more than one image at the same
-time. This is done through the [Batch
-Edit](The_File_Browser_Tab#Batch_Adjustments_-_Sync.md) tab in
+time. This is done through the [Batch Edit](the_file_browser_tab#batch_adjustments_-_sync) tab in
 the File Browser.
 
 The tool panel in the Batch Edit tab looks similar to the tool panel
@@ -617,8 +613,8 @@ states:
 
 `[-]` Values differ across selected images.
 
-Batch editing is done by selecting multiple images in the [File
-Browser](The_File_Browser_Tab.md) (hold the or key, then click
+Batch editing is done by selecting multiple images in the
+[File Browser](the_file_browser_tab) (hold the or key, then click
 the images you want to select), then you can edit those images using the
 tools in the Batch Edit panel on the right.
 
@@ -635,27 +631,26 @@ care what you're doing.
 What happens to the tool values as you manipulate them depends on the
 "Behavior" setting in this Batch Edit tab.
 
-The "Add" Mode  
+The "Add" Mode
 This mode may also be understood as "relative". Modifying sliders which
 are set to the "Add" mode will result in the value of the modification
 being added to the existing value. For example, if you select two images
 by holding the **Ctrl** modifier key, one image which has an
-[Exposure#Exposure_Compensation Exposure
-Compensation](Exposure#Exposure_Compensation_Exposure_Compensation.md)
+[Exposure#Exposure_Compensation Exposure Compensation](exposure#exposure_compensation_exposure_compensation)
 of -0.5 EV and the other which has +1.0 EV, moving the "Exposure
 Compensation" slider up to +0.3 will result in setting a value of -0.2
 EV for the first image and +1.3 EV for the second one.
 
 <!-- -->
 
-  
+
 Using the "Reset" button will move the slider to its default (zero)
 position and will then bring back the initial value of that slider for
 each selected image.
 
 <!-- -->
 
-The "Set" Mode  
+The "Set" Mode
 This mode may also be understood as "absolute". Modifying sliders which
 are set to the "Set" mode will result in the value of the modification
 being set, irrelevant of what the existing value was. If we use the same
@@ -664,7 +659,7 @@ setting a value of +0.3 EV for both images (one value for all images).
 
 <!-- -->
 
-  
+
 Using the 'Reset' button will move the slider to its default position
 (different for each slider), and will then reset this parameter for each
 image.
@@ -751,7 +746,7 @@ setting fields with sound file references to blank values.
 The "Queue" and "Editor processing done" text boxes can either point to
 wave (.wav) files, or can specify one of the following values:
 
-Windows:  
+Windows:
 
 - SystemAsterisk
 - SystemDefault
@@ -762,7 +757,7 @@ Windows:
 - SystemStart
 - SystemWelcome
 
-Linux  
+Linux
 
 - bell
 - camera-shutter

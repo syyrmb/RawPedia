@@ -86,8 +86,8 @@ The "PDAF lines filter" has no effect on Nikon PDAF banding.
 title="645D_amaze_crosshatch_pattern.jpg" width="900"
 alt="645D_amaze_crosshatch_pattern.jpg" /> Some cameras (for example
 Olympus, Panasonic, Canon 7D, and some medium format cameras) use
-slightly different green filters in the two green channels of the [color
-filter array](https://en.wikipedia.org/wiki/Color_filter_array) on the
+slightly different green filters in the two green channels of the
+[color filter array](https://en.wikipedia.org/wiki/Color_filter_array) on the
 camera sensor. This is generally not a designed feature of the sensor,
 but rather a result of limitations in the manufacturing process when the
 color filters are applied to the sensor surface. One green filter may
@@ -119,8 +119,7 @@ correction too.
 
 ## Hot/Dead Pixel Filter
 
-This tool suppresses [hot and dead
-pixels](https://en.wikipedia.org/wiki/Defective_pixel) by replacing them
+This tool suppresses [hot and dead pixels](https://en.wikipedia.org/wiki/Defective_pixel) by replacing them
 by a neighborhood average.
 
 <img src="/images/Rt-43_hotdead1.jpg" title="Rt-43_hotdead1.jpg" width="900"
@@ -153,8 +152,8 @@ title="Rt-43_hotdead2_artifacts.jpg" width="900"
 alt="Rt-43_hotdead2_artifacts.jpg" /> It is impossible to detect hot and
 dead pixels with absolute certainty by analyzing only one photo (as
 opposed to analyzing a whole series of photos), and as such one must
-find the balance between adequate removal and [false
-positives](http://en.wikipedia.org/wiki/False_positives_and_false_negatives).
+find the balance between adequate removal and
+[false positives](http://en.wikipedia.org/wiki/False_positives_and_false_negatives).
 The threshold slider allows you to set the sensitivity of the automatic
 detection of hot and dead pixels. Lower values make hot/dead pixel
 detection more aggressive, but false positives may lead to artifacts. If

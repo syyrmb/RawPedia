@@ -6,12 +6,6 @@ contributors:
   - XavAL
 ---
 
-<div class="pagetitle">
-
-Retinex
-
-</div>
-
 __NOTOC__ Note: This translation of the "Retinex" French page is a
 working document.
 
@@ -640,7 +634,7 @@ goal isn't to get Min = 0 and Max = 32768, but more reasonable values.
 For example, it is possible to lower a little bit the left part of the
 curve and to lift a little bit the central part. We end up for example
 to the following adjustments:
-:[Media:madeira-first.pp3](media:madeira-first.pp3)
+:[Media:madeira-first.pp3](/images/madeira-first.pp3)
 
 ##### The Haze-free image
 
@@ -660,7 +654,7 @@ Then, in an iterative way between "Gain transmission" + "offset" and
 - work by iterations
 
 I arbitrary took the following values given in the pp3
-[Media:madeira-second.pp3](media:madeira-second.pp3)
+[Media:madeira-second.pp3](/images/madeira-second.pp3)
 
 #### To apply a Gaussian mask and a gamma
 
@@ -674,7 +668,7 @@ high and low lights.
 Again, all is matter of taste.
 
 We end up, for example to the following adjustments:
-[Media:madeira-third.pp3](media:madeira-third.pp3)
+[Media:madeira-third.pp3](/images/madeira-third.pp3)
 
 ### Act on the chroma
 
@@ -688,7 +682,7 @@ Two cases:
   Wavelet.
 
 We end up to the following adjustments:
-[Media:madeira-four.pp3](media:madeira-four.pp3)
+[Media:madeira-four.pp3](/images/madeira-four.pp3)
 
 ### To boost the contrast and to reduce the atmospheric veil even more – Wavelet
 
@@ -701,7 +695,7 @@ We end up to the following adjustments:
 - Enable "chroma balance"
 
 You end up to the following adjustments:
-[Media:madeira-five.pp3](media:madeira-five.pp3)
+[Media:madeira-five.pp3](/images/madeira-five.pp3)
 
 ### Final adjustment
 
@@ -712,4 +706,4 @@ You can, if necessary :
 - And also on all the other usual adjustments.
 
 You end up to the following adjustments:
-[Media:madeira-six.pp3](media:madeira-six.pp3)
+[Media:madeira-six.pp3](/images/madeira-six.pp3)

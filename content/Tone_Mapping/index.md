@@ -15,18 +15,16 @@ the nature of the algorithm, only the 1:1 (or more) preview zoom will
 match the saved image perfectly. If you are zoomed out at less than 1:1,
 you should be aware that the preview can match the saved image very well
 or not so well, depending on the "*Edge Stopping*" and "*Scale*"
-sliders. Read the "[Getting the preview to match the saved
-image](Tone_Mapping#Getting_the_preview_to_match_the_saved_image.md)"
+sliders. Read the "[Getting the preview to match the saved image](tone_mapping#getting_the_preview_to_match_the_saved_image)"
 section below. Use a detail window (click on the
-![<File:Window-add.png>](Window-add.png "File:Window-add.png") icon
-under the [main preview
-panel](The_Image_Editor_Tab#The_Preview_Panel.md)) to inspect a
+![<File:Window-add.png>](/images/Window-add.png "File:Window-add.png") icon
+under the [main preview panel](the_image_editor_tab#the_preview_panel)) to inspect a
 part of the image, or zoom the main preview to 100% (also called 1:1)
-![<File:Magnifier-1to1.png>](Magnifier-1to1.png "File:Magnifier-1to1.png").
+![<File:Magnifier-1to1.png>](/images/Magnifier-1to1.png "File:Magnifier-1to1.png").
 
 ------------------------------------------------------------------------
 
-![](Rt407-ba-tonemapping-hdr-cropped.jpg "Rt407-ba-tonemapping-hdr-cropped.jpg")
+![](/images/Rt407-ba-tonemapping-hdr-cropped.jpg "Rt407-ba-tonemapping-hdr-cropped.jpg")
 The Tone Mapping tool can be used to lift the dark areas of your photo
 in a way that prevents halos from appearing, and it can be used to bring
 out or suppress detail, to make the photo more crisp or more 'dreamy'.
@@ -66,7 +64,7 @@ just hit the keyboard shortcut Ctrl+e to have RawTherapee fully process
 the image and automatically view it in your image viewer.
 
 Remember that if you zoom the preview to 100%, it will perfectly match
-the saved image regardless of what slider values you use.  
+the saved image regardless of what slider values you use.
 
 ## Interface Description
 
@@ -85,8 +83,7 @@ Gamma moves the action of tone-mapping to shadows or highlights.
 
 This parameter affects sensitivity to edges. The greater it is the more
 likely an illumination change is to be considered an "edge". If set to
-zero tone mapping will have an effect similar to [unsharp
-masking](https://en.wikipedia.org/wiki/Unsharp_masking).
+zero tone mapping will have an effect similar to [unsharp masking](https://en.wikipedia.org/wiki/Unsharp_masking).
 
 ### Scale
 
