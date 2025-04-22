@@ -2,6 +2,16 @@ baseURL = 'https://rawpedia.rawtherapee.com/'
 languageCode = 'en-us'
 title = 'RawPedia'
 theme = ['hugo-bootstrap-bare']
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    timeZone = 'America/New_York'
+    title = 'RawPedia'
+    weight = 1
+    [languages.en.pagination]
+      path = 'page'
 [markup]
   [markup.highlight]
     style =  'algol_nu'
