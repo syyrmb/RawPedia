@@ -32,7 +32,7 @@ defined above:
   weighted according to a formula like: *"output hue" = "input hue" +
   ("target hue" - "input hue") \* balance* where balance is a
   coefficient between 0 and 1. We can easily find on the internet
-  references to this kind of lagorithm.
+  references to this kind of algorithm.
 - Addition and reduction of RGB channels: in this case, according to the
   luminance (shadows/midtones/highlights), each channel is amplified at
   the same time the two others are reduced. e.g. an action on the red
@@ -99,7 +99,7 @@ The used curves are special flat curves.
 2.  The Opacity curve (L\*a\*b\* blending \> Standard chroma or RGB
     curves) displays luminance in abscissa and opacity in ordinate (also
     called Balance) that translate the way the original hue (image) and
-    the target hue are assemblied, in this case,the opacity value varies
+    the target hue are assemblied, in this case, the opacity value varies
     from 0 to 1. The highest the curve will be, the more the blending
     near the target hue. When setting the opacity curve to 0, the image
     stay unchanged.
