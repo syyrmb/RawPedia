@@ -9,10 +9,10 @@ contributors:
 
 Negatives are images with reversed lightness and hues, such as those
 produced by film cameras. RawTherapee 5.7 introduced the Film Negative
-tool to make developing raw photos of negatives simple.
+tool to make developing photos of negatives simple.
 
-The tool supports raw photos of a Bayer or X-Trans sensor. Other raw
-types and non-raw formats are not supported.
+The tool supports non-raw photos and raw photos of a Bayer or X-Trans sensor. Other raw
+types are not supported.
 
 In the negative image, each channel value is proportional to a power of
 the reciprocal of the corresponding channel in the original exposure
@@ -29,8 +29,8 @@ common Kodak film types like the ColorPlus 200 or Gold 200.
 
 ## Usage
 
-1.  Open a raw photo of a negative.
-2.  In the Raw tab, activate the Film Negative tool.
+1.  Open a photo of a negative.
+2.  In the Color tab, activate the Film Negative tool.
 3.  Optionally, you can try to automatically set more accurate red and
     blue ratio values. To do so, click the "Pick neutral spots" button,
     then click on a neutral light and dark spot in the photographed
@@ -59,7 +59,7 @@ common Kodak film types like the ColorPlus 200 or Gold 200.
     re-white-balance it again afterwards.
 
 That's it as far as correcting the negative goes. Resume adjusting the
-photo just as if it was a normal "positive" raw photo.
+photo just as if it was a normal "positive" photo.
 
 ## Interface
 
