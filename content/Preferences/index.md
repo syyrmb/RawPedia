@@ -8,7 +8,7 @@ contributors:
 ---
 
 You can access the Preferences window by clicking on the Preferences
-button [image:preferences.png](image:preferences.png) which
+button [preferences](/static/images/Preferences.png) which
 is either in the bottom-left corner of the RawTherapee window, or the
 top-right one, depending on your
 [Editor tab mode layout](the_image_editor_tab#editor_tab_modes).
