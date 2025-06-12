@@ -37,7 +37,7 @@ monitor or more. The following modes are available:
 - Single Editor Tab Mode
 - Single Editor Tab Mode, Vertical Tabs
 - Multiple Editor Tabs Mode
-- Multiple Editor Tabs Mode (if available on second monitor)
+- Multiple Editor Tabs In Own Window Mode
 
 <!-- -->
 
