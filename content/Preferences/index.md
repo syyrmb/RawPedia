@@ -166,7 +166,7 @@ particular importance to this paragraph are the properties of the area
 which surround the observed region. The way you perceive the colors of a
 photograph viewed on a screen depends in part on the colors of the area
 surrounding the photograph. You can read more about this in the
-[CIECAM02](ciecam02) article. In order to mitigate the errors
+[CIECAM02/16](ciecam02) article. In order to mitigate the errors
 the user makes while adjusting a photo, RawTherapee ships themes which
 use neutral background colors. While all of the themes are based on
 shades of grey, the theme which is most suited to avoid affecting human
@@ -217,19 +217,17 @@ screenshot) visible in the
 <figcaption>Rt56_hidpi.png</figcaption>
 </figure>
 
-- Pseudo-HiDPI mode
-
-
-Scales the user interface so that text and images remain sharp even on a
-HiDPI screen. Introduced in RawTherapee 5.6. Scaling in RawTherapee
-depends on font size, DPI and display scaling. While scaling has been
-tested to work well in Windows, Linux and macOS, there are some macOS
-display modes which are incompatible with it, specifically those modes
-suffixed by "(HiDPI)" in macOS Display settings. Some versions of macOS
-(10.14.\*) seem to not list any modes, in which case the user must just
-give it a try.
-
 ### Clipping Indication
+
+The clipped [shadow](/static/images/Warning-shadows.png) and [highlight](/static/images/Warning-highlights.png) indicators in the Editor allow you to easily see which areas of the image are too dark or too bright. Highlighted areas are shaded according to the much they transgress the thresholds.
+
+The thresholds for these indicators are defined in Preferences > General.
+
+The clipped shadow indicator will highlight areas where all three channels fall at or below the specified shadow threshold.
+
+The clipped highlight indicator will highlight areas where at least one channel lies at or above the specified highlight threshold. If you want to see only where all channels are clipped, then enable the luminosity preview mode in addition to the clipped highlight indicator.
+
+Clipping is calculated using data which depends on the state of the gamut button Gamut-hist.png which you can toggle above the main preview in the Editor tab. When the gamut button is enabled the working profile is used, otherwise the gamma-corrected output profile is used. 
 
 ### Pan Rate Amplification
 
