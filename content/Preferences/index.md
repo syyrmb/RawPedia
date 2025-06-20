@@ -361,8 +361,7 @@ if you're using paths containing spaces.
 ### Directories
 
 Specify the location of your [Dark-Frame](dark-frame),
-[Flat-Field](flat-field) and
-[HaldCLUT Film Simulation](film_simulation) folders.
+[Flat-Field](flat-field), [HaldCLUT Film Simulation](film_simulation), Camera/Lens profiles and Lensfun database folders.
 
 ### Crop Editing
 
