@@ -235,7 +235,7 @@ Do not attempt to reduce noise, whether using in 'Capture Sharpening', 'Presharp
 
 ##### Raw Black Points
 
-The 'Dehaze' system designed by Ingo Weirich (thanks to him) suggests here, due to the difference between the values ​​R=0, G=0, B=0 and the very low values ​​R=0.4%, G=0.4%, B=0.4%, that it's a haze problem... I think that's not the case. We're dealing with data corruption here... just like what happens in highlights.
+The 'Dehaze' system designed by Ingo Weirich (thanks to him) suggests here, due to the difference between the values ​​R=0, G=0, B=0 and the very low values ​​R=0.4%, G=0.4%, B=0.4%, that it's a haze problem... I think that's not the case. We’re dealing with shadow detail lost due to the image being underexposed, the same way we lose highlight detail when an image is overexposed.
 
 + First, try the "Dehaze" checkbox; you'll see the sliders move to the right, the histogram expands, especially to the left (the shadow areas), and the image is brighter and more colorful: Red:+1, Green 1:+7, Green 2:+7, Blue:+2.
 + Second, increase the settings (by unchecking the 'Dehaze' box) : Red:+3, Green 1:+14, Green 2:+8, Blue:+5. You will again notice a more vivid image, a better utilized histogram, and a reduction in artifacts.
@@ -247,7 +247,7 @@ The 'Dehaze' system designed by Ingo Weirich (thanks to him) suggests here, due 
 <figcaption>Demosaicing & Raw Black Points</figcaption>
 </figure>
 
-Below, you can see the influence of Raw Black Points on the image at the end of the process.
+Below, you can see the influence of Raw Black Points on the image at the end of the process. This histogram corresponds to the pp3 file 2 : 'Second example with Color Propagation and blur' at the end of the process, with the histogram type set to 'Output profile mode with a gamma.'
 + Note the difference on the horizontal axis, close to zero.
 + Note that the overall histogram is better filled.
 <figure>
