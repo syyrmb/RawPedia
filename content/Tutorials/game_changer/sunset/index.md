@@ -81,7 +81,12 @@ I won’t compare it to other tone mappers in RawTherapee or other software, usi
 
 ##### The advantage of doing multiple stretches
 
-Rather than attempting a single stretch, in the case of images with a high WP (3 to 5), which will require a high 'Stretch factor (D)', or where the user will have difficulty locating the area where action should be prioritized, it is better to perform two stretches. The first, with moderate values, will place the data in the interval [0-1] (32-bit real format), while the second will allow for better localization of the action.
+Rather than attempting a single stretch, in the case of images with a high
+WP (3 to 5), which will require a high 'Stretch factor (D)', or where the
+user will have difficulty locating the area where action should be
+prioritized, it is better to perform two stretches. The first, with
+moderate values, will place the data in the interval [0, 1] (32-bit real
+format), while the second will allow for better localization of the action. 
 
 + Note that GHS settings can cause data (depending on the GHS settings) to fall outside the [0, 1] range, both in linear and output data. Constantly monitor the histogram in both modes (working profile - linear and output profile - gamma) and make any necessary corrections. In reality, to give the GHS algorithm some leeway, I added 0.1 to the calculations. This means that if you open a second RT-Spot, you'll see the WP value as 1.1, not 1.
 + In ‘Stretch Regularization & Midtones’, you can set the value (LC) – the local contrast – to zero to avoid artifacts in the sun area. Local contrast can be addressed later in Abstract Profile.

@@ -137,7 +137,7 @@ I made gradual adjustments starting from the basic settings, leading to the resu
 ### Third step: Generalized Hyperbolic Stretch - GHS & Michaelis-Menten - MM
 
 I chose to perform the 'pre-tone mapping' in 2 steps:
-+ The first with GHS, to bring the huge value of the data (linear White point around 11), into the interval [0 1] (32-bit real format).
++ The first with GHS, to bring the huge value of the data (linear White point around 11), into the interval [0, 1] (32-bit real format).
 + The second with MM, to better balance the image.
 
 GHS:
