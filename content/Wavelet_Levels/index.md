@@ -461,7 +461,7 @@ SSZZZ
 ![](/images/wavelet_config_l2.jpg "/images/wavelet_config_l2.jpg")
 
 
-![](/images/wavelet_config_l4.jpg /images/"wavelet_config_l4.jpg")
+![](/images/wavelet_config_l4.jpg "/images/wavelet_config_l4.jpg")
 
 ![](/images/wavelet_config_ri.jpg "/images/wavelet_config_ri.jpg")
 
@@ -2340,19 +2340,4 @@ Finally, you also have a ***Soft Radius*** slider that allows you to
 apply a blur to selected areas so that they blend in better with the
 image.
 
-## Final comparison
 
-
-
-<div>
-
-
-  ![](/images/wavelets_original_big.png /images/"wavelets_original_big.png")
-  <figcaption>wavelets_original_big.png</figcaption>
-
-
-  ![](/images/wavelets_final_big.jpg /images/"wavelets_final_big.jpg")
-  <figcaption>wavelets_final_big.jpg</figcaption>
-
-
-</div>
