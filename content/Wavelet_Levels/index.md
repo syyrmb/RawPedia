@@ -70,7 +70,7 @@ precision when analyzing the data.
 a very simplistic explanation: mathematicians would surely have a lot to
 say here...\]</span>
 
-![](wavelet_daubechies20.jpg "Wavelet_daubechies20.jpg")RawTherapee uses
+![](wavelet_daubechies20.jpg "wavelet_daubechies20.jpg")RawTherapee uses
 wavelets in various tools, and in this one in particular it uses the
 [Daubechies](https://en.wikipedia.org/wiki/Daubechies_wavelet) wavelet,
 to decompose the elements of the image into the components of the
@@ -141,7 +141,7 @@ residual image, or with all of them combined.
 The size of the details included in each level is:
 
 
-![]wavelet_detail_size.jpg "wavelet_detail_size.jpg")
+![](wavelet_detail_size.jpg "wavelet_detail_size.jpg")
 <figcaption>wavelet_detail_size.jpg</figcaption>
 
 
@@ -572,7 +572,7 @@ as explained in [Analysis of the contrasts in each level](#analysis_of_the_contr
 
 
 
-      ![]wavelet_beta-damper.png "wavelet_beta-damper.png")
+      ![](wavelet_beta-damper.png "wavelet_beta-damper.png")
 
 
     </div>
@@ -1166,7 +1166,7 @@ of how you can interact with the curve, see the explanations of the
 *[Tone Curves](exposure#tone_curves)*. And remember that if
 you don't like the changes you have made to the curve, you can always
 start over by clicking the reset arrow
-![<File:resetbutton.png>](/images/resetbutton.png "File:resetbutton.png").
+![<File:resetbutton.png>](resetbutton.png "File:resetbutton.png").
 
 As long as there are variations in contrast in the original image color,
 these curves will allow you to selectively vary the tone of the desired
@@ -2340,19 +2340,4 @@ Finally, you also have a ***Soft Radius*** slider that allows you to
 apply a blur to selected areas so that they blend in better with the
 image.
 
-## Final comparison
 
-
-
-<div>
-
-
-  ![](wavelets_original_big.png "wavelets_original_big.png")
-  <figcaption>wavelets_original_big.png</figcaption>
-
-
-  ![](wavelets_final_big.jpg "wavelets_final_big.jpg")
-  <figcaption>wavelets_final_big.jpg</figcaption>
-
-
-</div>
