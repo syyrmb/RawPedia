@@ -10,26 +10,30 @@ toc: true
 summary: Introducing the principles and recommendations the tutorials illustrate
 ---
 
-‘Game changer’ - in French, the term ‘bouleverseur’ suits me well as a translation: it aims to change the usual way of thinking and acting in terms of image processing. Before changing the way we do things, we must first agree on the way we see things. In french a great sociologist, now deceased, said : "L'accord sur ma manière de faire est avant tout un accord sur la manière de voir" (Jean-Daniel Reynaud : 1926 - 2019).
+This series of tutorial is prepared for intermediate level readers. Before reading this article, you are expected to:
+1. Have a basic understanding of General Hyperbolic Stretch (specifically, setting black and white point with it), MM, CIECAM, Selective Editing, Gamut Compression and Abstract Profile.
+2. Know how to use the settings in Raw Tab, to enhance sharpness and improve smoothness of flat areas, to correct black point, to reduce false color/chromatic aberration, etc,.
+3. Understand the concept of imaginary color.
+‘Game changer’ - in French, the term ‘bouleverseur’ suits me well as a translation: it aims to change the usual way of thinking and acting in terms of image processing. Before changing the way we do things, we must first agree on the way we see things. As a now deceased great sociologist puts it, "L'accord sur ma manière de faire est avant tout un accord sur la manière de voir" ("Agreement on my approach is, above all, agreement on a way of seeing things", Jean-Daniel Reynaud, 1926 - 2019).
 
-This concept isn't about forcing you to change your image processing methods, but rather about trying a different approach based on principles that solve (at least partially, I believe) difficult image processing problems, using new concepts and methods. I'm not talking about tools here, but meta-methods: how to proceed and why this processing method is preferable to another for this type of image. There isn't a single method that works in all cases, but rather principles based on specific objectives.
+This concept isn't about forcing you to change your image processing methods, but rather about trying a different approach based on principles that solve (at least partially, I believe) difficult image processing problems, using new concepts and methods. I'm not talking about tools here, but meta-methods: how to proceed and why this processing method is preferable to another for a certain type of image. The point isn't to provide a one-size-fits-all solution, but rather principles based on specific objectives.
 
 ## A bit of history - the implications of the context
 
-* RT was conceived and created by a single man, Gabor Horvatz, in 2005. This is a fantastic achievement. However, this has consequences: the GUI interface has remained the same, prioritizing what was good, given the knowledge available at the time in 2005. 
-* Today, the powerful modules are scattered across the different Tabs, and for my part, I almost never use them (with the exception of 'Highlight reconstruction') in the first two 'Tabs'.
-* Other improvements have made some modules that were very good 10 years ago a little less so. I'm thinking of the excellent "Dynamic Range Compression" (which is mathematically complex), which is slow and resource-intensive...
-* A persistent problem, once you're no longer in Raw mode, is that the 'Preview', apart from 'fit to screen', is often different from the TIF/JPG output. Furthermore, the appearance varies significantly depending on the zoom level and the tools used. This is a pipeline design flaw... that hasn't been resolved (the consolation is that this problem, to varying degrees, is found in other software as well)... So you just have to live with it.
-* There are also the effects of fads; yesterday everyone was talking about "XXX", then "YYY"...and now "ZZZ", and since it's present elsewhere, why isn't it being developed in RT? This doesn't mean that "ZZZ" is better than "XXX". As we say in French ‘ça tombe comme à Gravelotte’.
-* RT also has the unique characteristic of employing certain specific algorithms or processing methods. People may like it or dislike it, criticize it or approve of it, and compare it to what exists elsewhere. Before condemning, compare apples to apples (you wouldn't compare a chicken and a fish). I'm referring in particular to: CIECAM, Auto WB temperature correlation, Selective Editing, Wavelets, Abstract Profiles, etc. What I observe today (early 2026) is that what was once heresy has become a focal point; I'm referring to Wavelets in another free software, or even the gamma/slope coupler...(or Abstract Profile).
+* RawTherapee was conceived and created by a single man, Gabor Horvatz, in 2005. This is a fantastic achievement. However, this has consequences: the GUI interface has remained the same, prioritizing what was good, given the knowledge available at the time in 2005. 
+* Today, the powerful modules are scattered across different Tabs, and personally, I almost never use those in the first two Tabs (with the exception of Highlight Reconstruction).
+* Other improvements have made some modules that were very good 10 years ago a little less so. Like the excellent Dynamic Range Compression (which is mathematically complex, slow and resource-intensive...).
+* A persistent problem, once you're no longer in Raw mode, is that the Preview, apart from 'fit to screen', is often different from the TIF/JPG output. Furthermore, the appearance varies significantly depending on the zoom level and the tools used. This is a pipeline design flaw that hasn't been resolved (the consolation is that this problem, to varying degrees, is found in other software as well...), so you just have to live with it.
+* There are also the effects of fads; yesterday everyone was talking about feature "XXX", then "YYY", and now "ZZZ", and since it's in software X, why isn't it being developed in RawTherapee? The issue is, feature "ZZZ" is not necessarily better than "XXX", but the requests are, as we put it in French "ça tombe comme à Gravelotte" ("raining dogs and cats").
+* RawTherapee also has the unique characteristic of employing certain specific algorithms or processing methods. People may like it or dislike it, criticize it or approve of it, and compare it to what exists elsewhere. But before condemning, make sure you are compare apples to apples (you wouldn't compare a chicken to a fish). I'm referring in particular to: CIECAM, Auto WB temperature correlation, Selective Editing, Wavelets, Abstract Profiles, etc. What I observe today (early 2026) is that what was once heresy has become a focal point; I'm referring to Wavelets in another free software, or even the gamma/slope coupler...(or Abstract Profile). //needs clarifications for the last sentence.
 
-## In summary: some principles
+## Some principles to know before we start
 + Start processing an image with no settings other than the default ones in 'Neutral', to avoid any side effects.
 + Use the maximum possible range for Raw data, this means that: 
   - The Black Point at the beginning of processing should be as close as possible to what the sensor allows.
-  - The highest measurable values ​​on the sensor must be recorded at the White Point. Furthermore, it is desirable to be able to recover, as best as possible, the data lost when values ​​created by overexposure have saturated the sensor (see: Highlight reconstruction > Color Propagation  - which, contrary to what its name suggests, also allows data to be retrieved in very low light conditions).
-+ Finding the best color balance is crucial before starting any treatments. The longer you wait, the greater the risk of 'contaminating' other methods. Note that it may be affected by chromatic noise.
-+ Make the most of the possibilities in Raw mode, whether it be the demosaicing method, the improvement of sharpness and noise treatment, the correction of black point and chromatic aberrations, etc.
+  - The highest measurable values ​​on the sensor must be recorded at the White Point. Furthermore, it is desirable to be able to recover, as best as possible, the data lost when values ​​created by overexposure have saturated the sensor (see: Highlight reconstruction > Color Propagation - which, contrary to what its name suggests, also allows data to be retrieved in very low light conditions).
++ Finding the best color balance is crucial before starting any treatments. The later you do this, the greater the risk of 'contaminating' other methods. Note that chromatic noises may also play a part.
++ Make the most out of your Raw Tab settings, whether be it the demosaicing method, the improvement of sharpness and noise treatment, the correction of black point and chromatic aberrations, etc.
 + Control (and compress if necessary) the gamut at the beginning and end of the process.
 + Be careful not to use methods or tools that lead to the creation of imaginary colors. The core principle of Game Changer is to eliminate them - or at the very least, reduce them.
 + Using the concept of a pre-tone mapping, which makes an image usable or (acceptable) for further processing. That is to say:
@@ -37,11 +41,11 @@ This concept isn't about forcing you to change your image processing methods, bu
   - Bring the White point as close as possible to 1: out-of-gamut data can have very high values ​​(3, 5 or 10), and all methods are more efficient when in the interval [0, 1] (32-bit real format), and subsequent processing is more efficient when the data has been normalized i.e. in the interval [0, 1] (32-bit real format) and the output of GHS is unbounded.
   - All calculations are performed using 32-bit real numbers, and no data is lost.
   - Implementing an asymptotic process that allows us to get closer to the White point, without reaching it - and even less going beyond it.
-  - This principle is included in 'Selective Editing > Equalization & Pre-tone mapping': The first RT-spot used must always be (if of course there is a need) a Pre-tone mapper in Global mode.
-  - The timing of the Linear Black Point and Linear White Point calculations is of paramount importance. Performing these calculations too early in the process does not reflect reality, as processing may have occurred in the interim. Using average values ​​is also not the solution.
-+ Towards the end of the process, it is possible to adjust the tones and contrasts, assuming that the image at this stage has no major defects. This method should allow visualization of the effects on the acceptable limits for the data and the gamut. The primaries in Game Changer initially only serve to render special effects.
-+ At the very end of the process, it allows the implementation of the concepts of 'Scene' (source) and 'Viewing' (display): taking into account the conditions of shooting and final viewing, taking into account the physiological aspects, allowing each R, G, B channel to be retouched to better balance or modify the colors.
-+ You may notice that throughout 'Game changer' (except for a few rare cases, where they are 'automatics' as in Capture Sharpening, or for a very specific use), I never use masks and layers, or Primaries. And it is unlikely that you will find these methods and tools anywhere other than in Rawtherapee (of course not all of them).
+  - This principle is included in 'Selective Editing > Equalization & Pre-tone mapping': The first RT-spot used must always be (if needed, of course) a Pre-tone-mapper in Global mode.
+  - The timing of the Linear Black Point and Linear White Point calculations is of paramount importance. Performing these calculations too early in the process does not reflect reality, as processing may have occurred in the interim. Using average values ​​is also not the solution. //needs clarifications for the last sentence.
++ Towards the end of the process, it is possible to adjust the tones and contrasts, assuming that the image at this stage has no major defects. This method should allow visualization of the effects at the acceptable limits for the data and the gamut. The primaries in Game Changer initially only serve to render special effects.
++ At the very end of the process, we'll implement concepts of 'Scene' (source) and 'Viewing' (display): taking into account the conditions of shooting and final viewing, taking into account the physiological aspects, allowing each R, G, B channel to be retouched to better balance or modify the colors.
++ You may notice that throughout 'Game changer' tutorials (except for a few rare cases, where they are 'automatics' as in Capture Sharpening, or for a very specific use), I never use masks and layers, or Primaries. And it is unlikely that you will find the methods and tools in these tutorials anywhere other than in Rawtherapee (of course not all of them).
 
 Some current tools should be avoided – or at the very least, the user should be aware of the consequences of their choices:
 + Exposure compensation.
@@ -57,7 +61,7 @@ Other tools must be used with caution, as they can interfere - it is almost impo
 + ... 
 
 
-Prefer their equivalent in Selective Editing, taking care to place them "after" the pre-tone mapping.
+Using their equivalent in Selective Editing is preferred, just take some extra care and place them "after" the pre-tone-mapping.
 
 This is partly due to the pipeline - the order in which operations are actually carried out, not the order in which you do them.
 [Pipeline](/toolchain_pipeline)
