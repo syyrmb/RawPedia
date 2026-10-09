@@ -11,20 +11,21 @@ summary: Introducing the principles and recommendations the tutorials illustrate
 ---
 
 This series of tutorial is prepared for intermediate level readers. Before reading this article, you are expected to:
-1. Have a basic understanding of General Hyperbolic Stretch (specifically, setting black and white point with it), MM, CIECAM, Selective Editing, Gamut Compression and Abstract Profile.
+1. Have a basic understanding of General Hyperbolic Stretch (specifically, setting black and white point with it), Michaelis-Menten, CIECAM, Selective Editing, Gamut Compression and Abstract Profile modules.
 2. Know how to use the settings in Raw Tab, to enhance sharpness and improve smoothness of flat areas, to correct black point, to reduce false color/chromatic aberration, etc,.
 3. Understand the concept of imaginary color.
+
 ‘Game changer’ - in French, the term ‘bouleverseur’ suits me well as a translation: it aims to change the usual way of thinking and acting in terms of image processing. Before changing the way we do things, we must first agree on the way we see things. As a now deceased great sociologist puts it, "L'accord sur ma manière de faire est avant tout un accord sur la manière de voir" ("Agreement on my approach is, above all, agreement on a way of seeing things", Jean-Daniel Reynaud, 1926 - 2019).
 
 This concept isn't about forcing you to change your image processing methods, but rather about trying a different approach based on principles that solve (at least partially, I believe) difficult image processing problems, using new concepts and methods. I'm not talking about tools here, but meta-methods: how to proceed and why this processing method is preferable to another for a certain type of image. The point isn't to provide a one-size-fits-all solution, but rather principles based on specific objectives.
 
 ## A bit of history - the implications of the context
 
-* RawTherapee was conceived and created by a single man, Gabor Horvatz, in 2005. This is a fantastic achievement. However, this has consequences: the GUI interface has remained the same, prioritizing what was good, given the knowledge available at the time in 2005. 
+* RawTherapee was conceived and created by a single man, Gabor Horvatz, in 2005. This is a commendable achievement. However, this has consequences: the GUI interface has remained the same, prioritizing what was good, given the knowledge available at the time in 2005. 
 * Today, the powerful modules are scattered across different Tabs, and personally, I almost never use those in the first two Tabs (with the exception of Highlight Reconstruction).
 * Other improvements have made some modules that were very good 10 years ago a little less so. Like the excellent Dynamic Range Compression (which is mathematically complex, slow and resource-intensive...).
 * A persistent problem, once you're no longer in Raw mode, is that the Preview, apart from 'fit to screen', is often different from the TIF/JPG output. Furthermore, the appearance varies significantly depending on the zoom level and the tools used. This is a pipeline design flaw that hasn't been resolved (the consolation is that this problem, to varying degrees, is found in other software as well...), so you just have to live with it.
-* There are also the effects of fads; yesterday everyone was talking about feature "XXX", then "YYY", and now "ZZZ", and since it's in software X, why isn't it being developed in RawTherapee? The issue is, feature "ZZZ" is not necessarily better than "XXX", but the requests are, as we put it in French "ça tombe comme à Gravelotte" ("raining dogs and cats").
+* There are also the effects of fads; yesterday everyone was talking about feature "XXX", then "YYY", and now "ZZZ", and since it's in software X, why isn't it being developed in RawTherapee? The issue is, feature "ZZZ" is not necessarily better than "XXX", but the requests are, as we put it in French, "ça tombe comme à Gravelotte" ("raining dogs and cats").
 * RawTherapee also has the unique characteristic of employing certain specific algorithms or processing methods. People may like it or dislike it, criticize it or approve of it, and compare it to what exists elsewhere. But before condemning, make sure you are compare apples to apples (you wouldn't compare a chicken to a fish). I'm referring in particular to: CIECAM, Auto WB temperature correlation, Selective Editing, Wavelets, Abstract Profiles, etc. What I observe today (early 2026) is that what was once heresy has become a focal point; I'm referring to Wavelets in another free software, or even the gamma/slope coupler...(or Abstract Profile). //needs clarifications for the last sentence.
 
 ## Some principles to know before we start
@@ -86,13 +87,13 @@ But of course, there are no prohibitions; these are only general recommendations
 
 + You can control the data at the time you implement a tool, these are just possible examples of values (uncorrelated with each other):
   - Gamut Compression: Maximum achromatique value: 3.2, then R:3.2 G:1.4 B=1.8 -- Estimated Cyan:1.5 Magenta:2.2 Yellow:2.8
-  - Michaelis-Menten : Subtrack black = 0.05 White point=3.1
+  - Michaelis-Menten: Subtrack black = 0.05 White point=3.1
   - Generalized Hyperbolic Strech: RGB values- R:3.3 G:1.2 B:1.9
-  - Abstract Profiles : RGB max = 0.92 - Final RGB Max = 0.62 - Final Saturation Max = 0.75
+  - Abstract Profiles: RGB max = 0.92 - Final RGB Max = 0.62 - Final Saturation Max = 0.75
 + 'Normally', if everything is within the gamut, and if no processing caused it to be exceeded, the values ​​should all be within the interval [0, 1] (32-bit real format).
 + If you find values (for the maximum) ​​for Gamut Compression, Michaelis-Menten, Generalized Hyperbolic Stretch:
   - That are less than 1 or close to 1. It's likely that Highlight reconstruction > Color Propagation (or Inpaint Opposed) won't help. In that case, disable it.
-  - If these same values ​​are much greater than 1, for example 3.5 or 8, or more, the use of Color Propagation is recommended, and consequently it should not be disabled.
+  - If these same values ​​are much greater than 1, for example 3.5 or 8, or larger, the use of Color Propagation is recommended, and consequently it should not be disabled.
   - In the latter case, make sure that 'Clip out-of-gamut colors' is disabled.
 <figure>
 <img src="color-propag.jpg" title="color-propag.jpg" width="300" />
@@ -101,34 +102,34 @@ But of course, there are no prohibitions; these are only general recommendations
 
 ### Specific tools used
 As of February 2026 - to be updated.
-Apart from tools that have been around for many years, but are not always well known, I highlight new ones, or those that seem preferable to me:
+Apart from tools that have been around for many years, but are not always well known, I highlight new ones, or those that are preferable to me:
 + Capture Sharpening (Raw Tab) - With Pre and Post sharpening denoise:  [Capture Sharpening](/capture_sharpening/)
-+ Color Propagation in Highlight reconstruction (Exposure Tab): [Highlight Reconstruction](/exposure/#highlight-reconstruction)
++ Color Propagation in Highlight Reconstruction (Exposure Tab): [Highlight Reconstruction](/exposure/#highlight-reconstruction)
 + White Balance > Automatic & Refinement > Temperature correlation (Color Tab): [Temperature Correlation](/white_balance/#the-temperature-correlation-algorithm)
 + Gamut Compression (Color Tab): [Gamut Compression](/gamut_compression)
-+ Selective Editing > Equalization & Pre-Tone Mapping : Generalized Hyperbolic Stretch (GHS) & Michaelis-Menten (MM): [GHS & MM](/local_adjustments/#generalized-hyperbolic-stretch-and-michaelis-menten)
++ Selective Editing > Equalization & Pre-Tone Mapping: Generalized Hyperbolic Stretch (GHS) & Michaelis-Menten (MM): [GHS & MM](/local_adjustments/#generalized-hyperbolic-stretch-and-michaelis-menten)
 + Abstract Profile (Color Tab): [AP](/color_management/#abstract-profiles)
   - Tone Response Curve:[AP - TRC](/color_management/#trc---tone-response-curve)
   - Contrast Enhancement: [AP-CE](/color_management/#contrast-enhancement), in particular how it works [Presets](/color_management/#each-preset-contains-a-selection-of-decomposition-levels), and [Characteristics](/color_management/#the-contrast-enhancement-module-has-the-following-characteristics)
   - Illuminant White Point: [AP - IWP](/color_management/#illuminant---white-point)
   - Primaries: [AP - Prim](/color_management/#primaries) 
-+ Selective Editing > Blur/Grain & Denoise > Denoise : [SE-denoise](/local_adjustments/#selective-editing----blurgrain--denoise--denoise)
++ Selective Editing > Blur/Grain & Denoise > Denoise: [SE-denoise](/local_adjustments/#selective-editing----blurgrain--denoise--denoise)
 + Color Appearance & Lighting (Advanced Tab): [CIECAM](/ciecam02)
 
 
 ### Alternatives
 
 With most of the principles and recommendations outlined above, you can replace some of the tools with others.
-* Selective Editing > Equalization & Pre-Tone Mapping : Generalized Hyperbolic Stretch (GHS) & Michaelis-Menten (MM)
+* Selective Editing > Equalization & Pre-Tone Mapping: Generalized Hyperbolic Stretch (GHS) & Michaelis-Menten (MM)
 * Abstract Profile (Color Tab)
 * Color Appearance & Lighting (Advanced Tab)
 
-By :  
-* Selective Editing > Color Appearance (CAM16 & JzCzHz). This tool contains, with the exception of GHS and MM, tools similar to Abstract Profiles and Color Appearance & Lighting.
+By:  
+* Selective Editing > Color Appearance (CAM16 & JzCzHz). It contains, with the exception of GHS and MM, tools similar to Abstract Profiles and Color Appearance & Lighting.
 
-**Advantages**: Greater integration, fewer trips back and forth between different 'Tabs. Since version 5.13, the tools located in 'Source Data Adjustments', 'Red Green Blue' in 'CAM16 Images Adjustments' and 'Final Gain & Gamut Compression', provide essentially the same capabilities as the tools already presented in Game Changer. This allows the use of Selective Editing features (deltaE, transitions, etc.). GHS and MM are 'replaced' by others Tone-mappers (Slope based, Sigmoid based, Log encoding, etc.)
+**Advantages**: Greater integration, fewer trips back and forth between different Tabs. Since version 5.13, the tools located in 'Source Data Adjustments', 'Red Green Blue' in 'CAM16 Images Adjustments' and 'Final Gain & Gamut Compression', provide essentially the same capabilities as the tools already presented in Game Changer. This allows the use of Selective Editing features (deltaE, transitions, etc,.). GHS and MM are 'replaced' by others Tone-mappers (Slope based, Sigmoid based, Log encoding, etc.)
 
-**Disadvantages**: Tone Mapping Operators use pre-calculated values ​​for White Points and Black Points, which may be unsuitable depending on the process used, and are not recalculated. This means that if you open a second session, the values ​​will likely be incorrect. Furthermore, it will be difficult (or even impossible) to precisely adjust the Black Point, leading to a lack of image contrast (of course, in the case where the BP value is not close to zero in linear value).
+**Disadvantages**: Tone Mapping Operators use pre-calculated values ​​for White Points and Black Points, which may be unsuitable depending on the process used, and will not be recalculated. This means that if you open a second session, the values ​​will likely be incorrect. Furthermore, it will be difficult (or even impossible) to precisely adjust the Black Point, leading to a lack of image contrast (of course, in the case where the BP value is not close to zero in linear value).
 
 [Selective Editing > Color Appearance CAM16 & JzCzHz](local_adjustments/#cam16-with-hdr-pre-processing)
 
