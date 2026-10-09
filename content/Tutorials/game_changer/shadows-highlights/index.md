@@ -7,8 +7,11 @@ tags:
   - 'Tool Description'
   - 'Tutorial'
 toc: true
-summary: In this tutorial, we will see how to use various tools to avoid or remove artifacts, and propose a preferred solution for brightening shadows, controling highlights, and creating a dramatic effect.
+summary: In this tutorial, we will see how to use various tools to avoid or remove artifacts, and propose a preferred solution for brightening shadows, controlling highlights, and creating a dramatic effect.
 ---
+
+This series of tutorial is prepared for intermediate level readers. Before reading this article, you are expected to:
+1. Have a basic understanding of General Hyperbolic Stretch (specifically, setting black and white point with it), Michaelis-Menten, CIECAM, Selective Editing, Gamut Compression and Abstract Profile modules.
 
 In this tutorial, we will explore how to avoid or remove artifacts. Then I
 will propose a single tool that is effective for brightening shadows,
@@ -23,7 +26,7 @@ challenge in terms of methods.
 
 I deliberately chose extreme settings to show that even with a 'degraded'
 starting image it is possible to obtain a more than acceptable result; for
-example the "Contrast Enhancement" values are huge.
+example the Contrast Enhancement values are huge.
 
 ## Image selection
 
@@ -34,12 +37,12 @@ Thumper generously licensed his work under the [Creative Commons,
 By-Attribution,
 Share-Alike](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-I also include two RawTherapee `pp3` sidecar files that we will use below:
+I also include two RawTherapee `.pp3` sidecar files that we will use below:
 
 - pp3 file 1: [First example with Color Propagation](1q8a5461.cr3-jd-std.pp3 "first-cp.pp3")
 - pp3 file 2: [Second example with Color Propagation and blur](1q8a5461.cr3-jd-blur.pp3 "second-cp-blur.pp3")
 
-## Image : neutral
+## Image: neutral
 Here is a screenshot of the image in `neutral` mode with `Lockable Color
 Pickers`. You can immediately see that the photographer has underexposed
 the overall frame to avoid overexposing the sunset sky. Despite this
@@ -55,10 +58,10 @@ near the power pole. See also the histogram in 'linear' mode.
 
 Things to note:
 
-+ The Raw histogram is not 'abnormal', but there are very few values
++ The raw histogram is not 'abnormal', but there are very few values
   outside the shadows. The blue channel is dominant.
 + The Metadata: the camera used is a recent 24x36 camera - Canon EOS R6
-  with a good quality 50mm f/1.8 lens, open to 2.8. ISO = 100. Shooting in
+  with a good quality 50mm f/1.8 lens, open to f/2.8. ISO = 100. Shooting in
   'auto' mode.
 + The data is in the 'black' part of the image. There are two groups (peaks
   on the histogram): values with R=0.4%, G=0.4%, and B=0.4%, and others
@@ -66,7 +69,7 @@ Things to note:
   and b=-4 (which is theoretically impossible).
 + As soon as we want to edit something, we see (with the help of the
   histogram, the soft proofing, and of course, the examination of the
-  image), artifacts appearing:
+  image) artifacts appearing:
   - In the deep shadows, numerous 'green dots' appear (make sure you have
     turned on {{< image src="gamut-softproof.png" >}} `Soft-proofing` and
     {{< image src="gamut-warning.png" >}}
@@ -77,12 +80,12 @@ Things to note:
   - The transition zones in the sky, between the reddish clouds and the
     clear blue sky, show very poor transitions. 
 + If the author has access to [Dark Frame](/dark-frame) or [Flat
-  field](/flat-field) reference images they could be used to correct some
+  field](/flat-field) reference images, they could be used to correct some
   of these problems. For this exercise we will assume they aren't available.
 
 ## Learning objective
 
-The user will understand the ‘Game changer’ approach discussed in this tutorial:
+Reader will understand the ‘Game changer’ approach discussed in this tutorial:
 + The role of `Raw` Tab tools, in particular to combat artifacts.
 + The importance of `Color Propagation`, including in (very) deep shadows.
 + The importance of Gamut Compression.
@@ -126,16 +129,16 @@ toolbar.
 + False color suppresion steps: setting it to 4 slightly reduces artifacts
 
 {{< figure
-  src="false-colour0.jpg"
-  alt="AMaZE+VNG4 demosaicing, without false colour suppression"
-  caption="`AMaZE+VNG4` demosaicing, without false colour suppression; notice the blue and red speckling on the branches." 
+  src="false-color0.jpg"
+  alt="AMaZE+VNG4 demosaicing, without false color suppression"
+  caption="`AMaZE+VNG4` demosaicing, without false color suppression; notice the blue and red speckling on the branches." 
   width=500
 >}}
 
 {{< figure
-  src="false-colour4.jpg"
-  alt="AMaZE+VNG4 demosaicing, false colour suppression = 4"
-  caption="`AMaZE+VNG4` demosaicing, false colour suppression = 4; the coloured speckling is eliminated."
+  src="false-color4.jpg"
+  alt="AMaZE+VNG4 demosaicing, false color suppression = 4"
+  caption="`AMaZE+VNG4` demosaicing, false color suppression = 4;  color speckling is eliminated."
   width=500
 >}}
 
@@ -148,7 +151,7 @@ More on [demosaicing](/demosaicing/)
 
 The `Dehaze` system designed by Ingo Weirich (thanks to him) suggests here,
 due to the difference between the values R=0, G=0, B=0 and the very low
-values R=0.4%, G=0.4%, B=0.4%, that it's a haze problem. I think that's not
+values R=0.4%, G=0.4%, B=0.4%, that there is a haze problem. However, I think that's not
 the case -- we're dealing with shadow detail lost due to the image being
 underexposed, the same way we lose highlight detail when an image is
 overexposed.
@@ -177,9 +180,9 @@ More on [Raw Black Points](/raw_black_points/)
 
 Below, you can see the influence of Raw Black Points on the image at the
 end of the process (i.e., after all the processing steps below have been
-completed). This histogram corresponds to the pp3 file 2 : 'Second
+completed). This histogram corresponds to the pp3 file 2: 'Second
 example with Color Propagation and blur' at the end of the process, with
-the histogram type set to 'Output profile mode with a gamma.' 
+the histogram type set to 'Output profile mode with a gamma'. 
 
 + Note the difference on the horizontal axis, close to zero.
 + Note that the overall histogram is better filled.
@@ -200,8 +203,8 @@ the histogram type set to 'Output profile mode with a gamma.'
 ### Chromatic Aberration Correction
 + We can reduce some minor artifacts caused by Chromatic Aberration by
   manually adjusting the red and blue channels. (Note that we're using the
-  `Chromatic Aberration Correction` tool in the `Raw` tab here, not the
-  tool with the same name in the `Transform` tab.)
+  `Chromatic Aberration Correction` tool in `Raw` tab here, not the
+  tool with the same name in `Transform` tab.)
  
 <figure> 
     <img src="chromatic-aber.jpg" title="chromatic-aber.jpg" width="300" />
@@ -211,10 +214,10 @@ the histogram type set to 'Output profile mode with a gamma.'
 More on [Chromatic Aberration](/chromatic_aberration/).
 
 ### Preprocess White Balance
-I chose "Camera" which seems to produce a better result. During the Raw
-pre-processing, when nothing is determined, it's necessary to choose a
-temperature to quantify the data. This is either the 'Camera' value present
-in the Exif, or a rough calculation done with 'Automatic RGB Grey'.
+I chose "Camera" which seems better. During raw pre-processing, when nothing 
+is determined, it's necessary to choose a temperature to quantify the data. 
+This is either the 'Camera' value present in the Exif, or a rough calculation 
+done with 'Automatic RGB Grey'.
 
 <figure>
     <img src="prepro-wb-1.jpg" title=prepro-wb1.jpg" width="300" />
@@ -223,7 +226,7 @@ in the Exif, or a rough calculation done with 'Automatic RGB Grey'.
 
 ### Capture Sharpening
 
-+ Activating Capture Sharpening works without any problems. The contrast
++ Activating Capture Sharpening works without any problem. The contrast
   threshold is not set to zero. It will recover details lost due to
   in-camera blurring.
 
@@ -237,14 +240,14 @@ More on [Capture Sharpening](/capture_sharpening/)
 ### Color Propagation
 
 + Observing the reaction of the modules mentioned in the recommendations,
-  the contribution of "Color Propagation" is small on the 'numbers', but
-  not negligible. On the other hand, and this is its initial role, it
-  allows the recovery of 'lost' data in highlight, but also in very deep
-  shadow.
-+ If you try another tool in 'Highlight reconstruction', such as 'Inpaint
-  opposed' you will see that it has no effect on very deep shadow.
-+ The first example is without the 'Blur' slider in 'Color Propagation'
-  being activated. This slider allows you to adjust the transitions between
+  the contribution of "Color Propagation" is small on 'numbers', but
+  not negligible. On the other hand, it recovers not only 'lost' data
+  in highlight, but also in very deep shadow, fulfilling its task we
+  assigned to it in the first place.
++ If you try any other method in Highlight Reconstruction, such as Inpaint
+  Opposed, you will see that it has no effect on very deep shadow.
++ The first example is with the 'Blur' slider in 'Color Propagation'
+  deactivated. This slider allows you to adjust the transitions between
   'recovered' (and therefore lost) areas and healthy areas. This also led
   to a change in the 'Raw Black Points' setting.
   - [Recommendations](/tutorials/introduction/#recommendations)
@@ -261,7 +264,7 @@ To fully utilize the capabilities of `White Balance Auto temperature correlation
   because clearly with this sky we are beyond the reflected colors and the
   default selection `Medium sampling - near Pointers's Gamut`.
 + You can also check `Remove 2 pass algorithms` which seems to give a
-  slightly more 'dramatic' result (but that's a matter of perspective).
+  slightly more 'dramatic' result (but that's a matter of taste).
 + You could also, but it doesn't seem necessary here, use `Green
   refinement` which can in some cases compensate for the algorithm's
   shortcomings.
@@ -312,8 +315,8 @@ Hence the importance of examining the histogram in mode `gamma-corrected`
 
 + I used this module (MM) rather than (GHS), not because it's simpler, but
   because, unlike GHS, it doesn't rely on an algorithm to calculate 'Linear
-  White Point', and especially 'Linear Black point' in this case. When I
-  designed GHS, I assumed that a reduced value of 0.001 was negligible;
+  White Point', and specifically in this case, the 'Linear Black point'.
+  When I designed GHS, I assumed that a reduced value of 0.001 was negligible;
   however, it isn't here, in this very specific image, and necessitates a
   manual correction (in negative) of the Black point. 
 + Note the preferred use of the two 'hyperbolic' parameters - Output scale
@@ -321,7 +324,7 @@ Hence the importance of examining the histogram in mode `gamma-corrected`
   adjustment. 
 + Note the use of checkboxes (uncheck them all first). Start with `Subtract
   linear black`; you'll see the histogram compress towards the left, even
-  with the work done beforehand in the Raw section. Then activate `Linear
+  with the work done beforehand in the Raw Tab. Then activate `Linear
   dynamic range`; the histogram will be compressed by roughly 1.18 (see the
   values displayed below). The asymptote for highlights will be better
   defined, and contrast and saturation will increase. 
@@ -340,7 +343,7 @@ Hence the importance of examining the histogram in mode `gamma-corrected`
 + Choose a Normal RT-Spot 'Rectangle', with a small Scope value, so as not
   to interfere with the sky. Of course, DeltaE and transitions apply; the
   limits of the RT-spot are of little importance. 
-+ Due to RT issues with the Preview, set the image to 'fit to screen', and
++ Due to RawTherapee's issues with the Preview, set the image to 'fit to screen', and
   enable `Auto Black point & White point`. Then disable it. 
 + Activate `Auto Symmetry point (SP)`.
 + Adjust `Stretch factor (D)` and `Local intensity (b)` to achieve the
@@ -377,7 +380,7 @@ Hence the importance of examining the histogram in mode `gamma-corrected`
     <figcaption>GHS - Inverse mode - increases the dramatic aspect of the sky</figcaption>
 </figure>
 
-+ To enhance the dramatic effect of the sky, I used GHS's `Inverse` mode,
++ To enhance the dramatic effect of the sky, I used GHS' `Inverse` mode,
   which allows it to either reverse the image or reduce contrast and
   highlights. That's what was done here. 
 + Note the need to switch the complexity mode to 'Standard' to have the
@@ -392,10 +395,9 @@ Hence the importance of examining the histogram in mode `gamma-corrected`
     <figcaption>Graduated Filter - increases the dramatic aspect of the sky</figcaption>
 </figure>
 
-+ Nothing new here, I'm using a tool that's been around in RT for a long
-  time. I could have used the same tool found in Selective Editing
-  associated with each tool, but except for 'fit to screen', it's sensitive
-  to the Preview's dimensions. 
++ Nothing new here, I'm using a tool that's been around in RawTherapee for a long
+  time. I could have used the same tool in Selective Editing, but except for
+  'fit to screen', it's sensitive to the Preview's dimensions. 
 + I positioned it to increase the contrast (more dramatic effect) between
   the clouds and the rest of the image. 
 
@@ -424,8 +426,8 @@ the `Primaries & Illuminants` module.
   profile (5), which leads to modifying the contrast from 2x2 pixels groups
   up to 1024x1024 (if the size of your Preview allows it), and the curve
   which is almost at its maximum. The system uses only wavelets, and only
-  for signal processing. 'Normally' as it is designed, it should not (or
-  very little) generate artifacts. The goal here is to make the whole image
+  for signal processing. 'Normally' as it is designed, it should generate
+  little to none artifacts. The goal here is to make the whole image
   more dramatic (it is certain that for a portrait, or traditional images,
   the basic settings are sufficient). Note that the halos are barely
   visible, even with these unusual settings. 
@@ -434,33 +436,33 @@ the `Primaries & Illuminants` module.
 
 [Contrast Enhancement](/color_management/#contrast-enhancement)
 
-###### RGB Max - informations
+###### RGB Max - information
 
 Provides information on out-of-limit RGB values. Values greater than 1
 clearly indicate that we are out of gamut whereas for values less than 1,
 we cannot say whether the image is within gamut or not because it depends,
 for example, on the luminance. This check is performed at the end of the
-Abstract Profile and takes into account all parameters. The ‘Attenuation
+Abstract Profile and takes all parameters into account. The ‘Attenuation
 threshold’ slider can be used to limit the RGB values.
 
 Changes made to `Color Appearance and Lighting`, `Final Gain and Gamut
 Compression` are not taken into account.
 
-###### Final RGB Max & Final Saturation Max - informations
+###### Final RGB Max & Final Saturation Max - information
 
-Provides information on out-of-limit RGB values and RGB saturation. Values
-greater than 1 for ‘Final RGB Max’ and ‘Final Saturation Max’ clearly
+Provides information on out-of-limit RGB values and RGB saturation. Similarly,
+values greater than 1 for ‘Final RGB Max’ and ‘Final Saturation Max’ clearly
 indicate that we are out of gamut whereas for values less than 1, we cannot
 say whether the image is within gamut or not because it depends, for
 example, on the luminance. This check is performed at the end of the
-processing pipeline and takes into account all parameters. Changes made in
+processing pipeline and takes all parameters into account. Changes made in
 Color Appearance & Lighting and in Final Gain & Gamut Compression are taken
 into account.
 
 Adjusting the Gain (Ev) and Gamut Compression (Target Gamut and Power)
 settings will allow you to see the impact of these adjustments. You should
-also observe the histogram, which takes into account the output profile
-therefore the gamma. This data, which is directly related to the RGB values
+also observe the histogram, which takes the output profile, therefore gamma,
+into account. This data, which is directly related to the RGB values
 and Saturation and is in the Working Profile, is in linear mode.
 
 The data is only displayed if Target Gamut is enabled, or if Gain (Ev) is
@@ -471,8 +473,8 @@ not equal to 0.
 The objective here is twofold:
 + Accentuate the dramatic aspect of the image by strongly increasing the
   colors in the reds and yellows.
-+ To show that primaries can also be used in RT (this was initially one of
-  the goals of Abstract profile, to allow color effects).
++ To show that primaries can also be used in RawTherapee (this was initially
+  one of the goals of Abstract profile, to allow color effects).
 
 <figure>
     <img src="ap-prim-1.jpg" title="ap-prim-1.jpg" width="300" />
@@ -482,9 +484,8 @@ The objective here is twofold:
 + Note that I used polar coordinates to make this modification of the
   primaries. I could have done it directly with the CIExy diagram, or in
   linear mode.
-+ Note that if instead of increasing the saturation, I had reduced it, we
-  would have gone outside the CIExy diagram, hence the generation of
-  imaginary colors.
++ Note that if instead of increasing the saturation, I reduce it, we
+  would have gone outside the CIExy diagram, hence tgenerating imaginary colors.
 + Note that I've changed the 'White point' of the internal ICC profile to
   D41. When you change it, you change the dominant color. The primary
   rotation is done from this 'new' White point.
@@ -546,7 +547,7 @@ In this tutorial, I will present it briefly in 2 parts:
       contrast and brightness to each situation.
 
 + As a reminder, in CIECAM there are a total of 9 variables, 6 of which are
-  accessible to the user in RT: Lightness (J), Brightness (Q), Saturation
+  accessible to the user in RawTherapee: Lightness (J), Brightness (Q), Saturation
   (s), Chroma (C), Colorfulness (M), and Hue rotation (h). They are
   interdependent. For example Chroma = saturation * saturation *
   brightness.
@@ -573,8 +574,8 @@ In this tutorial, I will present it briefly in 2 parts:
 
 #### Appearance of the result at the end of treatment
 
-+ Of course, nothing is perfect, and there remain small artifacts only visible during softproofing.
-+ I wanted to make the image as dramatic as possible, perhaps even going too far. But let's remember the objectives; this is first and foremost an educational approach.
++ Of course, nothing is perfect, and there remain small artifacts only visible during soft proofing.
++ I wanted to make the image as dramatic as possible, perhaps even going too far. But don't forget this is first and foremost an educational approach.
 
 <figure>
     <img src="final-1.jpg" title="final-1.jpg" width="800" />
