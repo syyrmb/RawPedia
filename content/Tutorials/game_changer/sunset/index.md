@@ -9,26 +9,10 @@ toc: true
 summary: Applying the 'Game Changer' concepts to a sunset
 ---
 
-This second tutorial aims to explain the concept of a ‘Game changer’ here applied to a sunset.
-
-In this tutorial, we will see how to use:
-+ Generalized Hyperbolic Stretch (GHS) in 2 modes: RGB Standard & RGB Luminance.
-+ Michaelis-Menten (MM).
-+ Abstract Profile (AP).
-+ Color Appearance & Lighting.
-
-Of course, other tools are necessary, such as 'Gamut Compression', 'White Balance Auto - Temperature Correlation' (See the first tutorial for more details: of course the settings are different).
-
-[Gamut Compression](/tutorials/shadows-highlights/#gamut-compression)
-
-[Auto White Balance - Temperature Correlation](/tutorials/shadows-highlights/#white-balance---temperature-correlation)
+This second tutorial aims to explain the ‘Game changer’ concept with a sunset image.
 
 Image selection:
-Image n°5 IMGP2426.DNG from the Rawtherapee Processing Challenge feedback (begin 2024)
-
-[Raw Image](https://drive.google.com/file/d/17R3iBq08s71DuDRiv9T6TzlJVsxqBISo/view)
-
-Raw file (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License)
+Image [IMGP2426.DNG](https://drive.google.com/file/d/17R3iBq08s71DuDRiv9T6TzlJVsxqBISo/view) from the RawTherapee Processing Challenge feedback in 2024 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License).
 
 This image seems innocuous at first glance, a typical sunset. The image is generally underexposed, and the sun doesn’t appear overexposed.
 
@@ -36,29 +20,29 @@ This image seems innocuous at first glance, a typical sunset. The image is gener
 - pp3 file 2: [Second example with Generalized Hyperbolic Strech - RGB Standard](i2426-ghs-std.pp3 "i2426-ghs-std.pp3")
 - pp3 file 3: [Third example with Michaelis-Menten](i2426-mm.pp3 "i2426-mm.pp3")
 
- [Some principles](/tutorials/introduction/#in-summary-some-principles)
+<!--[Some principles](/tutorials/introduction/#in-summary-some-principles)
 
- [Recommendations](/tutorials/introduction/#recommendations)
+ [Recommendations](/tutorials/introduction/recommendations)
 
  [Specific tools used](/tutorials/introduction/#specific-tools-used)
 
  [Alternatives](/tutorials/introduction/#alternatives)
-
+ 
+Is the above 4 reiterations necessary? They make the tutorial look more complicated than it already is.-->
 **Learning objective**
 
 The user will understand the ‘Game changer’ approach discussed in this tutorial:
-+ The role of ‘GHS’ or 'MM' in the linear portion of the data, which can be considered a ‘Pre-tone-mapper’.
++ Generalized Hyperbolic Stretch (GHS) in 2 modes: RGB Standard & RGB Luminance & the role of ‘GHS’ or 'MM' in the linear portion of the data, which can be considered a ‘Pre-tone-mapper’.
 + The role of ‘Abstract Profile’, which prepares the data for use in the output (screen, TIFF/JPG).
 + Minimize the use of other tools, aside from those essential for the proper functioning of RawTherapee, GHS, MM, and AP, and reduce back-and-forth navigation within the GUI.
-+ Highlight the tools to avoid and those that can be beneficial.
-+ The settings (sliders, checkboxes, etc.) are provided for illustrative purposes. They are not intended to provide perfect settings, but rather to show the way forward.
-
++ Highlight the tools to avoid, and those that can be beneficial (including Color Appearance & Lighting, '[Gamut Compression](/tutorials/shadows-highlights/#gamut-compression)', '[White Balance Auto - Temperature Correlation](/tutorials/shadows-highlights/#white-balance---temperature-correlation).
+<!-- Move the upper part down here as they have some duplicated parts, and combining them make the tutorial shorter and easier to read. Need opinion on its effect.-->
 #### First step: GHS - MM  and necessary adjustments
 
 + Deactivate everything, switch to ‘Neutral’ mode.
-+ Activate ‘Capture Sharpening’ (Raw Tab): check that ‘Contrast threshold’ displays a value other than zero. Otherwise, it means it is not operational (noisy image). Resolving this potential problem related to noisy images will be covered in a later tutorial.
-+ The image was taken outdoors at sunset, therefore with a daylight illuminant, so there is no problem setting the white balance (Color Tab) to ‘Automatic & refinement > Temperature correlation’.
-+ In the Exposure Tab, disable ‘Clip out-of-gamut colors’, enable ‘Highlight reconstruction’, and zoom the image to 100% while examining the sun. Try ‘Inpaint Opposed’, ‘Blend’, and ‘Color Propagation’. For each case, re-enable ‘Clip out-of-gamut colors’ and observe the differences. The image without artifacts (I think?) is with ‘Color Propagation’ and ‘Clip out-of-gamut colors’ disabled. Try ‘Blur’ (Color Propagation) to see if artifacts at transitions appear or disappear. ‘Blur’ is finally set to 0.
++ Activate ‘Capture Sharpening’ (Raw Tab): check that ‘Contrast threshold’ displays a value other than zero. A Contrast Threshold of 0 means it is not operational (because image is noisy). We will cover how to deal with 0 Contrast Threshold in [Tutorial 8](/tutorials/introduction/girl/index.md).
++ The image was taken outdoors at sunset, therefore it's under daylight illuminant, so there is no problem setting the white balance (Color Tab) to ‘Automatic & refinement > Temperature correlation’.
++ In the Exposure Tab, disable ‘Clip out-of-gamut colors’, enable ‘Highlight reconstruction’, and zoom the image to 100% while examining the sun. Try ‘Inpaint Opposed’, ‘Blend’, and ‘Color Propagation’. For each case, re-enable ‘Clip out-of-gamut colors’ and observe the differences. This image has minimal artifacts with ‘Color Propagation’ and ‘Clip out-of-gamut colors’ disabled. Try ‘Blur’ (Color Propagation) to see if artifacts at transitions appear or disappear. At the end, ‘Blur’ is set to 0.
 
 #### Using Generalized Hyperbolic Stretch (GHS)
 
@@ -66,12 +50,12 @@ The user will understand the ‘Game changer’ approach discussed in this tutor
 
 [Generalized Hyperbolic Stretch](/local_adjustments/#generalized-hyperbolic-strech---ghs---origin)
 
-I won’t compare it to other tone mappers in RawTherapee or other software, using tables or a pros/cons list. That would be tedious and probably not very interesting from a user’s perspective. I will simply (given the lack of documentation) draw your attention to the specific points that are crucial:
+I won’t compare it to other tone-mappers in RawTherapee or other software, using tables or a pros/cons list. That would be tedious and probably not very interesting from a user’s perspective. I will simply (given the lack of documentation) draw your attention to the specific crucial points:
 
-+ Setting the ‘White point (linear)’ (WP) and ‘Black point (linear)’ (BP) is THE first fundamental aspect of its operation. It is done entirely in linear mode (unlike Black Ev and White Ev). It is dynamic, meaning that each new session (for example, when creating a second RT Spot) recalculates and triggers the GHS algorithm. Consequently, the values ​​are always accurate (at least in theory). Preferably, use the ‘Auto Black point & White point’ checkbox (except in Inverse mode).
-+ To understand how this works in the simplest way possible, let’s assume that the base data, before the calculation and implementation of ‘BP’ and ‘WP’, is in the range [0, 1] - 32-bit real format -(this is rarely the case)… If the ‘auto’ setting for ‘BP’ is 0.05 and ‘WP’ is 3.05. This means that if we do nothing, the actual data after the ‘Color Propagation’ action would be 0.05 for the BP (resulting in a loss of contrast due to an excessively high black point) and a WP of 3.05, which will be incompatible (or very poorly handled) by the majority of Rawtherapee’s algorithms, which are not at all designed to work with huge values, often resulting in data clipping, color drift, etc. The RGB data will be transformed by dividing the actual values ​​by a factor equal to the difference between ‘WP’ and ‘BP’, which here is 3.05 - 0.05, therefore 3. This means that the data we saw in the ‘Preview’ which was in the range [0, 1] becomes [0, 0.33]. The image becomes extremely dark, but the sun enters the gamut with a value of 1.
-+ The second factor to consider, and one that caused me a lot of problems, is determining the ‘Symmetry Point (SP)’ value. Theoretically, this is the peak of the luminance in the histogram in linear mode. In astrophotography software, the user clicks on an area that seems most promising. This seems quite obvious: the brightest nebulae located near stars. The ‘SP’ is then adjusted to the value found. In the case of general-purpose images, I challenge anyone to find the area where the histogram (luminance portion) has its maximum in both Working Profile and Linear modes. This ‘SP’ is THE second key point that determines how the algorithm works. It has little to no relation to mid-grey. GHS’s complex calculations use a variety of complex hyperbolic functions, depending on the values ​​of ‘SP’, ‘Stretch factor (D)’, and especially ‘Local Intensity (b)’. These functions provide an asymptote to the luminance for highlights and adjust the amplitude range (increasing or decreasing) of the data within the interval [0-1] to make the image acceptable. By default, leave the ‘Symmetry point (SP)’ slider checkbox set to Automatic.
-+ Of course, I suggest you try modifying these ‘auto’ settings and changing ‘Color Propagation’ to something else. Uncheck the ‘auto’ boxes, change ‘SP’, and change ‘WP’ and ‘BP’. … Just to see the effects and potentially find better settings.
++ Setting the ‘White point (linear)’ (WP) and ‘Black point (linear)’ (BP) is THE first fundamental aspect of its operation. It is done entirely in linear mode (unlike Black Ev and White Ev). It is dynamic, meaning that each new session (for example, when creating a second RT-Spot) recalculates and triggers the GHS algorithm. Consequently, the values ​​are always accurate (at least in theory). Preferably, use the ‘Auto Black point & White point’ checkbox (except in Inverse mode).
++ To understand how this works in the simplest way possible, let’s assume that the base data, before the calculation and implementation of ‘BP’ and ‘WP’, is in the range of [0, 1] - 32-bit real format - (which rarely is the case…). If the ‘auto’ setting for ‘BP’ is 0.05 and ‘WP’ is 3.05. This means that if we do nothing, the actual data after the ‘Color Propagation’ action would be 0.05 for the BP (resulting in a loss of contrast due to an excessively high black point) and a WP of 3.05, which will be incompatible (or very poorly handled) by the majority of RawTherapee’s algorithms, which are not at all designed to work with large values, often resulting in data clipping, color drift, etc. The RGB data will be transformed by dividing the actual values ​​by a factor equal to the difference between ‘WP’ and ‘BP’, which here is 3.05-0.05=3. This means that the data we saw in the ‘Preview’ which was in the range [0, 1] becomes [0, 0.33]. The image becomes extremely dark, but the sun enters the gamut with a value of 1.
++ The second factor to consider, and one that caused me a lot of problems, is determining the ‘Symmetry Point (SP)’ value. Theoretically, this is the peak of the luminance in the histogram in linear mode. In astrophotography software, the user clicks on an area that seems most promising. This seems quite obvious: the brightest nebulae located near stars. The ‘SP’ is then adjusted to the value found. In the case of general-purpose images, I challenge anyone to find the area where the histogram (luminance portion) has its maximum in both Working Profile and Linear modes. This ‘SP’ is THE second key point that determines how the algorithm works. It has little to no relation to mid-grey. GHS’s complex calculations use a variety of complex hyperbolic functions, depending on the values ​​of ‘SP’, ‘Stretch factor (D)’, and especially ‘Local Intensity (b)’. These functions provide an asymptote to the luminance for highlights and adjust the amplitude range (increasing or decreasing) of the data within the interval [0-1] to make the image acceptable. By default, leave the ‘Symmetry point (SP)’ slider checkbox to Automatic.
++ Of course, I suggest you to try modifying these ‘auto’ settings and changing ‘Color Propagation’ to something else. Uncheck the ‘auto’ boxes, change ‘SP’, ‘WP’ and ‘BP’, just to see the effects and potentially find better settings.
 + The ‘GHS Curve Visualization’ has very little relation to a ‘Tone curve’, it only reflects the action of hyperbolic functions and not the direct action on tones.
 
 ##### Adjusting ‘Stretch factor (D)’ and ‘Local Intensity (b)’
@@ -111,7 +95,7 @@ format), while the second will allow for better localization of the action.
 This function, not available in Selective Editing’s ‘Basic’ complexity mode, allows you to undo previous actions on all (somewhat oddly) or part of the image. It works similarly to ‘negative space’.
 
 The selection of the ‘WP’ and ‘BP’ is manual… Move closer to [0, 1] if it isn’t already.
-In the case of the processed image, I created a second RT-spot in normal mode, in the form of a rectangle. Its purpose is to reduce the effect in the sky area without significantly affecting the sun. It resembles (somewhat) a Graduated Filter. The center was placed on a cloud, with the Scope set to 25. The center of the spot is positioned relatively far in the image. Of course, you can change the position of the RT-spot, Scope, and Transition in Selective Editing > Settings.
+In the case of the processed image, I created a second RT-spot in normal mode, in the form of a rectangle. Its purpose is to reduce the effect in the sky area without significantly affecting the sun. It resembles (somewhat) a Graduated Filter. The center is placed on a cloud, with the Scope set to 25. The center of the spot is positioned relatively far in the image. Of course, you can change the position of the RT-spot, Scope, and Transition in Selective Editing > Settings.
 
 Sliders like ‘Stretch factor (D)’ work in reverse. They reduce contrast, darkening the image.
 
@@ -122,10 +106,10 @@ Sliders like ‘Stretch factor (D)’ work in reverse. They reduce contrast, dar
 
 ##### Six methods available - two recommended
 
-Six methods available (RGB Luminance, RGB Standard, Lightness & chromaticity (Lab), Luminance (HSL), Saturation (HSL), Hue (HSL)). Two are recommended:
+Six methods are available (RGB Luminance, RGB Standard, Lightness & chromaticity (Lab), Luminance (HSL), Saturation (HSL), Hue (HSL)). Two are recommended:
 
-+ RGB Luminance : the three channels R, G, B are used equally. To control the system, an equivalent luminance is calculated, attempting to take into account WP values ​​above 1.
-+ RGB Standard (default) : the three channels R, G, B are used equally.
++ RGB Luminance: the three channels R, G, B are used equally. To control the system, an equivalent luminance is calculated, attempting to take into account WP values ​​above 1.
++ RGB Standard (default): the three channels R, G, B are used equally.
 
 They will differ in how they render very high highlights, which are out of gamut. The choice between the two depends on the images and your preference.
 An example in RGB Luminance mode for the first RT-spot
@@ -154,11 +138,11 @@ This tone mapper uses the Michaelis-Menten equation, which is borrowed from bioc
 * Knee strength (K): Determines the “knee” of the curve. Lower values result in a sharper transition to the compressed highlight region.
 * Saturation: Adjusts color saturation post-tone mapping.
 * Output max clamp: Sets the final clipping point for the output values.
-* JDx Matrix : the JDx checkbox allows the user to choose either the default or the JDx LMS transformations. LMS is a color space transform which represents the response (sensitivity) of the three types of cone cell in the human eye at long, medium, and short wavelengths.These transformations are matrices that modify each of the R G B channels for each individual pixel, giving priority to certain dominant colors depending on the selected option
+* JDx Matrix : the JDx checkbox allows the user to choose either the default or the JDx LMS transformations. LMS is a color space transform which represents the response (sensitivity) of the three types of cone cell in the human eye at long, medium, and short wavelengths.These transformations are matrices that modify each of the R G B channels for each individual pixel, giving priority to certain dominant colors depending on the selected option.
   - Unchecked: leaves the data unchanged (default).
   - JDx: accentuates each of the R G B channels by acting on X Y Z such that the LMS data is perceived as being more colorful.
 
-The two settings to prioritize are Output scale (S) and Knee strength (K) ; these are the ones that directly affect the hyperbolic function.
+The two settings to prioritize are Output scale (S) and Knee strength (K); these are the ones that directly affect the hyperbolic function.
 
 ##### MM - Subtract linear black & Linear dynamic range - Attenuation threshold
 
@@ -222,14 +206,13 @@ The image obtained after GHS or MM is perfectly acceptable. I could have added a
 ###### Abstract Profile
 
 + I modified ‘Gamma’, ‘Slope’, and ‘Attenuation Threshold’ to create a more balanced image.
-+ I activated ‘Contrast Enhancement’ with a value of 3 and slightly increased ‘Residual Contrast’.
-+ But, primarily and mainly for educational purposes, I used the ‘Dominant Color’ function (is not included in pp3)
++ I activated ‘[Contrast Enhancement](/color_management/#contrast-enhancement)’ with a value of 3 and slightly increased ‘Residual Contrast’.
 
-[TRC Tone Response Curve](/color_management/#trc---tone-response-curve)
-
-[Contrast Enhancement](/color_management/#contrast-enhancement)
+<!--[TRC Tone Response Curve](/color_management/#trc---tone-response-curve) why is it here?-->
 
 ###### Dominant Color
+
+Primarily and mainly for educational purposes, I used the ‘Dominant Color’ function (not included in pp3).
 
 This function, also available in ‘Selective Editing > Color Appearance (CAM16)’, allows you to correct or introduce a dominant color. Without modifying the primaries, which is possible in graphic mode, choose ‘Destination primaries > Custom (CIExy Diagram)’.
 
@@ -237,7 +220,7 @@ In this mode, ‘Dominant Color’ displays the calculated position of the domin
 
 Moving the Refine Colors slider (Illuminant white point) will increase or decrease the purity and saturation of the selected color. Of course, you can also change the illuminant; try different values.
 
-I ‘forgot’ one thing. After ‘Abstract profile’, it is possible (even recommended) to implement ‘CIECAM’ (Color Appearance & Lighting) whether for chromatic adaptation or to adapt the output to viewing conditions (darkness, surround, etc.).
+One more thing. After ‘Abstract profile’, it is possible (even recommended) to implement ‘CIECAM’ (Color Appearance & Lighting) whether for chromatic adaptation or to adapt the output to viewing conditions (darkness, surround, etc.).
 
 <figure>
 <img src="ap-dominant-2.jpg" title="ap-dominant-2.jpg" width="300" />
@@ -249,7 +232,7 @@ I ‘forgot’ one thing. After ‘Abstract profile’, it is possible (even rec
 [CIECAM](/ciecam02/#color-appearance--lighting-ciecam0216-et-color-appearance-cam16--jzczhz---tutorial)
 
 We use the same principles as in the first tutorial, but the settings are different. Here, the goal isn't to create a dramatic effect, but to amplify the sunburst.
-[CIECAM - Best shadows & highlights technics](/tutorials/shadows-highlights/#color-appearance--lighting)
+[CIECAM - Best shadows & highlights techniques](/tutorials/shadows-highlights/#color-appearance--lighting)
 
 ##### CIECAM - Main settings (GHS & MM)
 
@@ -269,14 +252,12 @@ Here, I used 'Lightness + Saturation (s)' which has a differentiated action on s
 
 ##### CIECAM - Red Green Blue (GHS & MM)
 
-+  You can modify each R, G, B channel to finely retouch colors or simulate films:
++  You can [modify each R, G, B channel]((/ciecam02/#red---green---blue---hue-rotation-h---saturation-s---brightness-curve-q)) to finely retouch colors or simulate films:
     - Rotate each color by degrees.
     - Change the saturation (s) in the sense of a CAM (Color Appearance Model).
     - Change the brightness (Q) with a curve that allows you to adapt the contrast and brightness to each situation.
 
-+ As a reminder, in CIECAM there are a total of 9 variables, 6 of which are accessible to the user in RT: Lightness (J), Brightness (Q), Saturation (s), Chroma (C), Colorfulness (M), and Hue rotation (h). They are interdependent. For example Chroma = saturation * saturation * brightness.
-
-[Red Green Blue](/ciecam02/#red---green---blue---hue-rotation-h---saturation-s---brightness-curve-q)
++ As a reminder, in CIECAM there are a total of 9 variables, 6 of which are accessible to the user in RawTherapee: Lightness (J), Brightness (Q), Saturation (s), Chroma (C), Colorfulness (M), and Hue rotation (h). They are interdependent. For example Chroma = saturation * saturation * brightness.
 
 <figure>
 <img src="red-green-blue-2.jpg" title="red-green-blue-2.jpg" width="300" />
@@ -292,3 +273,5 @@ Here, I used 'Lightness + Saturation (s)' which has a differentiated action on s
 width="300" />
 <figcaption>red-green-blue Threshold</figcaption>
 </figure>
+
+The settings (sliders, checkboxes, etc.) are provided for illustrative purposes. They are not intended to provide perfect settings, but rather to show the way forward.
